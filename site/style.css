@@ -1,0 +1,126 @@
+:root {
+  --bg-1: #fdf7ea;
+  --bg-2: #e6f0ff;
+  --surface: rgba(255, 255, 255, 0.82);
+  --text: #1d212a;
+  --muted: #5b6270;
+  --stroke: rgba(31, 42, 64, 0.14);
+  --accent: #004f8c;
+  --accent-2: #008056;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(1200px 500px at 10% -10%, #ffd89f 0%, transparent 55%),
+    radial-gradient(900px 420px at 100% 0%, #a9cdfc 0%, transparent 60%),
+    linear-gradient(165deg, var(--bg-1), var(--bg-2));
+  min-height: 100vh;
+}
+
+.wrap {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 1.2rem 1rem 4rem;
+}
+
+header {
+  margin-bottom: 1.3rem;
+}
+
+.headline {
+  font-family: "Space Grotesk", "Avenir Next", sans-serif;
+  font-size: clamp(1.8rem, 3.6vw, 3rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.subline {
+  color: var(--muted);
+  margin: 0.7rem 0 0;
+  max-width: 70ch;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 0.95rem;
+}
+
+.section-card {
+  background: var(--surface);
+  border: 1px solid var(--stroke);
+  border-radius: 14px;
+  padding: 0.9rem;
+  backdrop-filter: blur(4px);
+  animation: fadeUp 0.45s ease both;
+}
+
+.section-title {
+  font-family: "Space Grotesk", sans-serif;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.section-desc {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 0.28rem;
+}
+
+.story {
+  border-top: 1px dashed var(--stroke);
+  padding-top: 0.62rem;
+  margin-top: 0.62rem;
+}
+
+.story a {
+  color: var(--accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+.meta {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 0.25rem 0;
+}
+
+.summary, .why {
+  margin: 0.3rem 0;
+  font-size: 0.93rem;
+}
+
+.why {
+  color: var(--accent-2);
+}
+
+.archive {
+  margin-top: 1.4rem;
+  background: rgba(255, 255, 255, 0.68);
+  border: 1px solid var(--stroke);
+  border-radius: 12px;
+  padding: 0.8rem;
+}
+
+.archive ul {
+  margin: 0.6rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.archive li { margin: 0.2rem 0; }
+
+footer {
+  margin-top: 1.2rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

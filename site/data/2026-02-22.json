@@ -1,0 +1,362 @@
+{
+  "date": "2026-02-22",
+  "generated_at": "2026-02-22T13:53:46+00:00",
+  "title": "Daily AI Feed - 2026-02-22",
+  "intro": "A curated daily AI briefing with original-source links across industry announcements, engineering, product development, business, under-the-radar signals, and fun experiments.",
+  "sections": {
+    "big-announcements": [
+      {
+        "id": "78be20f29991858a",
+        "title": "Major model provider launches multimodal coding agent (1)",
+        "url": "https://example.com/post-0",
+        "source_name": "Sample Source",
+        "domain": "example.com",
+        "published_at": "2026-02-22T13:53:46.146564+00:00",
+        "summary_text": "Sample content for big-announcements.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Sample Source.",
+        "section_score": 16.5,
+        "scores": {
+          "big-announcements": 16.5,
+          "engineering": 10.5,
+          "product-development": 9.0,
+          "business": 9.0,
+          "under-the-radar": 10.6,
+          "for-fun": 9.0
+        }
+      },
+      {
+        "id": "af7a55b7e28783ee",
+        "title": "Major model provider launches multimodal coding agent (7)",
+        "url": "https://example.com/post-6",
+        "source_name": "Sample Source",
+        "domain": "example.com",
+        "published_at": "2026-02-22T13:53:46.146564+00:00",
+        "summary_text": "Sample content for big-announcements.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Sample Source.",
+        "section_score": 16.5,
+        "scores": {
+          "big-announcements": 16.5,
+          "engineering": 10.5,
+          "product-development": 9.0,
+          "business": 9.0,
+          "under-the-radar": 10.6,
+          "for-fun": 9.0
+        }
+      },
+      {
+        "id": "ac5439fbd0503beb",
+        "title": "Major model provider launches multimodal coding agent (13)",
+        "url": "https://example.com/post-12",
+        "source_name": "Sample Source",
+        "domain": "example.com",
+        "published_at": "2026-02-22T13:53:46.146564+00:00",
+        "summary_text": "Sample content for big-announcements.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Sample Source.",
+        "section_score": 16.5,
+        "scores": {
+          "big-announcements": 16.5,
+          "engineering": 10.5,
+          "product-development": 9.0,
+          "business": 9.0,
+          "under-the-radar": 10.6,
+          "for-fun": 9.0
+        }
+      }
+    ],
+    "engineering": [
+      {
+        "id": "62239c57384cdc64",
+        "title": "Engineering team replaces flaky tests with AI-generated fixtures (2)",
+        "url": "https://example.com/post-1",
+        "source_name": "Sample Source",
+        "domain": "example.com",
+        "published_at": "2026-02-22T13:53:46.146564+00:00",
+        "summary_text": "Sample content for engineering.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Sample Source.",
+        "section_score": 13.5,
+        "scores": {
+          "big-announcements": 9.0,
+          "engineering": 13.5,
+          "product-development": 9.0,
+          "business": 9.0,
+          "under-the-radar": 10.6,
+          "for-fun": 9.0
+        }
+      },
+      {
+        "id": "d1d43b463fe880e2",
+        "title": "Engineering team replaces flaky tests with AI-generated fixtures (8)",
+        "url": "https://example.com/post-7",
+        "source_name": "Sample Source",
+        "domain": "example.com",
+        "published_at": "2026-02-22T13:53:46.146564+00:00",
+        "summary_text": "Sample content for engineering.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Sample Source.",
+        "section_score": 13.5,
+        "scores": {
+          "big-announcements": 9.0,
+          "engineering": 13.5,
+          "product-development": 9.0,
+          "business": 9.0,
+          "under-the-radar": 10.6,
+          "for-fun": 9.0
+        }
+      },
+      {
+        "id": "731e32552e7c384b",
+        "title": "Engineering team replaces flaky tests with AI-generated fixtures (14)",
+        "url": "https://example.com/post-13",
+        "source_name": "Sample Source",
+        "domain": "example.com",
+        "published_at": "2026-02-22T13:53:46.146564+00:00",
+        "summary_text": "Sample content for engineering.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Sample Source.",
+        "section_score": 13.5,
+        "scores": {
+          "big-announcements": 9.0,
+          "engineering": 13.5,
+          "product-development": 9.0,
+          "business": 9.0,
+          "under-the-radar": 10.6,
+          "for-fun": 9.0
+        }
+      }
+    ],
+    "product-development": [
+      {
+        "id": "b282ec3fc456cba3",
+        "title": "PM team ships weekly experiments with AI-generated specs (3)",
+        "url": "https://example.com/post-2",
+        "source_name": "Sample Source",
+        "domain": "example.com",
+        "published_at": "2026-02-22T13:53:46.146564+00:00",
+        "summary_text": "Sample content for product-development.",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Sample Source.",
+        "section_score": 16.5,
+        "scores": {
+          "big-announcements": 9.0,
+          "engineering": 9.0,
+          "product-development": 16.5,
+          "business": 9.0,
+          "under-the-radar": 10.6,
+          "for-fun": 9.0
+        }
+      },
+      {
+        "id": "00ea2874a466d9cd",
+        "title": "PM team ships weekly experiments with AI-generated specs (9)",
+        "url": "https://example.com/post-8",
+        "source_name": "Sample Source",
+        "domain": "example.com",
+        "published_at": "2026-02-22T13:53:46.146564+00:00",
+        "summary_text": "Sample content for product-development.",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Sample Source.",
+        "section_score": 16.5,
+        "scores": {
+          "big-announcements": 9.0,
+          "engineering": 9.0,
+          "product-development": 16.5,
+          "business": 9.0,
+          "under-the-radar": 10.6,
+          "for-fun": 9.0
+        }
+      },
+      {
+        "id": "932196023779907f",
+        "title": "PM team ships weekly experiments with AI-generated specs (15)",
+        "url": "https://example.com/post-14",
+        "source_name": "Sample Source",
+        "domain": "example.com",
+        "published_at": "2026-02-22T13:53:46.146564+00:00",
+        "summary_text": "Sample content for product-development.",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Sample Source.",
+        "section_score": 16.5,
+        "scores": {
+          "big-announcements": 9.0,
+          "engineering": 9.0,
+          "product-development": 16.5,
+          "business": 9.0,
+          "under-the-radar": 10.6,
+          "for-fun": 9.0
+        }
+      }
+    ],
+    "business": [
+      {
+        "id": "e8b31a118e317eb0",
+        "title": "Solo founder reaches $42k MRR with AI-native support desk (4)",
+        "url": "https://example.com/post-3",
+        "source_name": "Sample Source",
+        "domain": "example.com",
+        "published_at": "2026-02-22T13:53:46.146564+00:00",
+        "summary_text": "Sample content for business.",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from Sample Source.",
+        "section_score": 15.0,
+        "scores": {
+          "big-announcements": 9.0,
+          "engineering": 9.0,
+          "product-development": 9.0,
+          "business": 15.0,
+          "under-the-radar": 12.1,
+          "for-fun": 9.0
+        }
+      },
+      {
+        "id": "3c0e3d2adf024a63",
+        "title": "Solo founder reaches $42k MRR with AI-native support desk (10)",
+        "url": "https://example.com/post-9",
+        "source_name": "Sample Source",
+        "domain": "example.com",
+        "published_at": "2026-02-22T13:53:46.146564+00:00",
+        "summary_text": "Sample content for business.",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from Sample Source.",
+        "section_score": 15.0,
+        "scores": {
+          "big-announcements": 9.0,
+          "engineering": 9.0,
+          "product-development": 9.0,
+          "business": 15.0,
+          "under-the-radar": 12.1,
+          "for-fun": 9.0
+        }
+      },
+      {
+        "id": "c1594de0ad9f3201",
+        "title": "Solo founder reaches $42k MRR with AI-native support desk (16)",
+        "url": "https://example.com/post-15",
+        "source_name": "Sample Source",
+        "domain": "example.com",
+        "published_at": "2026-02-22T13:53:46.146564+00:00",
+        "summary_text": "Sample content for business.",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from Sample Source.",
+        "section_score": 15.0,
+        "scores": {
+          "big-announcements": 9.0,
+          "engineering": 9.0,
+          "product-development": 9.0,
+          "business": 15.0,
+          "under-the-radar": 12.1,
+          "for-fun": 9.0
+        }
+      }
+    ],
+    "under-the-radar": [
+      {
+        "id": "ea6be23a68e98bb7",
+        "title": "Tiny blog shows 10x prompt compression trick for retrieval (5)",
+        "url": "https://example.com/post-4",
+        "source_name": "Sample Source",
+        "domain": "example.com",
+        "published_at": "2026-02-22T13:53:46.146564+00:00",
+        "summary_text": "Sample content for under-the-radar.",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Sample Source.",
+        "section_score": 16.6,
+        "scores": {
+          "big-announcements": 9.0,
+          "engineering": 10.5,
+          "product-development": 9.0,
+          "business": 9.0,
+          "under-the-radar": 16.6,
+          "for-fun": 9.0
+        }
+      },
+      {
+        "id": "f8d34c4d75593b30",
+        "title": "Tiny blog shows 10x prompt compression trick for retrieval (11)",
+        "url": "https://example.com/post-10",
+        "source_name": "Sample Source",
+        "domain": "example.com",
+        "published_at": "2026-02-22T13:53:46.146564+00:00",
+        "summary_text": "Sample content for under-the-radar.",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Sample Source.",
+        "section_score": 16.6,
+        "scores": {
+          "big-announcements": 9.0,
+          "engineering": 10.5,
+          "product-development": 9.0,
+          "business": 9.0,
+          "under-the-radar": 16.6,
+          "for-fun": 9.0
+        }
+      },
+      {
+        "id": "b058bb8b8e4f7842",
+        "title": "Tiny blog shows 10x prompt compression trick for retrieval (17)",
+        "url": "https://example.com/post-16",
+        "source_name": "Sample Source",
+        "domain": "example.com",
+        "published_at": "2026-02-22T13:53:46.146564+00:00",
+        "summary_text": "Sample content for under-the-radar.",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Sample Source.",
+        "section_score": 16.6,
+        "scores": {
+          "big-announcements": 9.0,
+          "engineering": 10.5,
+          "product-development": 9.0,
+          "business": 9.0,
+          "under-the-radar": 16.6,
+          "for-fun": 9.0
+        }
+      }
+    ],
+    "for-fun": [
+      {
+        "id": "b52923d3f8248207",
+        "title": "AI turns childhood doodles into playable arcade games (6)",
+        "url": "https://example.com/post-5",
+        "source_name": "Sample Source",
+        "domain": "example.com",
+        "published_at": "2026-02-22T13:53:46.146564+00:00",
+        "summary_text": "Sample content for for-fun.",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from Sample Source.",
+        "section_score": 16.5,
+        "scores": {
+          "big-announcements": 9.0,
+          "engineering": 9.0,
+          "product-development": 9.0,
+          "business": 9.0,
+          "under-the-radar": 10.6,
+          "for-fun": 16.5
+        }
+      },
+      {
+        "id": "c39e27ee232714e9",
+        "title": "AI turns childhood doodles into playable arcade games (12)",
+        "url": "https://example.com/post-11",
+        "source_name": "Sample Source",
+        "domain": "example.com",
+        "published_at": "2026-02-22T13:53:46.146564+00:00",
+        "summary_text": "Sample content for for-fun.",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from Sample Source.",
+        "section_score": 16.5,
+        "scores": {
+          "big-announcements": 9.0,
+          "engineering": 9.0,
+          "product-development": 9.0,
+          "business": 9.0,
+          "under-the-radar": 10.6,
+          "for-fun": 16.5
+        }
+      },
+      {
+        "id": "a8c99af8a866f3e4",
+        "title": "AI turns childhood doodles into playable arcade games (18)",
+        "url": "https://example.com/post-17",
+        "source_name": "Sample Source",
+        "domain": "example.com",
+        "published_at": "2026-02-22T13:53:46.146564+00:00",
+        "summary_text": "Sample content for for-fun.",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from Sample Source.",
+        "section_score": 16.5,
+        "scores": {
+          "big-announcements": 9.0,
+          "engineering": 9.0,
+          "product-development": 9.0,
+          "business": 9.0,
+          "under-the-radar": 10.6,
+          "for-fun": 16.5
+        }
+      }
+    ]
+  }
+}
