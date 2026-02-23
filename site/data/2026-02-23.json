@@ -1,6 +1,6 @@
 {
   "date": "2026-02-23",
-  "generated_at": "2026-02-23T14:55:23+00:00",
+  "generated_at": "2026-02-23T15:45:33+00:00",
   "title": "Daily AI Feed - 2026-02-23",
   "intro": "A curated daily AI briefing with original-source links across industry announcements, engineering, product development, business, under-the-radar signals, and fun experiments.",
   "sections": {
@@ -14,14 +14,14 @@
         "published_at": "2026-02-23T05:30:00+00:00",
         "summary_text": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
         "why_it_matters": "This matters for what changed and who it impacts, based on this update from OpenAI News.",
-        "section_score": 19.902,
+        "section_score": 19.809,
         "scores": {
-          "big-announcements": 19.902,
-          "engineering": 14.702,
-          "product-development": 13.202,
-          "business": 13.202,
-          "under-the-radar": 10.902,
-          "for-fun": 13.202
+          "big-announcements": 19.809,
+          "engineering": 14.609,
+          "product-development": 13.109,
+          "business": 13.109,
+          "under-the-radar": 10.809,
+          "for-fun": 13.109
         }
       },
       {
@@ -52,14 +52,14 @@
         "published_at": "2026-02-19T04:30:00+00:00",
         "summary_text": "A look at the partnerships and investments Google announced at the AI Impact Summit 2026.",
         "why_it_matters": "This matters for what changed and who it impacts, based on this update from Google AI Blog.",
-        "section_score": 15.547,
+        "section_score": 15.546,
         "scores": {
-          "big-announcements": 15.547,
-          "engineering": 8.047,
-          "product-development": 8.047,
-          "business": 8.047,
-          "under-the-radar": 9.647,
-          "for-fun": 9.547
+          "big-announcements": 15.546,
+          "engineering": 8.046,
+          "product-development": 8.046,
+          "business": 8.046,
+          "under-the-radar": 9.646,
+          "for-fun": 9.546
         }
       },
       {
@@ -111,14 +111,33 @@
         "published_at": "2026-02-23T14:48:34+00:00",
         "summary_text": "I benchmarked 17 local LLMs on real MCP tool calling \u2014 not synthetic function-calling evals, but actual calls against a production API with 19 tools, real validation, and real results. I ran each model twice.",
         "why_it_matters": "This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.",
-        "section_score": 23.982,
+        "section_score": 23.845,
         "scores": {
-          "big-announcements": 8.982,
-          "engineering": 23.982,
-          "product-development": 11.982,
-          "business": 11.982,
-          "under-the-radar": 13.582,
-          "for-fun": 11.982
+          "big-announcements": 8.845,
+          "engineering": 23.845,
+          "product-development": 11.845,
+          "business": 11.845,
+          "under-the-radar": 13.445,
+          "for-fun": 11.845
+        }
+      },
+      {
+        "id": "546c040db5ac2237",
+        "title": "Benchmarked 4 AI Memory Systems on 600-Turn Conversations - Here Are the Results",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rckcww/benchmarked_4_ai_memory_systems_on_600turn/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-02-23T15:25:00+00:00",
+        "summary_text": "We just completed comprehensive benchmarks comparing memory layers for production AI agents. Tested Mem0 against OpenAI Memory, LangMem, and MemGPT across 10 multi-session conversations with 200 questions each.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.",
+        "section_score": 19.444,
+        "scores": {
+          "big-announcements": 8.944,
+          "engineering": 19.444,
+          "product-development": 10.444,
+          "business": 8.944,
+          "under-the-radar": 10.544,
+          "for-fun": 8.944
         }
       },
       {
@@ -130,14 +149,14 @@
         "published_at": "2026-02-20T16:05:06+00:00",
         "summary_text": "Large language models have achieved striking results in interactive theorem proving, particularly in Lean.",
         "why_it_matters": "This matters for practical engineering workflow impact, based on this update from arXiv AI Core.",
-        "section_score": 18.209,
+        "section_score": 18.202,
         "scores": {
-          "big-announcements": 9.209,
-          "engineering": 18.209,
-          "product-development": 9.209,
-          "business": 7.709,
-          "under-the-radar": 7.809,
-          "for-fun": 7.709
+          "big-announcements": 9.202,
+          "engineering": 18.202,
+          "product-development": 9.202,
+          "business": 7.702,
+          "under-the-radar": 7.802,
+          "for-fun": 7.702
         }
       },
       {
@@ -149,33 +168,14 @@
         "published_at": "2026-02-22T18:50:14+00:00",
         "summary_text": "Shuru is a lightweight sandbox that spins up Linux VMs on macOS using Apple's Virtualization.framework. Boots in about a second on Apple Silicon, and everything is ephemeral by default.",
         "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Hacker News.",
-        "section_score": 18.046,
+        "section_score": 18.0,
         "scores": {
-          "big-announcements": 7.732,
-          "engineering": 18.046,
-          "product-development": 12.046,
-          "business": 8.628,
-          "under-the-radar": 9.332,
-          "for-fun": 7.732
-        }
-      },
-      {
-        "id": "0ac9c73da54dedc9",
-        "title": "personal entropy reduction with agents",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rci3l9/personal_entropy_reduction_with_agents/",
-        "source_name": "r/LocalLLaMA",
-        "domain": "reddit.com",
-        "published_at": "2026-02-23T13:56:43+00:00",
-        "summary_text": "during my unemployment stage of life i'm working on a personal assistant the problem it solves is pretty straightforward \u2013 i have an adhd and it's hard to me to work with many different information streams (email, obsid...",
-        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.",
-        "section_score": 17.841,
-        "scores": {
-          "big-announcements": 8.841,
-          "engineering": 17.841,
-          "product-development": 10.341,
-          "business": 8.841,
-          "under-the-radar": 10.441,
-          "for-fun": 10.341
+          "big-announcements": 7.673,
+          "engineering": 18.0,
+          "product-development": 12.0,
+          "business": 8.578,
+          "under-the-radar": 9.273,
+          "for-fun": 7.673
         }
       },
       {
@@ -208,14 +208,14 @@
         "published_at": "2026-02-23T07:12:28+00:00",
         "summary_text": "Agentic Engineering Patterns > \" Use red/green TDD \" is a pleasingly succinct way to get better results out of a coding agent. TDD stands for Test Driven Development.",
         "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Simon Willison.",
-        "section_score": 16.001,
+        "section_score": 15.901,
         "scores": {
-          "big-announcements": 9.901,
-          "engineering": 14.401,
-          "product-development": 12.901,
-          "business": 9.901,
-          "under-the-radar": 16.001,
-          "for-fun": 11.401
+          "big-announcements": 9.801,
+          "engineering": 14.301,
+          "product-development": 12.801,
+          "business": 9.801,
+          "under-the-radar": 15.901,
+          "for-fun": 11.301
         }
       },
       {
@@ -265,14 +265,14 @@
         "published_at": "2026-02-22T23:58:43+00:00",
         "summary_text": "The Claude C Compiler: What It Reveals About the Future of Software On February 5th Anthropic's Nicholas Carlini wrote about a project to use parallel Claudes to build a C compiler on top of the brand new Opus 4.",
         "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Simon Willison.",
-        "section_score": 15.246,
+        "section_score": 15.173,
         "scores": {
-          "big-announcements": 9.146,
-          "engineering": 15.146,
-          "product-development": 12.146,
-          "business": 9.146,
-          "under-the-radar": 15.246,
-          "for-fun": 9.146
+          "big-announcements": 9.073,
+          "engineering": 15.073,
+          "product-development": 12.073,
+          "business": 9.073,
+          "under-the-radar": 15.173,
+          "for-fun": 9.073
         }
       },
       {
@@ -284,14 +284,14 @@
         "published_at": "2026-02-18T01:45:41+00:00",
         "summary_text": "It's not just chatbots anymore",
         "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from One Useful Thing.",
-        "section_score": 12.016,
+        "section_score": 12.015,
         "scores": {
-          "big-announcements": 6.016,
-          "engineering": 7.516,
-          "product-development": 12.016,
-          "business": 6.016,
-          "under-the-radar": 7.616,
-          "for-fun": 6.016
+          "big-announcements": 6.015,
+          "engineering": 7.515,
+          "product-development": 12.015,
+          "business": 6.015,
+          "under-the-radar": 7.615,
+          "for-fun": 6.015
         }
       }
     ],
@@ -343,14 +343,14 @@
         "published_at": "2026-02-23T14:37:27+00:00",
         "summary_text": "TL;DR: Every layer in the emergence hierarchy eventually becomes the origin myth for what comes next. We\u2019re probably not the exception.",
         "why_it_matters": "This matters for business model and monetization impact, based on this update from r/singularity.",
-        "section_score": 13.951,
+        "section_score": 15.316,
         "scores": {
-          "big-announcements": 7.951,
-          "engineering": 10.951,
-          "product-development": 10.951,
-          "business": 10.951,
-          "under-the-radar": 9.551,
-          "for-fun": 13.951
+          "big-announcements": 9.316,
+          "engineering": 9.316,
+          "product-development": 9.316,
+          "business": 10.816,
+          "under-the-radar": 9.416,
+          "for-fun": 15.316
         }
       },
       {
@@ -362,14 +362,14 @@
         "published_at": "2026-02-23T13:11:57+00:00",
         "summary_text": "The latest scourge of Twitter is AI bots that reply to your tweets with generic, banal commentary slop, often accompanied by a question to \"drive engagement\" and waste as much of your time as possible.",
         "why_it_matters": "This matters for business model and monetization impact, based on this update from Simon Willison.",
-        "section_score": 16.823,
+        "section_score": 16.696,
         "scores": {
-          "big-announcements": 10.723,
-          "engineering": 10.723,
-          "product-development": 10.723,
-          "business": 10.723,
-          "under-the-radar": 16.823,
-          "for-fun": 10.723
+          "big-announcements": 10.596,
+          "engineering": 10.596,
+          "product-development": 10.596,
+          "business": 10.596,
+          "under-the-radar": 16.696,
+          "for-fun": 10.596
         }
       },
       {
@@ -381,14 +381,14 @@
         "published_at": "2026-02-23T13:01:13+00:00",
         "summary_text": "Nothing humbles you like telling your OpenClaw \u201cconfirm before acting\u201d and watching it speedrun deleting your inbox. I couldn\u2019t stop it from my phone. I had to RUN to my Mac mini like I was defusing a bomb.",
         "why_it_matters": "This matters for business model and monetization impact, based on this update from Simon Willison.",
-        "section_score": 16.796,
+        "section_score": 16.669,
         "scores": {
-          "big-announcements": 10.696,
-          "engineering": 12.196,
-          "product-development": 10.696,
-          "business": 10.696,
-          "under-the-radar": 16.796,
-          "for-fun": 12.196
+          "big-announcements": 10.569,
+          "engineering": 12.069,
+          "product-development": 10.569,
+          "business": 10.569,
+          "under-the-radar": 16.669,
+          "for-fun": 12.069
         }
       }
     ],
@@ -402,14 +402,14 @@
         "published_at": "2026-02-22T23:54:39+00:00",
         "summary_text": "London Stock Exchange: Raspberry Pi Holdings plc Striking graph illustrating stock in the UK Raspberry Pi holding company spiking on Tuesday: The Telegraph credited excitement around OpenClaw : Raspberry Pi's stock pric...",
         "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Simon Willison.",
-        "section_score": 16.74,
+        "section_score": 16.667,
         "scores": {
-          "big-announcements": 9.14,
-          "engineering": 10.64,
-          "product-development": 10.64,
-          "business": 9.14,
-          "under-the-radar": 16.74,
-          "for-fun": 10.64
+          "big-announcements": 9.067,
+          "engineering": 10.567,
+          "product-development": 10.567,
+          "business": 9.067,
+          "under-the-radar": 16.667,
+          "for-fun": 10.567
         }
       },
       {
@@ -421,14 +421,14 @@
         "published_at": "2026-02-20T23:47:10+00:00",
         "summary_text": "I've been wanting to add indications of my various other online activities to my blog for a while now.",
         "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Simon Willison.",
-        "section_score": 14.888,
+        "section_score": 14.878,
         "scores": {
-          "big-announcements": 8.788,
-          "engineering": 13.288,
-          "product-development": 10.288,
-          "business": 7.288,
-          "under-the-radar": 14.888,
-          "for-fun": 8.788
+          "big-announcements": 8.778,
+          "engineering": 13.278,
+          "product-development": 10.278,
+          "business": 7.278,
+          "under-the-radar": 14.878,
+          "for-fun": 8.778
         }
       },
       {
@@ -451,25 +451,6 @@
         }
       },
       {
-        "id": "d76bb63c560f67ef",
-        "title": "When RMSNorm Fails: The Geometric Collapse of Unstable LLMs",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rccn85/when_rmsnorm_fails_the_geometric_collapse_of/",
-        "source_name": "r/LocalLLaMA",
-        "domain": "reddit.com",
-        "published_at": "2026-02-23T09:09:40+00:00",
-        "summary_text": "Every major modern LLM has quietly dropped standard Layer Normalization in favor of RMSNorm which my blog /), I show that it can be reformulated this way: Reformulation of RMSNorm By removing the explicit mean-centering...",
-        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from r/LocalLLaMA.",
-        "section_score": 12.747,
-        "scores": {
-          "big-announcements": 8.147,
-          "engineering": 12.647,
-          "product-development": 9.647,
-          "business": 9.647,
-          "under-the-radar": 12.747,
-          "for-fun": 9.647
-        }
-      },
-      {
         "id": "e976c2f9eeb192f3",
         "title": "[AINews] The Custom ASIC Thesis",
         "url": "https://www.latent.space/p/ainews-the-custom-asic-thesis",
@@ -478,18 +459,56 @@
         "published_at": "2026-02-21T02:45:01+00:00",
         "summary_text": "Taalas HC1 runs 16,960 tok/s/user Llama 3.1 8B with custom silicon. Actually fast LLMs are on their way...",
         "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Latent Space.",
-        "section_score": 12.426,
+        "section_score": 12.415,
         "scores": {
-          "big-announcements": 6.326,
-          "engineering": 6.326,
-          "product-development": 6.326,
-          "business": 6.326,
-          "under-the-radar": 12.426,
-          "for-fun": 6.326
+          "big-announcements": 6.315,
+          "engineering": 6.315,
+          "product-development": 6.315,
+          "business": 6.315,
+          "under-the-radar": 12.415,
+          "for-fun": 6.315
+        }
+      },
+      {
+        "id": "ec85cf5fe3a30fd6",
+        "title": "TinyTeapot (77 million params): Context-grounded LLM running ~40 tok/s on CPU (open-source)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rci9h1/tinyteapot_77_million_params_contextgrounded_llm/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-02-23T14:03:12+00:00",
+        "summary_text": "submitted by /u/zakerytclarke [link] [comments]",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from r/LocalLLaMA.",
+        "section_score": 13.226,
+        "scores": {
+          "big-announcements": 8.726,
+          "engineering": 13.226,
+          "product-development": 8.726,
+          "business": 8.726,
+          "under-the-radar": 11.826,
+          "for-fun": 8.726
         }
       }
     ],
     "for-fun": [
+      {
+        "id": "bd4c1b5a1cd632c8",
+        "title": "I made Episode 3 of a Chinese anime\u2013style fight series using only the Seedance 2.0 API \u2014 no studio, no team",
+        "url": "https://www.reddit.com/r/singularity/comments/1rcjxw4/i_made_episode_3_of_a_chinese_animestyle_fight/",
+        "source_name": "r/singularity",
+        "domain": "reddit.com",
+        "published_at": "2026-02-23T15:09:12+00:00",
+        "summary_text": "\u200b I\u2019ve been making a short Chinese anime\u2013style battle series (think Honor of Kings / donghua vibes) and just finished Episode 3 \u2014 entirely with Bytedance\u2019s Seedance 2.0 API.",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
+        "section_score": 15.401,
+        "scores": {
+          "big-announcements": 9.401,
+          "engineering": 9.401,
+          "product-development": 7.901,
+          "business": 7.901,
+          "under-the-radar": 11.001,
+          "for-fun": 15.401
+        }
+      },
       {
         "id": "b5fbeb633331c83b",
         "title": "THE 2028 GLOBAL INTELLIGENCE CRISIS",
@@ -499,33 +518,14 @@
         "published_at": "2026-02-23T14:31:39+00:00",
         "summary_text": "This research basically imagines a world where AI actually works too well. Companies automate faster than expected, white collar jobs get hit hard, and consumer spending drops because fewer people earn stable incomes.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
-        "section_score": 13.935,
+        "section_score": 13.8,
         "scores": {
-          "big-announcements": 7.935,
-          "engineering": 10.935,
-          "product-development": 10.935,
-          "business": 7.935,
-          "under-the-radar": 9.535,
-          "for-fun": 13.935
-        }
-      },
-      {
-        "id": "e603ab5c98959d43",
-        "title": "Do you think there's AI Manhattan project going on behind the scenes?",
-        "url": "https://www.reddit.com/r/singularity/comments/1rcgxwl/do_you_think_theres_ai_manhattan_project_going_on/",
-        "source_name": "r/singularity",
-        "domain": "reddit.com",
-        "published_at": "2026-02-23T13:07:17+00:00",
-        "summary_text": "I was thinking about how some top level researchers like Ilya Sutskever have left their previous companies and then mysteriously received billions in funding with no product or even any intention of releasing anything a...",
-        "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
-        "section_score": 13.711,
-        "scores": {
-          "big-announcements": 9.211,
-          "engineering": 7.711,
-          "product-development": 10.711,
-          "business": 7.711,
-          "under-the-radar": 9.311,
-          "for-fun": 13.711
+          "big-announcements": 7.8,
+          "engineering": 10.8,
+          "product-development": 10.8,
+          "business": 7.8,
+          "under-the-radar": 9.4,
+          "for-fun": 13.8
         }
       },
       {
@@ -537,14 +537,14 @@
         "published_at": "2026-02-22T23:32:43+00:00",
         "summary_text": "Hi HN, I built WARN Firehose because I was frustrated trying to track layoff data across the US.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from Hacker News.",
-        "section_score": 14.948,
+        "section_score": 14.876,
         "scores": {
-          "big-announcements": 9.608,
-          "engineering": 14.948,
-          "product-development": 11.948,
-          "business": 8.681,
-          "under-the-radar": 11.208,
-          "for-fun": 11.108
+          "big-announcements": 9.536,
+          "engineering": 14.876,
+          "product-development": 11.876,
+          "business": 8.608,
+          "under-the-radar": 11.136,
+          "for-fun": 11.036
         }
       },
       {
@@ -556,14 +556,14 @@
         "published_at": "2026-02-22T21:28:07+00:00",
         "summary_text": "Hi HN, Added a raw 45-second demo showing the DOM re-architecture in real-time: https://streamable.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from Hacker News.",
-        "section_score": 12.473,
+        "section_score": 12.407,
         "scores": {
-          "big-announcements": 7.933,
-          "engineering": 12.473,
-          "product-development": 9.473,
-          "business": 7.961,
-          "under-the-radar": 9.533,
-          "for-fun": 10.933
+          "big-announcements": 7.867,
+          "engineering": 12.407,
+          "product-development": 9.407,
+          "business": 7.894,
+          "under-the-radar": 9.467,
+          "for-fun": 10.867
         }
       },
       {
@@ -575,14 +575,14 @@
         "published_at": "2026-02-19T10:00:00+00:00",
         "summary_text": "OpenAI commits $7.5M to The Alignment Project to fund independent AI alignment research, strengthening global efforts to address AGI safety and security risks.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from OpenAI News.",
-        "section_score": 15.76,
+        "section_score": 15.758,
         "scores": {
-          "big-announcements": 15.76,
-          "engineering": 9.06,
-          "product-development": 9.06,
-          "business": 9.06,
-          "under-the-radar": 8.26,
-          "for-fun": 10.56
+          "big-announcements": 15.758,
+          "engineering": 9.058,
+          "product-development": 9.058,
+          "business": 9.058,
+          "under-the-radar": 8.258,
+          "for-fun": 10.558
         }
       }
     ]
