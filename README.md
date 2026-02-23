@@ -18,6 +18,8 @@ Each daily post includes:
    - RSS feeds
    - Hacker News API
    - arXiv API
+   - X API (optional)
+   - LinkedIn API (optional)
 2. Normalize and deduplicate links.
 3. Score each item across the six sections.
 4. Select top `3-5` per section with domain diversity constraints.
@@ -48,6 +50,9 @@ python -m ai_news_feed.main --output-dir site
 Optional environment variables:
 - `OPENAI_API_KEY`
 - `OPENAI_MODEL` (default: `gpt-5-mini`)
+- `X_BEARER_TOKEN` (for `type: x` sources)
+- `LINKEDIN_ACCESS_TOKEN` (for `type: linkedin` sources)
+- `LINKEDIN_API_VERSION` (default: `202503`)
 - `FEED_TIMEZONE` (default: `America/New_York`)
 
 ## GitHub Automation (No Daily Manual Work)
@@ -65,6 +70,9 @@ Workflow: `.github/workflows/daily-feed.yml`
 2. Add repository secret `OPENAI_API_KEY` (optional but recommended for better summaries).
 3. Optional:
    - Secret `OPENAI_MODEL`
+   - Secret `X_BEARER_TOKEN`
+   - Secret `LINKEDIN_ACCESS_TOKEN`
+   - Variable `LINKEDIN_API_VERSION` (for example `202503`)
    - Variable `FEED_TIMEZONE` (for example `America/Los_Angeles`)
 
 ## Customization
@@ -76,6 +84,11 @@ Workflow: `.github/workflows/daily-feed.yml`
 ```bash
 python -m ai_news_feed.main --min-per-section 3 --max-per-section 5
 ```
+
+For social sources:
+- `type: x` uses `query` (X recent search).
+- `type: linkedin` uses `author_urn` and fetches from LinkedIn posts API.
+- If corresponding tokens are not set, those sources are skipped safely.
 
 ## Research References
 

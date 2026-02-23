@@ -39,6 +39,9 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_API_VERSION: ${{ vars.LINKEDIN_API_VERSION }}
           FEED_TIMEZONE: ${{ vars.FEED_TIMEZONE }}
         run: python -m ai_news_feed.main --output-dir site
 
