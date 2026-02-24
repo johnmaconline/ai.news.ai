@@ -1,0 +1,590 @@
+{
+  "date": "2026-02-24",
+  "generated_at": "2026-02-24T14:18:10+00:00",
+  "title": "Daily AI Feed - 2026-02-24",
+  "intro": "A curated daily AI briefing with original-source links across industry announcements, engineering, product development, business, under-the-radar signals, and fun experiments.",
+  "sections": {
+    "big-announcements": [
+      {
+        "id": "2e9c5bdf6b6bea2d",
+        "title": "OpenAI announces Frontier Alliance Partners",
+        "url": "https://openai.com/index/frontier-alliance-partners",
+        "source_name": "OpenAI News",
+        "domain": "openai.com",
+        "published_at": "2026-02-23T05:30:00+00:00",
+        "summary_text": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from OpenAI News.",
+        "section_score": 18.22,
+        "scores": {
+          "big-announcements": 18.22,
+          "engineering": 13.02,
+          "product-development": 11.52,
+          "business": 11.52,
+          "under-the-radar": 9.22,
+          "for-fun": 11.52
+        }
+      },
+      {
+        "id": "6c4e5af94eac9ddf",
+        "title": "Introducing EVMbench",
+        "url": "https://openai.com/index/introducing-evmbench",
+        "source_name": "OpenAI News",
+        "domain": "openai.com",
+        "published_at": "2026-02-18T00:00:00+00:00",
+        "summary_text": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents\u2019 ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from OpenAI News.",
+        "section_score": 17.205,
+        "scores": {
+          "big-announcements": 17.205,
+          "engineering": 13.505,
+          "product-development": 9.005,
+          "business": 9.005,
+          "under-the-radar": 8.205,
+          "for-fun": 10.505
+        }
+      },
+      {
+        "id": "4b0d8c688b458fd6",
+        "title": "AI Impact Summit 2026",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-collection/",
+        "source_name": "Google AI Blog",
+        "domain": "blog.google",
+        "published_at": "2026-02-19T04:30:00+00:00",
+        "summary_text": "A look at the partnerships and investments Google announced at the AI Impact Summit 2026.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Google AI Blog.",
+        "section_score": 15.518,
+        "scores": {
+          "big-announcements": 15.518,
+          "engineering": 8.018,
+          "product-development": 8.018,
+          "business": 8.018,
+          "under-the-radar": 9.618,
+          "for-fun": 9.518
+        }
+      },
+      {
+        "id": "b637ed426fdce54d",
+        "title": "Microsoft announces acquisition of Osmos to accelerate autonomous data engineering in Fabric",
+        "url": "https://blogs.microsoft.com/blog/2026/01/05/microsoft-announces-acquisition-of-osmos-to-accelerate-autonomous-data-engineering-in-fabric/",
+        "source_name": "Microsoft AI Blog",
+        "domain": "blogs.microsoft.com",
+        "published_at": "2026-01-05T17:00:01+00:00",
+        "summary_text": "Today, Microsoft is announcing the acquisition of Osmos, an agentic AI data engineering platform designed to help simplify complex and time-consuming data workflows.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Microsoft AI Blog.",
+        "section_score": 15.5,
+        "scores": {
+          "big-announcements": 15.5,
+          "engineering": 9.5,
+          "product-development": 9.5,
+          "business": 8.0,
+          "under-the-radar": 9.6,
+          "for-fun": 8.0
+        }
+      },
+      {
+        "id": "3c9fe74578022ede",
+        "title": "Microsoft, NVIDIA and Anthropic announce strategic partnerships",
+        "url": "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/",
+        "source_name": "Microsoft AI Blog",
+        "domain": "blogs.microsoft.com",
+        "published_at": "2025-11-18T15:00:03+00:00",
+        "summary_text": "Anthropic to scale Claude on Azure Anthropic to adopt NVIDIA architecture NVIDIA and Microsoft to invest in Anthropic Today Microsoft, NVIDIA and Anthropic announced new strategic partnerships.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Microsoft AI Blog.",
+        "section_score": 15.5,
+        "scores": {
+          "big-announcements": 15.5,
+          "engineering": 9.5,
+          "product-development": 8.0,
+          "business": 9.5,
+          "under-the-radar": 9.6,
+          "for-fun": 9.5
+        }
+      }
+    ],
+    "engineering": [
+      {
+        "id": "2d064820534f833b",
+        "title": "CodeCompass: Navigating the Navigation Paradox in Agentic Code Intelligence",
+        "url": "http://arxiv.org/abs/2602.20048v1",
+        "source_name": "arXiv AI Core",
+        "domain": "arxiv.org",
+        "published_at": "2026-02-23T16:58:37+00:00",
+        "summary_text": "Modern code intelligence agents operate in contexts exceeding 1 million tokens--far beyond the scale where humans manually locate relevant files.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from arXiv AI Core.",
+        "section_score": 24.145,
+        "scores": {
+          "big-announcements": 7.645,
+          "engineering": 24.145,
+          "product-development": 10.645,
+          "business": 9.145,
+          "under-the-radar": 9.245,
+          "for-fun": 9.145
+        }
+      },
+      {
+        "id": "57ee11ec92ac0668",
+        "title": "Agentic AI with multi-model framework using Hugging Face smolagents on AWS",
+        "url": "https://aws.amazon.com/blogs/machine-learning/agentic-ai-with-multi-model-framework-using-hugging-face-smolagents-on-aws/",
+        "source_name": "AWS Machine Learning Blog",
+        "domain": "aws.amazon.com",
+        "published_at": "2026-02-23T15:47:06+00:00",
+        "summary_text": "Hugging Face smolagents is an open source Python library designed to make it straightforward to build and run agents using a few lines of code.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from AWS Machine Learning Blog.",
+        "section_score": 22.065,
+        "scores": {
+          "big-announcements": 10.765,
+          "engineering": 22.065,
+          "product-development": 10.065,
+          "business": 8.565,
+          "under-the-radar": 7.765,
+          "for-fun": 8.565
+        }
+      },
+      {
+        "id": "059e0a81f96888f1",
+        "title": "Skill-Inject: Measuring Agent Vulnerability to Skill File Attacks",
+        "url": "http://arxiv.org/abs/2602.20156v1",
+        "source_name": "arXiv AI Core",
+        "domain": "arxiv.org",
+        "published_at": "2026-02-23T18:59:27+00:00",
+        "summary_text": "LLM agents are evolving rapidly, powered by code execution, tools, and the recently introduced agent skills feature.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from arXiv AI Core.",
+        "section_score": 21.289,
+        "scores": {
+          "big-announcements": 9.289,
+          "engineering": 21.289,
+          "product-development": 9.289,
+          "business": 7.789,
+          "under-the-radar": 9.389,
+          "for-fun": 9.289
+        }
+      },
+      {
+        "id": "c3d805301dc73294",
+        "title": "A small 4B sub-agent for local codebase navigation with 100% tool-calling validity",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rdfu5e/a_small_4b_subagent_for_local_codebase_navigation/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-02-24T13:10:52+00:00",
+        "summary_text": "I\u2019ve been experimenting with a specialized 4B model (based on Qwen) that acts as an \"explorer\" for local codebases.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.",
+        "section_score": 19.318,
+        "scores": {
+          "big-announcements": 8.818,
+          "engineering": 19.318,
+          "product-development": 8.818,
+          "business": 8.818,
+          "under-the-radar": 10.418,
+          "for-fun": 8.818
+        }
+      },
+      {
+        "id": "b13a5fbd1fb22730",
+        "title": "Best practices for running local LLMs for ~70\u2013150 developers (agentic coding use case)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rd9kpk/best_practices_for_running_local_llms_for_70150/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-02-24T07:15:30+00:00",
+        "summary_text": "Hi everyone, I\u2019m planning infrastructure for a software startup where we want to use local LLMs for agentic coding workflows (code generation, refactoring, test writing, debugging, PR reviews, etc.).",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.",
+        "section_score": 18.483,
+        "scores": {
+          "big-announcements": 7.983,
+          "engineering": 18.483,
+          "product-development": 7.983,
+          "business": 10.983,
+          "under-the-radar": 9.583,
+          "for-fun": 9.483
+        }
+      }
+    ],
+    "product-development": [
+      {
+        "id": "48e4029fbe0cc4e6",
+        "title": "First run the tests",
+        "url": "https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/",
+        "source_name": "Simon Willison",
+        "domain": "simonwillison.net",
+        "published_at": "2026-02-24T12:30:05+00:00",
+        "summary_text": "Agentic Engineering Patterns > Automated tests are no longer optional when working with coding agents.",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Simon Willison.",
+        "section_score": 16.811,
+        "scores": {
+          "big-announcements": 10.711,
+          "engineering": 16.711,
+          "product-development": 13.711,
+          "business": 10.711,
+          "under-the-radar": 16.811,
+          "for-fun": 12.211
+        }
+      },
+      {
+        "id": "858fa92c2c650d8d",
+        "title": "Writing code is cheap now",
+        "url": "https://simonwillison.net/guides/agentic-engineering-patterns/code-is-cheap/",
+        "source_name": "Simon Willison",
+        "domain": "simonwillison.net",
+        "published_at": "2026-02-23T16:20:42+00:00",
+        "summary_text": "Agentic Engineering Patterns > The biggest challenge in adopting agentic engineering practices is getting comfortable with the consequences of the fact that writing code is cheap now . Code has always been expensive.",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Simon Willison.",
+        "section_score": 16.202,
+        "scores": {
+          "big-announcements": 8.602,
+          "engineering": 14.602,
+          "product-development": 13.102,
+          "business": 8.602,
+          "under-the-radar": 16.202,
+          "for-fun": 11.602
+        }
+      },
+      {
+        "id": "14012f8053c4115d",
+        "title": "EP96: Designing for AI Disruption: How to Build Resilient Products",
+        "url": "https://www.productcoalition.com/p/designing-for-ai-disruption-how-to",
+        "source_name": "Product Coalition",
+        "domain": "productcoalition.com",
+        "published_at": "2025-11-02T11:00:52+00:00",
+        "summary_text": "Summary",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Product Coalition.",
+        "section_score": 12.5,
+        "scores": {
+          "big-announcements": 5.0,
+          "engineering": 5.0,
+          "product-development": 12.5,
+          "business": 5.0,
+          "under-the-radar": 6.6,
+          "for-fun": 5.0
+        }
+      },
+      {
+        "id": "c750166d2d28ff3a",
+        "title": "EP88 Unite, Innovate, Elevate: Transform Product Strategy",
+        "url": "https://www.productcoalition.com/p/ep89-unite-innovate-elevate-transform",
+        "source_name": "Product Coalition",
+        "domain": "productcoalition.com",
+        "published_at": "2025-07-27T17:30:58+00:00",
+        "summary_text": "Summary In this episode of the Product Coalition podcast, Jay Stansell interviews Andrea Saez, head of product marketing at Turtle and co-author of 'The Product Momentum Gap.",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Product Coalition.",
+        "section_score": 12.5,
+        "scores": {
+          "big-announcements": 5.0,
+          "engineering": 5.0,
+          "product-development": 12.5,
+          "business": 5.0,
+          "under-the-radar": 6.6,
+          "for-fun": 5.0
+        }
+      },
+      {
+        "id": "0702e1318c5d2d17",
+        "title": "Show HN: PgDog \u2013 Scale Postgres without changing the app",
+        "url": "https://github.com/pgdogdev/pgdog",
+        "source_name": "Hacker News",
+        "domain": "github.com",
+        "published_at": "2026-02-23T15:33:24+00:00",
+        "summary_text": "Hey HN! Lev and Justin here, authors of PgDog ( https://pgdog.dev/ ), a connection pooler, load balancer and database sharder for PostgreSQL.",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Hacker News.",
+        "section_score": 16.991,
+        "scores": {
+          "big-announcements": 7.551,
+          "engineering": 16.991,
+          "product-development": 12.491,
+          "business": 8.873,
+          "under-the-radar": 9.151,
+          "for-fun": 10.551
+        }
+      }
+    ],
+    "business": [
+      {
+        "id": "f964fabd3132dd5f",
+        "title": "Meesho Goes Public",
+        "url": "https://www.ycombinator.com/blog/meesho-goes-public/",
+        "source_name": "Y Combinator Blog",
+        "domain": "ycombinator.com",
+        "published_at": "2025-12-10T04:32:10+00:00",
+        "summary_text": "Meesho goes public today. From S16 to IPO, they\u2019ve built one of India\u2019s largest e-commerce platforms\u2014empowering millions of small merchants to grow their businesses.",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from Y Combinator Blog.",
+        "section_score": 12.0,
+        "scores": {
+          "big-announcements": 6.0,
+          "engineering": 6.0,
+          "product-development": 7.5,
+          "business": 12.0,
+          "under-the-radar": 7.6,
+          "for-fun": 6.0
+        }
+      },
+      {
+        "id": "5a22954028e4e3f9",
+        "title": "BillionToOne Goes Public \u2014 The Startup That Made Genetic Testing Universal",
+        "url": "https://www.ycombinator.com/blog/billiontoone/",
+        "source_name": "Y Combinator Blog",
+        "domain": "ycombinator.com",
+        "published_at": "2025-11-06T15:52:00+00:00",
+        "summary_text": "Today, BillionToOne goes public, becoming YC's fourth publicly traded biotech company. More importantly, they have built one of the most important genetic tests in the U.S.",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from Y Combinator Blog.",
+        "section_score": 12.0,
+        "scores": {
+          "big-announcements": 6.0,
+          "engineering": 7.5,
+          "product-development": 7.5,
+          "business": 12.0,
+          "under-the-radar": 7.6,
+          "for-fun": 7.5
+        }
+      },
+      {
+        "id": "95af6d40816f54f1",
+        "title": "LAD: Learning Advantage Distribution for Reasoning",
+        "url": "http://arxiv.org/abs/2602.20132v1",
+        "source_name": "arXiv AI Core",
+        "domain": "arxiv.org",
+        "published_at": "2026-02-23T18:44:10+00:00",
+        "summary_text": "Current reinforcement learning objectives for large-model reasoning primarily focus on maximizing expected rewards.",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from arXiv AI Core.",
+        "section_score": 15.27,
+        "scores": {
+          "big-announcements": 10.77,
+          "engineering": 15.27,
+          "product-development": 10.77,
+          "business": 10.77,
+          "under-the-radar": 9.37,
+          "for-fun": 7.77
+        }
+      },
+      {
+        "id": "569fd777c7581267",
+        "title": "\u201cCar Wash\u201d test with 53 models",
+        "url": "https://opper.ai/blog/car-wash-test",
+        "source_name": "Hacker News",
+        "domain": "opper.ai",
+        "published_at": "2026-02-23T20:16:08+00:00",
+        "summary_text": "\"I Want to Wash My Car. The Car Wash Is 50 Meters Away. Should I Walk or Drive?\" This question has been making the rounds as a simple AI logic test so I wanted to see how it holds up across a broad set of models.",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from Hacker News.",
+        "section_score": 15.814,
+        "scores": {
+          "big-announcements": 7.887,
+          "engineering": 15.814,
+          "product-development": 9.814,
+          "business": 10.701,
+          "under-the-radar": 9.487,
+          "for-fun": 9.387
+        }
+      },
+      {
+        "id": "831eedb3c965e5c5",
+        "title": "The Invisible Gorilla Effect in Out-of-distribution Detection",
+        "url": "http://arxiv.org/abs/2602.20068v1",
+        "source_name": "arXiv AI Core",
+        "domain": "arxiv.org",
+        "published_at": "2026-02-23T17:24:18+00:00",
+        "summary_text": "Deep Neural Networks achieve high performance in vision tasks by learning features from regions of interest (ROI) within images, but their performance degrades when deployed on out-of-distribution (OOD) data that differ...",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from arXiv AI Core.",
+        "section_score": 18.175,
+        "scores": {
+          "big-announcements": 7.675,
+          "engineering": 18.175,
+          "product-development": 9.175,
+          "business": 10.675,
+          "under-the-radar": 10.775,
+          "for-fun": 9.175
+        }
+      }
+    ],
+    "under-the-radar": [
+      {
+        "id": "0dc6655352000f82",
+        "title": "Quoting Paul Ford",
+        "url": "https://simonwillison.net/2026/Feb/23/paul-ford/",
+        "source_name": "Simon Willison",
+        "domain": "simonwillison.net",
+        "published_at": "2026-02-23T16:00:32+00:00",
+        "summary_text": "The paper asked me to explain vibe coding, and I did so, because I think something big is coming there, and I'm deep in, and I worry that normal people are not able to see it and I want them to be prepared.",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Simon Willison.",
+        "section_score": 16.18,
+        "scores": {
+          "big-announcements": 10.08,
+          "engineering": 8.58,
+          "product-development": 10.08,
+          "business": 8.58,
+          "under-the-radar": 16.18,
+          "for-fun": 8.58
+        }
+      },
+      {
+        "id": "180088938883e53a",
+        "title": "London Stock Exchange: Raspberry Pi Holdings plc",
+        "url": "https://simonwillison.net/2026/Feb/22/raspberry-pi-openclaw/",
+        "source_name": "Simon Willison",
+        "domain": "simonwillison.net",
+        "published_at": "2026-02-22T23:54:39+00:00",
+        "summary_text": "London Stock Exchange: Raspberry Pi Holdings plc Striking graph illustrating stock in the UK Raspberry Pi holding company spiking on Tuesday: The Telegraph credited excitement around OpenClaw : Raspberry Pi's stock pric...",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Simon Willison.",
+        "section_score": 15.408,
+        "scores": {
+          "big-announcements": 7.808,
+          "engineering": 9.308,
+          "product-development": 9.308,
+          "business": 7.808,
+          "under-the-radar": 15.408,
+          "for-fun": 9.308
+        }
+      },
+      {
+        "id": "8061f41eff1bdb4b",
+        "title": "[AINews] Anthropic accuses DeepSeek, Moonshot, and MiniMax of >16 million \"industrial-scale distillation attacks\"",
+        "url": "https://www.latent.space/p/ainews-anthropic-accuses-deepseek",
+        "source_name": "Latent Space",
+        "domain": "latent.space",
+        "published_at": "2026-02-24T04:48:01+00:00",
+        "summary_text": "the US-China cold war takes a big step up",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Latent Space.",
+        "section_score": 14.793,
+        "scores": {
+          "big-announcements": 8.693,
+          "engineering": 8.693,
+          "product-development": 8.693,
+          "business": 8.693,
+          "under-the-radar": 14.793,
+          "for-fun": 8.693
+        }
+      },
+      {
+        "id": "89212ff96f5dfa53",
+        "title": "\u26a1\ufe0fThe End of SWE-Bench Verified \u2014 Mia Glaese & Olivia Watkins, OpenAI Frontier Evals & Human Data",
+        "url": "https://www.latent.space/p/swe-bench-dead",
+        "source_name": "Latent Space",
+        "domain": "latent.space",
+        "published_at": "2026-02-23T20:03:11+00:00",
+        "summary_text": "It's time to take the next step up in frontier agent evals.",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Latent Space.",
+        "section_score": 13.97,
+        "scores": {
+          "big-announcements": 7.87,
+          "engineering": 10.87,
+          "product-development": 7.87,
+          "business": 7.87,
+          "under-the-radar": 13.97,
+          "for-fun": 7.87
+        }
+      },
+      {
+        "id": "6930dcffe04aa455",
+        "title": "Lessons learned running Qwen3-VL-8B as a fully local voice assistant on AMD ROCm",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rdh5lv/lessons_learned_running_qwen3vl8b_as_a_fully/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-02-24T14:06:50+00:00",
+        "summary_text": "I've been building a local voice assistant over the past few weeks and wanted to share some things I learned that might be useful to others here, especially anyone on AMD hardware.",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from r/LocalLLaMA.",
+        "section_score": 16.469,
+        "scores": {
+          "big-announcements": 8.969,
+          "engineering": 16.469,
+          "product-development": 10.469,
+          "business": 8.969,
+          "under-the-radar": 12.069,
+          "for-fun": 10.469
+        }
+      }
+    ],
+    "for-fun": [
+      {
+        "id": "a587c2bfca287494",
+        "title": "New Benchmark \"InsanityBench\", Gemini 3.1 Pro scores 15%",
+        "url": "https://www.reddit.com/r/singularity/comments/1rdbx6i/new_benchmark_insanitybench_gemini_31_pro_scores/",
+        "source_name": "r/singularity",
+        "domain": "reddit.com",
+        "published_at": "2026-02-24T09:43:06+00:00",
+        "summary_text": "InsanityBench is supposed to be a benchmark encapsulating something we deeply care about (the \"insane\" leaps of creativity often needed in science), can hardly be gamed (because every task is completely different from a...",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
+        "section_score": 13.305,
+        "scores": {
+          "big-announcements": 7.305,
+          "engineering": 8.805,
+          "product-development": 7.305,
+          "business": 7.305,
+          "under-the-radar": 8.905,
+          "for-fun": 13.305
+        }
+      },
+      {
+        "id": "a0526c4b82b0dfb0",
+        "title": "xAI and Pentagon reach deal to use Grok in classified systems, Anthropic Given Ultimatum",
+        "url": "https://www.reddit.com/r/singularity/comments/1rd9mss/xai_and_pentagon_reach_deal_to_use_grok_in/",
+        "source_name": "r/singularity",
+        "domain": "reddit.com",
+        "published_at": "2026-02-24T07:19:00+00:00",
+        "summary_text": "https://www.axios.com/2026/02/23/ai-defense-department-deal-musk-xai-grok Elon Musk's artificial intelligence company xAI has signed an agreement to allow the military to use its model, Grok, in classified systems, a De...",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
+        "section_score": 12.99,
+        "scores": {
+          "big-announcements": 11.49,
+          "engineering": 8.49,
+          "product-development": 8.49,
+          "business": 6.99,
+          "under-the-radar": 8.59,
+          "for-fun": 12.99
+        }
+      },
+      {
+        "id": "ec1abd1f57bd19ba",
+        "title": "Show HN: Cellarium: A Playground for Cellular Automata",
+        "url": "https://github.com/andrewosh/cellarium",
+        "source_name": "Hacker News",
+        "domain": "github.com",
+        "published_at": "2026-02-21T00:47:09+00:00",
+        "summary_text": "Hey HN, just wanted to share a fun, vibe-coded Friday night experiment: a little playground for writing cellular automata in a subset of Rust, which is then compiled into WGSL.",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from Hacker News.",
+        "section_score": 12.32,
+        "scores": {
+          "big-announcements": 6.113,
+          "engineering": 12.32,
+          "product-development": 7.82,
+          "business": 7.754,
+          "under-the-radar": 7.713,
+          "for-fun": 12.113
+        }
+      },
+      {
+        "id": "e86f8744c8570230",
+        "title": "A Secure and Private Distributed Bayesian Federated Learning Design",
+        "url": "http://arxiv.org/abs/2602.20003v1",
+        "source_name": "arXiv AI Core",
+        "domain": "arxiv.org",
+        "published_at": "2026-02-23T16:12:02+00:00",
+        "summary_text": "Distributed Federated Learning (DFL) enables decentralized model training across large-scale systems without a central parameter server.",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from arXiv AI Core.",
+        "section_score": 13.593,
+        "scores": {
+          "big-announcements": 7.593,
+          "engineering": 13.593,
+          "product-development": 7.593,
+          "business": 7.593,
+          "under-the-radar": 9.193,
+          "for-fun": 12.093
+        }
+      },
+      {
+        "id": "deecb9f14f3a0ef0",
+        "title": "Recurrent Structural Policy Gradient for Partially Observable Mean Field Games",
+        "url": "http://arxiv.org/abs/2602.20141v1",
+        "source_name": "arXiv AI Core",
+        "domain": "arxiv.org",
+        "published_at": "2026-02-23T18:53:09+00:00",
+        "summary_text": "Mean Field Games (MFGs) provide a principled framework for modeling interactions in large population models: at scale, population dynamics become deterministic, with uncertainty entering only through aggregate shocks, o...",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from arXiv AI Core.",
+        "section_score": 15.281,
+        "scores": {
+          "big-announcements": 10.781,
+          "engineering": 15.281,
+          "product-development": 7.781,
+          "business": 7.781,
+          "under-the-radar": 9.381,
+          "for-fun": 10.781
+        }
+      }
+    ]
+  }
+}
