@@ -1,0 +1,590 @@
+{
+  "date": "2026-02-26",
+  "generated_at": "2026-02-26T14:18:29+00:00",
+  "title": "Daily AI Feed - 2026-02-26",
+  "intro": "A curated daily AI briefing with original-source links across industry announcements, engineering, product development, business, under-the-radar signals, and fun experiments.",
+  "sections": {
+    "big-announcements": [
+      {
+        "id": "58fb06856d88e3b7",
+        "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
+        "url": "https://openai.com/index/figma-partnership",
+        "source_name": "OpenAI News",
+        "domain": "openai.com",
+        "published_at": "2026-02-26T06:00:00+00:00",
+        "summary_text": "OpenAI and Figma launch a new Codex integration that connects code and design, enabling teams to move between implementation and the Figma canvas to iterate and ship faster.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from OpenAI News.",
+        "section_score": 20.03,
+        "scores": {
+          "big-announcements": 20.03,
+          "engineering": 13.33,
+          "product-development": 11.83,
+          "business": 11.83,
+          "under-the-radar": 11.03,
+          "for-fun": 11.83
+        }
+      },
+      {
+        "id": "6a8b747d57cef06c",
+        "title": "Disrupting malicious uses of AI | February 2026",
+        "url": "https://openai.com/index/disrupting-malicious-ai-uses",
+        "source_name": "OpenAI News",
+        "domain": "openai.com",
+        "published_at": "2026-02-25T00:00:00+00:00",
+        "summary_text": "Our latest threat report examines how malicious actors combine AI models with websites and social platforms\u2014and what it means for detection and defense.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from OpenAI News.",
+        "section_score": 18.011,
+        "scores": {
+          "big-announcements": 18.011,
+          "engineering": 11.311,
+          "product-development": 9.811,
+          "business": 9.811,
+          "under-the-radar": 9.011,
+          "for-fun": 9.811
+        }
+      },
+      {
+        "id": "4b0d8c688b458fd6",
+        "title": "AI Impact Summit 2026",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-collection/",
+        "source_name": "Google AI Blog",
+        "domain": "blog.google",
+        "published_at": "2026-02-19T04:30:00+00:00",
+        "summary_text": "A look at the partnerships and investments Google announced at the AI Impact Summit 2026.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Google AI Blog.",
+        "section_score": 15.502,
+        "scores": {
+          "big-announcements": 15.502,
+          "engineering": 8.002,
+          "product-development": 8.002,
+          "business": 8.002,
+          "under-the-radar": 9.602,
+          "for-fun": 9.502
+        }
+      },
+      {
+        "id": "b637ed426fdce54d",
+        "title": "Microsoft announces acquisition of Osmos to accelerate autonomous data engineering in Fabric",
+        "url": "https://blogs.microsoft.com/blog/2026/01/05/microsoft-announces-acquisition-of-osmos-to-accelerate-autonomous-data-engineering-in-fabric/",
+        "source_name": "Microsoft AI Blog",
+        "domain": "blogs.microsoft.com",
+        "published_at": "2026-01-05T17:00:01+00:00",
+        "summary_text": "Today, Microsoft is announcing the acquisition of Osmos, an agentic AI data engineering platform designed to help simplify complex and time-consuming data workflows.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Microsoft AI Blog.",
+        "section_score": 15.5,
+        "scores": {
+          "big-announcements": 15.5,
+          "engineering": 9.5,
+          "product-development": 9.5,
+          "business": 8.0,
+          "under-the-radar": 9.6,
+          "for-fun": 8.0
+        }
+      },
+      {
+        "id": "3c9fe74578022ede",
+        "title": "Microsoft, NVIDIA and Anthropic announce strategic partnerships",
+        "url": "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/",
+        "source_name": "Microsoft AI Blog",
+        "domain": "blogs.microsoft.com",
+        "published_at": "2025-11-18T15:00:03+00:00",
+        "summary_text": "Anthropic to scale Claude on Azure Anthropic to adopt NVIDIA architecture NVIDIA and Microsoft to invest in Anthropic Today Microsoft, NVIDIA and Anthropic announced new strategic partnerships.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Microsoft AI Blog.",
+        "section_score": 15.5,
+        "scores": {
+          "big-announcements": 15.5,
+          "engineering": 9.5,
+          "product-development": 8.0,
+          "business": 9.5,
+          "under-the-radar": 9.6,
+          "for-fun": 9.5
+        }
+      }
+    ],
+    "engineering": [
+      {
+        "id": "57ee11ec92ac0668",
+        "title": "Agentic AI with multi-model framework using Hugging Face smolagents on AWS",
+        "url": "https://aws.amazon.com/blogs/machine-learning/agentic-ai-with-multi-model-framework-using-hugging-face-smolagents-on-aws/",
+        "source_name": "AWS Machine Learning Blog",
+        "domain": "aws.amazon.com",
+        "published_at": "2026-02-23T15:47:06+00:00",
+        "summary_text": "Hugging Face smolagents is an open source Python library designed to make it straightforward to build and run agents using a few lines of code.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from AWS Machine Learning Blog.",
+        "section_score": 20.712,
+        "scores": {
+          "big-announcements": 9.412,
+          "engineering": 20.712,
+          "product-development": 8.712,
+          "business": 7.212,
+          "under-the-radar": 6.412,
+          "for-fun": 7.212
+        }
+      },
+      {
+        "id": "925bb24374ae910b",
+        "title": "Show HN: A real-time strategy game that AI agents can play",
+        "url": "https://llmskirmish.com/",
+        "source_name": "Hacker News",
+        "domain": "llmskirmish.com",
+        "published_at": "2026-02-25T10:02:45+00:00",
+        "summary_text": "I've liked all the projects that put LLMs into game environments. It's been a weird juxtaposition, though: frontier LLMs can one-shot full coding projects, and those same models struggle to get out of Pok\u00e9mon Red's Mt.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Hacker News.",
+        "section_score": 20.626,
+        "scores": {
+          "big-announcements": 10.232,
+          "engineering": 20.626,
+          "product-development": 11.626,
+          "business": 8.182,
+          "under-the-radar": 8.832,
+          "for-fun": 11.732
+        }
+      },
+      {
+        "id": "f47724c5866e6e2b",
+        "title": "MiniMax 2.5 vs. GLM-5 across 3 Coding Tasks [Benchmark & Results]",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rf8ssn/minimax_25_vs_glm5_across_3_coding_tasks/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-02-26T12:25:30+00:00",
+        "summary_text": "Full transparency: I work closely with the Kilo Code team, so take this with appropriate context. However, I believe that the results from the test are genuinely interesting for anyone who's using open-weight models.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.",
+        "section_score": 19.199,
+        "scores": {
+          "big-announcements": 8.699,
+          "engineering": 19.199,
+          "product-development": 10.199,
+          "business": 8.699,
+          "under-the-radar": 10.299,
+          "for-fun": 8.699
+        }
+      },
+      {
+        "id": "a94e74eb7a75dca4",
+        "title": "Show HN: Emdash \u2013 Open-source agentic development environment",
+        "url": "https://github.com/generalaction/emdash",
+        "source_name": "Hacker News",
+        "domain": "github.com",
+        "published_at": "2026-02-24T18:00:37+00:00",
+        "summary_text": "Hey HN! We\u2019re Arne and Raban, the founders of Emdash ( https://github.com/generalaction/emdash ).",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Hacker News.",
+        "section_score": 18.465,
+        "scores": {
+          "big-announcements": 6.632,
+          "engineering": 18.465,
+          "product-development": 12.465,
+          "business": 9.041,
+          "under-the-radar": 8.232,
+          "for-fun": 8.132
+        }
+      },
+      {
+        "id": "3ec598bd187102bb",
+        "title": "Qwen 3.5 craters on hard coding tasks \u2014 tested all Qwen3.5 models (And Codex 5.3) on 70 real repos so you don't have to.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1reds0p/qwen_35_craters_on_hard_coding_tasks_tested_all/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-02-25T13:52:13+00:00",
+        "summary_text": "Hey everyone, some of you might remember https://www.reddit.com/r/LocalLLaMA/comments/1r7shtv/i_built_a_benchmark_that_tests_coding_llms_on/ where I shared APEX Testing \u2014 my benchmark that tests coding models on real co...",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.",
+        "section_score": 18.445,
+        "scores": {
+          "big-announcements": 6.445,
+          "engineering": 18.445,
+          "product-development": 7.945,
+          "business": 6.445,
+          "under-the-radar": 11.045,
+          "for-fun": 9.445
+        }
+      }
+    ],
+    "product-development": [
+      {
+        "id": "14012f8053c4115d",
+        "title": "EP96: Designing for AI Disruption: How to Build Resilient Products",
+        "url": "https://www.productcoalition.com/p/designing-for-ai-disruption-how-to",
+        "source_name": "Product Coalition",
+        "domain": "productcoalition.com",
+        "published_at": "2025-11-02T11:00:52+00:00",
+        "summary_text": "Summary",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Product Coalition.",
+        "section_score": 12.5,
+        "scores": {
+          "big-announcements": 5.0,
+          "engineering": 5.0,
+          "product-development": 12.5,
+          "business": 5.0,
+          "under-the-radar": 6.6,
+          "for-fun": 5.0
+        }
+      },
+      {
+        "id": "c750166d2d28ff3a",
+        "title": "EP88 Unite, Innovate, Elevate: Transform Product Strategy",
+        "url": "https://www.productcoalition.com/p/ep89-unite-innovate-elevate-transform",
+        "source_name": "Product Coalition",
+        "domain": "productcoalition.com",
+        "published_at": "2025-07-27T17:30:58+00:00",
+        "summary_text": "Summary In this episode of the Product Coalition podcast, Jay Stansell interviews Andrea Saez, head of product marketing at Turtle and co-author of 'The Product Momentum Gap.",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Product Coalition.",
+        "section_score": 12.5,
+        "scores": {
+          "big-announcements": 5.0,
+          "engineering": 5.0,
+          "product-development": 12.5,
+          "business": 5.0,
+          "under-the-radar": 6.6,
+          "for-fun": 5.0
+        }
+      },
+      {
+        "id": "e22dbfc7360277b8",
+        "title": "A Guide to Which AI to Use in the Agentic Era",
+        "url": "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the",
+        "source_name": "One Useful Thing",
+        "domain": "oneusefulthing.org",
+        "published_at": "2026-02-18T01:45:41+00:00",
+        "summary_text": "It's not just chatbots anymore",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from One Useful Thing.",
+        "section_score": 12.001,
+        "scores": {
+          "big-announcements": 6.001,
+          "engineering": 7.501,
+          "product-development": 12.001,
+          "business": 6.001,
+          "under-the-radar": 7.601,
+          "for-fun": 6.001
+        }
+      },
+      {
+        "id": "96d905bf29f65c45",
+        "title": "An Opinionated Guide to Using AI Right Now",
+        "url": "https://www.oneusefulthing.org/p/an-opinionated-guide-to-using-ai",
+        "source_name": "One Useful Thing",
+        "domain": "oneusefulthing.org",
+        "published_at": "2025-10-19T18:45:34+00:00",
+        "summary_text": "What AI to use in late 2025",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from One Useful Thing.",
+        "section_score": 12.0,
+        "scores": {
+          "big-announcements": 6.0,
+          "engineering": 6.0,
+          "product-development": 12.0,
+          "business": 6.0,
+          "under-the-radar": 7.6,
+          "for-fun": 6.0
+        }
+      },
+      {
+        "id": "baddb23474fe4798",
+        "title": "tldraw issue: Move tests to closed source repo",
+        "url": "https://simonwillison.net/2026/Feb/25/closed-tests/",
+        "source_name": "Simon Willison",
+        "domain": "simonwillison.net",
+        "published_at": "2026-02-25T21:06:53+00:00",
+        "summary_text": "tldraw issue: Move tests to closed source repo It's become very apparent over the past few months that a comprehensive test suite is enough to build a completely fresh implementation of any open source library from scra...",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Simon Willison.",
+        "section_score": 16.454,
+        "scores": {
+          "big-announcements": 8.954,
+          "engineering": 16.454,
+          "product-development": 11.954,
+          "business": 8.954,
+          "under-the-radar": 15.054,
+          "for-fun": 8.954
+        }
+      }
+    ],
+    "business": [
+      {
+        "id": "f964fabd3132dd5f",
+        "title": "Meesho Goes Public",
+        "url": "https://www.ycombinator.com/blog/meesho-goes-public/",
+        "source_name": "Y Combinator Blog",
+        "domain": "ycombinator.com",
+        "published_at": "2025-12-10T04:32:10+00:00",
+        "summary_text": "Meesho goes public today. From S16 to IPO, they\u2019ve built one of India\u2019s largest e-commerce platforms\u2014empowering millions of small merchants to grow their businesses.",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from Y Combinator Blog.",
+        "section_score": 12.0,
+        "scores": {
+          "big-announcements": 6.0,
+          "engineering": 6.0,
+          "product-development": 7.5,
+          "business": 12.0,
+          "under-the-radar": 7.6,
+          "for-fun": 6.0
+        }
+      },
+      {
+        "id": "5a22954028e4e3f9",
+        "title": "BillionToOne Goes Public \u2014 The Startup That Made Genetic Testing Universal",
+        "url": "https://www.ycombinator.com/blog/billiontoone/",
+        "source_name": "Y Combinator Blog",
+        "domain": "ycombinator.com",
+        "published_at": "2025-11-06T15:52:00+00:00",
+        "summary_text": "Today, BillionToOne goes public, becoming YC's fourth publicly traded biotech company. More importantly, they have built one of the most important genetic tests in the U.S.",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from Y Combinator Blog.",
+        "section_score": 12.0,
+        "scores": {
+          "big-announcements": 6.0,
+          "engineering": 7.5,
+          "product-development": 7.5,
+          "business": 12.0,
+          "under-the-radar": 7.6,
+          "for-fun": 7.5
+        }
+      },
+      {
+        "id": "4baff1b86bf7d267",
+        "title": "You don\u2019t know what your agent will do until it\u2019s in production",
+        "url": "https://blog.langchain.com/you-dont-know-what-your-agent-will-do-until-its-in-production/",
+        "source_name": "LangChain Blog",
+        "domain": "blog.langchain.com",
+        "published_at": "2026-02-26T04:28:00+00:00",
+        "summary_text": "You can't monitor agents like traditional software. Inputs are infinite, behavior is non-deterministic, and quality lives in the conversations themselves.",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from LangChain Blog.",
+        "section_score": 17.155,
+        "scores": {
+          "big-announcements": 9.655,
+          "engineering": 17.155,
+          "product-development": 11.155,
+          "business": 11.155,
+          "under-the-radar": 11.255,
+          "for-fun": 11.155
+        }
+      },
+      {
+        "id": "b94e47238d1a989f",
+        "title": "Probing the Geometry of Diffusion Models with the String Method",
+        "url": "http://arxiv.org/abs/2602.22122v1",
+        "source_name": "arXiv AI Core",
+        "domain": "arxiv.org",
+        "published_at": "2026-02-25T17:10:59+00:00",
+        "summary_text": "Understanding the geometry of learned distributions is fundamental to improving and interpreting diffusion models, yet systematic tools for exploring their landscape remain limited.",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from arXiv AI Core.",
+        "section_score": 13.659,
+        "scores": {
+          "big-announcements": 9.159,
+          "engineering": 13.659,
+          "product-development": 7.659,
+          "business": 10.659,
+          "under-the-radar": 9.259,
+          "for-fun": 10.659
+        }
+      },
+      {
+        "id": "2e9c5bdf6b6bea2d",
+        "title": "OpenAI announces Frontier Alliance Partners",
+        "url": "https://openai.com/index/frontier-alliance-partners",
+        "source_name": "OpenAI News",
+        "domain": "openai.com",
+        "published_at": "2026-02-23T05:30:00+00:00",
+        "summary_text": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from OpenAI News.",
+        "section_score": 17.338,
+        "scores": {
+          "big-announcements": 17.338,
+          "engineering": 12.138,
+          "product-development": 10.638,
+          "business": 10.638,
+          "under-the-radar": 8.338,
+          "for-fun": 10.638
+        }
+      }
+    ],
+    "under-the-radar": [
+      {
+        "id": "678207609f44f51f",
+        "title": "I vibe coded my dream macOS presentation app",
+        "url": "https://simonwillison.net/2026/Feb/25/present/",
+        "source_name": "Simon Willison",
+        "domain": "simonwillison.net",
+        "published_at": "2026-02-25T16:46:19+00:00",
+        "summary_text": "I gave a talk this weekend at Social Science FOO Camp in Mountain View. The event was a classic unconference format where anyone could present a talk without needing to propose it in advance.",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Simon Willison.",
+        "section_score": 17.731,
+        "scores": {
+          "big-announcements": 10.131,
+          "engineering": 11.631,
+          "product-development": 11.631,
+          "business": 10.131,
+          "under-the-radar": 17.731,
+          "for-fun": 11.631
+        }
+      },
+      {
+        "id": "db870492be80da77",
+        "title": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules.",
+        "url": "https://simonwillison.net/2026/Feb/26/google-api-keys/",
+        "source_name": "Simon Willison",
+        "domain": "simonwillison.net",
+        "published_at": "2026-02-26T04:28:55+00:00",
+        "summary_text": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules. Yikes! It turns out Gemini and Google Maps (and other services) share the same API keys...",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Simon Willison.",
+        "section_score": 15.757,
+        "scores": {
+          "big-announcements": 9.657,
+          "engineering": 11.157,
+          "product-development": 9.657,
+          "business": 9.657,
+          "under-the-radar": 15.757,
+          "for-fun": 9.657
+        }
+      },
+      {
+        "id": "6f747445ca2cea80",
+        "title": "[AINews] WTF Happened in December 2025?",
+        "url": "https://www.latent.space/p/wtf2025",
+        "source_name": "Latent Space",
+        "domain": "latent.space",
+        "published_at": "2026-02-26T00:08:54+00:00",
+        "summary_text": "A quiet day lets us express a growing, uneasy feeling that coding has changed forever \u2014 much much more than \u201cnormal\u201d hype.",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Latent Space.",
+        "section_score": 14.318,
+        "scores": {
+          "big-announcements": 8.218,
+          "engineering": 8.218,
+          "product-development": 9.718,
+          "business": 8.218,
+          "under-the-radar": 14.318,
+          "for-fun": 8.218
+        }
+      },
+      {
+        "id": "423bbe8087338763",
+        "title": "\ud83d\udd2cSearching the Space of All Possible Materials \u2014 Prof. Max Welling, CuspAI",
+        "url": "https://www.latent.space/p/cuspai",
+        "source_name": "Latent Space",
+        "domain": "latent.space",
+        "published_at": "2026-02-25T17:36:18+00:00",
+        "summary_text": "Editor\u2019s note: CuspAI raised a $100m Series A in September and is rumored to have reached a unicorn valuation. They have all-star advisors from Geoff Hinton to Yann Lecun and team of deep domain experts",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Latent Space.",
+        "section_score": 13.788,
+        "scores": {
+          "big-announcements": 10.688,
+          "engineering": 7.688,
+          "product-development": 7.688,
+          "business": 9.188,
+          "under-the-radar": 13.788,
+          "for-fun": 7.688
+        }
+      },
+      {
+        "id": "f3a80c0e7a0fa1ab",
+        "title": "Running Qwen 3.5 (122B) with ~72GB of VRAM - Setup and results so far",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rf9dey/running_qwen_35_122b_with_72gb_of_vram_setup_and/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-02-26T12:53:25+00:00",
+        "summary_text": "Hi everyone, I've been closely following the latest releases and wanted to share my hardware configuration for running the new Qwen3.5 122B model.",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from r/LocalLLaMA.",
+        "section_score": 16.271,
+        "scores": {
+          "big-announcements": 10.271,
+          "engineering": 16.271,
+          "product-development": 8.771,
+          "business": 8.771,
+          "under-the-radar": 11.871,
+          "for-fun": 8.771
+        }
+      }
+    ],
+    "for-fun": [
+      {
+        "id": "f568d4409d7e1c06",
+        "title": "Genprex's Gene Therapy GPX-002 Rejuvenates Beta Cells In Type 2 Diabetic Animal Studies. Additionally, PGP-011, RJVA-001, harmine, and RenBio's gene therapy are also highly groundbreaking.",
+        "url": "https://www.reddit.com/r/singularity/comments/1rfapzk/genprexs_gene_therapy_gpx002_rejuvenates_beta/",
+        "source_name": "r/singularity",
+        "domain": "reddit.com",
+        "published_at": "2026-02-26T13:52:45+00:00",
+        "summary_text": "https://www.nasdaq.com/articles/genprexs-gene-therapy-gpx-002-rejuvenates-beta-cells-type-2-diabetic-animal-studies Genprex Inc.",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
+        "section_score": 15.43,
+        "scores": {
+          "big-announcements": 9.43,
+          "engineering": 9.43,
+          "product-development": 7.93,
+          "business": 7.93,
+          "under-the-radar": 9.53,
+          "for-fun": 15.43
+        }
+      },
+      {
+        "id": "e4c6c05749a1d248",
+        "title": "What is left for the average Joe?",
+        "url": "https://www.reddit.com/r/singularity/comments/1rf7iix/what_is_left_for_the_average_joe/",
+        "source_name": "r/singularity",
+        "domain": "reddit.com",
+        "published_at": "2026-02-26T11:16:43+00:00",
+        "summary_text": "I didn't fully understand what level we have reached with AI until I tried Claude Code. You'd think that it is good just for writing perfectly working code. You are wrong.",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
+        "section_score": 13.526,
+        "scores": {
+          "big-announcements": 7.526,
+          "engineering": 12.026,
+          "product-development": 10.526,
+          "business": 7.526,
+          "under-the-radar": 9.126,
+          "for-fun": 13.526
+        }
+      },
+      {
+        "id": "2f0d21e443778e1c",
+        "title": "Dynamic Personality Adaptation in Large Language Models via State Machines",
+        "url": "http://arxiv.org/abs/2602.22157v1",
+        "source_name": "arXiv AI Core",
+        "domain": "arxiv.org",
+        "published_at": "2026-02-25T18:05:11+00:00",
+        "summary_text": "The inability of Large Language Models (LLMs) to modulate their personality expression in response to evolving dialogue dynamics hinders their performance in complex, interactive contexts.",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from arXiv AI Core.",
+        "section_score": 15.223,
+        "scores": {
+          "big-announcements": 7.723,
+          "engineering": 15.223,
+          "product-development": 7.723,
+          "business": 7.723,
+          "under-the-radar": 9.323,
+          "for-fun": 12.223
+        }
+      },
+      {
+        "id": "aff1c34494f26d5a",
+        "title": "A more intelligent Android on Samsung Galaxy S26",
+        "url": "https://blog.google/products-and-platforms/platforms/android/samsung-unpacked-2026/",
+        "source_name": "Google AI Blog",
+        "domain": "blog.google",
+        "published_at": "2026-02-25T18:00:00+00:00",
+        "summary_text": "A woman in a red turtleneck, camouflage shorts, and black boots poses against a bright red wall, while a smartphone to her right displays a Google search page with image recognition results.",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from Google AI Blog.",
+        "section_score": 14.217,
+        "scores": {
+          "big-announcements": 14.217,
+          "engineering": 9.717,
+          "product-development": 9.717,
+          "business": 9.717,
+          "under-the-radar": 11.317,
+          "for-fun": 11.217
+        }
+      },
+      {
+        "id": "8f386959fe7cebbb",
+        "title": "Quoting Benedict Evans",
+        "url": "https://simonwillison.net/2026/Feb/26/benedict-evans/",
+        "source_name": "Simon Willison",
+        "domain": "simonwillison.net",
+        "published_at": "2026-02-26T03:44:56+00:00",
+        "summary_text": "If people are only using this a couple of times a week at most, and can\u2019t think of anything to do with it on the average day, it hasn\u2019t changed their life.",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from Simon Willison.",
+        "section_score": 15.677,
+        "scores": {
+          "big-announcements": 9.577,
+          "engineering": 9.577,
+          "product-development": 11.077,
+          "business": 9.577,
+          "under-the-radar": 15.677,
+          "for-fun": 11.077
+        }
+      }
+    ]
+  }
+}
