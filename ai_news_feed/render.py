@@ -99,13 +99,6 @@ header {
   margin-top: 0.62rem;
 }
 
-.story-top {
-  display: flex;
-  gap: 0.55rem;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
 .story h3 {
   margin: 0;
   line-height: 1.18;
@@ -117,39 +110,35 @@ header {
   text-underline-offset: 2px;
 }
 
-.story-icons {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.32rem;
-  flex-shrink: 0;
+.score-link {
+  display: inline-block;
+  margin: 0.34rem 0 0.08rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--accent) !important;
 }
 
-.icon-link {
+.source-mini {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.2rem;
-  min-width: 1.92rem;
-  height: 1.92rem;
-  border-radius: 999px;
+  width: 1.55rem;
+  height: 1.55rem;
+  border-radius: 6px;
   border: 1px solid var(--stroke);
-  background: #fff;
-  color: var(--text) !important;
+  background: #edf3fb;
+  color: var(--accent) !important;
   text-decoration: none !important;
-  font-size: 0.74rem;
-  font-weight: 700;
-  line-height: 1;
-  padding: 0 0.34rem;
 }
 
 .icon-svg {
-  width: 0.95rem;
-  height: 0.95rem;
+  width: 0.88rem;
+  height: 0.88rem;
   display: block;
   flex-shrink: 0;
 }
 
-.icon-link:hover {
+.source-mini:hover {
   transform: translateY(-1px);
 }
 
@@ -183,17 +172,12 @@ header {
   border-color: #b31b1b;
 }
 
-.icon-score {
-  background: #e9fff4;
-  border-color: #9ddac0;
-  color: #00744f !important;
-  padding: 0 0.44rem;
-}
-
-.icon-score-value {
-  font-size: 0.72rem;
-  font-weight: 700;
-  line-height: 1;
+.story-source {
+  margin-top: 0.44rem;
+  padding-top: 0.38rem;
+  border-top: 1px dashed var(--stroke);
+  display: flex;
+  justify-content: flex-start;
 }
 
 .meta {
@@ -337,25 +321,23 @@ def _render_story(article: Article) -> str:
     published = article.published_at.strftime('%Y-%m-%d %H:%M UTC') if article.published_at else 'time unknown'
     why_text = article.why_it_matters or 'High-signal item for this section.'
     source_name, source_class, source_icon_name = _source_icon_data(article)
-    source_classes = f'icon-link {source_class}'.strip()
+    source_classes = f'source-mini {source_class}'.strip()
     source_link = (
         f'<a class="{escape(source_classes)}" href="{escape(article.url)}" target="_blank" rel="noopener noreferrer" '
         f'title="Source: {escape(source_name)}">{_icon_svg(source_icon_name)}</a>'
     )
-    relevance_link = (
-        f'<a class="icon-link icon-score" href="{escape(article.url)}" target="_blank" rel="noopener noreferrer" '
-        f'title="Relevance factor: {article.section_score:.2f}">{_icon_svg("relevance")}'
-        f'<span class="icon-score-value">{article.section_score:.1f}</span></a>'
+    score_link = (
+        f'<a class="score-link" href="{escape(article.url)}" target="_blank" rel="noopener noreferrer" '
+        f'title="Relevance factor: {article.section_score:.2f}">{article.section_score:.1f}</a>'
     )
     return (
         '<article class="story">'
-        '<div class="story-top">'
         f'<h3><a href="{escape(article.url)}" target="_blank" rel="noopener noreferrer">{escape(article.title)}</a></h3>'
-        f'<div class="story-icons">{source_link}{relevance_link}</div>'
-        '</div>'
+        f'{score_link}'
         f'<p class="meta">{escape(article.source_name)} · {escape(article.domain)} · {escape(published)}</p>'
         f'<p class="summary">{escape(article.summary_text or article.summary)}</p>'
         f'<p class="why">Why it matters: {escape(why_text)}</p>'
+        f'<div class="story-source">{source_link}</div>'
         '</article>'
     )
 
