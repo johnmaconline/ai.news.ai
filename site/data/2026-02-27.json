@@ -1,6 +1,6 @@
 {
   "date": "2026-02-27",
-  "generated_at": "2026-02-27T13:58:01+00:00",
+  "generated_at": "2026-02-27T14:06:29+00:00",
   "title": "Daily AI Feed - 2026-02-27",
   "intro": "A curated daily AI briefing with original-source links across industry announcements, engineering, product development, business, under-the-radar signals, and fun experiments.",
   "sections": {
@@ -14,14 +14,14 @@
         "published_at": "2026-02-27T05:30:00+00:00",
         "summary_text": "OpenAI and Amazon announce a strategic partnership bringing OpenAI\u2019s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
         "why_it_matters": "This matters for what changed and who it impacts, based on this update from OpenAI News.",
-        "section_score": 21.511,
+        "section_score": 21.495,
         "scores": {
-          "big-announcements": 21.511,
-          "engineering": 13.311,
-          "product-development": 11.811,
-          "business": 13.311,
-          "under-the-radar": 11.011,
-          "for-fun": 13.311
+          "big-announcements": 21.495,
+          "engineering": 13.295,
+          "product-development": 11.795,
+          "business": 13.295,
+          "under-the-radar": 10.995,
+          "for-fun": 13.295
         }
       },
       {
@@ -33,14 +33,14 @@
         "published_at": "2026-02-27T05:30:00+00:00",
         "summary_text": "Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.",
         "why_it_matters": "This matters for what changed and who it impacts, based on this update from OpenAI News.",
-        "section_score": 18.511,
+        "section_score": 18.495,
         "scores": {
-          "big-announcements": 18.511,
-          "engineering": 13.311,
-          "product-development": 11.811,
-          "business": 11.811,
-          "under-the-radar": 11.011,
-          "for-fun": 11.811
+          "big-announcements": 18.495,
+          "engineering": 13.295,
+          "product-development": 11.795,
+          "business": 11.795,
+          "under-the-radar": 10.995,
+          "for-fun": 11.795
         }
       },
       {
@@ -52,14 +52,14 @@
         "published_at": "2026-02-27T13:50:44+00:00",
         "summary_text": "Since 2019, Microsoft and OpenAI have worked together to advance artificial intelligence responsibly and make its benefits broadly accessible.",
         "why_it_matters": "This matters for what changed and who it impacts, based on this update from Microsoft AI Blog.",
-        "section_score": 17.98,
+        "section_score": 17.957,
         "scores": {
-          "big-announcements": 17.98,
-          "engineering": 11.98,
-          "product-development": 13.48,
-          "business": 11.98,
-          "under-the-radar": 13.58,
-          "for-fun": 13.48
+          "big-announcements": 17.957,
+          "engineering": 11.957,
+          "product-development": 13.457,
+          "business": 11.957,
+          "under-the-radar": 13.557,
+          "for-fun": 13.457
         }
       },
       {
@@ -71,14 +71,14 @@
         "published_at": "2026-02-26T18:55:00+00:00",
         "summary_text": "Google is partnering with the Massachusetts AI Hub to provide every Baystater with no-cost access to Google\u2019s AI training.",
         "why_it_matters": "This matters for what changed and who it impacts, based on this update from Google AI Blog.",
-        "section_score": 15.809,
+        "section_score": 15.798,
         "scores": {
-          "big-announcements": 15.809,
-          "engineering": 9.809,
-          "product-development": 9.809,
-          "business": 9.809,
-          "under-the-radar": 11.409,
-          "for-fun": 11.309
+          "big-announcements": 15.798,
+          "engineering": 9.798,
+          "product-development": 9.798,
+          "business": 9.798,
+          "under-the-radar": 11.398,
+          "for-fun": 11.298
         }
       },
       {
@@ -103,25 +103,6 @@
     ],
     "engineering": [
       {
-        "id": "bfdc95aa42516238",
-        "title": "Qwen3.5 27B vs Devstral Small 2 - Next.js & Solidity (Hardhat)",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rg41ss/qwen35_27b_vs_devstral_small_2_nextjs_solidity/",
-        "source_name": "r/LocalLLaMA",
-        "domain": "reddit.com",
-        "published_at": "2026-02-27T11:19:24+00:00",
-        "summary_text": "Greetings, I was excited to test the 27B and 35BA3B variants, to see whether they were superior to my daily driver, Devstral Small 2. Had issues for the reported UD-Q4_K_XL.",
-        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.",
-        "section_score": 20.583,
-        "scores": {
-          "big-announcements": 10.083,
-          "engineering": 20.583,
-          "product-development": 11.583,
-          "business": 8.583,
-          "under-the-radar": 10.183,
-          "for-fun": 10.083
-        }
-      },
-      {
         "id": "57ee11ec92ac0668",
         "title": "Agentic AI with multi-model framework using Hugging Face smolagents on AWS",
         "url": "https://aws.amazon.com/blogs/machine-learning/agentic-ai-with-multi-model-framework-using-hugging-face-smolagents-on-aws/",
@@ -141,6 +122,25 @@
         }
       },
       {
+        "id": "bfdc95aa42516238",
+        "title": "Qwen3.5 27B vs Devstral Small 2 - Next.js & Solidity (Hardhat)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rg41ss/qwen35_27b_vs_devstral_small_2_nextjs_solidity/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-02-27T11:19:24+00:00",
+        "summary_text": "Greetings, I was excited to test the 27B and 35BA3B variants, to see whether they were superior to my daily driver, Devstral Small 2. Had issues for the reported UD-Q4_K_XL.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.",
+        "section_score": 20.562,
+        "scores": {
+          "big-announcements": 10.062,
+          "engineering": 20.562,
+          "product-development": 11.562,
+          "business": 8.562,
+          "under-the-radar": 10.162,
+          "for-fun": 10.062
+        }
+      },
+      {
         "id": "925bb24374ae910b",
         "title": "Show HN: A real-time strategy game that AI agents can play",
         "url": "https://llmskirmish.com/",
@@ -149,33 +149,14 @@
         "published_at": "2026-02-25T10:02:45+00:00",
         "summary_text": "I've liked all the projects that put LLMs into game environments. It's been a weird juxtaposition, though: frontier LLMs can one-shot full coding projects, and those same models struggle to get out of Pok\u00e9mon Red's Mt.",
         "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Hacker News.",
-        "section_score": 19.906,
+        "section_score": 19.904,
         "scores": {
-          "big-announcements": 9.46,
-          "engineering": 19.906,
-          "product-development": 10.906,
-          "business": 7.446,
-          "under-the-radar": 8.06,
-          "for-fun": 10.96
-        }
-      },
-      {
-        "id": "34a43198d283b413",
-        "title": "AgentDropoutV2: Optimizing Information Flow in Multi-Agent Systems via Test-Time Rectify-or-Reject Pruning",
-        "url": "http://arxiv.org/abs/2602.23258v1",
-        "source_name": "arXiv AI Core",
-        "domain": "arxiv.org",
-        "published_at": "2026-02-26T17:31:43+00:00",
-        "summary_text": "While Multi-Agent Systems (MAS) excel in complex reasoning, they suffer from the cascading impact of erroneous information generated by individual participants.",
-        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from arXiv AI Core.",
-        "section_score": 19.707,
-        "scores": {
-          "big-announcements": 9.207,
-          "engineering": 19.707,
-          "product-development": 7.707,
-          "business": 7.707,
-          "under-the-radar": 9.307,
-          "for-fun": 9.207
+          "big-announcements": 9.457,
+          "engineering": 19.904,
+          "product-development": 10.904,
+          "business": 7.443,
+          "under-the-radar": 8.057,
+          "for-fun": 10.957
         }
       },
       {
@@ -187,14 +168,33 @@
         "published_at": "2026-02-26T13:12:33+00:00",
         "summary_text": "I've been delegating work to Claude Code for the past few months, and it's been genuinely transformative\u2014but managing multiple agents doing different things became chaos.",
         "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Hacker News.",
-        "section_score": 19.706,
+        "section_score": 19.698,
         "scores": {
-          "big-announcements": 8.926,
-          "engineering": 19.706,
-          "product-development": 9.206,
-          "business": 7.617,
-          "under-the-radar": 9.026,
-          "for-fun": 10.426
+          "big-announcements": 8.918,
+          "engineering": 19.698,
+          "product-development": 9.198,
+          "business": 7.609,
+          "under-the-radar": 9.018,
+          "for-fun": 10.418
+        }
+      },
+      {
+        "id": "34a43198d283b413",
+        "title": "AgentDropoutV2: Optimizing Information Flow in Multi-Agent Systems via Test-Time Rectify-or-Reject Pruning",
+        "url": "http://arxiv.org/abs/2602.23258v1",
+        "source_name": "arXiv AI Core",
+        "domain": "arxiv.org",
+        "published_at": "2026-02-26T17:31:43+00:00",
+        "summary_text": "While Multi-Agent Systems (MAS) excel in complex reasoning, they suffer from the cascading impact of erroneous information generated by individual participants.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from arXiv AI Core.",
+        "section_score": 19.697,
+        "scores": {
+          "big-announcements": 9.197,
+          "engineering": 19.697,
+          "product-development": 7.697,
+          "business": 7.697,
+          "under-the-radar": 9.297,
+          "for-fun": 9.197
         }
       }
     ],
@@ -208,14 +208,14 @@
         "published_at": "2026-02-27T05:30:00+00:00",
         "summary_text": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.",
         "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from OpenAI News.",
-        "section_score": 18.511,
+        "section_score": 18.495,
         "scores": {
-          "big-announcements": 18.511,
-          "engineering": 11.811,
-          "product-development": 16.311,
-          "business": 11.811,
-          "under-the-radar": 11.011,
-          "for-fun": 11.811
+          "big-announcements": 18.495,
+          "engineering": 11.795,
+          "product-development": 16.295,
+          "business": 11.795,
+          "under-the-radar": 10.995,
+          "for-fun": 11.795
         }
       },
       {
@@ -227,14 +227,14 @@
         "published_at": "2026-02-26T20:33:27+00:00",
         "summary_text": "Agentic Engineering Patterns > Many of my tips for working productively with coding agents are extensions of advice I've found useful in my career without them.",
         "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Simon Willison.",
-        "section_score": 16.537,
+        "section_score": 16.525,
         "scores": {
-          "big-announcements": 10.437,
-          "engineering": 14.937,
-          "product-development": 13.437,
-          "business": 8.937,
-          "under-the-radar": 16.537,
-          "for-fun": 11.937
+          "big-announcements": 10.425,
+          "engineering": 14.925,
+          "product-development": 13.425,
+          "business": 8.925,
+          "under-the-radar": 16.525,
+          "for-fun": 11.925
         }
       },
       {
@@ -246,14 +246,14 @@
         "published_at": "2026-02-27T12:09:50+00:00",
         "summary_text": "TL;DR : Community asked great questions on my original benchmarks post. I ran every experiment you requested. The headline: KV q8_0 is confirmed free lunch, Q4_K_M remains king, --fit on without batch flags hits 74.",
         "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from r/LocalLLaMA.",
-        "section_score": 19.211,
+        "section_score": 19.189,
         "scores": {
-          "big-announcements": 14.711,
-          "engineering": 19.211,
-          "product-development": 13.211,
-          "business": 11.711,
-          "under-the-radar": 11.811,
-          "for-fun": 10.211
+          "big-announcements": 14.689,
+          "engineering": 19.189,
+          "product-development": 13.189,
+          "business": 11.689,
+          "under-the-radar": 11.789,
+          "for-fun": 10.189
         }
       },
       {
@@ -265,14 +265,14 @@
         "published_at": "2026-02-27T03:54:01+00:00",
         "summary_text": "Hi HN, I built my first project using an LLM in mid-2024. I've been excited ever since. But of course, at some point it all turns into a mess. You see, software is an intricate interwoven collection of tiny details.",
         "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Hacker News.",
-        "section_score": 19.177,
+        "section_score": 19.161,
         "scores": {
-          "big-announcements": 8.63,
-          "engineering": 19.177,
-          "product-development": 13.177,
-          "business": 10.162,
-          "under-the-radar": 11.73,
-          "for-fun": 11.63
+          "big-announcements": 8.615,
+          "engineering": 19.161,
+          "product-development": 13.161,
+          "business": 10.146,
+          "under-the-radar": 11.715,
+          "for-fun": 11.615
         }
       },
       {
@@ -305,14 +305,14 @@
         "published_at": "2026-02-27T05:30:00+00:00",
         "summary_text": "Today we\u2019re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.",
         "why_it_matters": "This matters for business model and monetization impact, based on this update from OpenAI News.",
-        "section_score": 18.511,
+        "section_score": 18.495,
         "scores": {
-          "big-announcements": 18.511,
-          "engineering": 11.811,
-          "product-development": 11.811,
-          "business": 13.311,
-          "under-the-radar": 11.011,
-          "for-fun": 11.811
+          "big-announcements": 18.495,
+          "engineering": 11.795,
+          "product-development": 11.795,
+          "business": 13.295,
+          "under-the-radar": 10.995,
+          "for-fun": 11.795
         }
       },
       {
@@ -362,14 +362,14 @@
         "published_at": "2026-02-27T11:33:21+00:00",
         "summary_text": "Yesterday, I wrote a comment on this post on why, in my opinion, the dense model Qwen 3.5 27B can achieve good results in benchmarks, by providing an architectural analysis.",
         "why_it_matters": "This matters for business model and monetization impact, based on this update from r/LocalLLaMA.",
-        "section_score": 14.618,
+        "section_score": 14.597,
         "scores": {
-          "big-announcements": 10.118,
-          "engineering": 14.618,
-          "product-development": 8.618,
-          "business": 11.618,
-          "under-the-radar": 10.218,
-          "for-fun": 10.118
+          "big-announcements": 10.097,
+          "engineering": 14.597,
+          "product-development": 8.597,
+          "business": 11.597,
+          "under-the-radar": 10.197,
+          "for-fun": 10.097
         }
       },
       {
@@ -381,14 +381,14 @@
         "published_at": "2026-02-27T10:17:46+00:00",
         "summary_text": "Either Qwen included this car wash test in the Qwen3.5 training set (a pretty recent question/benchmark test) last minute or this thing truly is a work of magic.",
         "why_it_matters": "This matters for business model and monetization impact, based on this update from r/LocalLLaMA.",
-        "section_score": 17.433,
+        "section_score": 17.413,
         "scores": {
-          "big-announcements": 8.433,
-          "engineering": 17.433,
-          "product-development": 9.933,
-          "business": 11.433,
-          "under-the-radar": 11.533,
-          "for-fun": 9.933
+          "big-announcements": 8.413,
+          "engineering": 17.413,
+          "product-development": 9.913,
+          "business": 11.413,
+          "under-the-radar": 11.513,
+          "for-fun": 9.913
         }
       }
     ],
@@ -402,14 +402,14 @@
         "published_at": "2026-02-25T16:46:19+00:00",
         "summary_text": "I gave a talk this weekend at Social Science FOO Camp in Mountain View. The event was a classic unconference format where anyone could present a talk without needing to propose it in advance.",
         "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Simon Willison.",
-        "section_score": 16.709,
+        "section_score": 16.705,
         "scores": {
-          "big-announcements": 9.109,
-          "engineering": 10.609,
-          "product-development": 10.609,
-          "business": 9.109,
-          "under-the-radar": 16.709,
-          "for-fun": 10.609
+          "big-announcements": 9.105,
+          "engineering": 10.605,
+          "product-development": 10.605,
+          "business": 9.105,
+          "under-the-radar": 16.705,
+          "for-fun": 10.605
         }
       },
       {
@@ -421,14 +421,14 @@
         "published_at": "2026-02-26T19:03:27+00:00",
         "summary_text": "It is hard to communicate how much programming has changed due to AI in the last 2 months: not gradually and over time in the \"progress as usual\" way, but specifically this last December.",
         "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Simon Willison.",
-        "section_score": 14.919,
+        "section_score": 14.909,
         "scores": {
-          "big-announcements": 8.819,
-          "engineering": 10.319,
-          "product-development": 8.819,
-          "business": 8.819,
-          "under-the-radar": 14.919,
-          "for-fun": 8.819
+          "big-announcements": 8.809,
+          "engineering": 10.309,
+          "product-development": 8.809,
+          "business": 8.809,
+          "under-the-radar": 14.909,
+          "for-fun": 8.809
         }
       },
       {
@@ -440,14 +440,14 @@
         "published_at": "2026-02-27T04:39:57+00:00",
         "summary_text": "The first Gemini 3.1 model is here....",
         "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Latent Space.",
-        "section_score": 14.815,
+        "section_score": 14.799,
         "scores": {
-          "big-announcements": 8.715,
-          "engineering": 8.715,
-          "product-development": 8.715,
-          "business": 8.715,
-          "under-the-radar": 14.815,
-          "for-fun": 8.715
+          "big-announcements": 8.699,
+          "engineering": 8.699,
+          "product-development": 8.699,
+          "business": 8.699,
+          "under-the-radar": 14.799,
+          "for-fun": 8.699
         }
       },
       {
@@ -459,14 +459,14 @@
         "published_at": "2026-02-26T20:39:42+00:00",
         "summary_text": "Latent.Space x Interconnects x Ahead of AI Substack Live: SAIL Live #6",
         "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Latent Space.",
-        "section_score": 14.045,
+        "section_score": 14.034,
         "scores": {
-          "big-announcements": 7.945,
-          "engineering": 7.945,
-          "product-development": 7.945,
-          "business": 7.945,
-          "under-the-radar": 14.045,
-          "for-fun": 7.945
+          "big-announcements": 7.934,
+          "engineering": 7.934,
+          "product-development": 7.934,
+          "business": 7.934,
+          "under-the-radar": 14.034,
+          "for-fun": 7.934
         }
       },
       {
@@ -478,14 +478,14 @@
         "published_at": "2026-02-27T13:06:50+00:00",
         "summary_text": "RetroTick parses PE/NE/MZ binaries, emulates an x86 CPU, and stubs enough Win32/Win16/DOS APIs to run classics like FreeCell, Minesweeper, Solitaire and QBasic, entirely in the browser.",
         "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Hacker News.",
-        "section_score": 15.948,
+        "section_score": 15.951,
         "scores": {
-          "big-announcements": 9.861,
-          "engineering": 15.948,
-          "product-development": 11.448,
-          "business": 9.92,
-          "under-the-radar": 11.461,
-          "for-fun": 9.861
+          "big-announcements": 9.838,
+          "engineering": 15.951,
+          "product-development": 11.451,
+          "business": 9.915,
+          "under-the-radar": 11.438,
+          "for-fun": 9.838
         }
       }
     ],
@@ -499,14 +499,14 @@
         "published_at": "2026-02-26T22:00:32+00:00",
         "summary_text": "The current unemployment rate in the US is 4% and 6% in Europe. The debates about what constitutes AGI are largely a waste of time.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
-        "section_score": 13.558,
+        "section_score": 13.545,
         "scores": {
-          "big-announcements": 6.058,
-          "engineering": 9.058,
-          "product-development": 6.058,
-          "business": 6.058,
-          "under-the-radar": 7.658,
-          "for-fun": 13.558
+          "big-announcements": 6.045,
+          "engineering": 9.045,
+          "product-development": 6.045,
+          "business": 6.045,
+          "under-the-radar": 7.645,
+          "for-fun": 13.545
         }
       },
       {
@@ -518,14 +518,14 @@
         "published_at": "2026-02-26T20:20:21+00:00",
         "summary_text": "TL;DR: If you think top-tier AI will be exclusive to trillion-dollar corporations forever, the data says otherwise.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
-        "section_score": 13.419,
+        "section_score": 13.408,
         "scores": {
-          "big-announcements": 5.919,
-          "engineering": 7.419,
-          "product-development": 7.419,
-          "business": 5.919,
-          "under-the-radar": 7.519,
-          "for-fun": 13.419
+          "big-announcements": 5.908,
+          "engineering": 7.408,
+          "product-development": 7.408,
+          "business": 5.908,
+          "under-the-radar": 7.508,
+          "for-fun": 13.408
         }
       },
       {
@@ -537,14 +537,14 @@
         "published_at": "2026-02-26T18:38:38+00:00",
         "summary_text": "Hey HN - we're Saksham and Ishan, and we\u2019re building Cardboard ( https://www.usecardboard.com ). It lets you go from raw footage to an edited video by describing what you want in natural language.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from Hacker News.",
-        "section_score": 16.122,
+        "section_score": 16.111,
         "scores": {
-          "big-announcements": 12.288,
-          "engineering": 16.122,
-          "product-development": 11.622,
-          "business": 9.857,
-          "under-the-radar": 9.388,
-          "for-fun": 12.288
+          "big-announcements": 12.278,
+          "engineering": 16.111,
+          "product-development": 11.611,
+          "business": 9.846,
+          "under-the-radar": 9.378,
+          "for-fun": 12.278
         }
       },
       {
@@ -556,14 +556,14 @@
         "published_at": "2026-02-26T10:00:00+00:00",
         "summary_text": "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting\u2014showing potential to reduce NEPA drafting time by up to 15% an...",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from OpenAI News.",
-        "section_score": 18.448,
+        "section_score": 18.44,
         "scores": {
-          "big-announcements": 18.448,
-          "engineering": 14.748,
-          "product-development": 10.248,
-          "business": 10.248,
-          "under-the-radar": 9.448,
-          "for-fun": 11.748
+          "big-announcements": 18.44,
+          "engineering": 14.74,
+          "product-development": 10.24,
+          "business": 10.24,
+          "under-the-radar": 9.44,
+          "for-fun": 11.74
         }
       },
       {
@@ -575,14 +575,14 @@
         "published_at": "2026-02-26T18:59:05+00:00",
         "summary_text": "We identify occlusion reasoning as a fundamental yet overlooked aspect for 3D layout-conditioned generation. It is essential for synthesizing partially occluded objects with depth-consistent geometry and scale.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from arXiv AI Core.",
-        "section_score": 13.814,
+        "section_score": 13.803,
         "scores": {
-          "big-announcements": 9.314,
-          "engineering": 13.814,
-          "product-development": 7.814,
-          "business": 7.814,
-          "under-the-radar": 10.914,
-          "for-fun": 10.814
+          "big-announcements": 9.303,
+          "engineering": 13.803,
+          "product-development": 7.803,
+          "business": 7.803,
+          "under-the-radar": 10.903,
+          "for-fun": 10.803
         }
       }
     ]
