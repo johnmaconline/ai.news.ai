@@ -1,4 +1,10 @@
-from __future__ import annotations
+##########################################################################################
+#
+# Script name: curation.py
+#
+# Description: Deduplication, scoring, and section-level curation logic.
+#
+##########################################################################################
 
 import math
 from collections import defaultdict
@@ -16,6 +22,11 @@ from .models import Article
 from .utils import canonicalize_url, normalize_whitespace
 
 
+# ****************************************************************************************
+# Functions
+# ****************************************************************************************
+
+
 def dedupe_articles(articles: list[Article]) -> list[Article]:
     unique: dict[str, Article] = {}
     for article in articles:
@@ -24,8 +35,8 @@ def dedupe_articles(articles: list[Article]) -> list[Article]:
         if existing is None:
             unique[key] = article
             continue
-        existing_score = existing.priority + existing.metrics.get("points", 0) * 0.01
-        incoming_score = article.priority + article.metrics.get("points", 0) * 0.01
+        existing_score = existing.priority + existing.metrics.get('points', 0) * 0.01
+        incoming_score = article.priority + article.metrics.get('points', 0) * 0.01
         if incoming_score > existing_score:
             unique[key] = article
     return list(unique.values())
@@ -57,17 +68,17 @@ def score_articles(articles: list[Article], feed_dt: datetime | None = None) -> 
             section_score += hits * 1.5
             if article.section_hint == section.slug:
                 section_score += 4.5
-            if section.slug == "big-announcements" and article.domain in BIG_ANNOUNCEMENT_DOMAINS:
+            if section.slug == 'big-announcements' and article.domain in BIG_ANNOUNCEMENT_DOMAINS:
                 section_score += 2.2
-            if section.slug == "under-the-radar":
+            if section.slug == 'under-the-radar':
                 if article.domain not in MAINSTREAM_DOMAINS:
                     section_score += 1.6
                 else:
                     section_score -= 0.8
-            if section.slug in {"engineering", "product-development"}:
-                section_score += min(2.0, article.metrics.get("points", 0.0) / 150.0)
-            if section.slug == "business":
-                section_score += min(2.0, article.metrics.get("points", 0.0) / 220.0)
+            if section.slug in {'engineering', 'product-development'}:
+                section_score += min(2.0, article.metrics.get('points', 0.0) / 150.0)
+            if section.slug == 'business':
+                section_score += min(2.0, article.metrics.get('points', 0.0) / 220.0)
             scores[section.slug] = round(section_score, 3)
         article.scores = scores
         top_section, top_score = max(scores.items(), key=lambda item: item[1])

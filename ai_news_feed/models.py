@@ -1,7 +1,18 @@
-from __future__ import annotations
+##########################################################################################
+#
+# Script name: models.py
+#
+# Description: Dataclasses shared across ingestion, curation, and rendering stages.
+#
+##########################################################################################
 
 from dataclasses import dataclass, field
 from datetime import datetime
+
+
+# ****************************************************************************************
+# Data models
+# ****************************************************************************************
 
 
 @dataclass
@@ -21,11 +32,11 @@ class Article:
     scores: dict[str, float] = field(default_factory=dict)
     assigned_section: str | None = None
     section_score: float = 0.0
-    summary_text: str = ""
-    why_it_matters: str = ""
+    summary_text: str = ''
+    why_it_matters: str = ''
 
     def canonical_text(self) -> str:
-        return f"{self.title}\n{self.summary}".strip()
+        return f'{self.title}\n{self.summary}'.strip()
 
 
 @dataclass

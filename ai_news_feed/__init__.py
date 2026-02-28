@@ -1,2 +1,1 @@
-"""Automated daily AI feed generator."""
-
+'''Automated daily AI feed generator.'''

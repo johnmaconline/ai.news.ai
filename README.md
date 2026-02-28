@@ -14,7 +14,7 @@ Each daily post includes:
 
 ## How It Works
 
-1. Ingest from curated sources in `config/sources.yaml`:
+1. Ingest from curated sources in `config/sources.yaml` and `config/feeds.md`:
    - RSS feeds
    - Hacker News API
    - arXiv API
@@ -26,6 +26,7 @@ Each daily post includes:
 5. Generate concise summaries and "why it matters":
    - Uses OpenAI if `OPENAI_API_KEY` exists.
    - Falls back to deterministic local summaries if missing.
+   - Loads section prompt guidance from `prompts/sections/*.md`.
 6. Render static site files into `site/`:
    - `site/index.html` (latest)
    - `site/archive/YYYY-MM-DD.html`
@@ -50,9 +51,12 @@ python -m ai_news_feed.main --output-dir site
 Optional environment variables:
 - `OPENAI_API_KEY`
 - `OPENAI_MODEL` (default: `gpt-5-mini`)
+- `SECTION_PROMPTS_DIR` (optional override path for section prompt markdown files)
+- `SYSTEM_PROMPT_FILE` (optional override path for system prompt markdown file)
 - `X_BEARER_TOKEN` (for `type: x` sources)
 - `LINKEDIN_ACCESS_TOKEN` (for `type: linkedin` sources)
 - `LINKEDIN_API_VERSION` (default: `202503`)
+- `LINKEDIN_AUTHOR_URN` (optional override for LinkedIn org/person URN)
 - `FEED_TIMEZONE` (default: `America/New_York`)
 
 ## GitHub Automation (No Daily Manual Work)
@@ -73,11 +77,13 @@ Workflow: `.github/workflows/daily-feed.yml`
    - Secret `X_BEARER_TOKEN`
    - Secret `LINKEDIN_ACCESS_TOKEN`
    - Variable `LINKEDIN_API_VERSION` (for example `202503`)
+   - Variable `LINKEDIN_AUTHOR_URN` (for example `urn:li:organization:123456`)
    - Variable `FEED_TIMEZONE` (for example `America/Los_Angeles`)
 
 ## Customization
 
 - Edit sources in `config/sources.yaml`.
+- Maintain ongoing discovered feeds/users in `config/feeds.md`.
 - Tune section scoring keywords in `ai_news_feed/config.py`.
 - Adjust min/max links per section via CLI:
 
@@ -88,7 +94,31 @@ python -m ai_news_feed.main --min-per-section 3 --max-per-section 5
 For social sources:
 - `type: x` uses `query` (X recent search).
 - `type: linkedin` uses `author_urn` and fetches from LinkedIn posts API.
+- `LINKEDIN_AUTHOR_URN` in `.env` overrides the LinkedIn `author_urn` in `config/sources.yaml`, so you can switch orgs without editing YAML.
 - If corresponding tokens are not set, those sources are skipped safely.
+
+`config/feeds.md` behavior:
+- This file is loaded on every run (default path).
+- Sections:
+  - `1. URLs` (RSS/Atom URLs; optional metadata such as `name=`, `section=`, `tags=`)
+  - `2. LinkedIN users` (LinkedIn `urn:li:...` entries)
+  - `3. X users` (usernames like `@swyx` or profile URL)
+  - `4. other` (notes only; not ingested)
+- You can override the registry path:
+
+```bash
+python -m ai_news_feed.main --feeds-file config/feeds.md
+```
+
+Prompt customization:
+- Edit `prompts/system.md` for global summarization behavior.
+- Edit section-specific files in `prompts/sections/`:
+  - `big-announcements.md`
+  - `engineering.md`
+  - `product-development.md`
+  - `business.md`
+  - `under-the-radar.md`
+  - `for-fun.md`
 
 ## Research References
 

@@ -1,4 +1,10 @@
-from __future__ import annotations
+##########################################################################################
+#
+# Script name: utils.py
+#
+# Description: Shared utility helpers.
+#
+##########################################################################################
 
 import hashlib
 import html
@@ -7,7 +13,16 @@ from datetime import datetime, timezone
 from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 
-UTM_PREFIXES = ("utm_", "fbclid", "gclid", "mc_cid", "mc_eid")
+# ****************************************************************************************
+# Global data and configuration
+# ****************************************************************************************
+
+UTM_PREFIXES = ('utm_', 'fbclid', 'gclid', 'mc_cid', 'mc_eid')
+
+
+# ****************************************************************************************
+# Functions
+# ****************************************************************************************
 
 
 def utc_now_iso() -> str:
@@ -15,23 +30,23 @@ def utc_now_iso() -> str:
 
 
 def normalize_whitespace(value: str) -> str:
-    return re.sub(r"\s+", " ", value or "").strip()
+    return re.sub(r'\s+', ' ', value or '').strip()
 
 
 def strip_html(value: str) -> str:
-    text = re.sub(r"<[^>]+>", " ", value or "")
+    text = re.sub(r'<[^>]+>', ' ', value or '')
     text = html.unescape(text)
     return normalize_whitespace(text)
 
 
 def stable_id(*parts: str) -> str:
-    payload = "|".join(part for part in parts if part)
-    return hashlib.sha256(payload.encode("utf-8")).hexdigest()[:16]
+    payload = '|'.join(part for part in parts if part)
+    return hashlib.sha256(payload.encode('utf-8')).hexdigest()[:16]
 
 
 def canonicalize_url(url: str) -> str:
     if not url:
-        return ""
+        return ''
     parsed = urlparse(url)
     query_pairs = [
         (key, value)
@@ -40,7 +55,7 @@ def canonicalize_url(url: str) -> str:
     ]
     cleaned = parsed._replace(
         query=urlencode(query_pairs),
-        fragment="",
+        fragment='',
         scheme=parsed.scheme.lower(),
         netloc=parsed.netloc.lower(),
     )
@@ -48,8 +63,8 @@ def canonicalize_url(url: str) -> str:
 
 
 def extract_domain(url: str) -> str:
-    parsed = urlparse(url or "")
-    return parsed.netloc.lower().replace("www.", "")
+    parsed = urlparse(url or '')
+    return parsed.netloc.lower().replace('www.', '')
 
 
 def safe_sentence(text: str, max_chars: int = 220) -> str:
@@ -57,8 +72,8 @@ def safe_sentence(text: str, max_chars: int = 220) -> str:
     if len(cleaned) <= max_chars:
         return cleaned
     truncated = cleaned[: max_chars - 1]
-    period_idx = truncated.rfind(".")
+    period_idx = truncated.rfind('.')
     if period_idx > 80:
         return truncated[: period_idx + 1]
-    return truncated + "..."
+    return truncated + '...'
 

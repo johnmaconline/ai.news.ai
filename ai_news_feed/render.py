@@ -9,6 +9,7 @@
 import json
 from html import escape
 from pathlib import Path
+from urllib.parse import quote
 
 from .config import SECTIONS
 from .models import Article, DailyFeed
@@ -138,6 +139,15 @@ header {
   flex-shrink: 0;
 }
 
+.favicon-img {
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 2px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
+
 .source-mini:hover {
   transform: translateY(-1px);
 }
@@ -252,12 +262,14 @@ def _source_icon_data(article: Article) -> tuple[str, str, str]:
         return source_name, 'icon-source-linkedin', 'linkedin'
     if source_type == 'x' or domain in {'x.com', 'twitter.com'}:
         return source_name, 'icon-source-x', 'x'
-    if source_type == 'hackernews' or 'ycombinator.com' in domain:
-        return source_name, 'icon-source-hn', 'hackernews'
     if 'reddit.com' in domain:
         return source_name, 'icon-source-reddit', 'reddit'
-    if source_type == 'arxiv' or 'arxiv.org' in domain:
+    if 'arxiv.org' in domain:
         return source_name, 'icon-source-arxiv', 'arxiv'
+    if 'news.ycombinator.com' in domain:
+        return source_name, 'icon-source-hn', 'hackernews'
+    if domain:
+        return source_name, '', 'favicon'
     return source_name, '', 'source'
 
 
@@ -317,14 +329,26 @@ def _icon_svg(icon_name: str) -> str:
     )
 
 
+def _favicon_markup(domain: str) -> str:
+    clean_domain = (domain or '').strip().lower()
+    if not clean_domain:
+        return _icon_svg('source')
+    favicon_url = f'https://www.google.com/s2/favicons?domain={quote(clean_domain, safe="")}&sz=64'
+    return (
+        f'<img class="favicon-img" src="{escape(favicon_url)}" alt="" loading="lazy" decoding="async" '
+        'referrerpolicy="no-referrer" />'
+    )
+
+
 def _render_story(article: Article) -> str:
     published = article.published_at.strftime('%Y-%m-%d %H:%M UTC') if article.published_at else 'time unknown'
     why_text = article.why_it_matters or 'High-signal item for this section.'
     source_name, source_class, source_icon_name = _source_icon_data(article)
     source_classes = f'source-mini {source_class}'.strip()
+    source_icon_markup = _favicon_markup(article.domain) if source_icon_name == 'favicon' else _icon_svg(source_icon_name)
     source_link = (
         f'<a class="{escape(source_classes)}" href="{escape(article.url)}" target="_blank" rel="noopener noreferrer" '
-        f'title="Source: {escape(source_name)}">{_icon_svg(source_icon_name)}</a>'
+        f'title="Source: {escape(source_name)}">{source_icon_markup}</a>'
     )
     score_link = (
         f'<a class="score-link" href="{escape(article.url)}" target="_blank" rel="noopener noreferrer" '

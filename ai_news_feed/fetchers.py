@@ -8,6 +8,7 @@
 
 import logging
 import os
+import re
 from datetime import datetime, timezone
 from urllib.parse import quote
 
@@ -41,6 +42,7 @@ from .utils import canonicalize_url, extract_domain, stable_id, strip_html
 
 log = logging.getLogger(__name__)
 USER_AGENT = 'ai-news-feed-bot/1.0 (+https://github.com/)'
+DEFAULT_FEEDS_FILE = 'config/feeds.md'
 
 
 # ****************************************************************************************
@@ -48,7 +50,248 @@ USER_AGENT = 'ai-news-feed-bot/1.0 (+https://github.com/)'
 # ****************************************************************************************
 
 
-def load_source_config(path: str) -> list[dict]:
+def _normalize_feeds_section(line: str) -> str | None:
+    if not line.startswith('#'):
+        return None
+    normalized = line.lstrip('#').strip().lower()
+    normalized = re.sub(r'^\d+\.\s*', '', normalized)
+    normalized = normalized.replace('_', ' ')
+    normalized = ' '.join(normalized.split())
+    if normalized in {'urls', 'url', 'feeds', 'rss'}:
+        return 'urls'
+    if normalized in {'linkedin users', 'linkedin', 'linkedin profiles'}:
+        return 'linkedin-users'
+    if normalized in {'x users', 'x', 'twitter users', 'twitter'}:
+        return 'x-users'
+    if normalized in {'other', 'notes', 'misc'}:
+        return 'other'
+    return None
+
+
+def _parse_markdown_list_item(line: str) -> str:
+    stripped = line.strip()
+    if stripped.startswith('- '):
+        return stripped[2:].strip()
+    if stripped.startswith('* '):
+        return stripped[2:].strip()
+    return ''
+
+
+def _parse_registry_entry(raw_entry: str) -> tuple[str, dict]:
+    parts = [part.strip() for part in raw_entry.split('|') if part.strip()]
+    if not parts:
+        return '', {}
+    primary = parts[0]
+    metadata: dict[str, str] = {}
+    for part in parts[1:]:
+        if '=' not in part:
+            continue
+        key, value = part.split('=', 1)
+        key = key.strip().lower().replace(' ', '_')
+        value = value.strip()
+        if key and value:
+            metadata[key] = value
+    return primary, metadata
+
+
+def _parse_registry_tags(metadata: dict) -> list[str]:
+    tags_raw = metadata.get('tags', '')
+    if not tags_raw:
+        return []
+    return [tag.strip() for tag in tags_raw.split(',') if tag.strip()]
+
+
+def _safe_float(metadata: dict, key: str, default: float) -> float:
+    value = metadata.get(key)
+    if not value:
+        return default
+    try:
+        return float(value)
+    except ValueError:
+        return default
+
+
+def _safe_int(metadata: dict, key: str, default: int) -> int:
+    value = metadata.get(key)
+    if not value:
+        return default
+    try:
+        return int(value)
+    except ValueError:
+        return default
+
+
+def _registry_slug(value: str) -> str:
+    lower = value.lower().strip()
+    slug = re.sub(r'[^a-z0-9]+', '-', lower).strip('-')
+    return slug or 'source'
+
+
+def _extract_x_username(value: str) -> str:
+    username = value.strip()
+    if username.startswith('@'):
+        username = username[1:]
+    if username.startswith('https://x.com/'):
+        username = username.replace('https://x.com/', '', 1)
+    if username.startswith('http://x.com/'):
+        username = username.replace('http://x.com/', '', 1)
+    if username.startswith('https://twitter.com/'):
+        username = username.replace('https://twitter.com/', '', 1)
+    if username.startswith('http://twitter.com/'):
+        username = username.replace('http://twitter.com/', '', 1)
+    username = username.split('/', 1)[0].split('?', 1)[0].split('#', 1)[0]
+    if re.fullmatch(r'[A-Za-z0-9_]{1,15}', username or ''):
+        return username
+    return ''
+
+
+def _parse_feeds_registry(path: str) -> dict[str, list[tuple[str, dict]]]:
+    registry: dict[str, list[tuple[str, dict]]] = {
+        'urls': [],
+        'linkedin-users': [],
+        'x-users': [],
+        'other': [],
+    }
+    if not os.path.exists(path):
+        return registry
+
+    current_section = ''
+    with open(path, 'r', encoding='utf-8') as handle:
+        for raw_line in handle:
+            line = raw_line.strip()
+            if not line or line.startswith('<!--'):
+                continue
+            section = _normalize_feeds_section(line)
+            if section:
+                current_section = section
+                continue
+            if not current_section:
+                continue
+            item = _parse_markdown_list_item(line)
+            if not item:
+                continue
+            primary, metadata = _parse_registry_entry(item)
+            if not primary:
+                continue
+            registry[current_section].append((primary, metadata))
+    return registry
+
+
+def _build_registry_url_source(url: str, metadata: dict, idx: int) -> dict | None:
+    cleaned_url = canonicalize_url(url)
+    if not cleaned_url:
+        return None
+    name = metadata.get('name') or extract_domain(cleaned_url) or f'Registry URL {idx}'
+    section_hint = metadata.get('section_hint') or metadata.get('section') or 'under-the-radar'
+    source_id = metadata.get('id') or f'feeds-md-url-{_registry_slug(name)}-{idx}'
+    source = {
+        'id': source_id,
+        'type': 'rss',
+        'name': name,
+        'url': cleaned_url,
+        'priority': _safe_float(metadata, 'priority', 6.0),
+        'section_hint': section_hint,
+        'tags': _parse_registry_tags(metadata) or ['under-the-radar', 'registry'],
+        'max_items': _safe_int(metadata, 'max_items', 20),
+    }
+    return source
+
+
+def _build_registry_x_source(entry: str, metadata: dict, idx: int) -> dict | None:
+    username = _extract_x_username(entry)
+    if not username:
+        log.warning('feeds.md x-users entry is invalid: %s', entry)
+        return None
+    section_hint = metadata.get('section_hint') or metadata.get('section') or 'under-the-radar'
+    source_id = metadata.get('id') or f'feeds-md-x-{_registry_slug(username)}-{idx}'
+    source = {
+        'id': source_id,
+        'type': 'x',
+        'name': metadata.get('name') or f'X @{username}',
+        'username': username,
+        'query': metadata.get('query') or f'from:{username} -is:retweet -is:reply lang:en',
+        'priority': _safe_float(metadata, 'priority', 5.0),
+        'section_hint': section_hint,
+        'tags': _parse_registry_tags(metadata) or ['under-the-radar', 'social'],
+        'max_items': _safe_int(metadata, 'max_items', 20),
+    }
+    return source
+
+
+def _build_registry_linkedin_source(entry: str, metadata: dict, idx: int) -> dict | None:
+    author_urn = metadata.get('author_urn') or entry.strip()
+    if not author_urn.startswith('urn:li:'):
+        log.warning('feeds.md linkedin-users entry must be a LinkedIn URN: %s', entry)
+        return None
+    section_hint = metadata.get('section_hint') or metadata.get('section') or 'under-the-radar'
+    source_id = metadata.get('id') or f'feeds-md-linkedin-{_registry_slug(author_urn)}-{idx}'
+    source = {
+        'id': source_id,
+        'type': 'linkedin',
+        'name': metadata.get('name') or f'LinkedIn {author_urn.split(":")[-1]}',
+        'author_urn': author_urn,
+        'priority': _safe_float(metadata, 'priority', 5.0),
+        'section_hint': section_hint,
+        'tags': _parse_registry_tags(metadata) or ['under-the-radar', 'social'],
+        'max_items': _safe_int(metadata, 'max_items', 20),
+    }
+    return source
+
+
+def _source_signature(source: dict) -> str:
+    source_type = (source.get('type') or '').strip().lower()
+    if source_type == 'rss':
+        return f'rss:{canonicalize_url(source.get("url") or "")}'
+    if source_type == 'x':
+        query = (source.get('query') or '').strip().lower()
+        return f'x:{query}'
+    if source_type == 'linkedin':
+        author = (source.get('author_urn') or '').strip().lower()
+        return f'linkedin:{author}'
+    if source_type == 'arxiv':
+        query = (source.get('query') or '').strip().lower()
+        return f'arxiv:{query}'
+    if source_type == 'hackernews':
+        endpoint = (source.get('endpoint') or 'top').strip().lower()
+        return f'hackernews:{endpoint}'
+    return f'{source_type}:{(source.get("id") or "").strip().lower()}'
+
+
+def _merge_sources(base_sources: list[dict], extra_sources: list[dict]) -> list[dict]:
+    merged = list(base_sources)
+    seen = {_source_signature(source) for source in base_sources}
+    for source in extra_sources:
+        signature = _source_signature(source)
+        if signature in seen:
+            continue
+        merged.append(source)
+        seen.add(signature)
+    return merged
+
+
+def _load_registry_sources(feeds_file: str) -> list[dict]:
+    registry = _parse_feeds_registry(feeds_file)
+    sources: list[dict] = []
+
+    for idx, (entry, metadata) in enumerate(registry['urls'], start=1):
+        source = _build_registry_url_source(entry, metadata, idx)
+        if source:
+            sources.append(source)
+
+    for idx, (entry, metadata) in enumerate(registry['linkedin-users'], start=1):
+        source = _build_registry_linkedin_source(entry, metadata, idx)
+        if source:
+            sources.append(source)
+
+    for idx, (entry, metadata) in enumerate(registry['x-users'], start=1):
+        source = _build_registry_x_source(entry, metadata, idx)
+        if source:
+            sources.append(source)
+
+    return sources
+
+
+def load_source_config(path: str, feeds_file: str = DEFAULT_FEEDS_FILE) -> list[dict]:
     if yaml is None:
         raise RuntimeError('PyYAML is required to load source configuration.')
     with open(path, 'r', encoding='utf-8') as handle:
@@ -56,6 +299,16 @@ def load_source_config(path: str) -> list[dict]:
     sources = payload.get('sources', [])
     if not isinstance(sources, list):
         raise ValueError('config.sources must be a list')
+    registry_sources = _load_registry_sources(feeds_file)
+    if registry_sources:
+        merged_sources = _merge_sources(sources, registry_sources)
+        log.info(
+            'Loaded %s source(s) from %s (%s total configured source(s)).',
+            len(registry_sources),
+            feeds_file,
+            len(merged_sources),
+        )
+        return merged_sources
     return sources
 
 
@@ -372,18 +625,56 @@ def _build_linkedin_url(post_id: str, fallback_url: str | None) -> str:
     return f'https://www.linkedin.com/feed/update/{encoded_id}/'
 
 
+def _resolve_linkedin_author_urn(source: dict) -> str:
+    env_author_urn = (os.getenv('LINKEDIN_AUTHOR_URN') or '').strip()
+    source_author_urn = (source.get('author_urn') or '').strip()
+    if env_author_urn:
+        if source_author_urn and source_author_urn != env_author_urn:
+            log.info('LinkedIn source %s: using LINKEDIN_AUTHOR_URN from env.', source.get('id'))
+        return env_author_urn
+    return source_author_urn
+
+
+def _linkedin_error_snippet(response) -> str:
+    try:
+        payload = response.json() or {}
+    except ValueError:
+        payload = {}
+    message = payload.get('message') or payload.get('error_description') or ''
+    code = payload.get('code') or payload.get('serviceErrorCode')
+    if code and message:
+        return f'{code}: {message}'
+    if message:
+        return str(message)
+    body_text = response.text or ''
+    return body_text.strip().replace('\n', ' ')[:240]
+
+
 def fetch_linkedin_source(source: dict) -> list[Article]:
     if requests is None:
         raise RuntimeError('requests is required for LinkedIn ingestion.')
 
     access_token = os.getenv('LINKEDIN_ACCESS_TOKEN')
     if not access_token:
-        log.warning('Skipping LinkedIn source %s: LINKEDIN_ACCESS_TOKEN is not set.', source.get('id'))
+        log.warning(
+            'Skipping LinkedIn source %s: LINKEDIN_ACCESS_TOKEN is not set.',
+            source.get('id'),
+        )
         return []
 
-    author_urn = (source.get('author_urn') or '').strip()
+    author_urn = _resolve_linkedin_author_urn(source)
     if not author_urn:
-        log.warning('Skipping LinkedIn source %s: missing author_urn.', source.get('id'))
+        log.warning(
+            'Skipping LinkedIn source %s: missing author_urn. Set LINKEDIN_AUTHOR_URN in .env.',
+            source.get('id'),
+        )
+        return []
+    if author_urn.endswith(':000000'):
+        log.warning(
+            'Skipping LinkedIn source %s: author_urn appears to be placeholder (%s).',
+            source.get('id'),
+            author_urn,
+        )
         return []
 
     max_items = max(5, min(int(source.get('max_items', 20)), 100))
@@ -403,12 +694,33 @@ def fetch_linkedin_source(source: dict) -> list[Article]:
     }
     response = requests.get(endpoint, headers=headers, params=params, timeout=20)
     if response.status_code >= 400:
-        log.warning('LinkedIn source %s request failed (%s).', source.get('id'), response.status_code)
+        error_snippet = _linkedin_error_snippet(response)
+        if response.status_code == 401:
+            log.warning(
+                'LinkedIn source %s unauthorized (401). Check LINKEDIN_ACCESS_TOKEN. Details: %s',
+                source.get('id'),
+                error_snippet,
+            )
+        elif response.status_code == 403:
+            log.warning(
+                'LinkedIn source %s access denied (403). '
+                'Confirm product access/scopes for Posts API and author_urn ownership. Details: %s',
+                source.get('id'),
+                error_snippet,
+            )
+        else:
+            log.warning(
+                'LinkedIn source %s request failed (%s). Details: %s',
+                source.get('id'),
+                response.status_code,
+                error_snippet,
+            )
         return []
 
     payload = response.json() or {}
     rows = payload.get('elements') or payload.get('data') or payload.get('results') or []
     if not isinstance(rows, list):
+        log.warning('LinkedIn source %s response did not contain a list payload.', source.get('id'))
         return []
 
     articles: list[Article] = []
@@ -446,6 +758,12 @@ def fetch_linkedin_source(source: dict) -> list[Article]:
             metrics=metrics,
         )
         articles.append(article)
+    log.info(
+        'LinkedIn source %s fetched %s item(s) for author %s.',
+        source.get('id'),
+        len(articles),
+        author_urn,
+    )
     return articles
 
 

@@ -198,8 +198,9 @@ sources:
     tags: [business, social]
     max_items: 30
 
-  # LinkedIn source requires LINKEDIN_ACCESS_TOKEN and your own author_urn
-  # (for example: urn:li:organization:123456).
+  # LinkedIn source requires LINKEDIN_ACCESS_TOKEN.
+  # You can keep author_urn here, or set LINKEDIN_AUTHOR_URN in .env to override
+  # without editing this file.
   - id: linkedin-ai-org
     type: linkedin
     name: LinkedIn AI Org Posts

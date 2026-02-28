@@ -1,4 +1,10 @@
-from __future__ import annotations
+##########################################################################################
+#
+# Script name: test_curation.py
+#
+# Description: Basic curation behavior tests.
+#
+##########################################################################################
 
 from datetime import datetime, timezone
 

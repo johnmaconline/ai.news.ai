@@ -117,6 +117,15 @@ header {
   flex-shrink: 0;
 }
 
+.favicon-img {
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 2px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
+
 .source-mini:hover {
   transform: translateY(-1px);
 }
