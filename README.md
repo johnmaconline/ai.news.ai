@@ -101,9 +101,11 @@ For social sources:
 - This file is loaded on every run (default path).
 - Sections:
   - `1. URLs` (RSS/Atom URLs; optional metadata such as `name=`, `section=`, `tags=`)
-  - `2. LinkedIN users` (LinkedIn `urn:li:...` entries)
+  - `2. LinkedIN users` (LinkedIn `urn:li:...` or LinkedIn profile/company URLs)
   - `3. X users` (usernames like `@swyx` or profile URL)
   - `4. other` (notes only; not ingested)
+- For LinkedIn URL entries, add `author_urn=urn:li:person:...` (or org URN) when available.
+  Without a URN, the source is tracked but LinkedIn API ingestion is skipped.
 - You can override the registry path:
 
 ```bash

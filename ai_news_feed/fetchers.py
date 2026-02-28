@@ -145,6 +145,20 @@ def _extract_x_username(value: str) -> str:
     return ''
 
 
+def _extract_linkedin_profile_url(value: str) -> str:
+    cleaned = value.strip()
+    lowered = cleaned.lower()
+    if lowered.startswith('https://www.linkedin.com/in/') or lowered.startswith('http://www.linkedin.com/in/'):
+        return canonicalize_url(cleaned)
+    if lowered.startswith('https://linkedin.com/in/') or lowered.startswith('http://linkedin.com/in/'):
+        return canonicalize_url(cleaned)
+    if lowered.startswith('https://www.linkedin.com/company/') or lowered.startswith('http://www.linkedin.com/company/'):
+        return canonicalize_url(cleaned)
+    if lowered.startswith('https://linkedin.com/company/') or lowered.startswith('http://linkedin.com/company/'):
+        return canonicalize_url(cleaned)
+    return ''
+
+
 def _parse_feeds_registry(path: str) -> dict[str, list[tuple[str, dict]]]:
     registry: dict[str, list[tuple[str, dict]]] = {
         'urls': [],
@@ -219,17 +233,34 @@ def _build_registry_x_source(entry: str, metadata: dict, idx: int) -> dict | Non
 
 
 def _build_registry_linkedin_source(entry: str, metadata: dict, idx: int) -> dict | None:
-    author_urn = metadata.get('author_urn') or entry.strip()
-    if not author_urn.startswith('urn:li:'):
-        log.warning('feeds.md linkedin-users entry must be a LinkedIn URN: %s', entry)
-        return None
+    author_urn = (metadata.get('author_urn') or '').strip()
+    profile_url = _extract_linkedin_profile_url(entry)
+
+    if not author_urn:
+        raw_entry = entry.strip()
+        if raw_entry.startswith('urn:li:'):
+            author_urn = raw_entry
+        elif profile_url:
+            author_urn = ''
+        else:
+            log.warning('feeds.md linkedin-users entry must be LinkedIn URN or profile URL: %s', entry)
+            return None
+
     section_hint = metadata.get('section_hint') or metadata.get('section') or 'under-the-radar'
-    source_id = metadata.get('id') or f'feeds-md-linkedin-{_registry_slug(author_urn)}-{idx}'
+    slug_basis = author_urn or profile_url
+    source_id = metadata.get('id') or f'feeds-md-linkedin-{_registry_slug(slug_basis)}-{idx}'
+    default_name = metadata.get('name')
+    if not default_name:
+        if author_urn:
+            default_name = f'LinkedIn {author_urn.split(":")[-1]}'
+        else:
+            default_name = f'LinkedIn {profile_url.rsplit("/", 2)[-2] if "/" in profile_url else "profile"}'
     source = {
         'id': source_id,
         'type': 'linkedin',
-        'name': metadata.get('name') or f'LinkedIn {author_urn.split(":")[-1]}',
+        'name': default_name,
         'author_urn': author_urn,
+        'profile_url': profile_url,
         'priority': _safe_float(metadata, 'priority', 5.0),
         'section_hint': section_hint,
         'tags': _parse_registry_tags(metadata) or ['under-the-radar', 'social'],
@@ -247,7 +278,10 @@ def _source_signature(source: dict) -> str:
         return f'x:{query}'
     if source_type == 'linkedin':
         author = (source.get('author_urn') or '').strip().lower()
-        return f'linkedin:{author}'
+        if author:
+            return f'linkedin:{author}'
+        profile_url = canonicalize_url(source.get('profile_url') or '').lower()
+        return f'linkedin-profile:{profile_url}'
     if source_type == 'arxiv':
         query = (source.get('query') or '').strip().lower()
         return f'arxiv:{query}'
@@ -627,27 +661,54 @@ def _build_linkedin_url(post_id: str, fallback_url: str | None) -> str:
 
 def _resolve_linkedin_author_urn(source: dict) -> str:
     env_author_urn = (os.getenv('LINKEDIN_AUTHOR_URN') or '').strip()
+    profile_url = (source.get('profile_url') or '').strip()
     source_author_urn = (source.get('author_urn') or '').strip()
-    if env_author_urn:
-        if source_author_urn and source_author_urn != env_author_urn:
-            log.info('LinkedIn source %s: using LINKEDIN_AUTHOR_URN from env.', source.get('id'))
+
+    if source_author_urn and not source_author_urn.endswith(':000000'):
+        return source_author_urn
+
+    if source_author_urn.endswith(':000000') and env_author_urn and not profile_url:
+        log.info('LinkedIn source %s: using LINKEDIN_AUTHOR_URN from env.', source.get('id'))
         return env_author_urn
-    return source_author_urn
+
+    if not source_author_urn and env_author_urn and not profile_url:
+        return env_author_urn
+
+    if source_author_urn:
+        return source_author_urn
+
+    return ''
 
 
-def _linkedin_error_snippet(response) -> str:
-    try:
-        payload = response.json() or {}
-    except ValueError:
-        payload = {}
-    message = payload.get('message') or payload.get('error_description') or ''
-    code = payload.get('code') or payload.get('serviceErrorCode')
-    if code and message:
-        return f'{code}: {message}'
-    if message:
-        return str(message)
-    body_text = response.text or ''
-    return body_text.strip().replace('\n', ' ')[:240]
+def _extract_linkedin_profile_slug(profile_url: str) -> str:
+    cleaned = profile_url.strip().rstrip('/')
+    if '/in/' in cleaned:
+        return cleaned.split('/in/', 1)[1].split('/', 1)[0]
+    if '/company/' in cleaned:
+        return cleaned.split('/company/', 1)[1].split('/', 1)[0]
+    return ''
+
+
+def _warn_linkedin_profile_requires_urn(source: dict) -> None:
+    profile_url = (source.get('profile_url') or '').strip()
+    if not profile_url:
+        return
+    slug = _extract_linkedin_profile_slug(profile_url)
+    if slug:
+        log.warning(
+            'LinkedIn source %s has profile URL %s but no author_urn. '
+            'Add metadata in feeds.md as: "%s | author_urn=urn:li:person:..." to enable ingestion.',
+            source.get('id'),
+            profile_url,
+            profile_url,
+        )
+        return
+    log.warning(
+        'LinkedIn source %s has profile URL %s but no author_urn. '
+        'Add author_urn metadata in feeds.md to enable ingestion.',
+        source.get('id'),
+        profile_url,
+    )
 
 
 def fetch_linkedin_source(source: dict) -> list[Article]:
@@ -664,10 +725,12 @@ def fetch_linkedin_source(source: dict) -> list[Article]:
 
     author_urn = _resolve_linkedin_author_urn(source)
     if not author_urn:
-        log.warning(
-            'Skipping LinkedIn source %s: missing author_urn. Set LINKEDIN_AUTHOR_URN in .env.',
-            source.get('id'),
-        )
+        _warn_linkedin_profile_requires_urn(source)
+        if not (source.get('profile_url') or '').strip():
+            log.warning(
+                'Skipping LinkedIn source %s: missing author_urn. Set author_urn or LINKEDIN_AUTHOR_URN.',
+                source.get('id'),
+            )
         return []
     if author_urn.endswith(':000000'):
         log.warning(
@@ -765,6 +828,21 @@ def fetch_linkedin_source(source: dict) -> list[Article]:
         author_urn,
     )
     return articles
+
+
+def _linkedin_error_snippet(response) -> str:
+    try:
+        payload = response.json() or {}
+    except ValueError:
+        payload = {}
+    message = payload.get('message') or payload.get('error_description') or ''
+    code = payload.get('code') or payload.get('serviceErrorCode')
+    if code and message:
+        return f'{code}: {message}'
+    if message:
+        return str(message)
+    body_text = response.text or ''
+    return body_text.strip().replace('\n', ' ')[:240]
 
 
 def build_sample_articles() -> list[Article]:

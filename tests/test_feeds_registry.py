@@ -71,7 +71,7 @@ def test_load_source_config_skips_invalid_linkedin_registry_entry(tmp_path: Path
         feeds_path,
         '''
         ## 2. LinkedIN users
-        - https://www.linkedin.com/company/example
+        - not-a-linkedin-entry
         ''',
     )
 
@@ -79,3 +79,24 @@ def test_load_source_config_skips_invalid_linkedin_registry_entry(tmp_path: Path
     linkedin_sources = [source for source in merged if source.get('type') == 'linkedin']
 
     assert linkedin_sources == []
+
+
+def test_load_source_config_accepts_linkedin_profile_url_entry(tmp_path: Path) -> None:
+    yaml_path = tmp_path / 'sources.yaml'
+    feeds_path = tmp_path / 'feeds.md'
+
+    _write_file(yaml_path, 'sources: []')
+    _write_file(
+        feeds_path,
+        '''
+        ## 2. LinkedIN users
+        - https://www.linkedin.com/in/emollick/
+        ''',
+    )
+
+    merged = load_source_config(str(yaml_path), feeds_file=str(feeds_path))
+    linkedin_sources = [source for source in merged if source.get('type') == 'linkedin']
+
+    assert len(linkedin_sources) == 1
+    assert linkedin_sources[0].get('profile_url') == 'https://www.linkedin.com/in/emollick/'
+    assert linkedin_sources[0].get('author_urn') == ''

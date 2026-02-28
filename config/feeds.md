@@ -6,6 +6,7 @@ Format:
 - Use markdown list items (`- ...`) under each section.
 - Optional metadata can be added with `| key=value`.
 - Example: `- https://example.com/feed.xml | name=Example | section=under-the-radar | tags=ai,engineering`
+- LinkedIN users can be URN or profile URL. Optional: `| author_urn=urn:li:person:...`
 
 ## 1. URLs
 
@@ -16,6 +17,7 @@ Format:
 ## 2. LinkedIN users
 
 - urn:li:organization:000000 | name=LinkedIn Org Placeholder | section=product-development | tags=product-development,business,social
+- https://www.linkedin.com/in/emollick/
 
 ## 3. X users
 
