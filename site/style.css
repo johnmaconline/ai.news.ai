@@ -101,29 +101,38 @@ header {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.55rem;
-  height: 1.55rem;
-  border-radius: 6px;
+  width: 1.18rem;
+  height: 1.18rem;
+  border-radius: 4px;
   border: 1px solid var(--stroke);
   background: #edf3fb;
   color: var(--accent) !important;
   text-decoration: none !important;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .icon-svg {
-  width: 0.88rem;
-  height: 0.88rem;
+  width: 0.72rem;
+  height: 0.72rem;
   display: block;
   flex-shrink: 0;
 }
 
 .favicon-img {
-  width: 0.9rem;
-  height: 0.9rem;
+  width: 0.72rem;
+  height: 0.72rem;
   border-radius: 2px;
   object-fit: contain;
   display: block;
   flex-shrink: 0;
+}
+
+.source-mini img {
+  width: 0.72rem !important;
+  height: 0.72rem !important;
+  max-width: 0.72rem !important;
+  max-height: 0.72rem !important;
 }
 
 .source-mini:hover {

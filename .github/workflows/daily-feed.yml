@@ -2,8 +2,8 @@ name: Daily AI Feed
 
 on:
   schedule:
-    # 13:15 UTC daily (~8:15 AM US Eastern standard time)
-    - cron: "15 13 * * *"
+    # Trigger at both 10:00 and 11:00 UTC; gate inside job so it runs only at 6:00 AM America/New_York.
+    - cron: "0 10,11 * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,6 +18,8 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    env:
+      FEED_TIMEZONE: ${{ vars.FEED_TIMEZONE || 'America/New_York' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -27,25 +29,45 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Gate scheduled runs to 6:00 AM Eastern
+        id: schedule_gate
+        run: |
+          if [ "${GITHUB_EVENT_NAME}" != "schedule" ]; then
+            echo "run=true" >> "${GITHUB_OUTPUT}"
+            exit 0
+          fi
+          hour="$(TZ="${FEED_TIMEZONE}" date +%H)"
+          minute="$(TZ="${FEED_TIMEZONE}" date +%M)"
+          if [ "${hour}" = "06" ] && [ "${minute}" = "00" ]; then
+            echo "run=true" >> "${GITHUB_OUTPUT}"
+          else
+            echo "run=false" >> "${GITHUB_OUTPUT}"
+            echo "Skipping scheduled run at ${hour}:${minute} in ${FEED_TIMEZONE}"
+          fi
+
       - name: Setup Python
+        if: steps.schedule_gate.outputs.run == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install Dependencies
+        if: steps.schedule_gate.outputs.run == 'true'
         run: pip install -r requirements.txt
 
       - name: Generate Daily Feed
+        if: steps.schedule_gate.outputs.run == 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
           LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
           LINKEDIN_API_VERSION: ${{ vars.LINKEDIN_API_VERSION }}
-          FEED_TIMEZONE: ${{ vars.FEED_TIMEZONE }}
+          FEED_TIMEZONE: ${{ env.FEED_TIMEZONE }}
         run: python -m ai_news_feed.main --output-dir site
 
       - name: Commit Generated Site
+        if: steps.schedule_gate.outputs.run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -58,13 +80,16 @@ jobs:
           fi
 
       - name: Configure Pages
+        if: steps.schedule_gate.outputs.run == 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload Pages Artifact
+        if: steps.schedule_gate.outputs.run == 'true'
         uses: actions/upload-pages-artifact@v4
         with:
           path: site
 
       - name: Deploy to GitHub Pages
+        if: steps.schedule_gate.outputs.run == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
