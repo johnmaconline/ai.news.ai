@@ -37,12 +37,11 @@ jobs:
             exit 0
           fi
           hour="$(TZ="${FEED_TIMEZONE}" date +%H)"
-          minute="$(TZ="${FEED_TIMEZONE}" date +%M)"
-          if [ "${hour}" = "06" ] && [ "${minute}" = "00" ]; then
+          if [ "${hour}" = "06" ]; then
             echo "run=true" >> "${GITHUB_OUTPUT}"
           else
             echo "run=false" >> "${GITHUB_OUTPUT}"
-            echo "Skipping scheduled run at ${hour}:${minute} in ${FEED_TIMEZONE}"
+            echo "Skipping scheduled run at ${hour}:xx in ${FEED_TIMEZONE}"
           fi
 
       - name: Setup Python
