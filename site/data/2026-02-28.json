@@ -1,6 +1,6 @@
 {
   "date": "2026-02-28",
-  "generated_at": "2026-02-28T13:12:56+00:00",
+  "generated_at": "2026-02-28T13:42:42+00:00",
   "title": "Daily AI Feed - 2026-02-28",
   "intro": "A curated daily AI briefing with original-source links across industry announcements, engineering, product development, business, under-the-radar signals, and fun experiments.",
   "sections": {
@@ -14,14 +14,14 @@
         "published_at": "2026-02-27T05:30:00+00:00",
         "summary_text": "OpenAI and Amazon announce a strategic partnership bringing OpenAI\u2019s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
         "why_it_matters": "This matters for what changed and who it impacts, based on this update from OpenAI News.",
-        "section_score": 19.767,
+        "section_score": 19.745,
         "scores": {
-          "big-announcements": 19.767,
-          "engineering": 11.567,
-          "product-development": 10.067,
-          "business": 11.567,
-          "under-the-radar": 9.267,
-          "for-fun": 11.567
+          "big-announcements": 19.745,
+          "engineering": 11.545,
+          "product-development": 10.045,
+          "business": 11.545,
+          "under-the-radar": 9.245,
+          "for-fun": 11.545
         }
       },
       {
@@ -33,33 +33,14 @@
         "published_at": "2026-02-26T10:00:00+00:00",
         "summary_text": "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting\u2014showing potential to reduce NEPA drafting time by up to 15% an...",
         "why_it_matters": "This matters for what changed and who it impacts, based on this update from OpenAI News.",
-        "section_score": 17.674,
+        "section_score": 17.664,
         "scores": {
-          "big-announcements": 17.674,
-          "engineering": 13.974,
-          "product-development": 9.474,
-          "business": 9.474,
-          "under-the-radar": 8.674,
-          "for-fun": 10.974
-        }
-      },
-      {
-        "id": "53a24f9591c88ae2",
-        "title": "Microsoft and OpenAI joint statement on continuing partnership",
-        "url": "https://blogs.microsoft.com/blog/2026/02/27/microsoft-and-openai-joint-statement-on-continuing-partnership/",
-        "source_name": "Microsoft AI Blog",
-        "domain": "blogs.microsoft.com",
-        "published_at": "2026-02-27T13:50:44+00:00",
-        "summary_text": "Since 2019, Microsoft and OpenAI have worked together to advance artificial intelligence responsibly and make its benefits broadly accessible.",
-        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Microsoft AI Blog.",
-        "section_score": 15.511,
-        "scores": {
-          "big-announcements": 15.511,
-          "engineering": 9.511,
-          "product-development": 11.011,
-          "business": 9.511,
-          "under-the-radar": 11.111,
-          "for-fun": 11.011
+          "big-announcements": 17.664,
+          "engineering": 13.964,
+          "product-development": 9.464,
+          "business": 9.464,
+          "under-the-radar": 8.664,
+          "for-fun": 10.964
         }
       },
       {
@@ -99,6 +80,25 @@
           "under-the-radar": 9.6,
           "for-fun": 8.0
         }
+      },
+      {
+        "id": "3c9fe74578022ede",
+        "title": "Microsoft, NVIDIA and Anthropic announce strategic partnerships",
+        "url": "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/",
+        "source_name": "Microsoft AI Blog",
+        "domain": "blogs.microsoft.com",
+        "published_at": "2025-11-18T15:00:03+00:00",
+        "summary_text": "Anthropic to scale Claude on Azure Anthropic to adopt NVIDIA architecture NVIDIA and Microsoft to invest in Anthropic Today Microsoft, NVIDIA and Anthropic announced new strategic partnerships.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Microsoft AI Blog.",
+        "section_score": 15.5,
+        "scores": {
+          "big-announcements": 15.5,
+          "engineering": 9.5,
+          "product-development": 8.0,
+          "business": 9.5,
+          "under-the-radar": 9.6,
+          "for-fun": 9.5
+        }
       }
     ],
     "engineering": [
@@ -111,14 +111,14 @@
         "published_at": "2026-02-23T15:47:06+00:00",
         "summary_text": "Hugging Face smolagents is an open source Python library designed to make it straightforward to build and run agents using a few lines of code.",
         "why_it_matters": "This matters for practical engineering workflow impact, based on this update from AWS Machine Learning Blog.",
-        "section_score": 20.53,
+        "section_score": 20.529,
         "scores": {
-          "big-announcements": 9.23,
-          "engineering": 20.53,
-          "product-development": 8.53,
-          "business": 7.03,
-          "under-the-radar": 6.23,
-          "for-fun": 7.03
+          "big-announcements": 9.229,
+          "engineering": 20.529,
+          "product-development": 8.529,
+          "business": 7.029,
+          "under-the-radar": 6.229,
+          "for-fun": 7.029
         }
       },
       {
@@ -130,14 +130,14 @@
         "published_at": "2026-02-26T17:31:43+00:00",
         "summary_text": "While Multi-Agent Systems (MAS) excel in complex reasoning, they suffer from the cascading impact of erroneous information generated by individual participants.",
         "why_it_matters": "This matters for practical engineering workflow impact, based on this update from arXiv AI Core.",
-        "section_score": 18.648,
+        "section_score": 18.635,
         "scores": {
-          "big-announcements": 8.148,
-          "engineering": 18.648,
-          "product-development": 6.648,
-          "business": 6.648,
-          "under-the-radar": 8.248,
-          "for-fun": 8.148
+          "big-announcements": 8.135,
+          "engineering": 18.635,
+          "product-development": 6.635,
+          "business": 6.635,
+          "under-the-radar": 8.235,
+          "for-fun": 8.135
         }
       },
       {
@@ -149,14 +149,14 @@
         "published_at": "2026-02-28T12:10:55+00:00",
         "summary_text": "I ran the same test I shared last week, and Qwen3.5-35B nailed it!!! This is the first time I have seen a sub-100B model reliably complete the task.",
         "why_it_matters": "This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.",
-        "section_score": 17.832,
+        "section_score": 17.753,
         "scores": {
-          "big-announcements": 10.332,
-          "engineering": 17.832,
-          "product-development": 8.832,
-          "business": 10.332,
-          "under-the-radar": 10.432,
-          "for-fun": 10.332
+          "big-announcements": 10.253,
+          "engineering": 17.753,
+          "product-development": 8.753,
+          "business": 10.253,
+          "under-the-radar": 10.353,
+          "for-fun": 10.253
         }
       },
       {
@@ -187,14 +187,14 @@
         "published_at": "2026-02-27T19:01:09+00:00",
         "summary_text": "I've been working on Krasis , a hybrid CPU/GPU runtime for large MoE models. The core idea: GPU handles prefill (the expensive part), CPU handles decode, with the system RAM doing extra heavy lifting to maximise perform...",
         "why_it_matters": "This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.",
-        "section_score": 17.374,
+        "section_score": 17.336,
         "scores": {
-          "big-announcements": 9.874,
-          "engineering": 17.374,
-          "product-development": 8.374,
-          "business": 6.874,
-          "under-the-radar": 8.474,
-          "for-fun": 8.374
+          "big-announcements": 9.836,
+          "engineering": 17.336,
+          "product-development": 8.336,
+          "business": 6.836,
+          "under-the-radar": 8.436,
+          "for-fun": 8.336
         }
       }
     ],
@@ -208,14 +208,14 @@
         "published_at": "2026-02-27T05:30:00+00:00",
         "summary_text": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.",
         "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from OpenAI News.",
-        "section_score": 16.767,
+        "section_score": 16.745,
         "scores": {
-          "big-announcements": 16.767,
-          "engineering": 10.067,
-          "product-development": 14.567,
-          "business": 10.067,
-          "under-the-radar": 9.267,
-          "for-fun": 10.067
+          "big-announcements": 16.745,
+          "engineering": 10.045,
+          "product-development": 14.545,
+          "business": 10.045,
+          "under-the-radar": 9.245,
+          "for-fun": 10.045
         }
       },
       {
@@ -265,14 +265,14 @@
         "published_at": "2026-02-28T05:12:46+00:00",
         "summary_text": "I've been playing with local LLMs for nearly 2 years on a rig with 3 older GPUs and 44 GB total VRAM, starting with Ollama, but recently using llama.cpp.",
         "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from r/LocalLLaMA.",
-        "section_score": 16.866,
+        "section_score": 16.807,
         "scores": {
-          "big-announcements": 7.866,
-          "engineering": 16.866,
-          "product-development": 12.366,
-          "business": 7.866,
-          "under-the-radar": 9.466,
-          "for-fun": 10.866
+          "big-announcements": 7.807,
+          "engineering": 16.807,
+          "product-development": 12.307,
+          "business": 7.807,
+          "under-the-radar": 9.407,
+          "for-fun": 10.807
         }
       },
       {
@@ -284,14 +284,14 @@
         "published_at": "2026-02-26T20:33:27+00:00",
         "summary_text": "Agentic Engineering Patterns > Many of my tips for working productively with coding agents are extensions of advice I've found useful in my career without them.",
         "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Simon Willison.",
-        "section_score": 15.335,
+        "section_score": 15.32,
         "scores": {
-          "big-announcements": 9.235,
-          "engineering": 13.735,
-          "product-development": 12.235,
-          "business": 7.735,
-          "under-the-radar": 15.335,
-          "for-fun": 10.735
+          "big-announcements": 9.22,
+          "engineering": 13.72,
+          "product-development": 12.22,
+          "business": 7.72,
+          "under-the-radar": 15.32,
+          "for-fun": 10.72
         }
       }
     ],
@@ -335,25 +335,6 @@
         }
       },
       {
-        "id": "c43cafd0ae1f9516",
-        "title": "OpenAI \u2013 How to delete your account",
-        "url": "https://help.openai.com/en/articles/6378407-how-to-delete-your-account",
-        "source_name": "Hacker News",
-        "domain": "help.openai.com",
-        "published_at": "2026-02-28T10:41:55+00:00",
-        "summary_text": "OpenAI \u2013 How to delete your account",
-        "why_it_matters": "This matters for business model and monetization impact, based on this update from Hacker News.",
-        "section_score": 16.102,
-        "scores": {
-          "big-announcements": 9.602,
-          "engineering": 16.102,
-          "product-development": 11.602,
-          "business": 11.602,
-          "under-the-radar": 11.202,
-          "for-fun": 9.602
-        }
-      },
-      {
         "id": "d7a0ff9f18d59f7f",
         "title": "Scaling AI for everyone",
         "url": "https://openai.com/index/scaling-ai-for-everyone",
@@ -362,14 +343,33 @@
         "published_at": "2026-02-27T05:30:00+00:00",
         "summary_text": "Today we\u2019re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.",
         "why_it_matters": "This matters for business model and monetization impact, based on this update from OpenAI News.",
-        "section_score": 16.767,
+        "section_score": 16.745,
         "scores": {
-          "big-announcements": 16.767,
-          "engineering": 10.067,
-          "product-development": 10.067,
-          "business": 11.567,
-          "under-the-radar": 9.267,
-          "for-fun": 10.067
+          "big-announcements": 16.745,
+          "engineering": 10.045,
+          "product-development": 10.045,
+          "business": 11.545,
+          "under-the-radar": 9.245,
+          "for-fun": 10.045
+        }
+      },
+      {
+        "id": "c43cafd0ae1f9516",
+        "title": "OpenAI \u2013 How to delete your account",
+        "url": "https://help.openai.com/en/articles/6378407-how-to-delete-your-account",
+        "source_name": "Hacker News",
+        "domain": "help.openai.com",
+        "published_at": "2026-02-28T10:41:55+00:00",
+        "summary_text": "OpenAI \u2013 How to delete your account",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from Hacker News.",
+        "section_score": 16.028,
+        "scores": {
+          "big-announcements": 9.528,
+          "engineering": 16.028,
+          "product-development": 11.528,
+          "business": 11.528,
+          "under-the-radar": 11.128,
+          "for-fun": 9.528
         }
       },
       {
@@ -381,14 +381,14 @@
         "published_at": "2026-02-27T14:56:05+00:00",
         "summary_text": "https://openai.com/index/scaling-ai-for-everyone/ https://x.com/sama/status/2027386252555919386 https://xcancel.com/sama/status/2027386252555919386",
         "why_it_matters": "This matters for business model and monetization impact, based on this update from Hacker News.",
-        "section_score": 14.081,
+        "section_score": 14.049,
         "scores": {
-          "big-announcements": 7.581,
-          "engineering": 14.081,
-          "product-development": 9.581,
-          "business": 11.081,
-          "under-the-radar": 6.781,
-          "for-fun": 7.581
+          "big-announcements": 7.549,
+          "engineering": 14.049,
+          "product-development": 9.549,
+          "business": 11.049,
+          "under-the-radar": 6.749,
+          "for-fun": 7.549
         }
       }
     ],
@@ -402,14 +402,14 @@
         "published_at": "2026-02-27T18:08:22+00:00",
         "summary_text": "Free Claude Max for (large project) open source maintainers Anthropic are now offering their $200/month Claude Max 20x plan for free to open source maintainers... for six months...",
         "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Simon Willison.",
-        "section_score": 16.407,
+        "section_score": 16.37,
         "scores": {
-          "big-announcements": 10.307,
-          "engineering": 11.807,
-          "product-development": 11.807,
-          "business": 8.807,
-          "under-the-radar": 16.407,
-          "for-fun": 8.807
+          "big-announcements": 10.27,
+          "engineering": 11.77,
+          "product-development": 11.77,
+          "business": 8.77,
+          "under-the-radar": 16.37,
+          "for-fun": 8.77
         }
       },
       {
@@ -421,14 +421,14 @@
         "published_at": "2026-02-25T16:46:19+00:00",
         "summary_text": "I gave a talk this weekend at Social Science FOO Camp in Mountain View. The event was a classic unconference format where anyone could present a talk without needing to propose it in advance.",
         "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Simon Willison.",
-        "section_score": 16.331,
+        "section_score": 16.326,
         "scores": {
-          "big-announcements": 8.731,
-          "engineering": 10.231,
-          "product-development": 10.231,
-          "business": 8.731,
-          "under-the-radar": 16.331,
-          "for-fun": 10.231
+          "big-announcements": 8.726,
+          "engineering": 10.226,
+          "product-development": 10.226,
+          "business": 8.726,
+          "under-the-radar": 16.326,
+          "for-fun": 10.226
         }
       },
       {
@@ -440,14 +440,14 @@
         "published_at": "2026-02-28T05:01:13+00:00",
         "summary_text": "Congratulations, you secured the biggest number.",
         "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Latent Space.",
-        "section_score": 14.943,
+        "section_score": 14.885,
         "scores": {
-          "big-announcements": 8.843,
-          "engineering": 8.843,
-          "product-development": 8.843,
-          "business": 10.343,
-          "under-the-radar": 14.943,
-          "for-fun": 11.843
+          "big-announcements": 8.785,
+          "engineering": 8.785,
+          "product-development": 8.785,
+          "business": 10.285,
+          "under-the-radar": 14.885,
+          "for-fun": 11.785
         }
       },
       {
@@ -459,14 +459,14 @@
         "published_at": "2026-02-28T01:31:01+00:00",
         "summary_text": "We\u2019re excited to announce our new show In-Context Cooking where guests cook while chatting about cool topics.",
         "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Latent Space.",
-        "section_score": 14.557,
+        "section_score": 14.507,
         "scores": {
-          "big-announcements": 9.957,
-          "engineering": 8.457,
-          "product-development": 8.457,
-          "business": 9.957,
-          "under-the-radar": 14.557,
-          "for-fun": 8.457
+          "big-announcements": 9.907,
+          "engineering": 8.407,
+          "product-development": 8.407,
+          "business": 9.907,
+          "under-the-radar": 14.507,
+          "for-fun": 8.407
         }
       },
       {
@@ -499,14 +499,14 @@
         "published_at": "2026-02-28T06:26:02+00:00",
         "summary_text": "The body wasn't even cold before OpenAI signed a deal to deploy on classified Department of War networks.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
-        "section_score": 13.016,
+        "section_score": 12.954,
         "scores": {
-          "big-announcements": 10.016,
-          "engineering": 7.016,
-          "product-development": 7.016,
-          "business": 7.016,
-          "under-the-radar": 8.616,
-          "for-fun": 13.016
+          "big-announcements": 9.954,
+          "engineering": 6.954,
+          "product-development": 6.954,
+          "business": 6.954,
+          "under-the-radar": 8.554,
+          "for-fun": 12.954
         }
       },
       {
@@ -518,14 +518,14 @@
         "published_at": "2026-02-28T04:40:37+00:00",
         "summary_text": "DeepSeek is set to release its latest large language model next week, more than a year since its last major release in a fresh test of China's ambitions to challenge US rivals in AI.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
-        "section_score": 12.803,
+        "section_score": 12.746,
         "scores": {
-          "big-announcements": 8.303,
-          "engineering": 6.803,
-          "product-development": 8.303,
-          "business": 6.803,
-          "under-the-radar": 8.403,
-          "for-fun": 12.803
+          "big-announcements": 8.246,
+          "engineering": 6.746,
+          "product-development": 8.246,
+          "business": 6.746,
+          "under-the-radar": 8.346,
+          "for-fun": 12.746
         }
       },
       {
@@ -537,14 +537,33 @@
         "published_at": "2026-02-26T18:38:38+00:00",
         "summary_text": "Hey HN - we're Saksham and Ishan, and we\u2019re building Cardboard ( https://www.usecardboard.com ). It lets you go from raw footage to an edited video by describing what you want in natural language.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from Hacker News.",
-        "section_score": 15.039,
+        "section_score": 15.025,
         "scores": {
-          "big-announcements": 11.179,
-          "engineering": 15.039,
-          "product-development": 10.539,
-          "business": 8.765,
-          "under-the-radar": 8.279,
-          "for-fun": 11.179
+          "big-announcements": 11.165,
+          "engineering": 15.025,
+          "product-development": 10.525,
+          "business": 8.751,
+          "under-the-radar": 8.265,
+          "for-fun": 11.165
+        }
+      },
+      {
+        "id": "53a24f9591c88ae2",
+        "title": "Microsoft and OpenAI joint statement on continuing partnership",
+        "url": "https://blogs.microsoft.com/blog/2026/02/27/microsoft-and-openai-joint-statement-on-continuing-partnership/",
+        "source_name": "Microsoft AI Blog",
+        "domain": "blogs.microsoft.com",
+        "published_at": "2026-02-27T13:50:44+00:00",
+        "summary_text": "Since 2019, Microsoft and OpenAI have worked together to advance artificial intelligence responsibly and make its benefits broadly accessible.",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from Microsoft AI Blog.",
+        "section_score": 15.48,
+        "scores": {
+          "big-announcements": 15.48,
+          "engineering": 9.48,
+          "product-development": 10.98,
+          "business": 9.48,
+          "under-the-radar": 11.08,
+          "for-fun": 10.98
         }
       },
       {
@@ -556,33 +575,14 @@
         "published_at": "2026-02-23T05:30:00+00:00",
         "summary_text": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from OpenAI News.",
-        "section_score": 17.22,
+        "section_score": 17.219,
         "scores": {
-          "big-announcements": 17.22,
-          "engineering": 12.02,
-          "product-development": 10.52,
-          "business": 10.52,
-          "under-the-radar": 8.22,
-          "for-fun": 10.52
-        }
-      },
-      {
-        "id": "e07ae5702ca31f8d",
-        "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
-        "url": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/",
-        "source_name": "Simon Willison",
-        "domain": "simonwillison.net",
-        "published_at": "2026-02-27T20:43:41+00:00",
-        "summary_text": "An AI agent coding skeptic tries AI agent coding, in excessive detail Another in the genre of \"OK, coding agents got good in November\" posts, this one is by Max Woolf and is very much worth your time.",
-        "why_it_matters": "This matters for why this is creative and interesting, based on this update from Simon Willison.",
-        "section_score": 15.113,
-        "scores": {
-          "big-announcements": 10.513,
-          "engineering": 12.013,
-          "product-development": 10.513,
-          "business": 10.513,
-          "under-the-radar": 15.113,
-          "for-fun": 10.513
+          "big-announcements": 17.219,
+          "engineering": 12.019,
+          "product-development": 10.519,
+          "business": 10.519,
+          "under-the-radar": 8.219,
+          "for-fun": 10.519
         }
       }
     ]
