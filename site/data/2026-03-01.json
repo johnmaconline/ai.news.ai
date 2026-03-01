@@ -1,124 +1,84 @@
 {
   "date": "2026-03-01",
-  "generated_at": "2026-03-01T11:14:19+00:00",
+  "generated_at": "2026-03-01T12:23:51+00:00",
   "title": "Daily AI Feed - 2026-03-01",
   "intro": "A curated daily AI briefing with original-source links across industry announcements, engineering, product development, business, under-the-radar signals, and fun experiments.",
   "sections": {
     "big-announcements": [
       {
-        "id": "54d8b856a06e3e8d",
-        "title": "OpenAI and Amazon announce strategic partnership",
-        "url": "https://openai.com/index/amazon-partnership",
+        "id": "54a189533d793edc",
+        "title": "Our agreement with the Department of War",
+        "url": "https://openai.com/index/our-agreement-with-the-department-of-war",
         "source_name": "OpenAI News",
         "domain": "openai.com",
-        "published_at": "2026-02-27T05:30:00+00:00",
-        "summary_text": "OpenAI and Amazon announce a strategic partnership bringing OpenAI\u2019s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
+        "published_at": "2026-02-28T12:30:00+00:00",
+        "summary_text": "Details on OpenAI\u2019s contract with the Department of War, outlining safety red lines, legal protections, and how AI systems will be deployed in classified environments.",
         "why_it_matters": "This matters for what changed and who it impacts, based on this update from OpenAI News.",
-        "section_score": 19.126,
+        "section_score": 17.178,
         "scores": {
-          "big-announcements": 19.126,
-          "engineering": 10.926,
-          "product-development": 9.426,
-          "business": 10.926,
-          "under-the-radar": 8.626,
-          "for-fun": 10.926
+          "big-announcements": 17.178,
+          "engineering": 10.478,
+          "product-development": 10.478,
+          "business": 2.278,
+          "under-the-radar": 9.678,
+          "for-fun": 11.978
         }
       },
       {
-        "id": "bdaf757ebe278299",
-        "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting",
-        "url": "https://openai.com/index/pacific-northwest-national-laboratory",
-        "source_name": "OpenAI News",
-        "domain": "openai.com",
-        "published_at": "2026-02-26T10:00:00+00:00",
-        "summary_text": "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting\u2014showing potential to reduce NEPA drafting time by up to 15% an...",
-        "why_it_matters": "This matters for what changed and who it impacts, based on this update from OpenAI News.",
-        "section_score": 17.389,
+        "id": "470ccceb63eff7eb",
+        "title": "Anthropic's Custom Claude Model For The Pentagon Is 1-2 Generations Ahead Of The Consumer Model",
+        "url": "https://www.reddit.com/r/singularity/comments/1rhqu1m/anthropics_custom_claude_model_for_the_pentagon/",
+        "source_name": "r/singularity",
+        "domain": "reddit.com",
+        "published_at": "2026-03-01T07:14:58+00:00",
+        "summary_text": "In the interview with CBS yesterday, Dario confirmed that Anthropic built custom Claude models for the military , that have \"revolutionized and radically accelerated\" what the military can do, and that these are just th...",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from r/singularity.",
+        "section_score": 13.228,
         "scores": {
-          "big-announcements": 17.389,
-          "engineering": 13.689,
-          "product-development": 9.189,
-          "business": 9.189,
-          "under-the-radar": 8.389,
-          "for-fun": 10.689
+          "big-announcements": 13.228,
+          "engineering": 7.228,
+          "product-development": 10.228,
+          "business": -0.972,
+          "under-the-radar": 8.828,
+          "for-fun": 13.228
         }
       },
       {
-        "id": "4b0d8c688b458fd6",
-        "title": "AI Impact Summit 2026",
-        "url": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-collection/",
-        "source_name": "Google AI Blog",
-        "domain": "blog.google",
-        "published_at": "2026-02-19T04:30:00+00:00",
-        "summary_text": "A look at the partnerships and investments Google announced at the AI Impact Summit 2026.",
-        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Google AI Blog.",
-        "section_score": 15.5,
+        "id": "0cef997c36166885",
+        "title": "The U.S. used Anthropic AI tools during airstrikes on Iran",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rhogov/the_us_used_anthropic_ai_tools_during_airstrikes/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-03-01T05:02:45+00:00",
+        "summary_text": "Hours after announcing that the federal government would cease using artificial intelligence tools developed by the tech company Anthropic, U.S.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from r/LocalLLaMA.",
+        "section_score": 12.445,
         "scores": {
-          "big-announcements": 15.5,
-          "engineering": 8.0,
-          "product-development": 8.0,
-          "business": 8.0,
-          "under-the-radar": 9.6,
-          "for-fun": 9.5
+          "big-announcements": 12.445,
+          "engineering": 12.445,
+          "product-development": 7.945,
+          "business": 6.645,
+          "under-the-radar": 9.545,
+          "for-fun": 10.945
         }
       },
       {
-        "id": "b637ed426fdce54d",
-        "title": "Microsoft announces acquisition of Osmos to accelerate autonomous data engineering in Fabric",
-        "url": "https://blogs.microsoft.com/blog/2026/01/05/microsoft-announces-acquisition-of-osmos-to-accelerate-autonomous-data-engineering-in-fabric/",
-        "source_name": "Microsoft AI Blog",
-        "domain": "blogs.microsoft.com",
-        "published_at": "2026-01-05T17:00:01+00:00",
-        "summary_text": "Today, Microsoft is announcing the acquisition of Osmos, an agentic AI data engineering platform designed to help simplify complex and time-consuming data workflows.",
-        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Microsoft AI Blog.",
-        "section_score": 15.5,
+        "id": "a45892431f3be48c",
+        "title": "Quoting claude.com/import-memory",
+        "url": "https://simonwillison.net/2026/Mar/1/claude-import-memory/",
+        "source_name": "Simon Willison",
+        "domain": "simonwillison.net",
+        "published_at": "2026-03-01T11:21:45+00:00",
+        "summary_text": "I'm moving to another service and need to export my data. List every memory you have stored about me, as well as any context you've learned about me from past conversations.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Simon Willison.",
+        "section_score": 16.932,
         "scores": {
-          "big-announcements": 15.5,
-          "engineering": 9.5,
-          "product-development": 9.5,
-          "business": 8.0,
-          "under-the-radar": 9.6,
-          "for-fun": 8.0
-        }
-      },
-      {
-        "id": "3c9fe74578022ede",
-        "title": "Microsoft, NVIDIA and Anthropic announce strategic partnerships",
-        "url": "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/",
-        "source_name": "Microsoft AI Blog",
-        "domain": "blogs.microsoft.com",
-        "published_at": "2025-11-18T15:00:03+00:00",
-        "summary_text": "Anthropic to scale Claude on Azure Anthropic to adopt NVIDIA architecture NVIDIA and Microsoft to invest in Anthropic Today Microsoft, NVIDIA and Anthropic announced new strategic partnerships.",
-        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Microsoft AI Blog.",
-        "section_score": 15.5,
-        "scores": {
-          "big-announcements": 15.5,
-          "engineering": 9.5,
-          "product-development": 8.0,
-          "business": 9.5,
-          "under-the-radar": 9.6,
-          "for-fun": 9.5
-        }
-      }
-    ],
-    "engineering": [
-      {
-        "id": "57ee11ec92ac0668",
-        "title": "Agentic AI with multi-model framework using Hugging Face smolagents on AWS",
-        "url": "https://aws.amazon.com/blogs/machine-learning/agentic-ai-with-multi-model-framework-using-hugging-face-smolagents-on-aws/",
-        "source_name": "AWS Machine Learning Blog",
-        "domain": "aws.amazon.com",
-        "published_at": "2026-02-23T15:47:06+00:00",
-        "summary_text": "Hugging Face smolagents is an open source Python library designed to make it straightforward to build and run agents using a few lines of code.",
-        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from AWS Machine Learning Blog.",
-        "section_score": 20.512,
-        "scores": {
-          "big-announcements": 9.212,
-          "engineering": 20.512,
-          "product-development": 8.512,
-          "business": 7.012,
-          "under-the-radar": 6.212,
-          "for-fun": 7.012
+          "big-announcements": 10.832,
+          "engineering": 13.832,
+          "product-development": 10.832,
+          "business": 8.632,
+          "under-the-radar": 16.932,
+          "for-fun": 10.832
         }
       },
       {
@@ -129,287 +89,93 @@
         "domain": "github.com",
         "published_at": "2026-02-28T23:44:41+00:00",
         "summary_text": "Recently several AI labs have published experiments where they tried to get AI coding agents to complete large software projects. - Cursor attempted to make a browser from scratch: https://cursor.",
-        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Hacker News.",
-        "section_score": 19.358,
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Hacker News.",
+        "section_score": 19.248,
         "scores": {
-          "big-announcements": 9.978,
-          "engineering": 19.358,
-          "product-development": 11.858,
-          "business": 8.737,
-          "under-the-radar": 10.078,
-          "for-fun": 8.478
+          "big-announcements": 9.861,
+          "engineering": 19.248,
+          "product-development": 11.748,
+          "business": 12.025,
+          "under-the-radar": 9.961,
+          "for-fun": 8.361
         }
-      },
+      }
+    ],
+    "engineering": [
       {
-        "id": "557f6b347e4091c8",
-        "title": "Qwen3 Coder Next | Qwen3.5 27B | Devstral Small 2 | Rust & Next.js Benchmark",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rhfque/qwen3_coder_next_qwen35_27b_devstral_small_2_rust/",
+        "id": "303930e6be896f7d",
+        "title": "PSA: If your local coding agent feels \"dumb\" at 30k+ context, check your KV cache quantization first.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rhvi09/psa_if_your_local_coding_agent_feels_dumb_at_30k/",
         "source_name": "r/LocalLLaMA",
         "domain": "reddit.com",
-        "published_at": "2026-02-28T22:17:13+00:00",
-        "summary_text": "Previously This benchmark continues my local testing on personal production repos, helping me narrow down the best models to complement my daily driver Devstral Small 2.",
+        "published_at": "2026-03-01T11:55:51+00:00",
+        "summary_text": "I\u2019ve been seeing a lot of posts lately about models like Qwen3-Coder or GLM 4.7 getting trapped in infinite correction loops or hallucinating tool-call parameters once the context gets deep.",
         "why_it_matters": "This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.",
-        "section_score": 19.332,
+        "section_score": 22.424,
         "scores": {
-          "big-announcements": 7.332,
-          "engineering": 19.332,
-          "product-development": 10.332,
-          "business": 8.832,
-          "under-the-radar": 8.932,
-          "for-fun": 8.832
+          "big-announcements": 8.924,
+          "engineering": 22.424,
+          "product-development": 8.924,
+          "business": 14.324,
+          "under-the-radar": 10.524,
+          "for-fun": 10.424
         }
       },
       {
-        "id": "34a43198d283b413",
-        "title": "AgentDropoutV2: Optimizing Information Flow in Multi-Agent Systems via Test-Time Rectify-or-Reject Pruning",
-        "url": "http://arxiv.org/abs/2602.23258v1",
-        "source_name": "arXiv AI Core",
-        "domain": "arxiv.org",
-        "published_at": "2026-02-26T17:31:43+00:00",
-        "summary_text": "While Multi-Agent Systems (MAS) excel in complex reasoning, they suffer from the cascading impact of erroneous information generated by individual participants.",
-        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from arXiv AI Core.",
-        "section_score": 18.259,
+        "id": "1a66c0091fa53d7d",
+        "title": "Benchmarking 88 smol GGUF models quickly on a cheap Mac Mini (16 GB) to find fitting local LLM",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rhuvyc/benchmarking_88_smol_gguf_models_quickly_on_a/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-03-01T11:19:37+00:00",
+        "summary_text": "An automated pipeline that downloads, benchmarks (throughput + latency + quality), uploads, and deletes GGUF models in waves on a single Mac Mini M4 with 16 GB unified memory (or any other Mac) https://preview.redd.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.",
+        "section_score": 22.326,
         "scores": {
-          "big-announcements": 7.759,
-          "engineering": 18.259,
-          "product-development": 6.259,
-          "business": 6.259,
-          "under-the-radar": 7.859,
-          "for-fun": 7.759
+          "big-announcements": 8.826,
+          "engineering": 22.326,
+          "product-development": 10.326,
+          "business": 6.626,
+          "under-the-radar": 11.926,
+          "for-fun": 10.326
         }
       },
       {
-        "id": "9fa6421b6aa531b8",
-        "title": "monday Service + LangSmith: Building a Code-First Evaluation Strategy from Day 1",
-        "url": "https://blog.langchain.com/customers-monday/",
-        "source_name": "LangChain Blog",
-        "domain": "blog.langchain.com",
-        "published_at": "2026-02-18T08:05:53+00:00",
-        "summary_text": "Learn how monday Service developed an eval-driven development framework for their customer-facing service agents.",
-        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from LangChain Blog.",
-        "section_score": 17.5,
-        "scores": {
-          "big-announcements": 7.0,
-          "engineering": 17.5,
-          "product-development": 10.0,
-          "business": 8.5,
-          "under-the-radar": 8.6,
-          "for-fun": 7.0
-        }
-      }
-    ],
-    "product-development": [
-      {
-        "id": "1f7e7f57b2bc8df3",
-        "title": "Joint Statement from OpenAI and Microsoft",
-        "url": "https://openai.com/index/continuing-microsoft-partnership",
-        "source_name": "OpenAI News",
-        "domain": "openai.com",
-        "published_at": "2026-02-27T05:30:00+00:00",
-        "summary_text": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.",
-        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from OpenAI News.",
-        "section_score": 16.126,
-        "scores": {
-          "big-announcements": 16.126,
-          "engineering": 9.426,
-          "product-development": 13.926,
-          "business": 9.426,
-          "under-the-radar": 8.626,
-          "for-fun": 9.426
-        }
-      },
-      {
-        "id": "14012f8053c4115d",
-        "title": "EP96: Designing for AI Disruption: How to Build Resilient Products",
-        "url": "https://www.productcoalition.com/p/designing-for-ai-disruption-how-to",
-        "source_name": "Product Coalition",
-        "domain": "productcoalition.com",
-        "published_at": "2025-11-02T11:00:52+00:00",
-        "summary_text": "Summary",
-        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Product Coalition.",
-        "section_score": 12.5,
-        "scores": {
-          "big-announcements": 5.0,
-          "engineering": 5.0,
-          "product-development": 12.5,
-          "business": 5.0,
-          "under-the-radar": 6.6,
-          "for-fun": 5.0
-        }
-      },
-      {
-        "id": "c750166d2d28ff3a",
-        "title": "EP88 Unite, Innovate, Elevate: Transform Product Strategy",
-        "url": "https://www.productcoalition.com/p/ep89-unite-innovate-elevate-transform",
-        "source_name": "Product Coalition",
-        "domain": "productcoalition.com",
-        "published_at": "2025-07-27T17:30:58+00:00",
-        "summary_text": "Summary In this episode of the Product Coalition podcast, Jay Stansell interviews Andrea Saez, head of product marketing at Turtle and co-author of 'The Product Momentum Gap.",
-        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Product Coalition.",
-        "section_score": 12.5,
-        "scores": {
-          "big-announcements": 5.0,
-          "engineering": 5.0,
-          "product-development": 12.5,
-          "business": 5.0,
-          "under-the-radar": 6.6,
-          "for-fun": 5.0
-        }
-      },
-      {
-        "id": "e22dbfc7360277b8",
-        "title": "A Guide to Which AI to Use in the Agentic Era",
-        "url": "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the",
-        "source_name": "One Useful Thing",
-        "domain": "oneusefulthing.org",
-        "published_at": "2026-02-18T01:45:41+00:00",
-        "summary_text": "It's not just chatbots anymore",
-        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from One Useful Thing.",
-        "section_score": 12.0,
-        "scores": {
-          "big-announcements": 6.0,
-          "engineering": 7.5,
-          "product-development": 12.0,
-          "business": 6.0,
-          "under-the-radar": 7.6,
-          "for-fun": 6.0
-        }
-      },
-      {
-        "id": "96d905bf29f65c45",
-        "title": "An Opinionated Guide to Using AI Right Now",
-        "url": "https://www.oneusefulthing.org/p/an-opinionated-guide-to-using-ai",
-        "source_name": "One Useful Thing",
-        "domain": "oneusefulthing.org",
-        "published_at": "2025-10-19T18:45:34+00:00",
-        "summary_text": "What AI to use in late 2025",
-        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from One Useful Thing.",
-        "section_score": 12.0,
-        "scores": {
-          "big-announcements": 6.0,
-          "engineering": 6.0,
-          "product-development": 12.0,
-          "business": 6.0,
-          "under-the-radar": 7.6,
-          "for-fun": 6.0
-        }
-      }
-    ],
-    "business": [
-      {
-        "id": "f964fabd3132dd5f",
-        "title": "Meesho Goes Public",
-        "url": "https://www.ycombinator.com/blog/meesho-goes-public/",
-        "source_name": "Y Combinator Blog",
-        "domain": "ycombinator.com",
-        "published_at": "2025-12-10T04:32:10+00:00",
-        "summary_text": "Meesho goes public today. From S16 to IPO, they\u2019ve built one of India\u2019s largest e-commerce platforms\u2014empowering millions of small merchants to grow their businesses.",
-        "why_it_matters": "This matters for business model and monetization impact, based on this update from Y Combinator Blog.",
-        "section_score": 12.0,
-        "scores": {
-          "big-announcements": 6.0,
-          "engineering": 6.0,
-          "product-development": 7.5,
-          "business": 12.0,
-          "under-the-radar": 7.6,
-          "for-fun": 6.0
-        }
-      },
-      {
-        "id": "5a22954028e4e3f9",
-        "title": "BillionToOne Goes Public \u2014 The Startup That Made Genetic Testing Universal",
-        "url": "https://www.ycombinator.com/blog/billiontoone/",
-        "source_name": "Y Combinator Blog",
-        "domain": "ycombinator.com",
-        "published_at": "2025-11-06T15:52:00+00:00",
-        "summary_text": "Today, BillionToOne goes public, becoming YC's fourth publicly traded biotech company. More importantly, they have built one of the most important genetic tests in the U.S.",
-        "why_it_matters": "This matters for business model and monetization impact, based on this update from Y Combinator Blog.",
-        "section_score": 12.0,
-        "scores": {
-          "big-announcements": 6.0,
-          "engineering": 7.5,
-          "product-development": 7.5,
-          "business": 12.0,
-          "under-the-radar": 7.6,
-          "for-fun": 7.5
-        }
-      },
-      {
-        "id": "d7a0ff9f18d59f7f",
-        "title": "Scaling AI for everyone",
-        "url": "https://openai.com/index/scaling-ai-for-everyone",
-        "source_name": "OpenAI News",
-        "domain": "openai.com",
-        "published_at": "2026-02-27T05:30:00+00:00",
-        "summary_text": "Today we\u2019re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.",
-        "why_it_matters": "This matters for business model and monetization impact, based on this update from OpenAI News.",
-        "section_score": 16.126,
-        "scores": {
-          "big-announcements": 16.126,
-          "engineering": 9.426,
-          "product-development": 9.426,
-          "business": 10.926,
-          "under-the-radar": 8.626,
-          "for-fun": 9.426
-        }
-      },
-      {
-        "id": "3f556ea7feae3a3c",
-        "title": "Microgpt",
-        "url": "http://karpathy.github.io/2026/02/12/microgpt/",
+        "id": "de11b990ddce57cc",
+        "title": "Show HN: Decided to play god this morning, so I built an agent civilisation",
+        "url": "https://github.com/nocodemf/werld",
         "source_name": "Hacker News",
-        "domain": "karpathy.github.io",
-        "published_at": "2026-03-01T01:39:26+00:00",
-        "summary_text": "Microgpt",
-        "why_it_matters": "This matters for business model and monetization impact, based on this update from Hacker News.",
-        "section_score": 15.184,
+        "domain": "github.com",
+        "published_at": "2026-02-28T14:05:27+00:00",
+        "summary_text": "at a pub in london, 2 weeks ago - I asked myself, if you spawned agents into a world with blank neural networks and zero knowledge of human existence \u2014 no language, no economy, no social templates \u2014 what would they evol...",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Hacker News.",
+        "section_score": 16.906,
         "scores": {
-          "big-announcements": 8.684,
-          "engineering": 15.184,
-          "product-development": 10.684,
-          "business": 10.684,
-          "under-the-radar": 10.284,
-          "for-fun": 8.684
+          "big-announcements": 7.579,
+          "engineering": 16.906,
+          "product-development": 10.906,
+          "business": 7.102,
+          "under-the-radar": 9.179,
+          "for-fun": 10.579
         }
       },
       {
-        "id": "54a189533d793edc",
-        "title": "Our agreement with the Department of War",
-        "url": "https://openai.com/index/our-agreement-with-the-department-of-war",
-        "source_name": "OpenAI News",
-        "domain": "openai.com",
-        "published_at": "2026-02-28T12:30:00+00:00",
-        "summary_text": "Details on OpenAI\u2019s contract with the Department of War, outlining safety red lines, legal protections, and how AI systems will be deployed in classified environments.",
-        "why_it_matters": "This matters for business model and monetization impact, based on this update from OpenAI News.",
-        "section_score": 17.251,
+        "id": "ac211b140c6634ff",
+        "title": "Don't trust AI agents",
+        "url": "https://nanoclaw.dev/blog/nanoclaw-security-model",
+        "source_name": "Hacker News",
+        "domain": "nanoclaw.dev",
+        "published_at": "2026-02-28T12:39:32+00:00",
+        "summary_text": "Don't trust AI agents",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Hacker News.",
+        "section_score": 15.488,
         "scores": {
-          "big-announcements": 17.251,
-          "engineering": 10.551,
-          "product-development": 10.551,
-          "business": 10.551,
-          "under-the-radar": 9.751,
-          "for-fun": 12.051
-        }
-      }
-    ],
-    "under-the-radar": [
-      {
-        "id": "678207609f44f51f",
-        "title": "I vibe coded my dream macOS presentation app",
-        "url": "https://simonwillison.net/2026/Feb/25/present/",
-        "source_name": "Simon Willison",
-        "domain": "simonwillison.net",
-        "published_at": "2026-02-25T16:46:19+00:00",
-        "summary_text": "I gave a talk this weekend at Social Science FOO Camp in Mountain View. The event was a classic unconference format where anyone could present a talk without needing to propose it in advance.",
-        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Simon Willison.",
-        "section_score": 16.192,
-        "scores": {
-          "big-announcements": 8.592,
-          "engineering": 10.092,
-          "product-development": 10.092,
-          "business": 8.592,
-          "under-the-radar": 16.192,
-          "for-fun": 10.092
+          "big-announcements": 7.488,
+          "engineering": 15.488,
+          "product-development": 9.488,
+          "business": 6.747,
+          "under-the-radar": 9.088,
+          "for-fun": 7.488
         }
       },
       {
@@ -420,93 +186,327 @@
         "domain": "simonwillison.net",
         "published_at": "2026-02-28T23:09:39+00:00",
         "summary_text": "Agentic Engineering Patterns > When we lose track of how code written by our agents works we take on cognitive debt .",
-        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Simon Willison.",
-        "section_score": 15.519,
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Simon Willison.",
+        "section_score": 15.405,
         "scores": {
-          "big-announcements": 9.419,
-          "engineering": 15.419,
-          "product-development": 10.919,
-          "business": 9.419,
-          "under-the-radar": 15.519,
-          "for-fun": 10.919
+          "big-announcements": 9.305,
+          "engineering": 15.305,
+          "product-development": 10.805,
+          "business": 7.105,
+          "under-the-radar": 15.405,
+          "for-fun": 10.805
+        }
+      }
+    ],
+    "product-development": [
+      {
+        "id": "7d555ff79f1362e3",
+        "title": "For bar duty at his hockey club, he built a fair schedule generator",
+        "url": "https://medium.com/@bavo.bruylandt/building-a-bar-scheduler-for-our-hockey-club-f3800b7fe078",
+        "source_name": "Hacker News",
+        "domain": "medium.com",
+        "published_at": "2026-03-01T07:56:48+00:00",
+        "summary_text": "For bar duty at his hockey club, he built a fair schedule generator",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Hacker News.",
+        "section_score": 13.85,
+        "scores": {
+          "big-announcements": 9.323,
+          "engineering": 13.85,
+          "product-development": 10.85,
+          "business": 7.142,
+          "under-the-radar": 10.923,
+          "for-fun": 9.323
         }
       },
       {
-        "id": "5b2af800ae5ab35f",
-        "title": "Owning the AI Pareto Frontier \u2014 Jeff Dean",
-        "url": "https://www.latent.space/p/jeffdean",
-        "source_name": "Latent Space",
-        "domain": "latent.space",
-        "published_at": "2026-02-12T22:02:35+00:00",
-        "summary_text": "From rewriting Google\u2019s search stack in the early 2000s to reviving sparse trillion-parameter models and co-designing TPUs with frontier ML research, Jeff Dean has quietly shaped nearly every layer of the modern AI stac...",
-        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Latent Space.",
-        "section_score": 13.6,
+        "id": "93ecb4418c3d11f2",
+        "title": "Show HN: Now I Get It \u2013 Translate scientific papers into interactive webpages",
+        "url": "https://nowigetit.us",
+        "source_name": "Hacker News",
+        "domain": "nowigetit.us",
+        "published_at": "2026-02-28T13:29:36+00:00",
+        "summary_text": "Understanding scientific articles can be tough, even in your own field. Trying to comprehend articles from others? Good luck. Enter, Now I Get It! I made this app for curious people.",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Hacker News.",
+        "section_score": 15.2,
         "scores": {
-          "big-announcements": 6.0,
-          "engineering": 6.0,
-          "product-development": 7.5,
-          "business": 6.0,
-          "under-the-radar": 13.6,
-          "for-fun": 6.0
+          "big-announcements": 7.54,
+          "engineering": 15.2,
+          "product-development": 10.7,
+          "business": 6.472,
+          "under-the-radar": 10.64,
+          "for-fun": 9.04
         }
       },
       {
-        "id": "a06233411a5a4339",
-        "title": "Latest open artifacts (#18): Arcee's 400B MoE, LiquidAI's underrated 1B model, new Kimi, and anticipation of a busy month",
-        "url": "https://www.interconnects.ai/p/latest-open-artifacts-18-arcees-big",
-        "source_name": "Interconnects",
-        "domain": "interconnects.ai",
-        "published_at": "2026-02-02T13:03:33+00:00",
-        "summary_text": "Tons of useful \"niche\" models and anticipation of big releases coming soon.",
-        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Interconnects.",
-        "section_score": 13.6,
+        "id": "a1d881a21ac6e189",
+        "title": "Switch to Claude without starting over",
+        "url": "https://claude.com/import-memory",
+        "source_name": "Hacker News",
+        "domain": "claude.com",
+        "published_at": "2026-03-01T07:36:52+00:00",
+        "summary_text": "Switch to Claude without starting over",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Hacker News.",
+        "section_score": 15.091,
         "scores": {
-          "big-announcements": 7.5,
-          "engineering": 6.0,
-          "product-development": 7.5,
-          "business": 6.0,
-          "under-the-radar": 13.6,
-          "for-fun": 7.5
+          "big-announcements": 9.278,
+          "engineering": 15.091,
+          "product-development": 10.591,
+          "business": 7.973,
+          "under-the-radar": 10.878,
+          "for-fun": 10.778
         }
       },
       {
-        "id": "c10e5c913a17ab9f",
-        "title": "[AINews] OpenAI closes $110B raise from Amazon, NVIDIA, SoftBank in largest startup fundraise in history @ $840B post-money",
-        "url": "https://www.latent.space/p/ainews-openai-closes-110b-raise-from",
-        "source_name": "Latent Space",
-        "domain": "latent.space",
-        "published_at": "2026-02-28T05:01:13+00:00",
-        "summary_text": "Congratulations, you secured the biggest number.",
-        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Latent Space.",
-        "section_score": 13.236,
+        "id": "3f556ea7feae3a3c",
+        "title": "Microgpt",
+        "url": "http://karpathy.github.io/2026/02/12/microgpt/",
+        "source_name": "Hacker News",
+        "domain": "karpathy.github.io",
+        "published_at": "2026-03-01T01:39:26+00:00",
+        "summary_text": "Microgpt",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Hacker News.",
+        "section_score": 15.057,
         "scores": {
-          "big-announcements": 7.136,
-          "engineering": 7.136,
-          "product-development": 7.136,
-          "business": 8.636,
-          "under-the-radar": 13.236,
-          "for-fun": 10.136
+          "big-announcements": 8.557,
+          "engineering": 15.057,
+          "product-development": 10.557,
+          "business": 8.357,
+          "under-the-radar": 10.157,
+          "for-fun": 8.557
+        }
+      },
+      {
+        "id": "6375d00adb507697",
+        "title": "Nobody in the family uses the family AI platform I build - really bummed about it",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rhjmfr/nobody_in_the_family_uses_the_family_ai_platform/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-03-01T01:05:21+00:00",
+        "summary_text": "So I started my local AI journey last year after going to Red Hat's conference in May - met the vLLM guys and was completely enthralled.",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from r/LocalLLaMA.",
+        "section_score": 11.997,
+        "scores": {
+          "big-announcements": 8.997,
+          "engineering": 11.997,
+          "product-development": 10.497,
+          "business": 8.197,
+          "under-the-radar": 9.097,
+          "for-fun": 11.997
+        }
+      }
+    ],
+    "business": [
+      {
+        "id": "5fedd51f82da4936",
+        "title": "What if LLM agents passed KV-cache to each other instead of text? I tried it -- 73-78% token savings across Qwen, Llama, and DeepSeek",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rh802w/what_if_llm_agents_passed_kvcache_to_each_other/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-02-28T17:10:16+00:00",
+        "summary_text": "If you've used multi-agent setups with LangChain, CrewAI, AutoGen, or Swarm, you've probably noticed: every agent re-tokenizes and re-processes the full conversation from scratch.",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from r/LocalLLaMA.",
+        "section_score": 17.296,
+        "scores": {
+          "big-announcements": 6.796,
+          "engineering": 17.296,
+          "product-development": 9.796,
+          "business": 10.996,
+          "under-the-radar": 9.896,
+          "for-fun": 6.796
+        }
+      },
+      {
+        "id": "8250196f591e3fe9",
+        "title": "How to switch Qwen 3.5 thinking on/off without reloading the model",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rhohqk/how_to_switch_qwen_35_thinking_onoff_without/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-03-01T05:04:12+00:00",
+        "summary_text": "The Unsloth guide for Qwen 3.5 provides four recommendations for using the model in instruct or thinking mode for general and coding use.",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from r/LocalLLaMA.",
+        "section_score": 12.448,
+        "scores": {
+          "big-announcements": 7.948,
+          "engineering": 12.448,
+          "product-development": 9.448,
+          "business": 10.648,
+          "under-the-radar": 9.548,
+          "for-fun": 7.948
+        }
+      },
+      {
+        "id": "bf7a5199721c5bb1",
+        "title": "We do not think Anthropic should be designated as a supply chain risk",
+        "url": "https://twitter.com/OpenAI/status/2027846016423321831",
+        "source_name": "Hacker News",
+        "domain": "twitter.com",
+        "published_at": "2026-02-28T21:24:16+00:00",
+        "summary_text": "We do not think Anthropic should be designated as a supply chain risk",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from Hacker News.",
+        "section_score": 14.642,
+        "scores": {
+          "big-announcements": 8.142,
+          "engineering": 14.642,
+          "product-development": 10.142,
+          "business": 7.942,
+          "under-the-radar": 9.742,
+          "for-fun": 8.142
+        }
+      },
+      {
+        "id": "086e9203effffc12",
+        "title": "Qwen3.5 122B and 35B models offer Sonnet 4.5 performance on local computers",
+        "url": "https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance",
+        "source_name": "Hacker News",
+        "domain": "venturebeat.com",
+        "published_at": "2026-02-28T20:20:00+00:00",
+        "summary_text": "Qwen3.5 122B and 35B models offer Sonnet 4.5 performance on local computers",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from Hacker News.",
+        "section_score": 14.548,
+        "scores": {
+          "big-announcements": 8.048,
+          "engineering": 14.548,
+          "product-development": 10.048,
+          "business": 7.639,
+          "under-the-radar": 7.248,
+          "for-fun": 8.048
+        }
+      },
+      {
+        "id": "fc5df3eb06b184d8",
+        "title": "10-202: Introduction to Modern AI (CMU)",
+        "url": "https://modernaicourse.org",
+        "source_name": "Hacker News",
+        "domain": "modernaicourse.org",
+        "published_at": "2026-03-01T07:35:03+00:00",
+        "summary_text": "10-202: Introduction to Modern AI (CMU)",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from Hacker News.",
+        "section_score": 14.334,
+        "scores": {
+          "big-announcements": 9.274,
+          "engineering": 14.334,
+          "product-development": 9.834,
+          "business": 7.455,
+          "under-the-radar": 10.874,
+          "for-fun": 9.274
+        }
+      }
+    ],
+    "under-the-radar": [
+      {
+        "id": "84c40f954d1be557",
+        "title": "Intelligence is a commodity. Context is the real AI Moat",
+        "url": "https://adlrocha.substack.com/p/adlrocha-intelligence-is-a-commodity",
+        "source_name": "Hacker News",
+        "domain": "adlrocha.substack.com",
+        "published_at": "2026-03-01T09:04:19+00:00",
+        "summary_text": "Intelligence is a commodity. Context is the real AI Moat",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Hacker News.",
+        "section_score": 14.103,
+        "scores": {
+          "big-announcements": 9.483,
+          "engineering": 14.103,
+          "product-development": 9.603,
+          "business": 7.365,
+          "under-the-radar": 11.083,
+          "for-fun": 9.483
+        }
+      },
+      {
+        "id": "d6d81cf5f1014f74",
+        "title": "AI Safety Farce",
+        "url": "https://seanpedersen.github.io/posts/ai-safety-farce/",
+        "source_name": "Hacker News",
+        "domain": "seanpedersen.github.io",
+        "published_at": "2026-03-01T05:51:15+00:00",
+        "summary_text": "AI Safety Farce",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Hacker News.",
+        "section_score": 13.639,
+        "scores": {
+          "big-announcements": 9.046,
+          "engineering": 13.639,
+          "product-development": 9.139,
+          "business": 6.91,
+          "under-the-radar": 10.646,
+          "for-fun": 9.046
+        }
+      },
+      {
+        "id": "f77c1b793696bcbf",
+        "title": "we need to go deeper",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rhvabz/we_need_to_go_deeper/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-03-01T11:43:26+00:00",
+        "summary_text": "Do you think it will happen today or tomorrow? :) submitted by /u/jacek2023 [link] [comments]",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from r/LocalLLaMA.",
+        "section_score": 13.39,
+        "scores": {
+          "big-announcements": 8.89,
+          "engineering": 13.39,
+          "product-development": 8.89,
+          "business": 6.69,
+          "under-the-radar": 10.49,
+          "for-fun": 8.89
+        }
+      },
+      {
+        "id": "200cc205b47cf773",
+        "title": "The Science of Detecting LLM-Generated Text (2024)",
+        "url": "https://dl.acm.org/doi/10.1145/3624725",
+        "source_name": "Hacker News",
+        "domain": "dl.acm.org",
+        "published_at": "2026-03-01T02:09:41+00:00",
+        "summary_text": "The Science of Detecting LLM-Generated Text (2024)",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Hacker News.",
+        "section_score": 13.365,
+        "scores": {
+          "big-announcements": 8.612,
+          "engineering": 13.365,
+          "product-development": 8.865,
+          "business": 6.584,
+          "under-the-radar": 10.212,
+          "for-fun": 8.612
+        }
+      },
+      {
+        "id": "9d330e4e8ded8f0a",
+        "title": "Running a One Trillion-Parameter LLM Locally on AMD Ryzen AI Max+ Cluster",
+        "url": "https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html",
+        "source_name": "Hacker News",
+        "domain": "amd.com",
+        "published_at": "2026-03-01T01:24:54+00:00",
+        "summary_text": "Running a One Trillion-Parameter LLM Locally on AMD Ryzen AI Max+ Cluster",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Hacker News.",
+        "section_score": 13.445,
+        "scores": {
+          "big-announcements": 8.532,
+          "engineering": 13.445,
+          "product-development": 8.945,
+          "business": 6.613,
+          "under-the-radar": 10.132,
+          "for-fun": 8.532
         }
       }
     ],
     "for-fun": [
       {
-        "id": "470ccceb63eff7eb",
-        "title": "Anthropic's Custom Claude Model For The Pentagon Is 1-2 Generations Ahead Of The Consumer Model",
-        "url": "https://www.reddit.com/r/singularity/comments/1rhqu1m/anthropics_custom_claude_model_for_the_pentagon/",
+        "id": "419bb85faf1ac7f5",
+        "title": "We will live in the Detroit: Become Human universe within the next 20 years",
+        "url": "https://www.reddit.com/r/singularity/comments/1rhuu1g/we_will_live_in_the_detroit_become_human_universe/",
         "source_name": "r/singularity",
         "domain": "reddit.com",
-        "published_at": "2026-03-01T07:14:58+00:00",
-        "summary_text": "In the interview with CBS yesterday, Dario confirmed that Anthropic built custom Claude models for the military , that have \"revolutionized and radically accelerated\" what the military can do, and that these are just th...",
+        "published_at": "2026-03-01T11:16:28+00:00",
+        "summary_text": "Since the game Detroit: Become Human released in 2018, I have been saying this is the future we will live in within the next 50 years. Back then, I never anticipated progress to become this fast.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
-        "section_score": 13.388,
+        "section_score": 13.818,
         "scores": {
-          "big-announcements": 13.388,
-          "engineering": 7.388,
-          "product-development": 10.388,
-          "business": 7.388,
-          "under-the-radar": 8.988,
-          "for-fun": 13.388
+          "big-announcements": 9.318,
+          "engineering": 9.318,
+          "product-development": 7.818,
+          "business": 1.618,
+          "under-the-radar": 9.418,
+          "for-fun": 13.818
         }
       },
       {
@@ -518,71 +518,71 @@
         "published_at": "2026-03-01T03:14:12+00:00",
         "summary_text": "submitted by /u/funkylookass [link] [comments]",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
-        "section_score": 12.866,
+        "section_score": 12.731,
         "scores": {
-          "big-announcements": 6.866,
-          "engineering": 6.866,
-          "product-development": 6.866,
-          "business": 6.866,
-          "under-the-radar": 8.466,
-          "for-fun": 12.866
+          "big-announcements": 6.731,
+          "engineering": 6.731,
+          "product-development": 6.731,
+          "business": 4.531,
+          "under-the-radar": 8.331,
+          "for-fun": 12.731
         }
       },
       {
-        "id": "a1d881a21ac6e189",
-        "title": "Switch to Claude without starting over",
-        "url": "https://claude.com/import-memory",
+        "id": "690112afeab4ae07",
+        "title": "Show HN: Tomoshibi \u2013 A writing app where your words fade by firelight",
+        "url": "https://tomoshibi.in-hakumei.com/",
         "source_name": "Hacker News",
-        "domain": "claude.com",
-        "published_at": "2026-03-01T07:36:52+00:00",
-        "summary_text": "Switch to Claude without starting over",
+        "domain": "tomoshibi.in-hakumei.com",
+        "published_at": "2026-02-28T17:12:46+00:00",
+        "summary_text": "I spent ten years trying to write a novel. Every time I sat down, I'd write a sentence, decide it wasn't good enough, and rewrite it.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from Hacker News.",
-        "section_score": 14.973,
+        "section_score": 12.459,
         "scores": {
-          "big-announcements": 9.44,
-          "engineering": 14.973,
-          "product-development": 10.473,
-          "business": 10.144,
-          "under-the-radar": 11.04,
-          "for-fun": 10.94
+          "big-announcements": 7.799,
+          "engineering": 12.459,
+          "product-development": 9.459,
+          "business": 5.708,
+          "under-the-radar": 9.399,
+          "for-fun": 9.299
         }
       },
       {
-        "id": "73b704106df0bda5",
-        "title": "Launch HN: Cardboard (YC W26) \u2013 Agentic video editor",
-        "url": "https://www.usecardboard.com/",
+        "id": "46731b73c274a36a",
+        "title": "Show HN: SQLite for Rivet Actors \u2013 one database per agent, tenant, or document",
+        "url": "https://github.com/rivet-dev/rivet",
         "source_name": "Hacker News",
-        "domain": "usecardboard.com",
-        "published_at": "2026-02-26T18:38:38+00:00",
-        "summary_text": "Hey HN - we're Saksham and Ishan, and we\u2019re building Cardboard ( https://www.usecardboard.com ). It lets you go from raw footage to an edited video by describing what you want in natural language.",
+        "domain": "github.com",
+        "published_at": "2026-02-28T16:11:58+00:00",
+        "summary_text": "Hey HN! We posted Rivet Actors here previously [1] as an open-source alternative to Cloudflare Durable Objects. Today we've released SQLite storage for actors (Apache 2.0). Every actor gets its own SQLite database.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from Hacker News.",
-        "section_score": 14.631,
+        "section_score": 13.998,
         "scores": {
-          "big-announcements": 10.771,
-          "engineering": 14.631,
-          "product-development": 10.131,
-          "business": 8.358,
-          "under-the-radar": 7.871,
-          "for-fun": 10.771
+          "big-announcements": 9.224,
+          "engineering": 13.998,
+          "product-development": 9.498,
+          "business": 6.611,
+          "under-the-radar": 9.324,
+          "for-fun": 9.224
         }
       },
       {
-        "id": "2e9c5bdf6b6bea2d",
-        "title": "OpenAI announces Frontier Alliance Partners",
-        "url": "https://openai.com/index/frontier-alliance-partners",
-        "source_name": "OpenAI News",
-        "domain": "openai.com",
-        "published_at": "2026-02-23T05:30:00+00:00",
-        "summary_text": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
-        "why_it_matters": "This matters for why this is creative and interesting, based on this update from OpenAI News.",
-        "section_score": 17.208,
+        "id": "574e53857105fd89",
+        "title": "Anthropic's Claude rises to No. 2 in the App Store following Pentagon dispute",
+        "url": "https://techcrunch.com/2026/02/28/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/",
+        "source_name": "Hacker News",
+        "domain": "techcrunch.com",
+        "published_at": "2026-02-28T22:33:09+00:00",
+        "summary_text": "Anthropic's Claude rises to No. 2 in the App Store following Pentagon dispute",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from Hacker News.",
+        "section_score": 12.994,
         "scores": {
-          "big-announcements": 17.208,
-          "engineering": 12.008,
-          "product-development": 10.508,
-          "business": 10.508,
-          "under-the-radar": 8.208,
-          "for-fun": 10.508
+          "big-announcements": 8.247,
+          "engineering": 12.994,
+          "product-development": 8.494,
+          "business": 6.215,
+          "under-the-radar": 7.447,
+          "for-fun": 8.247
         }
       }
     ]
