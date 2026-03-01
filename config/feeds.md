@@ -14,6 +14,9 @@ Format:
 - https://www.latent.space/feed | name=Latent Space | section=under-the-radar | tags=under-the-radar,business
 - https://simonwillison.net/atom/everything/ | name=Simon Willison | section=under-the-radar | tags=under-the-radar,engineering
 - https://johnmaconline.com/ | name=johnmaconline.com | section=under-the-radar | tags=under-the-radar,business
+- https://www.latent.space/p/ainews-nano-banana-2-aka-gemini-31 | platform=substack | name=Latent Space Articles | section=under-the-radar | tags=under-the-radar,business
+- https://medium.com/towards-artificial-intelligence | platform=medium | name=Towards AI (Medium) | section=engineering | tags=engineering,under-the-radar
+- https://medium.com/@swyx | platform=medium | name=swyx (Medium) | section=engineering | tags=engineering,under-the-radar
 
 ## 2. LinkedIN users
 

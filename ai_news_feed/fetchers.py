@@ -10,7 +10,7 @@ import logging
 import os
 import re
 from datetime import datetime, timezone
-from urllib.parse import quote
+from urllib.parse import quote, urlparse
 
 try:
     import feedparser
@@ -121,6 +121,59 @@ def _safe_int(metadata: dict, key: str, default: int) -> int:
         return default
 
 
+def _detect_registry_platform(cleaned_url: str, metadata: dict) -> str:
+    explicit = (metadata.get('platform') or '').strip().lower()
+    if explicit in {'substack', 'medium'}:
+        return explicit
+    parsed = urlparse(cleaned_url)
+    domain = parsed.netloc.lower()
+    if domain.endswith('substack.com'):
+        return 'substack'
+    if domain.endswith('medium.com'):
+        return 'medium'
+    return ''
+
+
+def _normalize_registry_rss_url(url: str, metadata: dict) -> str:
+    cleaned_url = canonicalize_url(url)
+    if not cleaned_url:
+        return ''
+
+    parsed = urlparse(cleaned_url)
+    scheme = parsed.scheme or 'https'
+    domain = parsed.netloc.lower()
+    path = parsed.path or ''
+    normalized_path = path.rstrip('/')
+    lowered_path = normalized_path.lower()
+
+    if (
+        lowered_path.endswith('/feed')
+        or lowered_path.endswith('.xml')
+        or lowered_path.endswith('/rss')
+        or lowered_path.endswith('/rss.xml')
+        or lowered_path.endswith('/atom.xml')
+    ):
+        return cleaned_url
+
+    platform = _detect_registry_platform(cleaned_url, metadata)
+    if platform == 'substack':
+        return canonicalize_url(f'{scheme}://{domain}/feed')
+
+    if platform == 'medium':
+        segments = [segment for segment in normalized_path.split('/') if segment]
+        if not segments:
+            return canonicalize_url(f'{scheme}://{domain}/feed')
+        if segments[0] == 'feed':
+            return cleaned_url
+        if segments[0].startswith('@'):
+            return canonicalize_url(f'{scheme}://{domain}/feed/{segments[0]}')
+        if segments[0] == 'p':
+            return canonicalize_url(f'{scheme}://{domain}/feed')
+        return canonicalize_url(f'{scheme}://{domain}/feed/{segments[0]}')
+
+    return cleaned_url
+
+
 def _registry_slug(value: str) -> str:
     lower = value.lower().strip()
     slug = re.sub(r'[^a-z0-9]+', '-', lower).strip('-')
@@ -192,7 +245,7 @@ def _parse_feeds_registry(path: str) -> dict[str, list[tuple[str, dict]]]:
 
 
 def _build_registry_url_source(url: str, metadata: dict, idx: int) -> dict | None:
-    cleaned_url = canonicalize_url(url)
+    cleaned_url = _normalize_registry_rss_url(url, metadata)
     if not cleaned_url:
         return None
     name = metadata.get('name') or extract_domain(cleaned_url) or f'Registry URL {idx}'
