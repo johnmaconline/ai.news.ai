@@ -21,7 +21,7 @@ Each daily post includes:
    - X API (optional)
    - LinkedIn API (optional)
 2. Normalize and deduplicate links.
-3. Score each item across the six sections.
+3. Require source items to be within the last 24 hours, then score each item across the six sections.
 4. Select top `3-5` per section with domain diversity constraints.
 5. Generate concise summaries and "why it matters":
    - Uses OpenAI if `OPENAI_API_KEY` exists.
@@ -96,6 +96,10 @@ For social sources:
 - `type: linkedin` uses `author_urn` and fetches from LinkedIn posts API.
 - `LINKEDIN_AUTHOR_URN` in `.env` overrides the LinkedIn `author_urn` in `config/sources.yaml`, so you can switch orgs without editing YAML.
 - If corresponding tokens are not set, those sources are skipped safely.
+
+Business section intent:
+- Focuses on practical business application, AI-native side hustles, and workflow execution.
+- Announcement-heavy or partnership-only items are deprioritized for this section and should appear in `0) Big Announcements` when relevant.
 
 `config/feeds.md` behavior:
 - This file is loaded on every run (default path).

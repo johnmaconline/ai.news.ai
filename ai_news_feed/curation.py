@@ -12,8 +12,11 @@ from datetime import datetime, timezone
 
 from .config import (
     BIG_ANNOUNCEMENT_DOMAINS,
+    BUSINESS_ANNOUNCEMENT_KEYWORDS,
+    BUSINESS_PRACTICAL_KEYWORDS,
     KEYWORDS,
     MAINSTREAM_DOMAINS,
+    RECENCY_REQUIRED_HOURS,
     SECTION_TARGET_MAX,
     SECTION_TARGET_MIN,
     SECTIONS,
@@ -49,10 +52,33 @@ def _keyword_hits(text: str, keywords: list[str]) -> int:
 
 def _recency_score(article: Article, feed_dt: datetime) -> float:
     if article.published_at is None:
-        return 0.8
+        return 0.0
     delta_hours = (feed_dt - article.published_at).total_seconds() / 3600
     delta_hours = max(0.0, delta_hours)
     return max(0.0, 4.0 * math.exp(-delta_hours / 24))
+
+
+def _is_within_recency_window(article: Article, feed_dt: datetime, max_age_hours: float) -> bool:
+    if article.published_at is None:
+        return False
+    delta_hours = (feed_dt - article.published_at).total_seconds() / 3600
+    if delta_hours <= 0:
+        return True
+    return delta_hours <= max_age_hours
+
+
+def _business_penalty(article: Article, text_blob: str) -> float:
+    penalty = 0.0
+    announcement_hits = _keyword_hits(text_blob, BUSINESS_ANNOUNCEMENT_KEYWORDS)
+    practical_hits = _keyword_hits(text_blob, BUSINESS_PRACTICAL_KEYWORDS)
+    penalty += announcement_hits * 2.0
+    if practical_hits == 0:
+        penalty += 2.2
+    if article.domain in BIG_ANNOUNCEMENT_DOMAINS:
+        penalty += 3.0
+    if article.section_hint == 'big-announcements':
+        penalty += 3.0
+    return penalty
 
 
 def score_articles(articles: list[Article], feed_dt: datetime | None = None) -> None:
@@ -67,7 +93,10 @@ def score_articles(articles: list[Article], feed_dt: datetime | None = None) -> 
             hits = _keyword_hits(text_blob, KEYWORDS.get(section.slug, []))
             section_score += hits * 1.5
             if article.section_hint == section.slug:
-                section_score += 4.5
+                if section.slug == 'business':
+                    section_score += 2.2
+                else:
+                    section_score += 4.5
             if section.slug == 'big-announcements' and article.domain in BIG_ANNOUNCEMENT_DOMAINS:
                 section_score += 2.2
             if section.slug == 'under-the-radar':
@@ -79,6 +108,8 @@ def score_articles(articles: list[Article], feed_dt: datetime | None = None) -> 
                 section_score += min(2.0, article.metrics.get('points', 0.0) / 150.0)
             if section.slug == 'business':
                 section_score += min(2.0, article.metrics.get('points', 0.0) / 220.0)
+                section_score += _keyword_hits(text_blob, BUSINESS_PRACTICAL_KEYWORDS) * 1.2
+                section_score -= _business_penalty(article, text_blob)
             scores[section.slug] = round(section_score, 3)
         article.scores = scores
         top_section, top_score = max(scores.items(), key=lambda item: item[1])
@@ -115,6 +146,14 @@ def curate_sections(
     max_per_section: int = SECTION_TARGET_MAX,
     feed_dt: datetime | None = None,
 ) -> dict[str, list[Article]]:
+    if feed_dt is None:
+        feed_dt = datetime.now(timezone.utc)
+    recent_articles = [
+        article
+        for article in articles
+        if _is_within_recency_window(article, feed_dt, RECENCY_REQUIRED_HOURS)
+    ]
+    articles = recent_articles
     score_articles(articles, feed_dt=feed_dt)
     sections: dict[str, list[Article]] = {section.slug: [] for section in SECTIONS}
     picked_ids: set[str] = set()
@@ -149,4 +188,3 @@ def curate_sections(
         sections[section.slug].extend(fallbacks)
 
     return sections
-

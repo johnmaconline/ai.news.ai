@@ -45,7 +45,7 @@ SECTIONS = [
         order=3,
         slug='business',
         label='3) Business',
-        description='AI-native business models, monetization, operations, and durable revenue.',
+        description='Practical AI for business: side hustles, workflow automation, and building AI-powered businesses.',
     ),
     Section(
         order=4,
@@ -116,21 +116,29 @@ KEYWORDS = {
         'product ops',
     ],
     'business': [
+        'workflow',
+        'operations',
+        'automation',
+        'agency',
+        'freelance',
+        'consulting',
+        'solopreneur',
+        'side hustle',
+        'small business',
+        'smb',
+        'founder',
+        'customer support',
+        'back office',
+        'process',
+        'runbook',
+        'playbook',
         'revenue',
         'arr',
         'mrr',
-        'profit',
         'pricing',
-        'gtm',
-        'distribution',
-        'startup',
-        'enterprise',
-        'customer acquisition',
         'monetization',
-        'growth',
-        'market share',
-        'valuation',
-        'ipo',
+        'profit',
+        'business model',
     ],
     'under-the-radar': [
         'notes',
@@ -163,6 +171,47 @@ KEYWORDS = {
 
 SECTION_TARGET_MIN = 3
 SECTION_TARGET_MAX = 5
+RECENCY_REQUIRED_HOURS = 24.0
+
+BUSINESS_PRACTICAL_KEYWORDS = [
+    'workflow',
+    'operations',
+    'automation',
+    'agency',
+    'freelance',
+    'consulting',
+    'solopreneur',
+    'side hustle',
+    'small business',
+    'smb',
+    'back office',
+    'runbook',
+    'playbook',
+    'customer support',
+    'lead gen',
+    'invoicing',
+    'bookkeeping',
+    'process',
+]
+
+BUSINESS_ANNOUNCEMENT_KEYWORDS = [
+    'announce',
+    'announcing',
+    'launch',
+    'launched',
+    'release',
+    'released',
+    'partnership',
+    'joint statement',
+    'valuation',
+    'funding',
+    'series a',
+    'series b',
+    'series c',
+    'ipo',
+    'acquisition',
+    'merger',
+]
 
 MAINSTREAM_DOMAINS = {
     'openai.com',
@@ -198,4 +247,3 @@ BIG_ANNOUNCEMENT_DOMAINS = {
     'whitehouse.gov',
     'defense.gov',
 }
-

@@ -13,6 +13,7 @@ Format:
 - https://www.interconnects.ai/feed | name=Interconnects | section=under-the-radar | tags=under-the-radar,engineering
 - https://www.latent.space/feed | name=Latent Space | section=under-the-radar | tags=under-the-radar,business
 - https://simonwillison.net/atom/everything/ | name=Simon Willison | section=under-the-radar | tags=under-the-radar,engineering
+- https://johnmaconline.com/ | name=johnmaconline.com | section=under-the-radar | tags=under-the-radar,business
 
 ## 2. LinkedIN users
 
