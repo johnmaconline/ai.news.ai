@@ -1,0 +1,590 @@
+{
+  "date": "2026-03-01",
+  "generated_at": "2026-03-01T11:14:19+00:00",
+  "title": "Daily AI Feed - 2026-03-01",
+  "intro": "A curated daily AI briefing with original-source links across industry announcements, engineering, product development, business, under-the-radar signals, and fun experiments.",
+  "sections": {
+    "big-announcements": [
+      {
+        "id": "54d8b856a06e3e8d",
+        "title": "OpenAI and Amazon announce strategic partnership",
+        "url": "https://openai.com/index/amazon-partnership",
+        "source_name": "OpenAI News",
+        "domain": "openai.com",
+        "published_at": "2026-02-27T05:30:00+00:00",
+        "summary_text": "OpenAI and Amazon announce a strategic partnership bringing OpenAI\u2019s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from OpenAI News.",
+        "section_score": 19.126,
+        "scores": {
+          "big-announcements": 19.126,
+          "engineering": 10.926,
+          "product-development": 9.426,
+          "business": 10.926,
+          "under-the-radar": 8.626,
+          "for-fun": 10.926
+        }
+      },
+      {
+        "id": "bdaf757ebe278299",
+        "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting",
+        "url": "https://openai.com/index/pacific-northwest-national-laboratory",
+        "source_name": "OpenAI News",
+        "domain": "openai.com",
+        "published_at": "2026-02-26T10:00:00+00:00",
+        "summary_text": "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting\u2014showing potential to reduce NEPA drafting time by up to 15% an...",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from OpenAI News.",
+        "section_score": 17.389,
+        "scores": {
+          "big-announcements": 17.389,
+          "engineering": 13.689,
+          "product-development": 9.189,
+          "business": 9.189,
+          "under-the-radar": 8.389,
+          "for-fun": 10.689
+        }
+      },
+      {
+        "id": "4b0d8c688b458fd6",
+        "title": "AI Impact Summit 2026",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-collection/",
+        "source_name": "Google AI Blog",
+        "domain": "blog.google",
+        "published_at": "2026-02-19T04:30:00+00:00",
+        "summary_text": "A look at the partnerships and investments Google announced at the AI Impact Summit 2026.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Google AI Blog.",
+        "section_score": 15.5,
+        "scores": {
+          "big-announcements": 15.5,
+          "engineering": 8.0,
+          "product-development": 8.0,
+          "business": 8.0,
+          "under-the-radar": 9.6,
+          "for-fun": 9.5
+        }
+      },
+      {
+        "id": "b637ed426fdce54d",
+        "title": "Microsoft announces acquisition of Osmos to accelerate autonomous data engineering in Fabric",
+        "url": "https://blogs.microsoft.com/blog/2026/01/05/microsoft-announces-acquisition-of-osmos-to-accelerate-autonomous-data-engineering-in-fabric/",
+        "source_name": "Microsoft AI Blog",
+        "domain": "blogs.microsoft.com",
+        "published_at": "2026-01-05T17:00:01+00:00",
+        "summary_text": "Today, Microsoft is announcing the acquisition of Osmos, an agentic AI data engineering platform designed to help simplify complex and time-consuming data workflows.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Microsoft AI Blog.",
+        "section_score": 15.5,
+        "scores": {
+          "big-announcements": 15.5,
+          "engineering": 9.5,
+          "product-development": 9.5,
+          "business": 8.0,
+          "under-the-radar": 9.6,
+          "for-fun": 8.0
+        }
+      },
+      {
+        "id": "3c9fe74578022ede",
+        "title": "Microsoft, NVIDIA and Anthropic announce strategic partnerships",
+        "url": "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/",
+        "source_name": "Microsoft AI Blog",
+        "domain": "blogs.microsoft.com",
+        "published_at": "2025-11-18T15:00:03+00:00",
+        "summary_text": "Anthropic to scale Claude on Azure Anthropic to adopt NVIDIA architecture NVIDIA and Microsoft to invest in Anthropic Today Microsoft, NVIDIA and Anthropic announced new strategic partnerships.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Microsoft AI Blog.",
+        "section_score": 15.5,
+        "scores": {
+          "big-announcements": 15.5,
+          "engineering": 9.5,
+          "product-development": 8.0,
+          "business": 9.5,
+          "under-the-radar": 9.6,
+          "for-fun": 9.5
+        }
+      }
+    ],
+    "engineering": [
+      {
+        "id": "57ee11ec92ac0668",
+        "title": "Agentic AI with multi-model framework using Hugging Face smolagents on AWS",
+        "url": "https://aws.amazon.com/blogs/machine-learning/agentic-ai-with-multi-model-framework-using-hugging-face-smolagents-on-aws/",
+        "source_name": "AWS Machine Learning Blog",
+        "domain": "aws.amazon.com",
+        "published_at": "2026-02-23T15:47:06+00:00",
+        "summary_text": "Hugging Face smolagents is an open source Python library designed to make it straightforward to build and run agents using a few lines of code.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from AWS Machine Learning Blog.",
+        "section_score": 20.512,
+        "scores": {
+          "big-announcements": 9.212,
+          "engineering": 20.512,
+          "product-development": 8.512,
+          "business": 7.012,
+          "under-the-radar": 6.212,
+          "for-fun": 7.012
+        }
+      },
+      {
+        "id": "ef91c96ee403288a",
+        "title": "Show HN: Xmloxide \u2013 an agent-made Rust replacement for libxml2",
+        "url": "https://github.com/jonwiggins/xmloxide",
+        "source_name": "Hacker News",
+        "domain": "github.com",
+        "published_at": "2026-02-28T23:44:41+00:00",
+        "summary_text": "Recently several AI labs have published experiments where they tried to get AI coding agents to complete large software projects. - Cursor attempted to make a browser from scratch: https://cursor.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Hacker News.",
+        "section_score": 19.358,
+        "scores": {
+          "big-announcements": 9.978,
+          "engineering": 19.358,
+          "product-development": 11.858,
+          "business": 8.737,
+          "under-the-radar": 10.078,
+          "for-fun": 8.478
+        }
+      },
+      {
+        "id": "557f6b347e4091c8",
+        "title": "Qwen3 Coder Next | Qwen3.5 27B | Devstral Small 2 | Rust & Next.js Benchmark",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rhfque/qwen3_coder_next_qwen35_27b_devstral_small_2_rust/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-02-28T22:17:13+00:00",
+        "summary_text": "Previously This benchmark continues my local testing on personal production repos, helping me narrow down the best models to complement my daily driver Devstral Small 2.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.",
+        "section_score": 19.332,
+        "scores": {
+          "big-announcements": 7.332,
+          "engineering": 19.332,
+          "product-development": 10.332,
+          "business": 8.832,
+          "under-the-radar": 8.932,
+          "for-fun": 8.832
+        }
+      },
+      {
+        "id": "34a43198d283b413",
+        "title": "AgentDropoutV2: Optimizing Information Flow in Multi-Agent Systems via Test-Time Rectify-or-Reject Pruning",
+        "url": "http://arxiv.org/abs/2602.23258v1",
+        "source_name": "arXiv AI Core",
+        "domain": "arxiv.org",
+        "published_at": "2026-02-26T17:31:43+00:00",
+        "summary_text": "While Multi-Agent Systems (MAS) excel in complex reasoning, they suffer from the cascading impact of erroneous information generated by individual participants.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from arXiv AI Core.",
+        "section_score": 18.259,
+        "scores": {
+          "big-announcements": 7.759,
+          "engineering": 18.259,
+          "product-development": 6.259,
+          "business": 6.259,
+          "under-the-radar": 7.859,
+          "for-fun": 7.759
+        }
+      },
+      {
+        "id": "9fa6421b6aa531b8",
+        "title": "monday Service + LangSmith: Building a Code-First Evaluation Strategy from Day 1",
+        "url": "https://blog.langchain.com/customers-monday/",
+        "source_name": "LangChain Blog",
+        "domain": "blog.langchain.com",
+        "published_at": "2026-02-18T08:05:53+00:00",
+        "summary_text": "Learn how monday Service developed an eval-driven development framework for their customer-facing service agents.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from LangChain Blog.",
+        "section_score": 17.5,
+        "scores": {
+          "big-announcements": 7.0,
+          "engineering": 17.5,
+          "product-development": 10.0,
+          "business": 8.5,
+          "under-the-radar": 8.6,
+          "for-fun": 7.0
+        }
+      }
+    ],
+    "product-development": [
+      {
+        "id": "1f7e7f57b2bc8df3",
+        "title": "Joint Statement from OpenAI and Microsoft",
+        "url": "https://openai.com/index/continuing-microsoft-partnership",
+        "source_name": "OpenAI News",
+        "domain": "openai.com",
+        "published_at": "2026-02-27T05:30:00+00:00",
+        "summary_text": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from OpenAI News.",
+        "section_score": 16.126,
+        "scores": {
+          "big-announcements": 16.126,
+          "engineering": 9.426,
+          "product-development": 13.926,
+          "business": 9.426,
+          "under-the-radar": 8.626,
+          "for-fun": 9.426
+        }
+      },
+      {
+        "id": "14012f8053c4115d",
+        "title": "EP96: Designing for AI Disruption: How to Build Resilient Products",
+        "url": "https://www.productcoalition.com/p/designing-for-ai-disruption-how-to",
+        "source_name": "Product Coalition",
+        "domain": "productcoalition.com",
+        "published_at": "2025-11-02T11:00:52+00:00",
+        "summary_text": "Summary",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Product Coalition.",
+        "section_score": 12.5,
+        "scores": {
+          "big-announcements": 5.0,
+          "engineering": 5.0,
+          "product-development": 12.5,
+          "business": 5.0,
+          "under-the-radar": 6.6,
+          "for-fun": 5.0
+        }
+      },
+      {
+        "id": "c750166d2d28ff3a",
+        "title": "EP88 Unite, Innovate, Elevate: Transform Product Strategy",
+        "url": "https://www.productcoalition.com/p/ep89-unite-innovate-elevate-transform",
+        "source_name": "Product Coalition",
+        "domain": "productcoalition.com",
+        "published_at": "2025-07-27T17:30:58+00:00",
+        "summary_text": "Summary In this episode of the Product Coalition podcast, Jay Stansell interviews Andrea Saez, head of product marketing at Turtle and co-author of 'The Product Momentum Gap.",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Product Coalition.",
+        "section_score": 12.5,
+        "scores": {
+          "big-announcements": 5.0,
+          "engineering": 5.0,
+          "product-development": 12.5,
+          "business": 5.0,
+          "under-the-radar": 6.6,
+          "for-fun": 5.0
+        }
+      },
+      {
+        "id": "e22dbfc7360277b8",
+        "title": "A Guide to Which AI to Use in the Agentic Era",
+        "url": "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the",
+        "source_name": "One Useful Thing",
+        "domain": "oneusefulthing.org",
+        "published_at": "2026-02-18T01:45:41+00:00",
+        "summary_text": "It's not just chatbots anymore",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from One Useful Thing.",
+        "section_score": 12.0,
+        "scores": {
+          "big-announcements": 6.0,
+          "engineering": 7.5,
+          "product-development": 12.0,
+          "business": 6.0,
+          "under-the-radar": 7.6,
+          "for-fun": 6.0
+        }
+      },
+      {
+        "id": "96d905bf29f65c45",
+        "title": "An Opinionated Guide to Using AI Right Now",
+        "url": "https://www.oneusefulthing.org/p/an-opinionated-guide-to-using-ai",
+        "source_name": "One Useful Thing",
+        "domain": "oneusefulthing.org",
+        "published_at": "2025-10-19T18:45:34+00:00",
+        "summary_text": "What AI to use in late 2025",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from One Useful Thing.",
+        "section_score": 12.0,
+        "scores": {
+          "big-announcements": 6.0,
+          "engineering": 6.0,
+          "product-development": 12.0,
+          "business": 6.0,
+          "under-the-radar": 7.6,
+          "for-fun": 6.0
+        }
+      }
+    ],
+    "business": [
+      {
+        "id": "f964fabd3132dd5f",
+        "title": "Meesho Goes Public",
+        "url": "https://www.ycombinator.com/blog/meesho-goes-public/",
+        "source_name": "Y Combinator Blog",
+        "domain": "ycombinator.com",
+        "published_at": "2025-12-10T04:32:10+00:00",
+        "summary_text": "Meesho goes public today. From S16 to IPO, they\u2019ve built one of India\u2019s largest e-commerce platforms\u2014empowering millions of small merchants to grow their businesses.",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from Y Combinator Blog.",
+        "section_score": 12.0,
+        "scores": {
+          "big-announcements": 6.0,
+          "engineering": 6.0,
+          "product-development": 7.5,
+          "business": 12.0,
+          "under-the-radar": 7.6,
+          "for-fun": 6.0
+        }
+      },
+      {
+        "id": "5a22954028e4e3f9",
+        "title": "BillionToOne Goes Public \u2014 The Startup That Made Genetic Testing Universal",
+        "url": "https://www.ycombinator.com/blog/billiontoone/",
+        "source_name": "Y Combinator Blog",
+        "domain": "ycombinator.com",
+        "published_at": "2025-11-06T15:52:00+00:00",
+        "summary_text": "Today, BillionToOne goes public, becoming YC's fourth publicly traded biotech company. More importantly, they have built one of the most important genetic tests in the U.S.",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from Y Combinator Blog.",
+        "section_score": 12.0,
+        "scores": {
+          "big-announcements": 6.0,
+          "engineering": 7.5,
+          "product-development": 7.5,
+          "business": 12.0,
+          "under-the-radar": 7.6,
+          "for-fun": 7.5
+        }
+      },
+      {
+        "id": "d7a0ff9f18d59f7f",
+        "title": "Scaling AI for everyone",
+        "url": "https://openai.com/index/scaling-ai-for-everyone",
+        "source_name": "OpenAI News",
+        "domain": "openai.com",
+        "published_at": "2026-02-27T05:30:00+00:00",
+        "summary_text": "Today we\u2019re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from OpenAI News.",
+        "section_score": 16.126,
+        "scores": {
+          "big-announcements": 16.126,
+          "engineering": 9.426,
+          "product-development": 9.426,
+          "business": 10.926,
+          "under-the-radar": 8.626,
+          "for-fun": 9.426
+        }
+      },
+      {
+        "id": "3f556ea7feae3a3c",
+        "title": "Microgpt",
+        "url": "http://karpathy.github.io/2026/02/12/microgpt/",
+        "source_name": "Hacker News",
+        "domain": "karpathy.github.io",
+        "published_at": "2026-03-01T01:39:26+00:00",
+        "summary_text": "Microgpt",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from Hacker News.",
+        "section_score": 15.184,
+        "scores": {
+          "big-announcements": 8.684,
+          "engineering": 15.184,
+          "product-development": 10.684,
+          "business": 10.684,
+          "under-the-radar": 10.284,
+          "for-fun": 8.684
+        }
+      },
+      {
+        "id": "54a189533d793edc",
+        "title": "Our agreement with the Department of War",
+        "url": "https://openai.com/index/our-agreement-with-the-department-of-war",
+        "source_name": "OpenAI News",
+        "domain": "openai.com",
+        "published_at": "2026-02-28T12:30:00+00:00",
+        "summary_text": "Details on OpenAI\u2019s contract with the Department of War, outlining safety red lines, legal protections, and how AI systems will be deployed in classified environments.",
+        "why_it_matters": "This matters for business model and monetization impact, based on this update from OpenAI News.",
+        "section_score": 17.251,
+        "scores": {
+          "big-announcements": 17.251,
+          "engineering": 10.551,
+          "product-development": 10.551,
+          "business": 10.551,
+          "under-the-radar": 9.751,
+          "for-fun": 12.051
+        }
+      }
+    ],
+    "under-the-radar": [
+      {
+        "id": "678207609f44f51f",
+        "title": "I vibe coded my dream macOS presentation app",
+        "url": "https://simonwillison.net/2026/Feb/25/present/",
+        "source_name": "Simon Willison",
+        "domain": "simonwillison.net",
+        "published_at": "2026-02-25T16:46:19+00:00",
+        "summary_text": "I gave a talk this weekend at Social Science FOO Camp in Mountain View. The event was a classic unconference format where anyone could present a talk without needing to propose it in advance.",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Simon Willison.",
+        "section_score": 16.192,
+        "scores": {
+          "big-announcements": 8.592,
+          "engineering": 10.092,
+          "product-development": 10.092,
+          "business": 8.592,
+          "under-the-radar": 16.192,
+          "for-fun": 10.092
+        }
+      },
+      {
+        "id": "d661a93d402a6dfc",
+        "title": "Interactive explanations",
+        "url": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/",
+        "source_name": "Simon Willison",
+        "domain": "simonwillison.net",
+        "published_at": "2026-02-28T23:09:39+00:00",
+        "summary_text": "Agentic Engineering Patterns > When we lose track of how code written by our agents works we take on cognitive debt .",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Simon Willison.",
+        "section_score": 15.519,
+        "scores": {
+          "big-announcements": 9.419,
+          "engineering": 15.419,
+          "product-development": 10.919,
+          "business": 9.419,
+          "under-the-radar": 15.519,
+          "for-fun": 10.919
+        }
+      },
+      {
+        "id": "5b2af800ae5ab35f",
+        "title": "Owning the AI Pareto Frontier \u2014 Jeff Dean",
+        "url": "https://www.latent.space/p/jeffdean",
+        "source_name": "Latent Space",
+        "domain": "latent.space",
+        "published_at": "2026-02-12T22:02:35+00:00",
+        "summary_text": "From rewriting Google\u2019s search stack in the early 2000s to reviving sparse trillion-parameter models and co-designing TPUs with frontier ML research, Jeff Dean has quietly shaped nearly every layer of the modern AI stac...",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Latent Space.",
+        "section_score": 13.6,
+        "scores": {
+          "big-announcements": 6.0,
+          "engineering": 6.0,
+          "product-development": 7.5,
+          "business": 6.0,
+          "under-the-radar": 13.6,
+          "for-fun": 6.0
+        }
+      },
+      {
+        "id": "a06233411a5a4339",
+        "title": "Latest open artifacts (#18): Arcee's 400B MoE, LiquidAI's underrated 1B model, new Kimi, and anticipation of a busy month",
+        "url": "https://www.interconnects.ai/p/latest-open-artifacts-18-arcees-big",
+        "source_name": "Interconnects",
+        "domain": "interconnects.ai",
+        "published_at": "2026-02-02T13:03:33+00:00",
+        "summary_text": "Tons of useful \"niche\" models and anticipation of big releases coming soon.",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Interconnects.",
+        "section_score": 13.6,
+        "scores": {
+          "big-announcements": 7.5,
+          "engineering": 6.0,
+          "product-development": 7.5,
+          "business": 6.0,
+          "under-the-radar": 13.6,
+          "for-fun": 7.5
+        }
+      },
+      {
+        "id": "c10e5c913a17ab9f",
+        "title": "[AINews] OpenAI closes $110B raise from Amazon, NVIDIA, SoftBank in largest startup fundraise in history @ $840B post-money",
+        "url": "https://www.latent.space/p/ainews-openai-closes-110b-raise-from",
+        "source_name": "Latent Space",
+        "domain": "latent.space",
+        "published_at": "2026-02-28T05:01:13+00:00",
+        "summary_text": "Congratulations, you secured the biggest number.",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Latent Space.",
+        "section_score": 13.236,
+        "scores": {
+          "big-announcements": 7.136,
+          "engineering": 7.136,
+          "product-development": 7.136,
+          "business": 8.636,
+          "under-the-radar": 13.236,
+          "for-fun": 10.136
+        }
+      }
+    ],
+    "for-fun": [
+      {
+        "id": "470ccceb63eff7eb",
+        "title": "Anthropic's Custom Claude Model For The Pentagon Is 1-2 Generations Ahead Of The Consumer Model",
+        "url": "https://www.reddit.com/r/singularity/comments/1rhqu1m/anthropics_custom_claude_model_for_the_pentagon/",
+        "source_name": "r/singularity",
+        "domain": "reddit.com",
+        "published_at": "2026-03-01T07:14:58+00:00",
+        "summary_text": "In the interview with CBS yesterday, Dario confirmed that Anthropic built custom Claude models for the military , that have \"revolutionized and radically accelerated\" what the military can do, and that these are just th...",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
+        "section_score": 13.388,
+        "scores": {
+          "big-announcements": 13.388,
+          "engineering": 7.388,
+          "product-development": 10.388,
+          "business": 7.388,
+          "under-the-radar": 8.988,
+          "for-fun": 13.388
+        }
+      },
+      {
+        "id": "2acf3eee39d26c31",
+        "title": "U.S. Strikes in Middle East Use Anthropic, Hours After Trump Ban",
+        "url": "https://www.reddit.com/r/singularity/comments/1rhmbw9/us_strikes_in_middle_east_use_anthropic_hours/",
+        "source_name": "r/singularity",
+        "domain": "reddit.com",
+        "published_at": "2026-03-01T03:14:12+00:00",
+        "summary_text": "submitted by /u/funkylookass [link] [comments]",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
+        "section_score": 12.866,
+        "scores": {
+          "big-announcements": 6.866,
+          "engineering": 6.866,
+          "product-development": 6.866,
+          "business": 6.866,
+          "under-the-radar": 8.466,
+          "for-fun": 12.866
+        }
+      },
+      {
+        "id": "a1d881a21ac6e189",
+        "title": "Switch to Claude without starting over",
+        "url": "https://claude.com/import-memory",
+        "source_name": "Hacker News",
+        "domain": "claude.com",
+        "published_at": "2026-03-01T07:36:52+00:00",
+        "summary_text": "Switch to Claude without starting over",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from Hacker News.",
+        "section_score": 14.973,
+        "scores": {
+          "big-announcements": 9.44,
+          "engineering": 14.973,
+          "product-development": 10.473,
+          "business": 10.144,
+          "under-the-radar": 11.04,
+          "for-fun": 10.94
+        }
+      },
+      {
+        "id": "73b704106df0bda5",
+        "title": "Launch HN: Cardboard (YC W26) \u2013 Agentic video editor",
+        "url": "https://www.usecardboard.com/",
+        "source_name": "Hacker News",
+        "domain": "usecardboard.com",
+        "published_at": "2026-02-26T18:38:38+00:00",
+        "summary_text": "Hey HN - we're Saksham and Ishan, and we\u2019re building Cardboard ( https://www.usecardboard.com ). It lets you go from raw footage to an edited video by describing what you want in natural language.",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from Hacker News.",
+        "section_score": 14.631,
+        "scores": {
+          "big-announcements": 10.771,
+          "engineering": 14.631,
+          "product-development": 10.131,
+          "business": 8.358,
+          "under-the-radar": 7.871,
+          "for-fun": 10.771
+        }
+      },
+      {
+        "id": "2e9c5bdf6b6bea2d",
+        "title": "OpenAI announces Frontier Alliance Partners",
+        "url": "https://openai.com/index/frontier-alliance-partners",
+        "source_name": "OpenAI News",
+        "domain": "openai.com",
+        "published_at": "2026-02-23T05:30:00+00:00",
+        "summary_text": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from OpenAI News.",
+        "section_score": 17.208,
+        "scores": {
+          "big-announcements": 17.208,
+          "engineering": 12.008,
+          "product-development": 10.508,
+          "business": 10.508,
+          "under-the-radar": 8.208,
+          "for-fun": 10.508
+        }
+      }
+    ]
+  }
+}
