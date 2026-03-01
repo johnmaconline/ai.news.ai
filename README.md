@@ -8,7 +8,7 @@ Each daily post includes:
   - `0) Big Announcements`
   - `1) Engineering`
   - `2) Product Development`
-  - `3) Business`
+  - `3) Software Development`
   - `4) Under the Radar`
   - `5) For Fun`
 
@@ -97,9 +97,9 @@ For social sources:
 - `LINKEDIN_AUTHOR_URN` in `.env` overrides the LinkedIn `author_urn` in `config/sources.yaml`, so you can switch orgs without editing YAML.
 - If corresponding tokens are not set, those sources are skipped safely.
 
-Business section intent:
-- Focuses on practical business application, AI-native side hustles, and workflow execution.
-- Announcement-heavy or partnership-only items are deprioritized for this section and should appear in `0) Big Announcements` when relevant.
+Software Development section intent:
+- Focuses on practical implementation for developers: agent workflows, skills, and how-to guidance.
+- Announcement-heavy items are deprioritized for this section and should appear in `0) Big Announcements` when relevant.
 
 `config/feeds.md` behavior:
 - This file is loaded on every run (default path).

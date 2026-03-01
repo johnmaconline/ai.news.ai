@@ -93,7 +93,7 @@ def build_daily_feed(
     title = f'Daily AI Feed - {feed_date}'
     intro = (
         'A curated daily AI briefing with original-source links across industry announcements, '
-        'engineering, product development, business, under-the-radar signals, and fun experiments.'
+        'engineering, product development, software development, under-the-radar signals, and fun experiments.'
     )
     ordered_sections = {section.slug: sections.get(section.slug, []) for section in SECTIONS}
     feed = DailyFeed(

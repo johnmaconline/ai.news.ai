@@ -1,10 +1,9 @@
-# Business
+# Software Development
 
-Focus on AI-native business outcomes: monetization, margins, growth durability, distribution, and strategic advantage.
+Focus on practical software development execution: real agent workflows, implementation patterns, and developer-facing how-to guidance.
 
 Writing guidance:
-- Prioritize real business signal over vanity metrics.
-- Call out revenue model, cost structure, pricing shifts, and operating leverage.
-- Highlight risks to defensibility, customer concentration, or regulatory exposure.
-- Keep summaries useful to founders, operators, and investors.
-
+- Prioritize actionable implementation over general strategy.
+- Highlight specific tools, skills, and step-by-step workflow patterns.
+- Surface what a developer can actually apply this week.
+- Favor concrete examples, benchmarks, repos, and reproducible techniques.

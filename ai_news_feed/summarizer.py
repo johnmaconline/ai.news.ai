@@ -32,7 +32,7 @@ SECTION_LENSES = {
     'big-announcements': 'what changed and who it impacts',
     'engineering': 'practical engineering workflow impact',
     'product-development': 'product workflow and shipping velocity impact',
-    'business': 'business model and monetization impact',
+    'business': 'software development workflow, agents, and implementation impact',
     'under-the-radar': 'why this overlooked signal matters early',
     'for-fun': 'why this is creative and interesting',
 }
