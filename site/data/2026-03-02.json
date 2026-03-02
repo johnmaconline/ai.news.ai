@@ -1,0 +1,590 @@
+{
+  "date": "2026-03-02",
+  "generated_at": "2026-03-02T11:25:02+00:00",
+  "title": "Daily AI Feed - 2026-03-02",
+  "intro": "A curated daily AI briefing with original-source links across industry announcements, engineering, product development, software development, under-the-radar signals, and fun experiments.",
+  "sections": {
+    "big-announcements": [
+      {
+        "id": "9668bc41ea178014",
+        "title": "Running Your Own AI Locally: A Complete Guide to LM Studio on Apple Silicon",
+        "url": "https://pub.towardsai.net/running-your-own-ai-locally-a-complete-guide-to-lm-studio-on-apple-silicon-bcda8e0a2a98?source=rss----98111c9905da---4",
+        "source_name": "Towards AI (Medium)",
+        "domain": "pub.towardsai.net",
+        "published_at": "2026-03-02T04:57:18+00:00",
+        "summary_text": "Introduction In an era where AI capabilities are increasingly centralized in cloud services, there\u2019s a growing interest in running large language models (LLMs) locally.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Towards AI (Medium).",
+        "section_score": 25.556,
+        "scores": {
+          "big-announcements": 12.056,
+          "engineering": 25.556,
+          "product-development": 13.556,
+          "business": 23.956,
+          "under-the-radar": 10.656,
+          "for-fun": 12.056
+        }
+      },
+      {
+        "id": "8dc81a9e12c227e7",
+        "title": "The Physics of Your Product: Understanding the Mathematical Drivers of User Growth",
+        "url": "https://pub.towardsai.net/the-physics-of-your-product-understanding-the-mathematical-drivers-of-user-growth-e0b8c0c8677d?source=rss----98111c9905da---4",
+        "source_name": "Towards AI (Medium)",
+        "domain": "pub.towardsai.net",
+        "published_at": "2026-03-02T04:55:44+00:00",
+        "summary_text": "Imagine you are a restaurant owner watching a new regular walk through the door. After their first week of consistent takeout orders, a high-stakes question inevitably crosses your mind: \u201cHow much is this customer actua...",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Towards AI (Medium).",
+        "section_score": 21.953,
+        "scores": {
+          "big-announcements": 12.053,
+          "engineering": 16.553,
+          "product-development": 13.553,
+          "business": 21.953,
+          "under-the-radar": 10.653,
+          "for-fun": 13.553
+        }
+      },
+      {
+        "id": "4a5b5f1b4996d372",
+        "title": "Choosing the right Apple Silicon for Backend + TranslateGemma/TTS/STT?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ripjzc/choosing_the_right_apple_silicon_for_backend/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-03-02T10:42:40+00:00",
+        "summary_text": "Hi everyone, I\u2019ve been a backend developer using a 2013 MacBook Pro until now. I\u2019m looking to buy a MacBook with 32GB of RAM , but I\u2019m having a hard time deciding which generation of Apple Silicon to pick.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from r/LocalLLaMA.",
+        "section_score": 13.385,
+        "scores": {
+          "big-announcements": 10.385,
+          "engineering": 13.385,
+          "product-development": 10.385,
+          "business": 11.585,
+          "under-the-radar": 10.485,
+          "for-fun": 8.885
+        }
+      },
+      {
+        "id": "4ee104541a83b660",
+        "title": "I trained a 3B patristic theology LLM on a single RTX 3090 in 22 hours \u2014 releasing model + corpus",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ribjum/i_trained_a_3b_patristic_theology_llm_on_a_single/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-03-01T22:42:29+00:00",
+        "summary_text": "Released on the Feast of the Triumph of Orthodoxy (First Sunday of Great Lent, 2026). Model: https://huggingface.co/jayfurzy/paterikon-3b Dataset: https://huggingface.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from r/LocalLLaMA.",
+        "section_score": 13.356,
+        "scores": {
+          "big-announcements": 10.356,
+          "engineering": 13.356,
+          "product-development": 8.856,
+          "business": 9.456,
+          "under-the-radar": 8.956,
+          "for-fun": 10.356
+        }
+      },
+      {
+        "id": "36ec02a0abc4e9ad",
+        "title": "No one wants to read your AI slop",
+        "url": "https://pluralistic.net/2026/03/02/nonconsensual-slopping/",
+        "source_name": "Hacker News",
+        "domain": "pluralistic.net",
+        "published_at": "2026-03-02T10:34:25+00:00",
+        "summary_text": "No one wants to read your AI slop",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Hacker News.",
+        "section_score": 14.429,
+        "scores": {
+          "big-announcements": 9.862,
+          "engineering": 14.429,
+          "product-development": 9.929,
+          "business": 7.708,
+          "under-the-radar": 11.462,
+          "for-fun": 9.862
+        }
+      }
+    ],
+    "engineering": [
+      {
+        "id": "1488fab6cb1aad65",
+        "title": "I Built a Conversational Agent for Azure B2C \u2014 The Hard Part Wasn\u2019t Azure",
+        "url": "https://pub.towardsai.net/i-built-a-conversational-agent-for-azure-b2c-the-hard-part-wasnt-azure-eea060c10781?source=rss----98111c9905da---4",
+        "source_name": "Towards AI (Medium)",
+        "domain": "pub.towardsai.net",
+        "published_at": "2026-03-02T05:00:22+00:00",
+        "summary_text": "A DevSecOps engineer\u2019s honest account of building an AI agent grounded in real tenant data \u2014 including the parts that didn\u2019t work.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Towards AI (Medium).",
+        "section_score": 38.763,
+        "scores": {
+          "big-announcements": 9.063,
+          "engineering": 22.563,
+          "product-development": 12.063,
+          "business": 38.763,
+          "under-the-radar": 10.663,
+          "for-fun": 10.563
+        }
+      },
+      {
+        "id": "262691376b05cb6f",
+        "title": "Injecting skills into the KV cache (not as stupid as it sounds, but still pretty dumb)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rif789/injecting_skills_into_the_kv_cache_not_as_stupid/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-03-02T01:18:22+00:00",
+        "summary_text": "Hey yall, so I had an idea in the middle of the night. Nothing brand new at a high level, KV cache injection has been around for a while.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.",
+        "section_score": 23.825,
+        "scores": {
+          "big-announcements": 9.125,
+          "engineering": 21.125,
+          "product-development": 7.625,
+          "business": 23.825,
+          "under-the-radar": 12.225,
+          "for-fun": 9.125
+        }
+      },
+      {
+        "id": "8ecb0278dcb62ed3",
+        "title": "Your Mac as a Private AI Server: LM Studio + MCP in 30 Lines of Python",
+        "url": "https://pub.towardsai.net/your-mac-as-a-private-ai-server-lm-studio-mcp-in-30-lines-of-python-fe076499a957?source=rss----98111c9905da---4",
+        "source_name": "Towards AI (Medium)",
+        "domain": "pub.towardsai.net",
+        "published_at": "2026-03-02T04:57:42+00:00",
+        "summary_text": "Running a local LLM and making it available to any device on your network \u2014 no cloud required. Update (Feb 2026): The SSE transport has been deprecated in newer versions of the MCP SDK and replaced by streamable-http.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Towards AI (Medium).",
+        "section_score": 36.057,
+        "scores": {
+          "big-announcements": 9.057,
+          "engineering": 21.057,
+          "product-development": 15.057,
+          "business": 36.057,
+          "under-the-radar": 10.657,
+          "for-fun": 12.057
+        }
+      },
+      {
+        "id": "303930e6be896f7d",
+        "title": "PSA: If your local coding agent feels \"dumb\" at 30k+ context, check your KV cache quantization first.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rhvi09/psa_if_your_local_coding_agent_feels_dumb_at_30k/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-03-01T11:55:51+00:00",
+        "summary_text": "I\u2019ve been seeing a lot of posts lately about models like Qwen3-Coder or GLM 4.7 getting trapped in infinite correction loops or hallucinating tool-call parameters once the context gets deep.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.",
+        "section_score": 25.404,
+        "scores": {
+          "big-announcements": 6.504,
+          "engineering": 20.004,
+          "product-development": 6.504,
+          "business": 25.404,
+          "under-the-radar": 8.104,
+          "for-fun": 8.004
+        }
+      },
+      {
+        "id": "c7bda8c7b85a08d1",
+        "title": "Show HN: Omni \u2013 Open-source workplace search and chat, built on Postgres",
+        "url": "https://github.com/getomnico/omni",
+        "source_name": "Hacker News",
+        "domain": "github.com",
+        "published_at": "2026-03-02T08:58:14+00:00",
+        "summary_text": "Hey HN! Over the past few months, I've been working on building Omni - a workplace search and chat platform that connects to apps like Google Drive/Gmail, Slack, Confluence, etc.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Hacker News.",
+        "section_score": 17.4,
+        "scores": {
+          "big-announcements": 9.613,
+          "engineering": 17.4,
+          "product-development": 11.4,
+          "business": 15.208,
+          "under-the-radar": 11.213,
+          "for-fun": 9.613
+        }
+      }
+    ],
+    "product-development": [
+      {
+        "id": "a81f51147dba65af",
+        "title": "Building a Production Multi-Tenant WhatsApp AI Bot: One Backend, Three Businesses",
+        "url": "https://pub.towardsai.net/building-a-production-multi-tenant-whatsapp-ai-bot-one-backend-three-businesses-87de9a5fcc7b?source=rss----98111c9905da---4",
+        "source_name": "Towards AI (Medium)",
+        "domain": "pub.towardsai.net",
+        "published_at": "2026-03-02T05:01:24+00:00",
+        "summary_text": "How I designed a single Python backend that serves a real estate agency in Dubai, a dental practice in Brazil, and a food retailer \u2014 each with fully isolated AI behavior, context memory, and business logic \u2014 without any...",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Towards AI (Medium).",
+        "section_score": 27.965,
+        "scores": {
+          "big-announcements": 9.065,
+          "engineering": 19.565,
+          "product-development": 13.565,
+          "business": 27.965,
+          "under-the-radar": 10.665,
+          "for-fun": 12.065
+        }
+      },
+      {
+        "id": "e5be1d43a65b4a77",
+        "title": "The Geometry of Attention: One Space, Two Operators",
+        "url": "https://pub.towardsai.net/the-geometry-of-attention-one-space-two-operators-a17f757c72aa?source=rss----98111c9905da---4",
+        "source_name": "Towards AI (Medium)",
+        "domain": "pub.towardsai.net",
+        "published_at": "2026-03-02T05:05:27+00:00",
+        "summary_text": "How two operators in one space reveal what four projections hide The goal of single-headed attention is to enhance the contextual awareness of a fixed token, or query , based on content from other tokens.",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Towards AI (Medium).",
+        "section_score": 17.174,
+        "scores": {
+          "big-announcements": 9.074,
+          "engineering": 13.574,
+          "product-development": 12.074,
+          "business": 17.174,
+          "under-the-radar": 10.674,
+          "for-fun": 12.074
+        }
+      },
+      {
+        "id": "a9ca23d3c61f3390",
+        "title": "I built a demo of what AI chat will look like when it's \u201cfree\u201d and ad-supported",
+        "url": "https://99helpers.com/tools/ad-supported-chat",
+        "source_name": "Hacker News",
+        "domain": "99helpers.com",
+        "published_at": "2026-03-01T11:49:01+00:00",
+        "summary_text": "I built a demo of what AI chat will look like when it's \u201cfree\u201d and ad-supported",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Hacker News.",
+        "section_score": 13.996,
+        "scores": {
+          "big-announcements": 7.496,
+          "engineering": 13.996,
+          "product-development": 10.996,
+          "business": 7.296,
+          "under-the-radar": 9.096,
+          "for-fun": 7.496
+        }
+      },
+      {
+        "id": "c52aea67aca0b377",
+        "title": "How Clay uses LangSmith to debug, evaluate, and monitor 300 million agents runs per month",
+        "url": "https://blog.langchain.com/customers-clay/",
+        "source_name": "LangChain Blog",
+        "domain": "blog.langchain.com",
+        "published_at": "2026-03-01T22:58:56+00:00",
+        "summary_text": "Clay is the creative tool for growth \u2014 a platform where go-to-market teams build, enrich, and activate lists of companies and people.",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from LangChain Blog.",
+        "section_score": 16.883,
+        "scores": {
+          "big-announcements": 9.383,
+          "engineering": 16.883,
+          "product-development": 10.883,
+          "business": 12.083,
+          "under-the-radar": 10.983,
+          "for-fun": 9.383
+        }
+      },
+      {
+        "id": "14b6884f31e42dee",
+        "title": "If AI writes code, should the session be part of the commit?",
+        "url": "https://github.com/mandel-macaque/memento",
+        "source_name": "Hacker News",
+        "domain": "github.com",
+        "published_at": "2026-03-02T00:27:52+00:00",
+        "summary_text": "If AI writes code, should the session be part of the commit?",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Hacker News.",
+        "section_score": 16.408,
+        "scores": {
+          "big-announcements": 8.535,
+          "engineering": 16.408,
+          "product-development": 10.408,
+          "business": 7.612,
+          "under-the-radar": 10.135,
+          "for-fun": 10.035
+        }
+      }
+    ],
+    "business": [
+      {
+        "id": "44c89f599a1f7eac",
+        "title": "Jan-Code-4B: a small code-tuned model of Jan-v3",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rim0b3/jancode4b_a_small_codetuned_model_of_janv3/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-03-02T07:02:59+00:00",
+        "summary_text": "Hi, this is Bach from the Jan team. We\u2019re releasing Jan-code-4B , a small code-tuned model built on Jan-v3-4B-base-instruct .",
+        "why_it_matters": "This matters for software development workflow, agents, and implementation impact, based on this update from r/LocalLLaMA.",
+        "section_score": 27.235,
+        "scores": {
+          "big-announcements": 8.335,
+          "engineering": 15.835,
+          "product-development": 9.835,
+          "business": 27.235,
+          "under-the-radar": 9.935,
+          "for-fun": 8.335
+        }
+      },
+      {
+        "id": "cb0b0b6d77bca6d5",
+        "title": "Building a Private Knowledge Base with MCP: How I Made Claude Search My Own Articles",
+        "url": "https://pub.towardsai.net/building-a-private-knowledge-base-with-mcp-how-i-made-claude-search-my-own-articles-06c591bb300a?source=rss----98111c9905da---4",
+        "source_name": "Towards AI (Medium)",
+        "domain": "pub.towardsai.net",
+        "published_at": "2026-03-02T04:59:59+00:00",
+        "summary_text": "The correct way to use Model Context Protocol \u2014 and how I got there by doing it wrong first. A note on scope: This is an academic and experimental setup \u2014 a hands-on way to learn how MCP works with real data sources.",
+        "why_it_matters": "This matters for software development workflow, agents, and implementation impact, based on this update from Towards AI (Medium).",
+        "section_score": 25.262,
+        "scores": {
+          "big-announcements": 10.562,
+          "engineering": 19.562,
+          "product-development": 12.062,
+          "business": 25.262,
+          "under-the-radar": 12.162,
+          "for-fun": 10.562
+        }
+      },
+      {
+        "id": "b1ed080ca9c9d408",
+        "title": "PSA: Qwen 3.5 requires bf16 KV cache, NOT f16!!",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rik253/psa_qwen_35_requires_bf16_kv_cache_not_f16/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-03-02T05:13:45+00:00",
+        "summary_text": "u/danielhanchen If you're running Qwen 3.5 35B A3B locally on engines like llama.cpp, you need to manually set your KV cache to bf16 ( -ctk bf16 -ctv bf16 ) instead of the default fp16 .",
+        "why_it_matters": "This matters for software development workflow, agents, and implementation impact, based on this update from r/LocalLLaMA.",
+        "section_score": 16.191,
+        "scores": {
+          "big-announcements": 8.091,
+          "engineering": 12.591,
+          "product-development": 9.591,
+          "business": 16.191,
+          "under-the-radar": 9.691,
+          "for-fun": 8.091
+        }
+      },
+      {
+        "id": "34384aaca3a77211",
+        "title": "The 8 Types of AI Models Powering Modern AI Agents: A Complete Guide",
+        "url": "https://pub.towardsai.net/the-8-types-of-ai-models-powering-modern-ai-agents-a-complete-guide-cddc775ece09?source=rss----98111c9905da---4",
+        "source_name": "Towards AI (Medium)",
+        "domain": "pub.towardsai.net",
+        "published_at": "2026-03-02T05:39:03+00:00",
+        "summary_text": "Understanding How Different AI Models Work Together \u2014 From GPT to Large Concept Models Continue reading on Towards AI \u00bb",
+        "why_it_matters": "This matters for software development workflow, agents, and implementation impact, based on this update from Towards AI (Medium).",
+        "section_score": 15.146,
+        "scores": {
+          "big-announcements": 9.146,
+          "engineering": 15.146,
+          "product-development": 10.646,
+          "business": 14.546,
+          "under-the-radar": 10.746,
+          "for-fun": 9.146
+        }
+      },
+      {
+        "id": "21dd73da2e883138",
+        "title": "Show HN: Logira \u2013 eBPF runtime auditing for AI agent runs",
+        "url": "https://github.com/melonattacker/logira",
+        "source_name": "Hacker News",
+        "domain": "github.com",
+        "published_at": "2026-03-01T23:25:01+00:00",
+        "summary_text": "I started using Claude Code (claude --dangerously-skip-permissions) and Codex (codex --yolo) and realized I had no reliable way to know what they actually did.",
+        "why_it_matters": "This matters for software development workflow, agents, and implementation impact, based on this update from Hacker News.",
+        "section_score": 16.06,
+        "scores": {
+          "big-announcements": 8.426,
+          "engineering": 16.06,
+          "product-development": 8.56,
+          "business": 13.917,
+          "under-the-radar": 10.026,
+          "for-fun": 9.926
+        }
+      }
+    ],
+    "under-the-radar": [
+      {
+        "id": "ffbaedb0977e76a6",
+        "title": "Would you love a song less if AI wrote it?",
+        "url": "https://www.reddit.com/r/singularity/comments/1riq8wp/would_you_love_a_song_less_if_ai_wrote_it/",
+        "source_name": "r/singularity",
+        "domain": "reddit.com",
+        "published_at": "2026-03-02T11:22:06+00:00",
+        "summary_text": "If you heard the most amazing piece of music\u2026 And later discovered it was generated by an algorithm\u2026 Would it diminish its value? If you\u2019d love a song less just because of who or what made it, maybe that exposes how oft...",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from r/singularity.",
+        "section_score": 15.492,
+        "scores": {
+          "big-announcements": 7.992,
+          "engineering": 9.492,
+          "product-development": 9.492,
+          "business": 10.692,
+          "under-the-radar": 11.092,
+          "for-fun": 15.492
+        }
+      },
+      {
+        "id": "d675ff58fb9e3831",
+        "title": "Evolving descriptive text of mental content from human brain activity",
+        "url": "https://www.bbc.com/future/article/20260226-how-ai-can-read-your-thoughts",
+        "source_name": "Hacker News",
+        "domain": "bbc.com",
+        "published_at": "2026-03-02T05:39:36+00:00",
+        "summary_text": "Evolving descriptive text of mental content from human brain activity",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Hacker News.",
+        "section_score": 13.807,
+        "scores": {
+          "big-announcements": 9.147,
+          "engineering": 13.807,
+          "product-development": 9.307,
+          "business": 7.056,
+          "under-the-radar": 10.747,
+          "for-fun": 9.147
+        }
+      },
+      {
+        "id": "98842def722e1971",
+        "title": "The 3 RLAIF Approaches: How AI Learns to Align Itself Without Human Labelers",
+        "url": "https://pub.towardsai.net/the-3-rlaif-approaches-how-ai-learns-to-align-itself-without-human-labelers-6ff8237fa5c1?source=rss----98111c9905da---4",
+        "source_name": "Towards AI (Medium)",
+        "domain": "pub.towardsai.net",
+        "published_at": "2026-03-02T05:05:03+00:00",
+        "summary_text": "Understanding AI-Generated Preferences, Constitutional AI Extensions, and Scalable Oversight Continue reading on Towards AI \u00bb",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Towards AI (Medium).",
+        "section_score": 13.573,
+        "scores": {
+          "big-announcements": 9.073,
+          "engineering": 13.573,
+          "product-development": 9.073,
+          "business": 6.873,
+          "under-the-radar": 10.673,
+          "for-fun": 9.073
+        }
+      },
+      {
+        "id": "43e83695fe825799",
+        "title": "7 AI Terms Every Developer Must Master to Survive 2026\u2019s Agentic Era",
+        "url": "https://pub.towardsai.net/7-ai-terms-every-developer-must-master-to-thrive-in-2026s-agentic-era-4f1d1357478c?source=rss----98111c9905da---4",
+        "source_name": "Towards AI (Medium)",
+        "domain": "pub.towardsai.net",
+        "published_at": "2026-03-02T04:56:32+00:00",
+        "summary_text": "These concepts are actually running inside production systems right now, and learning them gives you an Edge. Continue reading on Towards AI \u00bb",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Towards AI (Medium).",
+        "section_score": 15.055,
+        "scores": {
+          "big-announcements": 9.055,
+          "engineering": 15.055,
+          "product-development": 10.555,
+          "business": 11.755,
+          "under-the-radar": 10.655,
+          "for-fun": 9.055
+        }
+      },
+      {
+        "id": "1e7774ff9f6be201",
+        "title": "A 200 KB Tool-Using Six-Phase Loop Agent for Qwen3.5-35B-A3B",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1riouwq/a_200_kb_toolusing_sixphase_loop_agent_for/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-03-02T10:00:46+00:00",
+        "summary_text": "An autonomous agent that runs a six-phase cognitive loop continuously, learning and building capabilities with every cycle. Uses a local LLM (llama-server) and persists its memory through git.",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from r/LocalLLaMA.",
+        "section_score": 14.773,
+        "scores": {
+          "big-announcements": 8.773,
+          "engineering": 14.773,
+          "product-development": 10.273,
+          "business": 11.473,
+          "under-the-radar": 10.373,
+          "for-fun": 8.773
+        }
+      }
+    ],
+    "for-fun": [
+      {
+        "id": "83ce04d7d8988369",
+        "title": "Bit late to the party. No where to leave feedback on why I left. Great job Altman!",
+        "url": "https://www.reddit.com/r/singularity/comments/1ri63f7/bit_late_to_the_party_no_where_to_leave_feedback/",
+        "source_name": "r/singularity",
+        "domain": "reddit.com",
+        "published_at": "2026-03-01T19:13:20+00:00",
+        "summary_text": "submitted by /u/Judders_Luigi [link] [comments]",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
+        "section_score": 12.037,
+        "scores": {
+          "big-announcements": 6.037,
+          "engineering": 6.037,
+          "product-development": 7.537,
+          "business": 3.837,
+          "under-the-radar": 7.637,
+          "for-fun": 12.037
+        }
+      },
+      {
+        "id": "cd9cb8a40d13e6ea",
+        "title": "Alibaba Team Open-Sources CoPaw: A High-Performance Personal Agent Workstation for Developers to Scale Multi-Channel AI Workflows and Memory",
+        "url": "https://www.reddit.com/r/singularity/comments/1rin34v/alibaba_team_opensources_copaw_a_highperformance/",
+        "source_name": "r/singularity",
+        "domain": "reddit.com",
+        "published_at": "2026-03-02T08:09:11+00:00",
+        "summary_text": "submitted by /u/skippybosco [link] [comments]",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
+        "section_score": 12.892,
+        "scores": {
+          "big-announcements": 7.492,
+          "engineering": 8.992,
+          "product-development": 7.492,
+          "business": 12.892,
+          "under-the-radar": 9.092,
+          "for-fun": 11.992
+        }
+      },
+      {
+        "id": "9aa69ea1a84d733e",
+        "title": "Why XML tags are so fundamental to Claude",
+        "url": "https://glthr.com/XML-fundamental-to-Claude",
+        "source_name": "Hacker News",
+        "domain": "glthr.com",
+        "published_at": "2026-03-01T14:52:22+00:00",
+        "summary_text": "Why XML tags are so fundamental to Claude",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from Hacker News.",
+        "section_score": 13.6,
+        "scores": {
+          "big-announcements": 7.7,
+          "engineering": 13.6,
+          "product-development": 9.1,
+          "business": 6.454,
+          "under-the-radar": 9.3,
+          "for-fun": 9.2
+        }
+      },
+      {
+        "id": "29633d2244784137",
+        "title": "Secure LLM Scripting. Finally",
+        "url": "https://mlld.ai/",
+        "source_name": "Hacker News",
+        "domain": "mlld.ai",
+        "published_at": "2026-03-02T02:18:35+00:00",
+        "summary_text": "Secure LLM Scripting. Finally",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from Hacker News.",
+        "section_score": 13.271,
+        "scores": {
+          "big-announcements": 8.737,
+          "engineering": 13.271,
+          "product-development": 8.771,
+          "business": 6.56,
+          "under-the-radar": 10.337,
+          "for-fun": 8.737
+        }
+      },
+      {
+        "id": "9299f6591ffccd48",
+        "title": "Show HN: Timber \u2013 Ollama for classical ML models, 336x faster than Python",
+        "url": "https://github.com/kossisoroyce/timber",
+        "source_name": "Hacker News",
+        "domain": "github.com",
+        "published_at": "2026-03-02T00:57:40+00:00",
+        "summary_text": "Show HN: Timber \u2013 Ollama for classical ML models, 336x faster than Python",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from Hacker News.",
+        "section_score": 13.988,
+        "scores": {
+          "big-announcements": 8.588,
+          "engineering": 13.988,
+          "product-development": 9.488,
+          "business": 7.001,
+          "under-the-radar": 10.188,
+          "for-fun": 8.588
+        }
+      }
+    ]
+  }
+}
