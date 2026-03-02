@@ -19,7 +19,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     env:
-      FEED_TIMEZONE: ${{ vars.FEED_TIMEZONE || 'America/New_York' }}
+      FEED_TIMEZONE: America/New_York
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -36,7 +36,9 @@ jobs:
             echo "run=true" >> "${GITHUB_OUTPUT}"
             exit 0
           fi
+          now_local="$(TZ="${FEED_TIMEZONE}" date '+%Y-%m-%d %H:%M:%S %Z')"
           hour="$(TZ="${FEED_TIMEZONE}" date +%H)"
+          echo "Scheduled gate check: local=${now_local}, timezone=${FEED_TIMEZONE}, hour=${hour}"
           if [ "${hour}" = "06" ]; then
             echo "run=true" >> "${GITHUB_OUTPUT}"
           else
