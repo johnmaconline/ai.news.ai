@@ -1,0 +1,590 @@
+{
+  "date": "2026-03-03",
+  "generated_at": "2026-03-03T11:26:15+00:00",
+  "title": "Daily AI Feed - 2026-03-03",
+  "intro": "A curated daily AI briefing with original-source links across industry announcements, engineering, product development, software development, under-the-radar signals, and fun experiments.",
+  "sections": {
+    "big-announcements": [
+      {
+        "id": "80e274c2791d420b",
+        "title": "Show HN: Govbase \u2013 Follow a bill from source text to news bias to social posts",
+        "url": "https://govbase.com",
+        "source_name": "Hacker News",
+        "domain": "govbase.com",
+        "published_at": "2026-03-02T17:08:53+00:00",
+        "summary_text": "Govbase tracks every bill, executive order, and federal regulation from official sources (Congress.gov, Federal Register, White House).",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Hacker News.",
+        "section_score": 13.867,
+        "scores": {
+          "big-announcements": 13.867,
+          "engineering": 13.674,
+          "product-development": 9.174,
+          "business": 11.458,
+          "under-the-radar": 9.467,
+          "for-fun": 7.867
+        }
+      },
+      {
+        "id": "1df438cd28b9f4da",
+        "title": "OpenClaw Won\u2019t Bite, A Zero-to-Hero Guide for People Who Hate Terminal",
+        "url": "https://pub.towardsai.net/openclaw-complete-guide-setup-tutorial-2026-14dd1ae6d1c2?source=rss----98111c9905da---4",
+        "source_name": "Towards AI (Medium)",
+        "domain": "pub.towardsai.net",
+        "published_at": "2026-03-03T06:20:31+00:00",
+        "summary_text": "Your AI assistant isn\u2019t a chatbot anymore. It\u2019s a roommate. And it just learned where you keep your files. OpenClaw is not hard. It\u2019s a Folder With Feelings. What Even Is OpenClaw, Though? Let me tell it straight.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Towards AI (Medium).",
+        "section_score": 42.335,
+        "scores": {
+          "big-announcements": 13.735,
+          "engineering": 24.235,
+          "product-development": 16.735,
+          "business": 42.335,
+          "under-the-radar": 12.335,
+          "for-fun": 13.735
+        }
+      },
+      {
+        "id": "ad52716eedd30ec2",
+        "title": "Essential Python Libraries for Data Science",
+        "url": "https://pub.towardsai.net/essential-python-libraries-for-data-science-c1d607abca27?source=rss----98111c9905da---4",
+        "source_name": "Towards AI (Medium)",
+        "domain": "pub.towardsai.net",
+        "published_at": "2026-03-03T06:05:50+00:00",
+        "summary_text": "Part 4: Gradient Boosting in Production If you look closely at real-world tabular machine learning systems, a clear pattern emerges.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from Towards AI (Medium).",
+        "section_score": 20.703,
+        "scores": {
+          "big-announcements": 12.203,
+          "engineering": 19.703,
+          "product-development": 15.203,
+          "business": 20.703,
+          "under-the-radar": 10.803,
+          "for-fun": 10.703
+        }
+      },
+      {
+        "id": "9e6a338bdd91e2bc",
+        "title": "Building specialized AI without sacrificing intelligence: Nova Forge data mixing in action",
+        "url": "https://aws.amazon.com/blogs/machine-learning/building-specialized-ai-without-sacrificing-intelligence-nova-forge-data-mixing-in-action/",
+        "source_name": "AWS Machine Learning Blog",
+        "domain": "aws.amazon.com",
+        "published_at": "2026-03-02T19:32:47+00:00",
+        "summary_text": "In this post, we share results from the AWS China Applied Science team's comprehensive evaluation of Nova Forge using a challenging Voice of Customer (VOC) classification task, benchmarked against open-source models.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from AWS Machine Learning Blog.",
+        "section_score": 16.563,
+        "scores": {
+          "big-announcements": 11.263,
+          "engineering": 16.563,
+          "product-development": 10.563,
+          "business": 6.763,
+          "under-the-radar": 8.263,
+          "for-fun": 9.063
+        }
+      },
+      {
+        "id": "676ab82c6336e3d6",
+        "title": "Build a serverless conversational AI agent using Claude with LangGraph and managed MLflow on Amazon SageMaker AI",
+        "url": "https://aws.amazon.com/blogs/machine-learning/build-a-serverless-conversational-ai-agent-using-claude-with-langgraph-and-managed-mlflow-on-amazon-sagemaker-ai/",
+        "source_name": "AWS Machine Learning Blog",
+        "domain": "aws.amazon.com",
+        "published_at": "2026-03-02T18:51:43+00:00",
+        "summary_text": "This post explores how to build an intelligent conversational agent using Amazon Bedrock, LangGraph, and managed MLflow on Amazon SageMaker AI.",
+        "why_it_matters": "This matters for what changed and who it impacts, based on this update from AWS Machine Learning Blog.",
+        "section_score": 15.005,
+        "scores": {
+          "big-announcements": 11.205,
+          "engineering": 15.005,
+          "product-development": 10.505,
+          "business": 11.405,
+          "under-the-radar": 8.205,
+          "for-fun": 9.005
+        }
+      }
+    ],
+    "engineering": [
+      {
+        "id": "a96a3f857ff9a987",
+        "title": "Essential Python Libraries for Data Science",
+        "url": "https://pub.towardsai.net/essential-python-libraries-for-data-science-a1ccde9f679e?source=rss----98111c9905da---4",
+        "source_name": "Towards AI (Medium)",
+        "domain": "pub.towardsai.net",
+        "published_at": "2026-03-03T06:05:22+00:00",
+        "summary_text": "Part 3: Classical Machine Learning In Part 1 , we focused on how data is represented, transformed, and computed using NumPy and Pandas. By the end of that part, the dataset was clean, structured, and numerically stable.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Towards AI (Medium).",
+        "section_score": 34.201,
+        "scores": {
+          "big-announcements": 12.201,
+          "engineering": 25.701,
+          "product-development": 12.201,
+          "business": 34.201,
+          "under-the-radar": 10.801,
+          "for-fun": 10.701
+        }
+      },
+      {
+        "id": "1a122790e5a72be2",
+        "title": "Organizing, Orchestrating, and Benchmarking Agent Skills at Ecosystem Scale",
+        "url": "http://arxiv.org/abs/2603.02176v1",
+        "source_name": "arXiv AI Core",
+        "domain": "arxiv.org",
+        "published_at": "2026-03-02T18:46:47+00:00",
+        "summary_text": "The rapid proliferation of Claude agent skills has raised the central question of how to effectively leverage, manage, and scale the agent skill ecosystem.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from arXiv AI Core.",
+        "section_score": 22.998,
+        "scores": {
+          "big-announcements": 9.498,
+          "engineering": 22.998,
+          "product-development": 7.998,
+          "business": 19.498,
+          "under-the-radar": 9.598,
+          "for-fun": 9.498
+        }
+      },
+      {
+        "id": "abc504ae741d0c58",
+        "title": "GitOps-Driven Installation of Red Hat OpenShift AI on IBM Fusion with Argo CD",
+        "url": "https://pub.towardsai.net/gitops-driven-installation-of-red-hat-openshift-ai-on-ibm-fusion-with-argo-cd-bca1c6776fd0?source=rss----98111c9905da---4",
+        "source_name": "Towards AI (Medium)",
+        "domain": "pub.towardsai.net",
+        "published_at": "2026-03-03T06:19:12+00:00",
+        "summary_text": "Artificial Intelligence workloads are rapidly becoming a core part of modern enterprise platforms.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Towards AI (Medium).",
+        "section_score": 28.832,
+        "scores": {
+          "big-announcements": 10.732,
+          "engineering": 21.232,
+          "product-development": 12.232,
+          "business": 28.832,
+          "under-the-radar": 10.832,
+          "for-fun": 12.232
+        }
+      },
+      {
+        "id": "1c90be9526b02801",
+        "title": "From Leaderboard to Deployment: Code Quality Challenges in AV Perception Repositories",
+        "url": "http://arxiv.org/abs/2603.02194v1",
+        "source_name": "arXiv AI Core",
+        "domain": "arxiv.org",
+        "published_at": "2026-03-02T18:54:28+00:00",
+        "summary_text": "Autonomous vehicle (AV) perception models are typically evaluated solely on benchmark performance metrics, with limited attention to code quality, production readiness and long-term maintainability.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from arXiv AI Core.",
+        "section_score": 20.009,
+        "scores": {
+          "big-announcements": 8.009,
+          "engineering": 20.009,
+          "product-development": 12.509,
+          "business": 16.109,
+          "under-the-radar": 9.609,
+          "for-fun": 8.009
+        }
+      },
+      {
+        "id": "8d0d85d61c4ebaeb",
+        "title": "GIF optimization tool using WebAssembly and Gifsicle",
+        "url": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/",
+        "source_name": "Simon Willison",
+        "domain": "simonwillison.net",
+        "published_at": "2026-03-02T16:35:10+00:00",
+        "summary_text": "Agentic Engineering Patterns > I like to include animated GIF demos in my online writing, often recorded using LICEcap . There's an example in the Interactive explanations chapter. These GIFs can be pretty big.",
+        "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Simon Willison.",
+        "section_score": 29.124,
+        "scores": {
+          "big-announcements": 10.324,
+          "engineering": 17.824,
+          "product-development": 10.324,
+          "business": 29.124,
+          "under-the-radar": 14.924,
+          "for-fun": 8.824
+        }
+      }
+    ],
+    "product-development": [
+      {
+        "id": "16f30139e66a4612",
+        "title": "What If I Told You the Most Powerful Algorithm in Statistics Is Just\u2026 Guessing?",
+        "url": "https://pub.towardsai.net/mcmc-sampling-explained-beginners-guide-python-dfc44f4f2a92?source=rss----98111c9905da---4",
+        "source_name": "Towards AI (Medium)",
+        "domain": "pub.towardsai.net",
+        "published_at": "2026-03-03T06:03:57+00:00",
+        "summary_text": "If you can understand a coin flip, you can understand MCMC (Markov Chain Monte Carlo). I promise. I stared at the Wikipedia page for MCMC for forty-five minutes.",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Towards AI (Medium).",
+        "section_score": 19.998,
+        "scores": {
+          "big-announcements": 9.198,
+          "engineering": 19.698,
+          "product-development": 15.198,
+          "business": 19.998,
+          "under-the-radar": 12.298,
+          "for-fun": 16.698
+        }
+      },
+      {
+        "id": "bef23edd10952894",
+        "title": "MAC: A Conversion Rate Prediction Benchmark Featuring Labels Under Multiple Attribution Mechanisms",
+        "url": "http://arxiv.org/abs/2603.02184v1",
+        "source_name": "arXiv AI Core",
+        "domain": "arxiv.org",
+        "published_at": "2026-03-02T18:51:01+00:00",
+        "summary_text": "Multi-attribution learning (MAL), which enhances model performance by learning from conversion labels yielded by multiple attribution mechanisms, has emerged as a promising learning paradigm for conversion rate (CVR) pr...",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from arXiv AI Core.",
+        "section_score": 14.004,
+        "scores": {
+          "big-announcements": 8.004,
+          "engineering": 14.004,
+          "product-development": 12.504,
+          "business": 10.704,
+          "under-the-radar": 9.604,
+          "for-fun": 9.504
+        }
+      },
+      {
+        "id": "33472a6d208d0a49",
+        "title": "What Exactly do Children Receive in Language Acquisition? A Case Study on CHILDES with Automated Detection of Filler-Gap Dependencies",
+        "url": "http://arxiv.org/abs/2603.02082v1",
+        "source_name": "arXiv AI Core",
+        "domain": "arxiv.org",
+        "published_at": "2026-03-02T17:03:51+00:00",
+        "summary_text": "Children's acquisition of filler-gap dependencies has been argued by some to depend on innate grammatical knowledge, while others suggest that the distributional evidence available in child-directed speech suffices.",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from arXiv AI Core.",
+        "section_score": 12.361,
+        "scores": {
+          "big-announcements": 9.361,
+          "engineering": 12.361,
+          "product-development": 12.361,
+          "business": 8.561,
+          "under-the-radar": 10.961,
+          "for-fun": 7.861
+        }
+      },
+      {
+        "id": "a41175fe7de02029",
+        "title": "Runtime Reinforcement: Preventing \u201cInstruction Decay\u201d in Long Context Windows",
+        "url": "https://pub.towardsai.net/runtime-reinforcement-preventing-instruction-decay-in-long-context-windows-66d498097db9?source=rss----98111c9905da---4",
+        "source_name": "Towards AI (Medium)",
+        "domain": "pub.towardsai.net",
+        "published_at": "2026-03-03T06:19:29+00:00",
+        "summary_text": "Moving critical business logic from the System Prompt to a per-turn Injection Layer.",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Towards AI (Medium).",
+        "section_score": 25.433,
+        "scores": {
+          "big-announcements": 10.733,
+          "engineering": 18.233,
+          "product-development": 12.233,
+          "business": 25.433,
+          "under-the-radar": 10.833,
+          "for-fun": 12.233
+        }
+      },
+      {
+        "id": "364b237c98fd66c8",
+        "title": "Show HN: I built a sub-500ms latency voice agent from scratch",
+        "url": "https://www.ntik.me/posts/voice-agent",
+        "source_name": "Hacker News",
+        "domain": "ntik.me",
+        "published_at": "2026-03-02T21:23:40+00:00",
+        "summary_text": "I built a voice agent from scratch that averages ~400ms end-to-end latency (phone stop \u2192 first syllable). That\u2019s with full STT \u2192 LLM \u2192 TTS in the loop, clean barge-ins, and no precomputed responses.",
+        "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Hacker News.",
+        "section_score": 18.315,
+        "scores": {
+          "big-announcements": 8.228,
+          "engineering": 17.728,
+          "product-development": 11.728,
+          "business": 18.315,
+          "under-the-radar": 9.828,
+          "for-fun": 9.728
+        }
+      }
+    ],
+    "business": [
+      {
+        "id": "1775e3e6d6d8615d",
+        "title": "Is the endgame of AI just a shift from \"Skills\" to \"Capital\"? A Junior Dev\u2019s perspective.",
+        "url": "https://www.reddit.com/r/singularity/comments/1rj2l96/is_the_endgame_of_ai_just_a_shift_from_skills_to/",
+        "source_name": "r/singularity",
+        "domain": "reddit.com",
+        "published_at": "2026-03-02T19:30:17+00:00",
+        "summary_text": "Hi, I\u2019m a junior full-stack dev and I\u2019ve been looking at the rate of AI evolution over the last few months.",
+        "why_it_matters": "This matters for software development workflow, agents, and implementation impact, based on this update from r/singularity.",
+        "section_score": 22.26,
+        "scores": {
+          "big-announcements": 6.06,
+          "engineering": 9.06,
+          "product-development": 9.06,
+          "business": 22.26,
+          "under-the-radar": 7.66,
+          "for-fun": 12.06
+        }
+      },
+      {
+        "id": "7630783855135e21",
+        "title": "Conformal Policy Control",
+        "url": "http://arxiv.org/abs/2603.02196v1",
+        "source_name": "arXiv AI Core",
+        "domain": "arxiv.org",
+        "published_at": "2026-03-02T18:54:36+00:00",
+        "summary_text": "An agent must try new behaviors to explore and improve. In high-stakes environments, an agent that violates safety constraints may cause harm and must be taken offline, curtailing any future interaction.",
+        "why_it_matters": "This matters for software development workflow, agents, and implementation impact, based on this update from arXiv AI Core.",
+        "section_score": 18.809,
+        "scores": {
+          "big-announcements": 9.509,
+          "engineering": 15.509,
+          "product-development": 8.009,
+          "business": 18.809,
+          "under-the-radar": 9.609,
+          "for-fun": 9.509
+        }
+      },
+      {
+        "id": "b03ab4b6e583104a",
+        "title": "Essential Python Libraries for Data Science",
+        "url": "https://pub.towardsai.net/essential-python-libraries-for-data-science-4684cacfa7cd?source=rss----98111c9905da---4",
+        "source_name": "Towards AI (Medium)",
+        "domain": "pub.towardsai.net",
+        "published_at": "2026-03-03T06:05:09+00:00",
+        "summary_text": "Part 2: Visualization and Diagnostics In Part 1 , we built the foundations of the data pipeline.",
+        "why_it_matters": "This matters for software development workflow, agents, and implementation impact, based on this update from Towards AI (Medium).",
+        "section_score": 19.701,
+        "scores": {
+          "big-announcements": 12.201,
+          "engineering": 19.701,
+          "product-development": 12.201,
+          "business": 18.701,
+          "under-the-radar": 10.801,
+          "for-fun": 10.701
+        }
+      },
+      {
+        "id": "99ea0a4755611f0e",
+        "title": "Show HN: Web Audio Studio \u2013 A Visual Debugger for Web Audio API Graphs",
+        "url": "https://webaudio.studio/",
+        "source_name": "Hacker News",
+        "domain": "webaudio.studio",
+        "published_at": "2026-03-02T11:47:44+00:00",
+        "summary_text": "Hi HN, I\u2019ve been working on a browser-based tool for exploring and debugging Web Audio API graphs.",
+        "why_it_matters": "This matters for software development workflow, agents, and implementation impact, based on this update from Hacker News.",
+        "section_score": 18.585,
+        "scores": {
+          "big-announcements": 7.494,
+          "engineering": 15.421,
+          "product-development": 10.921,
+          "business": 18.585,
+          "under-the-radar": 9.094,
+          "for-fun": 8.994
+        }
+      },
+      {
+        "id": "56538bcafc37f3e6",
+        "title": "Beyond .predict(): Building a KNN From Scratch",
+        "url": "https://pub.towardsai.net/beyond-predict-building-a-knn-from-scratch-dfd3405fd7f2?source=rss----98111c9905da---4",
+        "source_name": "Towards AI (Medium)",
+        "domain": "pub.towardsai.net",
+        "published_at": "2026-03-03T06:00:24+00:00",
+        "summary_text": "In the world of Scikit-Learn, implementing K-Nearest Neighbors (KNN) is as trivial as three lines of code. But in a production environment, \u201csimple\u201d is a trap.",
+        "why_it_matters": "This matters for software development workflow, agents, and implementation impact, based on this update from Towards AI (Medium).",
+        "section_score": 17.29,
+        "scores": {
+          "big-announcements": 10.69,
+          "engineering": 16.69,
+          "product-development": 12.19,
+          "business": 17.29,
+          "under-the-radar": 10.79,
+          "for-fun": 12.19
+        }
+      }
+    ],
+    "under-the-radar": [
+      {
+        "id": "97193b5e8a456227",
+        "title": "[AINews] Truth in the time of Artifice",
+        "url": "https://www.latent.space/p/ainews-truth-in-the-time-of-artifice",
+        "source_name": "Latent Space",
+        "domain": "latent.space",
+        "published_at": "2026-03-03T08:01:30+00:00",
+        "summary_text": "A quiet day lets us question the nature of reality",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Latent Space.",
+        "section_score": 15.57,
+        "scores": {
+          "big-announcements": 9.47,
+          "engineering": 9.47,
+          "product-development": 10.97,
+          "business": 7.27,
+          "under-the-radar": 15.57,
+          "for-fun": 10.97
+        }
+      },
+      {
+        "id": "2a87a78b1dad8977",
+        "title": "February sponsors-only newsletter",
+        "url": "https://simonwillison.net/2026/Mar/2/february-newsletter/",
+        "source_name": "Simon Willison",
+        "domain": "simonwillison.net",
+        "published_at": "2026-03-02T14:53:15+00:00",
+        "summary_text": "I just sent the February edition of my sponsors-only monthly newsletter . If you are a sponsor (or if you start a sponsorship now) you can access it here .",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Simon Willison.",
+        "section_score": 14.799,
+        "scores": {
+          "big-announcements": 10.199,
+          "engineering": 11.699,
+          "product-development": 10.199,
+          "business": 14.799,
+          "under-the-radar": 14.799,
+          "for-fun": 10.199
+        }
+      },
+      {
+        "id": "4fd4f3cbf3cc1ef3",
+        "title": "How to Kill the Code Review",
+        "url": "https://www.latent.space/p/reviews-dead",
+        "source_name": "Latent Space",
+        "domain": "latent.space",
+        "published_at": "2026-03-02T22:13:56+00:00",
+        "summary_text": "Human-written code died in 2025. Code reviews will die in 2026.",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Latent Space.",
+        "section_score": 14.408,
+        "scores": {
+          "big-announcements": 8.308,
+          "engineering": 9.808,
+          "product-development": 8.308,
+          "business": 11.008,
+          "under-the-radar": 14.408,
+          "for-fun": 8.308
+        }
+      },
+      {
+        "id": "f1dba985c94c8601",
+        "title": "Qwen 3.5 9B on a dual reasoning math game",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rjfyqf/qwen_35_9b_on_a_dual_reasoning_math_game/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-03-03T04:38:31+00:00",
+        "summary_text": "For context, I only have 16gb of vram, so I've been testing various small reasoning models to play the following math game: \"I have a secret number between 1 and 1 million, you have 10 guesses to figure it out! After ev...",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from r/LocalLLaMA.",
+        "section_score": 16.114,
+        "scores": {
+          "big-announcements": 8.014,
+          "engineering": 14.014,
+          "product-development": 8.014,
+          "business": 16.114,
+          "under-the-radar": 12.614,
+          "for-fun": 11.014
+        }
+      },
+      {
+        "id": "7075acdf4486ea06",
+        "title": "Zero- and Few-Shot Named-Entity Recognition: Case Study and Dataset in the Crime Domain (CrimeNER)",
+        "url": "http://arxiv.org/abs/2603.02150v1",
+        "source_name": "arXiv AI Core",
+        "domain": "arxiv.org",
+        "published_at": "2026-03-02T18:12:02+00:00",
+        "summary_text": "The extraction of critical information from crime-related documents is a crucial task for law enforcement agencies.",
+        "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from arXiv AI Core.",
+        "section_score": 13.951,
+        "scores": {
+          "big-announcements": 7.951,
+          "engineering": 13.951,
+          "product-development": 7.951,
+          "business": 13.351,
+          "under-the-radar": 12.551,
+          "for-fun": 9.451
+        }
+      }
+    ],
+    "for-fun": [
+      {
+        "id": "3b83f58aa73419f5",
+        "title": "Xiaomi showcases its humanoid robots working autonomously in factory settings with 90.2% success rate using a VLA + model that fuses vision with fingertip sensor data, approaching human-level performance on the production line.",
+        "url": "https://www.reddit.com/r/singularity/comments/1rjm4u8/xiaomi_showcases_its_humanoid_robots_working/",
+        "source_name": "r/singularity",
+        "domain": "reddit.com",
+        "published_at": "2026-03-03T10:44:41+00:00",
+        "summary_text": "Xiaomi just shared 3 hours of autonomous production data from their Beijing EV factory, and the numbers are a reality check for the \"factory-first\" strategy.",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
+        "section_score": 13.887,
+        "scores": {
+          "big-announcements": 7.887,
+          "engineering": 9.387,
+          "product-development": 9.387,
+          "business": 5.687,
+          "under-the-radar": 9.487,
+          "for-fun": 13.887
+        }
+      },
+      {
+        "id": "9cadd1e7596ace30",
+        "title": "Super intelligence isn't required for super intelligence",
+        "url": "https://www.reddit.com/r/singularity/comments/1rjkzwe/super_intelligence_isnt_required_for_super/",
+        "source_name": "r/singularity",
+        "domain": "reddit.com",
+        "published_at": "2026-03-03T09:33:50+00:00",
+        "summary_text": "Ok, title is clickbaity garbage but you'll get it in a moment. An AGI, whether mixture of experts or whatever approach is king when AGI is achieved, that is not superhuman in any one field, \"merely\" as good as the best ...",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
+        "section_score": 13.7,
+        "scores": {
+          "big-announcements": 7.7,
+          "engineering": 7.7,
+          "product-development": 9.2,
+          "business": 10.4,
+          "under-the-radar": 9.3,
+          "for-fun": 13.7
+        }
+      },
+      {
+        "id": "5f91e8ec7f3baae7",
+        "title": "Partial Causal Structure Learning for Valid Selective Conformal Inference under Interventions",
+        "url": "http://arxiv.org/abs/2603.02204v1",
+        "source_name": "arXiv AI Core",
+        "domain": "arxiv.org",
+        "published_at": "2026-03-02T18:58:22+00:00",
+        "summary_text": "Selective conformal prediction can yield substantially tighter uncertainty sets when we can identify calibration examples that are exchangeable with the test example.",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from arXiv AI Core.",
+        "section_score": 13.415,
+        "scores": {
+          "big-announcements": 8.015,
+          "engineering": 12.515,
+          "product-development": 8.015,
+          "business": 13.415,
+          "under-the-radar": 9.615,
+          "for-fun": 11.015
+        }
+      },
+      {
+        "id": "14c48cc053e8fbd6",
+        "title": "LLMs as Strategic Actors: Behavioral Alignment, Risk Calibration, and Argumentation Framing in Geopolitical Simulations",
+        "url": "http://arxiv.org/abs/2603.02128v1",
+        "source_name": "arXiv AI Core",
+        "domain": "arxiv.org",
+        "published_at": "2026-03-02T17:46:17+00:00",
+        "summary_text": "Large language models (LLMs) are increasingly proposed as agents in strategic decision environments, yet their behavior in structured geopolitical simulations remains under-researched.",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from arXiv AI Core.",
+        "section_score": 15.416,
+        "scores": {
+          "big-announcements": 7.916,
+          "engineering": 15.416,
+          "product-development": 9.416,
+          "business": 13.316,
+          "under-the-radar": 9.516,
+          "for-fun": 10.916
+        }
+      },
+      {
+        "id": "2e0398d829779f7e",
+        "title": "Show HN: Giggles \u2013 A batteries-included React framework for TUIs",
+        "url": "https://github.com/zion-off/giggles",
+        "source_name": "Hacker News",
+        "domain": "github.com",
+        "published_at": "2026-03-03T02:26:44+00:00",
+        "summary_text": "i built a framework that handles focus and input routing automatically for you -- something born out of the things that ink leaves to you, and inspired by charmbracelet's bubbletea - hierarchical focus and input routing...",
+        "why_it_matters": "This matters for why this is creative and interesting, based on this update from Hacker News.",
+        "section_score": 16.384,
+        "scores": {
+          "big-announcements": 8.75,
+          "engineering": 16.384,
+          "product-development": 10.384,
+          "business": 6.641,
+          "under-the-radar": 10.35,
+          "for-fun": 10.25
+        }
+      }
+    ]
+  }
+}
