@@ -1,6 +1,6 @@
 {
   "date": "2026-03-03",
-  "generated_at": "2026-03-03T13:52:28+00:00",
+  "generated_at": "2026-03-03T13:54:34+00:00",
   "title": "Daily AI Feed - 2026-03-03",
   "intro": "A curated daily AI briefing with original-source links across industry announcements, engineering, product development, software development, under-the-radar signals, and fun experiments.",
   "sections": {
@@ -14,14 +14,14 @@
         "published_at": "2026-03-02T17:08:53+00:00",
         "summary_text": "Govbase tracks every bill, executive order, and federal regulation from official sources (Congress.gov, Federal Register, White House).",
         "why_it_matters": "This matters for what changed and who it impacts, based on this update from Hacker News.",
-        "section_score": 13.687,
+        "section_score": 13.684,
         "scores": {
-          "big-announcements": 13.687,
-          "engineering": 13.513,
-          "product-development": 9.013,
-          "business": 11.291,
-          "under-the-radar": 9.287,
-          "for-fun": 7.687
+          "big-announcements": 13.684,
+          "engineering": 13.511,
+          "product-development": 9.011,
+          "business": 11.289,
+          "under-the-radar": 9.284,
+          "for-fun": 7.684
         }
       },
       {
@@ -33,14 +33,14 @@
         "published_at": "2026-03-03T06:20:31+00:00",
         "summary_text": "Your AI assistant isn\u2019t a chatbot anymore. It\u2019s a roommate. And it just learned where you keep your files. OpenClaw is not hard. It\u2019s a Folder With Feelings. What Even Is OpenClaw, Though? Let me tell it straight.",
         "why_it_matters": "This matters for what changed and who it impacts, based on this update from Towards AI (Medium).",
-        "section_score": 42.023,
+        "section_score": 42.018,
         "scores": {
-          "big-announcements": 13.423,
-          "engineering": 23.923,
-          "product-development": 16.423,
-          "business": 42.023,
-          "under-the-radar": 12.023,
-          "for-fun": 13.423
+          "big-announcements": 13.418,
+          "engineering": 23.918,
+          "product-development": 16.418,
+          "business": 42.018,
+          "under-the-radar": 12.018,
+          "for-fun": 13.418
         }
       },
       {
@@ -52,14 +52,14 @@
         "published_at": "2026-03-03T13:01:02+00:00",
         "summary_text": "I\u2019ve been a fast typer my whole life. For decades, I optimized my input speed. I learned keyboard shortcuts, practiced touch typing, and prided myself on how quickly I could translate thought into text.",
         "why_it_matters": "This matters for what changed and who it impacts, based on this update from Towards AI (Medium).",
-        "section_score": 24.86,
+        "section_score": 24.854,
         "scores": {
-          "big-announcements": 12.86,
-          "engineering": 24.86,
-          "product-development": 15.86,
-          "business": 17.36,
-          "under-the-radar": 12.96,
-          "for-fun": 14.36
+          "big-announcements": 12.854,
+          "engineering": 24.854,
+          "product-development": 15.854,
+          "business": 17.354,
+          "under-the-radar": 12.954,
+          "for-fun": 14.354
         }
       },
       {
@@ -71,14 +71,14 @@
         "published_at": "2026-03-02T19:32:47+00:00",
         "summary_text": "In this post, we share results from the AWS China Applied Science team's comprehensive evaluation of Nova Forge using a challenging Voice of Customer (VOC) classification task, benchmarked against open-source models.",
         "why_it_matters": "This matters for what changed and who it impacts, based on this update from AWS Machine Learning Blog.",
-        "section_score": 16.364,
+        "section_score": 16.361,
         "scores": {
-          "big-announcements": 11.064,
-          "engineering": 16.364,
-          "product-development": 10.364,
-          "business": 6.564,
-          "under-the-radar": 8.064,
-          "for-fun": 8.864
+          "big-announcements": 11.061,
+          "engineering": 16.361,
+          "product-development": 10.361,
+          "business": 6.561,
+          "under-the-radar": 8.061,
+          "for-fun": 8.861
         }
       },
       {
@@ -90,14 +90,14 @@
         "published_at": "2026-03-02T18:51:43+00:00",
         "summary_text": "This post explores how to build an intelligent conversational agent using Amazon Bedrock, LangGraph, and managed MLflow on Amazon SageMaker AI.",
         "why_it_matters": "This matters for what changed and who it impacts, based on this update from AWS Machine Learning Blog.",
-        "section_score": 14.811,
+        "section_score": 14.809,
         "scores": {
-          "big-announcements": 11.011,
-          "engineering": 14.811,
-          "product-development": 10.311,
-          "business": 11.211,
-          "under-the-radar": 8.011,
-          "for-fun": 8.811
+          "big-announcements": 11.009,
+          "engineering": 14.809,
+          "product-development": 10.309,
+          "business": 11.209,
+          "under-the-radar": 8.009,
+          "for-fun": 8.809
         }
       }
     ],
@@ -111,14 +111,14 @@
         "published_at": "2026-03-03T12:01:01+00:00",
         "summary_text": "Biologically-inspired consolidation produces balanced intelligence in LLMs. Illustration created by Gemini \u201cEvery block of stone has a statue inside it and it is the task of the sculptor to discover it.",
         "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Towards AI (Medium).",
-        "section_score": 26.202,
+        "section_score": 26.197,
         "scores": {
-          "big-announcements": 11.202,
-          "engineering": 26.202,
-          "product-development": 15.702,
-          "business": 18.502,
-          "under-the-radar": 12.802,
-          "for-fun": 14.202
+          "big-announcements": 11.197,
+          "engineering": 26.197,
+          "product-development": 15.697,
+          "business": 18.497,
+          "under-the-radar": 12.797,
+          "for-fun": 14.197
         }
       },
       {
@@ -130,14 +130,14 @@
         "published_at": "2026-03-03T06:05:22+00:00",
         "summary_text": "Part 3: Classical Machine Learning In Part 1 , we focused on how data is represented, transformed, and computed using NumPy and Pandas. By the end of that part, the dataset was clean, structured, and numerically stable.",
         "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Towards AI (Medium).",
-        "section_score": 33.892,
+        "section_score": 33.888,
         "scores": {
-          "big-announcements": 11.892,
-          "engineering": 25.392,
-          "product-development": 11.892,
-          "business": 33.892,
-          "under-the-radar": 10.492,
-          "for-fun": 10.392
+          "big-announcements": 11.888,
+          "engineering": 25.388,
+          "product-development": 11.888,
+          "business": 33.888,
+          "under-the-radar": 10.488,
+          "for-fun": 10.388
         }
       },
       {
@@ -149,14 +149,14 @@
         "published_at": "2026-03-02T18:46:47+00:00",
         "summary_text": "The rapid proliferation of Claude agent skills has raised the central question of how to effectively leverage, manage, and scale the agent skill ecosystem.",
         "why_it_matters": "This matters for practical engineering workflow impact, based on this update from arXiv AI Core.",
-        "section_score": 22.805,
+        "section_score": 22.803,
         "scores": {
-          "big-announcements": 9.305,
-          "engineering": 22.805,
-          "product-development": 7.805,
-          "business": 19.305,
-          "under-the-radar": 9.405,
-          "for-fun": 9.305
+          "big-announcements": 9.303,
+          "engineering": 22.803,
+          "product-development": 7.803,
+          "business": 19.303,
+          "under-the-radar": 9.403,
+          "for-fun": 9.303
         }
       },
       {
@@ -168,14 +168,14 @@
         "published_at": "2026-03-02T18:54:28+00:00",
         "summary_text": "Autonomous vehicle (AV) perception models are typically evaluated solely on benchmark performance metrics, with limited attention to code quality, production readiness and long-term maintainability.",
         "why_it_matters": "This matters for practical engineering workflow impact, based on this update from arXiv AI Core.",
-        "section_score": 19.815,
+        "section_score": 19.812,
         "scores": {
-          "big-announcements": 7.815,
-          "engineering": 19.815,
-          "product-development": 12.315,
-          "business": 15.915,
-          "under-the-radar": 9.415,
-          "for-fun": 7.815
+          "big-announcements": 7.812,
+          "engineering": 19.812,
+          "product-development": 12.312,
+          "business": 15.912,
+          "under-the-radar": 9.412,
+          "for-fun": 7.812
         }
       },
       {
@@ -187,14 +187,14 @@
         "published_at": "2026-03-02T16:35:10+00:00",
         "summary_text": "Agentic Engineering Patterns > I like to include animated GIF demos in my online writing, often recorded using LICEcap . There's an example in the Interactive explanations chapter. These GIFs can be pretty big.",
         "why_it_matters": "This matters for practical engineering workflow impact, based on this update from Simon Willison.",
-        "section_score": 28.948,
+        "section_score": 28.945,
         "scores": {
-          "big-announcements": 10.148,
-          "engineering": 17.648,
-          "product-development": 10.148,
-          "business": 28.948,
-          "under-the-radar": 14.748,
-          "for-fun": 8.648
+          "big-announcements": 10.145,
+          "engineering": 17.645,
+          "product-development": 10.145,
+          "business": 28.945,
+          "under-the-radar": 14.745,
+          "for-fun": 8.645
         }
       }
     ],
@@ -208,14 +208,14 @@
         "published_at": "2026-03-03T06:05:50+00:00",
         "summary_text": "Part 4: Gradient Boosting in Production If you look closely at real-world tabular machine learning systems, a clear pattern emerges.",
         "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Towards AI (Medium).",
-        "section_score": 20.393,
+        "section_score": 20.389,
         "scores": {
-          "big-announcements": 11.893,
-          "engineering": 19.393,
-          "product-development": 14.893,
-          "business": 20.393,
-          "under-the-radar": 10.493,
-          "for-fun": 10.393
+          "big-announcements": 11.889,
+          "engineering": 19.389,
+          "product-development": 14.889,
+          "business": 20.389,
+          "under-the-radar": 10.489,
+          "for-fun": 10.389
         }
       },
       {
@@ -227,14 +227,14 @@
         "published_at": "2026-03-03T13:29:44+00:00",
         "summary_text": "A new place for us to share ideas",
         "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Product Coalition.",
-        "section_score": 13.437,
+        "section_score": 13.432,
         "scores": {
-          "big-announcements": 8.937,
-          "engineering": 8.937,
-          "product-development": 13.437,
-          "business": 6.737,
-          "under-the-radar": 12.037,
-          "for-fun": 8.937
+          "big-announcements": 8.932,
+          "engineering": 8.932,
+          "product-development": 13.432,
+          "business": 6.732,
+          "under-the-radar": 12.032,
+          "for-fun": 8.932
         }
       },
       {
@@ -246,14 +246,14 @@
         "published_at": "2026-03-02T18:51:01+00:00",
         "summary_text": "Multi-attribution learning (MAL), which enhances model performance by learning from conversion labels yielded by multiple attribution mechanisms, has emerged as a promising learning paradigm for conversion rate (CVR) pr...",
         "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from arXiv AI Core.",
-        "section_score": 13.811,
+        "section_score": 13.808,
         "scores": {
-          "big-announcements": 7.811,
-          "engineering": 13.811,
-          "product-development": 12.311,
-          "business": 10.511,
-          "under-the-radar": 9.411,
-          "for-fun": 9.311
+          "big-announcements": 7.808,
+          "engineering": 13.808,
+          "product-development": 12.308,
+          "business": 10.508,
+          "under-the-radar": 9.408,
+          "for-fun": 9.308
         }
       },
       {
@@ -265,14 +265,14 @@
         "published_at": "2026-03-02T17:03:51+00:00",
         "summary_text": "Children's acquisition of filler-gap dependencies has been argued by some to depend on innate grammatical knowledge, while others suggest that the distributional evidence available in child-directed speech suffices.",
         "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from arXiv AI Core.",
-        "section_score": 12.181,
+        "section_score": 12.178,
         "scores": {
-          "big-announcements": 9.181,
-          "engineering": 12.181,
-          "product-development": 12.181,
-          "business": 8.381,
-          "under-the-radar": 10.781,
-          "for-fun": 7.681
+          "big-announcements": 9.178,
+          "engineering": 12.178,
+          "product-development": 12.178,
+          "business": 8.378,
+          "under-the-radar": 10.778,
+          "for-fun": 7.678
         }
       },
       {
@@ -284,14 +284,14 @@
         "published_at": "2026-03-03T06:19:29+00:00",
         "summary_text": "Moving critical business logic from the System Prompt to a per-turn Injection Layer.",
         "why_it_matters": "This matters for product workflow and shipping velocity impact, based on this update from Towards AI (Medium).",
-        "section_score": 25.12,
+        "section_score": 25.116,
         "scores": {
-          "big-announcements": 10.42,
-          "engineering": 17.92,
-          "product-development": 11.92,
-          "business": 25.12,
-          "under-the-radar": 10.52,
-          "for-fun": 11.92
+          "big-announcements": 10.416,
+          "engineering": 17.916,
+          "product-development": 11.916,
+          "business": 25.116,
+          "under-the-radar": 10.516,
+          "for-fun": 11.916
         }
       }
     ],
@@ -305,14 +305,14 @@
         "published_at": "2026-03-03T06:19:12+00:00",
         "summary_text": "Artificial Intelligence workloads are rapidly becoming a core part of modern enterprise platforms.",
         "why_it_matters": "This matters for software development workflow, agents, and implementation impact, based on this update from Towards AI (Medium).",
-        "section_score": 28.52,
+        "section_score": 28.516,
         "scores": {
-          "big-announcements": 10.42,
-          "engineering": 20.92,
-          "product-development": 11.92,
-          "business": 28.52,
-          "under-the-radar": 10.52,
-          "for-fun": 11.92
+          "big-announcements": 10.416,
+          "engineering": 20.916,
+          "product-development": 11.916,
+          "business": 28.516,
+          "under-the-radar": 10.516,
+          "for-fun": 11.916
         }
       },
       {
@@ -324,14 +324,14 @@
         "published_at": "2026-03-03T11:14:54+00:00",
         "summary_text": "Hi everyone! I'm Ibragim from the R&D team at Nebius. Today we are publishing our next big release: SWE-rebench-V2 \u2014 currently the biggest open dataset in the world for training coding agents! \ud83d\ude80 We built an automated pi...",
         "why_it_matters": "This matters for software development workflow, agents, and implementation impact, based on this update from r/LocalLLaMA.",
-        "section_score": 22.785,
+        "section_score": 22.78,
         "scores": {
-          "big-announcements": 10.085,
-          "engineering": 17.585,
-          "product-development": 11.585,
-          "business": 22.785,
-          "under-the-radar": 10.185,
-          "for-fun": 8.585
+          "big-announcements": 10.08,
+          "engineering": 17.58,
+          "product-development": 11.58,
+          "business": 22.78,
+          "under-the-radar": 10.18,
+          "for-fun": 8.58
         }
       },
       {
@@ -343,14 +343,14 @@
         "published_at": "2026-03-02T19:30:17+00:00",
         "summary_text": "Hi, I\u2019m a junior full-stack dev and I\u2019ve been looking at the rate of AI evolution over the last few months.",
         "why_it_matters": "This matters for software development workflow, agents, and implementation impact, based on this update from r/singularity.",
-        "section_score": 22.061,
+        "section_score": 22.058,
         "scores": {
-          "big-announcements": 5.861,
-          "engineering": 8.861,
-          "product-development": 8.861,
-          "business": 22.061,
-          "under-the-radar": 7.461,
-          "for-fun": 11.861
+          "big-announcements": 5.858,
+          "engineering": 8.858,
+          "product-development": 8.858,
+          "business": 22.058,
+          "under-the-radar": 7.458,
+          "for-fun": 11.858
         }
       },
       {
@@ -362,14 +362,14 @@
         "published_at": "2026-03-02T18:54:36+00:00",
         "summary_text": "An agent must try new behaviors to explore and improve. In high-stakes environments, an agent that violates safety constraints may cause harm and must be taken offline, curtailing any future interaction.",
         "why_it_matters": "This matters for software development workflow, agents, and implementation impact, based on this update from arXiv AI Core.",
-        "section_score": 18.615,
+        "section_score": 18.612,
         "scores": {
-          "big-announcements": 9.315,
-          "engineering": 15.315,
-          "product-development": 7.815,
-          "business": 18.615,
-          "under-the-radar": 9.415,
-          "for-fun": 9.315
+          "big-announcements": 9.312,
+          "engineering": 15.312,
+          "product-development": 7.812,
+          "business": 18.612,
+          "under-the-radar": 9.412,
+          "for-fun": 9.312
         }
       },
       {
@@ -381,14 +381,14 @@
         "published_at": "2026-03-03T06:05:09+00:00",
         "summary_text": "Part 2: Visualization and Diagnostics In Part 1 , we built the foundations of the data pipeline.",
         "why_it_matters": "This matters for software development workflow, agents, and implementation impact, based on this update from Towards AI (Medium).",
-        "section_score": 19.391,
+        "section_score": 19.387,
         "scores": {
-          "big-announcements": 11.891,
-          "engineering": 19.391,
-          "product-development": 11.891,
-          "business": 18.391,
-          "under-the-radar": 10.491,
-          "for-fun": 10.391
+          "big-announcements": 11.887,
+          "engineering": 19.387,
+          "product-development": 11.887,
+          "business": 18.387,
+          "under-the-radar": 10.487,
+          "for-fun": 10.387
         }
       }
     ],
@@ -402,14 +402,14 @@
         "published_at": "2026-03-03T08:01:30+00:00",
         "summary_text": "A quiet day lets us question the nature of reality",
         "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Latent Space.",
-        "section_score": 15.235,
+        "section_score": 15.23,
         "scores": {
-          "big-announcements": 9.135,
-          "engineering": 9.135,
-          "product-development": 10.635,
-          "business": 6.935,
-          "under-the-radar": 15.235,
-          "for-fun": 10.635
+          "big-announcements": 9.13,
+          "engineering": 9.13,
+          "product-development": 10.63,
+          "business": 6.93,
+          "under-the-radar": 15.23,
+          "for-fun": 10.63
         }
       },
       {
@@ -421,14 +421,14 @@
         "published_at": "2026-03-02T14:53:15+00:00",
         "summary_text": "I just sent the February edition of my sponsors-only monthly newsletter . If you are a sponsor (or if you start a sponsorship now) you can access it here .",
         "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Simon Willison.",
-        "section_score": 14.635,
+        "section_score": 14.633,
         "scores": {
-          "big-announcements": 10.035,
-          "engineering": 11.535,
-          "product-development": 10.035,
-          "business": 14.635,
-          "under-the-radar": 14.635,
-          "for-fun": 10.035
+          "big-announcements": 10.033,
+          "engineering": 11.533,
+          "product-development": 10.033,
+          "business": 14.633,
+          "under-the-radar": 14.633,
+          "for-fun": 10.033
         }
       },
       {
@@ -440,14 +440,14 @@
         "published_at": "2026-03-02T22:13:56+00:00",
         "summary_text": "Human-written code died in 2025. Code reviews will die in 2026.",
         "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Latent Space.",
-        "section_score": 14.185,
+        "section_score": 14.182,
         "scores": {
-          "big-announcements": 8.085,
-          "engineering": 9.585,
-          "product-development": 8.085,
-          "business": 10.785,
-          "under-the-radar": 14.185,
-          "for-fun": 8.085
+          "big-announcements": 8.082,
+          "engineering": 9.582,
+          "product-development": 8.082,
+          "business": 10.782,
+          "under-the-radar": 14.182,
+          "for-fun": 8.082
         }
       },
       {
@@ -459,14 +459,14 @@
         "published_at": "2026-03-03T12:34:50+00:00",
         "summary_text": "Qwen 3.5: small models with impressive performance",
         "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from Hacker News.",
-        "section_score": 14.323,
+        "section_score": 14.318,
         "scores": {
-          "big-announcements": 9.79,
-          "engineering": 14.323,
-          "product-development": 9.823,
-          "business": 7.613,
-          "under-the-radar": 12.89,
-          "for-fun": 9.79
+          "big-announcements": 9.785,
+          "engineering": 14.318,
+          "product-development": 9.818,
+          "business": 7.607,
+          "under-the-radar": 12.885,
+          "for-fun": 9.785
         }
       },
       {
@@ -478,14 +478,14 @@
         "published_at": "2026-03-02T18:12:02+00:00",
         "summary_text": "The extraction of critical information from crime-related documents is a crucial task for law enforcement agencies.",
         "why_it_matters": "This matters for why this overlooked signal matters early, based on this update from arXiv AI Core.",
-        "section_score": 13.762,
+        "section_score": 13.76,
         "scores": {
-          "big-announcements": 7.762,
-          "engineering": 13.762,
-          "product-development": 7.762,
-          "business": 13.162,
-          "under-the-radar": 12.362,
-          "for-fun": 9.262
+          "big-announcements": 7.76,
+          "engineering": 13.76,
+          "product-development": 7.76,
+          "business": 13.16,
+          "under-the-radar": 12.36,
+          "for-fun": 9.26
         }
       }
     ],
@@ -499,14 +499,14 @@
         "published_at": "2026-03-03T10:44:41+00:00",
         "summary_text": "Xiaomi just shared 3 hours of autonomous production data from their Beijing EV factory, and the numbers are a reality check for the \"factory-first\" strategy.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
-        "section_score": 13.511,
+        "section_score": 13.506,
         "scores": {
-          "big-announcements": 7.511,
-          "engineering": 9.011,
-          "product-development": 9.011,
-          "business": 5.311,
-          "under-the-radar": 9.111,
-          "for-fun": 13.511
+          "big-announcements": 7.506,
+          "engineering": 9.006,
+          "product-development": 9.006,
+          "business": 5.306,
+          "under-the-radar": 9.106,
+          "for-fun": 13.506
         }
       },
       {
@@ -518,14 +518,14 @@
         "published_at": "2026-03-02T17:11:40+00:00",
         "summary_text": "Nobody actually knows the route to AGI. LeCun's been saying everyone is \"LLM-pilled\" and recently started advising hardware/software startups building an EBM (Energy-Based Model) foundation.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from r/singularity.",
-        "section_score": 13.19,
+        "section_score": 13.187,
         "scores": {
-          "big-announcements": 5.69,
-          "engineering": 5.69,
-          "product-development": 7.19,
-          "business": 8.39,
-          "under-the-radar": 7.29,
-          "for-fun": 13.19
+          "big-announcements": 5.687,
+          "engineering": 5.687,
+          "product-development": 7.187,
+          "business": 8.387,
+          "under-the-radar": 7.287,
+          "for-fun": 13.187
         }
       },
       {
@@ -537,14 +537,14 @@
         "published_at": "2026-03-02T18:58:22+00:00",
         "summary_text": "Selective conformal prediction can yield substantially tighter uncertainty sets when we can identify calibration examples that are exchangeable with the test example.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from arXiv AI Core.",
-        "section_score": 13.22,
+        "section_score": 13.217,
         "scores": {
-          "big-announcements": 7.82,
-          "engineering": 12.32,
-          "product-development": 7.82,
-          "business": 13.22,
-          "under-the-radar": 9.42,
-          "for-fun": 10.82
+          "big-announcements": 7.817,
+          "engineering": 12.317,
+          "product-development": 7.817,
+          "business": 13.217,
+          "under-the-radar": 9.417,
+          "for-fun": 10.817
         }
       },
       {
@@ -556,14 +556,14 @@
         "published_at": "2026-03-02T17:46:17+00:00",
         "summary_text": "Large language models (LLMs) are increasingly proposed as agents in strategic decision environments, yet their behavior in structured geopolitical simulations remains under-researched.",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from arXiv AI Core.",
-        "section_score": 15.231,
+        "section_score": 15.228,
         "scores": {
-          "big-announcements": 7.731,
-          "engineering": 15.231,
-          "product-development": 9.231,
-          "business": 13.131,
-          "under-the-radar": 9.331,
-          "for-fun": 10.731
+          "big-announcements": 7.728,
+          "engineering": 15.228,
+          "product-development": 9.228,
+          "business": 13.128,
+          "under-the-radar": 9.328,
+          "for-fun": 10.728
         }
       },
       {
@@ -575,14 +575,14 @@
         "published_at": "2026-03-03T02:26:44+00:00",
         "summary_text": "i built a framework that handles focus and input routing automatically for you -- something born out of the things that ink leaves to you, and inspired by charmbracelet's bubbletea - hierarchical focus and input routing...",
         "why_it_matters": "This matters for why this is creative and interesting, based on this update from Hacker News.",
-        "section_score": 16.118,
+        "section_score": 16.114,
         "scores": {
-          "big-announcements": 8.485,
-          "engineering": 16.118,
-          "product-development": 10.118,
-          "business": 6.375,
-          "under-the-radar": 10.085,
-          "for-fun": 9.985
+          "big-announcements": 8.481,
+          "engineering": 16.114,
+          "product-development": 10.114,
+          "business": 6.372,
+          "under-the-radar": 10.081,
+          "for-fun": 9.981
         }
       }
     ]
