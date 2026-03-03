@@ -436,6 +436,7 @@ def _icon_svg(icon_name: str) -> str:
             '<circle cx="12" cy="12" r="1.3" fill="currentColor"/>'
             '</svg>'
         )
+    items_xml = '\n'.join(items)
     return (
         '<svg class="icon-svg" viewBox="0 0 24 24" aria-hidden="true">'
         '<path d="M8.2 8.6h3.2a2.8 2.8 0 0 1 0 5.6H9.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>'
@@ -552,7 +553,7 @@ def _render_rss(feed: DailyFeed) -> str:
         f'    <lastBuildDate>{escape(format_datetime(generated_dt.astimezone(timezone.utc)))}</lastBuildDate>\n'
         f'    <atom:link href="{escape(feed_url)}" rel="self" type="application/rss+xml" '
         'xmlns:atom="http://www.w3.org/2005/Atom" />\n'
-        f'{"\n".join(items)}\n'
+        f'{items_xml}\n'
         '  </channel>\n'
         '</rss>\n'
     )
