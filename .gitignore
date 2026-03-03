@@ -5,3 +5,4 @@ __pycache__/
 .env
 .venv/
 ai_news_feed.log
+data/

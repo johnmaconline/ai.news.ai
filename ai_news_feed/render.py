@@ -7,6 +7,7 @@
 ##########################################################################################
 
 import json
+import os
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from html import escape
@@ -322,7 +323,9 @@ SUBSCRIBE_SCRIPT = '''
 (function () {
   var form = document.getElementById('subscribe-form');
   var input = document.getElementById('subscribe-email');
+  var honeypot = document.getElementById('subscribe-company');
   var status = document.getElementById('subscribe-status');
+  var endpoint = form ? (form.getAttribute('data-endpoint') || '').trim() : '';
   if (!form || !input || !status) {
     return;
   }
@@ -335,13 +338,40 @@ SUBSCRIBE_SCRIPT = '''
       status.textContent = 'Enter a valid email address.';
       return;
     }
+    if (endpoint) {
+      fetch(endpoint, {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({
+          email: email,
+          source: 'site',
+          company: honeypot ? (honeypot.value || '') : ''
+        })
+      })
+      .then(function (response) {
+        if (!response.ok) {
+          throw new Error('bad_response');
+        }
+        return response.json();
+      })
+      .then(function () {
+        status.dataset.state = 'ok';
+        status.textContent = 'Check your inbox to confirm your subscription.';
+        form.reset();
+      })
+      .catch(function () {
+        status.dataset.state = 'error';
+        status.textContent = 'Subscription service unavailable. Please try again.';
+      });
+      return;
+    }
     try {
       localStorage.setItem('ai_news_feed_subscribe_email', email);
     } catch (error) {
       // localStorage may be unavailable in some browsers/privacy modes.
     }
     status.dataset.state = 'ok';
-    status.textContent = 'Saved. Email delivery is not enabled yet.';
+    status.textContent = 'Saved locally. Subscription endpoint not configured yet.';
     form.reset();
   });
 })();
@@ -562,6 +592,7 @@ def _render_rss(feed: DailyFeed) -> str:
 
 def _render_page(feed: DailyFeed, archive: list[dict], title_suffix: str = '') -> str:
     suffix = f' - {title_suffix}' if title_suffix else ''
+    subscribe_endpoint = (os.getenv('NEWSLETTER_SUBSCRIBE_ENDPOINT') or '').strip()
     return f'''<!doctype html>
 <html lang="en">
   <head>
@@ -581,7 +612,7 @@ def _render_page(feed: DailyFeed, archive: list[dict], title_suffix: str = '') -
         <p class="subline">{escape(feed.intro)}</p>
         <div class="header-tools">
           <a class="rss-pill" href="./feed.xml" target="_blank" rel="noopener noreferrer">RSS feed</a>
-          <form class="subscribe-form" id="subscribe-form" novalidate>
+          <form class="subscribe-form" id="subscribe-form" data-endpoint="{escape(subscribe_endpoint)}" novalidate>
             <label class="sr-only" for="subscribe-email">Email address</label>
             <input
               id="subscribe-email"
@@ -591,6 +622,7 @@ def _render_page(feed: DailyFeed, archive: list[dict], title_suffix: str = '') -
               placeholder="Enter email for daily newsletter"
               required
             />
+            <input id="subscribe-company" name="company" type="text" tabindex="-1" autocomplete="off" class="sr-only" />
             <button class="subscribe-btn" type="submit">Subscribe</button>
           </form>
         </div>

@@ -58,6 +58,41 @@ Optional environment variables:
 - `LINKEDIN_API_VERSION` (default: `202503`)
 - `LINKEDIN_AUTHOR_URN` (optional override for LinkedIn org/person URN)
 - `FEED_TIMEZONE` (default: `America/New_York`)
+- `NEWSLETTER_SUBSCRIBE_ENDPOINT` (optional subscribe API URL embedded in site header)
+
+## Email Subscription API (Phase 1)
+
+Phase 1 includes:
+- Subscriber database (SQLite)
+- Double opt-in confirmation flow
+- Unsubscribe flow
+- Confirmation/welcome emails via Resend
+
+Run locally:
+
+```bash
+python -m ai_news_feed.subscriptions --init-db --serve --host 0.0.0.0 --port 8090
+```
+
+API endpoints:
+- `POST /subscribe` with JSON body `{"email":"you@example.com","source":"site"}`
+- `GET /confirm?token=...`
+- `GET /unsubscribe?token=...`
+- `GET /health`
+
+Required env for email delivery:
+- `RESEND_API_KEY`
+- `NEWSLETTER_FROM_EMAIL`
+
+Recommended env for production:
+- `SUBSCRIPTION_PUBLIC_BASE_URL` (for confirm/unsubscribe links)
+- `SUBSCRIPTION_TOKEN_SECRET`
+- `SUBSCRIPTION_DB_PATH`
+- `NEWSLETTER_CORS_ORIGINS`
+
+To wire the website subscribe form:
+- Set `NEWSLETTER_SUBSCRIBE_ENDPOINT` when generating the site.
+- In GitHub Actions, set repository variable `NEWSLETTER_SUBSCRIBE_ENDPOINT` to your API URL.
 
 ## GitHub Automation (No Daily Manual Work)
 
