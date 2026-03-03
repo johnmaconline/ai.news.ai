@@ -124,7 +124,7 @@ Prompt customization:
   - `big-announcements.md`
   - `engineering.md`
   - `product-development.md`
-  - `business.md`
+  - `software.md` (used by section slug `business`)
   - `under-the-radar.md`
   - `for-fun.md`
 

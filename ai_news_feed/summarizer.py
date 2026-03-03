@@ -111,7 +111,8 @@ def _load_system_prompt() -> str:
 @lru_cache(maxsize=16)
 def _load_section_prompt(section_slug: str) -> str:
     lens = SECTION_LENSES.get(section_slug, 'why it matters')
-    prompt_path = PROMPTS_DIR / f'{section_slug}.md'
+    prompt_filename = 'software.md' if section_slug == 'business' else f'{section_slug}.md'
+    prompt_path = PROMPTS_DIR / prompt_filename
     if not prompt_path.exists():
         log.warning('Missing section prompt file for %s at %s', section_slug, prompt_path)
         return f'Focus lens: {lens}.'
