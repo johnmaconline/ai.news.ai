@@ -15,7 +15,13 @@ from zoneinfo import ZoneInfo
 
 from .config import SECTIONS, SECTION_TARGET_MAX, SECTION_TARGET_MIN
 from .curation import curate_sections, dedupe_articles
-from .fetchers import build_sample_articles, fetch_all_sources, load_source_config
+from .fetchers import (
+    build_sample_articles,
+    discover_registry_url_sources,
+    fetch_all_sources,
+    load_source_config,
+    persist_discovered_registry_sources,
+)
 from .models import DailyFeed
 from .render import write_site
 from .summarizer import enrich_summaries
@@ -83,6 +89,24 @@ def build_daily_feed(
     log.debug('Article count after dedupe: %d', len(articles))
     if not articles:
         raise RuntimeError('No articles fetched. Aborting publish to avoid empty feed.')
+
+    if not use_sample_data:
+        discovered_sources = discover_registry_url_sources(articles=articles, sources=sources)
+        if discovered_sources:
+            discovered_articles = fetch_all_sources(discovered_sources)
+            if discovered_articles:
+                articles = dedupe_articles(articles + discovered_articles)
+                log.info(
+                    'Auto-discovery fetched %s article(s) from %s discovered source(s).',
+                    len(discovered_articles),
+                    len(discovered_sources),
+                )
+            added_count = persist_discovered_registry_sources(
+                feeds_file=feeds_file,
+                discovered_sources=discovered_sources,
+            )
+            if added_count:
+                log.info('Persisted %s newly discovered source(s) to %s.', added_count, feeds_file)
 
     sections = curate_sections(
         articles=articles,

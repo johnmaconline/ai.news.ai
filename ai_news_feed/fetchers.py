@@ -9,8 +9,9 @@
 import logging
 import os
 import re
+from collections import Counter
 from datetime import datetime, timezone
-from urllib.parse import quote, urlparse
+from urllib.parse import quote, urljoin, urlparse
 
 try:
     import feedparser
@@ -43,6 +44,30 @@ from .utils import canonicalize_url, extract_domain, stable_id, strip_html
 log = logging.getLogger(__name__)
 USER_AGENT = 'ai-news-feed-bot/1.0 (+https://github.com/)'
 DEFAULT_FEEDS_FILE = 'config/feeds.md'
+AUTO_DISCOVER_DISABLE_VALUES = {'0', 'false', 'no', 'off', 'disabled'}
+AUTO_DISCOVER_PATH_GUESSES = (
+    '/feed',
+    '/rss',
+    '/rss.xml',
+    '/feed.xml',
+    '/atom.xml',
+    '/index.xml',
+)
+AUTO_DISCOVER_IGNORED_DOMAINS = {
+    'x.com',
+    'www.x.com',
+    'twitter.com',
+    'www.twitter.com',
+    'linkedin.com',
+    'www.linkedin.com',
+    'reddit.com',
+    'www.reddit.com',
+    'news.ycombinator.com',
+    'arxiv.org',
+    'www.arxiv.org',
+    'github.com',
+    'www.github.com',
+}
 
 
 # ****************************************************************************************
@@ -397,6 +422,307 @@ def load_source_config(path: str, feeds_file: str = DEFAULT_FEEDS_FILE) -> list[
         )
         return merged_sources
     return sources
+
+
+def _safe_env_int(name: str, default: int, minimum: int, maximum: int) -> int:
+    raw_value = (os.getenv(name) or '').strip()
+    if not raw_value:
+        return default
+    try:
+        parsed = int(raw_value)
+    except ValueError:
+        return default
+    return max(minimum, min(maximum, parsed))
+
+
+def _is_auto_discovery_enabled() -> bool:
+    raw_value = (os.getenv('AUTO_DISCOVER_FEEDS') or '1').strip().lower()
+    return raw_value not in AUTO_DISCOVER_DISABLE_VALUES
+
+
+def _extract_feed_links_from_html(html: str, page_url: str) -> list[str]:
+    if not html:
+        return []
+    links: list[str] = []
+    for match in re.finditer(r'<link\b[^>]*>', html, flags=re.IGNORECASE):
+        tag = match.group(0)
+        lowered = tag.lower()
+        if 'href=' not in lowered:
+            continue
+        if 'rss' not in lowered and 'atom' not in lowered and 'application/xml' not in lowered:
+            continue
+        href_match = re.search(r'href\s*=\s*[\'"]([^\'"]+)[\'"]', tag, flags=re.IGNORECASE)
+        if not href_match:
+            continue
+        href = href_match.group(1).strip()
+        if not href:
+            continue
+        resolved = canonicalize_url(urljoin(page_url, href))
+        if resolved:
+            links.append(resolved)
+    return links
+
+
+def _validate_feed_url(url: str, min_entries: int) -> tuple[str, str] | None:
+    if feedparser is None:
+        return None
+    parsed = feedparser.parse(url, agent=USER_AGENT)
+    status = getattr(parsed, 'status', None)
+    if status is not None and int(status) >= 400:
+        return None
+    entries = getattr(parsed, 'entries', []) or []
+    if len(entries) < min_entries:
+        return None
+    feed_title = strip_html((parsed.feed.get('title') or '').strip())
+    feed_url = canonicalize_url(url)
+    if not feed_url:
+        return None
+    return feed_url, feed_title
+
+
+def _discover_feed_url_for_base_url(base_url: str, min_entries: int) -> tuple[str, str] | None:
+    if requests is None:
+        return None
+    headers = {
+        'User-Agent': USER_AGENT,
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    }
+    candidate_urls: list[str] = []
+    page_url = base_url
+    try:
+        response = requests.get(base_url, headers=headers, timeout=12)
+        if response.status_code < 400:
+            page_url = response.url or base_url
+            candidate_urls.extend(_extract_feed_links_from_html(response.text[:400000], page_url))
+    except requests.RequestException:
+        pass
+
+    parsed = urlparse(page_url)
+    scheme = parsed.scheme or 'https'
+    domain = parsed.netloc.lower()
+    if not domain:
+        return None
+    for path in AUTO_DISCOVER_PATH_GUESSES:
+        candidate_urls.append(canonicalize_url(f'{scheme}://{domain}{path}'))
+
+    seen: set[str] = set()
+    for candidate in candidate_urls:
+        if not candidate or candidate in seen:
+            continue
+        seen.add(candidate)
+        validated = _validate_feed_url(candidate, min_entries=min_entries)
+        if validated:
+            return validated
+    return None
+
+
+def _resolve_article_base_url(article: Article) -> tuple[str, str] | None:
+    canonical_url = canonicalize_url(article.url)
+    if not canonical_url:
+        return None
+    parsed = urlparse(canonical_url)
+    if parsed.scheme not in {'http', 'https'}:
+        return None
+    domain = (parsed.netloc or '').lower()
+    if not domain:
+        return None
+    if domain in AUTO_DISCOVER_IGNORED_DOMAINS:
+        return None
+    return f'{parsed.scheme}://{domain}/', domain
+
+
+def _collect_discovery_candidates(
+    articles: list[Article],
+    existing_domains: set[str],
+    max_domains: int,
+) -> list[tuple[str, str, str, float]]:
+    by_domain: dict[str, dict] = {}
+    for article in articles:
+        resolved = _resolve_article_base_url(article)
+        if not resolved:
+            continue
+        base_url, domain = resolved
+        if domain in existing_domains:
+            continue
+        payload = by_domain.setdefault(
+            domain,
+            {
+                'base_url': base_url,
+                'count': 0,
+                'max_priority': 0.0,
+                'section_counter': Counter(),
+            },
+        )
+        payload['count'] += 1
+        payload['max_priority'] = max(payload['max_priority'], float(article.priority or 0.0))
+        section_hint = (article.section_hint or '').strip()
+        if section_hint:
+            payload['section_counter'][section_hint] += 1
+
+    ranked = sorted(
+        by_domain.values(),
+        key=lambda item: (item['max_priority'], item['count']),
+        reverse=True,
+    )
+    candidates: list[tuple[str, str, str, float]] = []
+    for item in ranked[:max_domains]:
+        counter = item['section_counter']
+        section_hint = counter.most_common(1)[0][0] if counter else 'under-the-radar'
+        candidates.append((item['base_url'], item['base_url'].split('//', 1)[-1].rstrip('/'), section_hint, item['max_priority']))
+    return candidates
+
+
+def discover_registry_url_sources(
+    articles: list[Article],
+    sources: list[dict],
+) -> list[dict]:
+    if not _is_auto_discovery_enabled():
+        log.info('Auto-discovery disabled via AUTO_DISCOVER_FEEDS.')
+        return []
+    if feedparser is None or requests is None:
+        log.warning('Auto-discovery skipped: feedparser/requests dependencies are unavailable.')
+        return []
+    if not articles:
+        return []
+
+    max_domains = _safe_env_int('AUTO_DISCOVER_MAX_DOMAINS', default=40, minimum=5, maximum=200)
+    max_new_feeds = _safe_env_int('AUTO_DISCOVER_MAX_NEW_FEEDS', default=8, minimum=1, maximum=50)
+    min_entries = _safe_env_int('AUTO_DISCOVER_MIN_FEED_ENTRIES', default=5, minimum=1, maximum=100)
+
+    existing_urls: set[str] = set()
+    existing_domains: set[str] = set()
+    for source in sources:
+        if (source.get('type') or '').lower() != 'rss':
+            continue
+        source_url = canonicalize_url(source.get('url') or '')
+        if not source_url:
+            continue
+        existing_urls.add(source_url)
+        source_domain = extract_domain(source_url).lower()
+        if source_domain:
+            existing_domains.add(source_domain)
+
+    discovered: list[dict] = []
+    discovered_urls: set[str] = set()
+    candidates = _collect_discovery_candidates(articles, existing_domains=existing_domains, max_domains=max_domains)
+    for base_url, domain, section_hint, max_priority in candidates:
+        if len(discovered) >= max_new_feeds:
+            break
+        discovered_feed = _discover_feed_url_for_base_url(base_url, min_entries=min_entries)
+        if not discovered_feed:
+            continue
+        feed_url, feed_title = discovered_feed
+        feed_domain = extract_domain(feed_url).lower()
+        if feed_url in existing_urls or feed_url in discovered_urls or feed_domain in existing_domains:
+            continue
+        name = (feed_title or domain).strip() or domain
+        source_id = f'feeds-md-autodiscovered-{_registry_slug(domain)}'
+        section = section_hint or 'under-the-radar'
+        tags = [section, 'autodiscovered', 'under-the-radar']
+        source = {
+            'id': source_id,
+            'type': 'rss',
+            'name': name,
+            'url': feed_url,
+            'priority': max(4.0, min(max_priority, 7.0)),
+            'section_hint': section,
+            'tags': sorted(set(tags)),
+            'max_items': 20,
+        }
+        discovered.append(source)
+        discovered_urls.add(feed_url)
+        existing_domains.add(feed_domain)
+
+    if discovered:
+        log.info('Auto-discovery found %s new RSS source(s).', len(discovered))
+    return discovered
+
+
+def _ensure_registry_file(path: str) -> None:
+    if os.path.exists(path):
+        return
+    directory = os.path.dirname(path)
+    if directory:
+        os.makedirs(directory, exist_ok=True)
+    template = [
+        '# Feed Registry',
+        '',
+        '## 1. URLs',
+        '',
+        '## 2. LinkedIN users',
+        '',
+        '## 3. X users',
+        '',
+        '## 4. other',
+        '',
+    ]
+    with open(path, 'w', encoding='utf-8') as handle:
+        handle.write('\n'.join(template))
+
+
+def _format_registry_url_entry(source: dict) -> str:
+    url = canonicalize_url(source.get('url') or '')
+    name = (source.get('name') or extract_domain(url) or 'Auto-discovered').replace('|', '-').strip()
+    section_hint = (source.get('section_hint') or 'under-the-radar').strip()
+    tags = list(source.get('tags') or [])
+    if section_hint and section_hint not in tags:
+        tags.append(section_hint)
+    if 'autodiscovered' not in tags:
+        tags.append('autodiscovered')
+    tags_csv = ','.join([tag for tag in tags if tag])
+    return f'- {url} | name={name} | section={section_hint} | tags={tags_csv} | discovered=auto'
+
+
+def persist_discovered_registry_sources(feeds_file: str, discovered_sources: list[dict]) -> int:
+    if not discovered_sources:
+        return 0
+    _ensure_registry_file(feeds_file)
+    registry = _parse_feeds_registry(feeds_file)
+    existing_urls: set[str] = set()
+    for entry, metadata in registry['urls']:
+        normalized = _normalize_registry_rss_url(entry, metadata)
+        if normalized:
+            existing_urls.add(normalized)
+
+    pending_lines: list[str] = []
+    for source in discovered_sources:
+        url = canonicalize_url(source.get('url') or '')
+        if not url or url in existing_urls:
+            continue
+        pending_lines.append(_format_registry_url_entry(source))
+        existing_urls.add(url)
+
+    if not pending_lines:
+        return 0
+
+    with open(feeds_file, 'r', encoding='utf-8') as handle:
+        lines = handle.read().splitlines()
+
+    urls_header_idx = None
+    next_header_idx = None
+    for idx, raw_line in enumerate(lines):
+        section = _normalize_feeds_section(raw_line.strip())
+        if section == 'urls':
+            urls_header_idx = idx
+            continue
+        if urls_header_idx is not None and section is not None:
+            next_header_idx = idx
+            break
+
+    if urls_header_idx is None:
+        lines.extend(['', '## 1. URLs', ''])
+        urls_header_idx = len(lines) - 2
+    insert_at = next_header_idx if next_header_idx is not None else len(lines)
+    if insert_at > 0 and lines[insert_at - 1].strip():
+        lines.insert(insert_at, '')
+        insert_at += 1
+    for line in pending_lines:
+        lines.insert(insert_at, line)
+        insert_at += 1
+
+    with open(feeds_file, 'w', encoding='utf-8') as handle:
+        handle.write('\n'.join(lines).rstrip() + '\n')
+    return len(pending_lines)
 
 
 def parse_published(entry: dict) -> datetime | None:

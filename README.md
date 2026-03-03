@@ -103,6 +103,8 @@ Software Development section intent:
 
 `config/feeds.md` behavior:
 - This file is loaded on every run (default path).
+- Daily runs also auto-discover new RSS feeds from article domains outside configured sources,
+  validate them, and append them to `1. URLs` with `discovered=auto`.
 - Sections:
   - `1. URLs` (RSS/Atom URLs; optional metadata such as `name=`, `section=`, `tags=`)
   - `2. LinkedIN users` (LinkedIn `urn:li:...` or LinkedIn profile/company URLs)
@@ -112,6 +114,11 @@ Software Development section intent:
   This lets you add article/profile URLs, and ingestion auto-converts them to feed endpoints.
 - For LinkedIn URL entries, add `author_urn=urn:li:person:...` (or org URN) when available.
   Without a URN, the source is tracked but LinkedIn API ingestion is skipped.
+- Auto-discovery controls:
+  - `AUTO_DISCOVER_FEEDS=1` (default enabled; set `0` to disable)
+  - `AUTO_DISCOVER_MAX_NEW_FEEDS=8` (max newly added feeds per run)
+  - `AUTO_DISCOVER_MAX_DOMAINS=40` (max domains to probe per run)
+  - `AUTO_DISCOVER_MIN_FEED_ENTRIES=5` (minimum entries required to accept a feed)
 - You can override the registry path:
 
 ```bash
