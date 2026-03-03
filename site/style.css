@@ -45,6 +45,80 @@ header {
   max-width: 70ch;
 }
 
+.header-tools {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
+}
+
+.rss-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid var(--stroke);
+  background: rgba(255, 255, 255, 0.86);
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 0.86rem;
+  padding: 0.34rem 0.7rem;
+  text-decoration: none;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: center;
+}
+
+.subscribe-input {
+  min-width: 230px;
+  border: 1px solid var(--stroke);
+  border-radius: 999px;
+  padding: 0.38rem 0.72rem;
+  font-size: 0.88rem;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.subscribe-btn {
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.86rem;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}
+
+.subscribe-status {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.subscribe-status[data-state='ok'] {
+  color: var(--accent-2);
+}
+
+.subscribe-status[data-state='error'] {
+  color: #9b1d1d;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
