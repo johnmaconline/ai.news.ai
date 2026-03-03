@@ -542,6 +542,8 @@ class SubscriptionRequestHandler(BaseHTTPRequestHandler):
             {
                 'ok': True,
                 'status': result.get('status'),
+                'email_sent': bool(result.get('email_sent')),
+                'confirm_url': result.get('confirm_url') if not result.get('email_sent') else '',
                 'message': 'Check your inbox to confirm your subscription.',
             }
         )

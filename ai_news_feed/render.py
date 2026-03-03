@@ -354,9 +354,13 @@ SUBSCRIBE_SCRIPT = '''
         }
         return response.json();
       })
-      .then(function () {
+      .then(function (payload) {
         status.dataset.state = 'ok';
-        status.textContent = 'Check your inbox to confirm your subscription.';
+        if (payload && payload.confirm_url) {
+          status.innerHTML = 'Confirm instantly: <a href=\"' + payload.confirm_url + '\" target=\"_blank\" rel=\"noopener noreferrer\">open confirmation link</a>';
+        } else {
+          status.textContent = 'Check your inbox to confirm your subscription.';
+        }
         form.reset();
       })
       .catch(function () {

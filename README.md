@@ -74,6 +74,21 @@ Run locally:
 python -m ai_news_feed.subscriptions --init-db --serve --host 0.0.0.0 --port 8090
 ```
 
+Deploy on Google Cloud Run (containerized):
+
+```bash
+PROJECT_ID="$(gcloud config get-value project)"
+REGION="us-east1"
+IMAGE="gcr.io/${PROJECT_ID}/ai-news-subscriptions:latest"
+
+gcloud builds submit --tag "${IMAGE}" .
+gcloud run deploy ai-news-subscriptions \
+  --image "${IMAGE}" \
+  --region "${REGION}" \
+  --allow-unauthenticated \
+  --set-env-vars SUBSCRIPTION_DB_PATH=/tmp/subscribers.db,NEWSLETTER_CORS_ORIGINS=https://johnmaconline.github.io
+```
+
 API endpoints:
 - `POST /subscribe` with JSON body `{"email":"you@example.com","source":"site"}`
 - `GET /confirm?token=...`
