@@ -11,10 +11,12 @@ from collections import defaultdict
 from datetime import datetime, timezone
 
 from .config import (
+    BIG_ANNOUNCEMENT_INTENT_KEYWORDS,
     BIG_ANNOUNCEMENT_DOMAINS,
     BUSINESS_ANNOUNCEMENT_KEYWORDS,
     BUSINESS_PRACTICAL_KEYWORDS,
     KEYWORDS,
+    LOW_SIGNAL_BIG_ANNOUNCEMENT_DOMAINS,
     MAINSTREAM_DOMAINS,
     RECENCY_REQUIRED_HOURS,
     SECTION_TARGET_MAX,
@@ -81,6 +83,17 @@ def _business_penalty(article: Article, text_blob: str) -> float:
     return penalty
 
 
+def _is_big_announcement_candidate(article: Article, text_blob: str) -> bool:
+    intent_hits = _keyword_hits(text_blob, BIG_ANNOUNCEMENT_INTENT_KEYWORDS)
+    if article.domain in BIG_ANNOUNCEMENT_DOMAINS:
+        return True
+    if article.section_hint == 'big-announcements' and intent_hits >= 1:
+        return True
+    if intent_hits >= 2:
+        return True
+    return False
+
+
 def score_articles(articles: list[Article], feed_dt: datetime | None = None) -> None:
     if feed_dt is None:
         feed_dt = datetime.now(timezone.utc)
@@ -99,6 +112,15 @@ def score_articles(articles: list[Article], feed_dt: datetime | None = None) -> 
                     section_score += 4.5
             if section.slug == 'big-announcements' and article.domain in BIG_ANNOUNCEMENT_DOMAINS:
                 section_score += 2.2
+            if section.slug == 'big-announcements':
+                intent_hits = _keyword_hits(text_blob, BIG_ANNOUNCEMENT_INTENT_KEYWORDS)
+                section_score += intent_hits * 1.7
+                if article.domain in BIG_ANNOUNCEMENT_DOMAINS:
+                    section_score += 1.2
+                if article.domain in LOW_SIGNAL_BIG_ANNOUNCEMENT_DOMAINS:
+                    section_score -= 3.0
+                if not _is_big_announcement_candidate(article, text_blob):
+                    section_score -= 5.0
             if section.slug == 'under-the-radar':
                 if article.domain not in MAINSTREAM_DOMAINS:
                     section_score += 1.6
@@ -165,8 +187,17 @@ def curate_sections(
                 by_section[section.slug].append(article)
 
     for section in SECTIONS:
+        candidate_pool = by_section[section.slug]
+        if section.slug == 'big-announcements':
+            narrowed = [
+                article
+                for article in candidate_pool
+                if _is_big_announcement_candidate(article, article.canonical_text().lower())
+            ]
+            if narrowed:
+                candidate_pool = narrowed
         picks = _pick_candidates(
-            candidates=by_section[section.slug],
+            candidates=candidate_pool,
             score_key=section.slug,
             picked_ids=picked_ids,
             max_items=max_per_section,
@@ -178,8 +209,17 @@ def curate_sections(
         if len(sections[section.slug]) >= min_per_section:
             continue
         needed = min_per_section - len(sections[section.slug])
+        fallback_pool = articles
+        if section.slug == 'big-announcements':
+            narrowed = [
+                article
+                for article in articles
+                if _is_big_announcement_candidate(article, article.canonical_text().lower())
+            ]
+            if narrowed:
+                fallback_pool = narrowed
         fallbacks = _pick_candidates(
-            candidates=articles,
+            candidates=fallback_pool,
             score_key=section.slug,
             picked_ids=picked_ids,
             max_items=needed,

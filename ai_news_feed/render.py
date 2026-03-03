@@ -7,6 +7,8 @@
 ##########################################################################################
 
 import json
+from datetime import datetime, timezone
+from email.utils import format_datetime
 from html import escape
 from pathlib import Path
 from urllib.parse import quote
@@ -65,6 +67,80 @@ header {
   color: var(--muted);
   margin: 0.7rem 0 0;
   max-width: 70ch;
+}
+
+.header-tools {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
+}
+
+.rss-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid var(--stroke);
+  background: rgba(255, 255, 255, 0.86);
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 0.86rem;
+  padding: 0.34rem 0.7rem;
+  text-decoration: none;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: center;
+}
+
+.subscribe-input {
+  min-width: 230px;
+  border: 1px solid var(--stroke);
+  border-radius: 999px;
+  padding: 0.38rem 0.72rem;
+  font-size: 0.88rem;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.subscribe-btn {
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.86rem;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}
+
+.subscribe-status {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.subscribe-status[data-state='ok'] {
+  color: var(--accent-2);
+}
+
+.subscribe-status[data-state='error'] {
+  color: #9b1d1d;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .grid {
@@ -241,6 +317,37 @@ footer {
 }
 '''
 
+SUBSCRIBE_SCRIPT = '''
+<script>
+(function () {
+  var form = document.getElementById('subscribe-form');
+  var input = document.getElementById('subscribe-email');
+  var status = document.getElementById('subscribe-status');
+  if (!form || !input || !status) {
+    return;
+  }
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    var email = (input.value || '').trim();
+    var isValid = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email);
+    if (!isValid) {
+      status.dataset.state = 'error';
+      status.textContent = 'Enter a valid email address.';
+      return;
+    }
+    try {
+      localStorage.setItem('ai_news_feed_subscribe_email', email);
+    } catch (error) {
+      // localStorage may be unavailable in some browsers/privacy modes.
+    }
+    status.dataset.state = 'ok';
+    status.textContent = 'Saved. Email delivery is not enabled yet.';
+    form.reset();
+  });
+})();
+</script>
+'''
+
 
 # ****************************************************************************************
 # Functions
@@ -399,6 +506,58 @@ def _render_archive_links(archive: list[dict]) -> str:
     return ''.join(lines)
 
 
+def _coerce_datetime(value: str) -> datetime:
+    try:
+        parsed = datetime.fromisoformat(value)
+    except ValueError:
+        parsed = datetime.now(timezone.utc)
+    if parsed.tzinfo is None:
+        return parsed.replace(tzinfo=timezone.utc)
+    return parsed
+
+
+def _render_rss(feed: DailyFeed) -> str:
+    site_url = 'https://johnmaconline.github.io/ai.news.ai/'
+    feed_url = 'https://johnmaconline.github.io/ai.news.ai/feed.xml'
+    generated_dt = _coerce_datetime(feed.generated_at)
+    items: list[str] = []
+    for section in SECTIONS:
+        for article in feed.sections.get(section.slug, []):
+            published_dt = article.published_at or generated_dt
+            if published_dt.tzinfo is None:
+                published_dt = published_dt.replace(tzinfo=timezone.utc)
+            description_parts = [
+                article.summary_text or article.summary,
+            ]
+            if article.why_it_matters:
+                description_parts.append(f'Why it matters: {article.why_it_matters}')
+            description = ' '.join(part.strip() for part in description_parts if part and part.strip())
+            items.append(
+                '    <item>\n'
+                f'      <title>{escape(article.title)}</title>\n'
+                f'      <link>{escape(article.url)}</link>\n'
+                f'      <guid isPermaLink="true">{escape(article.url)}</guid>\n'
+                f'      <pubDate>{escape(format_datetime(published_dt.astimezone(timezone.utc)))}</pubDate>\n'
+                f'      <category>{escape(section.label)}</category>\n'
+                f'      <description>{escape(description)}</description>\n'
+                '    </item>'
+            )
+    return (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0">\n'
+        '  <channel>\n'
+        f'    <title>{escape(feed.title)}</title>\n'
+        f'    <link>{escape(site_url)}</link>\n'
+        f'    <description>{escape(feed.intro)}</description>\n'
+        f'    <lastBuildDate>{escape(format_datetime(generated_dt.astimezone(timezone.utc)))}</lastBuildDate>\n'
+        f'    <atom:link href="{escape(feed_url)}" rel="self" type="application/rss+xml" '
+        'xmlns:atom="http://www.w3.org/2005/Atom" />\n'
+        f'{"\n".join(items)}\n'
+        '  </channel>\n'
+        '</rss>\n'
+    )
+
+
 def _render_page(feed: DailyFeed, archive: list[dict], title_suffix: str = '') -> str:
     suffix = f' - {title_suffix}' if title_suffix else ''
     return f'''<!doctype html>
@@ -407,6 +566,7 @@ def _render_page(feed: DailyFeed, archive: list[dict], title_suffix: str = '') -
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{escape(feed.title)}{escape(suffix)}</title>
+    <link rel="alternate" type="application/rss+xml" title="Daily AI Feed RSS" href="./feed.xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
@@ -417,6 +577,22 @@ def _render_page(feed: DailyFeed, archive: list[dict], title_suffix: str = '') -
       <header>
         <h1 class="headline">{escape(feed.title)}</h1>
         <p class="subline">{escape(feed.intro)}</p>
+        <div class="header-tools">
+          <a class="rss-pill" href="./feed.xml" target="_blank" rel="noopener noreferrer">RSS feed</a>
+          <form class="subscribe-form" id="subscribe-form" novalidate>
+            <label class="sr-only" for="subscribe-email">Email address</label>
+            <input
+              id="subscribe-email"
+              class="subscribe-input"
+              type="email"
+              autocomplete="email"
+              placeholder="Enter email for daily newsletter"
+              required
+            />
+            <button class="subscribe-btn" type="submit">Subscribe</button>
+          </form>
+        </div>
+        <p class="subscribe-status" id="subscribe-status" aria-live="polite"></p>
       </header>
       <main class="grid">{_render_sections(feed)}</main>
       <aside class="archive">
@@ -427,6 +603,7 @@ def _render_page(feed: DailyFeed, archive: list[dict], title_suffix: str = '') -
         Generated {escape(feed.generated_at)}. Each item links to the original source.
       </footer>
     </div>
+    {SUBSCRIBE_SCRIPT}
   </body>
 </html>
 '''
@@ -434,8 +611,10 @@ def _render_page(feed: DailyFeed, archive: list[dict], title_suffix: str = '') -
 
 def _render_archive_page(feed: DailyFeed, archive: list[dict]) -> str:
     page = _render_page(feed, archive, title_suffix='Archive')
-    return page.replace('href="./style.css"', 'href="../style.css"').replace(
-        'href="./archive/', 'href="./'
+    return (
+        page.replace('href="./style.css"', 'href="../style.css"')
+        .replace('href="./archive/', 'href="./')
+        .replace('href="./feed.xml"', 'href="../feed.xml"')
     )
 
 
@@ -497,6 +676,7 @@ def write_site(feed: DailyFeed, output_dir: str) -> None:
         json.dumps(day_payload, ensure_ascii=True, indent=2), encoding='utf-8'
     )
     archive_index_path.write_text(json.dumps(archive_data, ensure_ascii=True, indent=2), encoding='utf-8')
+    (root / 'feed.xml').write_text(_render_rss(feed), encoding='utf-8')
     (root / 'style.css').write_text(CSS.strip() + '\n', encoding='utf-8')
     (root / '.nojekyll').write_text('', encoding='utf-8')
 
