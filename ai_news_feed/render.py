@@ -543,6 +543,7 @@ def _render_rss(feed: DailyFeed) -> str:
                 f'      <description>{escape(description)}</description>\n'
                 '    </item>'
             )
+    items_xml = '\n'.join(items)
     return (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<rss version="2.0">\n'
