@@ -9,6 +9,7 @@
 import json
 import logging
 import os
+from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
 from typing import Any
@@ -42,11 +43,46 @@ DEFAULT_SYSTEM_PROMPT = 'You write concise AI-news briefings. Return strict JSON
 ROOT_DIR = Path(__file__).resolve().parent.parent
 PROMPTS_DIR = Path(os.getenv('SECTION_PROMPTS_DIR') or (ROOT_DIR / 'prompts' / 'sections'))
 SYSTEM_PROMPT_PATH = Path(os.getenv('SYSTEM_PROMPT_FILE') or (ROOT_DIR / 'prompts' / 'system.md'))
+DEFAULT_PROMPT_COST_PER_1M = 0.05
+DEFAULT_COMPLETION_COST_PER_1M = 0.40
 
 
 # ****************************************************************************************
 # Functions
 # ****************************************************************************************
+
+
+@dataclass
+class LlmUsageTotals:
+    prompt_tokens: int = 0
+    completion_tokens: int = 0
+    temperature_fallback_retries: int = 0
+    call_count: int = 0
+
+    def add_usage(self, response: Any) -> None:
+        usage = getattr(response, 'usage', None)
+        if usage is None:
+            return
+        self.prompt_tokens += int(getattr(usage, 'prompt_tokens', 0) or 0)
+        self.completion_tokens += int(getattr(usage, 'completion_tokens', 0) or 0)
+
+    def estimated_cost(self) -> float:
+        prompt_rate = float(os.getenv('OPENAI_PROMPT_COST_PER_1M') or DEFAULT_PROMPT_COST_PER_1M)
+        completion_rate = float(os.getenv('OPENAI_COMPLETION_COST_PER_1M') or DEFAULT_COMPLETION_COST_PER_1M)
+        prompt_cost = (self.prompt_tokens / 1_000_000) * prompt_rate
+        completion_cost = (self.completion_tokens / 1_000_000) * completion_rate
+        return prompt_cost + completion_cost
+
+    def log_summary(self) -> None:
+        log.info('++++++++++++++++++++++++++++++++++++++++++++++')
+        log.info(
+            '+  LLM totals: prompt_tokens=%d, completion_tokens=%d',
+            self.prompt_tokens,
+            self.completion_tokens,
+        )
+        log.info('+  Temperature fallback retries: %d', self.temperature_fallback_retries)
+        log.info('+  Estimated LLM cost: $%.4f', self.estimated_cost())
+        log.info('++++++++++++++++++++++++++++++++++++++++++++++')
 
 
 def _fallback_article_copy(article: Article, section_slug: str) -> tuple[str, str]:
@@ -102,7 +138,11 @@ def _build_payload(articles: list[Article]) -> list[dict[str, Any]]:
     ]
 
 
-def _try_openai_enrichment(section_slug: str, articles: list[Article]) -> dict[str, dict[str, str]] | None:
+def _try_openai_enrichment(
+    section_slug: str,
+    articles: list[Article],
+    usage_totals: LlmUsageTotals,
+) -> dict[str, dict[str, str]] | None:
     api_key = os.getenv('OPENAI_API_KEY')
     model = os.getenv('OPENAI_MODEL') or 'gpt-5-mini'
     if not api_key or OpenAI is None or not articles:
@@ -127,16 +167,24 @@ def _try_openai_enrichment(section_slug: str, articles: list[Article]) -> dict[s
         'Return JSON object with exact shape:\n'
         '{"items":[{"id":"...","summary":"...","why_it_matters":"..."}]}'
     )
+    request_kwargs: dict[str, Any] = {
+        'model': model,
+        'response_format': {'type': 'json_object'},
+        'messages': [
+            {'role': 'system', 'content': system_prompt},
+            {'role': 'user', 'content': user_prompt},
+        ],
+    }
+    raw_temperature = os.getenv('OPENAI_TEMPERATURE')
+    if raw_temperature:
+        try:
+            request_kwargs['temperature'] = float(raw_temperature)
+        except ValueError:
+            log.warning('Ignoring invalid OPENAI_TEMPERATURE=%s (must be numeric).', raw_temperature)
     try:
-        response = client.chat.completions.create(
-            model=model,
-            temperature=0.2,
-            response_format={'type': 'json_object'},
-            messages=[
-                {'role': 'system', 'content': system_prompt},
-                {'role': 'user', 'content': user_prompt},
-            ],
-        )
+        usage_totals.call_count += 1
+        response = client.chat.completions.create(**request_kwargs)
+        usage_totals.add_usage(response)
         content = response.choices[0].message.content
         parsed = json.loads(content)
         rows = parsed.get('items', [])
@@ -156,8 +204,9 @@ def _try_openai_enrichment(section_slug: str, articles: list[Article]) -> dict[s
 
 
 def enrich_summaries(sections: dict[str, list[Article]]) -> None:
+    usage_totals = LlmUsageTotals()
     for section_slug, articles in sections.items():
-        llm_data = _try_openai_enrichment(section_slug, articles) or {}
+        llm_data = _try_openai_enrichment(section_slug, articles, usage_totals) or {}
         for article in articles:
             if article.id in llm_data:
                 article.summary_text = llm_data[article.id]['summary']
@@ -166,3 +215,5 @@ def enrich_summaries(sections: dict[str, list[Article]]) -> None:
                 fallback_summary, fallback_why = _fallback_article_copy(article, section_slug)
                 article.summary_text = fallback_summary
                 article.why_it_matters = fallback_why
+    if usage_totals.call_count > 0:
+        usage_totals.log_summary()
