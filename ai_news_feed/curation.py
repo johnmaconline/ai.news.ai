@@ -22,6 +22,8 @@ from .config import (
     SECTION_TARGET_MAX,
     SECTION_TARGET_MIN,
     SECTIONS,
+    UNDER_THE_RADAR_BUILDER_KEYWORDS,
+    UNDER_THE_RADAR_INDEPENDENT_PLATFORM_HINTS,
 )
 from .models import Article
 from .utils import canonicalize_url, normalize_whitespace
@@ -94,6 +96,36 @@ def _is_big_announcement_candidate(article: Article, text_blob: str) -> bool:
     return False
 
 
+def _under_the_radar_boost(article: Article, text_blob: str) -> float:
+    boost = 0.0
+    if any(hint in article.domain for hint in UNDER_THE_RADAR_INDEPENDENT_PLATFORM_HINTS):
+        boost += 1.8
+    if _keyword_hits(text_blob, UNDER_THE_RADAR_BUILDER_KEYWORDS) > 0:
+        boost += 1.2
+    if article.source_type in {'x', 'linkedin'}:
+        followers = article.metrics.get('followers', 0.0)
+        if followers > 0:
+            if followers <= 20_000:
+                boost += 2.0
+            elif followers <= 100_000:
+                boost += 1.0
+            elif followers >= 1_000_000:
+                boost -= 2.0
+        if article.metrics.get('verified', 0.0) >= 1.0:
+            boost -= 0.6
+    if article.source_type == 'reddit':
+        subreddit_subscribers = article.metrics.get('subreddit_subscribers', 0.0)
+        if subreddit_subscribers > 0:
+            if subreddit_subscribers <= 100_000:
+                boost += 2.0
+            elif subreddit_subscribers <= 500_000:
+                boost += 1.0
+            elif subreddit_subscribers >= 3_000_000:
+                boost -= 1.5
+        boost += min(1.4, article.metrics.get('comments', 0.0) / 80.0)
+    return boost
+
+
 def score_articles(articles: list[Article], feed_dt: datetime | None = None) -> None:
     if feed_dt is None:
         feed_dt = datetime.now(timezone.utc)
@@ -126,6 +158,7 @@ def score_articles(articles: list[Article], feed_dt: datetime | None = None) -> 
                     section_score += 1.6
                 else:
                     section_score -= 0.8
+                section_score += _under_the_radar_boost(article, text_blob)
             if section.slug in {'engineering', 'product-development'}:
                 section_score += min(2.0, article.metrics.get('points', 0.0) / 150.0)
             if section.slug == 'business':

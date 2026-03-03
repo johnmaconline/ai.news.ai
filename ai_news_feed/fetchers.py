@@ -60,13 +60,17 @@ AUTO_DISCOVER_IGNORED_DOMAINS = {
     'www.twitter.com',
     'linkedin.com',
     'www.linkedin.com',
-    'reddit.com',
-    'www.reddit.com',
     'news.ycombinator.com',
     'arxiv.org',
     'www.arxiv.org',
     'github.com',
     'www.github.com',
+}
+AUTO_DISCOVER_REDDIT_EXCLUDED_SUBREDDITS = {
+    'all',
+    'popular',
+    'announcements',
+    'news',
 }
 WEB_DISCOVERY_QUERIES = {
     'big-announcements': [
@@ -94,6 +98,14 @@ WEB_DISCOVERY_QUERIES = {
         'indie AI engineering blog',
         'small AI lab blog notes',
         'niche AI workflow writeup',
+        'site:substack.com AI engineering workflow',
+        'site:substack.com "I built" AI',
+        'site:reddit.com/r AI workflow tutorial',
+        'site:dev.to AI agent workflow',
+        'site:reddit.com/r/ChatGPTCoding AI coding workflow',
+        'site:reddit.com/r/LocalLLaMA project writeup',
+        'site:x.com AI engineer "I built"',
+        'site:linkedin.com/in AI software engineer workflow',
     ],
     'for-fun': [
         'creative AI project demo',
@@ -254,6 +266,14 @@ def _extract_x_username(value: str) -> str:
     if re.fullmatch(r'[A-Za-z0-9_]{1,15}', username or ''):
         return username
     return ''
+
+
+def _extract_reddit_subreddit(path: str) -> str:
+    path_value = (path or '').strip()
+    match = re.match(r'^/r/([A-Za-z0-9_]+)/', path_value)
+    if not match:
+        return ''
+    return match.group(1)
 
 
 def _extract_linkedin_profile_url(value: str) -> str:
@@ -497,6 +517,15 @@ def _resolve_candidate_base(url: str) -> tuple[str, str] | None:
     domain = (parsed.netloc or '').lower()
     if not domain or domain in AUTO_DISCOVER_IGNORED_DOMAINS:
         return None
+    if domain.endswith('reddit.com'):
+        subreddit = _extract_reddit_subreddit(parsed.path)
+        if not subreddit:
+            return None
+        lowered = subreddit.lower()
+        if lowered in AUTO_DISCOVER_REDDIT_EXCLUDED_SUBREDDITS:
+            return None
+        rss_url = f'https://www.reddit.com/r/{subreddit}/.rss'
+        return rss_url, f'reddit.com/r/{lowered}'
     return f'{parsed.scheme}://{domain}/', domain
 
 
@@ -679,6 +708,9 @@ def _validate_feed_url(url: str, min_entries: int) -> tuple[str, str] | None:
 def _discover_feed_url_for_base_url(base_url: str, min_entries: int) -> tuple[str, str] | None:
     if requests is None:
         return None
+    direct_validated = _validate_feed_url(base_url, min_entries=min_entries)
+    if direct_validated:
+        return direct_validated
     headers = {
         'User-Agent': USER_AGENT,
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -724,6 +756,15 @@ def _resolve_article_base_url(article: Article) -> tuple[str, str] | None:
         return None
     if domain in AUTO_DISCOVER_IGNORED_DOMAINS:
         return None
+    if domain.endswith('reddit.com'):
+        subreddit = _extract_reddit_subreddit(parsed.path)
+        if not subreddit:
+            return None
+        lowered = subreddit.lower()
+        if lowered in AUTO_DISCOVER_REDDIT_EXCLUDED_SUBREDDITS:
+            return None
+        rss_url = f'https://www.reddit.com/r/{subreddit}/.rss'
+        return rss_url, f'reddit.com/r/{lowered}'
     return f'{parsed.scheme}://{domain}/', domain
 
 
@@ -969,6 +1010,8 @@ def fetch_all_sources(sources: list[dict]) -> list[Article]:
                 articles.extend(fetch_hackernews_source(source))
             elif source_type == 'arxiv':
                 articles.extend(fetch_arxiv_source(source))
+            elif source_type == 'reddit-search':
+                articles.extend(fetch_reddit_search_source(source))
             elif source_type == 'x':
                 articles.extend(fetch_x_source(source))
             elif source_type == 'linkedin':
@@ -1101,6 +1144,79 @@ def fetch_arxiv_source(source: dict) -> list[Article]:
     return articles
 
 
+def fetch_reddit_search_source(source: dict) -> list[Article]:
+    if requests is None:
+        raise RuntimeError('requests is required for Reddit search ingestion.')
+
+    query = (source.get('query') or '').strip()
+    if not query:
+        log.warning('Skipping Reddit source %s: missing query.', source.get('id'))
+        return []
+
+    endpoint = source.get('endpoint', 'https://www.reddit.com/search.json')
+    max_items = max(10, min(int(source.get('max_items', 50)), 100))
+    params = {
+        'q': query,
+        'sort': source.get('sort') or 'new',
+        't': source.get('time') or 'day',
+        'limit': max_items,
+        'restrict_sr': 'false',
+    }
+    headers = {
+        'User-Agent': USER_AGENT,
+    }
+    try:
+        response = requests.get(endpoint, headers=headers, params=params, timeout=20)
+    except requests.RequestException:
+        log.warning('Reddit source %s request failed.', source.get('id'))
+        return []
+    if response.status_code >= 400:
+        log.warning('Reddit source %s request failed (%s).', source.get('id'), response.status_code)
+        return []
+
+    payload = response.json() or {}
+    children = (payload.get('data') or {}).get('children') or []
+    if not isinstance(children, list):
+        return []
+
+    articles: list[Article] = []
+    for child in children:
+        row = child.get('data') if isinstance(child, dict) else {}
+        if not isinstance(row, dict):
+            continue
+        title = strip_html((row.get('title') or '').strip())
+        permalink = (row.get('permalink') or '').strip()
+        if not title or not permalink:
+            continue
+        url = canonicalize_url(f'https://www.reddit.com{permalink}')
+        if not url:
+            continue
+        summary = row.get('selftext') or title
+        published_at = _parse_datetime_value(row.get('created_utc'))
+        subreddit = (row.get('subreddit') or '').strip()
+        metrics = {
+            'points': float(row.get('score') or 0),
+            'comments': float(row.get('num_comments') or 0),
+            'subreddit_subscribers': float(row.get('subreddit_subscribers') or 0),
+        }
+        article = _make_article(
+            source=source,
+            title=title,
+            url=url,
+            summary=summary,
+            published_at=published_at,
+            metrics=metrics,
+        )
+        if subreddit:
+            article.source_name = f'r/{subreddit}'
+            article.tags.add(f'r/{subreddit.lower()}')
+        else:
+            article.source_name = source.get('name', 'Reddit Search')
+        article.source_type = 'reddit'
+        articles.append(article)
+    return articles
+
+
 def _parse_datetime_value(value: str | int | float | dict | None) -> datetime | None:
     if value is None:
         return None
@@ -1194,7 +1310,7 @@ def fetch_x_source(source: dict) -> list[Article]:
         'query': query,
         'max_results': max_items,
         'tweet.fields': 'created_at,public_metrics,author_id,lang',
-        'user.fields': 'username,name,verified',
+        'user.fields': 'username,name,verified,public_metrics',
         'expansions': 'author_id',
     }
     response = requests.get(endpoint, headers=headers, params=params, timeout=20)
@@ -1226,6 +1342,8 @@ def fetch_x_source(source: dict) -> list[Article]:
             'points': float(metrics_payload.get('like_count') or 0),
             'comments': float(metrics_payload.get('reply_count') or 0),
             'reposts': float(metrics_payload.get('retweet_count') or 0),
+            'followers': float((author.get('public_metrics') or {}).get('followers_count') or 0),
+            'verified': 1.0 if author.get('verified') else 0.0,
         }
         title_prefix = f'@{username}' if username else 'X post'
         article = _make_article(

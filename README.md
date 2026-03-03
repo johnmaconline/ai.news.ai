@@ -94,12 +94,17 @@ python -m ai_news_feed.main --min-per-section 3 --max-per-section 5
 For social sources:
 - `type: x` uses `query` (X recent search).
 - `type: linkedin` uses `author_urn` and fetches from LinkedIn posts API.
+- `type: reddit-search` uses Reddit search API (`q`, `sort`, `time`) for deeper daily Reddit mining.
 - `LINKEDIN_AUTHOR_URN` in `.env` overrides the LinkedIn `author_urn` in `config/sources.yaml`, so you can switch orgs without editing YAML.
 - If corresponding tokens are not set, those sources are skipped safely.
 
 Software Development section intent:
 - Focuses on practical implementation for developers: agent workflows, skills, and how-to guidance.
 - Announcement-heavy items are deprioritized for this section and should appear in `0) Big Announcements` when relevant.
+
+Under-the-Radar mining intent:
+- Biases toward independent voices and practical builder content (Substack/Medium/dev blogs, Reddit workflow posts, smaller social accounts).
+- Uses follower/community-size-aware scoring where available (for example X follower counts and Reddit subreddit size) to reduce dominance from very large accounts.
 
 `config/feeds.md` behavior:
 - This file is loaded on every run (default path).

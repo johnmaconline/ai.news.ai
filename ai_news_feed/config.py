@@ -310,3 +310,27 @@ LOW_SIGNAL_BIG_ANNOUNCEMENT_DOMAINS = {
     'x.com',
     'twitter.com',
 }
+
+UNDER_THE_RADAR_INDEPENDENT_PLATFORM_HINTS = [
+    'substack.com',
+    'medium.com',
+    'dev.to',
+    'hashnode.dev',
+    'ghost.io',
+    'beehiiv.com',
+    'blogspot.com',
+]
+
+UNDER_THE_RADAR_BUILDER_KEYWORDS = [
+    'i built',
+    'build in public',
+    'side project',
+    'side hustle',
+    'postmortem',
+    'lessons learned',
+    'how i built',
+    'implementation notes',
+    'workflow',
+    'playbook',
+    'tutorial',
+]

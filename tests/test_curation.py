@@ -123,3 +123,35 @@ def test_big_announcements_prefers_high_signal_layoff_news_over_social_post() ->
     )
     score_articles([high_signal, low_signal], feed_dt=feed_dt)
     assert high_signal.scores['big-announcements'] > low_signal.scores['big-announcements']
+
+
+def test_under_the_radar_prefers_smaller_social_accounts() -> None:
+    feed_dt = datetime(2026, 3, 3, 13, 0, tzinfo=timezone.utc)
+    small_account = Article(
+        id='small-social',
+        title='I built an AI test workflow in one weekend',
+        url='https://x.com/smallbuilder/status/1',
+        summary='Workflow notes and lessons learned for shipping faster.',
+        source_name='X @smallbuilder',
+        source_type='x',
+        domain='x.com',
+        published_at=datetime(2026, 3, 3, 10, 0, tzinfo=timezone.utc),
+        priority=6.0,
+        section_hint='under-the-radar',
+        metrics={'followers': 5500, 'verified': 0.0, 'points': 30.0, 'comments': 12.0},
+    )
+    large_account = Article(
+        id='large-social',
+        title='I built an AI test workflow in one weekend',
+        url='https://x.com/bigaccount/status/2',
+        summary='Workflow notes and lessons learned for shipping faster.',
+        source_name='X @bigaccount',
+        source_type='x',
+        domain='x.com',
+        published_at=datetime(2026, 3, 3, 10, 0, tzinfo=timezone.utc),
+        priority=6.0,
+        section_hint='under-the-radar',
+        metrics={'followers': 2200000, 'verified': 1.0, 'points': 30.0, 'comments': 12.0},
+    )
+    score_articles([small_account, large_account], feed_dt=feed_dt)
+    assert small_account.scores['under-the-radar'] > large_account.scores['under-the-radar']

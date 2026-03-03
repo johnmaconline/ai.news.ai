@@ -152,6 +152,39 @@ sources:
     tags: [for-fun, big-announcements]
     max_items: 30
 
+  - id: reddit-ai-workflows-search
+    type: reddit-search
+    name: Reddit AI Workflow Search
+    query: '(ai OR llm OR agent) (workflow OR tutorial OR "i built" OR implementation)'
+    sort: new
+    time: day
+    priority: 6
+    section_hint: under-the-radar
+    tags: [under-the-radar, engineering, business, reddit]
+    max_items: 60
+
+  - id: reddit-software-dev-ai-search
+    type: reddit-search
+    name: Reddit Software Dev AI Search
+    query: '(copilot OR cursor OR claude code OR openai) (refactor OR test OR ci OR repo OR pull request)'
+    sort: new
+    time: day
+    priority: 6
+    section_hint: business
+    tags: [business, engineering, under-the-radar, reddit]
+    max_items: 60
+
+  - id: reddit-ai-announcements-search
+    type: reddit-search
+    name: Reddit AI Announcement Search
+    query: '(openai OR anthropic OR google OR microsoft OR meta) (announced OR launch OR layoffs OR acquisition OR partnership)'
+    sort: new
+    time: day
+    priority: 5
+    section_hint: big-announcements
+    tags: [big-announcements, under-the-radar, reddit]
+    max_items: 40
+
   - id: hackernews-ai
     type: hackernews
     name: Hacker News
