@@ -18,6 +18,7 @@ from .curation import curate_sections, dedupe_articles
 from .fetchers import (
     build_sample_articles,
     discover_registry_url_sources,
+    discover_web_discovery_candidates,
     fetch_all_sources,
     load_source_config,
     persist_discovered_registry_sources,
@@ -91,7 +92,12 @@ def build_daily_feed(
         raise RuntimeError('No articles fetched. Aborting publish to avoid empty feed.')
 
     if not use_sample_data:
-        discovered_sources = discover_registry_url_sources(articles=articles, sources=sources)
+        web_candidates = discover_web_discovery_candidates()
+        discovered_sources = discover_registry_url_sources(
+            articles=articles,
+            sources=sources,
+            external_candidates=web_candidates,
+        )
         if discovered_sources:
             discovered_articles = fetch_all_sources(discovered_sources)
             if discovered_articles:

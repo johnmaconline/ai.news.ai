@@ -11,7 +11,7 @@ import os
 import re
 from collections import Counter
 from datetime import datetime, timezone
-from urllib.parse import quote, urljoin, urlparse
+from urllib.parse import parse_qs, quote, unquote, urljoin, urlparse
 
 try:
     import feedparser
@@ -67,6 +67,39 @@ AUTO_DISCOVER_IGNORED_DOMAINS = {
     'www.arxiv.org',
     'github.com',
     'www.github.com',
+}
+WEB_DISCOVERY_QUERIES = {
+    'big-announcements': [
+        'AI layoffs announced',
+        'AI model launch announced',
+        'AI partnership announced enterprise',
+        'AI policy regulation announcement',
+    ],
+    'engineering': [
+        'agentic engineering workflow blog',
+        'LLM eval framework engineering',
+        'AI coding benchmark developer tools',
+    ],
+    'product-development': [
+        'AI product workflow experimentation',
+        'PM AI product development case study',
+        'AI feature design launch playbook',
+    ],
+    'business': [
+        'AI coding agent tutorial workflow',
+        'software developer AI automation guide',
+        'developer productivity AI implementation',
+    ],
+    'under-the-radar': [
+        'indie AI engineering blog',
+        'small AI lab blog notes',
+        'niche AI workflow writeup',
+    ],
+    'for-fun': [
+        'creative AI project demo',
+        'weird AI experiment',
+        'AI game build log',
+    ],
 }
 
 
@@ -440,6 +473,169 @@ def _is_auto_discovery_enabled() -> bool:
     return raw_value not in AUTO_DISCOVER_DISABLE_VALUES
 
 
+def _is_auto_web_discovery_enabled() -> bool:
+    raw_value = (os.getenv('AUTO_DISCOVER_WEB') or '1').strip().lower()
+    return raw_value not in AUTO_DISCOVER_DISABLE_VALUES
+
+
+def _build_discovery_queries() -> list[tuple[str, str]]:
+    queries: list[tuple[str, str]] = []
+    for section_slug, query_list in WEB_DISCOVERY_QUERIES.items():
+        for query in query_list:
+            queries.append((section_slug, query))
+    max_queries = _safe_env_int('AUTO_DISCOVER_WEB_MAX_QUERIES', default=18, minimum=1, maximum=80)
+    return queries[:max_queries]
+
+
+def _resolve_candidate_base(url: str) -> tuple[str, str] | None:
+    canonical_url = canonicalize_url(url)
+    if not canonical_url:
+        return None
+    parsed = urlparse(canonical_url)
+    if parsed.scheme not in {'http', 'https'}:
+        return None
+    domain = (parsed.netloc or '').lower()
+    if not domain or domain in AUTO_DISCOVER_IGNORED_DOMAINS:
+        return None
+    return f'{parsed.scheme}://{domain}/', domain
+
+
+def _search_google_news_candidates(
+    section_slug: str,
+    query: str,
+    max_results: int,
+    recency_days: int,
+) -> list[tuple[str, str, str, float]]:
+    if feedparser is None:
+        return []
+    encoded_query = quote(f'{query} when:{recency_days}d', safe='')
+    rss_url = (
+        f'https://news.google.com/rss/search?q={encoded_query}'
+        '&hl=en-US&gl=US&ceid=US:en'
+    )
+    parsed = feedparser.parse(rss_url, agent=USER_AGENT)
+    rows: list[tuple[str, str, str, float]] = []
+    for entry in parsed.entries[:max_results]:
+        source = entry.get('source') or {}
+        source_href = ''
+        if isinstance(source, dict):
+            source_href = (source.get('href') or '').strip()
+        if not source_href:
+            source_href = (entry.get('link') or '').strip()
+        resolved = _resolve_candidate_base(source_href)
+        if not resolved:
+            continue
+        base_url, domain = resolved
+        rows.append((base_url, domain, section_slug, 6.0))
+    return rows
+
+
+def _extract_ddg_target_url(href: str) -> str:
+    cleaned = href.strip()
+    if not cleaned:
+        return ''
+    if cleaned.startswith('//'):
+        cleaned = f'https:{cleaned}'
+    absolute = urljoin('https://duckduckgo.com', cleaned)
+    parsed = urlparse(absolute)
+    if parsed.netloc.lower().endswith('duckduckgo.com'):
+        params = parse_qs(parsed.query)
+        uddg_values = params.get('uddg') or []
+        if uddg_values:
+            return unquote(uddg_values[0])
+    return absolute
+
+
+def _search_duckduckgo_candidates(
+    section_slug: str,
+    query: str,
+    max_results: int,
+) -> list[tuple[str, str, str, float]]:
+    if requests is None:
+        return []
+    try:
+        response = requests.get(
+            'https://duckduckgo.com/html/',
+            params={'q': query},
+            headers={'User-Agent': USER_AGENT},
+            timeout=20,
+        )
+    except requests.RequestException:
+        return []
+    if response.status_code >= 400:
+        return []
+    rows: list[tuple[str, str, str, float]] = []
+    seen_domains: set[str] = set()
+    html = response.text[:500000]
+    pattern = re.compile(
+        r'<a[^>]+class="[^"]*result__a[^"]*"[^>]+href="([^"]+)"',
+        flags=re.IGNORECASE,
+    )
+    for match in pattern.finditer(html):
+        href = match.group(1).strip()
+        target_url = _extract_ddg_target_url(href)
+        resolved = _resolve_candidate_base(target_url)
+        if not resolved:
+            continue
+        base_url, domain = resolved
+        if domain in seen_domains:
+            continue
+        seen_domains.add(domain)
+        rows.append((base_url, domain, section_slug, 5.0))
+        if len(rows) >= max_results:
+            break
+    return rows
+
+
+def discover_web_discovery_candidates() -> list[tuple[str, str, str, float]]:
+    if not _is_auto_discovery_enabled() or not _is_auto_web_discovery_enabled():
+        return []
+    queries = _build_discovery_queries()
+    if not queries:
+        return []
+    max_results_per_query = _safe_env_int(
+        'AUTO_DISCOVER_WEB_MAX_RESULTS_PER_QUERY',
+        default=8,
+        minimum=2,
+        maximum=20,
+    )
+    recency_days = _safe_env_int('AUTO_DISCOVER_WEB_RECENCY_DAYS', default=2, minimum=1, maximum=7)
+    provider_mode = (os.getenv('AUTO_DISCOVER_WEB_PROVIDER') or 'all').strip().lower()
+    use_google_news = provider_mode in {'all', 'google-news', 'google', 'news'}
+    use_duckduckgo = provider_mode in {'all', 'duckduckgo', 'ddg'}
+
+    merged: dict[str, tuple[str, str, str, float]] = {}
+    for section_slug, query in queries:
+        candidates: list[tuple[str, str, str, float]] = []
+        if use_google_news:
+            candidates.extend(
+                _search_google_news_candidates(
+                    section_slug=section_slug,
+                    query=query,
+                    max_results=max_results_per_query,
+                    recency_days=recency_days,
+                )
+            )
+        if use_duckduckgo:
+            candidates.extend(
+                _search_duckduckgo_candidates(
+                    section_slug=section_slug,
+                    query=query,
+                    max_results=max_results_per_query,
+                )
+            )
+        for base_url, domain, hint, priority in candidates:
+            existing = merged.get(domain)
+            if existing is None or priority > existing[3]:
+                merged[domain] = (base_url, domain, hint, priority)
+    rows = sorted(merged.values(), key=lambda item: item[3], reverse=True)
+    max_candidates = _safe_env_int('AUTO_DISCOVER_WEB_MAX_CANDIDATES', default=120, minimum=10, maximum=500)
+    rows = rows[:max_candidates]
+    if rows:
+        log.info('Web discovery found %s candidate domain(s).', len(rows))
+    return rows
+
+
 def _extract_feed_links_from_html(html: str, page_url: str) -> list[str]:
     if not html:
         return []
@@ -575,6 +771,7 @@ def _collect_discovery_candidates(
 def discover_registry_url_sources(
     articles: list[Article],
     sources: list[dict],
+    external_candidates: list[tuple[str, str, str, float]] | None = None,
 ) -> list[dict]:
     if not _is_auto_discovery_enabled():
         log.info('Auto-discovery disabled via AUTO_DISCOVER_FEEDS.')
@@ -582,7 +779,7 @@ def discover_registry_url_sources(
     if feedparser is None or requests is None:
         log.warning('Auto-discovery skipped: feedparser/requests dependencies are unavailable.')
         return []
-    if not articles:
+    if not articles and not external_candidates:
         return []
 
     max_domains = _safe_env_int('AUTO_DISCOVER_MAX_DOMAINS', default=40, minimum=5, maximum=200)
@@ -604,7 +801,22 @@ def discover_registry_url_sources(
 
     discovered: list[dict] = []
     discovered_urls: set[str] = set()
-    candidates = _collect_discovery_candidates(articles, existing_domains=existing_domains, max_domains=max_domains)
+    merged_candidates: dict[str, tuple[str, str, str, float]] = {}
+    for base_url, domain, section_hint, max_priority in _collect_discovery_candidates(
+        articles,
+        existing_domains=existing_domains,
+        max_domains=max_domains,
+    ):
+        merged_candidates[domain] = (base_url, domain, section_hint, max_priority)
+    for candidate in external_candidates or []:
+        base_url, domain, section_hint, max_priority = candidate
+        if domain in existing_domains:
+            continue
+        existing = merged_candidates.get(domain)
+        if existing is None or max_priority > existing[3]:
+            merged_candidates[domain] = (base_url, domain, section_hint, max_priority)
+
+    candidates = sorted(merged_candidates.values(), key=lambda item: item[3], reverse=True)
     for base_url, domain, section_hint, max_priority in candidates:
         if len(discovered) >= max_new_feeds:
             break

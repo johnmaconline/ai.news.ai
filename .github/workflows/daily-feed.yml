@@ -65,6 +65,15 @@ jobs:
           LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
           LINKEDIN_API_VERSION: ${{ vars.LINKEDIN_API_VERSION }}
           FEED_TIMEZONE: ${{ env.FEED_TIMEZONE }}
+          AUTO_DISCOVER_FEEDS: "1"
+          AUTO_DISCOVER_WEB: "1"
+          AUTO_DISCOVER_WEB_PROVIDER: all
+          AUTO_DISCOVER_WEB_MAX_QUERIES: "12"
+          AUTO_DISCOVER_WEB_MAX_RESULTS_PER_QUERY: "6"
+          AUTO_DISCOVER_WEB_MAX_CANDIDATES: "100"
+          AUTO_DISCOVER_MAX_NEW_FEEDS: "10"
+          AUTO_DISCOVER_MAX_DOMAINS: "80"
+          AUTO_DISCOVER_MIN_FEED_ENTRIES: "5"
         run: python -m ai_news_feed.main --output-dir site
 
       - name: Commit Generated Site

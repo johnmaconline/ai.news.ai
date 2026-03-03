@@ -105,6 +105,8 @@ Software Development section intent:
 - This file is loaded on every run (default path).
 - Daily runs also auto-discover new RSS feeds from article domains outside configured sources,
   validate them, and append them to `1. URLs` with `discovered=auto`.
+- Daily runs also execute external web discovery queries (Google News RSS + DuckDuckGo by default)
+  to find new relevant domains beyond existing feeds.
 - Sections:
   - `1. URLs` (RSS/Atom URLs; optional metadata such as `name=`, `section=`, `tags=`)
   - `2. LinkedIN users` (LinkedIn `urn:li:...` or LinkedIn profile/company URLs)
@@ -119,6 +121,12 @@ Software Development section intent:
   - `AUTO_DISCOVER_MAX_NEW_FEEDS=8` (max newly added feeds per run)
   - `AUTO_DISCOVER_MAX_DOMAINS=40` (max domains to probe per run)
   - `AUTO_DISCOVER_MIN_FEED_ENTRIES=5` (minimum entries required to accept a feed)
+  - `AUTO_DISCOVER_WEB=1` (default enabled; external web query discovery)
+  - `AUTO_DISCOVER_WEB_PROVIDER=all` (`all`, `google-news`, `duckduckgo`)
+  - `AUTO_DISCOVER_WEB_MAX_QUERIES=18` (max query templates executed per run)
+  - `AUTO_DISCOVER_WEB_MAX_RESULTS_PER_QUERY=8`
+  - `AUTO_DISCOVER_WEB_MAX_CANDIDATES=120`
+  - `AUTO_DISCOVER_WEB_RECENCY_DAYS=2`
 - You can override the registry path:
 
 ```bash

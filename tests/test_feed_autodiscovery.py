@@ -54,6 +54,64 @@ def test_discover_registry_url_sources_discovers_new_domain(monkeypatch) -> None
     assert 'autodiscovered' in discovered[0]['tags']
 
 
+def test_discover_registry_url_sources_uses_external_candidates(monkeypatch) -> None:
+    sources = [{'type': 'rss', 'url': 'https://known.example/feed.xml'}]
+    articles = []
+
+    def _fake_discover(base_url: str, min_entries: int) -> tuple[str, str] | None:
+        assert min_entries >= 1
+        if base_url == 'https://outside.example/':
+            return 'https://outside.example/rss.xml', 'Outside Example'
+        return None
+
+    monkeypatch.setenv('AUTO_DISCOVER_FEEDS', '1')
+    monkeypatch.setattr(fetchers, '_discover_feed_url_for_base_url', _fake_discover)
+
+    discovered = fetchers.discover_registry_url_sources(
+        articles=articles,
+        sources=sources,
+        external_candidates=[('https://outside.example/', 'outside.example', 'under-the-radar', 6.5)],
+    )
+
+    assert len(discovered) == 1
+    assert discovered[0]['url'] == 'https://outside.example/rss.xml'
+    assert discovered[0]['section_hint'] == 'under-the-radar'
+
+
+def test_discover_web_discovery_candidates_merges_provider_results(monkeypatch) -> None:
+    def _fake_google(section_slug: str, query: str, max_results: int, recency_days: int):
+        assert max_results >= 2
+        assert recency_days >= 1
+        if section_slug == 'engineering':
+            return [('https://eng.example/', 'eng.example', section_slug, 6.0)]
+        return []
+
+    def _fake_duck(section_slug: str, query: str, max_results: int):
+        assert max_results >= 2
+        if section_slug == 'engineering':
+            return [('https://eng.example/', 'eng.example', section_slug, 5.0)]
+        if section_slug == 'product-development':
+            return [('https://product.example/', 'product.example', section_slug, 5.0)]
+        return []
+
+    monkeypatch.setenv('AUTO_DISCOVER_FEEDS', '1')
+    monkeypatch.setenv('AUTO_DISCOVER_WEB', '1')
+    monkeypatch.setenv('AUTO_DISCOVER_WEB_PROVIDER', 'all')
+    monkeypatch.setattr(
+        fetchers,
+        '_build_discovery_queries',
+        lambda: [('engineering', 'query one'), ('product-development', 'query two')],
+    )
+    monkeypatch.setattr(fetchers, '_search_google_news_candidates', _fake_google)
+    monkeypatch.setattr(fetchers, '_search_duckduckgo_candidates', _fake_duck)
+
+    rows = fetchers.discover_web_discovery_candidates()
+
+    domains = {row[1] for row in rows}
+    assert 'eng.example' in domains
+    assert 'product.example' in domains
+
+
 def test_persist_discovered_registry_sources_appends_new_url(tmp_path: Path) -> None:
     feeds_file = tmp_path / 'feeds.md'
     feeds_file.write_text(
