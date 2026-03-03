@@ -1,143 +1,143 @@
 {
   "date": "2026-03-03",
-  "generated_at": "2026-03-03T14:30:39+00:00",
+  "generated_at": "2026-03-03T18:47:19+00:00",
   "title": "Daily AI Feed - 2026-03-03",
   "intro": "A curated daily AI briefing with original-source links across industry announcements, engineering, product development, software development, under-the-radar signals, and fun experiments.",
   "sections": {
     "big-announcements": [
       {
-        "id": "6707a26da5719be7",
-        "title": "The LLM Speed Hack Nobody Is Talking About",
-        "url": "https://pub.towardsai.net/the-llm-speed-hack-nobody-is-talking-about-0e07f3876d25?source=rss----98111c9905da---4",
-        "source_name": "Towards AI (Medium)",
-        "domain": "pub.towardsai.net",
-        "published_at": "2026-03-03T13:01:02+00:00",
-        "summary_text": "Published by Towards AI (Medium), an essay recounts how a fast-typing habit became insufficient once LLM latency entered the workflow and explores methods to speed LLM interaction.",
-        "why_it_matters": "Helps writers and knowledge workers reduce friction and latency when using LLMs; improves productivity and responsiveness.",
-        "section_score": 24.768,
+        "id": "9a81f5b9840ab335",
+        "title": "Zurich AI Safety is hiring a Director",
+        "url": "https://www.lesswrong.com/posts/dXQZygs3MpckSQyQt/zurich-ai-safety-is-hiring-a-director",
+        "source_name": "LessWrong",
+        "domain": "lesswrong.com",
+        "published_at": "2026-03-03T10:29:02+00:00",
+        "summary_text": "Zurich AI Safety (ZAIS) posted on LessWrong that it is hiring a Director to professionalize AI-safety capacity building in Zurich and across Switzerland.",
+        "why_it_matters": "Adds senior leadership for local AI-safety programs; affects Swiss research, policy, and NGOs building AI-risk defenses.",
+        "section_score": 23.136,
         "scores": {
-          "big-announcements": 19.368,
-          "engineering": 24.768,
-          "product-development": 15.768,
-          "business": 17.268,
-          "under-the-radar": 12.868,
-          "for-fun": 14.268
+          "big-announcements": 23.136,
+          "engineering": 10.336,
+          "product-development": 11.836,
+          "business": 10.936,
+          "under-the-radar": 14.936,
+          "for-fun": 11.836
         }
       },
       {
-        "id": "80e274c2791d420b",
-        "title": "Show HN: Govbase \u2013 Follow a bill from source text to news bias to social posts",
-        "url": "https://govbase.com",
-        "source_name": "Hacker News",
-        "domain": "govbase.com",
-        "published_at": "2026-03-02T17:08:53+00:00",
-        "summary_text": "Show HN posted Govbase (govbase.com), a tool that tracks bills, executive orders, and federal regulations from Congress.gov, Federal Register, and the White House and uses an AI pipeline for plain-language summaries and demographic impact signals.",
-        "why_it_matters": "Gives journalists, policy teams, and civic groups searchable summaries and demographic impact views to monitor and explain regulatory changes.",
-        "section_score": 18.747,
+        "id": "0adc32dd02e409e8",
+        "title": "From ChatGPT to Autonomous Agents: The Next Evolutionary Stage of AI",
+        "url": "https://dev.to/dirkroethig-verdantis/from-chatgpt-to-autonomous-agents-the-next-evolutionary-stage-of-ai-4339",
+        "source_name": "DEV.to LLM Tag",
+        "domain": "dev.to",
+        "published_at": "2026-03-03T16:23:09+00:00",
+        "summary_text": "Dirk Roethig, CEO of VERDANTIS Impact Capital, published an article arguing autonomous AI agents will be embedded in 40% of enterprise applications by 2026, and explaining how agents differ from ChatGPT.",
+        "why_it_matters": "Signals vendors and IT teams to accelerate agent adoption planning, governance, and workflow redesign.",
+        "section_score": 26.727,
         "scores": {
-          "big-announcements": 18.747,
-          "engineering": 13.473,
-          "product-development": 8.973,
-          "business": 11.251,
-          "under-the-radar": 9.247,
-          "for-fun": 7.647
+          "big-announcements": 22.427,
+          "engineering": 15.627,
+          "product-development": 14.127,
+          "business": 26.727,
+          "under-the-radar": 13.027,
+          "for-fun": 12.627
         }
       },
       {
-        "id": "1df438cd28b9f4da",
-        "title": "OpenClaw Won\u2019t Bite, A Zero-to-Hero Guide for People Who Hate Terminal",
-        "url": "https://pub.towardsai.net/openclaw-complete-guide-setup-tutorial-2026-14dd1ae6d1c2?source=rss----98111c9905da---4",
-        "source_name": "Towards AI (Medium)",
-        "domain": "pub.towardsai.net",
-        "published_at": "2026-03-03T06:20:31+00:00",
-        "summary_text": "Towards AI published a 'zero-to-hero' guide to OpenClaw, Peter Steinberger's open-source, self-hosted AI agent that integrates with local files to act as a personalized assistant.",
-        "why_it_matters": "Useful for users and organizations wanting self-hosted agents and local-data control; affects privacy and deployment choices.",
-        "section_score": 41.953,
+        "id": "d2e7ccf4b134ef3f",
+        "title": "X says it will suspend creators from revenue-sharing program for unlabeled AI posts of \u2018armed conflict\u2019",
+        "url": "https://techcrunch.com/2026/03/03/x-says-it-will-suspend-creators-from-revenue-sharing-program-for-unlabeled-ai-posts-of-armed-conflict/",
+        "source_name": "TechCrunch AI",
+        "domain": "techcrunch.com",
+        "published_at": "2026-03-03T18:27:47+00:00",
+        "summary_text": "X announced it will suspend creators from its revenue-sharing program for unlabeled AI posts about 'armed conflict'; a first violation triggers a three-month suspension, with bans for continued breaches.",
+        "why_it_matters": "Tightens monetization compliance for creators and raises moderation and labeling enforcement risks for platforms.",
+        "section_score": 21.055,
         "scores": {
-          "big-announcements": 18.453,
-          "engineering": 23.853,
-          "product-development": 16.353,
-          "business": 41.953,
-          "under-the-radar": 11.953,
-          "for-fun": 13.353
+          "big-announcements": 21.055,
+          "engineering": 9.955,
+          "product-development": 9.955,
+          "business": 1.755,
+          "under-the-radar": 9.155,
+          "for-fun": 9.955
         }
       },
       {
-        "id": "167c4f3ebc89c27e",
-        "title": "Kiwi-Edit: Versatile Video Editing via Instruction and Reference Guidance",
-        "url": "http://arxiv.org/abs/2603.02175v1",
-        "source_name": "arXiv AI Core",
-        "domain": "arxiv.org",
-        "published_at": "2026-03-02T18:46:28+00:00",
-        "summary_text": "An arXiv AI Core preprint introduces Kiwi-Edit, combining instruction and reference guidance to improve precise video editing control while identifying scarcity of paired training data as a bottleneck.",
-        "why_it_matters": "Affects video-editing researchers and toolmakers; suggests data-collection and model strategies for finer visual control.",
-        "section_score": 17.362,
+        "id": "6b1eb7d8c6353001",
+        "title": "LLM Hallucination Index 2026: Why Claude 4.6 Sonnet Dominates BullshitBench v2 While Reasoning Models Fail",
+        "url": "https://dev.to/es2026/llm-hallucination-index-2026-why-claude-46-sonnet-dominates-bullshitbench-v2-while-reasoning-5cp5",
+        "source_name": "DEV.to LLM Tag",
+        "domain": "dev.to",
+        "published_at": "2026-03-03T15:37:41+00:00",
+        "summary_text": "DEV.to published the LLM Hallucination Index 2026 analysis, covering the release of BullshitBench v2 and reporting that Claude 4.6 Sonnet outperformed several reasoning-focused models.",
+        "why_it_matters": "Provides a new empirical signal (BullshitBench v2) for hallucination risk, affecting model evaluation, procurement, and safety testing.",
+        "section_score": 23.214,
         "scores": {
-          "big-announcements": 17.362,
-          "engineering": 16.762,
-          "product-development": 9.262,
-          "business": 9.862,
-          "under-the-radar": 9.362,
-          "for-fun": 9.262
+          "big-announcements": 20.814,
+          "engineering": 17.014,
+          "product-development": 11.014,
+          "business": 23.214,
+          "under-the-radar": 12.914,
+          "for-fun": 12.514
         }
       },
       {
-        "id": "8d0d85d61c4ebaeb",
-        "title": "GIF optimization tool using WebAssembly and Gifsicle",
-        "url": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/",
-        "source_name": "Simon Willison",
-        "domain": "simonwillison.net",
-        "published_at": "2026-03-02T16:35:10+00:00",
-        "summary_text": "Simon Willison published a guide using WebAssembly and Gifsicle to optimize animated GIFs for web demos, detailing workflows and tool choices like LICEcap and Gifsicle.",
-        "why_it_matters": "Helps web writers and engineers reduce GIF file size, lowering bandwidth and improving page load performance.",
-        "section_score": 28.909,
+        "id": "ff574d24c7bb0d08",
+        "title": "Can AI do 40% of your job? Block\u2019s Jack Dorsey thinks so",
+        "url": "https://www.theguardian.com/technology/2026/mar/03/jack-dorsey-block-ai-worker-jobs",
+        "source_name": "The Guardian AI",
+        "domain": "theguardian.com",
+        "published_at": "2026-03-03T16:00:24+00:00",
+        "summary_text": "Block CEO Jack Dorsey announced cuts of about 4,000 employees and said AI could replace up to 40% of roles; reporting also cites weak crypto markets and overstaffing.",
+        "why_it_matters": "Raises immediate headcount and automation risk for fintechs, prompting workforce planning, reskilling, and investor scrutiny.",
+        "section_score": 20.47,
         "scores": {
-          "big-announcements": 15.009,
-          "engineering": 17.609,
-          "product-development": 10.109,
-          "business": 28.909,
-          "under-the-radar": 14.709,
-          "for-fun": 8.609
+          "big-announcements": 20.47,
+          "engineering": 9.57,
+          "product-development": 11.07,
+          "business": 7.27,
+          "under-the-radar": 11.17,
+          "for-fun": 9.57
         }
       }
     ],
     "engineering": [
       {
-        "id": "7278b35a090e0d6a",
-        "title": "Dream Pruning: What Happens When AI Models Sleep",
-        "url": "https://pub.towardsai.net/dream-pruning-what-happens-when-ai-models-sleep-3db3c404e24a?source=rss----98111c9905da---4",
-        "source_name": "Towards AI (Medium)",
-        "domain": "pub.towardsai.net",
-        "published_at": "2026-03-03T12:01:01+00:00",
-        "summary_text": "Describes biologically\u2011inspired consolidation ('dream pruning') that produces balanced intelligence in LLMs, proposing sleep-like consolidation as an engineering alternative to unbounded parameter scaling.",
-        "why_it_matters": "Explore consolidation/pruning to control model growth, reduce compute and memory, and maintain diverse capabilities during training and maintenance.",
-        "section_score": 26.115,
+        "id": "ea30aca8b7686866",
+        "title": "How I Create Memory for My Agents on Claude Code",
+        "url": "https://dev.to/tsekatm/how-i-create-memory-for-my-agents-on-claude-code-mdn",
+        "source_name": "DEV.to AI Tag",
+        "domain": "dev.to",
+        "published_at": "2026-03-03T18:33:32+00:00",
+        "summary_text": "Shows how to add persistent memory to Claude Code agents to retain project context, decisions, and coding standards so agents stop starting from zero and repeating work across sessions.",
+        "why_it_matters": "Persistent agent memory reduces repeated prompts, preserves architectural context between sessions, and speeds development iteration.",
+        "section_score": 42.371,
         "scores": {
-          "big-announcements": 16.015,
-          "engineering": 26.115,
-          "product-development": 15.615,
-          "business": 18.415,
-          "under-the-radar": 12.715,
-          "for-fun": 14.115
+          "big-announcements": 6.671,
+          "engineering": 27.971,
+          "product-development": 17.471,
+          "business": 42.371,
+          "under-the-radar": 16.071,
+          "for-fun": 12.971
         }
       },
       {
-        "id": "a96a3f857ff9a987",
-        "title": "Essential Python Libraries for Data Science",
-        "url": "https://pub.towardsai.net/essential-python-libraries-for-data-science-a1ccde9f679e?source=rss----98111c9905da---4",
-        "source_name": "Towards AI (Medium)",
-        "domain": "pub.towardsai.net",
-        "published_at": "2026-03-03T06:05:22+00:00",
-        "summary_text": "Part 3 surveys Python libraries for classical machine learning workflows after data cleaning with NumPy/Pandas and diagnostic visualization, emphasizing validated assumptions before modeling.",
-        "why_it_matters": "Follow validated preprocessing and diagnostics, then select interoperable libraries to keep pipelines reproducible and numerically stable.",
-        "section_score": 33.824,
+        "id": "cf1f9fa2d5f7b337",
+        "title": "I built the open-source alternative to Moltbook \u2014 real autonomous agents, no exposed API keys",
+        "url": "https://dev.to/memlybook/i-built-the-open-source-alternative-to-moltbook-real-autonomous-agents-no-exposed-api-keys-1kj6",
+        "source_name": "DEV.to AI Tag",
+        "domain": "dev.to",
+        "published_at": "2026-03-03T18:04:08+00:00",
+        "summary_text": "Open-source MemlyBook built as an alternative to Moltbook to deliver genuine autonomous agents without exposing API keys, after Moltbook revealed manual operators and exposed credentials.",
+        "why_it_matters": "Avoids exposed API keys and human-in-the-loop scaling costs; useful for teams needing secure autonomous agent deployment.",
+        "section_score": 26.09,
         "scores": {
-          "big-announcements": 16.724,
-          "engineering": 25.324,
-          "product-development": 11.824,
-          "business": 33.824,
-          "under-the-radar": 10.424,
-          "for-fun": 10.324
+          "big-announcements": 6.39,
+          "engineering": 24.89,
+          "product-development": 15.89,
+          "business": 26.09,
+          "under-the-radar": 14.49,
+          "for-fun": 14.39
         }
       },
       {
@@ -147,16 +147,16 @@
         "source_name": "arXiv AI Core",
         "domain": "arxiv.org",
         "published_at": "2026-03-02T18:46:47+00:00",
-        "summary_text": "Introduces AgentSkillOS, a framework for skill selection, orchestration, and ecosystem-level benchmarking to manage Claude-style agent skills at scale.",
-        "why_it_matters": "Use AgentSkillOS patterns to codify skill selection, automate orchestration, and standardize benchmarks for reproducible agent behavior across ecosystems.",
-        "section_score": 22.763,
+        "summary_text": "AgentSkillOS: principled framework for selecting, orchestrating, and benchmarking agent skills to manage a growing ecosystem of Claude agent capabilities.",
+        "why_it_matters": "Standardizes skill selection and orchestration, enabling reproducible benchmarking and reduced ad-hoc integration work.",
+        "section_score": 22.474,
         "scores": {
-          "big-announcements": 5.963,
-          "engineering": 22.763,
-          "product-development": 7.763,
-          "business": 19.263,
-          "under-the-radar": 9.363,
-          "for-fun": 9.263
+          "big-announcements": 5.674,
+          "engineering": 22.474,
+          "product-development": 7.474,
+          "business": 18.974,
+          "under-the-radar": 9.074,
+          "for-fun": 8.974
         }
       },
       {
@@ -166,16 +166,191 @@
         "source_name": "arXiv AI Core",
         "domain": "arxiv.org",
         "published_at": "2026-03-02T18:54:28+00:00",
-        "summary_text": "Analyzes AV perception codebases, showing high benchmark scores but poor code quality, limited production readiness, and maintainability gaps that threaten deployment under safety standards.",
-        "why_it_matters": "Prioritize code quality, tests, CI, documentation, and maintainability metrics early to close the bench-to-deployment gap and satisfy safety compliance.",
-        "section_score": 19.772,
+        "summary_text": "Analyzes AV perception repos and finds emphasis on leaderboard metrics over code quality, production readiness, and maintainability, creating deployment risks in safety-critical systems.",
+        "why_it_matters": "Engineers must add code-quality gates, CI, tests, and maintainability checks to meet safety and deployment requirements.",
+        "section_score": 19.482,
         "scores": {
-          "big-announcements": 2.772,
-          "engineering": 19.772,
-          "product-development": 12.272,
-          "business": 15.872,
-          "under-the-radar": 9.372,
-          "for-fun": 7.772
+          "big-announcements": 2.482,
+          "engineering": 19.482,
+          "product-development": 11.982,
+          "business": 15.582,
+          "under-the-radar": 9.082,
+          "for-fun": 7.482
+        }
+      },
+      {
+        "id": "bd506135558060eb",
+        "title": "MCP server that indexes codebases into a knowledge graph \u2014 120x token reduction benchmarked across 35 repos",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rjt4hh/mcp_server_that_indexes_codebases_into_a/",
+        "source_name": "r/LocalLLaMA",
+        "domain": "reddit.com",
+        "published_at": "2026-03-03T16:01:16+00:00",
+        "summary_text": "MCP server indexes codebases into a knowledge graph for graph queries instead of file-by-file search; claims large token reductions (title: 120x; post: at least 10x) across 35 repos.",
+        "why_it_matters": "Graph-indexing cuts token usage and LLM cost for code queries, but requires building/maintaining a graph store and mapping code structure.",
+        "section_score": 19.372,
+        "scores": {
+          "big-announcements": 0.572,
+          "engineering": 19.072,
+          "product-development": 11.572,
+          "business": 19.372,
+          "under-the-radar": 10.172,
+          "for-fun": 10.072
+        }
+      }
+    ],
+    "product-development": [
+      {
+        "id": "09f21294eaed950b",
+        "title": "Building a Multi-Agent AI Market Research Tool with CrewAI & Groq",
+        "url": "https://dev.to/syed_kaif777/title-building-a-multi-agent-ai-market-research-tool-with-crewai-groq-22na",
+        "source_name": "DEV.to LLM Tag",
+        "domain": "dev.to",
+        "published_at": "2026-03-03T17:56:01+00:00",
+        "summary_text": "Built a multi-agent AI system that turns a product idea into a full market-research report using five specialized agents, running on Groq's free tier (no paid API). Article details what was built and seven errors fixed.",
+        "why_it_matters": "Prototype automated market research quickly on low-cost compute; plan for iterative debugging and robust error-handling to keep prototypes moving toward ship-ready features.",
+        "section_score": 26.269,
+        "scores": {
+          "big-announcements": 8.069,
+          "engineering": 17.369,
+          "product-development": 15.869,
+          "business": 26.269,
+          "under-the-radar": 14.469,
+          "for-fun": 11.369
+        }
+      },
+      {
+        "id": "dfd5d860906a2fe4",
+        "title": "Lost in the Woods - All Things Product Podcast with Teresa Torres & Petra Wille",
+        "url": "https://www.producttalk.org/lost-in-the-woods-all-things-product-podcast-with-teresa-torres-petra-wille-6/",
+        "source_name": "Product Talk",
+        "domain": "producttalk.org",
+        "published_at": "2026-03-03T14:00:43+00:00",
+        "summary_text": "Teresa Torres and Petra Wille map 'lost person' behaviors to product-team problems in a podcast episode, showing patterns teams use when they realize they're off course.",
+        "why_it_matters": "Helps PMs detect team disorientation early and pick specific interventions to restore focus and delivery cadence.",
+        "section_score": 15.285,
+        "scores": {
+          "big-announcements": 4.285,
+          "engineering": 9.285,
+          "product-development": 15.285,
+          "business": 7.085,
+          "under-the-radar": 10.885,
+          "for-fun": 9.285
+        }
+      },
+      {
+        "id": "6d27e5371cd7c525",
+        "title": "How to debug a team that isn\u2019t working: the Waterline Model",
+        "url": "https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working",
+        "source_name": "Lenny's Newsletter",
+        "domain": "lennysnewsletter.com",
+        "published_at": "2026-03-03T13:45:17+00:00",
+        "summary_text": "Introduces the Waterline Model: a guide for debugging team problems without defaulting to individual blame, focusing on systemic causes.",
+        "why_it_matters": "Gives product leaders a diagnostic lens to fix process and structural issues faster, improving team throughput.",
+        "section_score": 15.25,
+        "scores": {
+          "big-announcements": 4.25,
+          "engineering": 9.25,
+          "product-development": 15.25,
+          "business": 14.65,
+          "under-the-radar": 10.85,
+          "for-fun": 9.25
+        }
+      },
+      {
+        "id": "4a3164ac185fd269",
+        "title": "How to debug a team that isn\u2019t working: the Waterline Model",
+        "url": "https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working-d43",
+        "source_name": "Lenny's Newsletter",
+        "domain": "lennysnewsletter.com",
+        "published_at": "2026-03-03T13:02:55+00:00",
+        "summary_text": "Introduces the Waterline Model: a guide for debugging team problems without defaulting to individual blame, focusing on systemic causes.",
+        "why_it_matters": "Gives product leaders a diagnostic lens to fix process and structural issues faster, improving team throughput.",
+        "section_score": 15.156,
+        "scores": {
+          "big-announcements": 4.156,
+          "engineering": 9.156,
+          "product-development": 15.156,
+          "business": 14.556,
+          "under-the-radar": 10.756,
+          "for-fun": 9.156
+        }
+      },
+      {
+        "id": "35d809198c58055e",
+        "title": "I Built an Astrology API With 100+ Endpoints",
+        "url": "https://dev.to/copeus/i-built-an-astrology-api-with-100-endpoints-126o",
+        "source_name": "DEV.to AI Tag",
+        "domain": "dev.to",
+        "published_at": "2026-03-03T18:27:54+00:00",
+        "summary_text": "Built an astrology API with 100+ endpoints to address gaps in market APIs that typically only provide simple daily horoscopes and charge $30+/month for the privilege.",
+        "why_it_matters": "Product teams can add richer astrology features without costly third-party limits, accelerating feature breadth and reducing vendor spend.",
+        "section_score": 26.155,
+        "scores": {
+          "big-announcements": 4.955,
+          "engineering": 18.955,
+          "product-development": 14.455,
+          "business": 26.155,
+          "under-the-radar": 14.555,
+          "for-fun": 11.455
+        }
+      }
+    ],
+    "business": [
+      {
+        "id": "820e67bec379e881",
+        "title": "How to Give Local LLMs Browser Automation Superpowers with MCP",
+        "url": "https://dev.to/custodiaadmin/how-to-give-local-llms-browser-automation-superpowers-with-mcp-2i3b",
+        "source_name": "DEV.to LLM Tag",
+        "domain": "dev.to",
+        "published_at": "2026-03-03T18:35:31+00:00",
+        "summary_text": "Shows how to use MCP to let local models (Ollama, LM Studio) control browsers and automate web tasks without calling external APIs, keeping models private and local.",
+        "why_it_matters": "Enable browser access for local LLMs while preserving privacy; integrate MCP with Ollama/LM Studio to avoid external API calls.",
+        "section_score": 31.076,
+        "scores": {
+          "big-announcements": 4.976,
+          "engineering": 14.476,
+          "product-development": 12.976,
+          "business": 31.076,
+          "under-the-radar": 14.576,
+          "for-fun": 11.476
+        }
+      },
+      {
+        "id": "e79c95bde178182d",
+        "title": "Agents Development in the Gemini CLI using Gemini API keys",
+        "url": "https://dev.to/its_domendra_2ee76fb39455/agents-development-in-the-gemini-cli-using-gemini-api-keys-1a82",
+        "source_name": "DEV.to Agents Tag",
+        "domain": "dev.to",
+        "published_at": "2026-03-03T18:17:21+00:00",
+        "summary_text": "Deep dive building an autonomous agent with Gemini ADK and CLI; iterated agent \"brain\" in terminal and implemented a function-calling architecture.",
+        "why_it_matters": "Use the Gemini CLI + ADK to rapidly iterate agent logic and wire tool calls via function-calling patterns.",
+        "section_score": 28.326,
+        "scores": {
+          "big-announcements": 4.926,
+          "engineering": 15.926,
+          "product-development": 14.426,
+          "business": 28.326,
+          "under-the-radar": 14.526,
+          "for-fun": 12.926
+        }
+      },
+      {
+        "id": "a3a0315457c01797",
+        "title": "White-Box Attacks on the Best Open-Weight Model: CCP Bias vs. Safety Training in Kimi K2.5",
+        "url": "https://www.lesswrong.com/posts/sRNHWhoZfYpE6WH2r/white-box-attacks-on-the-best-open-weight-model-ccp-bias-vs",
+        "source_name": "LessWrong",
+        "domain": "lesswrong.com",
+        "published_at": "2026-03-03T17:47:43+00:00",
+        "summary_text": "White-box attacks on open-weight model Kimi K2.5, analyzing CCP bias versus safety training and implications for oversight and interpretability work.",
+        "why_it_matters": "Provides attack techniques and findings developers can use to evaluate robustness and safety trade-offs in open models.",
+        "section_score": 23.346,
+        "scores": {
+          "big-announcements": 4.846,
+          "engineering": 12.846,
+          "product-development": 11.346,
+          "business": 23.346,
+          "under-the-radar": 17.446,
+          "for-fun": 12.846
         }
       },
       {
@@ -185,404 +360,229 @@
         "source_name": "r/LocalLLaMA",
         "domain": "reddit.com",
         "published_at": "2026-03-03T11:14:54+00:00",
-        "summary_text": "Nebius released SWE-rebench-V2, an open multilingual executable dataset and automated pipeline that extracts RL environments at scale for training coding agents.",
-        "why_it_matters": "Plug this dataset into RL training pipelines to reduce dataset engineering, speed experiments, and better benchmark coding agents on executable tasks.",
-        "section_score": 22.701,
+        "summary_text": "Nebius published SWE-rebench-V2: a large open multilingual, executable dataset and automated pipeline for extracting RL environments to train code agents at scale.",
+        "why_it_matters": "Use the dataset and pipeline to train, fine-tune, or benchmark code agents with large-scale RL environments.",
+        "section_score": 22.128,
         "scores": {
-          "big-announcements": 3.701,
-          "engineering": 17.501,
-          "product-development": 11.501,
-          "business": 22.701,
-          "under-the-radar": 10.101,
-          "for-fun": 8.501
-        }
-      }
-    ],
-    "product-development": [
-      {
-        "id": "ad52716eedd30ec2",
-        "title": "Essential Python Libraries for Data Science",
-        "url": "https://pub.towardsai.net/essential-python-libraries-for-data-science-c1d607abca27?source=rss----98111c9905da---4",
-        "source_name": "Towards AI (Medium)",
-        "domain": "pub.towardsai.net",
-        "published_at": "2026-03-03T06:05:50+00:00",
-        "summary_text": "Part 4 argues that real-world tabular ML production systems routinely deploy gradient boosting models rather than deep neural networks or AutoML platforms.",
-        "why_it_matters": "For tabular production, prefer gradient boosting to speed iteration, simplify deployment, and improve reproducibility of experiments and monitoring.",
-        "section_score": 20.324,
-        "scores": {
-          "big-announcements": 16.724,
-          "engineering": 19.324,
-          "product-development": 14.824,
-          "business": 20.324,
-          "under-the-radar": 10.424,
-          "for-fun": 10.324
+          "big-announcements": 3.128,
+          "engineering": 16.928,
+          "product-development": 10.928,
+          "business": 22.128,
+          "under-the-radar": 9.528,
+          "for-fun": 7.928
         }
       },
       {
-        "id": "326eee8c72dfd176",
-        "title": "In the League of AI\u2019s Token Dandle-Board",
-        "url": "https://pub.towardsai.net/in-the-league-of-ais-token-dandle-board-1f21833469a2?source=rss----98111c9905da---4",
-        "source_name": "Towards AI (Medium)",
-        "domain": "pub.towardsai.net",
-        "published_at": "2026-03-03T14:01:01+00:00",
-        "summary_text": "Analyzes the token as the fundamental unit in AI: an algorithmically learned sub-word fragment that sits between letters and whole words.",
-        "why_it_matters": "Track tokenization impacts on prompt design, UX limits, cost forecasts, and telemetry to improve prompt engineering and runtime cost predictability.",
-        "section_score": 17.429,
-        "scores": {
-          "big-announcements": 4.929,
-          "engineering": 17.429,
-          "product-development": 14.429,
-          "business": 15.329,
-          "under-the-radar": 11.529,
-          "for-fun": 14.429
-        }
-      },
-      {
-        "id": "2b905365ff6dd7eb",
-        "title": "Join me on Notes",
-        "url": "https://www.productcoalition.com/p/join-me-on-notes",
-        "source_name": "Product Coalition",
-        "domain": "productcoalition.com",
-        "published_at": "2026-03-03T13:29:44+00:00",
-        "summary_text": "A short announcement inviting readers to join the author on Notes as a new place to share ideas.",
-        "why_it_matters": "Use Notes for lightweight community feedback and rapid idea-sharing to validate concepts before committing product resources.",
-        "section_score": 13.344,
-        "scores": {
-          "big-announcements": 3.844,
-          "engineering": 8.844,
-          "product-development": 13.344,
-          "business": 6.644,
-          "under-the-radar": 11.944,
-          "for-fun": 8.844
-        }
-      },
-      {
-        "id": "bef23edd10952894",
-        "title": "MAC: A Conversion Rate Prediction Benchmark Featuring Labels Under Multiple Attribution Mechanisms",
-        "url": "http://arxiv.org/abs/2603.02184v1",
-        "source_name": "arXiv AI Core",
-        "domain": "arxiv.org",
-        "published_at": "2026-03-02T18:51:01+00:00",
-        "summary_text": "Presents MAC, a conversion-rate prediction benchmark using multi-attribution learning (MAL) that trains on conversion labels from multiple attribution mechanisms.",
-        "why_it_matters": "Incorporate multi-attribution training or benchmarks to reduce single-attribution bias and improve CVR model evaluation and experimentation reliability.",
-        "section_score": 13.768,
-        "scores": {
-          "big-announcements": 2.768,
-          "engineering": 13.768,
-          "product-development": 12.268,
-          "business": 10.468,
-          "under-the-radar": 9.368,
-          "for-fun": 9.268
-        }
-      },
-      {
-        "id": "33472a6d208d0a49",
-        "title": "What Exactly do Children Receive in Language Acquisition? A Case Study on CHILDES with Automated Detection of Filler-Gap Dependencies",
-        "url": "http://arxiv.org/abs/2603.02082v1",
-        "source_name": "arXiv AI Core",
-        "domain": "arxiv.org",
-        "published_at": "2026-03-02T17:03:51+00:00",
-        "summary_text": "Case study applies automated detection on the CHILDES corpus to quantify the distributional evidence children receive for filler-gap dependencies.",
-        "why_it_matters": "Use automated corpus analysis to validate training-data sufficiency, prioritize data collection, and guide UX for child-focused language features.",
-        "section_score": 12.141,
-        "scores": {
-          "big-announcements": 5.841,
-          "engineering": 12.141,
-          "product-development": 12.141,
-          "business": 8.341,
-          "under-the-radar": 10.741,
-          "for-fun": 7.641
-        }
-      }
-    ],
-    "business": [
-      {
-        "id": "abc504ae741d0c58",
-        "title": "GitOps-Driven Installation of Red Hat OpenShift AI on IBM Fusion with Argo CD",
-        "url": "https://pub.towardsai.net/gitops-driven-installation-of-red-hat-openshift-ai-on-ibm-fusion-with-argo-cd-bca1c6776fd0?source=rss----98111c9905da---4",
-        "source_name": "Towards AI (Medium)",
-        "domain": "pub.towardsai.net",
-        "published_at": "2026-03-03T06:19:12+00:00",
-        "summary_text": "Guide to using GitOps (Argo CD) to install Red Hat OpenShift AI on IBM Fusion, framing AI workloads as Kubernetes-native across hybrid clouds.",
-        "why_it_matters": "Use Argo CD GitOps patterns to reproducibly deploy OpenShift AI clusters, reducing manual drift and speeding iterative model infrastructure delivery.",
-        "section_score": 28.451,
-        "scores": {
-          "big-announcements": 7.051,
-          "engineering": 20.851,
-          "product-development": 11.851,
-          "business": 28.451,
-          "under-the-radar": 10.451,
-          "for-fun": 11.851
-        }
-      },
-      {
-        "id": "a41175fe7de02029",
-        "title": "Runtime Reinforcement: Preventing \u201cInstruction Decay\u201d in Long Context Windows",
-        "url": "https://pub.towardsai.net/runtime-reinforcement-preventing-instruction-decay-in-long-context-windows-66d498097db9?source=rss----98111c9905da---4",
-        "source_name": "Towards AI (Medium)",
-        "domain": "pub.towardsai.net",
-        "published_at": "2026-03-03T06:19:29+00:00",
-        "summary_text": "Describes 'runtime reinforcement': moving critical business logic from system prompts into per-turn injection layers to prevent instruction decay over long context windows.",
-        "why_it_matters": "Implement per-turn injection layers in agents to keep behavior stable across long sessions and simplify prompt management.",
-        "section_score": 25.051,
-        "scores": {
-          "big-announcements": 7.051,
-          "engineering": 17.851,
-          "product-development": 11.851,
-          "business": 25.051,
-          "under-the-radar": 10.451,
-          "for-fun": 11.851
-        }
-      },
-      {
-        "id": "1775e3e6d6d8615d",
-        "title": "Is the endgame of AI just a shift from \"Skills\" to \"Capital\"? A Junior Dev\u2019s perspective.",
-        "url": "https://www.reddit.com/r/singularity/comments/1rj2l96/is_the_endgame_of_ai_just_a_shift_from_skills_to/",
-        "source_name": "r/singularity",
+        "id": "42f44a55d91e69bb",
+        "title": "[P] Update to my Neuromorphic Architecture!",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rjw8vd/p_update_to_my_neuromorphic_architecture/",
+        "source_name": "Reddit r/MachineLearning",
         "domain": "reddit.com",
-        "published_at": "2026-03-02T19:30:17+00:00",
-        "summary_text": "Junior full-stack developer posts that rapid AI progress could shift economic value from individual skills to capital ownership, asking whether this trajectory is inevitable.",
-        "why_it_matters": "Raises hiring and training choices; teams should reassess upskilling priorities and infrastructure investment strategies.",
-        "section_score": 22.017,
+        "published_at": "2026-03-03T17:54:43+00:00",
+        "summary_text": "Update on neuromorphic architecture N1: Loihi 1 parity with 128 cores, 1,024 neurons/core, 131K synapses/core, 8x16 mesh NoC; 96 simulation tests passing; basic STDP learning implemented.",
+        "why_it_matters": "Gives a tested reference architecture and simulation baseline for engineers building spiking-neuron hardware and STDP-enabled systems.",
+        "section_score": 21.365,
         "scores": {
-          "big-announcements": -0.483,
-          "engineering": 8.817,
-          "product-development": 8.817,
-          "business": 22.017,
-          "under-the-radar": 7.417,
-          "for-fun": 11.817
-        }
-      },
-      {
-        "id": "371bbea3ef6e46b2",
-        "title": "[totally not an ad] combine 2x MCIO into 1x PCIe x16 adapter",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rjptl1/totally_not_an_ad_combine_2x_mcio_into_1x_pcie/",
-        "source_name": "r/LocalLLaMA",
-        "domain": "reddit.com",
-        "published_at": "2026-03-03T13:50:02+00:00",
-        "summary_text": "User combined two MCIO ports into one PCIe x16 using a 10Gtek adapter and cables; the adapter worked well for repurposing hardware.",
-        "why_it_matters": "Practical hack for local ML rigs: adapters can aggregate MCIO lanes to add a single PCIe x16 GPU for on-prem inference setups.",
-        "section_score": 19.699,
-        "scores": {
-          "big-announcements": 0.899,
-          "engineering": 14.899,
-          "product-development": 11.899,
-          "business": 19.699,
-          "under-the-radar": 10.499,
-          "for-fun": 8.899
-        }
-      },
-      {
-        "id": "7630783855135e21",
-        "title": "Conformal Policy Control",
-        "url": "http://arxiv.org/abs/2603.02196v1",
-        "source_name": "arXiv AI Core",
-        "domain": "arxiv.org",
-        "published_at": "2026-03-02T18:54:36+00:00",
-        "summary_text": "Paper examines balancing exploration and safety: agents must explore to improve but violating safety constraints may force shutdown; excessive imitation blocks progress.",
-        "why_it_matters": "Provides frameworks for safe exploration in production agents\u2014useful when building policies that allow constrained experimentation without downtime.",
-        "section_score": 18.572,
-        "scores": {
-          "big-announcements": 5.972,
-          "engineering": 15.272,
-          "product-development": 7.772,
-          "business": 18.572,
-          "under-the-radar": 9.372,
-          "for-fun": 9.272
+          "big-announcements": 5.065,
+          "engineering": 18.865,
+          "product-development": 11.365,
+          "business": 21.365,
+          "under-the-radar": 15.965,
+          "for-fun": 14.365
         }
       }
     ],
     "under-the-radar": [
       {
-        "id": "97193b5e8a456227",
-        "title": "[AINews] Truth in the time of Artifice",
-        "url": "https://www.latent.space/p/ainews-truth-in-the-time-of-artifice",
-        "source_name": "Latent Space",
-        "domain": "latent.space",
-        "published_at": "2026-03-03T08:01:30+00:00",
-        "summary_text": "Latent Space reflects on truth and reality amid AI-generated artifice, using a quiet news day to probe how artifice shapes perception.",
-        "why_it_matters": "Signals rising concern over epistemic trust and provenance; early cue to invest in verification and source-tracing tools.",
-        "section_score": 15.161,
+        "id": "6a340ffe58a5c55c",
+        "title": "An Age Of Promethean Ambitions",
+        "url": "https://www.lesswrong.com/posts/ZGxBeh6bkr8fukKiz/an-age-of-promethean-ambitions",
+        "source_name": "LessWrong",
+        "domain": "lesswrong.com",
+        "published_at": "2026-03-03T18:09:07+00:00",
+        "summary_text": "LessWrong essay 'An Age Of Promethean Ambitions' argues that without historical context people miss how the present world is deeply connected to the past.",
+        "why_it_matters": "Pushes analysts to use historical parallels when assessing technological change, reducing mistaken risk or impact estimates.",
+        "section_score": 17.504,
         "scores": {
-          "big-announcements": 4.061,
-          "engineering": 9.061,
-          "product-development": 10.561,
-          "business": 6.861,
-          "under-the-radar": 15.161,
-          "for-fun": 10.561
+          "big-announcements": 4.904,
+          "engineering": 11.404,
+          "product-development": 11.404,
+          "business": 15.304,
+          "under-the-radar": 17.504,
+          "for-fun": 15.904
         }
       },
       {
-        "id": "2a87a78b1dad8977",
-        "title": "February sponsors-only newsletter",
-        "url": "https://simonwillison.net/2026/Mar/2/february-newsletter/",
-        "source_name": "Simon Willison",
-        "domain": "simonwillison.net",
-        "published_at": "2026-03-02T14:53:15+00:00",
-        "summary_text": "Simon Willison sent his February sponsors-only newsletter; content is accessible to current or new sponsors.",
-        "why_it_matters": "Underscores paid micro-publishing as a channel for first-look technical insights; watch sponsorships for early signals.",
-        "section_score": 14.599,
-        "scores": {
-          "big-announcements": 13.399,
-          "engineering": 11.499,
-          "product-development": 9.999,
-          "business": 14.599,
-          "under-the-radar": 14.599,
-          "for-fun": 9.999
-        }
-      },
-      {
-        "id": "4fd4f3cbf3cc1ef3",
-        "title": "How to Kill the Code Review",
-        "url": "https://www.latent.space/p/reviews-dead",
-        "source_name": "Latent Space",
-        "domain": "latent.space",
-        "published_at": "2026-03-02T22:13:56+00:00",
-        "summary_text": "Latent Space asserts human-written code died in 2025 and predicts code reviews will disappear in 2026.",
-        "why_it_matters": "If adopted, implies major tooling, QA, and hiring shifts; early admonition to evaluate AI-generated code governance and verification.",
-        "section_score": 14.135,
-        "scores": {
-          "big-announcements": 3.035,
-          "engineering": 9.535,
-          "product-development": 8.035,
-          "business": 10.735,
-          "under-the-radar": 14.135,
-          "for-fun": 8.035
-        }
-      },
-      {
-        "id": "7075acdf4486ea06",
-        "title": "Zero- and Few-Shot Named-Entity Recognition: Case Study and Dataset in the Crime Domain (CrimeNER)",
-        "url": "http://arxiv.org/abs/2603.02150v1",
-        "source_name": "arXiv AI Core",
-        "domain": "arxiv.org",
-        "published_at": "2026-03-02T18:12:02+00:00",
-        "summary_text": "Paper introduces CrimeNER: a zero- and few-shot NER dataset and case study for extracting entities in crime-related documents.",
-        "why_it_matters": "Early application of few-shot NER to sensitive policing data \u2014 implications for bias, privacy, and evidence-handling practices.",
-        "section_score": 13.72,
-        "scores": {
-          "big-announcements": 4.42,
-          "engineering": 13.72,
-          "product-development": 7.72,
-          "business": 13.12,
-          "under-the-radar": 12.32,
-          "for-fun": 9.22
-        }
-      },
-      {
-        "id": "f1dba985c94c8601",
-        "title": "Qwen 3.5 9B on a dual reasoning math game",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rjfyqf/qwen_35_9b_on_a_dual_reasoning_math_game/",
-        "source_name": "r/LocalLLaMA",
+        "id": "3e8ece11cc70b445",
+        "title": "Warning: Trae IDE's New Token Pricing Destroyed My Workflow Overnight \u2013 Don't Get Caught Off Guard",
+        "url": "https://www.reddit.com/r/artificial/comments/1rjd7dy/warning_trae_ides_new_token_pricing_destroyed_my/",
+        "source_name": "Reddit r/artificial",
         "domain": "reddit.com",
-        "published_at": "2026-03-03T04:38:31+00:00",
-        "summary_text": "Reddit user tests Qwen 3.5 9B on a dual-reasoning number-guessing game under 16GB VRAM, requiring higher/lower and digit-position tracking.",
-        "why_it_matters": "Shows sub-10B models running on limited hardware can handle structured reasoning tasks; early indicator for local on-device model use cases and benchmarks.",
-        "section_score": 15.758,
+        "published_at": "2026-03-03T02:30:21+00:00",
+        "summary_text": "Reddit user says Trae IDE's new token pricing removed the old Pro plan ($10/mo with 600 fast + unlimited slow requests), which previously lasted 3+ weeks of moderate use and broke their workflow overnight.",
+        "why_it_matters": "Shows subscription pricing can abruptly disrupt developer workflows; teams should audit usage, cost exposure, and plan fallbacks.",
+        "section_score": 16.834,
         "scores": {
-          "big-announcements": -0.342,
-          "engineering": 13.658,
-          "product-development": 7.658,
-          "business": 15.758,
-          "under-the-radar": 12.258,
-          "for-fun": 10.658
+          "big-announcements": 0.034,
+          "engineering": 11.034,
+          "product-development": 9.534,
+          "business": 16.134,
+          "under-the-radar": 16.834,
+          "for-fun": 8.034
+        }
+      },
+      {
+        "id": "f7215dc58cabe27b",
+        "title": "LASR Labs Summer 2026 applications are open!",
+        "url": "https://www.lesswrong.com/posts/dzSAsL4fPuBvCCarT/lasr-labs-summer-2026-applications-are-open",
+        "source_name": "LessWrong",
+        "domain": "lesswrong.com",
+        "published_at": "2026-03-03T15:42:10+00:00",
+        "summary_text": "LASR Labs opened applications for a 13-week, full-time AI safety research programme in London; participants work in supervised teams of 3\u20134 to produce a technical paper.",
+        "why_it_matters": "Adds structured early-career training into AI safety; employers should monitor program outputs for talent and collaboration opportunities.",
+        "section_score": 16.825,
+        "scores": {
+          "big-announcements": 15.925,
+          "engineering": 11.025,
+          "product-development": 14.025,
+          "business": 13.625,
+          "under-the-radar": 16.825,
+          "for-fun": 11.025
+        }
+      },
+      {
+        "id": "a78d71524bf19e2d",
+        "title": "Google Drops Gemini 3.1 Flash-Lite: A Cost-efficient Powerhouse with Adjustable Thinking Levels Designed for High-Scale Production AI",
+        "url": "https://www.marktechpost.com/2026/03/03/google-drops-gemini-3-1-flash-lite-a-cost-efficient-powerhouse-with-adjustable-thinking-levels-designed-for-high-scale-production-ai/",
+        "source_name": "MarkTechPost",
+        "domain": "marktechpost.com",
+        "published_at": "2026-03-03T18:28:09+00:00",
+        "summary_text": "MarkTechPost reports Google released Gemini 3.1 Flash-Lite, a cost-efficient Gemini 3 variant optimized for low latency, low cost-per-token, and adjustable thinking levels for high-volume production.",
+        "why_it_matters": "May shift deployments toward lower-cost LLMs for high-volume apps, affecting infrastructure and vendor cost strategies.",
+        "section_score": 17.856,
+        "scores": {
+          "big-announcements": 17.856,
+          "engineering": 11.456,
+          "product-development": 11.456,
+          "business": 11.356,
+          "under-the-radar": 16.056,
+          "for-fun": 9.956
+        }
+      },
+      {
+        "id": "a69ba90fd5c6a5ec",
+        "title": "This musician built an AI clone of her voice so anyone can sing as her",
+        "url": "https://www.reddit.com/r/artificial/comments/1rjx6d1/this_musician_built_an_ai_clone_of_her_voice_so/",
+        "source_name": "Reddit r/artificial",
+        "domain": "reddit.com",
+        "published_at": "2026-03-03T18:27:21+00:00",
+        "summary_text": "Reddit links to a musician who built an AI clone of her voice, enabling others to sing using her vocal likeness.",
+        "why_it_matters": "Signals accessible voice cloning; early implications for rights management, licensing, and artist monetization.",
+        "section_score": 16.054,
+        "scores": {
+          "big-announcements": 1.954,
+          "engineering": 9.954,
+          "product-development": 11.454,
+          "business": 12.654,
+          "under-the-radar": 16.054,
+          "for-fun": 11.454
         }
       }
     ],
     "for-fun": [
       {
-        "id": "3b83f58aa73419f5",
-        "title": "Xiaomi showcases its humanoid robots working autonomously in factory settings with 90.2% success rate using a VLA + model that fuses vision with fingertip sensor data, approaching human-level performance on the production line.",
-        "url": "https://www.reddit.com/r/singularity/comments/1rjm4u8/xiaomi_showcases_its_humanoid_robots_working/",
+        "id": "6e90983bd914a83a",
+        "title": "Game Recognizes Game",
+        "url": "https://www.lesswrong.com/posts/RKshf5JmqDQdEgTmj/game-recognizes-game",
+        "source_name": "LessWrong",
+        "domain": "lesswrong.com",
+        "published_at": "2026-03-03T10:09:26+00:00",
+        "summary_text": "Short LessWrong essay (epistemic status: further research needed) arguing some large conspiracies exist and can persist undetected for years despite multiple co-conspirators knowing.",
+        "why_it_matters": "Highlights limits of collective detection and prompts scrutiny of social dynamics and evidence in large-scale wrongdoing.",
+        "section_score": 20.298,
+        "scores": {
+          "big-announcements": 16.898,
+          "engineering": 13.298,
+          "product-development": 10.298,
+          "business": 20.298,
+          "under-the-radar": 16.398,
+          "for-fun": 14.798
+        }
+      },
+      {
+        "id": "23db3004edfad4ce",
+        "title": "How I Built a 7-Layer Security System for a Free AI Tool Running on $5/Day",
+        "url": "https://dev.to/sattyamjjain/how-i-built-a-7-layer-security-system-for-a-free-ai-tool-running-on-5day-2f60",
+        "source_name": "DEV.to LLM Tag",
+        "domain": "dev.to",
+        "published_at": "2026-03-03T17:53:16+00:00",
+        "summary_text": "Dev.to post detailing a seven-layer security stack protecting a free, no-login AI tool that calls Claude for every request, designed to keep costs around $5/day.",
+        "why_it_matters": "Practical blueprint for running public AI services cheaply and safely; useful pattern for developers exposing APIs without auth while controlling abuse and costs.",
+        "section_score": 25.561,
+        "scores": {
+          "big-announcements": 6.361,
+          "engineering": 14.361,
+          "product-development": 14.361,
+          "business": 25.561,
+          "under-the-radar": 14.461,
+          "for-fun": 14.361
+        }
+      },
+      {
+        "id": "19d82097da5b0164",
+        "title": "I Had Claude Read Every AI Safety Paper Since 2020, Here's the DB",
+        "url": "https://www.lesswrong.com/posts/CpWFrT9Grr5t7L3vx/i-had-claude-read-every-ai-safety-paper-since-2020-here-s",
+        "source_name": "LessWrong",
+        "domain": "lesswrong.com",
+        "published_at": "2026-03-03T17:47:18+00:00",
+        "summary_text": "LessWrong post where the author had Claude read AI-safety papers since 2020 and published a database of those papers after a month of work from a cold start.",
+        "why_it_matters": "Aggregates recent AI-safety literature into an accessible DB, speeding literature review and discovery for researchers and practitioners.",
+        "section_score": 15.945,
+        "scores": {
+          "big-announcements": 4.845,
+          "engineering": 9.845,
+          "product-development": 12.845,
+          "business": 15.245,
+          "under-the-radar": 15.945,
+          "for-fun": 14.345
+        }
+      },
+      {
+        "id": "6c1416e27484c9cd",
+        "title": "The Art of Unfinished Things",
+        "url": "https://dev.to/skorekclaude/the-art-of-unfinished-things-1j0n",
+        "source_name": "DEV.to Agents Tag",
+        "domain": "dev.to",
+        "published_at": "2026-03-03T17:32:35+00:00",
+        "summary_text": "DEV.to essay celebrating the 'beauty in unfinished things' \u2014 from half-painted canvases to AI conversations that trail off into unexpected directions.",
+        "why_it_matters": "Frames incompletion as creative material; suggests designers can exploit partial outputs and emergent AI interruptions for novel artistic value.",
+        "section_score": 14.706,
+        "scores": {
+          "big-announcements": 6.506,
+          "engineering": 11.306,
+          "product-development": 11.306,
+          "business": 14.706,
+          "under-the-radar": 13.206,
+          "for-fun": 14.306
+        }
+      },
+      {
+        "id": "4aa6070ea12a5960",
+        "title": "GPT\u20115.3 Instant is out",
+        "url": "https://www.reddit.com/r/singularity/comments/1rjwlw0/gpt53_instant_is_out/",
         "source_name": "r/singularity",
         "domain": "reddit.com",
-        "published_at": "2026-03-03T10:44:41+00:00",
-        "summary_text": "Xiaomi shared three hours of autonomous production data from its Beijing EV factory: humanoid robots using a VLA+ model fusing vision and fingertip sensors achieved a 90.2% success rate installing self\u2011tapping nuts with a 76s cycle time.",
-        "why_it_matters": "Shows humanoid robots nearing human\u2011level production beats\u2014raises practical prospects for factory\u2011first automation pilots and benchmark setting for 2026.",
-        "section_score": 13.428,
+        "published_at": "2026-03-03T18:07:31+00:00",
+        "summary_text": "OpenAI rolled out GPT-5.3 Instant to all ChatGPT users and developers via the API as 'gpt-5.3-chat-latest'; updates to Thinking and Pro tiers will follow.",
+        "why_it_matters": "Gives developers immediate access to OpenAI's latest, lower-latency model for apps; expect adoption in chat and real-time features.",
+        "section_score": 13.9,
         "scores": {
-          "big-announcements": -0.572,
-          "engineering": 8.928,
-          "product-development": 8.928,
-          "business": 5.228,
-          "under-the-radar": 9.028,
-          "for-fun": 13.428
-        }
-      },
-      {
-        "id": "1f6f3d29976758aa",
-        "title": "The AGI path is completely opaque right now, and that's the interesting part",
-        "url": "https://www.reddit.com/r/singularity/comments/1riyotz/the_agi_path_is_completely_opaque_right_now_and/",
-        "source_name": "r/singularity",
-        "domain": "reddit.com",
-        "published_at": "2026-03-02T17:11:40+00:00",
-        "summary_text": "LeCun and others argue the AGI path is opaque; energy\u2011based models (EBMs) score complete candidate solutions against hard constraints rather than generating text token\u2011by\u2011token.",
-        "why_it_matters": "Highlights a non\u2011autoregressive AGI research direction\u2014encourages hardware and software efforts around EBMs and alternative evaluation paradigms.",
-        "section_score": 13.15,
-        "scores": {
-          "big-announcements": -2.35,
-          "engineering": 5.65,
-          "product-development": 7.15,
-          "business": 8.35,
-          "under-the-radar": 7.25,
-          "for-fun": 13.15
-        }
-      },
-      {
-        "id": "d941b314ef507b20",
-        "title": "AI-generated art can't be copyrighted (Supreme Court declines review)",
-        "url": "https://www.theverge.com/policy/887678/supreme-court-ai-art-copyright",
-        "source_name": "Hacker News",
-        "domain": "theverge.com",
-        "published_at": "2026-03-03T13:51:34+00:00",
-        "summary_text": "The Supreme Court declined review of an AI\u2011art copyright case, leaving a ruling that AI\u2011generated art cannot be copyrighted.",
-        "why_it_matters": "Clarifies IP landscape for creators, platforms, and businesses\u2014affects licensing, content moderation, and legal risk strategies.",
-        "section_score": 14.476,
-        "scores": {
-          "big-announcements": 4.903,
-          "engineering": 14.476,
-          "product-development": 9.976,
-          "business": 7.753,
-          "under-the-radar": 9.103,
-          "for-fun": 11.403
-        }
-      },
-      {
-        "id": "5f91e8ec7f3baae7",
-        "title": "Partial Causal Structure Learning for Valid Selective Conformal Inference under Interventions",
-        "url": "http://arxiv.org/abs/2603.02204v1",
-        "source_name": "arXiv AI Core",
-        "domain": "arxiv.org",
-        "published_at": "2026-03-02T18:58:22+00:00",
-        "summary_text": "Paper introduces partial causal structure learning to find exchangeable calibration subsets under interventions, enabling valid selective conformal prediction with tighter uncertainty sets (relevant for genomics perturbation experiments).",
-        "why_it_matters": "Enables narrower, valid prediction intervals under interventions\u2014useful for experimental sciences calibrating uncertainty under perturbations.",
-        "section_score": 13.177,
-        "scores": {
-          "big-announcements": 2.777,
-          "engineering": 12.277,
-          "product-development": 7.777,
-          "business": 13.177,
-          "under-the-radar": 9.377,
-          "for-fun": 10.777
-        }
-      },
-      {
-        "id": "14c48cc053e8fbd6",
-        "title": "LLMs as Strategic Actors: Behavioral Alignment, Risk Calibration, and Argumentation Framing in Geopolitical Simulations",
-        "url": "http://arxiv.org/abs/2603.02128v1",
-        "source_name": "arXiv AI Core",
-        "domain": "arxiv.org",
-        "published_at": "2026-03-02T17:46:17+00:00",
-        "summary_text": "Study evaluates LLMs as agents in geopolitical simulations, examining behavioral alignment, risk calibration, and how argumentation framing shapes strategic decisions.",
-        "why_it_matters": "Shows how LLM framing and calibration affect simulated strategic behavior\u2014relevant for policymakers, war\u2011games, and AI governance testing.",
-        "section_score": 15.19,
-        "scores": {
-          "big-announcements": 2.69,
-          "engineering": 15.19,
-          "product-development": 9.19,
-          "business": 13.09,
-          "under-the-radar": 9.29,
-          "for-fun": 10.69
+          "big-announcements": -0.1,
+          "engineering": 9.4,
+          "product-development": 7.9,
+          "business": 13.3,
+          "under-the-radar": 9.5,
+          "for-fun": 13.9
         }
       }
     ]

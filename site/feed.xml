@@ -4,63 +4,63 @@
     <title>Daily AI Feed - 2026-03-03</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across industry announcements, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Tue, 03 Mar 2026 14:30:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 18:47:19 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>The LLM Speed Hack Nobody Is Talking About</title>
-      <link>https://pub.towardsai.net/the-llm-speed-hack-nobody-is-talking-about-0e07f3876d25?source=rss----98111c9905da---4</link>
-      <guid isPermaLink="true">https://pub.towardsai.net/the-llm-speed-hack-nobody-is-talking-about-0e07f3876d25?source=rss----98111c9905da---4</guid>
-      <pubDate>Tue, 03 Mar 2026 13:01:02 +0000</pubDate>
+      <title>Zurich AI Safety is hiring a Director</title>
+      <link>https://www.lesswrong.com/posts/dXQZygs3MpckSQyQt/zurich-ai-safety-is-hiring-a-director</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/dXQZygs3MpckSQyQt/zurich-ai-safety-is-hiring-a-director</guid>
+      <pubDate>Tue, 03 Mar 2026 10:29:02 +0000</pubDate>
       <category>0) Big Announcements</category>
-      <description>Published by Towards AI (Medium), an essay recounts how a fast-typing habit became insufficient once LLM latency entered the workflow and explores methods to speed LLM interaction. Why it matters: Helps writers and knowledge workers reduce friction and latency when using LLMs; improves productivity and responsiveness.</description>
+      <description>Zurich AI Safety (ZAIS) posted on LessWrong that it is hiring a Director to professionalize AI-safety capacity building in Zurich and across Switzerland. Why it matters: Adds senior leadership for local AI-safety programs; affects Swiss research, policy, and NGOs building AI-risk defenses.</description>
     </item>
     <item>
-      <title>Show HN: Govbase – Follow a bill from source text to news bias to social posts</title>
-      <link>https://govbase.com</link>
-      <guid isPermaLink="true">https://govbase.com</guid>
-      <pubDate>Mon, 02 Mar 2026 17:08:53 +0000</pubDate>
+      <title>From ChatGPT to Autonomous Agents: The Next Evolutionary Stage of AI</title>
+      <link>https://dev.to/dirkroethig-verdantis/from-chatgpt-to-autonomous-agents-the-next-evolutionary-stage-of-ai-4339</link>
+      <guid isPermaLink="true">https://dev.to/dirkroethig-verdantis/from-chatgpt-to-autonomous-agents-the-next-evolutionary-stage-of-ai-4339</guid>
+      <pubDate>Tue, 03 Mar 2026 16:23:09 +0000</pubDate>
       <category>0) Big Announcements</category>
-      <description>Show HN posted Govbase (govbase.com), a tool that tracks bills, executive orders, and federal regulations from Congress.gov, Federal Register, and the White House and uses an AI pipeline for plain-language summaries and demographic impact signals. Why it matters: Gives journalists, policy teams, and civic groups searchable summaries and demographic impact views to monitor and explain regulatory changes.</description>
+      <description>Dirk Roethig, CEO of VERDANTIS Impact Capital, published an article arguing autonomous AI agents will be embedded in 40% of enterprise applications by 2026, and explaining how agents differ from ChatGPT. Why it matters: Signals vendors and IT teams to accelerate agent adoption planning, governance, and workflow redesign.</description>
     </item>
     <item>
-      <title>OpenClaw Won’t Bite, A Zero-to-Hero Guide for People Who Hate Terminal</title>
-      <link>https://pub.towardsai.net/openclaw-complete-guide-setup-tutorial-2026-14dd1ae6d1c2?source=rss----98111c9905da---4</link>
-      <guid isPermaLink="true">https://pub.towardsai.net/openclaw-complete-guide-setup-tutorial-2026-14dd1ae6d1c2?source=rss----98111c9905da---4</guid>
-      <pubDate>Tue, 03 Mar 2026 06:20:31 +0000</pubDate>
+      <title>X says it will suspend creators from revenue-sharing program for unlabeled AI posts of ‘armed conflict’</title>
+      <link>https://techcrunch.com/2026/03/03/x-says-it-will-suspend-creators-from-revenue-sharing-program-for-unlabeled-ai-posts-of-armed-conflict/</link>
+      <guid isPermaLink="true">https://techcrunch.com/2026/03/03/x-says-it-will-suspend-creators-from-revenue-sharing-program-for-unlabeled-ai-posts-of-armed-conflict/</guid>
+      <pubDate>Tue, 03 Mar 2026 18:27:47 +0000</pubDate>
       <category>0) Big Announcements</category>
-      <description>Towards AI published a &#x27;zero-to-hero&#x27; guide to OpenClaw, Peter Steinberger&#x27;s open-source, self-hosted AI agent that integrates with local files to act as a personalized assistant. Why it matters: Useful for users and organizations wanting self-hosted agents and local-data control; affects privacy and deployment choices.</description>
+      <description>X announced it will suspend creators from its revenue-sharing program for unlabeled AI posts about &#x27;armed conflict&#x27;; a first violation triggers a three-month suspension, with bans for continued breaches. Why it matters: Tightens monetization compliance for creators and raises moderation and labeling enforcement risks for platforms.</description>
     </item>
     <item>
-      <title>Kiwi-Edit: Versatile Video Editing via Instruction and Reference Guidance</title>
-      <link>http://arxiv.org/abs/2603.02175v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2603.02175v1</guid>
-      <pubDate>Mon, 02 Mar 2026 18:46:28 +0000</pubDate>
+      <title>LLM Hallucination Index 2026: Why Claude 4.6 Sonnet Dominates BullshitBench v2 While Reasoning Models Fail</title>
+      <link>https://dev.to/es2026/llm-hallucination-index-2026-why-claude-46-sonnet-dominates-bullshitbench-v2-while-reasoning-5cp5</link>
+      <guid isPermaLink="true">https://dev.to/es2026/llm-hallucination-index-2026-why-claude-46-sonnet-dominates-bullshitbench-v2-while-reasoning-5cp5</guid>
+      <pubDate>Tue, 03 Mar 2026 15:37:41 +0000</pubDate>
       <category>0) Big Announcements</category>
-      <description>An arXiv AI Core preprint introduces Kiwi-Edit, combining instruction and reference guidance to improve precise video editing control while identifying scarcity of paired training data as a bottleneck. Why it matters: Affects video-editing researchers and toolmakers; suggests data-collection and model strategies for finer visual control.</description>
+      <description>DEV.to published the LLM Hallucination Index 2026 analysis, covering the release of BullshitBench v2 and reporting that Claude 4.6 Sonnet outperformed several reasoning-focused models. Why it matters: Provides a new empirical signal (BullshitBench v2) for hallucination risk, affecting model evaluation, procurement, and safety testing.</description>
     </item>
     <item>
-      <title>GIF optimization tool using WebAssembly and Gifsicle</title>
-      <link>https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/</link>
-      <guid isPermaLink="true">https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/</guid>
-      <pubDate>Mon, 02 Mar 2026 16:35:10 +0000</pubDate>
+      <title>Can AI do 40% of your job? Block’s Jack Dorsey thinks so</title>
+      <link>https://www.theguardian.com/technology/2026/mar/03/jack-dorsey-block-ai-worker-jobs</link>
+      <guid isPermaLink="true">https://www.theguardian.com/technology/2026/mar/03/jack-dorsey-block-ai-worker-jobs</guid>
+      <pubDate>Tue, 03 Mar 2026 16:00:24 +0000</pubDate>
       <category>0) Big Announcements</category>
-      <description>Simon Willison published a guide using WebAssembly and Gifsicle to optimize animated GIFs for web demos, detailing workflows and tool choices like LICEcap and Gifsicle. Why it matters: Helps web writers and engineers reduce GIF file size, lowering bandwidth and improving page load performance.</description>
+      <description>Block CEO Jack Dorsey announced cuts of about 4,000 employees and said AI could replace up to 40% of roles; reporting also cites weak crypto markets and overstaffing. Why it matters: Raises immediate headcount and automation risk for fintechs, prompting workforce planning, reskilling, and investor scrutiny.</description>
     </item>
     <item>
-      <title>Dream Pruning: What Happens When AI Models Sleep</title>
-      <link>https://pub.towardsai.net/dream-pruning-what-happens-when-ai-models-sleep-3db3c404e24a?source=rss----98111c9905da---4</link>
-      <guid isPermaLink="true">https://pub.towardsai.net/dream-pruning-what-happens-when-ai-models-sleep-3db3c404e24a?source=rss----98111c9905da---4</guid>
-      <pubDate>Tue, 03 Mar 2026 12:01:01 +0000</pubDate>
+      <title>How I Create Memory for My Agents on Claude Code</title>
+      <link>https://dev.to/tsekatm/how-i-create-memory-for-my-agents-on-claude-code-mdn</link>
+      <guid isPermaLink="true">https://dev.to/tsekatm/how-i-create-memory-for-my-agents-on-claude-code-mdn</guid>
+      <pubDate>Tue, 03 Mar 2026 18:33:32 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Describes biologically‑inspired consolidation (&#x27;dream pruning&#x27;) that produces balanced intelligence in LLMs, proposing sleep-like consolidation as an engineering alternative to unbounded parameter scaling. Why it matters: Explore consolidation/pruning to control model growth, reduce compute and memory, and maintain diverse capabilities during training and maintenance.</description>
+      <description>Shows how to add persistent memory to Claude Code agents to retain project context, decisions, and coding standards so agents stop starting from zero and repeating work across sessions. Why it matters: Persistent agent memory reduces repeated prompts, preserves architectural context between sessions, and speeds development iteration.</description>
     </item>
     <item>
-      <title>Essential Python Libraries for Data Science</title>
-      <link>https://pub.towardsai.net/essential-python-libraries-for-data-science-a1ccde9f679e?source=rss----98111c9905da---4</link>
-      <guid isPermaLink="true">https://pub.towardsai.net/essential-python-libraries-for-data-science-a1ccde9f679e?source=rss----98111c9905da---4</guid>
-      <pubDate>Tue, 03 Mar 2026 06:05:22 +0000</pubDate>
+      <title>I built the open-source alternative to Moltbook — real autonomous agents, no exposed API keys</title>
+      <link>https://dev.to/memlybook/i-built-the-open-source-alternative-to-moltbook-real-autonomous-agents-no-exposed-api-keys-1kj6</link>
+      <guid isPermaLink="true">https://dev.to/memlybook/i-built-the-open-source-alternative-to-moltbook-real-autonomous-agents-no-exposed-api-keys-1kj6</guid>
+      <pubDate>Tue, 03 Mar 2026 18:04:08 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Part 3 surveys Python libraries for classical machine learning workflows after data cleaning with NumPy/Pandas and diagnostic visualization, emphasizing validated assumptions before modeling. Why it matters: Follow validated preprocessing and diagnostics, then select interoperable libraries to keep pipelines reproducible and numerically stable.</description>
+      <description>Open-source MemlyBook built as an alternative to Moltbook to deliver genuine autonomous agents without exposing API keys, after Moltbook revealed manual operators and exposed credentials. Why it matters: Avoids exposed API keys and human-in-the-loop scaling costs; useful for teams needing secure autonomous agent deployment.</description>
     </item>
     <item>
       <title>Organizing, Orchestrating, and Benchmarking Agent Skills at Ecosystem Scale</title>
@@ -68,7 +68,7 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2603.02176v1</guid>
       <pubDate>Mon, 02 Mar 2026 18:46:47 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Introduces AgentSkillOS, a framework for skill selection, orchestration, and ecosystem-level benchmarking to manage Claude-style agent skills at scale. Why it matters: Use AgentSkillOS patterns to codify skill selection, automate orchestration, and standardize benchmarks for reproducible agent behavior across ecosystems.</description>
+      <description>AgentSkillOS: principled framework for selecting, orchestrating, and benchmarking agent skills to manage a growing ecosystem of Claude agent capabilities. Why it matters: Standardizes skill selection and orchestration, enabling reproducible benchmarking and reduced ad-hoc integration work.</description>
     </item>
     <item>
       <title>From Leaderboard to Deployment: Code Quality Challenges in AV Perception Repositories</title>
@@ -76,175 +76,175 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2603.02194v1</guid>
       <pubDate>Mon, 02 Mar 2026 18:54:28 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Analyzes AV perception codebases, showing high benchmark scores but poor code quality, limited production readiness, and maintainability gaps that threaten deployment under safety standards. Why it matters: Prioritize code quality, tests, CI, documentation, and maintainability metrics early to close the bench-to-deployment gap and satisfy safety compliance.</description>
+      <description>Analyzes AV perception repos and finds emphasis on leaderboard metrics over code quality, production readiness, and maintainability, creating deployment risks in safety-critical systems. Why it matters: Engineers must add code-quality gates, CI, tests, and maintainability checks to meet safety and deployment requirements.</description>
+    </item>
+    <item>
+      <title>MCP server that indexes codebases into a knowledge graph — 120x token reduction benchmarked across 35 repos</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1rjt4hh/mcp_server_that_indexes_codebases_into_a/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1rjt4hh/mcp_server_that_indexes_codebases_into_a/</guid>
+      <pubDate>Tue, 03 Mar 2026 16:01:16 +0000</pubDate>
+      <category>1) Engineering</category>
+      <description>MCP server indexes codebases into a knowledge graph for graph queries instead of file-by-file search; claims large token reductions (title: 120x; post: at least 10x) across 35 repos. Why it matters: Graph-indexing cuts token usage and LLM cost for code queries, but requires building/maintaining a graph store and mapping code structure.</description>
+    </item>
+    <item>
+      <title>Building a Multi-Agent AI Market Research Tool with CrewAI &amp; Groq</title>
+      <link>https://dev.to/syed_kaif777/title-building-a-multi-agent-ai-market-research-tool-with-crewai-groq-22na</link>
+      <guid isPermaLink="true">https://dev.to/syed_kaif777/title-building-a-multi-agent-ai-market-research-tool-with-crewai-groq-22na</guid>
+      <pubDate>Tue, 03 Mar 2026 17:56:01 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>Built a multi-agent AI system that turns a product idea into a full market-research report using five specialized agents, running on Groq&#x27;s free tier (no paid API). Article details what was built and seven errors fixed. Why it matters: Prototype automated market research quickly on low-cost compute; plan for iterative debugging and robust error-handling to keep prototypes moving toward ship-ready features.</description>
+    </item>
+    <item>
+      <title>Lost in the Woods - All Things Product Podcast with Teresa Torres &amp; Petra Wille</title>
+      <link>https://www.producttalk.org/lost-in-the-woods-all-things-product-podcast-with-teresa-torres-petra-wille-6/</link>
+      <guid isPermaLink="true">https://www.producttalk.org/lost-in-the-woods-all-things-product-podcast-with-teresa-torres-petra-wille-6/</guid>
+      <pubDate>Tue, 03 Mar 2026 14:00:43 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>Teresa Torres and Petra Wille map &#x27;lost person&#x27; behaviors to product-team problems in a podcast episode, showing patterns teams use when they realize they&#x27;re off course. Why it matters: Helps PMs detect team disorientation early and pick specific interventions to restore focus and delivery cadence.</description>
+    </item>
+    <item>
+      <title>How to debug a team that isn’t working: the Waterline Model</title>
+      <link>https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working</guid>
+      <pubDate>Tue, 03 Mar 2026 13:45:17 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>Introduces the Waterline Model: a guide for debugging team problems without defaulting to individual blame, focusing on systemic causes. Why it matters: Gives product leaders a diagnostic lens to fix process and structural issues faster, improving team throughput.</description>
+    </item>
+    <item>
+      <title>How to debug a team that isn’t working: the Waterline Model</title>
+      <link>https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working-d43</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working-d43</guid>
+      <pubDate>Tue, 03 Mar 2026 13:02:55 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>Introduces the Waterline Model: a guide for debugging team problems without defaulting to individual blame, focusing on systemic causes. Why it matters: Gives product leaders a diagnostic lens to fix process and structural issues faster, improving team throughput.</description>
+    </item>
+    <item>
+      <title>I Built an Astrology API With 100+ Endpoints</title>
+      <link>https://dev.to/copeus/i-built-an-astrology-api-with-100-endpoints-126o</link>
+      <guid isPermaLink="true">https://dev.to/copeus/i-built-an-astrology-api-with-100-endpoints-126o</guid>
+      <pubDate>Tue, 03 Mar 2026 18:27:54 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>Built an astrology API with 100+ endpoints to address gaps in market APIs that typically only provide simple daily horoscopes and charge $30+/month for the privilege. Why it matters: Product teams can add richer astrology features without costly third-party limits, accelerating feature breadth and reducing vendor spend.</description>
+    </item>
+    <item>
+      <title>How to Give Local LLMs Browser Automation Superpowers with MCP</title>
+      <link>https://dev.to/custodiaadmin/how-to-give-local-llms-browser-automation-superpowers-with-mcp-2i3b</link>
+      <guid isPermaLink="true">https://dev.to/custodiaadmin/how-to-give-local-llms-browser-automation-superpowers-with-mcp-2i3b</guid>
+      <pubDate>Tue, 03 Mar 2026 18:35:31 +0000</pubDate>
+      <category>3) Software Development</category>
+      <description>Shows how to use MCP to let local models (Ollama, LM Studio) control browsers and automate web tasks without calling external APIs, keeping models private and local. Why it matters: Enable browser access for local LLMs while preserving privacy; integrate MCP with Ollama/LM Studio to avoid external API calls.</description>
+    </item>
+    <item>
+      <title>Agents Development in the Gemini CLI using Gemini API keys</title>
+      <link>https://dev.to/its_domendra_2ee76fb39455/agents-development-in-the-gemini-cli-using-gemini-api-keys-1a82</link>
+      <guid isPermaLink="true">https://dev.to/its_domendra_2ee76fb39455/agents-development-in-the-gemini-cli-using-gemini-api-keys-1a82</guid>
+      <pubDate>Tue, 03 Mar 2026 18:17:21 +0000</pubDate>
+      <category>3) Software Development</category>
+      <description>Deep dive building an autonomous agent with Gemini ADK and CLI; iterated agent &quot;brain&quot; in terminal and implemented a function-calling architecture. Why it matters: Use the Gemini CLI + ADK to rapidly iterate agent logic and wire tool calls via function-calling patterns.</description>
+    </item>
+    <item>
+      <title>White-Box Attacks on the Best Open-Weight Model: CCP Bias vs. Safety Training in Kimi K2.5</title>
+      <link>https://www.lesswrong.com/posts/sRNHWhoZfYpE6WH2r/white-box-attacks-on-the-best-open-weight-model-ccp-bias-vs</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/sRNHWhoZfYpE6WH2r/white-box-attacks-on-the-best-open-weight-model-ccp-bias-vs</guid>
+      <pubDate>Tue, 03 Mar 2026 17:47:43 +0000</pubDate>
+      <category>3) Software Development</category>
+      <description>White-box attacks on open-weight model Kimi K2.5, analyzing CCP bias versus safety training and implications for oversight and interpretability work. Why it matters: Provides attack techniques and findings developers can use to evaluate robustness and safety trade-offs in open models.</description>
     </item>
     <item>
       <title>Meet SWE-rebench-V2: the largest open, multilingual, executable dataset for training code agents!</title>
       <link>https://www.reddit.com/r/LocalLLaMA/comments/1rjmnv4/meet_swerebenchv2_the_largest_open_multilingual/</link>
       <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1rjmnv4/meet_swerebenchv2_the_largest_open_multilingual/</guid>
       <pubDate>Tue, 03 Mar 2026 11:14:54 +0000</pubDate>
-      <category>1) Engineering</category>
-      <description>Nebius released SWE-rebench-V2, an open multilingual executable dataset and automated pipeline that extracts RL environments at scale for training coding agents. Why it matters: Plug this dataset into RL training pipelines to reduce dataset engineering, speed experiments, and better benchmark coding agents on executable tasks.</description>
-    </item>
-    <item>
-      <title>Essential Python Libraries for Data Science</title>
-      <link>https://pub.towardsai.net/essential-python-libraries-for-data-science-c1d607abca27?source=rss----98111c9905da---4</link>
-      <guid isPermaLink="true">https://pub.towardsai.net/essential-python-libraries-for-data-science-c1d607abca27?source=rss----98111c9905da---4</guid>
-      <pubDate>Tue, 03 Mar 2026 06:05:50 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>Part 4 argues that real-world tabular ML production systems routinely deploy gradient boosting models rather than deep neural networks or AutoML platforms. Why it matters: For tabular production, prefer gradient boosting to speed iteration, simplify deployment, and improve reproducibility of experiments and monitoring.</description>
-    </item>
-    <item>
-      <title>In the League of AI’s Token Dandle-Board</title>
-      <link>https://pub.towardsai.net/in-the-league-of-ais-token-dandle-board-1f21833469a2?source=rss----98111c9905da---4</link>
-      <guid isPermaLink="true">https://pub.towardsai.net/in-the-league-of-ais-token-dandle-board-1f21833469a2?source=rss----98111c9905da---4</guid>
-      <pubDate>Tue, 03 Mar 2026 14:01:01 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>Analyzes the token as the fundamental unit in AI: an algorithmically learned sub-word fragment that sits between letters and whole words. Why it matters: Track tokenization impacts on prompt design, UX limits, cost forecasts, and telemetry to improve prompt engineering and runtime cost predictability.</description>
-    </item>
-    <item>
-      <title>Join me on Notes</title>
-      <link>https://www.productcoalition.com/p/join-me-on-notes</link>
-      <guid isPermaLink="true">https://www.productcoalition.com/p/join-me-on-notes</guid>
-      <pubDate>Tue, 03 Mar 2026 13:29:44 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>A short announcement inviting readers to join the author on Notes as a new place to share ideas. Why it matters: Use Notes for lightweight community feedback and rapid idea-sharing to validate concepts before committing product resources.</description>
-    </item>
-    <item>
-      <title>MAC: A Conversion Rate Prediction Benchmark Featuring Labels Under Multiple Attribution Mechanisms</title>
-      <link>http://arxiv.org/abs/2603.02184v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2603.02184v1</guid>
-      <pubDate>Mon, 02 Mar 2026 18:51:01 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>Presents MAC, a conversion-rate prediction benchmark using multi-attribution learning (MAL) that trains on conversion labels from multiple attribution mechanisms. Why it matters: Incorporate multi-attribution training or benchmarks to reduce single-attribution bias and improve CVR model evaluation and experimentation reliability.</description>
-    </item>
-    <item>
-      <title>What Exactly do Children Receive in Language Acquisition? A Case Study on CHILDES with Automated Detection of Filler-Gap Dependencies</title>
-      <link>http://arxiv.org/abs/2603.02082v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2603.02082v1</guid>
-      <pubDate>Mon, 02 Mar 2026 17:03:51 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>Case study applies automated detection on the CHILDES corpus to quantify the distributional evidence children receive for filler-gap dependencies. Why it matters: Use automated corpus analysis to validate training-data sufficiency, prioritize data collection, and guide UX for child-focused language features.</description>
-    </item>
-    <item>
-      <title>GitOps-Driven Installation of Red Hat OpenShift AI on IBM Fusion with Argo CD</title>
-      <link>https://pub.towardsai.net/gitops-driven-installation-of-red-hat-openshift-ai-on-ibm-fusion-with-argo-cd-bca1c6776fd0?source=rss----98111c9905da---4</link>
-      <guid isPermaLink="true">https://pub.towardsai.net/gitops-driven-installation-of-red-hat-openshift-ai-on-ibm-fusion-with-argo-cd-bca1c6776fd0?source=rss----98111c9905da---4</guid>
-      <pubDate>Tue, 03 Mar 2026 06:19:12 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Guide to using GitOps (Argo CD) to install Red Hat OpenShift AI on IBM Fusion, framing AI workloads as Kubernetes-native across hybrid clouds. Why it matters: Use Argo CD GitOps patterns to reproducibly deploy OpenShift AI clusters, reducing manual drift and speeding iterative model infrastructure delivery.</description>
+      <description>Nebius published SWE-rebench-V2: a large open multilingual, executable dataset and automated pipeline for extracting RL environments to train code agents at scale. Why it matters: Use the dataset and pipeline to train, fine-tune, or benchmark code agents with large-scale RL environments.</description>
     </item>
     <item>
-      <title>Runtime Reinforcement: Preventing “Instruction Decay” in Long Context Windows</title>
-      <link>https://pub.towardsai.net/runtime-reinforcement-preventing-instruction-decay-in-long-context-windows-66d498097db9?source=rss----98111c9905da---4</link>
-      <guid isPermaLink="true">https://pub.towardsai.net/runtime-reinforcement-preventing-instruction-decay-in-long-context-windows-66d498097db9?source=rss----98111c9905da---4</guid>
-      <pubDate>Tue, 03 Mar 2026 06:19:29 +0000</pubDate>
+      <title>[P] Update to my Neuromorphic Architecture!</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1rjw8vd/p_update_to_my_neuromorphic_architecture/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1rjw8vd/p_update_to_my_neuromorphic_architecture/</guid>
+      <pubDate>Tue, 03 Mar 2026 17:54:43 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Describes &#x27;runtime reinforcement&#x27;: moving critical business logic from system prompts into per-turn injection layers to prevent instruction decay over long context windows. Why it matters: Implement per-turn injection layers in agents to keep behavior stable across long sessions and simplify prompt management.</description>
+      <description>Update on neuromorphic architecture N1: Loihi 1 parity with 128 cores, 1,024 neurons/core, 131K synapses/core, 8x16 mesh NoC; 96 simulation tests passing; basic STDP learning implemented. Why it matters: Gives a tested reference architecture and simulation baseline for engineers building spiking-neuron hardware and STDP-enabled systems.</description>
     </item>
     <item>
-      <title>Is the endgame of AI just a shift from &quot;Skills&quot; to &quot;Capital&quot;? A Junior Dev’s perspective.</title>
-      <link>https://www.reddit.com/r/singularity/comments/1rj2l96/is_the_endgame_of_ai_just_a_shift_from_skills_to/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rj2l96/is_the_endgame_of_ai_just_a_shift_from_skills_to/</guid>
-      <pubDate>Mon, 02 Mar 2026 19:30:17 +0000</pubDate>
-      <category>3) Software Development</category>
-      <description>Junior full-stack developer posts that rapid AI progress could shift economic value from individual skills to capital ownership, asking whether this trajectory is inevitable. Why it matters: Raises hiring and training choices; teams should reassess upskilling priorities and infrastructure investment strategies.</description>
-    </item>
-    <item>
-      <title>[totally not an ad] combine 2x MCIO into 1x PCIe x16 adapter</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1rjptl1/totally_not_an_ad_combine_2x_mcio_into_1x_pcie/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1rjptl1/totally_not_an_ad_combine_2x_mcio_into_1x_pcie/</guid>
-      <pubDate>Tue, 03 Mar 2026 13:50:02 +0000</pubDate>
-      <category>3) Software Development</category>
-      <description>User combined two MCIO ports into one PCIe x16 using a 10Gtek adapter and cables; the adapter worked well for repurposing hardware. Why it matters: Practical hack for local ML rigs: adapters can aggregate MCIO lanes to add a single PCIe x16 GPU for on-prem inference setups.</description>
-    </item>
-    <item>
-      <title>Conformal Policy Control</title>
-      <link>http://arxiv.org/abs/2603.02196v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2603.02196v1</guid>
-      <pubDate>Mon, 02 Mar 2026 18:54:36 +0000</pubDate>
-      <category>3) Software Development</category>
-      <description>Paper examines balancing exploration and safety: agents must explore to improve but violating safety constraints may force shutdown; excessive imitation blocks progress. Why it matters: Provides frameworks for safe exploration in production agents—useful when building policies that allow constrained experimentation without downtime.</description>
-    </item>
-    <item>
-      <title>[AINews] Truth in the time of Artifice</title>
-      <link>https://www.latent.space/p/ainews-truth-in-the-time-of-artifice</link>
-      <guid isPermaLink="true">https://www.latent.space/p/ainews-truth-in-the-time-of-artifice</guid>
-      <pubDate>Tue, 03 Mar 2026 08:01:30 +0000</pubDate>
+      <title>An Age Of Promethean Ambitions</title>
+      <link>https://www.lesswrong.com/posts/ZGxBeh6bkr8fukKiz/an-age-of-promethean-ambitions</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/ZGxBeh6bkr8fukKiz/an-age-of-promethean-ambitions</guid>
+      <pubDate>Tue, 03 Mar 2026 18:09:07 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Latent Space reflects on truth and reality amid AI-generated artifice, using a quiet news day to probe how artifice shapes perception. Why it matters: Signals rising concern over epistemic trust and provenance; early cue to invest in verification and source-tracing tools.</description>
+      <description>LessWrong essay &#x27;An Age Of Promethean Ambitions&#x27; argues that without historical context people miss how the present world is deeply connected to the past. Why it matters: Pushes analysts to use historical parallels when assessing technological change, reducing mistaken risk or impact estimates.</description>
     </item>
     <item>
-      <title>February sponsors-only newsletter</title>
-      <link>https://simonwillison.net/2026/Mar/2/february-newsletter/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Mar/2/february-newsletter/</guid>
-      <pubDate>Mon, 02 Mar 2026 14:53:15 +0000</pubDate>
+      <title>Warning: Trae IDE&#x27;s New Token Pricing Destroyed My Workflow Overnight – Don&#x27;t Get Caught Off Guard</title>
+      <link>https://www.reddit.com/r/artificial/comments/1rjd7dy/warning_trae_ides_new_token_pricing_destroyed_my/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/artificial/comments/1rjd7dy/warning_trae_ides_new_token_pricing_destroyed_my/</guid>
+      <pubDate>Tue, 03 Mar 2026 02:30:21 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Simon Willison sent his February sponsors-only newsletter; content is accessible to current or new sponsors. Why it matters: Underscores paid micro-publishing as a channel for first-look technical insights; watch sponsorships for early signals.</description>
+      <description>Reddit user says Trae IDE&#x27;s new token pricing removed the old Pro plan ($10/mo with 600 fast + unlimited slow requests), which previously lasted 3+ weeks of moderate use and broke their workflow overnight. Why it matters: Shows subscription pricing can abruptly disrupt developer workflows; teams should audit usage, cost exposure, and plan fallbacks.</description>
     </item>
     <item>
-      <title>How to Kill the Code Review</title>
-      <link>https://www.latent.space/p/reviews-dead</link>
-      <guid isPermaLink="true">https://www.latent.space/p/reviews-dead</guid>
-      <pubDate>Mon, 02 Mar 2026 22:13:56 +0000</pubDate>
+      <title>LASR Labs Summer 2026 applications are open!</title>
+      <link>https://www.lesswrong.com/posts/dzSAsL4fPuBvCCarT/lasr-labs-summer-2026-applications-are-open</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/dzSAsL4fPuBvCCarT/lasr-labs-summer-2026-applications-are-open</guid>
+      <pubDate>Tue, 03 Mar 2026 15:42:10 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Latent Space asserts human-written code died in 2025 and predicts code reviews will disappear in 2026. Why it matters: If adopted, implies major tooling, QA, and hiring shifts; early admonition to evaluate AI-generated code governance and verification.</description>
+      <description>LASR Labs opened applications for a 13-week, full-time AI safety research programme in London; participants work in supervised teams of 3–4 to produce a technical paper. Why it matters: Adds structured early-career training into AI safety; employers should monitor program outputs for talent and collaboration opportunities.</description>
     </item>
     <item>
-      <title>Zero- and Few-Shot Named-Entity Recognition: Case Study and Dataset in the Crime Domain (CrimeNER)</title>
-      <link>http://arxiv.org/abs/2603.02150v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2603.02150v1</guid>
-      <pubDate>Mon, 02 Mar 2026 18:12:02 +0000</pubDate>
+      <title>Google Drops Gemini 3.1 Flash-Lite: A Cost-efficient Powerhouse with Adjustable Thinking Levels Designed for High-Scale Production AI</title>
+      <link>https://www.marktechpost.com/2026/03/03/google-drops-gemini-3-1-flash-lite-a-cost-efficient-powerhouse-with-adjustable-thinking-levels-designed-for-high-scale-production-ai/</link>
+      <guid isPermaLink="true">https://www.marktechpost.com/2026/03/03/google-drops-gemini-3-1-flash-lite-a-cost-efficient-powerhouse-with-adjustable-thinking-levels-designed-for-high-scale-production-ai/</guid>
+      <pubDate>Tue, 03 Mar 2026 18:28:09 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Paper introduces CrimeNER: a zero- and few-shot NER dataset and case study for extracting entities in crime-related documents. Why it matters: Early application of few-shot NER to sensitive policing data — implications for bias, privacy, and evidence-handling practices.</description>
+      <description>MarkTechPost reports Google released Gemini 3.1 Flash-Lite, a cost-efficient Gemini 3 variant optimized for low latency, low cost-per-token, and adjustable thinking levels for high-volume production. Why it matters: May shift deployments toward lower-cost LLMs for high-volume apps, affecting infrastructure and vendor cost strategies.</description>
     </item>
     <item>
-      <title>Qwen 3.5 9B on a dual reasoning math game</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1rjfyqf/qwen_35_9b_on_a_dual_reasoning_math_game/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1rjfyqf/qwen_35_9b_on_a_dual_reasoning_math_game/</guid>
-      <pubDate>Tue, 03 Mar 2026 04:38:31 +0000</pubDate>
+      <title>This musician built an AI clone of her voice so anyone can sing as her</title>
+      <link>https://www.reddit.com/r/artificial/comments/1rjx6d1/this_musician_built_an_ai_clone_of_her_voice_so/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/artificial/comments/1rjx6d1/this_musician_built_an_ai_clone_of_her_voice_so/</guid>
+      <pubDate>Tue, 03 Mar 2026 18:27:21 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Reddit user tests Qwen 3.5 9B on a dual-reasoning number-guessing game under 16GB VRAM, requiring higher/lower and digit-position tracking. Why it matters: Shows sub-10B models running on limited hardware can handle structured reasoning tasks; early indicator for local on-device model use cases and benchmarks.</description>
+      <description>Reddit links to a musician who built an AI clone of her voice, enabling others to sing using her vocal likeness. Why it matters: Signals accessible voice cloning; early implications for rights management, licensing, and artist monetization.</description>
     </item>
     <item>
-      <title>Xiaomi showcases its humanoid robots working autonomously in factory settings with 90.2% success rate using a VLA + model that fuses vision with fingertip sensor data, approaching human-level performance on the production line.</title>
-      <link>https://www.reddit.com/r/singularity/comments/1rjm4u8/xiaomi_showcases_its_humanoid_robots_working/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rjm4u8/xiaomi_showcases_its_humanoid_robots_working/</guid>
-      <pubDate>Tue, 03 Mar 2026 10:44:41 +0000</pubDate>
+      <title>Game Recognizes Game</title>
+      <link>https://www.lesswrong.com/posts/RKshf5JmqDQdEgTmj/game-recognizes-game</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/RKshf5JmqDQdEgTmj/game-recognizes-game</guid>
+      <pubDate>Tue, 03 Mar 2026 10:09:26 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Xiaomi shared three hours of autonomous production data from its Beijing EV factory: humanoid robots using a VLA+ model fusing vision and fingertip sensors achieved a 90.2% success rate installing self‑tapping nuts with a 76s cycle time. Why it matters: Shows humanoid robots nearing human‑level production beats—raises practical prospects for factory‑first automation pilots and benchmark setting for 2026.</description>
+      <description>Short LessWrong essay (epistemic status: further research needed) arguing some large conspiracies exist and can persist undetected for years despite multiple co-conspirators knowing. Why it matters: Highlights limits of collective detection and prompts scrutiny of social dynamics and evidence in large-scale wrongdoing.</description>
     </item>
     <item>
-      <title>The AGI path is completely opaque right now, and that&#x27;s the interesting part</title>
-      <link>https://www.reddit.com/r/singularity/comments/1riyotz/the_agi_path_is_completely_opaque_right_now_and/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1riyotz/the_agi_path_is_completely_opaque_right_now_and/</guid>
-      <pubDate>Mon, 02 Mar 2026 17:11:40 +0000</pubDate>
+      <title>How I Built a 7-Layer Security System for a Free AI Tool Running on $5/Day</title>
+      <link>https://dev.to/sattyamjjain/how-i-built-a-7-layer-security-system-for-a-free-ai-tool-running-on-5day-2f60</link>
+      <guid isPermaLink="true">https://dev.to/sattyamjjain/how-i-built-a-7-layer-security-system-for-a-free-ai-tool-running-on-5day-2f60</guid>
+      <pubDate>Tue, 03 Mar 2026 17:53:16 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>LeCun and others argue the AGI path is opaque; energy‑based models (EBMs) score complete candidate solutions against hard constraints rather than generating text token‑by‑token. Why it matters: Highlights a non‑autoregressive AGI research direction—encourages hardware and software efforts around EBMs and alternative evaluation paradigms.</description>
+      <description>Dev.to post detailing a seven-layer security stack protecting a free, no-login AI tool that calls Claude for every request, designed to keep costs around $5/day. Why it matters: Practical blueprint for running public AI services cheaply and safely; useful pattern for developers exposing APIs without auth while controlling abuse and costs.</description>
     </item>
     <item>
-      <title>AI-generated art can&#x27;t be copyrighted (Supreme Court declines review)</title>
-      <link>https://www.theverge.com/policy/887678/supreme-court-ai-art-copyright</link>
-      <guid isPermaLink="true">https://www.theverge.com/policy/887678/supreme-court-ai-art-copyright</guid>
-      <pubDate>Tue, 03 Mar 2026 13:51:34 +0000</pubDate>
+      <title>I Had Claude Read Every AI Safety Paper Since 2020, Here&#x27;s the DB</title>
+      <link>https://www.lesswrong.com/posts/CpWFrT9Grr5t7L3vx/i-had-claude-read-every-ai-safety-paper-since-2020-here-s</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/CpWFrT9Grr5t7L3vx/i-had-claude-read-every-ai-safety-paper-since-2020-here-s</guid>
+      <pubDate>Tue, 03 Mar 2026 17:47:18 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>The Supreme Court declined review of an AI‑art copyright case, leaving a ruling that AI‑generated art cannot be copyrighted. Why it matters: Clarifies IP landscape for creators, platforms, and businesses—affects licensing, content moderation, and legal risk strategies.</description>
+      <description>LessWrong post where the author had Claude read AI-safety papers since 2020 and published a database of those papers after a month of work from a cold start. Why it matters: Aggregates recent AI-safety literature into an accessible DB, speeding literature review and discovery for researchers and practitioners.</description>
     </item>
     <item>
-      <title>Partial Causal Structure Learning for Valid Selective Conformal Inference under Interventions</title>
-      <link>http://arxiv.org/abs/2603.02204v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2603.02204v1</guid>
-      <pubDate>Mon, 02 Mar 2026 18:58:22 +0000</pubDate>
+      <title>The Art of Unfinished Things</title>
+      <link>https://dev.to/skorekclaude/the-art-of-unfinished-things-1j0n</link>
+      <guid isPermaLink="true">https://dev.to/skorekclaude/the-art-of-unfinished-things-1j0n</guid>
+      <pubDate>Tue, 03 Mar 2026 17:32:35 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Paper introduces partial causal structure learning to find exchangeable calibration subsets under interventions, enabling valid selective conformal prediction with tighter uncertainty sets (relevant for genomics perturbation experiments). Why it matters: Enables narrower, valid prediction intervals under interventions—useful for experimental sciences calibrating uncertainty under perturbations.</description>
+      <description>DEV.to essay celebrating the &#x27;beauty in unfinished things&#x27; — from half-painted canvases to AI conversations that trail off into unexpected directions. Why it matters: Frames incompletion as creative material; suggests designers can exploit partial outputs and emergent AI interruptions for novel artistic value.</description>
     </item>
     <item>
-      <title>LLMs as Strategic Actors: Behavioral Alignment, Risk Calibration, and Argumentation Framing in Geopolitical Simulations</title>
-      <link>http://arxiv.org/abs/2603.02128v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2603.02128v1</guid>
-      <pubDate>Mon, 02 Mar 2026 17:46:17 +0000</pubDate>
+      <title>GPT‑5.3 Instant is out</title>
+      <link>https://www.reddit.com/r/singularity/comments/1rjwlw0/gpt53_instant_is_out/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rjwlw0/gpt53_instant_is_out/</guid>
+      <pubDate>Tue, 03 Mar 2026 18:07:31 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Study evaluates LLMs as agents in geopolitical simulations, examining behavioral alignment, risk calibration, and how argumentation framing shapes strategic decisions. Why it matters: Shows how LLM framing and calibration affect simulated strategic behavior—relevant for policymakers, war‑games, and AI governance testing.</description>
+      <description>OpenAI rolled out GPT-5.3 Instant to all ChatGPT users and developers via the API as &#x27;gpt-5.3-chat-latest&#x27;; updates to Thinking and Pro tiers will follow. Why it matters: Gives developers immediate access to OpenAI&#x27;s latest, lower-latency model for apps; expect adoption in chat and real-time features.</description>
     </item>
   </channel>
 </rss>

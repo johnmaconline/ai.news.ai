@@ -80,6 +80,16 @@ Format:
 - https://www.reddit.com/r/artificial/.rss | name=Reddit r/artificial | section=under-the-radar | tags=under-the-radar,for-fun
 - https://www.reddit.com/r/ChatGPTCoding/.rss | name=Reddit r/ChatGPTCoding | section=business | tags=business,engineering,under-the-radar
 
+- https://blog.langchain.com/rss/ | name=LangChain Blog | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://www.normaltech.ai/feed | name=AI as Normal Technology | section=under-the-radar | tags=autodiscovered,under-the-radar | discovered=auto
+- https://jack-clark.net/feed/ | name=Import AI | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://news.microsoft.com/source/feed/ | name=Source | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://newsletter.danielpaleka.com/feed | name=Daniel Paleka's Newsletter | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://tonsky.me/atom.xml | name=tonsky.me | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://codingfox.net.pl/index.xml | name=CodingFox | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://futurism.com/feed | name=Futurism | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://www.svd.se/feed/articles.rss | name=SvD - Artiklar | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://gizmodo.com/feed | name=Gizmodo | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 ## 2. LinkedIN users
 
 - https://www.linkedin.com/in/emollick/ | name=Ethan Mollick | section=product-development | tags=product-development,under-the-radar,social
