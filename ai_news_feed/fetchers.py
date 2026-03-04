@@ -1286,6 +1286,98 @@ def _extract_text(value) -> str:
     return ''
 
 
+def _extract_x_source_username(source: dict) -> str:
+    username = _extract_x_username(str(source.get('username') or ''))
+    if username:
+        return username
+
+    query = str(source.get('query') or '').strip()
+    match = re.search(r'(?i)\bfrom:([A-Za-z0-9_]{1,15})\b', query)
+    if match:
+        return match.group(1)
+    return ''
+
+
+def _fetch_x_rss_fallback(source: dict, max_items: int) -> list[Article]:
+    if feedparser is None or requests is None:
+        return []
+
+    username = _extract_x_source_username(source)
+    if not username:
+        return []
+
+    candidate_urls: list[str] = []
+    explicit_rss_url = str(source.get('rss_url') or '').strip()
+    if explicit_rss_url:
+        candidate_urls.append(explicit_rss_url)
+    candidate_urls.extend(
+        [
+            f'https://nitter.net/{username}/rss',
+            f'https://nitter.poast.org/{username}/rss',
+            f'https://rsshub.app/twitter/user/{username}',
+        ]
+    )
+
+    deduped_urls: list[str] = []
+    seen_urls: set[str] = set()
+    for feed_url in candidate_urls:
+        normalized = feed_url.strip()
+        if not normalized or normalized in seen_urls:
+            continue
+        seen_urls.add(normalized)
+        deduped_urls.append(normalized)
+
+    for feed_url in deduped_urls:
+        try:
+            response = requests.get(feed_url, headers={'User-Agent': USER_AGENT}, timeout=20)
+        except requests.RequestException:
+            continue
+
+        if response.status_code >= 400:
+            continue
+
+        parsed_feed = feedparser.parse(response.content)
+        if not parsed_feed.entries:
+            continue
+
+        articles: list[Article] = []
+        feed_source_name = strip_html((parsed_feed.feed or {}).get('title') or '') or f'X @{username}'
+        for entry in parsed_feed.entries[:max_items]:
+            link = canonicalize_url((entry.get('link') or '').strip())
+            if not link:
+                continue
+            title = strip_html(entry.get('title') or '')
+            summary = strip_html(entry.get('summary') or entry.get('description') or '')
+            if not summary:
+                summary = title
+            published_at = _parse_datetime_value(
+                entry.get('published')
+                or entry.get('updated')
+                or entry.get('pubDate')
+            )
+            article_title = title or _build_social_title(f'@{username}', summary)
+            article = _make_article(
+                source=source,
+                title=article_title,
+                url=link,
+                summary=summary,
+                published_at=published_at,
+                metrics={},
+            )
+            article.source_name = feed_source_name
+            articles.append(article)
+
+        if articles:
+            log.info(
+                'X source %s using RSS fallback (%s) yielded %s item(s).',
+                source.get('id'),
+                feed_url,
+                len(articles),
+            )
+            return articles
+    return []
+
+
 def fetch_x_source(source: dict) -> list[Article]:
     if requests is None:
         raise RuntimeError('requests is required for X ingestion.')
@@ -1293,6 +1385,9 @@ def fetch_x_source(source: dict) -> list[Article]:
     bearer_token = os.getenv('X_BEARER_TOKEN')
     if not bearer_token:
         log.warning('Skipping X source %s: X_BEARER_TOKEN is not set.', source.get('id'))
+        fallback_articles = _fetch_x_rss_fallback(source, max(10, min(int(source.get('max_items', 25)), 100)))
+        if fallback_articles:
+            return fallback_articles
         return []
 
     query = (source.get('query') or '').strip()
@@ -1316,6 +1411,9 @@ def fetch_x_source(source: dict) -> list[Article]:
     response = requests.get(endpoint, headers=headers, params=params, timeout=20)
     if response.status_code >= 400:
         log.warning('X source %s request failed (%s).', source.get('id'), response.status_code)
+        fallback_articles = _fetch_x_rss_fallback(source, max_items)
+        if fallback_articles:
+            return fallback_articles
         return []
 
     payload = response.json() or {}
