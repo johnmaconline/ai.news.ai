@@ -45,6 +45,40 @@ header {
   max-width: 70ch;
 }
 
+.headline-strip {
+  margin-top: 0.9rem;
+  border: 1px solid var(--stroke);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 0.6rem 0.7rem;
+}
+
+.headline-strip-label {
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.headline-strip-list {
+  margin-top: 0.35rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.headline-chip {
+  display: inline-block;
+  border: 1px solid var(--stroke);
+  border-radius: 999px;
+  padding: 0.26rem 0.52rem;
+  font-size: 0.79rem;
+  color: var(--accent);
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.85);
+}
+
 .header-tools {
   margin-top: 0.8rem;
   display: flex;
@@ -264,6 +298,45 @@ header {
 
 .why {
   color: var(--accent-2);
+}
+
+.action-row {
+  margin: 0.2rem 0 0;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.action-row strong {
+  color: var(--text);
+}
+
+.evidence {
+  margin: 0.28rem 0 0;
+  font-size: 0.81rem;
+  color: #445063;
+  font-style: italic;
+}
+
+.signals {
+  margin: 0.34rem 0 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.corroboration {
+  margin: 0.26rem 0 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.corroboration a {
+  color: var(--accent);
 }
 
 .archive {

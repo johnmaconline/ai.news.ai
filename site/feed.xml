@@ -4,47 +4,39 @@
     <title>Daily AI Feed - 2026-03-04</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across industry announcements, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Wed, 04 Mar 2026 19:22:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2026 22:06:42 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
+    <item>
+      <title>Make Powerful Machines Verifiable</title>
+      <link>https://www.lesswrong.com/posts/bnawpDWcKaJqLX8RF/make-powerful-machines-verifiable</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/bnawpDWcKaJqLX8RF/make-powerful-machines-verifiable</guid>
+      <pubDate>Wed, 04 Mar 2026 14:20:06 +0000</pubDate>
+      <category>0) Big Announcements</category>
+      <description>When verification brings no significant risks, refusal is a confession While the subtitle might echo the authoritarian trope of &quot;if you have nothing to hide, you have nothing to fear,&quot; let me be immediately clear: I am ... Why it matters: Direct: This matters for what changed and who it impacts, based on this update from LessWrong.</description>
+    </item>
     <item>
       <title>Fig Security launches with $38M to map and validate SecOps detection and response flows</title>
       <link>https://siliconangle.com/2026/03/03/fig-security-launches-38m-map-validate-secops-detection-response-flows/</link>
       <guid isPermaLink="true">https://siliconangle.com/2026/03/03/fig-security-launches-38m-map-validate-secops-detection-response-flows/</guid>
       <pubDate>Tue, 03 Mar 2026 23:21:52 +0000</pubDate>
       <category>0) Big Announcements</category>
-      <description>Fig Security launches with $38M to map and validate SecOps detection and response flows; aims to accelerate product development and expand go-to-market, especially in North America. Why it matters: Funding-backed expansion could accelerate enterprise SecOps workflows in North America.</description>
+      <description>Security operations startup Fig Security Inc. launched today and announced $38 million in new funding to support product development, headcount growth, and go-to-market expansion in North America. Why it matters: Direct: Increases SecOps tooling capacity and North America go-to-market alignment, signaling user adoption uplift and potential security monitoring improvements.</description>
     </item>
     <item>
-      <title>Google faces lawsuit after Gemini chatbot allegedly instructed man to kill himself</title>
-      <link>https://www.theguardian.com/technology/2026/mar/04/gemini-chatbot-google-jonathan-gavalas</link>
-      <guid isPermaLink="true">https://www.theguardian.com/technology/2026/mar/04/gemini-chatbot-google-jonathan-gavalas</guid>
-      <pubDate>Wed, 04 Mar 2026 14:20:10 +0000</pubDate>
+      <title>Maybe there&#x27;s a pattern here?</title>
+      <link>https://www.lesswrong.com/posts/TjcvjwaDsuea8bmbR/maybe-there-s-a-pattern-here</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/TjcvjwaDsuea8bmbR/maybe-there-s-a-pattern-here</guid>
+      <pubDate>Wed, 04 Mar 2026 20:32:59 +0000</pubDate>
       <category>0) Big Announcements</category>
-      <description>A wrongful-death lawsuit against Google over its Gemini chatbot marks the first such case against Google’s flagship AI product. Why it matters: Raises safety, liability, and regulatory scrutiny around consumer AI products and downstream harms.</description>
+      <description>1. It occurred to me that if I could invent a machine—a gun—which could by its rapidity of fire, enable one man to do as much battle duty as a hundred, that it would, to a large extent supersede the necessity of large a... Why it matters: Direct: This matters for what changed and who it impacts, based on this update from LessWrong.</description>
     </item>
     <item>
-      <title>Understanding AI and learning outcomes</title>
-      <link>https://openai.com/index/understanding-ai-and-learning-outcomes</link>
-      <guid isPermaLink="true">https://openai.com/index/understanding-ai-and-learning-outcomes</guid>
-      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <title>Reclaim Security, ArmorCode raise funding to automate exposure management</title>
+      <link>https://siliconangle.com/2026/03/04/reclaim-security-armorcode-raise-funding-automate-exposure-management/</link>
+      <guid isPermaLink="true">https://siliconangle.com/2026/03/04/reclaim-security-armorcode-raise-funding-automate-exposure-management/</guid>
+      <pubDate>Wed, 04 Mar 2026 21:08:30 +0000</pubDate>
       <category>0) Big Announcements</category>
-      <description>OpenAI launches the Learning Outcomes Measurement Suite to quantify AI’s impact on student learning across diverse educational environments over time. Why it matters: Provides a framework for educators and policymakers to measure AI-driven learning gains and risks.</description>
-    </item>
-    <item>
-      <title>Google’s AI-powered workspace is now available to more users in Search</title>
-      <link>https://www.theverge.com/tech/889339/google-canvas-ai-mode-search-us-launch</link>
-      <guid isPermaLink="true">https://www.theverge.com/tech/889339/google-canvas-ai-mode-search-us-launch</guid>
-      <pubDate>Wed, 04 Mar 2026 18:57:01 +0000</pubDate>
-      <category>0) Big Announcements</category>
-      <description>Google expands Canvas in US Search with AI Mode, offering a dedicated workspace to plan, develop tools, and draft documents alongside chat. Why it matters: Broadens AI-powered productivity tools across users, with implications for data handling and privacy in Search.</description>
-    </item>
-    <item>
-      <title>The US military is still using Claude — but defense-tech clients are fleeing</title>
-      <link>https://techcrunch.com/2026/03/04/the-us-military-is-still-using-claude-but-defense-tech-clients-are-fleeing/</link>
-      <guid isPermaLink="true">https://techcrunch.com/2026/03/04/the-us-military-is-still-using-claude-but-defense-tech-clients-are-fleeing/</guid>
-      <pubDate>Wed, 04 Mar 2026 17:20:01 +0000</pubDate>
-      <category>0) Big Announcements</category>
-      <description>The US military continues using Claude, while defense-tech clients are fleeing; Anthropic models are reportedly used for many targeting decisions. Why it matters: Signals shifting procurement and risk posture for defense AI vendors and policy considerations.</description>
+      <description>Reclaim Security Inc. and ArmorCode Inc. raised funding to grow exposure management software businesses; Reclaim Security closed a $20 million Series A after earlier seed funding of $6 million. Why it matters: Direct: Signals growth in automated exposure management tools; potential acceleration for customers seeking risk visibility and remediation.</description>
     </item>
     <item>
       <title>Building Claude Code with Boris Cherny</title>
@@ -52,23 +44,15 @@
       <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny</guid>
       <pubDate>Wed, 04 Mar 2026 18:09:46 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Boris Cherny discusses building AI-powered coding tools like Claude Code, including parallel agents and how engineers&#x27; roles evolve in an AI-first world. Why it matters: Outlines practical patterns for AI-enabled coding tools and parallel agents, informing tooling choices and workforce expectations for engineering teams.</description>
+      <description>Reports on Boris Cherny&#x27;s Claude Code approach, emphasizing AI-powered coding tools, parallel agent workflows, and the evolving engineer role in an AI-first world. Why it matters: Direct: Signals how AI-powered coding tools and parallel agent concepts may reshape developer workflows and coding tool design.</description>
     </item>
     <item>
-      <title>I Built an AI Agent That Works While I Sleep — Here is the Exact System</title>
-      <link>https://dev.to/bruno_curado_2545238edf4e/i-built-an-ai-agent-that-works-while-i-sleep-here-is-the-exact-system-pm4</link>
-      <guid isPermaLink="true">https://dev.to/bruno_curado_2545238edf4e/i-built-an-ai-agent-that-works-while-i-sleep-here-is-the-exact-system-pm4</guid>
-      <pubDate>Wed, 04 Mar 2026 18:28:29 +0000</pubDate>
+      <title>Zero-Code-Change AI Security: Cerberus Now Runs as an HTTP Proxy</title>
+      <link>https://dev.to/darklazaruswalks/zero-code-change-ai-security-cerberus-now-runs-as-an-http-proxy-4o4c</link>
+      <guid isPermaLink="true">https://dev.to/darklazaruswalks/zero-code-change-ai-security-cerberus-now-runs-as-an-http-proxy-4o4c</guid>
+      <pubDate>Wed, 04 Mar 2026 21:44:28 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Describes an autonomous AI agent that writes, researches, deploys code, and sends morning briefings via Telegram, including the system that makes it work. Why it matters: Demonstrates a concrete, end-to-end autonomous agent workflow, including long-running tasks and notification via Telegram.</description>
-    </item>
-    <item>
-      <title>Build and deploy a RAG pipeline as a REST API in under 5 minutes with RAGLight</title>
-      <link>https://dev.to/bessouat40/build-and-deploy-a-rag-pipeline-as-a-rest-api-in-under-5-minutes-with-raglight-5hk0</link>
-      <guid isPermaLink="true">https://dev.to/bessouat40/build-and-deploy-a-rag-pipeline-as-a-rest-api-in-under-5-minutes-with-raglight-5hk0</guid>
-      <pubDate>Wed, 04 Mar 2026 18:27:47 +0000</pubDate>
-      <category>1) Engineering</category>
-      <description>Shows building and deploying a RAG pipeline as a REST API using RAGLight, highlighting the usual gap of wrapping in FastAPI. Why it matters: Offers a concrete path to deploy RAG pipelines quickly and points out common integration pain with API wrappers.</description>
+      <description>Describes Cerberus&#x27; proxy/gateway mode for zero-code-change security, enabling security checks without modifying the agent in LangChain or OpenAI Agents deployments. Why it matters: Direct: Reduces change-wrangling and deployment friction when enforcing security in existing AI agent runtimes.</description>
     </item>
     <item>
       <title>LangChain Skills</title>
@@ -76,23 +60,23 @@
       <guid isPermaLink="true">https://blog.langchain.com/langchain-skills/</guid>
       <pubDate>Wed, 04 Mar 2026 18:00:19 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>LangChain releases first set of skills to boost AI coding agents in LangChain ecosystem; builds agents with LangChain, LangGraph, and Deep Agents; eval boosts Claude Code&#x27;s performance from 29% to 95%. Why it matters: Signals a leap in agent capability with official skills, potentially increasing automation performance in coding tasks.</description>
+      <description>LangChain introduces its first skills to enable AI coding agents with LangChain, LangGraph, and Deep Agents; evals show Claude Code tasks performance rising from 29% to 95%. Why it matters: Direct: Demonstrates tangible uplift potential when adding domain-specific skills to agents.</description>
     </item>
     <item>
-      <title>LangSmith CLI &amp; Skills</title>
-      <link>https://blog.langchain.com/langsmith-cli-skills/</link>
-      <guid isPermaLink="true">https://blog.langchain.com/langsmith-cli-skills/</guid>
-      <pubDate>Wed, 04 Mar 2026 18:00:31 +0000</pubDate>
+      <title>Embed Amazon Quick Suite chat agents in enterprise applications</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/embed-amazon-quick-suite-chat-agents-in-enterprise-applications/</link>
+      <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/embed-amazon-quick-suite-chat-agents-in-enterprise-applications/</guid>
+      <pubDate>Wed, 04 Mar 2026 21:20:58 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>LangSmith CLI and skills release with tracing, execution understanding, test sets, and evaluation capabilities to boost Claude Code performance. Why it matters: Introduces tooling to trace and evaluate AI agents, enabling measurable improvements and more robust debugging.</description>
+      <description>Describes the challenge of securely embedding chat in enterprise apps, requiring weeks for authentication, token validation, and global distribution infra. Why it matters: Direct: Highlights non-trivial security infra work needed to embed chat securely.</description>
     </item>
     <item>
-      <title>M5 Max MacBooks 💻, GPT-5.3 Instant 🤖, end of code reviews 👨‍💻</title>
-      <link>https://tldr.tech/tech/2026-03-04</link>
-      <guid isPermaLink="true">https://tldr.tech/tech/2026-03-04</guid>
-      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <title>How Many People Does It Take to Kill a ChatGPT?</title>
+      <link>https://www.thealgorithmicbridge.com/p/how-many-people-does-it-take-to-kill</link>
+      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/how-many-people-does-it-take-to-kill</guid>
+      <pubDate>Wed, 04 Mar 2026 20:00:07 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Highlights M5 Max MacBooks, GPT-5.3 Instant, and purported end of code reviews. Why it matters: Signals potentially faster development tooling and review processes that could accelerate shipping velocity.</description>
+      <description>Let&#x27;s run the numbers on the QuitGPT phenomenon. Why it matters: Direct: Provides data-grounded insight into AI adoption signals to inform product prioritization and risk.</description>
     </item>
     <item>
       <title>Stakeholder Management for Product Teams: Show Your Work, Don&#x27;t Sell Your Conclusions</title>
@@ -100,151 +84,119 @@
       <guid isPermaLink="true">https://www.producttalk.org/stakeholder-management/</guid>
       <pubDate>Wed, 04 Mar 2026 14:00:29 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Product Talk emphasizes showing work over selling conclusions; warns teams rushing AI features may neglect discovery, risking a feature factory despite faster deliveries. Why it matters: Promotes transparent discovery and decision documentation to improve stakeholder alignment and avoid turning AI work into a fast but unfocused feature factory.</description>
+      <description>Observes that teams rush AI features as stakeholders push opinions; discovery fundamentals are neglected, risking a slide into a feature factory even as delivery speeds up. Why it matters: Direct: Keeps product teams focused on discovery and stakeholder alignment to avoid a feature factory.</description>
     </item>
     <item>
-      <title>AI SaaS App Builder Workflow Using Antigravity and Gemini 3.1 Pro</title>
-      <link>https://www.reddit.com/r/AISEOInsider/comments/1rkss94/ai_saas_app_builder_workflow_using_antigravity/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/AISEOInsider/comments/1rkss94/ai_saas_app_builder_workflow_using_antigravity/</guid>
-      <pubDate>Wed, 04 Mar 2026 18:09:17 +0000</pubDate>
+      <title>AI Can Write Code, But Can It Ship an App? My Experiment</title>
+      <link>https://dev.to/samay15jan/ai-can-write-code-but-can-it-ship-an-app-my-experiment-2130</link>
+      <guid isPermaLink="true">https://dev.to/samay15jan/ai-can-write-code-but-can-it-ship-an-app-my-experiment-2130</guid>
+      <pubDate>Wed, 04 Mar 2026 21:44:39 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Reddit discussion claims AI SaaS builders (Antigravity + Gemini 3.1 Pro) can assemble full SaaS apps in minutes, reducing need for traditional development. Why it matters: If credible, product teams could prototype or deploy SaaS quickly with reduced coding, impacting go-to-market speed and resourcing decisions.</description>
+      <description>Documenting an experiment to assess if AI can ship an app, countering hype with real-world results beyond demos. Why it matters: Direct: Evaluates practical viability of AI-assisted app shipping to guide product expectations and investments.</description>
     </item>
     <item>
-      <title>Gemini 3.1 Pro and Kimi K2.5 Are the AI Automation Stack Nobody Talks About</title>
-      <link>https://www.reddit.com/r/AISEOInsider/comments/1rkujre/gemini_31_pro_and_kimi_k25_are_the_ai_automation/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/AISEOInsider/comments/1rkujre/gemini_31_pro_and_kimi_k25_are_the_ai_automation/</guid>
-      <pubDate>Wed, 04 Mar 2026 19:12:24 +0000</pubDate>
+      <title>What we learned launching an AI transcript + voiceover studio... 3 lessons that actually moved the needle</title>
+      <link>https://www.reddit.com/r/SaaS/comments/1rkykly/what_we_learned_launching_an_ai_transcript/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/SaaS/comments/1rkykly/what_we_learned_launching_an_ai_transcript/</guid>
+      <pubDate>Wed, 04 Mar 2026 21:43:45 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Reddit discussion claims Gemini 3.1 Pro and Kimi K2.5 form a paired AI automation stack enabling a &#x27;brain&#x27; and &#x27;builder&#x27; to plan and execute products. Why it matters: Describes a cooperative AI stack for strategy and delivery, potentially boosting product planning and rapid iteration.</description>
+      <description>Describes launching an AI transcript + voiceover studio and notes three lessons from building a SaaS that auto-generates scripts, timestamps, and voiceovers. Why it matters: Direct: Highlights practical UX patterns and automation choices for AI video transcripts and voiceovers.</description>
     </item>
     <item>
-      <title>MCP vs A2A: The Complete Guide to AI Agent Protocols in 2026</title>
-      <link>https://dev.to/pockit_tools/mcp-vs-a2a-the-complete-guide-to-ai-agent-protocols-in-2026-30li</link>
-      <guid isPermaLink="true">https://dev.to/pockit_tools/mcp-vs-a2a-the-complete-guide-to-ai-agent-protocols-in-2026-30li</guid>
-      <pubDate>Wed, 04 Mar 2026 14:19:00 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>Dev.to guide contrasts MCP and A2A AI agent protocols in 2026, noting mixed opinions on maturity and compatibility. Why it matters: Highlights decision points for product teams choosing agent protocols, affecting integration patterns, risk, and deployment timelines.</description>
-    </item>
-    <item>
-      <title>The Problem of the 99%: Why Almost No One Uses AI Well (And How to Solve It)</title>
-      <link>https://www.thealgorithmicbridge.com/p/the-problem-of-the-99-why-almost</link>
-      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/the-problem-of-the-99-why-almost</guid>
-      <pubDate>Tue, 03 Mar 2026 20:15:38 +0000</pubDate>
+      <title>A skill issue</title>
+      <link>https://dev.to/deathsaber/a-skill-issue-3c5f</link>
+      <guid isPermaLink="true">https://dev.to/deathsaber/a-skill-issue-3c5f</guid>
+      <pubDate>Wed, 04 Mar 2026 19:46:48 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Explains why 99% of users fail to use AI effectively and outlines practical remedies. Why it matters: Helps teams target adoption barriers and implement steps that unlock AI value for non-expert users.</description>
+      <description>LLMs can accelerate development but widen ownership gaps without deep system understanding. Why it matters: Direct: Highlights why disciplined architecture is essential to prevent ownership gaps and debt when using AI-enabled development.</description>
     </item>
     <item>
-      <title>The Patch Letter Pattern: Make Your Assistant Write a Cover Letter Before It Touches Your Code</title>
-      <link>https://dev.to/novaelvaris/the-patch-letter-pattern-make-your-assistant-write-a-cover-letter-before-it-touches-your-code-36gl</link>
-      <guid isPermaLink="true">https://dev.to/novaelvaris/the-patch-letter-pattern-make-your-assistant-write-a-cover-letter-before-it-touches-your-code-36gl</guid>
-      <pubDate>Wed, 04 Mar 2026 15:23:19 +0000</pubDate>
+      <title>How OpenPawz secures AI agents: Defense layers from memory encryption to multi-agent governance</title>
+      <link>https://dev.to/gotham64/how-openpawz-secures-ai-agents-defense-layers-from-memory-encryption-to-multi-agent-governance-2jnn</link>
+      <guid isPermaLink="true">https://dev.to/gotham64/how-openpawz-secures-ai-agents-defense-layers-from-memory-encryption-to-multi-agent-governance-2jnn</guid>
+      <pubDate>Wed, 04 Mar 2026 18:38:37 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Presents the Patch Letter Pattern: require an assistant to generate a cover letter before making code changes to constrain scope. Why it matters: Helps prevent unexpected refactors by documenting intent before code edits.</description>
+      <description>OpenPawz highlights a security problem: AI agents are powerful because they read files, run commands, send messages, and search data. Why it matters: Direct: Security controls are needed as agents&#x27; capabilities enable data access and actions across systems.</description>
     </item>
     <item>
-      <title>Structured AI methods in Claude Code: what we built, what it catches, and how we author them</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1rkt3ib/structured_ai_methods_in_claude_code_what_we/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAI/comments/1rkt3ib/structured_ai_methods_in_claude_code_what_we/</guid>
-      <pubDate>Wed, 04 Mar 2026 18:20:25 +0000</pubDate>
+      <title>Anti-patterns: things to avoid</title>
+      <link>https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/</link>
+      <guid isPermaLink="true">https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/</guid>
+      <pubDate>Wed, 04 Mar 2026 17:34:42 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Outlines structured AI methods in Claude Code, what they catch, and how maintainers author them; shows open-source tooling for chaining LLM calls, OCR, and image generation. Why it matters: Provides a practical blueprint for building multi-step AI workflows with Claude Code, highlighting error catching and maintainable patterns developers can adopt this week.</description>
+      <description>Simon Willison flags anti-patterns in agentic engineering, including posting unreviewed code for collaboration and submitting PRs without prior review. Why it matters: Direct: Highlights actionable pitfalls to avoid when building AI agents and collaborating on code.</description>
     </item>
     <item>
-      <title>Revolutionary LLM‑Generated Helm Charts: Build, Test, Deploy in Minutes</title>
-      <link>https://dev.to/myroslavmokhammadabd/revolutionary-llm-generated-helm-charts-build-test-deploy-in-minutes-7n6</link>
-      <guid isPermaLink="true">https://dev.to/myroslavmokhammadabd/revolutionary-llm-generated-helm-charts-build-test-deploy-in-minutes-7n6</guid>
-      <pubDate>Wed, 04 Mar 2026 18:23:18 +0000</pubDate>
+      <title>Emergence or training artifact? My AI agents independently built safety tools I never asked for. 28/170 builds over 3 weeks.</title>
+      <link>https://www.reddit.com/r/artificial/comments/1rki8d4/emergence_or_training_artifact_my_ai_agents/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/artificial/comments/1rki8d4/emergence_or_training_artifact_my_ai_agents/</guid>
+      <pubDate>Wed, 04 Mar 2026 10:43:12 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Profiles LLM-generated Helm charts that can build, test, and deploy Helm charts in minutes, reducing hours spent crafting values.yaml and debugging templates. Why it matters: Supports practical automation for Kubernetes delivery; reduces manual YAML errors and accelerates build-test-deploy cycles.</description>
+      <description>Three weeks after stopping explicit tasks, the user gave an open brief to AI agents to scan forums, identify developer pain points, design solutions, and prototype, without a domain or target output. Why it matters: Direct: Demonstrates how open briefs can yield autonomous prototypes, but may lack domain constraints.</description>
     </item>
     <item>
-      <title>Agent Roles: Self-selecting roles for AI agents</title>
-      <link>https://www.reddit.com/r/OpenAgentCLI/comments/1rkufr2/agent_roles_selfselecting_roles_for_ai_agents/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/OpenAgentCLI/comments/1rkufr2/agent_roles_selfselecting_roles_for_ai_agents/</guid>
-      <pubDate>Wed, 04 Mar 2026 19:08:10 +0000</pubDate>
-      <category>3) Software Development</category>
-      <description>Describes agent-roles: a library of 194 personas for CLI AI agents, with self-selecting roles based on the task. Why it matters: Enables self-selection of agent roles, streamlining setup and improving alignment of AI agents to tasks.</description>
-    </item>
-    <item>
-      <title>Get notified on your phone/watch when your Cursor agent finishes</title>
-      <link>https://www.reddit.com/r/expo/comments/1rkuerx/get_notified_on_your_phonewatch_when_your_cursor/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/expo/comments/1rkuerx/get_notified_on_your_phonewatch_when_your_cursor/</guid>
-      <pubDate>Wed, 04 Mar 2026 19:07:09 +0000</pubDate>
+      <title>M5 Max MacBooks 💻, GPT-5.3 Instant 🤖, end of code reviews 👨‍💻</title>
+      <link>https://tldr.tech/tech/2026-03-04</link>
+      <guid isPermaLink="true">https://tldr.tech/tech/2026-03-04</guid>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>A Cursor hook that sends a push notification when the agent stops, with a GitHub repo at beautyfree/cursor-ntfy-on-stop-hook. Why it matters: Makes long Cursor tasks non-blocking, boosting productivity when users step away.</description>
+      <description>TLDR AI Edition mentions M5 Max MacBooks, GPT-5.3 Instant, and end of code reviews. Why it matters: Direct: The item signals a potential shift in development practices if AI-assisted reviews supplant traditional code reviews.</description>
     </item>
     <item>
-      <title>[R] GFlowsNets for accelerating ray tracing for radio propagation modeling</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1rkgn8y/r_gflowsnets_for_accelerating_ray_tracing_for/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1rkgn8y/r_gflowsnets_for_accelerating_ray_tracing_for/</guid>
-      <pubDate>Wed, 04 Mar 2026 09:04:21 +0000</pubDate>
+      <title>I gave my AI agent a knowledge graph instead of vector memory. Here&#x27;s what 400+ pages look like after one month.</title>
+      <link>https://www.reddit.com/r/openclaw/comments/1rkyky2/i_gave_my_ai_agent_a_knowledge_graph_instead_of/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/openclaw/comments/1rkyky2/i_gave_my_ai_agent_a_knowledge_graph_instead_of/</guid>
+      <pubDate>Wed, 04 Mar 2026 21:44:08 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Draft journal paper applying Generative Flow Networks (GFlowNets) to accelerate radio propagation modeling. Why it matters: Could reduce compute time for radio simulations, aiding faster design iterations and radio network optimization.</description>
+      <description>I gave my AI agent a knowledge graph instead of vector memory, and after one month it produced 400+ pages. Why it matters: Direct: Demonstrates a memory retention strategy that could reduce forgetting in long-running AI agents and enable scalable knowledge organization.</description>
     </item>
     <item>
-      <title>Sacred values of future AIs</title>
-      <link>https://www.lesswrong.com/posts/sjeqDKhDHgu3sxrSq/sacred-values-of-future-ais</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/sjeqDKhDHgu3sxrSq/sacred-values-of-future-ais</guid>
-      <pubDate>Wed, 04 Mar 2026 07:47:50 +0000</pubDate>
+      <title>Gemini 3.1 Pro Aces Benchmarks, I Suppose</title>
+      <link>https://www.lesswrong.com/posts/82zizPyyPgaEswbxz/gemini-3-1-pro-aces-benchmarks-i-suppose</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/82zizPyyPgaEswbxz/gemini-3-1-pro-aces-benchmarks-i-suppose</guid>
+      <pubDate>Wed, 04 Mar 2026 20:10:57 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Post argues diverse future AIs will need shared values to coordinate and coexist. Why it matters: Frame alignment and governance discussions around common value frameworks to enable safe AI coordination.</description>
+      <description>Gemini 3.1 Pro benchmarks are strong, but reviewers describe it as just &#x27;a Gemini model&#x27; despite some charm. Why it matters: Direct: Benchmarks may overstate practical value; user sentiment favors charm and alternatives, signaling a need for more than score-based evaluation.</description>
     </item>
     <item>
-      <title>Is GDP a Kind of Factory?</title>
-      <link>https://www.lesswrong.com/posts/xCWiFGezwMPswZ6Ea/is-gdp-a-kind-of-factory</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/xCWiFGezwMPswZ6Ea/is-gdp-a-kind-of-factory</guid>
-      <pubDate>Wed, 04 Mar 2026 18:00:29 +0000</pubDate>
+      <title>Claude Scheduled Tasks Let AI Run Your Repetitive Work Automatically</title>
+      <link>https://www.reddit.com/r/AISEOInsider/comments/1rkyl3x/claude_scheduled_tasks_let_ai_run_your_repetitive/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/AISEOInsider/comments/1rkyl3x/claude_scheduled_tasks_let_ai_run_your_repetitive/</guid>
+      <pubDate>Wed, 04 Mar 2026 21:44:19 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>A LessWrong post discusses GDP convergence, citing 2021 claims that poor countries started catching up to rich ones, supporting Solow growth. Why it matters: Informs macro models and policy debates about development and global growth.</description>
+      <description>Claude Scheduled Tasks are presented as a practical AI automation feature that lets instructions run automatically at the exact time you choose. Why it matters: Direct: Demonstrates a concrete automation capability that could cut manual, repetitive task toil for teams.</description>
     </item>
     <item>
-      <title>Supercharge Automated Code Review with LLM‑Powered Hybrid Pipelines</title>
-      <link>https://dev.to/myroslavmokhammadabd/supercharge-automated-code-review-with-llm-powered-hybrid-pipelines-40pb</link>
-      <guid isPermaLink="true">https://dev.to/myroslavmokhammadabd/supercharge-automated-code-review-with-llm-powered-hybrid-pipelines-40pb</guid>
-      <pubDate>Wed, 04 Mar 2026 16:25:46 +0000</pubDate>
-      <category>4) Under the Radar</category>
-      <description>Article on LLM-powered hybrid pipelines to automate code review, detecting subtle bugs and security flaws before human review. Why it matters: Promises earlier defect detection, potentially speeding PRs and improving code quality.</description>
-    </item>
-    <item>
-      <title>A Chinese AI lab just built an AI that writes CUDA code better than torch.compile. 40% better than Claude Opus 4.5. on the hardest benchmark.</title>
-      <link>https://www.reddit.com/r/singularity/comments/1rkkolb/a_chinese_ai_lab_just_built_an_ai_that_writes/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rkkolb/a_chinese_ai_lab_just_built_an_ai_that_writes/</guid>
-      <pubDate>Wed, 04 Mar 2026 12:54:55 +0000</pubDate>
+      <title>💥 Onomatopoeia SMP 💥</title>
+      <link>https://www.reddit.com/r/MinecraftServer/comments/1rkyhps/onomatopoeia_smp/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/MinecraftServer/comments/1rkyhps/onomatopoeia_smp/</guid>
+      <pubDate>Wed, 04 Mar 2026 21:40:41 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>A Chinese AI lab claims an AI can generate CUDA code, outperforming Torch&#x27;s compile and Claude Opus 4.5 by ~40% on a hard benchmark, per a Reddit post linking a CUDA-agent paper. Why it matters: Signals progress in automated CUDA code generation and GPU kernel optimization, with potential impact on compiler toolchains and performance-tuning workflows.</description>
+      <description>Onomatopoeia SMP is a community-focused Vanilla+ modded Minecraft server inspired by Hermitcraft, with quality-of-life tweaks to make builds smoother, sillier, and more fun; every build triggers CLANG, redstone WHIRRR, and creeper BOOM. Why it matters: Direct: Demonstrates a playful, community-driven Minecraft modded experience with QoL features.</description>
     </item>
     <item>
-      <title>Experimenting with a real-time EEG-to-audiovisual system</title>
-      <link>https://www.reddit.com/r/singularity/comments/1rkny0b/experimenting_with_a_realtime_eegtoaudiovisual/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rkny0b/experimenting_with_a_realtime_eegtoaudiovisual/</guid>
-      <pubDate>Wed, 04 Mar 2026 15:11:22 +0000</pubDate>
+      <title>Real-time AI video steering vs. render-and-wait: trading quality for speed</title>
+      <link>https://www.reddit.com/r/singularity/comments/1rkkwab/realtime_ai_video_steering_vs_renderandwait/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rkkwab/realtime_ai_video_steering_vs_renderandwait/</guid>
+      <pubDate>Wed, 04 Mar 2026 13:04:37 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Researchers are experimenting with a real-time EEG-to-audiovisual system that uses live brain signals to drive both music generation and visuals. Why it matters: Shows tangible, closed-loop bio-signal control for multi-sensory media, useful for neurofeedback, assistive tech, or live visualization experiments.</description>
+      <description>Real-time AI video steering is shifting the creative process toward fast iteration over polished renders; real-time steering tools are changing how we interact with AI video generation. Why it matters: Direct: Highlights a shift toward faster, iterative workflows in AI video creation.</description>
     </item>
     <item>
-      <title>Picsart Persona &amp; Storyline</title>
-      <link>https://www.producthunt.com/products/picsart</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/picsart</guid>
-      <pubDate>Tue, 03 Mar 2026 21:20:28 +0000</pubDate>
+      <title>Split Personality Training can detect Alignment Faking</title>
+      <link>https://www.lesswrong.com/posts/aypknr8scyrhBjmYL/split-personality-training-can-detect-alignment-faking</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/aypknr8scyrhBjmYL/split-personality-training-can-detect-alignment-faking</guid>
+      <pubDate>Wed, 04 Mar 2026 11:49:11 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Picsart launches &#x27;Persona &amp; Storyline&#x27; to design AI influencers and craft stories. Why it matters: Repurposes AI to streamline character-driven storytelling and influencer-style branding, appealing to creators and marketers seeking rapid AI-generated narratives.</description>
+      <description>Split Personality Training (SPT) can detect alignment faking. Led by Florian Dietz with funding from Coefficient Giving (formerly Open Philanthropy); a model trained to fake alignment will admit to it when asked and explain the exploiting mechanism. Why it matters: Direct: Highlights a potential method for validating alignment claims.</description>
     </item>
     <item>
-      <title>Introducing llm-lean-log: Token-Efficient Chat Logging for AI Agents</title>
-      <link>https://dev.to/loclv/introducing-llm-lean-log-token-efficient-chat-logging-for-ai-agents-neh</link>
-      <guid isPermaLink="true">https://dev.to/loclv/introducing-llm-lean-log-token-efficient-chat-logging-for-ai-agents-neh</guid>
-      <pubDate>Wed, 04 Mar 2026 16:29:58 +0000</pubDate>
+      <title>Physics of RL: Toy scaling laws for the emergence of reward-seeking</title>
+      <link>https://www.lesswrong.com/posts/9FH49ZgJFW4WtbxLi/physics-of-rl-toy-scaling-laws-for-the-emergence-of-reward</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/9FH49ZgJFW4WtbxLi/physics-of-rl-toy-scaling-laws-for-the-emergence-of-reward</guid>
+      <pubDate>Wed, 04 Mar 2026 08:12:13 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>LLM-lean-log introduces token-efficient chat logging for AI agents to manage long conversations and make retrieval easier. Why it matters: Addresses scalability of chat histories in AI agent workstreams, reducing storage and cost while improving retroactive debugging and knowledge reuse.</description>
-    </item>
-    <item>
-      <title>Top 40 Secure Options for Verified Wise Accounts in 2026</title>
-      <link>https://dev.to/abusmm6541514/top-40-secure-options-for-verified-wise-accounts-in-2026-4dgd</link>
-      <guid isPermaLink="true">https://dev.to/abusmm6541514/top-40-secure-options-for-verified-wise-accounts-in-2026-4dgd</guid>
-      <pubDate>Wed, 04 Mar 2026 19:05:05 +0000</pubDate>
-      <category>5) For Fun</category>
-      <description>An article lists 40 secure options for verified Wise accounts in 2026, highlighting the importance of multi-currency accounts for freelancers and global business. Why it matters: Offers practical guidance for securing cross-border payments and compliance in 2026, aiding small businesses and freelancers navigating multi-currency wallets.</description>
+      <description>TL;DR: The piece uses a mathematical toy model to explore when RL should optimize for reward versus reward-independent behaviors; it argues that more diverse RL increases the likelihood of reward-seeking emerging. Why it matters: Direct: Points to diversity as a lever for emergent reward-seeking in RL.</description>
     </item>
   </channel>
 </rss>
