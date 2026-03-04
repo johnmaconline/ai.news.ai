@@ -10,6 +10,7 @@ import json
 import logging
 import math
 import os
+import re
 from collections import defaultdict
 from datetime import datetime, timezone
 from functools import lru_cache
@@ -60,8 +61,10 @@ DEFAULT_CURATION_SYSTEM_PROMPT = 'You are a strict AI news curator. Return JSON 
 
 def dedupe_articles(articles: list[Article]) -> list[Article]:
     unique: dict[str, Article] = {}
+    duplicate_clusters: defaultdict[str, list[Article]] = defaultdict(list)
     for article in articles:
         key = canonicalize_url(article.url) or normalize_whitespace(article.title).lower()
+        duplicate_clusters[key].append(article)
         existing = unique.get(key)
         if existing is None:
             unique[key] = article
@@ -70,7 +73,83 @@ def dedupe_articles(articles: list[Article]) -> list[Article]:
         incoming_score = article.priority + article.metrics.get('points', 0) * 0.01
         if incoming_score > existing_score:
             unique[key] = article
-    return list(unique.values())
+    deduped = list(unique.values())
+    _apply_duplicate_cluster_metadata(
+        deduped_articles=deduped,
+        duplicate_clusters=duplicate_clusters,
+    )
+    return deduped
+
+
+def _title_fingerprint(title: str) -> str:
+    normalized = normalize_whitespace(title).lower()
+    normalized = re.sub(r'[^a-z0-9\s]', ' ', normalized)
+    tokens = [token for token in normalized.split() if token not in {'the', 'a', 'an', 'and', 'or', 'to', 'for'}]
+    if not tokens:
+        return ''
+    return ' '.join(tokens[:14])
+
+
+def _merge_corroborating_urls(existing: list[str], additions: list[str], max_urls: int = 6) -> list[str]:
+    seen = {canonicalize_url(url) for url in existing if canonicalize_url(url)}
+    merged: list[str] = []
+    for url in existing:
+        normalized = canonicalize_url(url)
+        if not normalized or normalized in merged:
+            continue
+        merged.append(normalized)
+    for url in additions:
+        normalized = canonicalize_url(url)
+        if not normalized or normalized in seen:
+            continue
+        seen.add(normalized)
+        merged.append(normalized)
+        if len(merged) >= max_urls:
+            break
+    return merged[:max_urls]
+
+
+def _apply_duplicate_cluster_metadata(
+    deduped_articles: list[Article],
+    duplicate_clusters: dict[str, list[Article]],
+) -> None:
+    by_primary_id = {article.id: article for article in deduped_articles}
+    for cluster_rows in duplicate_clusters.values():
+        if len(cluster_rows) <= 1:
+            continue
+        canonical_urls = [canonicalize_url(item.url) for item in cluster_rows]
+        corroborating_urls = [url for url in canonical_urls if url]
+        for row in cluster_rows:
+            primary = by_primary_id.get(row.id)
+            if primary is None:
+                continue
+            existing_cluster_size = int(primary.metrics.get('duplicate_cluster_size', 1))
+            primary.metrics['duplicate_cluster_size'] = float(max(existing_cluster_size, len(corroborating_urls)))
+            related_urls = [url for url in corroborating_urls if url and url != canonicalize_url(primary.url)]
+            if related_urls:
+                primary.corroborating_urls = _merge_corroborating_urls(
+                    existing=primary.corroborating_urls,
+                    additions=related_urls,
+                )
+
+    by_fingerprint: defaultdict[str, list[Article]] = defaultdict(list)
+    for article in deduped_articles:
+        fingerprint = _title_fingerprint(article.title)
+        if fingerprint:
+            by_fingerprint[fingerprint].append(article)
+    for similar_rows in by_fingerprint.values():
+        if len(similar_rows) <= 1:
+            continue
+        related_urls = [canonicalize_url(item.url) for item in similar_rows if canonicalize_url(item.url)]
+        if len(related_urls) <= 1:
+            continue
+        for article in similar_rows:
+            existing_cluster_size = int(article.metrics.get('duplicate_cluster_size', 1))
+            article.metrics['duplicate_cluster_size'] = float(max(existing_cluster_size, len(related_urls)))
+            article.corroborating_urls = _merge_corroborating_urls(
+                existing=article.corroborating_urls,
+                additions=[url for url in related_urls if url != canonicalize_url(article.url)],
+            )
 
 
 def _keyword_hits(text: str, keywords: list[str]) -> int:
@@ -93,6 +172,65 @@ def _is_within_recency_window(article: Article, feed_dt: datetime, max_age_hours
     if delta_hours <= 0:
         return True
     return delta_hours <= max_age_hours
+
+
+def _source_quality_score(article: Article) -> float:
+    domain = (article.domain or '').lower()
+    score = 4.0
+    if article.source_type in {'rss', 'arxiv', 'hackernews'}:
+        score += 1.6
+    if article.source_type in {'reddit', 'x', 'linkedin'}:
+        score += 0.8
+    if domain in MAINSTREAM_DOMAINS:
+        score += 2.0
+    if domain in LOW_SIGNAL_BIG_ANNOUNCEMENT_DOMAINS:
+        score -= 1.5
+    if article.metrics.get('points', 0.0) > 0:
+        score += min(1.6, math.log1p(article.metrics.get('points', 0.0)) / 3.0)
+    duplicate_cluster_size = max(1.0, float(article.metrics.get('duplicate_cluster_size', 1.0)))
+    if duplicate_cluster_size > 1:
+        score += min(1.4, (duplicate_cluster_size - 1.0) * 0.4)
+    return max(0.0, min(score, 10.0))
+
+
+def _novelty_score(article: Article, text_blob: str) -> float:
+    score = 5.0
+    if article.domain not in MAINSTREAM_DOMAINS:
+        score += 1.7
+    if article.source_type in {'x', 'linkedin', 'reddit'}:
+        score += 0.8
+    if _keyword_hits(text_blob, UNDER_THE_RADAR_BUILDER_KEYWORDS) > 0:
+        score += 1.0
+    duplicate_cluster_size = max(1.0, float(article.metrics.get('duplicate_cluster_size', 1.0)))
+    if duplicate_cluster_size > 1:
+        score -= min(2.6, (duplicate_cluster_size - 1.0) * 0.9)
+    return max(0.0, min(score, 10.0))
+
+
+def _confidence_score(article: Article) -> float:
+    duplicate_cluster_size = max(1.0, float(article.metrics.get('duplicate_cluster_size', 1.0)))
+    corroboration_boost = min(2.0, (duplicate_cluster_size - 1.0) * 0.45)
+    confidence = (
+        article.source_quality_score * 0.52
+        + article.recency_score * 0.25
+        + article.novelty_score * 0.08
+        + corroboration_boost
+    )
+    if article.summary_text:
+        confidence += 0.3
+    return max(0.0, min(confidence, 10.0))
+
+
+def _is_software_development_candidate(article: Article, text_blob: str) -> bool:
+    practical_hits = _keyword_hits(text_blob, BUSINESS_PRACTICAL_KEYWORDS)
+    announcement_hits = _keyword_hits(text_blob, BUSINESS_ANNOUNCEMENT_KEYWORDS)
+    if practical_hits >= 2:
+        return True
+    if practical_hits >= 1 and announcement_hits == 0:
+        return True
+    if article.section_hint == 'business' and practical_hits >= 1:
+        return True
+    return False
 
 
 def _business_penalty(article: Article, text_blob: str) -> float:
@@ -437,7 +575,19 @@ def score_articles(articles: list[Article], feed_dt: datetime | None = None) -> 
     for article in articles:
         text_blob = article.canonical_text().lower()
         scores: dict[str, float] = {}
-        base = article.priority + _recency_score(article, feed_dt)
+        recency_score = _recency_score(article, feed_dt)
+        article.recency_score = max(0.0, min(recency_score * 2.5, 10.0))
+        article.source_quality_score = _source_quality_score(article)
+        article.novelty_score = _novelty_score(article, text_blob)
+        article.metrics['recency_score'] = article.recency_score
+        article.metrics['source_quality_score'] = article.source_quality_score
+        article.metrics['novelty_score'] = article.novelty_score
+        base = (
+            article.priority
+            + recency_score
+            + (article.source_quality_score * 0.22)
+            + (article.novelty_score * 0.16)
+        )
         for section in SECTIONS:
             section_score = base
             hits = _keyword_hits(text_blob, KEYWORDS.get(section.slug, []))
@@ -467,13 +617,17 @@ def score_articles(articles: list[Article], feed_dt: datetime | None = None) -> 
             if section.slug in {'engineering', 'product-development'}:
                 section_score += min(2.0, article.metrics.get('points', 0.0) / 150.0)
             if section.slug == 'business':
-                section_score += min(2.0, article.metrics.get('points', 0.0) / 220.0)
+                section_score += min(1.6, article.metrics.get('points', 0.0) / 260.0)
                 section_score += _keyword_hits(text_blob, BUSINESS_PRACTICAL_KEYWORDS) * 1.2
                 section_score -= _business_penalty(article, text_blob)
+                if not _is_software_development_candidate(article, text_blob):
+                    section_score -= 4.5
             if _is_curator_watchlist_article(article):
                 section_score += _curator_watchlist_score_boost(section.slug)
             scores[section.slug] = round(section_score, 3)
         article.scores = scores
+        article.confidence_score = _confidence_score(article)
+        article.metrics['confidence_score'] = article.confidence_score
     _refresh_article_assignments(articles)
 
 
@@ -545,6 +699,14 @@ def curate_sections(
             ]
             if narrowed:
                 candidate_pool = narrowed
+        if section.slug == 'business':
+            workflow_focused = [
+                article
+                for article in candidate_pool
+                if _is_software_development_candidate(article, article.canonical_text().lower())
+            ]
+            if workflow_focused:
+                candidate_pool = workflow_focused
         picks: list[Article] = []
         if (
             curator_enabled
@@ -606,6 +768,14 @@ def curate_sections(
             ]
             if narrowed:
                 fallback_pool = narrowed
+        if section.slug == 'business':
+            workflow_focused = [
+                article
+                for article in fallback_pool
+                if _is_software_development_candidate(article, article.canonical_text().lower())
+            ]
+            if workflow_focused:
+                fallback_pool = workflow_focused
         fallbacks = _pick_candidates(
             candidates=fallback_pool,
             score_key=section.slug,

@@ -70,6 +70,40 @@ header {
   max-width: 70ch;
 }
 
+.headline-strip {
+  margin-top: 0.9rem;
+  border: 1px solid var(--stroke);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 0.6rem 0.7rem;
+}
+
+.headline-strip-label {
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.headline-strip-list {
+  margin-top: 0.35rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.headline-chip {
+  display: inline-block;
+  border: 1px solid var(--stroke);
+  border-radius: 999px;
+  padding: 0.26rem 0.52rem;
+  font-size: 0.79rem;
+  color: var(--accent);
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.85);
+}
+
 .header-tools {
   margin-top: 0.8rem;
   display: flex;
@@ -291,6 +325,45 @@ header {
   color: var(--accent-2);
 }
 
+.action-row {
+  margin: 0.2rem 0 0;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.action-row strong {
+  color: var(--text);
+}
+
+.evidence {
+  margin: 0.28rem 0 0;
+  font-size: 0.81rem;
+  color: #445063;
+  font-style: italic;
+}
+
+.signals {
+  margin: 0.34rem 0 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.corroboration {
+  margin: 0.26rem 0 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.corroboration a {
+  color: var(--accent);
+}
+
 .archive {
   margin-top: 1.4rem;
   background: rgba(255, 255, 255, 0.68);
@@ -398,6 +471,17 @@ def _article_to_json(article: Article) -> dict:
         'published_at': article.published_at.isoformat() if article.published_at else None,
         'summary_text': article.summary_text,
         'why_it_matters': article.why_it_matters,
+        'who_should_care': article.who_should_care,
+        'suggested_action': article.suggested_action,
+        'time_to_implement': article.time_to_implement,
+        'evidence_quote': article.evidence_quote,
+        'inference_label': article.inference_label,
+        'source_quality_score': article.source_quality_score,
+        'recency_score': article.recency_score,
+        'novelty_score': article.novelty_score,
+        'confidence_score': article.confidence_score,
+        'first_seen_at': article.first_seen_at,
+        'corroborating_urls': article.corroborating_urls,
         'section_score': article.section_score,
         'scores': article.scores,
     }
@@ -470,7 +554,6 @@ def _icon_svg(icon_name: str) -> str:
             '<circle cx="12" cy="12" r="1.3" fill="currentColor"/>'
             '</svg>'
         )
-    items_xml = '\n'.join(items)
     return (
         '<svg class="icon-svg" viewBox="0 0 24 24" aria-hidden="true">'
         '<path d="M8.2 8.6h3.2a2.8 2.8 0 0 1 0 5.6H9.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>'
@@ -491,9 +574,38 @@ def _favicon_markup(domain: str) -> str:
     )
 
 
+def _format_iso_utc(value: str) -> str:
+    try:
+        parsed = datetime.fromisoformat(value.replace('Z', '+00:00'))
+    except ValueError:
+        return value
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
+
+
+def _corroboration_links(article: Article) -> str:
+    links: list[str] = []
+    for url in article.corroborating_urls[:3]:
+        links.append(
+            f'<a href="{escape(url)}" target="_blank" rel="noopener noreferrer">corroborating source</a>'
+        )
+    if not links:
+        query = quote(f'"{article.title}"', safe='')
+        search_url = f'https://news.google.com/search?q={query}'
+        links.append(
+            f'<a href="{escape(search_url)}" target="_blank" rel="noopener noreferrer">find corroboration</a>'
+        )
+    return ' · '.join(links)
+
+
 def _render_story(article: Article) -> str:
     published = article.published_at.strftime('%Y-%m-%d %H:%M UTC') if article.published_at else 'time unknown'
     why_text = article.why_it_matters or 'High-signal item for this section.'
+    why_label = 'Inference' if (article.inference_label or '').strip().lower() == 'inference' else 'Direct'
+    display_why = why_text
+    if why_text.lower().startswith('direct:') or why_text.lower().startswith('inference:'):
+        display_why = why_text.split(':', 1)[1].strip()
     source_name, source_class, source_icon_name = _source_icon_data(article)
     source_classes = f'source-mini {source_class}'.strip()
     source_icon_markup = _favicon_markup(article.domain) if source_icon_name == 'favicon' else _icon_svg(source_icon_name)
@@ -501,6 +613,8 @@ def _render_story(article: Article) -> str:
         f'<a class="{escape(source_classes)}" href="{escape(article.url)}" target="_blank" rel="noopener noreferrer" '
         f'title="Source: {escape(source_name)}">{source_icon_markup}</a>'
     )
+    first_seen = _format_iso_utc(article.first_seen_at) if article.first_seen_at else 'unknown'
+    corroboration_html = _corroboration_links(article)
     score_link = (
         f'<a class="score-link" href="{escape(article.url)}" target="_blank" rel="noopener noreferrer" '
         f'title="Relevance factor: {article.section_score:.2f}">{article.section_score:.1f}</a>'
@@ -511,9 +625,39 @@ def _render_story(article: Article) -> str:
         f'{score_link}'
         f'<p class="meta">{escape(article.source_name)} · {escape(article.domain)} · {escape(published)}</p>'
         f'<p class="summary">{escape(article.summary_text or article.summary)}</p>'
-        f'<p class="why">Why it matters: {escape(why_text)}</p>'
+        f'<p class="why">Why it matters ({escape(why_label)}): {escape(display_why)}</p>'
+        f'<p class="action-row"><strong>Who should care:</strong> {escape(article.who_should_care or "Builders and decision-makers")}</p>'
+        f'<p class="action-row"><strong>Suggested action:</strong> {escape(article.suggested_action or "Review and test this in your workflow.")}</p>'
+        f'<p class="action-row"><strong>Time to implement:</strong> {escape(article.time_to_implement or "1-2h")}</p>'
+        f'<p class="evidence">Evidence: "{escape(article.evidence_quote or "No direct quote available from source summary.")}"</p>'
+        '<p class="signals">'
+        f'Source quality: {article.source_quality_score:.1f}/10 · '
+        f'Recency: {article.recency_score:.1f}/10 · '
+        f'Novelty: {article.novelty_score:.1f}/10 · '
+        f'Confidence: {article.confidence_score:.1f}/10 · '
+        f'First seen: {escape(first_seen)}'
+        '</p>'
+        f'<p class="corroboration">{corroboration_html}</p>'
         f'<div class="story-source">{source_link}</div>'
         '</article>'
+    )
+
+
+def _render_headline_strip(feed: DailyFeed) -> str:
+    stories = feed.sections.get('big-announcements', [])[:3]
+    if not stories:
+        return ''
+    chips = []
+    for story in stories:
+        chips.append(
+            f'<a class="headline-chip" href="{escape(story.url)}" target="_blank" rel="noopener noreferrer">'
+            f'{escape(story.title)}</a>'
+        )
+    return (
+        '<div class="headline-strip">'
+        '<div class="headline-strip-label">Top Headlines</div>'
+        f'<div class="headline-strip-list">{"".join(chips)}</div>'
+        '</div>'
     )
 
 
@@ -614,6 +758,7 @@ def _render_page(feed: DailyFeed, archive: list[dict], title_suffix: str = '') -
       <header>
         <h1 class="headline">{escape(feed.title)}</h1>
         <p class="subline">{escape(feed.intro)}</p>
+        {_render_headline_strip(feed)}
         <div class="header-tools">
           <a class="rss-pill" href="./feed.xml" target="_blank" rel="noopener noreferrer">RSS feed</a>
           <form class="subscribe-form" id="subscribe-form" data-endpoint="{escape(subscribe_endpoint)}" novalidate>
@@ -638,7 +783,7 @@ def _render_page(feed: DailyFeed, archive: list[dict], title_suffix: str = '') -
         <ul>{_render_archive_links(archive)}</ul>
       </aside>
       <footer>
-        Generated {escape(feed.generated_at)}. Each item links to the original source.
+        Generated {escape(feed.generated_at)}. Each item links to original sources and marks inference explicitly.
       </footer>
     </div>
     {SUBSCRIBE_SCRIPT}

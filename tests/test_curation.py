@@ -8,7 +8,7 @@
 
 from datetime import datetime, timezone
 
-from ai_news_feed.curation import curate_sections, score_articles
+from ai_news_feed.curation import curate_sections, dedupe_articles, score_articles
 from ai_news_feed.fetchers import build_sample_articles
 from ai_news_feed.models import Article
 
@@ -246,3 +246,54 @@ def test_curator_watchlist_sampling_is_capped(monkeypatch) -> None:
         if 'curators' in {tag.lower() for tag in item.tags}
     )
     assert curated_count <= 2
+
+
+def test_dedupe_articles_collects_corroborating_links() -> None:
+    first = Article(
+        id='a1',
+        title='Agent workflow teardown with concrete code',
+        url='https://example.com/post-a',
+        summary='A detailed workflow and implementation walk-through.',
+        source_name='Example One',
+        source_type='rss',
+        domain='example.com',
+        published_at=datetime(2026, 3, 4, 11, 0, tzinfo=timezone.utc),
+        priority=6.0,
+    )
+    second = Article(
+        id='a2',
+        title='Agent workflow teardown with concrete code',
+        url='https://another.example/post-b',
+        summary='A detailed workflow and implementation walk-through.',
+        source_name='Example Two',
+        source_type='rss',
+        domain='another.example',
+        published_at=datetime(2026, 3, 4, 11, 10, tzinfo=timezone.utc),
+        priority=6.2,
+    )
+    deduped = dedupe_articles([first, second])
+    assert len(deduped) == 2
+    assert deduped[0].corroborating_urls or deduped[1].corroborating_urls
+    cluster_sizes = [item.metrics.get('duplicate_cluster_size', 1.0) for item in deduped]
+    assert max(cluster_sizes) >= 2.0
+
+
+def test_score_articles_populates_provenance_and_confidence_fields() -> None:
+    article = Article(
+        id='prov-1',
+        title='Practical coding agent workflow guide',
+        url='https://example.com/workflow-guide',
+        summary='Hands-on implementation with benchmark and repo details.',
+        source_name='Example',
+        source_type='rss',
+        domain='example.com',
+        published_at=datetime(2026, 3, 4, 10, 0, tzinfo=timezone.utc),
+        priority=6.0,
+        section_hint='business',
+        metrics={'points': 35.0},
+    )
+    score_articles([article], feed_dt=datetime(2026, 3, 4, 12, 0, tzinfo=timezone.utc))
+    assert 0.0 <= article.source_quality_score <= 10.0
+    assert 0.0 <= article.recency_score <= 10.0
+    assert 0.0 <= article.novelty_score <= 10.0
+    assert 0.0 <= article.confidence_score <= 10.0

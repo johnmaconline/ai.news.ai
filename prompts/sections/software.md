@@ -7,3 +7,4 @@ Writing guidance:
 - Highlight specific tools, skills, and step-by-step workflow patterns.
 - Surface what a developer can actually apply this week.
 - Favor concrete examples, benchmarks, repos, and reproducible techniques.
+- Exclude pure corporate announcements, funding rounds, and PR unless they include a practical developer workflow.

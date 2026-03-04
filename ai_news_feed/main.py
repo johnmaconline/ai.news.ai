@@ -123,6 +123,11 @@ def build_daily_feed(
             if added_count:
                 log.info('Persisted %s newly discovered source(s) to %s.', added_count, feeds_file)
 
+    first_seen_iso = utc_now_iso()
+    for article in articles:
+        if not article.first_seen_at:
+            article.first_seen_at = first_seen_iso
+
     sections = curate_sections(
         articles=articles,
         min_per_section=min_per_section,

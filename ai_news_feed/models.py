@@ -34,6 +34,17 @@ class Article:
     section_score: float = 0.0
     summary_text: str = ''
     why_it_matters: str = ''
+    who_should_care: str = ''
+    suggested_action: str = ''
+    time_to_implement: str = ''
+    evidence_quote: str = ''
+    inference_label: str = 'direct'
+    source_quality_score: float = 0.0
+    recency_score: float = 0.0
+    novelty_score: float = 0.0
+    confidence_score: float = 0.0
+    first_seen_at: str = ''
+    corroborating_urls: list[str] = field(default_factory=list)
 
     def canonical_text(self) -> str:
         return f'{self.title}\n{self.summary}'.strip()
@@ -47,4 +58,3 @@ class DailyFeed:
     sections: dict[str, list[Article]]
     intro: str
     lead_story_id: str | None = None
-
