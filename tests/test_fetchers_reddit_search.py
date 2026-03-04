@@ -13,6 +13,7 @@ class _Response:
     def __init__(self, status_code: int, payload: dict) -> None:
         self.status_code = status_code
         self._payload = payload
+        self.content = b''
 
     def json(self) -> dict:
         return self._payload
@@ -66,3 +67,50 @@ def test_fetch_reddit_search_source_parses_posts(monkeypatch) -> None:
     assert article.source_name == 'r/ChatGPTCoding'
     assert article.url.startswith('https://www.reddit.com/r/ChatGPTCoding/comments/abc123/')
     assert article.metrics.get('subreddit_subscribers') == 54321.0
+
+
+def test_fetch_reddit_search_source_uses_rss_fallback_on_forbidden(monkeypatch) -> None:
+    rss_payload = b"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Reddit Search</title>
+    <item>
+      <title>Fallback Reddit item</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/abc123/fallback_reddit_item/</link>
+      <description>Fallback body</description>
+      <pubDate>Wed, 04 Mar 2026 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
+"""
+
+    def _fake_get(endpoint: str, headers=None, params=None, timeout: int = 20):
+        del headers, timeout
+        if endpoint == 'https://www.reddit.com/search.json':
+            return _Response(403, {})
+        if endpoint == 'https://www.reddit.com/search.rss':
+            response = _Response(200, {})
+            response.content = rss_payload
+            return response
+        return _Response(404, {})
+
+    monkeypatch.setattr(fetchers.requests, 'get', _fake_get)
+
+    source = {
+        'id': 'reddit-ai-workflows-search',
+        'type': 'reddit-search',
+        'name': 'Reddit AI Workflow Search',
+        'query': 'ai workflow',
+        'sort': 'new',
+        'time': 'day',
+        'max_items': 25,
+        'section_hint': 'under-the-radar',
+        'tags': ['under-the-radar', 'reddit'],
+        'priority': 6.0,
+    }
+    articles = fetchers.fetch_reddit_search_source(source)
+
+    assert len(articles) == 1
+    article = articles[0]
+    assert article.source_type == 'reddit'
+    assert article.url.startswith('https://www.reddit.com/r/LocalLLaMA/comments/abc123/')

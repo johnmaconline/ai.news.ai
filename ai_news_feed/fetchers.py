@@ -72,6 +72,8 @@ AUTO_DISCOVER_REDDIT_EXCLUDED_SUBREDDITS = {
     'announcements',
     'news',
 }
+
+_LINKEDIN_PROFILE_URN_HINT_LOGGED = False
 WEB_DISCOVERY_QUERIES = {
     'big-announcements': [
         'AI layoffs announced',
@@ -546,6 +548,11 @@ def _parse_feed_url_with_timeout(url: str, timeout: int = 20):
     if response.status_code >= 400:
         return None
     return feedparser.parse(response.content)
+
+
+def _is_autodiscovered_source(source: dict) -> bool:
+    tags = set(source.get('tags') or [])
+    return 'autodiscovered' in tags or str(source.get('id') or '').startswith('feeds-md-autodiscovered-')
 
 
 def _search_google_news_candidates(
@@ -1119,10 +1126,16 @@ def fetch_rss_source(source: dict) -> list[Article]:
     max_items = int(source.get('max_items', 20))
     parsed = _parse_feed_url_with_timeout(url, timeout=20)
     if parsed is None:
-        log.warning('RSS fetch failed for %s', source.get('id'))
+        if _is_autodiscovered_source(source):
+            log.info('RSS fetch failed for auto-discovered source %s', source.get('id'))
+        else:
+            log.warning('RSS fetch failed for %s', source.get('id'))
         return []
     if getattr(parsed, 'bozo', False):
-        log.warning('RSS parse warning for %s', source.get('id'))
+        if _is_autodiscovered_source(source):
+            log.info('RSS parse warning for auto-discovered source %s', source.get('id'))
+        else:
+            log.warning('RSS parse warning for %s', source.get('id'))
     articles: list[Article] = []
     for entry in parsed.entries[:max_items]:
         title = entry.get('title', '').strip()
@@ -1233,9 +1246,15 @@ def fetch_reddit_search_source(source: dict) -> list[Article]:
     try:
         response = requests.get(endpoint, headers=headers, params=params, timeout=20)
     except requests.RequestException:
+        fallback_articles = _fetch_reddit_search_rss_fallback(source, max_items=max_items)
+        if fallback_articles:
+            return fallback_articles
         log.warning('Reddit source %s request failed.', source.get('id'))
         return []
     if response.status_code >= 400:
+        fallback_articles = _fetch_reddit_search_rss_fallback(source, max_items=max_items)
+        if fallback_articles:
+            return fallback_articles
         log.warning('Reddit source %s request failed (%s).', source.get('id'), response.status_code)
         return []
 
@@ -1308,6 +1327,65 @@ def _parse_datetime_value(value: str | int | float | dict | None) -> datetime | 
         except ValueError:
             return None
     return None
+
+
+def _fetch_reddit_search_rss_fallback(source: dict, max_items: int) -> list[Article]:
+    if requests is None or feedparser is None:
+        return []
+    query = (source.get('query') or '').strip()
+    if not query:
+        return []
+    rss_url = 'https://www.reddit.com/search.rss'
+    params = {
+        'q': query,
+        'sort': source.get('sort') or 'new',
+        't': source.get('time') or 'day',
+    }
+    try:
+        response = requests.get(
+            rss_url,
+            params=params,
+            headers={'User-Agent': USER_AGENT},
+            timeout=20,
+        )
+    except requests.RequestException:
+        return []
+    if response.status_code >= 400:
+        return []
+    parsed = feedparser.parse(response.content)
+    if not parsed.entries:
+        return []
+    articles: list[Article] = []
+    for entry in parsed.entries[:max_items]:
+        title = strip_html((entry.get('title') or '').strip())
+        link = canonicalize_url((entry.get('link') or '').strip())
+        if not title or not link:
+            continue
+        summary = strip_html(entry.get('summary') or entry.get('description') or title)
+        published_at = _parse_datetime_value(
+            entry.get('published')
+            or entry.get('updated')
+            or entry.get('pubDate')
+        )
+        article = _make_article(
+            source=source,
+            title=title,
+            url=link,
+            summary=summary,
+            published_at=published_at,
+            metrics={},
+        )
+        article.source_type = 'reddit'
+        article.source_name = source.get('name', 'Reddit Search')
+        articles.append(article)
+    if articles:
+        log.info(
+            'Reddit source %s using RSS fallback (%s) yielded %s item(s).',
+            source.get('id'),
+            rss_url,
+            len(articles),
+        )
+    return articles
 
 
 def _build_social_title(prefix: str, content: str, max_chars: int = 120) -> str:
@@ -1475,10 +1553,10 @@ def fetch_x_source(source: dict) -> list[Article]:
     }
     response = requests.get(endpoint, headers=headers, params=params, timeout=20)
     if response.status_code >= 400:
-        log.warning('X source %s request failed (%s).', source.get('id'), response.status_code)
         fallback_articles = _fetch_x_rss_fallback(source, max_items)
         if fallback_articles:
             return fallback_articles
+        log.warning('X source %s request failed (%s).', source.get('id'), response.status_code)
         return []
 
     payload = response.json() or {}
@@ -1562,24 +1640,26 @@ def _extract_linkedin_profile_slug(profile_url: str) -> str:
 
 
 def _warn_linkedin_profile_requires_urn(source: dict) -> None:
+    global _LINKEDIN_PROFILE_URN_HINT_LOGGED
     profile_url = (source.get('profile_url') or '').strip()
     if not profile_url:
         return
+    if _LINKEDIN_PROFILE_URN_HINT_LOGGED:
+        log.debug('LinkedIn source %s skipped: missing author_urn for %s', source.get('id'), profile_url)
+        return
+    _LINKEDIN_PROFILE_URN_HINT_LOGGED = True
     slug = _extract_linkedin_profile_slug(profile_url)
     if slug:
         log.warning(
-            'LinkedIn source %s has profile URL %s but no author_urn. '
-            'Add metadata in feeds.md as: "%s | author_urn=urn:li:person:..." to enable ingestion.',
-            source.get('id'),
-            profile_url,
+            'LinkedIn profile sources in feeds.md are missing author_urn metadata. '
+            'Example format: "%s | author_urn=urn:li:person:..." '
+            '(or organization URN for company pages).',
             profile_url,
         )
         return
     log.warning(
-        'LinkedIn source %s has profile URL %s but no author_urn. '
-        'Add author_urn metadata in feeds.md to enable ingestion.',
-        source.get('id'),
-        profile_url,
+        'LinkedIn profile sources in feeds.md are missing author_urn metadata. '
+        'Add author_urn metadata to enable ingestion.',
     )
 
 

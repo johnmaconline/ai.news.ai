@@ -48,9 +48,16 @@ if not any(isinstance(handler, logging.FileHandler) for handler in log.handlers)
     log.addHandler(fh)
 
 root_log = logging.getLogger()
-root_log.setLevel(logging.DEBUG)
+root_log.setLevel(logging.INFO)
 if not any(isinstance(handler, logging.FileHandler) for handler in root_log.handlers):
     root_log.addHandler(fh)
+
+# Avoid noisy and occasionally fragile debug traces from third-party transport loggers.
+for _logger_name in ('httpcore', 'httpx', 'openai'):
+    logging.getLogger(_logger_name).setLevel(logging.WARNING)
+
+# Do not emit logging-internal tracebacks to stderr in production runs.
+logging.raiseExceptions = False
 
 
 # ****************************************************************************************
@@ -174,10 +181,13 @@ def handle_args() -> argparse.Namespace:
     ch = logging.StreamHandler(sys.stdout)
     if args.verbose:
         ch.setLevel(logging.DEBUG)
+        root_log.setLevel(logging.DEBUG)
     elif args.quiet:
         ch.setLevel(logging.ERROR)
+        root_log.setLevel(logging.ERROR)
     else:
         ch.setLevel(logging.INFO)
+        root_log.setLevel(logging.INFO)
     ch.setFormatter(formatter)
     log.addHandler(ch)
     root_log.addHandler(ch)
