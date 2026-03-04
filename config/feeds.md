@@ -128,6 +128,8 @@ Format:
 - https://www.mckinsey.com/rss | name=McKinsey Insights & Publications | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
 - https://www.sitepoint.com/feed | name=SitePoint | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 - https://siliconangle.com/feed/ | name=SiliconANGLE | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+
+- https://tldr.tech/rss | name=TLDR RSS Feed | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
 ## 2. LinkedIN users
 
 - https://www.linkedin.com/in/emollick/ | name=Ethan Mollick | section=product-development | tags=product-development,under-the-radar,social
