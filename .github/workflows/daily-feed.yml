@@ -18,6 +18,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     env:
       FEED_TIMEZONE: America/New_York
     environment:
@@ -58,6 +59,7 @@ jobs:
 
       - name: Generate Daily Feed
         if: steps.schedule_gate.outputs.run == 'true'
+        timeout-minutes: 20
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
@@ -74,7 +76,11 @@ jobs:
           AUTO_DISCOVER_WEB_MAX_CANDIDATES: "100"
           AUTO_DISCOVER_MAX_NEW_FEEDS: "10"
           AUTO_DISCOVER_MAX_DOMAINS: "80"
+          AUTO_DISCOVER_MAX_DOMAIN_ATTEMPTS: "30"
           AUTO_DISCOVER_MIN_FEED_ENTRIES: "5"
+          AUTO_DISCOVER_HTTP_TIMEOUT_SECONDS: "8"
+          AUTO_DISCOVER_PATH_GUESS_LIMIT: "4"
+          AUTO_DISCOVER_MAX_FEED_CANDIDATE_URLS: "12"
         run: python -m ai_news_feed.main --output-dir site
 
       - name: Commit Generated Site

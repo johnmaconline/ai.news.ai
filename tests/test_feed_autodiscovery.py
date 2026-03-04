@@ -155,3 +155,33 @@ def test_persist_discovered_registry_sources_appends_new_url(tmp_path: Path) -> 
     assert 'https://new.example/feed' in content
     assert 'discovered=auto' in content
     assert content.count('https://existing.example/feed.xml') == 1
+
+
+def test_discover_registry_url_sources_respects_domain_attempt_limit(monkeypatch) -> None:
+    attempts = {'count': 0}
+
+    def _fake_discover(base_url: str, min_entries: int) -> tuple[str, str] | None:
+        del base_url, min_entries
+        attempts['count'] += 1
+        return None
+
+    monkeypatch.setenv('AUTO_DISCOVER_FEEDS', '1')
+    monkeypatch.setenv('AUTO_DISCOVER_MAX_DOMAIN_ATTEMPTS', '5')
+    monkeypatch.setattr(fetchers, '_discover_feed_url_for_base_url', _fake_discover)
+
+    discovered = fetchers.discover_registry_url_sources(
+        articles=[],
+        sources=[],
+        external_candidates=[
+            ('https://one.example/', 'one.example', 'engineering', 7.0),
+            ('https://two.example/', 'two.example', 'engineering', 6.9),
+            ('https://three.example/', 'three.example', 'engineering', 6.8),
+            ('https://four.example/', 'four.example', 'engineering', 6.7),
+            ('https://five.example/', 'five.example', 'engineering', 6.6),
+            ('https://six.example/', 'six.example', 'engineering', 6.5),
+            ('https://seven.example/', 'seven.example', 'engineering', 6.4),
+        ],
+    )
+
+    assert discovered == []
+    assert attempts['count'] == 5

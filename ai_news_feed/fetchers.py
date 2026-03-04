@@ -529,6 +529,25 @@ def _resolve_candidate_base(url: str) -> tuple[str, str] | None:
     return f'{parsed.scheme}://{domain}/', domain
 
 
+def _parse_feed_url_with_timeout(url: str, timeout: int = 20):
+    if feedparser is None:
+        return None
+    if requests is None:
+        return feedparser.parse(url, agent=USER_AGENT)
+
+    headers = {
+        'User-Agent': USER_AGENT,
+        'Accept': 'application/rss+xml,application/atom+xml,application/xml,text/xml;q=0.9,*/*;q=0.5',
+    }
+    try:
+        response = requests.get(url, headers=headers, timeout=(5, timeout))
+    except requests.RequestException:
+        return None
+    if response.status_code >= 400:
+        return None
+    return feedparser.parse(response.content)
+
+
 def _search_google_news_candidates(
     section_slug: str,
     query: str,
@@ -542,7 +561,9 @@ def _search_google_news_candidates(
         f'https://news.google.com/rss/search?q={encoded_query}'
         '&hl=en-US&gl=US&ceid=US:en'
     )
-    parsed = feedparser.parse(rss_url, agent=USER_AGENT)
+    parsed = _parse_feed_url_with_timeout(rss_url, timeout=15)
+    if parsed is None:
+        return []
     rows: list[tuple[str, str, str, float]] = []
     for entry in parsed.entries[:max_results]:
         source = entry.get('source') or {}
@@ -688,10 +709,12 @@ def _extract_feed_links_from_html(html: str, page_url: str) -> list[str]:
     return links
 
 
-def _validate_feed_url(url: str, min_entries: int) -> tuple[str, str] | None:
+def _validate_feed_url(url: str, min_entries: int, timeout: int = 15) -> tuple[str, str] | None:
     if feedparser is None:
         return None
-    parsed = feedparser.parse(url, agent=USER_AGENT)
+    parsed = _parse_feed_url_with_timeout(url, timeout=timeout)
+    if parsed is None:
+        return None
     status = getattr(parsed, 'status', None)
     if status is not None and int(status) >= 400:
         return None
@@ -708,7 +731,26 @@ def _validate_feed_url(url: str, min_entries: int) -> tuple[str, str] | None:
 def _discover_feed_url_for_base_url(base_url: str, min_entries: int) -> tuple[str, str] | None:
     if requests is None:
         return None
-    direct_validated = _validate_feed_url(base_url, min_entries=min_entries)
+    discovery_timeout = _safe_env_int(
+        'AUTO_DISCOVER_HTTP_TIMEOUT_SECONDS',
+        default=8,
+        minimum=3,
+        maximum=30,
+    )
+    path_guess_limit = _safe_env_int(
+        'AUTO_DISCOVER_PATH_GUESS_LIMIT',
+        default=4,
+        minimum=1,
+        maximum=len(AUTO_DISCOVER_PATH_GUESSES),
+    )
+    max_candidate_urls = _safe_env_int(
+        'AUTO_DISCOVER_MAX_FEED_CANDIDATE_URLS',
+        default=12,
+        minimum=3,
+        maximum=50,
+    )
+
+    direct_validated = _validate_feed_url(base_url, min_entries=min_entries, timeout=discovery_timeout)
     if direct_validated:
         return direct_validated
     headers = {
@@ -718,7 +760,7 @@ def _discover_feed_url_for_base_url(base_url: str, min_entries: int) -> tuple[st
     candidate_urls: list[str] = []
     page_url = base_url
     try:
-        response = requests.get(base_url, headers=headers, timeout=12)
+        response = requests.get(base_url, headers=headers, timeout=(5, discovery_timeout))
         if response.status_code < 400:
             page_url = response.url or base_url
             candidate_urls.extend(_extract_feed_links_from_html(response.text[:400000], page_url))
@@ -730,15 +772,17 @@ def _discover_feed_url_for_base_url(base_url: str, min_entries: int) -> tuple[st
     domain = parsed.netloc.lower()
     if not domain:
         return None
-    for path in AUTO_DISCOVER_PATH_GUESSES:
+    for path in AUTO_DISCOVER_PATH_GUESSES[:path_guess_limit]:
         candidate_urls.append(canonicalize_url(f'{scheme}://{domain}{path}'))
 
     seen: set[str] = set()
     for candidate in candidate_urls:
+        if len(seen) >= max_candidate_urls:
+            break
         if not candidate or candidate in seen:
             continue
         seen.add(candidate)
-        validated = _validate_feed_url(candidate, min_entries=min_entries)
+        validated = _validate_feed_url(candidate, min_entries=min_entries, timeout=discovery_timeout)
         if validated:
             return validated
     return None
@@ -825,6 +869,12 @@ def discover_registry_url_sources(
 
     max_domains = _safe_env_int('AUTO_DISCOVER_MAX_DOMAINS', default=40, minimum=5, maximum=200)
     max_new_feeds = _safe_env_int('AUTO_DISCOVER_MAX_NEW_FEEDS', default=8, minimum=1, maximum=50)
+    max_domain_attempts = _safe_env_int(
+        'AUTO_DISCOVER_MAX_DOMAIN_ATTEMPTS',
+        default=min(max_domains, 30),
+        minimum=5,
+        maximum=500,
+    )
     min_entries = _safe_env_int('AUTO_DISCOVER_MIN_FEED_ENTRIES', default=5, minimum=1, maximum=100)
 
     existing_urls: set[str] = set()
@@ -858,9 +908,13 @@ def discover_registry_url_sources(
             merged_candidates[domain] = (base_url, domain, section_hint, max_priority)
 
     candidates = sorted(merged_candidates.values(), key=lambda item: item[3], reverse=True)
+    domain_attempts = 0
     for base_url, domain, section_hint, max_priority in candidates:
         if len(discovered) >= max_new_feeds:
             break
+        if domain_attempts >= max_domain_attempts:
+            break
+        domain_attempts += 1
         discovered_feed = _discover_feed_url_for_base_url(base_url, min_entries=min_entries)
         if not discovered_feed:
             continue
@@ -888,6 +942,11 @@ def discover_registry_url_sources(
 
     if discovered:
         log.info('Auto-discovery found %s new RSS source(s).', len(discovered))
+    if domain_attempts >= max_domain_attempts and len(discovered) < max_new_feeds:
+        log.info(
+            'Auto-discovery stopped after %s domain attempt(s) (limit reached).',
+            domain_attempts,
+        )
     return discovered
 
 
@@ -1058,7 +1117,10 @@ def fetch_rss_source(source: dict) -> list[Article]:
     if not url:
         return []
     max_items = int(source.get('max_items', 20))
-    parsed = feedparser.parse(url, agent=USER_AGENT)
+    parsed = _parse_feed_url_with_timeout(url, timeout=20)
+    if parsed is None:
+        log.warning('RSS fetch failed for %s', source.get('id'))
+        return []
     if getattr(parsed, 'bozo', False):
         log.warning('RSS parse warning for %s', source.get('id'))
     articles: list[Article] = []
@@ -1130,7 +1192,10 @@ def fetch_arxiv_source(source: dict) -> list[Article]:
         'http://export.arxiv.org/api/query?'
         f'search_query={query}&sortBy=submittedDate&sortOrder=descending&start=0&max_results={max_items}'
     )
-    parsed = feedparser.parse(url, agent=USER_AGENT)
+    parsed = _parse_feed_url_with_timeout(url, timeout=20)
+    if parsed is None:
+        log.warning('arXiv source %s request failed.', source.get('id'))
+        return []
     articles: list[Article] = []
     for entry in parsed.entries:
         title = entry.get('title', '').strip()
