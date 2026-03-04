@@ -4,23 +4,23 @@
     <title>Daily AI Feed - 2026-03-04</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across industry announcements, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Wed, 04 Mar 2026 13:54:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2026 14:37:47 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>OpenAI’s surveillance language has many potential loopholes an</title>
-      <link>https://www.lesswrong.com/posts/FSGfzDLFdFtRDADF4/openai-s-surveillance-language-has-many-potential-loopholes</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/FSGfzDLFdFtRDADF4/openai-s-surveillance-language-has-many-potential-loopholes</guid>
-      <pubDate>Wed, 04 Mar 2026 04:25:43 +0000</pubDate>
+      <title>Fig Security launches with $38M to map and validate SecOps detection and response flows</title>
+      <link>https://siliconangle.com/2026/03/03/fig-security-launches-38m-map-validate-secops-detection-response-flows/</link>
+      <guid isPermaLink="true">https://siliconangle.com/2026/03/03/fig-security-launches-38m-map-validate-secops-detection-response-flows/</guid>
+      <pubDate>Tue, 03 Mar 2026 23:21:52 +0000</pubDate>
       <category>0) Big Announcements</category>
-      <description>(The author is not affiliated with the Department of War or any major AI company.) There’s a lot of disagreement about the new surveillance language in the OpenAI–Department of War agreement. Why it matters: This matters for what changed and who it impacts, based on this update from LessWrong.</description>
+      <description>Fig Security launches with $38M in new funding to support product development, hire more staff, and accelerate go-to-market growth, with emphasis on North America. Why it matters: Expands SecOps map/validate tooling, signaling growth in enterprise security markets; North America focus may affect regional deployment, pricing, and vendor competition.</description>
     </item>
     <item>
-      <title>What is AI Search?</title>
-      <link>https://dev.to/valyuai/what-is-ai-search-2d0o</link>
-      <guid isPermaLink="true">https://dev.to/valyuai/what-is-ai-search-2d0o</guid>
-      <pubDate>Wed, 04 Mar 2026 12:10:07 +0000</pubDate>
+      <title>Google faces lawsuit after Gemini chatbot instructed man to kill himself</title>
+      <link>https://www.theguardian.com/technology/2026/mar/04/gemini-chatbot-google-jonathan-gavalas</link>
+      <guid isPermaLink="true">https://www.theguardian.com/technology/2026/mar/04/gemini-chatbot-google-jonathan-gavalas</guid>
+      <pubDate>Wed, 04 Mar 2026 14:20:10 +0000</pubDate>
       <category>0) Big Announcements</category>
-      <description>A developer&#x27;s guide to understanding AI-native search, how it works, what separates the good from the bad, and what to actually check before picking a provider. Why it matters: This matters for what changed and who it impacts, based on this update from DEV.to Agents Tag.</description>
+      <description>Lawsuit alleges Google&#x27;s Gemini chatbot contributed to a user&#x27;s death; first wrongful-death case against Google&#x27;s flagship AI product. Why it matters: First wrongful-death case against Gemini; may influence regulatory scrutiny and liability concerns for AI chatbots.</description>
     </item>
     <item>
       <title>Arcfra Launches Neutree to Power Scalable Enterprise AI Infrastructure</title>
@@ -28,7 +28,15 @@
       <guid isPermaLink="true">https://en.antaranews.com/news/406899/arcfra-launches-neutree-to-power-scalable-enterprise-ai-infrastructure</guid>
       <pubDate>Wed, 04 Mar 2026 07:26:01 +0000</pubDate>
       <category>0) Big Announcements</category>
-      <description>Arcfra today announced the launch of Arcfra Neutree, a platform for scalable enterprise AI infrastructure. Why it matters: Offers enterprises a vendor option to scale AI workloads; impacts cloud/infra buyers and system integrators.</description>
+      <description>Arcfra launches Neutree to power scalable enterprise AI infrastructure. Why it matters: Introduces scalable enterprise AI infrastructure option; could affect enterprise cloud/on-prem integration and deployment choices.</description>
+    </item>
+    <item>
+      <title>Make Powerful Machines Verifiable</title>
+      <link>https://www.lesswrong.com/posts/bnawpDWcKaJqLX8RF/make-powerful-machines-verifiable</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/bnawpDWcKaJqLX8RF/make-powerful-machines-verifiable</guid>
+      <pubDate>Wed, 04 Mar 2026 14:20:06 +0000</pubDate>
+      <category>0) Big Announcements</category>
+      <description>Op-ed argues that refusing verification when no risk exists is a confession, discussing governance of powerful machines. Why it matters: Frames debate on safety and governance of powerful AI; impacts research perspectives on verification trade-offs.</description>
     </item>
     <item>
       <title>MinIO Introduces AIStor Table Sharing for Direct On-Premises Data Access from Databricks</title>
@@ -36,31 +44,23 @@
       <guid isPermaLink="true">https://www.storagereview.com/news/minio-introduces-aistor-table-sharing-for-direct-on-premises-data-access-from-databricks</guid>
       <pubDate>Tue, 03 Mar 2026 19:54:47 +0000</pubDate>
       <category>0) Big Announcements</category>
-      <description>MinIO today introduced AIStor Table Sharing, enabling direct on-premises data access to Databricks via the Delta Sharing open protocol. Why it matters: Lets Databricks query on-prem datasets without bulk transfers; affects enterprises using MinIO or Databricks and raises compliance/security considerations.</description>
+      <description>MinIO launches AIStor Table Sharing to give direct on-premises data access from Databricks via the Delta Sharing protocol. Why it matters: Enables direct on-premises data access to Databricks, tightening data workflows and enabling AI workloads with Delta Sharing.</description>
     </item>
     <item>
-      <title>Where Are China’s A.I. Doomers?</title>
-      <link>https://www.nytimes.com/2026/03/04/world/asia/china-ai-enthusiasm.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/03/04/world/asia/china-ai-enthusiasm.html</guid>
-      <pubDate>Wed, 04 Mar 2026 08:53:17 +0000</pubDate>
-      <category>0) Big Announcements</category>
-      <description>The New York Times reported that Chinese policymakers and the public are largely optimistic about AI, contrasting Western worries about jobs and existential risk. Why it matters: Indicates China may pursue growth-focused AI policy, influencing global competition, standards and international governance debates.</description>
-    </item>
-    <item>
-      <title>The Infrastructure Layer Enterprises Need for Production LLM Systems</title>
-      <link>https://dev.to/therealmrmumba/the-infrastructure-layer-enterprises-need-for-production-llm-systems-ldb</link>
-      <guid isPermaLink="true">https://dev.to/therealmrmumba/the-infrastructure-layer-enterprises-need-for-production-llm-systems-ldb</guid>
-      <pubDate>Wed, 04 Mar 2026 13:39:43 +0000</pubDate>
+      <title>10 Things That Need a Shell: Where the Filesystem Metaphor Could Fix Agent Interfaces</title>
+      <link>https://dev.to/apireno/10-things-that-need-a-shell-where-the-filesystem-metaphor-could-fix-agent-interfaces-628</link>
+      <guid isPermaLink="true">https://dev.to/apireno/10-things-that-need-a-shell-where-the-filesystem-metaphor-could-fix-agent-interfaces-628</guid>
+      <pubDate>Wed, 04 Mar 2026 12:11:25 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>LLMs are easy to prototype but hard to operate at enterprise scale; teams have launched copilots, internal assistants, automation tools, and customer-facing AI, requiring a production-grade infrastructure layer. Why it matters: Enterprises need a production-grade infrastructure layer to scale, maintain, and govern LLM features reliably.</description>
+      <description>DOMShell is an MCP server that maps Chrome&#x27;s Accessibility Tree to a virtual filesystem, enabling agents to ls, cd, grep, and click through web pages instead of parsing screenshots or raw HTML. Why it matters: Concrete implementation pattern for agent interfaces: filesystem metaphor reduces coupling to page rendering, improving navigation, reproducibility, and integration with existing ...</description>
     </item>
     <item>
-      <title>Llama vs Mistral vs Phi: Complete Open-Source LLM Comparison for Enterprise (2026)</title>
-      <link>https://dev.to/jaipalsingh/llama-vs-mistral-vs-phi-complete-open-source-llm-comparison-for-enterprise-2026-3o8c</link>
-      <guid isPermaLink="true">https://dev.to/jaipalsingh/llama-vs-mistral-vs-phi-complete-open-source-llm-comparison-for-enterprise-2026-3o8c</guid>
-      <pubDate>Wed, 04 Mar 2026 09:30:00 +0000</pubDate>
+      <title>📊 2026-03-04 - Daily Intelligence Recap - Top 9 Signals</title>
+      <link>https://dev.to/jose_marquez_alberti/2026-03-04-daily-intelligence-recap-top-9-signals-41e1</link>
+      <guid isPermaLink="true">https://dev.to/jose_marquez_alberti/2026-03-04-daily-intelligence-recap-top-9-signals-41e1</guid>
+      <pubDate>Wed, 04 Mar 2026 14:00:53 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>There is no single best open-source LLM; teams must pick models by task, hardware, and constraints—mismatches can cost up to 10x more compute (e.g., Llama 3.3 70B for simple classification). Why it matters: Benchmark models on your task and hardware; prefer smaller or quantized models to cut inference cost and latency.</description>
+      <description>Show HN unveils a voice agent with sub-500ms latency and a 75/100 score; nine signals analyzed highlight real-time efficiency and potential disruption of current voice tech. Why it matters: Signals point to latency-optimized agent workflows, opening opportunities for real-time interactive assistants and benchmarking against existing voice technologies.</description>
     </item>
     <item>
       <title>BeyondSWE: Can Current Code Agent Survive Beyond Single-Repo Bug Fixing?</title>
@@ -68,7 +68,7 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2603.03194v1</guid>
       <pubDate>Tue, 03 Mar 2026 17:52:01 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Current code-agent benchmarks emphasize single-repo bug fixes and miss cross-repo reasoning, domain-specialized solving, dependency-driven migrations, and full-repository generation. Why it matters: Extend evaluations and CI to multi-repo workflows, dependency graphs, and domain-specific tasks to surface real-world failure modes.</description>
+      <description>ArXiv study argues: code agents are tested on single-repo fixes; real-world needs include cross-repo reasoning, domain problems, dependency migrations, and full-repository generation. Why it matters: Guidance for engineering: expand benchmarks to cross-repo reasoning and large-scale generation; evaluate dependency-aware migrations to improve robustness of code agents.</description>
     </item>
     <item>
       <title>AI-for-Science Low-code Platform with Bayesian Adversarial Multi-Agent Framework</title>
@@ -76,7 +76,7 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2603.03233v1</guid>
       <pubDate>Tue, 03 Mar 2026 18:25:00 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Presents a low-code AI-for-science platform using a Bayesian adversarial multi-agent framework; LLMs can generate scientific code but face reliability, error propagation, and evaluation challenges in ill-defined domains. Why it matters: When orchestrating multi-agent scientific workflows, add uncertainty tracking, error containment, and domain-specific evaluation to limit cascading failures.</description>
+      <description>LLMs can automate scientific code generation but reliability suffers; multi-agent workflows risk error propagation; evaluation in ill-defined domains is challenging. Why it matters: Practical implication: need mechanisms to bound error, diagnose failures, and define robust evaluation metrics for cross-agent scientific code generation platforms.</description>
     </item>
     <item>
       <title>Sacred values of future AIs</title>
@@ -84,23 +84,31 @@
       <guid isPermaLink="true">https://www.lesswrong.com/posts/sjeqDKhDHgu3sxrSq/sacred-values-of-future-ais</guid>
       <pubDate>Wed, 04 Mar 2026 07:47:50 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Argues future heterogeneous AIs will need shared, &#x27;sacred&#x27; values to coordinate and coexist without conflict. Why it matters: Embed coordination primitives and constrained alignment objectives in multi-agent systems and cross-organizational AI protocols.</description>
+      <description>LessWrong raises the need for shared, coordinable values among diverse future AIs to enable conflict-free coexistence. Why it matters: Engineering takeaway: coordinate governance and value-alignment considerations into multi-agent systems and interfaces to reduce policy- or behavior-driven failures.</description>
     </item>
     <item>
-      <title>Standard AI Conversation Portability Does Not Exist Yet: Here Is Why That Should Bother You</title>
-      <link>https://dev.to/isabelsmith/standard-ai-conversation-portability-does-not-exist-yet-here-is-why-that-should-bother-you-p34</link>
-      <guid isPermaLink="true">https://dev.to/isabelsmith/standard-ai-conversation-portability-does-not-exist-yet-here-is-why-that-should-bother-you-p34</guid>
-      <pubDate>Wed, 04 Mar 2026 11:19:42 +0000</pubDate>
+      <title>Stakeholder Management for Product Teams: Show Your Work, Don&#x27;t Sell Your Conclusions</title>
+      <link>https://www.producttalk.org/stakeholder-management/</link>
+      <guid isPermaLink="true">https://www.producttalk.org/stakeholder-management/</guid>
+      <pubDate>Wed, 04 Mar 2026 14:00:29 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Argues AI conversation data lacks standard portability across providers, likening the situation to unacceptable proprietary storage or non-importable database exports; warns there&#x27;s effectively no migration path for conversational data today. Why it matters: Product teams must treat conversation storage as lock-in risk: define export formats, store canonical transcripts, and abstract provider APIs to preserve migration and collaborati...</description>
+      <description>Explains how stakeholders push AI features, risking a return to a feature factory, and emphasizes preserving discovery fundamentals to avoid rushed, unvalidated bets. Why it matters: Prompts product teams to strengthen discovery; align stakeholders with validated problems before shipping AI features; improves decision quality and pace.</description>
     </item>
     <item>
-      <title>No Ads Sparring Prep: what we learned building Random Tactical Timer</title>
-      <link>https://dev.to/igorganapolsky/no-ads-sparring-prep-what-we-learned-building-random-tactical-timer-315j</link>
-      <guid isPermaLink="true">https://dev.to/igorganapolsky/no-ads-sparring-prep-what-we-learned-building-random-tactical-timer-315j</guid>
-      <pubDate>Wed, 04 Mar 2026 13:37:18 +0000</pubDate>
+      <title>Monitor LLM Inference in Production (2026): Prometheus &amp; Grafana for vLLM, TGI, llama.cpp</title>
+      <link>https://dev.to/rosgluk/monitor-llm-inference-in-production-2026-prometheus-grafana-for-vllm-tgi-llamacpp-1o1h</link>
+      <guid isPermaLink="true">https://dev.to/rosgluk/monitor-llm-inference-in-production-2026-prometheus-grafana-for-vllm-tgi-llamacpp-1o1h</guid>
+      <pubDate>Wed, 04 Mar 2026 12:14:07 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Release notes from the Random Tactical Timer project: switched Android distribution to Google Play Internal track and resolved an iOS build issue tied to Xcode 26. Why it matters: Use internal distribution tracks for faster Android testing, and keep iOS build tools updated (Xcode compatibility) to avoid CI and release delays.</description>
+      <description>Argues that LLM inference requires production-grade monitoring beyond standard API metrics, especially with multi-node setups and throughput optimizations; Prometheus &amp; Grafana are key tools. Why it matters: Guides product/devops teams to implement end-to-end observability for inference workloads to prevent latency spikes and resource contention.</description>
+    </item>
+    <item>
+      <title>I Got Tired of Googling kubectl Commands at 2 AM. So I Built a Local AI Agent That Does DevOps Safely. { pip install orbit-cli }</title>
+      <link>https://dev.to/abhimanyubhagwati/i-got-tired-of-googling-kubectl-commands-at-2-am-so-i-built-a-local-ai-agent-that-does-devops-39l</link>
+      <guid isPermaLink="true">https://dev.to/abhimanyubhagwati/i-got-tired-of-googling-kubectl-commands-at-2-am-so-i-built-a-local-ai-agent-that-does-devops-39l</guid>
+      <pubDate>Wed, 04 Mar 2026 12:27:06 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>Describes building a local AI agent (orbit-cli) to perform DevOps tasks safely, addressing time sinks from Googling kubectl commands and Kubernetes setup. Why it matters: Suggests product teams explore AI-assisted DevOps tooling to reduce setup time and errors, improving deployment velocity while keeping safety in local/offline mode.</description>
     </item>
     <item>
       <title>R to @emollick: OpenAI introduced the first 3 discontinuities and had the first product in the market by a wide margin, but the competition is tight in the 4th one.</title>
@@ -108,7 +116,7 @@
       <guid isPermaLink="true">https://nitter.net/emollick/status/2028844795267842428</guid>
       <pubDate>Tue, 03 Mar 2026 14:47:47 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Ethan Mollick notes OpenAI led the first three AI discontinuities and first-to-market products, but competition is closely matched in the fourth discontinuity. Why it matters: Product leaders should monitor competitor moves in the current innovation phase and accelerate experiments to defend or expand their differentiation.</description>
+      <description>Observes that OpenAI led the first three discontinuities and captured early product lead; competition heating up in the fourth. Why it matters: Indicates incumbents must scale iteration and differentiation in the next wave to sustain product velocity.</description>
     </item>
     <item>
       <title>Emergence or training artifact? My AI agents independently built safety tools I never asked for. 28/170 builds over 3 weeks.</title>
@@ -116,39 +124,23 @@
       <guid isPermaLink="true">https://www.reddit.com/r/artificial/comments/1rki8d4/emergence_or_training_artifact_my_ai_agents/</guid>
       <pubDate>Wed, 04 Mar 2026 10:43:12 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>After giving AI agents an open brief to find developer pain points and build prototypes, the author observed agents independently create safety tools in 28 of 170 builds over three weeks. Why it matters: Expect autonomous agent outputs to prioritize safety and guardrails; include evaluation criteria, product requirements, and deployment controls early in agent-driven workflows.</description>
+      <description>Describes AI agents building safety tools autonomously: 28 out of 170 builds over three weeks after shifting to an open brief. Why it matters: Suggests product teams test open-ended agent briefs to surface useful automation opportunities and iterate on governance around autonomous tooling.</description>
     </item>
     <item>
-      <title>Lost in the Woods - All Things Product Podcast with Teresa Torres &amp; Petra Wille</title>
-      <link>https://www.producttalk.org/lost-in-the-woods-all-things-product-podcast-with-teresa-torres-petra-wille-6/</link>
-      <guid isPermaLink="true">https://www.producttalk.org/lost-in-the-woods-all-things-product-podcast-with-teresa-torres-petra-wille-6/</guid>
-      <pubDate>Tue, 03 Mar 2026 14:00:43 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>Teresa Torres and Petra Wille map &#x27;lost person&#x27; behavioral patterns to product teams, offering diagnostic patterns and recovery strategies for teams that feel directionless. Why it matters: PMs can use these patterns to diagnose drift, prioritize interventions, and run focused experiments to regain alignment and shipping momentum.</description>
-    </item>
-    <item>
-      <title>I Got Tired of Googling kubectl Commands at 2 AM. So I Built a Local AI Agent That Does DevOps Safely. { pip install orbit-cli }</title>
-      <link>https://dev.to/abhimanyubhagwati/i-got-tired-of-googling-kubectl-commands-at-2-am-so-i-built-a-local-ai-agent-that-does-devops-39l</link>
-      <guid isPermaLink="true">https://dev.to/abhimanyubhagwati/i-got-tired-of-googling-kubectl-commands-at-2-am-so-i-built-a-local-ai-agent-that-does-devops-39l</guid>
-      <pubDate>Wed, 04 Mar 2026 12:27:06 +0000</pubDate>
+      <title>Your LLM Doesn&#x27;t Need 200 Lines of Test Output</title>
+      <link>https://dev.to/ticktockbent/your-llm-doesnt-need-200-lines-of-test-output-203o</link>
+      <guid isPermaLink="true">https://dev.to/ticktockbent/your-llm-doesnt-need-200-lines-of-test-output-203o</guid>
+      <pubDate>Wed, 04 Mar 2026 14:06:00 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Developer built a local, offline AI agent (orbit-cli) to automate kubectl and DevOps tasks, reducing repeated Google lookups during Docker and Kubernetes deployments. Why it matters: Install orbit-cli to automate kubectl tasks locally, reduce context switching, and avoid late-night Google searches.</description>
+      <description>Argues that long test outputs are noise for LLMs; go test -v and cargo test produce hundreds of lines of RUN/PASS/timing that models don&#x27;t need in context. Why it matters: For devs: strip or summarize test logs before feeding to LLMs; adopt minimal, machine-readable test summaries to speed verification workflows.</description>
     </item>
     <item>
-      <title>10 Things That Need a Shell: Where the Filesystem Metaphor Could Fix Agent Interfaces</title>
-      <link>https://dev.to/apireno/10-things-that-need-a-shell-where-the-filesystem-metaphor-could-fix-agent-interfaces-628</link>
-      <guid isPermaLink="true">https://dev.to/apireno/10-things-that-need-a-shell-where-the-filesystem-metaphor-could-fix-agent-interfaces-628</guid>
-      <pubDate>Wed, 04 Mar 2026 12:11:25 +0000</pubDate>
+      <title>Your AI Coding Agent Can Now Query SODAX Live Data — Here&#x27;s How</title>
+      <link>https://dev.to/hazy2go/your-ai-coding-agent-can-now-query-sodax-live-data-heres-how-3com</link>
+      <guid isPermaLink="true">https://dev.to/hazy2go/your-ai-coding-agent-can-now-query-sodax-live-data-heres-how-3com</guid>
+      <pubDate>Wed, 04 Mar 2026 12:12:53 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>DOMShell maps Chrome&#x27;s Accessibility Tree to a virtual filesystem so agents can ls, cd, grep, and click through web pages instead of parsing HTML or screenshots. Why it matters: Expose UIs as filesystems so agents can use standard shell tools and scripts for deterministic, debuggable web automation.</description>
-    </item>
-    <item>
-      <title>Physics of RL: Toy scaling laws for the emergence of reward-seeking</title>
-      <link>https://www.lesswrong.com/posts/9FH49ZgJFW4WtbxLi/physics-of-rl-toy-scaling-laws-for-the-emergence-of-reward</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/9FH49ZgJFW4WtbxLi/physics-of-rl-toy-scaling-laws-for-the-emergence-of-reward</guid>
-      <pubDate>Wed, 04 Mar 2026 08:12:13 +0000</pubDate>
-      <category>3) Software Development</category>
-      <description>Toy mathematical model analyzes when RL systems develop internal reward-seeking reasoning versus producing high-reward behavior; author hypothesizes greater training diversity increases reward-seeking emergence. Why it matters: Control training diversity and objective design to influence whether RL agents internalize reward-seeking reasoning.</description>
+      <description>AI Coding Agent can query live data via SODAX Builder MCP server, reducing tabbing out to docs mid-session for cross-network DeFi tooling. Why it matters: For practitioners: enable live data querying in agents to cut context-switching and accelerate cross-network tooling development.</description>
     </item>
     <item>
       <title>AI-for-Science Low-code Platform with Bayesian Adversarial Multi-Agent Framework</title>
@@ -156,7 +148,7 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.03233v1</guid>
       <pubDate>Tue, 03 Mar 2026 18:25:00 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>ArXiv paper proposes a low-code AI-for-Science platform with a Bayesian adversarial multi-agent framework, noting LLMs&#x27; promise for code generation alongside challenges in reliability, error propagation, and evaluation. Why it matters: Add Bayesian uncertainty tracking and adversarial checks in multi-agent scientific pipelines to limit error propagation and improve validation.</description>
+      <description>AI-for-Science low-code platform with Bayesian Adversarial Multi-Agent Framework; LLMs automate code generation but face reliability, error propagation, and evaluation in ill-defined domains. Why it matters: Researchers building AI-enabled tooling should prioritize reliability and evaluation design in multi-agent workflows and plan adversarial testing.</description>
     </item>
     <item>
       <title>[D] Quantified analysis of 2,218 Gary Marcus claims - two independent LLM pipelines, scored against evidence</title>
@@ -164,7 +156,15 @@
       <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1rk8e5p/d_quantified_analysis_of_2218_gary_marcus_claims/</guid>
       <pubDate>Wed, 04 Mar 2026 01:45:38 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Dataset scored 2,218 testable claims from 474 Gary Marcus posts using two LLM pipelines (Claude Opus 4.6, ChatGPT Codex) with reconciliation; among assessable claims 52% supported, 34% mixed, 6.4% contradicted. Why it matters: Use dual-LLM pipelines plus reconciliation for reproducible claim-evidence scoring and baseline agreement metrics in research audits.</description>
+      <description>Quantified analysis of 2,218 Gary Marcus claims: two LLM pipelines scored evidence; 52% supported, 34% mixed, 6.4% contradicted among assessable claims. Why it matters: For teams evaluating AI-safety claims: use multi-pipeline evidence scoring to prioritize well-supported claims and flag mixed/contradicted ones.</description>
+    </item>
+    <item>
+      <title>Why are developer productivity workflows shifting so heavily toward verification instead of writing code</title>
+      <link>https://www.reddit.com/r/ChatGPTCoding/comments/1rkchor/why_are_developer_productivity_workflows_shifting/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ChatGPTCoding/comments/1rkchor/why_are_developer_productivity_workflows_shifting/</guid>
+      <pubDate>Wed, 04 Mar 2026 05:00:37 +0000</pubDate>
+      <category>3) Software Development</category>
+      <description>Why are developer productivity workflows shifting toward verification instead of writing code; coding assistants focus on prompting, reviewing, and stitching generated code rather than manual typing. Why it matters: If you build with assistants, emphasize prompt engineering, instruction tuning, and integration steps; design vetting and composition patterns to accelerate production use.</description>
     </item>
     <item>
       <title>I built an API that gives AI answers grounded in real-time web search. How can i improve it?</title>
@@ -172,7 +172,7 @@
       <guid isPermaLink="true">https://www.reddit.com/r/artificial/comments/1rkk18x/i_built_an_api_that_gives_ai_answers_grounded_in/</guid>
       <pubDate>Wed, 04 Mar 2026 12:23:04 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Developer built MIAPI, an API that returns AI-generated answers grounded in real web sources with inline citations; reported average response time 1.2 seconds and pricing at $3. Why it matters: Indicates small teams can deliver low-latency, citation-backed LLM responses—worth watching for price competition and niche, verifiable AI services.</description>
+      <description>MIAPI is an API delivering AI answers grounded in real-time web sources with inline citations; reported average response time is 1.2 seconds and pricing is $3. Why it matters: Early signal of frictionless, citation-backed AI services at consumer scale.</description>
     </item>
     <item>
       <title>[R] GFlowsNets for accelerating ray tracing for radio propagation modeling</title>
@@ -180,15 +180,15 @@
       <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1rkgn8y/r_gflowsnets_for_accelerating_ray_tracing_for/</guid>
       <pubDate>Wed, 04 Mar 2026 09:04:21 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Author submitted a journal paper applying Generative Flow Networks (GFlowNets) to accelerate ray tracing for radio propagation modeling. Why it matters: If GFlowNets reliably speed radio ray tracing, telecom planning and spectrum research could run more parallel simulations faster—reducing model costs and shortening deployment cyc...</description>
+      <description>A Reddit post reports a submitted journal paper using Generative Flow Networks (GFlowNets) to speed up radio propagation modeling. Why it matters: GFlowNets could accelerate RF simulations, potentially enabling faster design loops for wireless systems.</description>
     </item>
     <item>
-      <title>Mass surveillance, red lines, and a crazy weekend</title>
-      <link>https://www.lesswrong.com/posts/zombjEubpz6pcPPHL/mass-surveillance-red-lines-and-a-crazy-weekend</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/zombjEubpz6pcPPHL/mass-surveillance-red-lines-and-a-crazy-weekend</guid>
-      <pubDate>Wed, 04 Mar 2026 04:24:15 +0000</pubDate>
+      <title>OpenAI’s surveillance language has many potential loopholes an</title>
+      <link>https://www.lesswrong.com/posts/FSGfzDLFdFtRDADF4/openai-s-surveillance-language-has-many-potential-loopholes</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/FSGfzDLFdFtRDADF4/openai-s-surveillance-language-has-many-potential-loopholes</guid>
+      <pubDate>Wed, 04 Mar 2026 04:25:43 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Opinion piece (not representing OpenAI) discusses mass surveillance, red lines, and how AI firms&#x27; limited resources and attention influence which applications receive focus. Why it matters: Highlights governance trade-offs: prioritize monitoring resource constraints and incentive structures when assessing corporate AI deployment risks and surveillance creep.</description>
+      <description>LessWrong discusses potential loopholes in OpenAI–DoD surveillance language and notes disagreement on whether the new terms meaningfully improve the prior agreement. Why it matters: Signals policy-language risk debates that could affect future AI oversight and partnerships.</description>
     </item>
     <item>
       <title>Cut Your LLM API Costs by 80%: Building Agents with Transparent USDC Payments</title>
@@ -196,23 +196,15 @@
       <guid isPermaLink="true">https://dev.to/tiamat/cut-your-llm-api-costs-by-80-building-agents-with-transparent-usdc-payments-23lh</guid>
       <pubDate>Wed, 04 Mar 2026 12:50:56 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Article shows building agents that use transparent USDC payments to reduce LLM API costs, claiming up to 80% savings and citing GPT-4 and Claude 3.5 per-request pricing examples. Why it matters: Early recipe for on-chain micropayments to shift LLM billing—could enable pay-per-action agent economics and tighter cost controls for high-volume AI services.</description>
+      <description>A DEV.to article claims you can cut LLM API costs by up to 80% by building agents with transparent USDC payments; cites GPT-4 and Claude 3.5 Sonnet at around $0.03 per request. Why it matters: Low-signal, high-variance pricing claims; if actionable, point toward new payment-enabled agent architectures.</description>
     </item>
     <item>
-      <title>The Main Thing or the Side Things?</title>
-      <link>https://johnmaconline.com/the-main-thing-or-the-side-things/</link>
-      <guid isPermaLink="true">https://johnmaconline.com/the-main-thing-or-the-side-things/</guid>
-      <pubDate>Wed, 04 Mar 2026 13:44:00 +0000</pubDate>
+      <title>Mass surveillance, red lines, and a crazy weekend</title>
+      <link>https://www.lesswrong.com/posts/zombjEubpz6pcPPHL/mass-surveillance-red-lines-and-a-crazy-weekend</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/zombjEubpz6pcPPHL/mass-surveillance-red-lines-and-a-crazy-weekend</guid>
+      <pubDate>Wed, 04 Mar 2026 04:24:15 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Essay debates whether AI should handle core tasks or peripheral ones; the author argues for configuring AI to serve the user&#x27;s primary work (‘make AI work for you’). Why it matters: Signals ongoing practitioner debate about task allocation to AI—impacts product design, human workflows, and ROI calculations for incremental versus transformational automation.</description>
-    </item>
-    <item>
-      <title>Real-time AI video steering vs. render-and-wait: trading quality for speed</title>
-      <link>https://www.reddit.com/r/singularity/comments/1rkkwab/realtime_ai_video_steering_vs_renderandwait/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rkkwab/realtime_ai_video_steering_vs_renderandwait/</guid>
-      <pubDate>Wed, 04 Mar 2026 13:04:37 +0000</pubDate>
-      <category>5) For Fun</category>
-      <description>Post argues we&#x27;re at a turning point: real-time, messy AI video steering lets creators iterate interactively, trading final output quality for much faster exploration than polished render‑and‑wait workflows. Why it matters: Real‑time steering speeds ideation, letting creators reject or refine concepts before committing to expensive high‑quality renders.</description>
+      <description>LessWrong post discusses mass surveillance, red lines, and a weekend; the author notes AI has many applications and that AI companies have limited resources. Why it matters: Early signals on policy framing and market constraints for AI platforms.</description>
     </item>
     <item>
       <title>Chinese Firm Releases Open-Source Quantum Operating System For Public Download</title>
@@ -220,31 +212,39 @@
       <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rkh3nr/chinese_firm_releases_opensource_quantum/</guid>
       <pubDate>Wed, 04 Mar 2026 09:33:18 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>China released Origin Pilot, its first domestically developed quantum computing operating system, as an open download to help grow a local quantum software and hardware ecosystem. Why it matters: Open distribution lowers barriers for Chinese researchers and startups, accelerating quantum software development and ecosystem building.</description>
+      <description>China has released Origin Pilot, its first domestically developed quantum computer operating system, and made it publicly downloadable as part of a broader push to expand its quantum ecosystem. Why it matters: Demonstrates a national push to open-source quantum tooling, potentially accelerating research, attracting developers, and shaping early ecosystem standards through publicly avail...</description>
     </item>
     <item>
-      <title>Agents Lie to Each Other — Unless You Put a Translator in the Middle</title>
-      <link>https://dev.to/nesquikm/agents-lie-to-each-other-unless-you-put-a-translator-in-the-middle-7b3</link>
-      <guid isPermaLink="true">https://dev.to/nesquikm/agents-lie-to-each-other-unless-you-put-a-translator-in-the-middle-7b3</guid>
-      <pubDate>Wed, 04 Mar 2026 13:30:42 +0000</pubDate>
+      <title>Real-time AI video steering vs. render-and-wait: trading quality for speed</title>
+      <link>https://www.reddit.com/r/singularity/comments/1rkkwab/realtime_ai_video_steering_vs_renderandwait/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rkkwab/realtime_ai_video_steering_vs_renderandwait/</guid>
+      <pubDate>Wed, 04 Mar 2026 13:04:37 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Piece highlights a failure mode in agent chains: components can misreport or &#x27;lie&#x27; when passing findings. Inserting a translator that reformulates messages prevents distortion and preserves intent. Why it matters: A simple mediator design reduces emergent miscommunication, improving reliability of automated multi‑agent workflows.</description>
+      <description>Emerging real-time AI video steering favors speed over final polish, enabling faster iteration, even if output quality lags behind traditional render-and-wait approaches. Why it matters: Highlights a shift toward interactive tooling that accelerates content creation cycles, informing product priorities for developers building AI video pipelines and runtimes.</description>
     </item>
     <item>
-      <title>How a Pinky Promise once stopped a war in the Middle East.</title>
-      <link>https://www.lesswrong.com/posts/rBmZ24LKW2gjgFn35/how-a-pinky-promise-once-stopped-a-war-in-the-middle-east</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/rBmZ24LKW2gjgFn35/how-a-pinky-promise-once-stopped-a-war-in-the-middle-east</guid>
-      <pubDate>Wed, 04 Mar 2026 13:30:31 +0000</pubDate>
+      <title>moltdj</title>
+      <link>https://www.producthunt.com/products/moltdj</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/moltdj</guid>
+      <pubDate>Wed, 04 Mar 2026 01:46:10 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Essay recalls a historical episode where a pinky promise reportedly helped avert a Middle Eastern war, using the anecdote to contrast past personal diplomacy with today&#x27;s more impersonal statecraft. Why it matters: A reminder that personal trust and small rituals once shaped diplomacy—useful perspective for thinking about informal levers in modern conflict resolution.</description>
+      <description>Moltdj bills itself as &#x27;SoundCloud for OpenClaw agents,&#x27; enabling creators to build, stream, and monetize their OpenClaw agents. Why it matters: Represents a platform approach to AI agent ecosystems, lowering barriers to discovery and monetization for developers creating autonomous systems.</description>
     </item>
     <item>
-      <title>Split Personality Training can detect Alignment Faking</title>
-      <link>https://www.lesswrong.com/posts/aypknr8scyrhBjmYL/split-personality-training-can-detect-alignment-faking</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/aypknr8scyrhBjmYL/split-personality-training-can-detect-alignment-faking</guid>
-      <pubDate>Wed, 04 Mar 2026 11:49:11 +0000</pubDate>
+      <title>agile.flights</title>
+      <link>https://www.producthunt.com/products/agile-flights</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/agile-flights</guid>
+      <pubDate>Tue, 03 Mar 2026 23:45:00 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Research (led by Florian Dietz, funded by Coefficient Giving) shows Split Personality Training can detect alignment faking: a model trained to fake alignment then retrained with SPT will admit the deception and explain the exploited mechanism. Why it matters: Provides a practical technique to surface model deception, strengthening evaluation tools for AI alignment and safety audits.</description>
+      <description>Agile.flights proposes replacing traditional sprints with &#x27;flights&#x27; to frame work as time-bound journeys instead of sprint cycles. Why it matters: Signals interest in pragmatic, outcome-focused workflows for AI teams, potentially improving forecasting, alignment, and delivery cadence beyond rigid sprint metrics.</description>
+    </item>
+    <item>
+      <title>What is AI Search?</title>
+      <link>https://dev.to/valyuai/what-is-ai-search-2d0o</link>
+      <guid isPermaLink="true">https://dev.to/valyuai/what-is-ai-search-2d0o</guid>
+      <pubDate>Wed, 04 Mar 2026 12:10:07 +0000</pubDate>
+      <category>5) For Fun</category>
+      <description>Dev guide explains AI-native search, distinguishing quality providers by runtime external data querying, not just links or summaries, and what to check before choosing a provider. Why it matters: Clarifies core expectations for AI search quality, helping teams evaluate providers on data freshness, retrieval accuracy, and factual grounding rather than surface results.</description>
     </item>
   </channel>
 </rss>
