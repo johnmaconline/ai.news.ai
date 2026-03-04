@@ -1085,7 +1085,14 @@ def fetch_all_sources(sources: list[dict]) -> list[Article]:
             else:
                 log.warning('Skipping unsupported source type: %s', source_type)
         except Exception as exc:  # noqa: BLE001
-            log.exception('Source fetch failed for %s: %s', source.get('id'), exc)
+            log.warning(
+                'Source fetch failed for %s: %s: %s',
+                source.get('id'),
+                exc.__class__.__name__,
+                exc,
+            )
+            if log.isEnabledFor(logging.DEBUG):
+                log.exception('Traceback for source fetch failure: %s', source.get('id'))
     return articles
 
 
@@ -1157,16 +1164,35 @@ def fetch_hackernews_source(source: dict) -> list[Article]:
     max_items = int(source.get('max_items', 120))
     keywords = [item.lower() for item in source.get('keywords', [])]
     story_ids_url = f'https://hacker-news.firebaseio.com/v0/{endpoint}stories.json'
-    response = requests.get(story_ids_url, timeout=15)
-    response.raise_for_status()
+    try:
+        response = requests.get(story_ids_url, timeout=15)
+        response.raise_for_status()
+    except requests.RequestException as exc:
+        log.warning('Hacker News source %s request failed: %s', source.get('id'), exc)
+        return []
     story_ids = response.json()[:max_items]
     articles: list[Article] = []
+    item_error_count = 0
     for story_id in story_ids:
         item_url = f'https://hacker-news.firebaseio.com/v0/item/{story_id}.json'
-        item_response = requests.get(item_url, timeout=10)
+        try:
+            item_response = requests.get(item_url, timeout=10)
+        except requests.RequestException:
+            item_error_count += 1
+            log.debug('Hacker News source %s item fetch failed for story_id=%s.', source.get('id'), story_id)
+            continue
         if item_response.status_code != 200:
             continue
-        payload = item_response.json() or {}
+        try:
+            payload = item_response.json() or {}
+        except ValueError:
+            item_error_count += 1
+            log.debug(
+                'Hacker News source %s item JSON parse failed for story_id=%s.',
+                source.get('id'),
+                story_id,
+            )
+            continue
         if payload.get('type') != 'story':
             continue
         title = (payload.get('title') or '').strip()
@@ -1193,6 +1219,12 @@ def fetch_hackernews_source(source: dict) -> list[Article]:
             metrics=metrics,
         )
         articles.append(article)
+    if item_error_count:
+        log.info(
+            'Hacker News source %s skipped %s item(s) due to transient fetch/parse errors.',
+            source.get('id'),
+            item_error_count,
+        )
     return articles
 
 
