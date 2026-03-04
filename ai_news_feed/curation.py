@@ -150,6 +150,66 @@ def _under_the_radar_boost(article: Article, text_blob: str) -> float:
     return boost
 
 
+def _is_curator_watchlist_article(article: Article) -> bool:
+    tag_set = {tag.strip().lower() for tag in article.tags if isinstance(tag, str)}
+    return 'curators' in tag_set
+
+
+def _curator_watchlist_enabled() -> bool:
+    raw_value = (os.getenv('CURATOR_WATCHLIST_ENABLED') or '1').strip().lower()
+    return raw_value not in {'0', 'false', 'no', 'off', 'disabled'}
+
+
+def _curator_watchlist_score_boost(section_slug: str) -> float:
+    raw_value = (os.getenv('CURATOR_WATCHLIST_SCORE_BOOST') or '').strip()
+    if not raw_value:
+        base_boost = 1.25
+    else:
+        try:
+            base_boost = float(raw_value)
+        except ValueError:
+            base_boost = 1.25
+    base_boost = max(0.0, min(base_boost, 5.0))
+    if section_slug == 'under-the-radar':
+        return min(0.25, base_boost * 0.2)
+    if section_slug == 'for-fun':
+        return base_boost * 0.5
+    return base_boost
+
+
+def _curator_watchlist_per_section_cap() -> int:
+    raw_value = (os.getenv('CURATOR_WATCHLIST_PER_SECTION_CAP') or '').strip()
+    if not raw_value:
+        return 1
+    try:
+        parsed = int(raw_value)
+    except ValueError:
+        return 1
+    return max(0, min(parsed, 3))
+
+
+def _curator_watchlist_max_total() -> int:
+    raw_value = (os.getenv('CURATOR_WATCHLIST_MAX_TOTAL') or '').strip()
+    if not raw_value:
+        return 4
+    try:
+        parsed = int(raw_value)
+    except ValueError:
+        return 4
+    return max(0, min(parsed, 12))
+
+
+def _curator_watchlist_min_score() -> float:
+    raw_value = (os.getenv('CURATOR_WATCHLIST_MIN_SCORE') or '').strip()
+    if not raw_value:
+        return 2.0
+    try:
+        parsed = float(raw_value)
+    except ValueError:
+        return 2.0
+    return max(-5.0, min(parsed, 30.0))
+
+
 @lru_cache(maxsize=1)
 def _load_curation_system_prompt() -> str:
     if not SYSTEM_PROMPT_PATH.exists():
@@ -410,6 +470,8 @@ def score_articles(articles: list[Article], feed_dt: datetime | None = None) -> 
                 section_score += min(2.0, article.metrics.get('points', 0.0) / 220.0)
                 section_score += _keyword_hits(text_blob, BUSINESS_PRACTICAL_KEYWORDS) * 1.2
                 section_score -= _business_penalty(article, text_blob)
+            if _is_curator_watchlist_article(article):
+                section_score += _curator_watchlist_score_boost(section.slug)
             scores[section.slug] = round(section_score, 3)
         article.scores = scores
     _refresh_article_assignments(articles)
@@ -456,6 +518,11 @@ def curate_sections(
     score_articles(articles, feed_dt=feed_dt)
     sections: dict[str, list[Article]] = {section.slug: [] for section in SECTIONS}
     picked_ids: set[str] = set()
+    curator_enabled = _curator_watchlist_enabled()
+    curator_per_section_cap = _curator_watchlist_per_section_cap() if curator_enabled else 0
+    curator_total_cap = _curator_watchlist_max_total() if curator_enabled else 0
+    curator_min_score = _curator_watchlist_min_score() if curator_enabled else 0.0
+    curator_total_selected = 0
 
     by_section: dict[str, list[Article]] = {section.slug: [] for section in SECTIONS}
     for article in articles:
@@ -478,12 +545,47 @@ def curate_sections(
             ]
             if narrowed:
                 candidate_pool = narrowed
-        picks = _pick_candidates(
-            candidates=candidate_pool,
-            score_key=section.slug,
-            picked_ids=picked_ids,
-            max_items=max_per_section,
-        )
+        picks: list[Article] = []
+        if (
+            curator_enabled
+            and curator_per_section_cap > 0
+            and curator_total_selected < curator_total_cap
+        ):
+            curator_slots_left = max(0, curator_total_cap - curator_total_selected)
+            section_curator_cap = min(curator_per_section_cap, curator_slots_left)
+            curator_pool = [
+                article
+                for article in candidate_pool
+                if _is_curator_watchlist_article(article)
+                and article.scores.get(section.slug, 0.0) >= curator_min_score
+            ]
+            if curator_pool and section_curator_cap > 0:
+                preselected = _pick_candidates(
+                    candidates=curator_pool,
+                    score_key=section.slug,
+                    picked_ids=picked_ids,
+                    max_items=section_curator_cap,
+                    domain_cap=1,
+                )
+                picks.extend(preselected)
+                curator_total_selected += len(preselected)
+        fill_pool = candidate_pool
+        if curator_enabled:
+            non_curator_pool = [item for item in candidate_pool if not _is_curator_watchlist_article(item)]
+            if non_curator_pool:
+                fill_pool = non_curator_pool
+            elif curator_total_selected >= curator_total_cap:
+                fill_pool = []
+        remaining_slots = max(0, max_per_section - len(picks))
+        if remaining_slots > 0:
+            picks.extend(
+                _pick_candidates(
+                    candidates=fill_pool,
+                    score_key=section.slug,
+                    picked_ids=picked_ids,
+                    max_items=remaining_slots,
+                )
+            )
         sections[section.slug] = picks
 
     # Backfill sections that did not reach minimum target.
@@ -492,6 +594,10 @@ def curate_sections(
             continue
         needed = min_per_section - len(sections[section.slug])
         fallback_pool = articles
+        if curator_enabled and curator_total_selected >= curator_total_cap:
+            non_curator_fallback = [item for item in fallback_pool if not _is_curator_watchlist_article(item)]
+            if non_curator_fallback:
+                fallback_pool = non_curator_fallback
         if section.slug == 'big-announcements':
             narrowed = [
                 article
@@ -508,5 +614,14 @@ def curate_sections(
             domain_cap=3,
         )
         sections[section.slug].extend(fallbacks)
+        curator_total_selected += sum(1 for item in fallbacks if _is_curator_watchlist_article(item))
+
+    if curator_enabled and curator_total_cap > 0:
+        log.info(
+            'Curator watchlist sampling selected %s item(s) (max_total=%s, per_section_cap=%s).',
+            curator_total_selected,
+            curator_total_cap,
+            curator_per_section_cap,
+        )
 
     return sections

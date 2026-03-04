@@ -157,3 +157,92 @@ def test_under_the_radar_prefers_smaller_social_accounts() -> None:
     )
     score_articles([small_account, large_account], feed_dt=feed_dt)
     assert small_account.scores['under-the-radar'] > large_account.scores['under-the-radar']
+
+
+def test_curator_watchlist_boost_improves_section_score() -> None:
+    feed_dt = datetime(2026, 3, 3, 13, 0, tzinfo=timezone.utc)
+    curated = Article(
+        id='curated-item',
+        title='Agent workflow implementation guide',
+        url='https://example.com/curated',
+        summary='Practical coding agent workflow tutorial and implementation details.',
+        source_name='Curator Source',
+        source_type='rss',
+        domain='example.com',
+        published_at=datetime(2026, 3, 3, 10, 0, tzinfo=timezone.utc),
+        priority=6.0,
+        section_hint='business',
+        tags={'business', 'curators'},
+    )
+    non_curated = Article(
+        id='non-curated-item',
+        title='Agent workflow implementation guide',
+        url='https://example.org/non-curated',
+        summary='Practical coding agent workflow tutorial and implementation details.',
+        source_name='Regular Source',
+        source_type='rss',
+        domain='example.org',
+        published_at=datetime(2026, 3, 3, 10, 0, tzinfo=timezone.utc),
+        priority=6.0,
+        section_hint='business',
+        tags={'business'},
+    )
+    score_articles([curated, non_curated], feed_dt=feed_dt)
+    assert curated.scores['business'] > non_curated.scores['business']
+
+
+def test_curator_watchlist_sampling_is_capped(monkeypatch) -> None:
+    feed_dt = datetime(2026, 3, 3, 13, 0, tzinfo=timezone.utc)
+    monkeypatch.setenv('CURATOR_WATCHLIST_ENABLED', '1')
+    monkeypatch.setenv('CURATOR_WATCHLIST_PER_SECTION_CAP', '1')
+    monkeypatch.setenv('CURATOR_WATCHLIST_MAX_TOTAL', '2')
+    monkeypatch.setenv('CURATOR_WATCHLIST_SCORE_BOOST', '2.0')
+
+    articles: list[Article] = []
+    for index in range(1, 7):
+        articles.append(
+            Article(
+                id=f'curator-{index}',
+                title=f'Curator workflow playbook {index}',
+                url=f'https://curator{index}.example.com/post',
+                summary='agent workflow tutorial implementation coding agent playbook',
+                source_name=f'Curator {index}',
+                source_type='rss',
+                domain=f'curator{index}.example.com',
+                published_at=datetime(2026, 3, 3, 11, 0, tzinfo=timezone.utc),
+                priority=6.0,
+                section_hint='business',
+                tags={'curators', 'business'},
+            )
+        )
+    for index in range(1, 7):
+        articles.append(
+            Article(
+                id=f'regular-{index}',
+                title=f'Regular workflow post {index}',
+                url=f'https://regular{index}.example.com/post',
+                summary='agent workflow tutorial implementation coding agent playbook',
+                source_name=f'Regular {index}',
+                source_type='rss',
+                domain=f'regular{index}.example.com',
+                published_at=datetime(2026, 3, 3, 11, 0, tzinfo=timezone.utc),
+                priority=6.0,
+                section_hint='business',
+                tags={'business'},
+            )
+        )
+
+    sections = curate_sections(
+        articles=articles,
+        min_per_section=1,
+        max_per_section=2,
+        feed_dt=feed_dt,
+        enable_llm_curation=False,
+    )
+    curated_count = sum(
+        1
+        for picks in sections.values()
+        for item in picks
+        if 'curators' in {tag.lower() for tag in item.tags}
+    )
+    assert curated_count <= 2
