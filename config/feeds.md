@@ -90,6 +90,17 @@ Format:
 - https://futurism.com/feed | name=Futurism | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 - https://www.svd.se/feed/articles.rss | name=SvD - Artiklar | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 - https://gizmodo.com/feed | name=Gizmodo | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+
+- https://www.seangoedecke.com/rss.xml | name=seangoedecke.com RSS feed | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://arstechnica.com/feed | name=Ars Technica | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://www.ifixit.com/News/rss | name=iFixit News | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://blog.matthewbrunelle.com/rss/ | name=Matthew Brunelle's Blog | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://www.windowslatest.com/feed/ | name=Windows Latest | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- http://karpathy.github.io/feed.xml | name=Andrej Karpathy blog | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://matklad.github.io/feed.xml | name=matklad | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://copyrightlately.com/feed | name=Copyright Lately | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://www.tyleo.com/rss.xml | name=tyleo.com | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://engineering.fb.com/feed/ | name=Engineering at Meta | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
 ## 2. LinkedIN users
 
 - https://www.linkedin.com/in/emollick/ | name=Ethan Mollick | section=product-development | tags=product-development,under-the-radar,social
