@@ -25,6 +25,12 @@ Format:
 - https://www.aitidbits.ai/feed | platform=substack | name=AI Tidbits | section=under-the-radar | tags=under-the-radar,for-fun
 - https://www.ben-evans.com/benedictevans?format=rss | name=Benedict Evans | section=big-announcements | tags=big-announcements,business
 - https://stratechery.com/feed/ | name=Stratechery | section=big-announcements | tags=big-announcements,business
+- https://www.aiweekly.co/issues.rss | name=AI Weekly | section=big-announcements | tags=big-announcements,curators
+- https://www.tldrnewsletter.com/rss | name=TLDR (AI Edition) | section=big-announcements | tags=big-announcements,curators
+- https://www.thealgorithmicbridge.com/feed | name=The Algorithmic Bridge | section=business | tags=business,curators,engineering
+- https://news.smol.ai/rss.xml | name=smol.ai news | section=engineering | tags=engineering,curators,under-the-radar
+- https://newsletter.pragmaticengineer.com/feed | name=Pragmatic Engineer | section=business | tags=business,engineering,curators
+- https://every.to/chain-of-thought/feed | name=Every: Chain of Thought | section=product-development | tags=product-development,curators
 
 - https://simonwillison.net/atom/everything/ | name=Simon Willison | section=engineering | tags=engineering,under-the-radar
 - https://swyx.io/feed | name=swyx | section=business | tags=business,engineering,under-the-radar
