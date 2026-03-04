@@ -101,6 +101,17 @@ Format:
 - https://copyrightlately.com/feed | name=Copyright Lately | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 - https://www.tyleo.com/rss.xml | name=tyleo.com | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 - https://engineering.fb.com/feed/ | name=Engineering at Meta | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+
+- https://www.theregister.com/headlines.atom | name=The Register | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://blogs.windows.com/feed | name=Windows Blog | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml | name=NYT > Top Stories | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://www.aol.com/rss-index.xml | name=AOL.com | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://www.hcamag.com/rss | name=Human Resources Director Australia | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://www.latimes.com/index.rss | name=News from California, across the nation and world - Los Angeles Times | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://markets.businessinsider.com/rss | name=All Content from Business Insider | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://en.antaranews.com/feed | name=ANTARA News - Latest Indonesia News | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://feeds.businessinsider.com/custom/all | name=All Content from Business Insider | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://www.storagereview.com/feed | name=StorageReview.com | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
 ## 2. LinkedIN users
 
 - https://www.linkedin.com/in/emollick/ | name=Ethan Mollick | section=product-development | tags=product-development,under-the-radar,social
