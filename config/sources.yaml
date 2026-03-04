@@ -8,15 +8,6 @@ sources:
     tags: [announcements, ai]
     max_items: 12
 
-  - id: anthropic-news
-    type: rss
-    name: Anthropic News
-    url: https://www.anthropic.com/news/rss.xml
-    priority: 9
-    section_hint: big-announcements
-    tags: [announcements, ai]
-    max_items: 12
-
   - id: google-ai-blog
     type: rss
     name: Google AI Blog
@@ -33,15 +24,6 @@ sources:
     priority: 8
     section_hint: big-announcements
     tags: [announcements, enterprise]
-    max_items: 12
-
-  - id: meta-ai
-    type: rss
-    name: Meta AI Blog
-    url: https://ai.meta.com/blog/rss/
-    priority: 8
-    section_hint: big-announcements
-    tags: [announcements, research]
     max_items: 12
 
   - id: aws-ml-blog
@@ -119,7 +101,7 @@ sources:
   - id: venturebeat-ai
     type: rss
     name: VentureBeat AI
-    url: https://venturebeat.com/ai/feed/
+    url: https://venturebeat.com/category/ai/feed/
     priority: 6
     section_hint: business
     tags: [business, enterprise]
@@ -212,33 +194,3 @@ sources:
     section_hint: engineering
     tags: [engineering, research]
     max_items: 50
-
-  - id: x-ai-engineering
-    type: x
-    name: X AI Engineering
-    query: (ai OR llm OR agents OR copilot) (engineering OR devtools OR benchmark) -is:retweet lang:en
-    priority: 6
-    section_hint: engineering
-    tags: [engineering, social]
-    max_items: 30
-
-  - id: x-ai-business
-    type: x
-    name: X AI Business
-    query: (ai OR llm) (mrr OR arr OR revenue OR startup) -is:retweet lang:en
-    priority: 6
-    section_hint: business
-    tags: [business, social]
-    max_items: 30
-
-  # LinkedIn source requires LINKEDIN_ACCESS_TOKEN.
-  # You can keep author_urn here, or set LINKEDIN_AUTHOR_URN in .env to override
-  # without editing this file.
-  - id: linkedin-ai-org
-    type: linkedin
-    name: LinkedIn AI Org Posts
-    author_urn: urn:li:organization:000000
-    priority: 6
-    section_hint: product-development
-    tags: [product-development, business, social]
-    max_items: 20

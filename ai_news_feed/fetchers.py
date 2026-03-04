@@ -1556,7 +1556,18 @@ def fetch_x_source(source: dict) -> list[Article]:
         fallback_articles = _fetch_x_rss_fallback(source, max_items)
         if fallback_articles:
             return fallback_articles
-        log.warning('X source %s request failed (%s).', source.get('id'), response.status_code)
+        if response.status_code == 401:
+            log.warning(
+                'X source %s unauthorized (401). Check X_BEARER_TOKEN.',
+                source.get('id'),
+            )
+        elif response.status_code == 403:
+            log.info(
+                'X source %s forbidden (403). This is expected when recent-search access is unavailable on the current X API plan.',
+                source.get('id'),
+            )
+        else:
+            log.warning('X source %s request failed (%s).', source.get('id'), response.status_code)
         return []
 
     payload = response.json() or {}
@@ -1685,7 +1696,7 @@ def fetch_linkedin_source(source: dict) -> list[Article]:
             )
         return []
     if author_urn.endswith(':000000'):
-        log.warning(
+        log.info(
             'Skipping LinkedIn source %s: author_urn appears to be placeholder (%s).',
             source.get('id'),
             author_urn,
