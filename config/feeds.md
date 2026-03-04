@@ -112,6 +112,16 @@ Format:
 - https://en.antaranews.com/feed | name=ANTARA News - Latest Indonesia News | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
 - https://feeds.businessinsider.com/custom/all | name=All Content from Business Insider | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
 - https://www.storagereview.com/feed | name=StorageReview.com | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://www.tradingview.com/feed | name=TradingView Ideas | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+
+- https://futurecio.tech/feed/ | name=FutureCIO | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://www.thehansindia.com/google_feeds.xml | name=Andhra Pradesh Breaking News, Telangana News, Hyderabad News Updates, National News, Breaking News | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://www.stocktitan.net/rss | name=Latest News - Stock Titan | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://rollcall.com/feed | name=Roll Call | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://accesspartnership.com/feed/ | name=Access Partnership | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://www.mckinsey.com/rss | name=McKinsey Insights & Publications | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://www.sitepoint.com/feed | name=SitePoint | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://siliconangle.com/feed/ | name=SiliconANGLE | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 ## 2. LinkedIN users
 
 - https://www.linkedin.com/in/emollick/ | name=Ethan Mollick | section=product-development | tags=product-development,under-the-radar,social
