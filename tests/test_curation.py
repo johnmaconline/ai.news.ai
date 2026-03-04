@@ -20,6 +20,7 @@ def test_curate_sections_hits_minimums() -> None:
         min_per_section=3,
         max_per_section=5,
         feed_dt=datetime.now(timezone.utc),
+        enable_llm_curation=False,
     )
     for section_slug, picks in sections.items():
         assert section_slug
@@ -58,6 +59,7 @@ def test_curate_sections_filters_items_older_than_24_hours() -> None:
         min_per_section=1,
         max_per_section=3,
         feed_dt=feed_dt,
+        enable_llm_curation=False,
     )
     all_ids = {item.id for picks in sections.values() for item in picks}
     assert 'old-item' not in all_ids

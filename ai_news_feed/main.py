@@ -77,7 +77,9 @@ def build_daily_feed(
     min_per_section: int,
     max_per_section: int,
     use_sample_data: bool = False,
+    enable_llm_curation: bool = True,
 ) -> None:
+    log.info('LLM curation enabled: %s', enable_llm_curation)
     if use_sample_data:
         articles = build_sample_articles()
         log.debug('Using sample data for feed generation.')
@@ -118,6 +120,7 @@ def build_daily_feed(
         articles=articles,
         min_per_section=min_per_section,
         max_per_section=max_per_section,
+        enable_llm_curation=enable_llm_curation,
     )
     enrich_summaries(sections)
     title = f'Daily AI Feed - {feed_date}'
@@ -153,6 +156,11 @@ def handle_args() -> argparse.Namespace:
     parser.add_argument('--output-dir', default='site', help='Directory where static site is written.')
     parser.add_argument('--min-per-section', type=int, default=SECTION_TARGET_MIN)
     parser.add_argument('--max-per-section', type=int, default=SECTION_TARGET_MAX)
+    parser.add_argument(
+        '--no-llm-curation',
+        action='store_true',
+        help='Disable LLM-assisted curation reranking (enabled by default).',
+    )
     parser.add_argument(
         '--sample',
         action='store_true',
@@ -202,6 +210,7 @@ def main() -> None:
         min_per_section=args.min_per_section,
         max_per_section=args.max_per_section,
         use_sample_data=args.sample,
+        enable_llm_curation=(not args.no_llm_curation),
     )
     log.info('Generated site for %s at %s', feed_date, args.output_dir)
 

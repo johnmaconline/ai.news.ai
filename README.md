@@ -22,12 +22,13 @@ Each daily post includes:
    - LinkedIn API (optional)
 2. Normalize and deduplicate links.
 3. Require source items to be within the last 24 hours, then score each item across the six sections.
-4. Select top `3-5` per section with domain diversity constraints.
-5. Generate concise summaries and "why it matters":
+4. Apply LLM-assisted curation reranking (default on) with deterministic fallback if LLM is unavailable.
+5. Select top `3-5` per section with domain diversity constraints.
+6. Generate concise summaries and "why it matters":
    - Uses OpenAI if `OPENAI_API_KEY` exists.
    - Falls back to deterministic local summaries if missing.
    - Loads section prompt guidance from `prompts/sections/*.md`.
-6. Render static site files into `site/`:
+7. Render static site files into `site/`:
    - `site/index.html` (latest)
    - `site/archive/YYYY-MM-DD.html`
    - `site/data/archive.json`
@@ -51,8 +52,15 @@ python -m ai_news_feed.main --output-dir site
 Optional environment variables:
 - `OPENAI_API_KEY`
 - `OPENAI_MODEL` (default: `gpt-5-mini`)
+- `OPENAI_MINIMIZE_COST` (default: `1`, auto-selects lowest estimated-cost model)
+- `OPENAI_MODEL_CANDIDATES` (optional comma-separated model allowlist for auto-selection)
+- `OPENAI_TEMPERATURE` (optional)
 - `SECTION_PROMPTS_DIR` (optional override path for section prompt markdown files)
 - `SYSTEM_PROMPT_FILE` (optional override path for system prompt markdown file)
+- `WORKFLOW_PROMPT_FILE` (optional override path for workflow prompt markdown file; default `prompts/workflow.md`)
+- `LLM_CURATION_MAX_CANDIDATES` (default `20`)
+- `LLM_CURATION_WEIGHT` (default `1.3`)
+- `LLM_CURATION_EXCLUDE_PENALTY` (default `8.0`)
 - `X_BEARER_TOKEN` (for `type: x` sources)
 - `LINKEDIN_ACCESS_TOKEN` (for `type: linkedin` sources)
 - `LINKEDIN_API_VERSION` (default: `202503`)
@@ -141,6 +149,12 @@ Workflow: `.github/workflows/daily-feed.yml`
 python -m ai_news_feed.main --min-per-section 3 --max-per-section 5
 ```
 
+Disable LLM-assisted curation reranking:
+
+```bash
+python -m ai_news_feed.main --no-llm-curation
+```
+
 For social sources:
 - `type: x` uses `query` (X recent search).
 - `type: linkedin` uses `author_urn` and fetches from LinkedIn posts API.
@@ -190,6 +204,7 @@ python -m ai_news_feed.main --feeds-file config/feeds.md
 
 Prompt customization:
 - Edit `prompts/system.md` for global summarization behavior.
+- Edit `prompts/workflow.md` for global workflow-level guidance shared by curation and summarization.
 - Edit section-specific files in `prompts/sections/`:
   - `big-announcements.md`
   - `engineering.md`

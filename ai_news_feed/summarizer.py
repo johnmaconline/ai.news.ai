@@ -9,11 +9,11 @@
 import json
 import logging
 import os
-from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
+from .llm_utils import LlmUsageTotals, call_chat_completion_json
 from .models import Article
 from .utils import safe_sentence, strip_html
 
@@ -43,46 +43,12 @@ DEFAULT_SYSTEM_PROMPT = 'You write concise AI-news briefings. Return strict JSON
 ROOT_DIR = Path(__file__).resolve().parent.parent
 PROMPTS_DIR = Path(os.getenv('SECTION_PROMPTS_DIR') or (ROOT_DIR / 'prompts' / 'sections'))
 SYSTEM_PROMPT_PATH = Path(os.getenv('SYSTEM_PROMPT_FILE') or (ROOT_DIR / 'prompts' / 'system.md'))
-DEFAULT_PROMPT_COST_PER_1M = 0.05
-DEFAULT_COMPLETION_COST_PER_1M = 0.40
+WORKFLOW_PROMPT_PATH = Path(os.getenv('WORKFLOW_PROMPT_FILE') or (ROOT_DIR / 'prompts' / 'workflow.md'))
 
 
 # ****************************************************************************************
 # Functions
 # ****************************************************************************************
-
-
-@dataclass
-class LlmUsageTotals:
-    prompt_tokens: int = 0
-    completion_tokens: int = 0
-    temperature_fallback_retries: int = 0
-    call_count: int = 0
-
-    def add_usage(self, response: Any) -> None:
-        usage = getattr(response, 'usage', None)
-        if usage is None:
-            return
-        self.prompt_tokens += int(getattr(usage, 'prompt_tokens', 0) or 0)
-        self.completion_tokens += int(getattr(usage, 'completion_tokens', 0) or 0)
-
-    def estimated_cost(self) -> float:
-        prompt_rate = float(os.getenv('OPENAI_PROMPT_COST_PER_1M') or DEFAULT_PROMPT_COST_PER_1M)
-        completion_rate = float(os.getenv('OPENAI_COMPLETION_COST_PER_1M') or DEFAULT_COMPLETION_COST_PER_1M)
-        prompt_cost = (self.prompt_tokens / 1_000_000) * prompt_rate
-        completion_cost = (self.completion_tokens / 1_000_000) * completion_rate
-        return prompt_cost + completion_cost
-
-    def log_summary(self) -> None:
-        log.info('++++++++++++++++++++++++++++++++++++++++++++++')
-        log.info(
-            '+  LLM totals: prompt_tokens=%d, completion_tokens=%d',
-            self.prompt_tokens,
-            self.completion_tokens,
-        )
-        log.info('+  Temperature fallback retries: %d', self.temperature_fallback_retries)
-        log.info('+  Estimated LLM cost: $%.4f', self.estimated_cost())
-        log.info('++++++++++++++++++++++++++++++++++++++++++++++')
 
 
 def _fallback_article_copy(article: Article, section_slug: str) -> tuple[str, str]:
@@ -126,6 +92,18 @@ def _load_section_prompt(section_slug: str) -> str:
     return content
 
 
+@lru_cache(maxsize=1)
+def _load_workflow_prompt() -> str:
+    if not WORKFLOW_PROMPT_PATH.exists():
+        return ''
+    try:
+        content = WORKFLOW_PROMPT_PATH.read_text(encoding='utf-8').strip()
+    except OSError as exc:
+        log.warning('Failed reading workflow prompt file %s: %s', WORKFLOW_PROMPT_PATH, exc)
+        return ''
+    return content
+
+
 def _build_payload(articles: list[Article]) -> list[dict[str, Any]]:
     return [
         {
@@ -145,17 +123,20 @@ def _try_openai_enrichment(
     usage_totals: LlmUsageTotals,
 ) -> dict[str, dict[str, str]] | None:
     api_key = os.getenv('OPENAI_API_KEY')
-    model = os.getenv('OPENAI_MODEL') or 'gpt-5-mini'
+    preferred_model = os.getenv('OPENAI_MODEL') or 'gpt-5-mini'
     if not api_key or OpenAI is None or not articles:
         return None
 
     client = OpenAI(api_key=api_key)
     payload = _build_payload(articles)
     system_prompt = _load_system_prompt()
+    workflow_prompt = _load_workflow_prompt()
     section_prompt = _load_section_prompt(section_slug)
     lens = SECTION_LENSES.get(section_slug, 'why it matters')
     user_prompt = (
         f'Section: {section_slug}\n'
+        'Global workflow guidance markdown:\n'
+        f'{workflow_prompt}\n\n'
         'Section guidance markdown:\n'
         f'{section_prompt}\n\n'
         'For each item, create:\n'
@@ -168,24 +149,20 @@ def _try_openai_enrichment(
         'Return JSON object with exact shape:\n'
         '{"items":[{"id":"...","summary":"...","why_it_matters":"..."}]}'
     )
-    request_kwargs: dict[str, Any] = {
-        'model': model,
-        'response_format': {'type': 'json_object'},
-        'messages': [
-            {'role': 'system', 'content': system_prompt},
-            {'role': 'user', 'content': user_prompt},
-        ],
-    }
-    raw_temperature = os.getenv('OPENAI_TEMPERATURE')
-    if raw_temperature:
-        try:
-            request_kwargs['temperature'] = float(raw_temperature)
-        except ValueError:
-            log.warning('Ignoring invalid OPENAI_TEMPERATURE=%s (must be numeric).', raw_temperature)
     try:
+        response, selected_model, selection_info, temperature_fallback_retry = call_chat_completion_json(
+            client=client,
+            logger=log,
+            preferred_model=preferred_model,
+            operation=f'summarization:{section_slug}',
+            system_prompt=system_prompt,
+            user_prompt=user_prompt,
+        )
         usage_totals.call_count += 1
-        response = client.chat.completions.create(**request_kwargs)
-        usage_totals.add_usage(response)
+        usage_totals.add_estimate(selection_info)
+        usage_totals.add_usage(response, selected_model)
+        if temperature_fallback_retry:
+            usage_totals.temperature_fallback_retries += 1
         content = response.choices[0].message.content
         parsed = json.loads(content)
         rows = parsed.get('items', [])
@@ -217,4 +194,4 @@ def enrich_summaries(sections: dict[str, list[Article]]) -> None:
                 article.summary_text = fallback_summary
                 article.why_it_matters = fallback_why
     if usage_totals.call_count > 0:
-        usage_totals.log_summary()
+        usage_totals.log_summary(log, label='LLM totals')
