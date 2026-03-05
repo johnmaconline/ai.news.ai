@@ -124,8 +124,45 @@ def _is_truthy(value: str | None, default: bool = False) -> bool:
     return default
 
 
+def _safe_env_int(
+    name: str,
+    default: int,
+    minimum: int | None = None,
+    maximum: int | None = None,
+) -> int:
+    raw_value = (os.getenv(name) or '').strip()
+    try:
+        value = int(raw_value)
+    except ValueError:
+        value = default
+    if minimum is not None:
+        value = max(minimum, value)
+    if maximum is not None:
+        value = min(maximum, value)
+    return value
+
+
 def is_cost_minimization_enabled() -> bool:
     return _is_truthy(os.getenv('OPENAI_MINIMIZE_COST'), default=True)
+
+
+def openai_client_kwargs() -> dict[str, Any]:
+    timeout_seconds = _safe_env_int(
+        'OPENAI_REQUEST_TIMEOUT_SECONDS',
+        default=90,
+        minimum=10,
+        maximum=600,
+    )
+    max_retries = _safe_env_int(
+        'OPENAI_MAX_RETRIES',
+        default=2,
+        minimum=0,
+        maximum=10,
+    )
+    return {
+        'timeout': float(timeout_seconds),
+        'max_retries': max_retries,
+    }
 
 
 def estimate_tokens(text: str, model: str) -> int:
@@ -285,6 +322,12 @@ def call_chat_completion_json(
     if temperature is not None:
         kwargs['temperature'] = temperature
 
+    logger.info(
+        '+  LLM request start: operation=%s, model=%s, input_chars=%d',
+        operation,
+        selected_model,
+        len(system_prompt) + len(user_prompt),
+    )
     temperature_fallback_retry = False
     try:
         response = client.chat.completions.create(**kwargs)
@@ -295,4 +338,5 @@ def call_chat_completion_json(
             response = client.chat.completions.create(**kwargs)
         else:
             raise
+    logger.info('+  LLM request complete: operation=%s, model=%s', operation, selected_model)
     return response, selected_model, selection_info, temperature_fallback_retry

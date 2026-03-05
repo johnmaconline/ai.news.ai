@@ -13,7 +13,7 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
-from .llm_utils import LlmUsageTotals, call_chat_completion_json
+from .llm_utils import LlmUsageTotals, call_chat_completion_json, openai_client_kwargs
 from .models import Article
 from .utils import safe_sentence, strip_html
 
@@ -163,7 +163,7 @@ def _try_openai_enrichment(
     if not api_key or OpenAI is None or not articles:
         return None
 
-    client = OpenAI(api_key=api_key)
+    client = OpenAI(api_key=api_key, **openai_client_kwargs())
     payload = _build_payload(articles)
     system_prompt = _load_system_prompt()
     workflow_prompt = _load_workflow_prompt()
@@ -232,6 +232,11 @@ def _try_openai_enrichment(
 def enrich_summaries(sections: dict[str, list[Article]]) -> None:
     usage_totals = LlmUsageTotals()
     for section_slug, articles in sections.items():
+        log.info(
+            'LLM summarization running for section=%s with %s article(s).',
+            section_slug,
+            len(articles),
+        )
         llm_data = _try_openai_enrichment(section_slug, articles, usage_totals) or {}
         for article in articles:
             if article.id in llm_data:

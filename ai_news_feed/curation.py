@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 from functools import lru_cache
 from pathlib import Path
 
-from .llm_utils import LlmUsageTotals, call_chat_completion_json
+from .llm_utils import LlmUsageTotals, call_chat_completion_json, openai_client_kwargs
 from .config import (
     BIG_ANNOUNCEMENT_DOMAINS,
     BUSINESS_ANNOUNCEMENT_KEYWORDS,
@@ -456,7 +456,7 @@ def _try_llm_section_adjustments(
     if not api_key or OpenAI is None or not candidates:
         return {}
 
-    client = OpenAI(api_key=api_key)
+    client = OpenAI(api_key=api_key, **openai_client_kwargs())
     payload = _build_llm_curation_payload(section_slug, candidates)
     system_prompt = _load_curation_system_prompt()
     workflow_prompt = _load_workflow_prompt()
@@ -547,6 +547,11 @@ def _apply_llm_curation_adjustments(
         candidates = ranked[:max_candidates]
         if not candidates:
             continue
+        log.info(
+            'LLM curation running for section=%s with %s candidate(s).',
+            section_slug,
+            len(candidates),
+        )
         llm_rows = _try_llm_section_adjustments(section_slug, candidates, usage_totals)
         if not llm_rows:
             continue

@@ -63,6 +63,8 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          OPENAI_REQUEST_TIMEOUT_SECONDS: "90"
+          OPENAI_MAX_RETRIES: "2"
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
           LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
           LINKEDIN_API_VERSION: ${{ vars.LINKEDIN_API_VERSION }}

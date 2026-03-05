@@ -1067,7 +1067,15 @@ def parse_published(entry: dict) -> datetime | None:
 
 def fetch_all_sources(sources: list[dict]) -> list[Article]:
     articles: list[Article] = []
-    for source in sources:
+    total_sources = len(sources)
+    for idx, source in enumerate(sources, start=1):
+        if idx == 1 or idx == total_sources or idx % 15 == 0:
+            log.info(
+                'Source fetch progress: %s/%s (current=%s).',
+                idx,
+                total_sources,
+                source.get('id'),
+            )
         source_type = (source.get('type') or '').lower()
         try:
             if source_type == 'rss':
