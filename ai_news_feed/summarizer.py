@@ -30,7 +30,7 @@ except ImportError:  # pragma: no cover
 log = logging.getLogger(__name__)
 
 SECTION_LENSES = {
-    'big-announcements': 'what changed and who it impacts',
+    'big-announcements': 'practical prompt patterns for software development execution',
     'engineering': 'practical engineering workflow impact',
     'product-development': 'product workflow and shipping velocity impact',
     'business': 'software development workflow, agents, and implementation impact',
@@ -76,8 +76,8 @@ def _fallback_action_fields(article: Article, section_slug: str) -> tuple[str, s
         action = 'Implement one reproducible agent/runbook pattern in your team workflow.'
         effort = '1-2 days'
     elif section_slug == 'big-announcements':
-        who = 'Engineering leaders, architects, and tech decision-makers'
-        action = 'Assess impact on roadmap, vendor risk, and staffing this week.'
+        who = 'Software engineers, tech leads, and developer productivity teams'
+        action = 'Copy one prompt pattern and run it on an active task this week.'
         effort = '1-2h'
     elif section_slug == 'under-the-radar':
         who = 'Builders looking for early, high-signal implementation ideas'

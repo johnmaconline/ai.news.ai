@@ -655,7 +655,7 @@ def _render_headline_strip(feed: DailyFeed) -> str:
         )
     return (
         '<div class="headline-strip">'
-        '<div class="headline-strip-label">Top Headlines</div>'
+        '<div class="headline-strip-label">Featured Practical Prompts</div>'
         f'<div class="headline-strip-list">{"".join(chips)}</div>'
         '</div>'
     )

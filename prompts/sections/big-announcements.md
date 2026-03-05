@@ -1,15 +1,14 @@
-# Big Announcements
+# Practical Prompts
 
-Prioritize major launches, policy actions, partnerships, acquisitions, and high-impact funding events.
+Prioritize practical prompts and prompt templates that software developers can apply immediately.
 
 The requirements for this section:
-1. Only big company or government news or news that affects the industry. This is news that has been published by the mainstream sources.
-2. This is news you might see on an evening news program.
-3. This is not how-to's or "I did this.." kinds of stuff. It's PR announcements.
+1. Only include real, reusable prompt patterns for software development.
+2. Focus on coding, test generation, code review, documentation, DevOps, CI/CD, debugging, and refactoring prompts.
+3. Exclude pure announcements, PR, funding updates, and policy news unless the item includes a concrete prompt playbook.
 
 Writing guidance:
-- Lead with what changed today and who announced it.
-- Emphasize scope, distribution, security/compliance impact, and who is affected.
-- Include concrete signals when available (rollout, pricing, geography, customer segment).
-- Keep tone neutral and factual.
-
+- Lead with what prompt pattern is being shared and what task it improves.
+- Highlight expected output quality and implementation constraints.
+- Prefer concrete examples, before/after results, and reproducible prompt structures.
+- Keep claims factual and proportional to evidence.

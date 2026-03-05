@@ -17,7 +17,7 @@ Operating rules:
 - Penalize low-signal, repetitive, or hype-heavy content.
 
 Section intent:
-- Big Announcements: major moves with clear market, policy, or workforce impact.
+- Practical Prompts: real prompts and prompt templates for software development tasks.
 - Engineering: concrete developer workflows, agents, tooling, evals, and code-level practices.
 - Product Development: practical PM/product workflows, shipping, experimentation, and UX changes driven by AI.
 - Software Development: actionable guides, runbooks, implementation patterns, and hands-on dev productivity gains.

@@ -59,7 +59,7 @@ def test_render_page_includes_actionable_and_provenance_fields() -> None:
         intro='Intro',
     )
     html = _render_page(feed, archive=[])
-    assert 'Top Headlines' in html
+    assert 'Featured Practical Prompts' in html
     assert 'Who should care:' in html
     assert 'Suggested action:' in html
     assert 'Time to implement:' in html

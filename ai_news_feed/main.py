@@ -137,7 +137,7 @@ def build_daily_feed(
     enrich_summaries(sections)
     title = f'Daily AI Feed - {feed_date}'
     intro = (
-        'A curated daily AI briefing with original-source links across industry announcements, '
+        'A curated daily AI briefing with original-source links across practical prompts, '
         'engineering, product development, software development, under-the-radar signals, and fun experiments.'
     )
     ordered_sections = {section.slug: sections.get(section.slug, []) for section in SECTIONS}

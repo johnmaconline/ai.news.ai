@@ -5,7 +5,7 @@ This project generates and publishes a daily curated AI briefing website.
 Each daily post includes:
 - Original-source links
 - `3-5` selected links in each section:
-  - `0) Big Announcements`
+  - `0) Practical Prompts`
   - `1) Engineering`
   - `2) Product Development`
   - `3) Software Development`
@@ -164,7 +164,7 @@ For social sources:
 
 Software Development section intent:
 - Focuses on practical implementation for developers: agent workflows, skills, and how-to guidance.
-- Announcement-heavy items are deprioritized for this section and should appear in `0) Big Announcements` when relevant.
+- Announcement-heavy items are deprioritized for this section and should appear only when they include reusable prompt patterns.
 
 Under-the-Radar mining intent:
 - Biases toward independent voices and practical builder content (Substack/Medium/dev blogs, Reddit workflow posts, smaller social accounts).

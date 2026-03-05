@@ -76,10 +76,10 @@ AUTO_DISCOVER_REDDIT_EXCLUDED_SUBREDDITS = {
 _LINKEDIN_PROFILE_URN_HINT_LOGGED = False
 WEB_DISCOVERY_QUERIES = {
     'big-announcements': [
-        'AI layoffs announced',
-        'AI model launch announced',
-        'AI partnership announced enterprise',
-        'AI policy regulation announcement',
+        'software development prompt template code generation',
+        'prompt for unit tests and integration tests',
+        'code review prompt workflow',
+        'devops ci cd prompt playbook',
     ],
     'engineering': [
         'agentic engineering workflow blog',
@@ -1843,7 +1843,7 @@ def _linkedin_error_snippet(response) -> str:
 def build_sample_articles() -> list[Article]:
     now = datetime.now(timezone.utc)
     templates = [
-        ('Major model provider launches multimodal coding agent', 'big-announcements'),
+        ('Practical prompt template for code review and test generation', 'big-announcements'),
         ('Engineering team replaces flaky tests with AI-generated fixtures', 'engineering'),
         ('PM team ships weekly experiments with AI-generated specs', 'product-development'),
         ('Solo founder reaches $42k MRR with AI-native support desk', 'business'),

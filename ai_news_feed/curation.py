@@ -18,13 +18,14 @@ from pathlib import Path
 
 from .llm_utils import LlmUsageTotals, call_chat_completion_json
 from .config import (
-    BIG_ANNOUNCEMENT_INTENT_KEYWORDS,
     BIG_ANNOUNCEMENT_DOMAINS,
     BUSINESS_ANNOUNCEMENT_KEYWORDS,
     BUSINESS_PRACTICAL_KEYWORDS,
     KEYWORDS,
     LOW_SIGNAL_BIG_ANNOUNCEMENT_DOMAINS,
     MAINSTREAM_DOMAINS,
+    PRACTICAL_PROMPT_EXCLUDE_KEYWORDS,
+    PRACTICAL_PROMPT_REQUIRED_KEYWORDS,
     RECENCY_REQUIRED_HOURS,
     SECTION_TARGET_MAX,
     SECTION_TARGET_MIN,
@@ -233,6 +234,18 @@ def _is_software_development_candidate(article: Article, text_blob: str) -> bool
     return False
 
 
+def _is_practical_prompt_candidate(article: Article, text_blob: str) -> bool:
+    required_hits = _keyword_hits(text_blob, PRACTICAL_PROMPT_REQUIRED_KEYWORDS)
+    exclude_hits = _keyword_hits(text_blob, PRACTICAL_PROMPT_EXCLUDE_KEYWORDS)
+    if required_hits >= 2:
+        return True
+    if required_hits >= 1 and exclude_hits == 0:
+        return True
+    if article.section_hint == 'big-announcements' and required_hits >= 1 and exclude_hits == 0:
+        return True
+    return False
+
+
 def _business_penalty(article: Article, text_blob: str) -> float:
     penalty = 0.0
     announcement_hits = _keyword_hits(text_blob, BUSINESS_ANNOUNCEMENT_KEYWORDS)
@@ -242,20 +255,7 @@ def _business_penalty(article: Article, text_blob: str) -> float:
         penalty += 2.2
     if article.domain in BIG_ANNOUNCEMENT_DOMAINS:
         penalty += 3.0
-    if article.section_hint == 'big-announcements':
-        penalty += 3.0
     return penalty
-
-
-def _is_big_announcement_candidate(article: Article, text_blob: str) -> bool:
-    intent_hits = _keyword_hits(text_blob, BIG_ANNOUNCEMENT_INTENT_KEYWORDS)
-    if article.domain in BIG_ANNOUNCEMENT_DOMAINS:
-        return True
-    if article.section_hint == 'big-announcements' and intent_hits >= 1:
-        return True
-    if intent_hits >= 2:
-        return True
-    return False
 
 
 def _under_the_radar_boost(article: Article, text_blob: str) -> float:
@@ -595,19 +595,20 @@ def score_articles(articles: list[Article], feed_dt: datetime | None = None) -> 
             if article.section_hint == section.slug:
                 if section.slug == 'business':
                     section_score += 2.2
+                elif section.slug == 'big-announcements':
+                    section_score += 2.2
                 else:
                     section_score += 4.5
-            if section.slug == 'big-announcements' and article.domain in BIG_ANNOUNCEMENT_DOMAINS:
-                section_score += 2.2
             if section.slug == 'big-announcements':
-                intent_hits = _keyword_hits(text_blob, BIG_ANNOUNCEMENT_INTENT_KEYWORDS)
-                section_score += intent_hits * 1.7
-                if article.domain in BIG_ANNOUNCEMENT_DOMAINS:
-                    section_score += 1.2
-                if article.domain in LOW_SIGNAL_BIG_ANNOUNCEMENT_DOMAINS:
-                    section_score -= 3.0
-                if not _is_big_announcement_candidate(article, text_blob):
-                    section_score -= 5.0
+                prompt_hits = _keyword_hits(text_blob, PRACTICAL_PROMPT_REQUIRED_KEYWORDS)
+                exclude_hits = _keyword_hits(text_blob, PRACTICAL_PROMPT_EXCLUDE_KEYWORDS)
+                section_score += prompt_hits * 1.9
+                section_score -= exclude_hits * 1.6
+                section_score += min(1.2, article.metrics.get('comments', 0.0) / 80.0)
+                if article.source_type in {'rss', 'reddit', 'x', 'linkedin'}:
+                    section_score += 0.4
+                if not _is_practical_prompt_candidate(article, text_blob):
+                    section_score -= 6.0
             if section.slug == 'under-the-radar':
                 if article.domain not in MAINSTREAM_DOMAINS:
                     section_score += 1.6
@@ -695,10 +696,9 @@ def curate_sections(
             narrowed = [
                 article
                 for article in candidate_pool
-                if _is_big_announcement_candidate(article, article.canonical_text().lower())
+                if _is_practical_prompt_candidate(article, article.canonical_text().lower())
             ]
-            if narrowed:
-                candidate_pool = narrowed
+            candidate_pool = narrowed
         if section.slug == 'business':
             workflow_focused = [
                 article
@@ -764,10 +764,9 @@ def curate_sections(
             narrowed = [
                 article
                 for article in articles
-                if _is_big_announcement_candidate(article, article.canonical_text().lower())
+                if _is_practical_prompt_candidate(article, article.canonical_text().lower())
             ]
-            if narrowed:
-                fallback_pool = narrowed
+            fallback_pool = narrowed
         if section.slug == 'business':
             workflow_focused = [
                 article

@@ -97,34 +97,34 @@ def test_business_prefers_practical_over_announcement_items() -> None:
     assert practical.scores['business'] > announcement.scores['business']
 
 
-def test_big_announcements_prefers_high_signal_layoff_news_over_social_post() -> None:
+def test_practical_prompts_prefers_prompt_content_over_announcement_news() -> None:
     feed_dt = datetime(2026, 3, 3, 13, 0, tzinfo=timezone.utc)
-    high_signal = Article(
-        id='layoff-news',
-        title='Block lays off 900 employees as AI automation expands',
-        url='https://www.reuters.com/world/us/block-lays-off-workers-ai-2026-03-02/',
-        summary='Block announced layoffs and workforce restructuring tied to increased AI automation.',
-        source_name='Reuters',
+    prompt_article = Article(
+        id='prompt-playbook',
+        title='Prompt template for generating robust unit tests in Python',
+        url='https://example.com/prompt-playbook',
+        summary='Prompt pattern with examples for test generation, code review checks, and CI validation.',
+        source_name='Engineering Blog',
         source_type='rss',
-        domain='reuters.com',
+        domain='example.com',
         published_at=datetime(2026, 3, 3, 10, 0, tzinfo=timezone.utc),
         priority=7.0,
         section_hint='big-announcements',
     )
-    low_signal = Article(
-        id='social-post',
-        title='Thoughts on this week in AI',
-        url='https://www.reddit.com/r/singularity/comments/example',
-        summary='My opinion on recent AI trends.',
-        source_name='r/singularity',
-        source_type='reddit',
-        domain='reddit.com',
+    announcement_article = Article(
+        id='layoff-news',
+        title='Company announces layoffs tied to AI investment',
+        url='https://news.example.com/layoffs',
+        summary='Funding round and restructuring announced by leadership.',
+        source_name='News Site',
+        source_type='rss',
+        domain='news.example.com',
         published_at=datetime(2026, 3, 3, 9, 30, tzinfo=timezone.utc),
         priority=7.0,
         section_hint='big-announcements',
     )
-    score_articles([high_signal, low_signal], feed_dt=feed_dt)
-    assert high_signal.scores['big-announcements'] > low_signal.scores['big-announcements']
+    score_articles([prompt_article, announcement_article], feed_dt=feed_dt)
+    assert prompt_article.scores['big-announcements'] > announcement_article.scores['big-announcements']
 
 
 def test_under_the_radar_prefers_smaller_social_accounts() -> None:
