@@ -63,6 +63,10 @@ def test_render_page_includes_actionable_and_provenance_fields() -> None:
     assert 'Who should care:' in html
     assert 'Suggested action:' in html
     assert 'Time to implement:' in html
-    assert 'Evidence:' in html
-    assert 'Source quality:' in html
+    assert '>Evidence<' in html
+    assert 'Relevance 9.2' in html
+    assert 'Quality 7.9' in html
+    assert 'Recency 9.1' in html
+    assert 'Novelty 6.8' in html
+    assert 'Confidence 8.2' in html
     assert 'corroborating source' in html

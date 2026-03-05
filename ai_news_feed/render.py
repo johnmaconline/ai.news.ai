@@ -193,16 +193,26 @@ header {
   animation: fadeUp 0.45s ease both;
 }
 
-.section-title {
+.section-banner {
+  margin: -0.1rem -0.1rem 0.55rem;
+  padding: 0.56rem 0.64rem;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 79, 140, 0.18);
+  background:
+    linear-gradient(135deg, rgba(0, 79, 140, 0.11), rgba(0, 128, 86, 0.07));
+}
+
+.section-banner-title {
   font-family: "Space Grotesk", sans-serif;
   margin: 0;
   font-size: 1.1rem;
+  color: #003f70;
 }
 
-.section-desc {
+.section-banner-sub {
   color: var(--muted);
-  font-size: 0.9rem;
-  margin-top: 0.28rem;
+  font-size: 0.84rem;
+  margin: 0.2rem 0 0;
 }
 
 .story {
@@ -220,14 +230,6 @@ header {
   color: var(--accent);
   text-decoration-thickness: 2px;
   text-underline-offset: 2px;
-}
-
-.score-link {
-  display: inline-block;
-  margin: 0.34rem 0 0.08rem;
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: var(--accent) !important;
 }
 
 .source-mini {
@@ -335,20 +337,30 @@ header {
   color: var(--text);
 }
 
-.evidence {
+.story-links {
   margin: 0.28rem 0 0;
-  font-size: 0.81rem;
-  color: #445063;
-  font-style: italic;
-}
-
-.signals {
-  margin: 0.34rem 0 0;
-  font-size: 0.78rem;
-  color: var(--muted);
   display: flex;
   flex-wrap: wrap;
-  gap: 0.45rem;
+  gap: 0.32rem;
+}
+
+.story-link-chip {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--stroke);
+  border-radius: 999px;
+  padding: 0.15rem 0.46rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent) !important;
+  text-decoration: none !important;
+  background: rgba(255, 255, 255, 0.86);
+  white-space: nowrap;
+}
+
+.story-link-chip:hover {
+  transform: translateY(-1px);
+  border-color: rgba(0, 79, 140, 0.3);
 }
 
 .corroboration {
@@ -615,28 +627,47 @@ def _render_story(article: Article) -> str:
     )
     first_seen = _format_iso_utc(article.first_seen_at) if article.first_seen_at else 'unknown'
     corroboration_html = _corroboration_links(article)
-    score_link = (
-        f'<a class="score-link" href="{escape(article.url)}" target="_blank" rel="noopener noreferrer" '
-        f'title="Relevance factor: {article.section_score:.2f}">{article.section_score:.1f}</a>'
-    )
+    evidence_quote = article.evidence_quote or 'No direct quote available from source summary.'
+    story_links = [
+        (
+            f'<a class="story-link-chip" href="{escape(article.url)}" target="_blank" rel="noopener noreferrer" '
+            f'title="Evidence quote: {escape(evidence_quote)}">Evidence</a>'
+        ),
+        (
+            f'<a class="story-link-chip" href="{escape(article.url)}" target="_blank" rel="noopener noreferrer" '
+            f'title="Relevance factor: {article.section_score:.2f}">Relevance {article.section_score:.1f}</a>'
+        ),
+        (
+            f'<a class="story-link-chip" href="{escape(article.url)}" target="_blank" rel="noopener noreferrer" '
+            f'title="Source quality score.">Quality {article.source_quality_score:.1f}</a>'
+        ),
+        (
+            f'<a class="story-link-chip" href="{escape(article.url)}" target="_blank" rel="noopener noreferrer" '
+            f'title="Recency score for freshness.">Recency {article.recency_score:.1f}</a>'
+        ),
+        (
+            f'<a class="story-link-chip" href="{escape(article.url)}" target="_blank" rel="noopener noreferrer" '
+            f'title="Novelty score against common coverage.">Novelty {article.novelty_score:.1f}</a>'
+        ),
+        (
+            f'<a class="story-link-chip" href="{escape(article.url)}" target="_blank" rel="noopener noreferrer" '
+            f'title="Confidence score combining quality, corroboration, and recency.">Confidence {article.confidence_score:.1f}</a>'
+        ),
+        (
+            f'<a class="story-link-chip" href="{escape(article.url)}" target="_blank" rel="noopener noreferrer" '
+            f'title="First seen in this pipeline: {escape(first_seen)}">First seen</a>'
+        ),
+    ]
     return (
         '<article class="story">'
         f'<h3><a href="{escape(article.url)}" target="_blank" rel="noopener noreferrer">{escape(article.title)}</a></h3>'
-        f'{score_link}'
         f'<p class="meta">{escape(article.source_name)} · {escape(article.domain)} · {escape(published)}</p>'
         f'<p class="summary">{escape(article.summary_text or article.summary)}</p>'
         f'<p class="why">Why it matters ({escape(why_label)}): {escape(display_why)}</p>'
         f'<p class="action-row"><strong>Who should care:</strong> {escape(article.who_should_care or "Builders and decision-makers")}</p>'
         f'<p class="action-row"><strong>Suggested action:</strong> {escape(article.suggested_action or "Review and test this in your workflow.")}</p>'
         f'<p class="action-row"><strong>Time to implement:</strong> {escape(article.time_to_implement or "1-2h")}</p>'
-        f'<p class="evidence">Evidence: "{escape(article.evidence_quote or "No direct quote available from source summary.")}"</p>'
-        '<p class="signals">'
-        f'Source quality: {article.source_quality_score:.1f}/10 · '
-        f'Recency: {article.recency_score:.1f}/10 · '
-        f'Novelty: {article.novelty_score:.1f}/10 · '
-        f'Confidence: {article.confidence_score:.1f}/10 · '
-        f'First seen: {escape(first_seen)}'
-        '</p>'
+        f'<p class="story-links">{"".join(story_links)}</p>'
         f'<p class="corroboration">{corroboration_html}</p>'
         f'<div class="story-source">{source_link}</div>'
         '</article>'
@@ -668,8 +699,10 @@ def _render_sections(feed: DailyFeed) -> str:
         stories_html = ''.join(_render_story(story) for story in stories)
         cards.append(
             '<section class="section-card">'
-            f'<h2 class="section-title">{escape(section.label)}</h2>'
-            f'<p class="section-desc">{escape(section.description)}</p>'
+            '<div class="section-banner">'
+            f'<h2 class="section-banner-title">{escape(section.label)}</h2>'
+            f'<p class="section-banner-sub">{escape(section.description)}</p>'
+            '</div>'
             f'{stories_html}'
             '</section>'
         )
