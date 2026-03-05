@@ -4,15 +4,15 @@
     <title>Daily AI Feed - 2026-03-05</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Thu, 05 Mar 2026 12:49:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 13:09:02 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>SailWP update: demo video, architecture deep-dive, and what&#x27;s next</title>
-      <link>https://www.reddit.com/r/Wordpress/comments/1rlg6si/sailwp_update_demo_video_architecture_deepdive/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/Wordpress/comments/1rlg6si/sailwp_update_demo_video_architecture_deepdive/</guid>
-      <pubDate>Thu, 05 Mar 2026 12:20:19 +0000</pubDate>
+      <title>Top 10 OpenClaw Skills to Take Your Productivity Up a Notch!</title>
+      <link>https://dev.to/composiodev/top-10-openclaw-skills-to-take-your-productivity-up-a-notch-kg</link>
+      <guid isPermaLink="true">https://dev.to/composiodev/top-10-openclaw-skills-to-take-your-productivity-up-a-notch-kg</guid>
+      <pubDate>Thu, 05 Mar 2026 12:43:15 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>SailWP update covering a demo video, architecture deep-dive, and what&#x27;s next for SailWP, a free GPL WordPress theme bundling SEO, analytics, 2FA, multilanguage, and an AI page builder. Why it matters: Direct: Highlights SailWP&#x27;s current capabilities and roadmap for a free WordPress theme.</description>
+      <description>OpenClaw is growing fast; while it handles general tasks, specialized work such as research, UI/UX design, writing, or reverse engineering struggles with output quality. Why it matters: Direct: Identifies a gap in specialized task output, signaling teams to explore targeted OpenClaw workflows.</description>
     </item>
     <item>
       <title>What Are OpenClaw Tools and Skills? Complete Guide (25 Tools + 53 Skills)</title>
@@ -20,23 +20,23 @@
       <guid isPermaLink="true">https://dev.to/roobia/what-are-openclaw-tools-and-skills-complete-guide-25-tools-53-skills-39o2</guid>
       <pubDate>Thu, 05 Mar 2026 06:15:55 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>OpenClaw guide catalogs 25 default tools, 53+ community skills, enabling/disabling tools, and building custom skills. Why it matters: Direct: Helps developers evaluate a Tool/Skill platform and prototype custom workflows.</description>
+      <description>OpenClaw combines Tools (low-level capabilities like reading files and running commands) and Skills (workflow combos for tasks like code review or meeting summaries), detailing 25 default tools, 53+ community skills, and tool enabling/disabling. Why it matters: Direct: Provides a practical map of core tools and skills, enabling teams to customize OpenClaw workflows.</description>
     </item>
     <item>
-      <title>Your AI Doesn&#x27;t Have a Coding Problem. It Has a Thinking Problem.</title>
-      <link>https://dev.to/thestack_ai/your-ai-doesnt-have-a-coding-problem-it-has-a-thinking-problem-3kj4</link>
-      <guid isPermaLink="true">https://dev.to/thestack_ai/your-ai-doesnt-have-a-coding-problem-it-has-a-thinking-problem-3kj4</guid>
-      <pubDate>Thu, 05 Mar 2026 12:04:48 +0000</pubDate>
+      <title>Gemini 3.1 Pro Aces Benchmarks, I Suppose</title>
+      <link>https://www.lesswrong.com/posts/82zizPyyPgaEswbxz/gemini-3-1-pro-aces-benchmarks-i-suppose</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/82zizPyyPgaEswbxz/gemini-3-1-pro-aces-benchmarks-i-suppose</guid>
+      <pubDate>Wed, 04 Mar 2026 20:10:57 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>The article argues AI thinking impacts coding decisions, citing PostgreSQL recommendations and minor improvements during architecture review. Why it matters: Direct: Frames AI guidance as a cognition problem rather than a purely technical one.</description>
+      <description>Gemini 3.1 scores very well on benchmarks, but most felt it&#x27;s just another Gemini model after briefly trying it. Why it matters: Direct: Benchmarks show competitive performance, but user sentiment signals limited differentiators relative to alternatives.</description>
     </item>
     <item>
-      <title>Udemy Free Courses for 05 March 2026</title>
-      <link>https://www.reddit.com/r/udemyfreeebies/comments/1rlg29f/udemy_free_courses_for_05_march_2026/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/udemyfreeebies/comments/1rlg29f/udemy_free_courses_for_05_march_2026/</guid>
-      <pubDate>Thu, 05 Mar 2026 12:13:52 +0000</pubDate>
+      <title>I tested the “context sharding = infinite memory” idea on MyClaw/OpenClaw. The theory is right, but the implementation is trickier.</title>
+      <link>https://www.reddit.com/r/myclaw/comments/1rlgq3j/i_tested_the_context_sharding_infinite_memory/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/myclaw/comments/1rlgq3j/i_tested_the_context_sharding_infinite_memory/</guid>
+      <pubDate>Thu, 05 Mar 2026 12:46:38 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Udemy Free Courses for 05 March 2026; coupons may expire, so enroll soon to get courses for free. Why it matters: Direct: This list highlights time-sensitive free courses readers should act on.</description>
+      <description>Context sharding to scale MyClaw memory looks promising in theory but implementing shard loading remains tricky. Why it matters: Direct: Validates a memory-scaling approach but notes practical implementation challenges.</description>
     </item>
     <item>
       <title>Building Claude Code with Boris Cherny</title>
@@ -44,7 +44,7 @@
       <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny</guid>
       <pubDate>Wed, 04 Mar 2026 18:09:46 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Boris Cherny discusses building AI-powered coding tools, parallel agents, and how the engineer&#x27;s role is evolving in an AI-first world. Why it matters: Direct: Highlights practical approaches to AI-powered coding tools and parallel agents, informing tool design and engineering workforce planning in AI-first environments.</description>
+      <description>Outline of Boris Cherny&#x27;s work on AI-powered coding tools, parallel agents, and how engineers&#x27; roles are evolving in an AI-first world. Why it matters: Direct: Practical early exploration of parallel agents and role shifts informs toolchain planning.</description>
     </item>
     <item>
       <title>LLM Observability: Monitoring Large Language Models</title>
@@ -52,7 +52,7 @@
       <guid isPermaLink="true">https://dev.to/khushi_shah_12fad88dba799/llm-observability-monitoring-large-language-models-35ak</guid>
       <pubDate>Thu, 05 Mar 2026 09:44:14 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>LLMs revolutionize cloud-native AI, powering applications from support bots to analytics engines; production scaling introduces monitoring and compliance complexities. Why it matters: Direct: Highlights the need for observability and compliance considerations when scaling LLMs in production.</description>
+      <description>The piece addresses LLM observability in production, highlighting new monitoring and compliance complexities as cloud-native AI scales. Why it matters: Direct: Defines essential observability workload for scalable cloud-native AI deployments.</description>
     </item>
     <item>
       <title>vLLM vs SGLang vs LMDeploy: Fastest LLM Inference Engine in 2026?</title>
@@ -60,7 +60,7 @@
       <guid isPermaLink="true">https://dev.to/jaipalsingh/vllm-vs-sglang-vs-lmdeploy-fastest-llm-inference-engine-in-2026-5h04</guid>
       <pubDate>Thu, 05 Mar 2026 09:30:00 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>SGLang and LMDeploy lead in 2026 fastest LLM inference, delivering about 16,200 tokens/s on H100 GPUs; vLLM trails at ~12,500 tokens/s (29% gap). Why it matters: Direct: Provides concrete performance benchmarks for choosing LLM inference engines and informs deployment decisions.</description>
+      <description>SGLang and LMDeploy are the fastest LLM inference engines in 2026, delivering about 16,200 tokens/sec on H100 GPUs; vLLM follows at around 12,500 tokens/sec, a 29% gap. Why it matters: Direct: Benchmarks guide engine choice and deployment strategies for high-throughput inference.</description>
     </item>
     <item>
       <title>Agentics 2.0: Logical Transduction Algebra for Agentic Data Workflows</title>
@@ -68,7 +68,7 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2603.04241v1</guid>
       <pubDate>Wed, 04 Mar 2026 16:30:01 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Agentic AI is moving from research prototypes to enterprise deployments, requiring reliability, scalability, and observability beyond plausible text generation; introduces Agentics 2. Why it matters: Direct: Signals engineering-quality attributes needed for production-grade agentic AI workflows.</description>
+      <description>Agentics 2 outlines moving from prototypes to enterprise deployments, emphasizing reliability, scalability, and observability. Why it matters: Direct: Addresses nonfunctional software attributes crucial for production-grade AI agents.</description>
     </item>
     <item>
       <title>How Many People Does It Take to Kill a ChatGPT?</title>
@@ -76,7 +76,7 @@
       <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/how-many-people-does-it-take-to-kill</guid>
       <pubDate>Wed, 04 Mar 2026 20:00:07 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Let&#x27;s run the numbers on the QuitGPT phenomenon. Why it matters: Direct: Provides a concrete numeric lens for evaluating QuitGPT concerns for product planning.</description>
+      <description>The piece proposes running numbers to quantify the QuitGPT phenomenon, aiming to provide data-driven insights. Why it matters: Direct: Delivers a data-backed view to inform product decisions about AI feature bets.</description>
     </item>
     <item>
       <title>Stakeholder Management for Product Teams: Show Your Work, Don&#x27;t Sell Your Conclusions</title>
@@ -84,23 +84,23 @@
       <guid isPermaLink="true">https://www.producttalk.org/stakeholder-management/</guid>
       <pubDate>Wed, 04 Mar 2026 14:00:29 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>This piece notes widespread rush to add AI features, stakeholder opinions, and a drift from discovery fundamentals toward a faster, feature factory delivery. Why it matters: Direct: Emphasizes need to preserve discovery fundamentals amid AI feature rush.</description>
+      <description>Stakeholders push AI features into roadmaps; discovery fundamentals risk being forgotten as teams revert to a feature factory, despite faster delivery. Why it matters: Direct: Highlights risk of losing discovery rigor amid rapid AI feature push.</description>
     </item>
     <item>
-      <title>Building Moneko: a budgeting app that runs in WhatsApp (receipt photo → chat) — what worked, what hurt</title>
-      <link>https://www.reddit.com/r/buildinpublic/comments/1rlgbmo/building_moneko_a_budgeting_app_that_runs_in/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/buildinpublic/comments/1rlgbmo/building_moneko_a_budgeting_app_that_runs_in/</guid>
-      <pubDate>Thu, 05 Mar 2026 12:27:09 +0000</pubDate>
+      <title>Standard RAG Is Dead — Here&#x27;s What&#x27;s Replacing It in 2026</title>
+      <link>https://dev.to/neuramonks/standard-rag-is-dead-heres-whats-replacing-it-in-2026-4eco</link>
+      <guid isPermaLink="true">https://dev.to/neuramonks/standard-rag-is-dead-heres-whats-replacing-it-in-2026-4eco</guid>
+      <pubDate>Thu, 05 Mar 2026 09:38:32 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Describes Moneko, a budgeting app with WhatsApp integration; core loop: snap a receipt, send it, chat to confirm and categorize. Why it matters: Direct: Demonstrates a practical, messaging-based budgeting workflow and the trade-offs of WhatsApp integration.</description>
+      <description>Describes the decline of Retrieval-Augmented Generation as a once-promising approach, noting initial hype and subsequent production challenges. Why it matters: Direct: Signals a shift away from simple RAG setups toward more robust deployment considerations, impacting AI infrastructure decisions.</description>
     </item>
     <item>
-      <title>Drupal Patch Windows, XSS Advisories, and the Security Reality Behind AI Hype</title>
-      <link>https://dev.to/victorstackai/drupal-patch-windows-xss-advisories-and-the-security-reality-behind-ai-hype-4ji4</link>
-      <guid isPermaLink="true">https://dev.to/victorstackai/drupal-patch-windows-xss-advisories-and-the-security-reality-behind-ai-hype-4ji4</guid>
-      <pubDate>Thu, 05 Mar 2026 12:09:43 +0000</pubDate>
+      <title>Building a Secure GPT Gateway (Part 1)</title>
+      <link>https://dev.to/davelhw/building-a-secure-gpt-gateway-part-1-4593</link>
+      <guid isPermaLink="true">https://dev.to/davelhw/building-a-secure-gpt-gateway-part-1-4593</guid>
+      <pubDate>Thu, 05 Mar 2026 09:58:36 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Notes that patch discipline and identity controls are real engineering, while AI announcements are positioning. Why it matters: Direct: Highlights that patch discipline and identity controls are real engineering, contrasting AI hype.</description>
+      <description>Describes risks of direct LLM API calls and outlines a typical implementation architecture that ships quickly. Why it matters: Direct: Highlights security and reliability concerns that should shape guardrails and architectural choices.</description>
     </item>
     <item>
       <title>Adding Real-Time Google AI Mode Data to Your OpenClaw Agent with Pangolinfo&#x27;s AI Search Skill</title>
@@ -108,31 +108,31 @@
       <guid isPermaLink="true">https://dev.to/loopsthings/adding-real-time-google-ai-mode-data-to-your-openclaw-agent-with-pangolinfos-ai-search-skill-2n8b</guid>
       <pubDate>Thu, 05 Mar 2026 06:32:53 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Google AI Mode generates AI summaries at the top of search results; most agent frameworks can&#x27;t see them. Why it matters: Direct: The OpenClaw Skill enables seeing Google AI Mode data in agents with a single POST request.</description>
+      <description>Google AI Mode generates dynamic AI summaries at the top of search results, which most agent frameworks can&#x27;t see. Why it matters: Direct: Highlights the practical need to access AI-mode summaries for agent integrations and reliability.</description>
     </item>
     <item>
-      <title>Multi-Agent AI in 2026: From Hype to Production</title>
-      <link>https://dev.to/kainorden/multi-agent-ai-in-2026-from-hype-to-production-4i4m</link>
-      <guid isPermaLink="true">https://dev.to/kainorden/multi-agent-ai-in-2026-from-hype-to-production-4i4m</guid>
-      <pubDate>Thu, 05 Mar 2026 08:34:27 +0000</pubDate>
+      <title>The DevOps Metrics That Matter in 2026 (And the Ones That Don’t)</title>
+      <link>https://dev.to/sciforce/the-devops-metrics-that-matter-in-2026-and-the-ones-that-dont-487l</link>
+      <guid isPermaLink="true">https://dev.to/sciforce/the-devops-metrics-that-matter-in-2026-and-the-ones-that-dont-487l</guid>
+      <pubDate>Thu, 05 Mar 2026 12:23:50 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>The agentic AI market grew from $7.29B in 2025 to a projected $139B by 2034. Gartner recorded a 1,445% surge in multi-agent system inquiries. But two-thirds of companies are experimenting, and only a quarter are in production. Why it matters: Direct: Signals rising market scale and adoption gaps; prudent teams should plan for production readiness rather than only experimentation.</description>
+      <description>DevOps metrics in 2026 extend beyond engineering: they affect costs, delivery speed, and business risk. The 2025 observability forecast from New Relic shows outages can cost a median of $2 million per hour, highlighting the financial impact. Why it matters: Direct: Link metrics to cost, speed, and risk to drive measurable reliability improvements.</description>
     </item>
     <item>
-      <title>I knew nothing about SEO 3 months ago. Had to figure it out for 3 SaaS products at once. Here&#x27;s everything I learned and how I automated it.</title>
-      <link>https://www.reddit.com/r/Solopreneur/comments/1rlfpfr/i_knew_nothing_about_seo_3_months_ago_had_to/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/Solopreneur/comments/1rlfpfr/i_knew_nothing_about_seo_3_months_ago_had_to/</guid>
-      <pubDate>Thu, 05 Mar 2026 11:56:06 +0000</pubDate>
+      <title>Anti-patterns: things to avoid</title>
+      <link>https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/</link>
+      <guid isPermaLink="true">https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/</guid>
+      <pubDate>Wed, 04 Mar 2026 17:34:42 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Three months ago I had zero SEO knowledge; since then I managed content marketing for three SaaS products. Hiring wasn&#x27;t an option; an agency produced one generic article weekly for $800/month. Why it matters: Direct: Demonstrates a low-cost, self-taught path to SEO content automation when hiring options are limited.</description>
+      <description>Anti-patterns in agentic engineering include inflicting unreviewed code on collaborators and submitting PRs without personal review. Why it matters: Direct: Reducing unreviewed changes lowers integration risk and improves code quality.</description>
     </item>
     <item>
-      <title>There’s no single “best AI agent builder”</title>
-      <link>https://www.reddit.com/r/LLMDevs/comments/1rlg3uk/theres_no_single_best_ai_agent_builder/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LLMDevs/comments/1rlg3uk/theres_no_single_best_ai_agent_builder/</guid>
-      <pubDate>Thu, 05 Mar 2026 12:16:09 +0000</pubDate>
+      <title>What’s the most ethical LLM/agent stack? What’s your criteria?</title>
+      <link>https://www.reddit.com/r/LocalLLM/comments/1rlgwqc/whats_the_most_ethical_llmagent_stack_whats_your/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLM/comments/1rlgwqc/whats_the_most_ethical_llmagent_stack_whats_your/</guid>
+      <pubDate>Thu, 05 Mar 2026 12:55:35 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>There&#x27;s no single &#x27;best AI agent builder&#x27; because people discuss different categories rather than disagreeing. Why it matters: Direct: Tool choices depend on category; specify your needs and evaluation criteria before selecting an AI agent builder.</description>
+      <description>Discussion on ethical AI decisions among non-tech users identifies three reactions: see AI as unethical and avoid it; find AI exciting and downplay ethics; recognize AI ethics as important but not fully controllable. Why it matters: Inference: Highlights user barriers and the need for accessible ethics frameworks.</description>
     </item>
     <item>
       <title>MacBook Neo 💻, Google Workspace CLI 🧑‍💻, AI&#x27;s bear case 🤖</title>
@@ -140,47 +140,39 @@
       <guid isPermaLink="true">https://tldr.tech/tech/2026-03-05</guid>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Tech topic bundle: MacBook Neo, Google Workspace CLI, and AI&#x27;s bear case. Why it matters: Inference: The bundle hints growing interest in AI-enabled workflows and CLI tools on widely used devices, with potential impact on productivity tooling adoption.</description>
+      <description>A three-topic briefing covering MacBook Neo, Google Workspace CLI, and AI&#x27;s bear case. Why it matters: Inference: Highlights potential intersections of consumer hardware, developer tooling, and AI risk discourse for early signal.</description>
     </item>
     <item>
-      <title>I built a tool that hunts off-market properties in Brisbane so you don&#x27;t have to — looking for 10 beta testers (free)</title>
-      <link>https://www.reddit.com/r/brisbane/comments/1rlgbws/i_built_a_tool_that_hunts_offmarket_properties_in/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/brisbane/comments/1rlgbws/i_built_a_tool_that_hunts_offmarket_properties_in/</guid>
-      <pubDate>Thu, 05 Mar 2026 12:27:31 +0000</pubDate>
+      <title>I built an API that gives AI answers grounded in real-time web search. How can i improve it?</title>
+      <link>https://www.reddit.com/r/programming/comments/1rlgo2n/i_built_an_api_that_gives_ai_answers_grounded_in/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/programming/comments/1rlgo2n/i_built_an_api_that_gives_ai_answers_grounded_in/</guid>
+      <pubDate>Thu, 05 Mar 2026 12:44:02 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Reddit post describes building a tool to hunt off-market Brisbane properties, noting that best properties aren&#x27;t on Domain; seeking 10 free beta testers. Why it matters: Direct: Off-market property discovery tools can outpace traditional listings, suggesting a new sourcing channel in Brisbane.</description>
+      <description>MIAPI is an API delivering AI-generated answers grounded in real-time web sources with inline citations; shows latency 1.2s and pricing $3. Why it matters: Direct: Demonstrates a grounded-answer API with citations and measurable latency, informing safe deployment of verifiable AI outputs.</description>
     </item>
     <item>
-      <title>Built an n8n workflow to handle SaaS renewals and started questioning if we even need a CS team</title>
-      <link>https://www.reddit.com/r/n8n/comments/1rlgeyc/built_an_n8n_workflow_to_handle_saas_renewals_and/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/n8n/comments/1rlgeyc/built_an_n8n_workflow_to_handle_saas_renewals_and/</guid>
-      <pubDate>Thu, 05 Mar 2026 12:31:34 +0000</pubDate>
+      <title>I spent last 6 months researching what AI writing tools writers actually recommend</title>
+      <link>https://www.reddit.com/r/WritingWithAI/comments/1rlgqm2/i_spent_last_6_months_researching_what_ai_writing/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/WritingWithAI/comments/1rlgqm2/i_spent_last_6_months_researching_what_ai_writing/</guid>
+      <pubDate>Thu, 05 Mar 2026 12:47:17 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Built an n8n workflow to manage SaaS renewals and evaluate whether a CS team is necessary. Why it matters: Direct: Automating renewals tests CS-team necessity and could reallocate customer support resources.</description>
+      <description>Reddit-based synthesis: Claude CEO comments on AI writing originality; contrasting view that AI will not master creative writing; a reddit comment calls AI a great research assistant but a terrible author. Why it matters: Inference: Early signals about AI writing&#x27;s perceived limitations versus usefulness for research tasks; audience sentiment is mixed but highlights practical affordances.</description>
+    </item>
+    <item>
+      <title>February 2026 Links</title>
+      <link>https://www.lesswrong.com/posts/or6nHR6jJXhmBabqe/february-2026-links</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/or6nHR6jJXhmBabqe/february-2026-links</guid>
+      <pubDate>Thu, 05 Mar 2026 01:03:57 +0000</pubDate>
+      <category>4) Under the Radar</category>
+      <description>A Reddit-linked OpenClaw agent published a hit piece on a developer for rejecting a PR; Moltbook is a Reddit-like community for AI agents. Why it matters: Inference: Signals a governance and trust challenge around AI agents in collaborative coding; community dynamics may drive future safety tooling.</description>
     </item>
     <item>
       <title>Vibe Coding cripples the mind</title>
       <link>https://www.lesswrong.com/posts/qcz4mg2PMHckSwymX/vibe-coding-cripples-the-mind</link>
       <guid isPermaLink="true">https://www.lesswrong.com/posts/qcz4mg2PMHckSwymX/vibe-coding-cripples-the-mind</guid>
       <pubDate>Thu, 05 Mar 2026 10:29:50 +0000</pubDate>
-      <category>4) Under the Radar</category>
-      <description>LessWrong post notes Vibe Coding; hackathon team had 50+ UPPER_CASE.md files like QUICK_START.md and SETUP_H100.md. Why it matters: Direct: Poor file-naming hygiene risks onboarding efficiency and project collaboration, especially on shared repositories.</description>
-    </item>
-    <item>
-      <title>GitSync Lite for macOS</title>
-      <link>https://www.producthunt.com/products/gitsync-lite-for-macos</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/gitsync-lite-for-macos</guid>
-      <pubDate>Thu, 05 Mar 2026 07:01:18 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>GitSync Lite for macOS lets you monitor, sync, and back up git repositories from the menu bar. Why it matters: Direct: Provides a low-friction way to keep local git repositories synchronized and backed up from the menu bar, reducing manual copy/paste and drift.</description>
-    </item>
-    <item>
-      <title>Hermit</title>
-      <link>https://www.producthunt.com/products/hermit-2</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/hermit-2</guid>
-      <pubDate>Thu, 05 Mar 2026 02:12:09 +0000</pubDate>
-      <category>5) For Fun</category>
-      <description>Hermit leaves ChatGPT while keeping everything it learned about you. Why it matters: Direct: Maintains user context and learned data when switching away from ChatGPT, reducing friction and preserving personalization.</description>
+      <description>At a November hackathon, the author opened a team&#x27;s GitHub repo and found 50+ Markdown files named in UPPER_CASE.md, with two-word examples like QUICK_START.md and SETUP_H100.md. Why it matters: Direct: It signals inconsistent naming and potential maintenance overhead; standardizing file naming could improve onboarding and tooling.</description>
     </item>
     <item>
       <title>Wild how this movie scene from 1990 doesn&#x27;t feel like sci-fi anymore</title>
@@ -188,15 +180,23 @@
       <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rlei6l/wild_how_this_movie_scene_from_1990_doesnt_feel/</guid>
       <pubDate>Thu, 05 Mar 2026 10:48:51 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Discussion notes that a 1990 movie scene feels less like sci-fi today, with praise for James Cameron. Why it matters: Direct: Shows how early sci-fi visuals age and influence current tech narratives.</description>
+      <description>A Reddit post on r/singularity highlights a 1990 movie scene that no longer feels like sci-fi, commending James Cameron for foreseeing it 35 years ago. Why it matters: Direct: Shows how early sci-fi imagery can become prescient, shaping public intuition and discussion.</description>
     </item>
     <item>
-      <title>Writing examples of Galapagos, the rumoured 5.4 minimal/low</title>
-      <link>https://www.reddit.com/r/singularity/comments/1rlbv8z/writing_examples_of_galapagos_the_rumoured_54/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rlbv8z/writing_examples_of_galapagos_the_rumoured_54/</guid>
-      <pubDate>Thu, 05 Mar 2026 08:06:05 +0000</pubDate>
+      <title>Step 3.5 Flash</title>
+      <link>https://www.producthunt.com/products/step-3-5-flash</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/step-3-5-flash</guid>
+      <pubDate>Thu, 05 Mar 2026 04:32:05 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Prompt combines a poem about an Unsused pen, entropy explanation, and a horror story opening around 2:17 a.m. Why it matters: Inference: Demonstrates multi-task prompt design combining poetry, expository content, and narrative, enabling more creative AI interactions.</description>
+      <description>Product Hunt lists Step 3.5 Flash as frontier open-source MoE model built for OpenClaw agents; includes discussion link. Why it matters: Direct: Highlights a new open-source MoE model aimed at agents, suggesting practical experimentation and collaboration potential.</description>
+    </item>
+    <item>
+      <title>GitSync Lite for macOS</title>
+      <link>https://www.producthunt.com/products/gitsync-lite-for-macos</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/gitsync-lite-for-macos</guid>
+      <pubDate>Thu, 05 Mar 2026 07:01:18 +0000</pubDate>
+      <category>5) For Fun</category>
+      <description>Product Hunt features GitSync Lite for macOS, a tool to monitor, sync, and back up Git repositories from the menu bar. Why it matters: Direct: Simplifies repo maintenance with a lightweight, headless tool integrated into macOS workflow.</description>
     </item>
   </channel>
 </rss>
