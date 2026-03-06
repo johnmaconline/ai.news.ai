@@ -4,47 +4,47 @@
     <title>Daily AI Feed - 2026-03-06</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Fri, 06 Mar 2026 11:34:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 15:16:12 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>How to Scale Claude Code with an MCP Gateway (Run Any LLM, Centralize Tools, Control Costs)</title>
-      <link>https://dev.to/hadil/how-to-scale-claude-code-with-an-mcp-gateway-run-any-llm-centralize-tools-control-costs-nd9</link>
-      <guid isPermaLink="true">https://dev.to/hadil/how-to-scale-claude-code-with-an-mcp-gateway-run-any-llm-centralize-tools-control-costs-nd9</guid>
-      <pubDate>Fri, 06 Mar 2026 11:08:30 +0000</pubDate>
+      <title>GPT-5.4 dropped. The hype isn&#x27;t fully justified, but the shift is real</title>
+      <link>https://dev.to/larsniet/gpt-54-dropped-the-hype-isnt-fully-justified-but-the-shift-is-real-2303</link>
+      <guid isPermaLink="true">https://dev.to/larsniet/gpt-54-dropped-the-hype-isnt-fully-justified-but-the-shift-is-real-2303</guid>
+      <pubDate>Fri, 06 Mar 2026 11:36:28 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Claude Code is a terminal-based coding agent capable of reading repositories, executing commands, editing files, committing changes, running tests, resolving Git conflicts, and creating pull requests within the CLI. Why it matters: Direct: Highlights practical capabilities for end-to-end CLI automation and tooling centralization, relevant to scaling LLM-powered coding agents.</description>
+      <description>GPT-5.4 released on March 5, 2026; early reactions label it a breakthrough, but the author is skeptical while noting the model is better. Why it matters: Direct: The shift is real; teams should audit promises versus capabilities and plan cautious rollout, focusing on evaluation and risk controls.</description>
     </item>
     <item>
-      <title>What is LLM Observability? The Complete Guide (2026)</title>
-      <link>https://dev.to/arindam_1729/what-is-llm-observability-the-complete-guide-2026-26e6</link>
-      <guid isPermaLink="true">https://dev.to/arindam_1729/what-is-llm-observability-the-complete-guide-2026-26e6</guid>
-      <pubDate>Fri, 06 Mar 2026 07:59:12 +0000</pubDate>
+      <title>Microsoft Copilot Tasks Is Microsoft’s Biggest AI Move Yet</title>
+      <link>https://www.reddit.com/r/AISEOInsider/comments/1rmg5f7/microsoft_copilot_tasks_is_microsofts_biggest_ai/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/AISEOInsider/comments/1rmg5f7/microsoft_copilot_tasks_is_microsofts_biggest_ai/</guid>
+      <pubDate>Fri, 06 Mar 2026 14:55:48 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>LLM observability is your ability to understand what your language models are doing in production, not just whether they&#x27;re up, but whether they&#x27;re good. Why it matters: Direct: Defines production visibility criteria to assess model health and quality, guiding improvements.</description>
+      <description>Microsoft Copilot Tasks is the update many businesses will underestimate, quietly shifting AI from answering questions to taking action and turning software into something that works alongside you. Why it matters: Direct: It signals a shift from passive AI responses to action-oriented automation; enterprises should assess integration depth and ROI.</description>
     </item>
     <item>
-      <title>How I Handle Automated Programming</title>
-      <link>https://www.lesswrong.com/posts/ZrrFGQjSkgEFG2yfm/how-i-handle-automated-programming</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/ZrrFGQjSkgEFG2yfm/how-i-handle-automated-programming</guid>
-      <pubDate>Fri, 06 Mar 2026 04:27:05 +0000</pubDate>
+      <title>LLM Evaluation and Testing: How to Build an Eval Pipeline That Actually Catches Failures Before Production</title>
+      <link>https://dev.to/pockit_tools/llm-evaluation-and-testing-how-to-build-an-eval-pipeline-that-actually-catches-failures-before-5e3n</link>
+      <guid isPermaLink="true">https://dev.to/pockit_tools/llm-evaluation-and-testing-how-to-build-an-eval-pipeline-that-actually-catches-failures-before-5e3n</guid>
+      <pubDate>Fri, 06 Mar 2026 14:18:00 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>A personal process using Claude Code to write and review all code, with expectations that methods will evolve as models improve. Why it matters: Direct: Documents a practical workflow for automated programming with Claude Code to accelerate coding and review.</description>
+      <description>After shipping an LLM feature with a flawless demo, issues emerged: hallucinations, refusals on valid questions, and wrong-language responses affecting key client. Why it matters: Direct: Highlights a gap between demos and production reliability; prompts need robust eval pipelines before rollout.</description>
     </item>
     <item>
-      <title>Agentic manual testing</title>
-      <link>https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/</link>
-      <guid isPermaLink="true">https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/</guid>
-      <pubDate>Fri, 06 Mar 2026 05:43:54 +0000</pubDate>
+      <title>AI, Alignment, and the Crucible of Cruelty</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1rmg35o/ai_alignment_and_the_crucible_of_cruelty/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAI/comments/1rmg35o/ai_alignment_and_the_crucible_of_cruelty/</guid>
+      <pubDate>Fri, 06 Mar 2026 14:53:26 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Explains agentic engineering: coding agents can execute code they write, making them more useful than non-executing LLMs, and warns to verify by execution. Why it matters: Direct: Emphasizes need to execute and test code produced by agents to ensure correctness.</description>
+      <description>TLDR: The current AI strategy will kill us all; Anthropic might be the only company who understand why; the piece uses a dog analogy to discuss control with crate and leash. Why it matters: Direct: Emphasizes risk framing and governance needs; actionable prompts could explore aligned incentives and safe deployment strategies.</description>
     </item>
     <item>
-      <title>The Pulse: AWS region knocked offline by drone attack in historic first</title>
-      <link>https://newsletter.pragmaticengineer.com/p/the-pulse-164</link>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-pulse-164</guid>
-      <pubDate>Thu, 05 Mar 2026 17:54:22 +0000</pubDate>
+      <title>GPT-5.4 🤖, Anthropic&#x27;s leaked memo 📝, Claude Code auto mode 🧑‍💻</title>
+      <link>https://tldr.tech/tech/2026-03-06</link>
+      <guid isPermaLink="true">https://tldr.tech/tech/2026-03-06</guid>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Also: 40% job cuts at Block “not due to AI”, Antigravity bans reinforce Google’s disdain for paying customers, and more. Why it matters: Direct: Flags workforce and vendor dynamics that influence project planning and budgeting.</description>
+      <description>Overview of GPT-5.4, Anthropic’s leaked memo, and Claude Code auto mode as discussed by TLDR AI. Why it matters: Direct: Signals upcoming capabilities and risk areas worth monitoring for AI tooling integration and governance.</description>
     </item>
     <item>
       <title>Judge Reliability Harness: Stress Testing the Reliability of LLM Judges</title>
@@ -52,95 +52,111 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2603.05399v1</guid>
       <pubDate>Thu, 05 Mar 2026 17:27:07 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Open source Judge Reliability Harness provides validation suites to test the reliability of LLM judges; tooling is needed for AI benchmark scoring. Why it matters: Direct: Provides a concrete tooling path to validate LLM judge outcomes, improving trust in AI benchmarks.</description>
+      <description>Judge Reliability Harness is an open source library for constructing validation suites that test the reliability of LLM judges, addressing the need for tooling as LLM-based scoring is widely deployed in AI benchmarks. Why it matters: Direct: Provides a reusable framework to evaluate judge reliability, enabling repeatable benchmarks for AI scoring systems.</description>
     </item>
     <item>
-      <title>Stop Letting Your AI Agent Read the entire Repo: Introducing trail-docs</title>
-      <link>https://dev.to/silicon_zee/stop-letting-your-ai-agent-read-the-entire-repo-introducing-trail-docs-321k</link>
-      <guid isPermaLink="true">https://dev.to/silicon_zee/stop-letting-your-ai-agent-read-the-entire-repo-introducing-trail-docs-321k</guid>
-      <pubDate>Fri, 06 Mar 2026 10:00:30 +0000</pubDate>
+      <title>Agentic manual testing</title>
+      <link>https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/</link>
+      <guid isPermaLink="true">https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/</guid>
+      <pubDate>Fri, 06 Mar 2026 05:43:54 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Promotes trail-docs as a remedy to agents reading whole repos; notes that agents often read 15-30 files, bloating context windows and increasing costs while still misusing APIs. Why it matters: Direct: Reduces context window pressure and cost when integrating libraries with AI agents.</description>
+      <description>Agentic manual testing emphasizes that a coding agent can execute the code it writes, making agents more useful than non-executing LLMs and underscoring the need to verify code through execution. Why it matters: Direct: Highlights a practical verification requirement for generated code, guiding build and test workflows.</description>
+    </item>
+    <item>
+      <title>Replayable Execution Memory for AI Agents: Building Aionis</title>
+      <link>https://dev.to/ziel/replayable-execution-memory-for-ai-agents-building-aionis-921</link>
+      <guid isPermaLink="true">https://dev.to/ziel/replayable-execution-memory-for-ai-agents-building-aionis-921</guid>
+      <pubDate>Fri, 06 Mar 2026 15:00:48 +0000</pubDate>
+      <category>1) Engineering</category>
+      <description>Aionis introduces Replayable Execution Memory for AI agents; while LLMs improve reasoning and agents can plan and automate, a major limitation remains: agents don’t remember how work gets done, only conversations and embeddings. Why it matters: Direct: Describes a practical capability gap for memory across tools and actions, informing design for replayable memory.</description>
+    </item>
+    <item>
+      <title>The Pulse: AWS region knocked offline by drone attack in historic first</title>
+      <link>https://newsletter.pragmaticengineer.com/p/the-pulse-164</link>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-pulse-164</guid>
+      <pubDate>Thu, 05 Mar 2026 17:54:22 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>Pulse: AWS region offline due to drone attack, with additional notes on 40% Block layoffs not AI-related, and Antigravity bans. Why it matters: Direct: Cloud outage resilience and platform policy signals can influence product risk assessment and customer trust.</description>
     </item>
     <item>
       <title>Enterprise AI Security: 12 Best Practices for Deploying LLMs in Production</title>
       <link>https://dev.to/jaipalsingh/enterprise-ai-security-12-best-practices-for-deploying-llms-in-production-525j</link>
       <guid isPermaLink="true">https://dev.to/jaipalsingh/enterprise-ai-security-12-best-practices-for-deploying-llms-in-production-525j</guid>
       <pubDate>Fri, 06 Mar 2026 09:30:00 +0000</pubDate>
-      <category>1) Engineering</category>
-      <description>Covers 12 actionable security practices for production LLM deployments, mapped to OWASP&#x27;s LLM Top 10 (2025) and Agentic Top 10 (2026); each includes code, threat context, and prioritization guidance. Why it matters: Direct: Provides concrete security practices aligned with industry standards for real-world production LLM deployments.</description>
-    </item>
-    <item>
-      <title>Building GitHub for Product Management: How Momental Uses AI to Find Merge Conflicts in Strategy</title>
-      <link>https://www.producttalk.org/building-github-for-product-management-how-momental-uses-ai-to-find-merge-conflicts-in-strategy/</link>
-      <guid isPermaLink="true">https://www.producttalk.org/building-github-for-product-management-how-momental-uses-ai-to-find-merge-conflicts-in-strategy/</guid>
-      <pubDate>Thu, 05 Mar 2026 14:00:31 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Episode explores how Momental uses AI to spot when two product teams pull in opposite directions before it derails a quarter. Why it matters: Direct: Early detection of cross-team misalignment can preserve quarterly outcomes and accelerate strategic decisions.</description>
+      <description>A guide detailing 12 actionable security practices for production LLM deployments, aligned with OWASP LLM Top 10 (2025) and Agentic Top 10 (2026), with implementation code, threat context, and prioritization. Why it matters: Direct: Sets concrete security practices aligned with industry standards to reduce production risk.</description>
     </item>
     <item>
-      <title>Building AI Agent Workflows with IteraTools: One API for Everything</title>
-      <link>https://dev.to/fredpsantos33/building-ai-agent-workflows-with-iteratools-one-api-for-everything-3pmm</link>
-      <guid isPermaLink="true">https://dev.to/fredpsantos33/building-ai-agent-workflows-with-iteratools-one-api-for-everything-3pmm</guid>
-      <pubDate>Fri, 06 Mar 2026 10:25:25 +0000</pubDate>
+      <title>Introducing ChatGPT for Excel and new financial data integrations</title>
+      <link>https://openai.com/index/chatgpt-for-excel</link>
+      <guid isPermaLink="true">https://openai.com/index/chatgpt-for-excel</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Article reviews IteraTools&#x27; single API approach to AI agent workflows, reducing tool juggling and API management. Why it matters: Direct: Consolidating tools reduces integration overhead and accelerates experimentation.</description>
+      <description>OpenAI adds ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments. Why it matters: Direct: Improves AI-assisted modeling in finance with compliance-ready tooling.</description>
     </item>
     <item>
-      <title>Alex has been tracking the evidence on whether AI is showing up in the productivity stats. Seems like that may have actually started.</title>
-      <link>https://nitter.net/emollick/status/2029681855142744134</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2029681855142744134</guid>
-      <pubDate>Thu, 05 Mar 2026 22:13:58 +0000</pubDate>
+      <title>Bringing Multi-Agent Debates to Cursor (and other IDE/CLI) via MCP (AgentChatBus)</title>
+      <link>https://dev.to/killea/bringing-multi-agent-debates-to-cursor-and-other-idecli-via-mcp-agentchatbus-5179</link>
+      <guid isPermaLink="true">https://dev.to/killea/bringing-multi-agent-debates-to-cursor-and-other-idecli-via-mcp-agentchatbus-5179</guid>
+      <pubDate>Fri, 06 Mar 2026 12:54:05 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>A living document tracks AI&#x27;s impact on productivity, noting micro studies show a boost but macro evidence is muted. Why it matters: Direct: AI productivity signals vary by scale; align experiments with macro metrics.</description>
+      <description>Open-source MCP server AgentChatBus enables multi-agent debates for Cursor and other IDE/CLI reviews. Why it matters: Direct: Improves code reviews and risk checks by parallel expert viewpoints.</description>
     </item>
     <item>
-      <title>Spec-Gated Delivery: Why PR Review Is the Wrong Trust Checkpoint for AI Code</title>
-      <link>https://dev.to/t3chn/spec-gated-delivery-why-pr-review-is-the-wrong-trust-checkpoint-for-ai-code-1hfg</link>
-      <guid isPermaLink="true">https://dev.to/t3chn/spec-gated-delivery-why-pr-review-is-the-wrong-trust-checkpoint-for-ai-code-1hfg</guid>
-      <pubDate>Fri, 06 Mar 2026 10:27:26 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>Spec-Gated Delivery argues PR review is not the right trust checkpoint for AI code; AI can write code cheaply, but trusting it remains hard. Why it matters: Direct: Shift trust checkpoints earlier or to alternative controls beyond PR reviews.</description>
-    </item>
-    <item>
-      <title>How to Add 20+ Tools to Any MCP Agent in 5 Minutes</title>
-      <link>https://dev.to/fredpsantos33/how-to-add-20-tools-to-any-mcp-agent-in-5-minutes-mee</link>
-      <guid isPermaLink="true">https://dev.to/fredpsantos33/how-to-add-20-tools-to-any-mcp-agent-in-5-minutes-mee</guid>
-      <pubDate>Fri, 06 Mar 2026 10:25:46 +0000</pubDate>
+      <title>How to Scale Claude Code with an MCP Gateway (Run Any LLM, Centralize Tools, Control Costs)</title>
+      <link>https://dev.to/hadil/how-to-scale-claude-code-with-an-mcp-gateway-run-any-llm-centralize-tools-control-costs-nd9</link>
+      <guid isPermaLink="true">https://dev.to/hadil/how-to-scale-claude-code-with-an-mcp-gateway-run-any-llm-centralize-tools-control-costs-nd9</guid>
+      <pubDate>Fri, 06 Mar 2026 11:08:30 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Step-by-step guide to extending an MCP agent with 20+ tools in 5 minutes, enabling page scraping, chart generation, WhatsApp messaging, and PDF text extraction via a single MCP server. Why it matters: Direct: Shows a concrete, fast-path approach to tool integration within an MCP agent, enabling multi-tool tasks from one server.</description>
+      <description>Claude Code is a capable terminal-based coding agent that can read repos, execute commands, edit files, commit changes, run tests, resolve Git conflicts, and create pull requests inside the CLI. On its own, it’s powerful. Why it matters: Direct: Demonstrates terminal-based automation of core coding tasks inside the CLI.</description>
     </item>
     <item>
-      <title>The Model Is Always Late for Something</title>
-      <link>https://dev.to/riho_kroll/the-model-is-always-late-for-something-26pg</link>
-      <guid isPermaLink="true">https://dev.to/riho_kroll/the-model-is-always-late-for-something-26pg</guid>
-      <pubDate>Fri, 06 Mar 2026 11:05:26 +0000</pubDate>
+      <title>CapSolver&#x27;s AI-LLM Architecture: A Decision Pipeline for Adaptive CAPTCHA Recognition</title>
+      <link>https://dev.to/luisgustvo/capsolvers-ai-llm-architecture-a-decision-pipeline-for-adaptive-captcha-recognition-hg9</link>
+      <guid isPermaLink="true">https://dev.to/luisgustvo/capsolvers-ai-llm-architecture-a-decision-pipeline-for-adaptive-captcha-recognition-hg9</guid>
+      <pubDate>Fri, 06 Mar 2026 08:55:31 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Accounts an individual’s process of testing CLAUDE.md against real sessions, detailing failures, insights, and iterative improvements; framed as a personal exploration rather than a step-by-step guide. Why it matters: Inference: Emphasizes that practical tooling tests must document failures and context, not rely on a single definitive guide.</description>
+      <description>CAPTCHAs have evolved beyond simple text challenges to complex interactive puzzles and dynamic risk-based systems, demanding more sophisticated automation workflows than traditional image recognition. Why it matters: Direct: Highlights the need for more adaptive automation pipelines to handle evolving CAPTCHAs.</description>
     </item>
     <item>
-      <title>We built Agent Skills so your AI assistant can verify emails natively — here&#x27;s how it works.</title>
-      <link>https://www.reddit.com/r/BillionVerify/comments/1rmb3cn/we_built_agent_skills_so_your_ai_assistant_can/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/BillionVerify/comments/1rmb3cn/we_built_agent_skills_so_your_ai_assistant_can/</guid>
-      <pubDate>Fri, 06 Mar 2026 11:05:03 +0000</pubDate>
+      <title>The &quot;Impossible&quot; $0.32 Bill: Why my AI uses General Relativity as a Cost-Saver</title>
+      <link>https://www.reddit.com/r/BlackboxAI_/comments/1rmfid1/the_impossible_032_bill_why_my_ai_uses_general/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/BlackboxAI_/comments/1rmfid1/the_impossible_032_bill_why_my_ai_uses_general/</guid>
+      <pubDate>Fri, 06 Mar 2026 14:30:40 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Describes Agent Skills: plug-and-play email verification that runs inside AI assistants and agent frameworks to supplement email validity checks beyond syntax. Why it matters: Direct: Adds native email verification to AI workflows, reducing verification gaps beyond syntax checks.</description>
+      <description>A post claims OpenAI billed $0.32 for 2.1M tokens (830 requests), arguing it&#x27;s physically impossible per Landauer&#x27;s Principle, suggesting a ψ-layer is generating negative thermodynamic work. Why it matters: Direct: Illustrates tension between cost reporting and theoretical physics claims in AI compute discussions.</description>
     </item>
     <item>
-      <title>Salient Directions in AI Control</title>
-      <link>https://www.lesswrong.com/posts/kitaRHhSzphdvqie2/salient-directions-in-ai-control</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/kitaRHhSzphdvqie2/salient-directions-in-ai-control</guid>
-      <pubDate>Thu, 05 Mar 2026 19:38:07 +0000</pubDate>
+      <title>How I Handle Automated Programming</title>
+      <link>https://www.lesswrong.com/posts/ZrrFGQjSkgEFG2yfm/how-i-handle-automated-programming</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/ZrrFGQjSkgEFG2yfm/how-i-handle-automated-programming</guid>
+      <pubDate>Fri, 06 Mar 2026 04:27:05 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Explains a three-section AI Control framework focused on overviews, evaluation structure, and future steps, framing AI Control as a method to extract useful work from misaligned agents. Why it matters: Inference: Outlines a structured approach to evaluating AI control, aiding researchers in systematic assessment and actionable next steps.</description>
+      <description>A personal process for using Claude Code to write and review all code, noting model changes over time and a goal of rapid software delivery. Why it matters: Direct: Shows practical, developer-facing workflow for end-to-end coding with Claude Code.</description>
     </item>
     <item>
-      <title>Film Accounting: Stop manually logging receipts, use Ai to automate your wrap-out.</title>
-      <link>https://www.reddit.com/r/PeriscopeAccounting/comments/1rmbchh/film_accounting_stop_manually_logging_receipts/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/PeriscopeAccounting/comments/1rmbchh/film_accounting_stop_manually_logging_receipts/</guid>
-      <pubDate>Fri, 06 Mar 2026 11:19:08 +0000</pubDate>
+      <title>Playing Possum: The Variability Hypothesis</title>
+      <link>https://www.lesswrong.com/posts/zoDMGayxDoCWRzzxs/playing-possum-the-variability-hypothesis</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/zoDMGayxDoCWRzzxs/playing-possum-the-variability-hypothesis</guid>
+      <pubDate>Fri, 06 Mar 2026 14:48:56 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Production coordinators and film accountants face time drain from manual wrap-out receipts; a workflow is provided to automate expense logging with AI. Why it matters: Direct: Automating expense logging in wrap-out reduces manual data entry time for film accounting.</description>
+      <description>A historical anecdote about Larry Summers as Harvard president and his controversial suggestion that men and women may differ in distribution. Why it matters: Direct: Highlights how distributional gender claims can spark institutional backlash; prompts caution in interpreting gender-performance differences in high-stakes settings.</description>
+    </item>
+    <item>
+      <title>AWS Launches AI Agent Platform for Healthcare Patient Support</title>
+      <link>https://www.reddit.com/r/ai_news_byte_sized/comments/1rmg2hh/aws_launches_ai_agent_platform_for_healthcare/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ai_news_byte_sized/comments/1rmg2hh/aws_launches_ai_agent_platform_for_healthcare/</guid>
+      <pubDate>Fri, 06 Mar 2026 14:52:42 +0000</pubDate>
+      <category>4) Under the Radar</category>
+      <description>AWS introduced Amazon Connect Health, an AI agent platform to automate patient interactions and administrative tasks in hospitals, using generative AI to handle scheduling, support calls, and workflow management in healthcare contact centers. Why it matters: Direct: Signals enterprise adoption of AI agents in patient-facing workflows, potentially reducing call times and administrative load across hospital contact centers.</description>
+    </item>
+    <item>
+      <title>Goodbye Google — I self-host everything now on 4 tiny PCs in a 3D printed rack</title>
+      <link>https://www.reddit.com/r/selfhosted/comments/1rmfwoa/goodbye_google_i_selfhost_everything_now_on_4/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/selfhosted/comments/1rmfwoa/goodbye_google_i_selfhost_everything_now_on_4/</guid>
+      <pubDate>Fri, 06 Mar 2026 14:46:21 +0000</pubDate>
+      <category>4) Under the Radar</category>
+      <description>A user shares a fully self-hosted setup on four tiny PCs in a 3D-printed rack, replacing most services from big tech. Why it matters: Direct: Demonstrates a low-cost, privacy-preserving alternative to cloud dependence, with potential implications for TCO, data sovereignty, and vendor risk reduction.</description>
     </item>
     <item>
       <title>Clinejection — Compromising Cline&#x27;s Production Releases just by Prompting an Issue Triager</title>
@@ -148,55 +164,39 @@
       <guid isPermaLink="true">https://simonwillison.net/2026/Mar/6/clinejection/</guid>
       <pubDate>Fri, 06 Mar 2026 02:39:04 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Adnan Khan describes a devious attack chain against the Cline GitHub repository, beginning with a prompt injection attack in an issue title that could affect production releases. Why it matters: Direct: Prompt injection via issue titles can bypass triage controls to impact production releases.</description>
+      <description>A post details &#x27;Clinejection&#x27;, where a prompt-injection in an issue title targets Cline&#x27;s GitHub repo, potentially compromising production releases. Why it matters: Direct: Highlights practical risks of prompt-injection in issue titles for CI flows and the need for stronger input sanitization and review.</description>
     </item>
     <item>
-      <title>⚡ I Set Up an AI Email Automation in 20 Minutes (Here&#x27;s How)</title>
-      <link>https://www.reddit.com/r/AISEOInsider/comments/1rmbe7r/i_set_up_an_ai_email_automation_in_20_minutes/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/AISEOInsider/comments/1rmbe7r/i_set_up_an_ai_email_automation_in_20_minutes/</guid>
-      <pubDate>Fri, 06 Mar 2026 11:21:41 +0000</pubDate>
-      <category>4) Under the Radar</category>
-      <description>User imported an email automation template from the workflow vault and set up an AI-powered follow-up system in about 20 minutes, triggering on form submissions, composing personalized emails, sending them, and creating follow-up sequences. Why it matters: Direct: Quick, affordable automation setups can bootstrap AI email workflows without extensive coding.</description>
-    </item>
-    <item>
-      <title>AI #158: The Department of War</title>
-      <link>https://www.lesswrong.com/posts/YTnzcZSbA69fMCjNo/ai-158-the-department-of-war</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/YTnzcZSbA69fMCjNo/ai-158-the-department-of-war</guid>
-      <pubDate>Thu, 05 Mar 2026 16:10:34 +0000</pubDate>
-      <category>4) Under the Radar</category>
-      <description>The post describes a chaotic week in the Anthropic-DoW dispute, with the DoW situation spiraling and a proposed six-month wind-down banning Anthropic from direct federal use. Why it matters: Inference: Early signals of escalation between AI firms and government agencies can shape policy and procurement risk.</description>
-    </item>
-    <item>
-      <title>Difference Between GPT 5.2 and GPT 5.4 on MineBench</title>
-      <link>https://www.reddit.com/r/singularity/comments/1rluvdz/difference_between_gpt_52_and_gpt_54_on_minebench/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rluvdz/difference_between_gpt_52_and_gpt_54_on_minebench/</guid>
-      <pubDate>Thu, 05 Mar 2026 21:49:37 +0000</pubDate>
+      <title>[Article] Solving an Open Problem in Theoretical Physics using AI-Assisted Discovery - Google Research</title>
+      <link>https://www.reddit.com/r/singularity/comments/1rmd9yd/article_solving_an_open_problem_in_theoretical/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rmd9yd/article_solving_an_open_problem_in_theoretical/</guid>
+      <pubDate>Fri, 06 Mar 2026 12:57:21 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Notes that GPT 5.4 began creating much more natural curves/bends than GPT 5.2, which was more polygonal, with voxel-builder tool usage; mentions benchmarking GPT 5.4-Pro. Why it matters: Direct: Highlights practical differences in model creativity and tool usage that affect benchmarking and real-world rendering tasks.</description>
+      <description>Researchers used AI-assisted discovery to address how cosmic strings emit gravitational waves, tackling a difficult integral that had no exact solution. Why it matters: Direct: Demonstrates AI-enabled approach to solving previously intractable physics integrals, potentially accelerating theoretical predictions for cosmology.</description>
     </item>
     <item>
-      <title>A Compositional Philosophy of Science for Agent Foundations</title>
-      <link>https://www.lesswrong.com/posts/hswNC7gAAJNeSrFYN/a-compositional-philosophy-of-science-for-agent-foundations</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/hswNC7gAAJNeSrFYN/a-compositional-philosophy-of-science-for-agent-foundations</guid>
-      <pubDate>Fri, 06 Mar 2026 08:40:09 +0000</pubDate>
+      <title>GPT 5-4 scores 20% on critpt, a benchmark of research-level physics problems</title>
+      <link>https://www.reddit.com/r/singularity/comments/1rme2ym/gpt_54_scores_20_on_critpt_a_benchmark_of/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rme2ym/gpt_54_scores_20_on_critpt_a_benchmark_of/</guid>
+      <pubDate>Fri, 06 Mar 2026 13:32:59 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Describes the author&#x27;s philosophy of science guiding their research, outlining core reasoning and how they apply it to assumptions for a successful AI transition. Why it matters: Direct: Outlines a personal, cause-and-effect framework for researching AI transitions.</description>
+      <description>GPT 5-4 scores 20% on critpt, a benchmark of research-level physics problems. Why it matters: Direct: Signals ongoing gaps in AI reasoning on advanced physics problems, underscoring need for improved evaluation benchmarks.</description>
     </item>
     <item>
-      <title>My Self-Evolving AI Agent Learned to Count Its Own Money</title>
-      <link>https://dev.to/stefan_nitu/my-self-evolving-ai-agent-learned-to-count-its-own-money-27oe</link>
-      <guid isPermaLink="true">https://dev.to/stefan_nitu/my-self-evolving-ai-agent-learned-to-count-its-own-money-27oe</guid>
-      <pubDate>Fri, 06 Mar 2026 11:07:18 +0000</pubDate>
+      <title>Show HN: Moongate – Ultima Online server emulator in .NET 10 with Lua scripting</title>
+      <link>https://github.com/moongate-community/moongatev2</link>
+      <guid isPermaLink="true">https://github.com/moongate-community/moongatev2</guid>
+      <pubDate>Fri, 06 Mar 2026 14:22:59 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Describes stages of an evolving AI agent: birth with 25 mutations, two death spirals, 39 tools; pruning to 32 tools and a self-observation layer; 75 generations, 17,055 attempts. Why it matters: Direct: Illustrates how an evolving agent balances growth with sustainability and self-observation.</description>
+      <description>Moongate: a modern Ultima Online server emulator in .NET with Lua scripting; not feature-complete (no combat, no skills yet) but the foundation is solid. Why it matters: Direct: Demonstrates practical use of scripting in game server emulation and modern .NET tooling.</description>
     </item>
     <item>
-      <title>Woz</title>
-      <link>https://www.producthunt.com/products/woz</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/woz</guid>
-      <pubDate>Fri, 06 Mar 2026 06:17:19 +0000</pubDate>
+      <title>Replayable Execution Memory for AI Agents: Building Aionis</title>
+      <link>https://dev.to/ziel/replayable-execution-memory-for-ai-agents-building-aionis-31fg</link>
+      <guid isPermaLink="true">https://dev.to/ziel/replayable-execution-memory-for-ai-agents-building-aionis-31fg</guid>
+      <pubDate>Fri, 06 Mar 2026 15:00:47 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Product Hunt listing for Woz, described by the tagline &#x27;Build App That Earn Discussion | Link&#x27;. Why it matters: Direct: Showcases a monetizable app idea and community engagement angle.</description>
+      <description>Aionis: Replayable Execution Memory for AI Agents notes that LLM-enabled agents plan and automate tasks but suffer memory limitations, remembering conversations and embeddings instead of how work gets done. Why it matters: Direct: Highlights a practical memory improvement approach for AI agents with potential to improve reliability and traceability.</description>
     </item>
   </channel>
 </rss>
