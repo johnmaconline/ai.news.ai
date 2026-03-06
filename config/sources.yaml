@@ -107,6 +107,15 @@ sources:
     tags: [business, enterprise]
     max_items: 25
 
+  - id: tldr-ai
+    type: rss
+    name: TLDR AI
+    url: https://www.tldrnewsletter.com/rss
+    priority: 6
+    section_hint: big-announcements
+    tags: [curators, announcements, ai]
+    max_items: 20
+
   - id: productcoalition-ai
     type: rss
     name: Product Coalition

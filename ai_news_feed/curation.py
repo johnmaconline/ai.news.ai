@@ -21,6 +21,9 @@ from .config import (
     BIG_ANNOUNCEMENT_DOMAINS,
     BUSINESS_ANNOUNCEMENT_KEYWORDS,
     BUSINESS_PRACTICAL_KEYWORDS,
+    BIG_ANNOUNCEMENT_INTENT_KEYWORDS,
+    HIGH_SIGNAL_MODEL_RELEASE_KEYWORDS,
+    HIGH_SIGNAL_RECENCY_HOURS,
     KEYWORDS,
     LOW_SIGNAL_BIG_ANNOUNCEMENT_DOMAINS,
     MAINSTREAM_DOMAINS,
@@ -256,6 +259,33 @@ def _business_penalty(article: Article, text_blob: str) -> float:
     if article.domain in BIG_ANNOUNCEMENT_DOMAINS:
         penalty += 3.0
     return penalty
+
+
+def _has_model_release_signal(text_blob: str) -> bool:
+    if any(keyword in text_blob for keyword in HIGH_SIGNAL_MODEL_RELEASE_KEYWORDS):
+        return True
+    return bool(
+        re.search(
+            r'\b(gpt|claude|gemini|llama|qwen|mistral|deepseek|grok)[\- ]?[a-z0-9\.]*\b',
+            text_blob,
+        )
+    )
+
+
+def _is_high_signal_announcement(article: Article, text_blob: str) -> bool:
+    domain_signal = (article.domain or '').lower() in BIG_ANNOUNCEMENT_DOMAINS
+    if not domain_signal:
+        return False
+    model_signal = _has_model_release_signal(text_blob)
+    if not model_signal:
+        return False
+    intent_hits = _keyword_hits(text_blob, BIG_ANNOUNCEMENT_INTENT_KEYWORDS)
+    card_or_notes_signal = (
+        ('system card' in text_blob)
+        or ('model card' in text_blob)
+        or ('release notes' in text_blob)
+    )
+    return intent_hits > 0 or card_or_notes_signal
 
 
 def _under_the_radar_boost(article: Article, text_blob: str) -> float:
@@ -580,6 +610,7 @@ def score_articles(articles: list[Article], feed_dt: datetime | None = None) -> 
     for article in articles:
         text_blob = article.canonical_text().lower()
         scores: dict[str, float] = {}
+        high_signal_announcement = _is_high_signal_announcement(article, text_blob)
         recency_score = _recency_score(article, feed_dt)
         article.recency_score = max(0.0, min(recency_score * 2.5, 10.0))
         article.source_quality_score = _source_quality_score(article)
@@ -587,6 +618,7 @@ def score_articles(articles: list[Article], feed_dt: datetime | None = None) -> 
         article.metrics['recency_score'] = article.recency_score
         article.metrics['source_quality_score'] = article.source_quality_score
         article.metrics['novelty_score'] = article.novelty_score
+        article.metrics['high_signal_announcement'] = 1.0 if high_signal_announcement else 0.0
         base = (
             article.priority
             + recency_score
@@ -628,6 +660,13 @@ def score_articles(articles: list[Article], feed_dt: datetime | None = None) -> 
                 section_score -= _business_penalty(article, text_blob)
                 if not _is_software_development_candidate(article, text_blob):
                     section_score -= 4.5
+            if high_signal_announcement:
+                if section.slug in {'engineering', 'product-development'}:
+                    section_score += 5.0
+                elif section.slug == 'business':
+                    section_score += 2.4
+                elif section.slug == 'for-fun':
+                    section_score -= 3.0
             if _is_curator_watchlist_article(article):
                 section_score += _curator_watchlist_score_boost(section.slug)
             scores[section.slug] = round(section_score, 3)
@@ -660,6 +699,63 @@ def _pick_candidates(
     return selected
 
 
+def _ensure_high_signal_coverage(
+    sections: dict[str, list[Article]],
+    articles: list[Article],
+    picked_ids: set[str],
+    max_per_section: int,
+) -> None:
+    selected_items = [item for picks in sections.values() for item in picks]
+    if any(float(item.metrics.get('high_signal_announcement', 0.0)) >= 1.0 for item in selected_items):
+        return
+
+    candidates = [
+        article
+        for article in articles
+        if float(article.metrics.get('high_signal_announcement', 0.0)) >= 1.0
+    ]
+    if not candidates:
+        return
+    candidates = sorted(
+        candidates,
+        key=lambda item: max(
+            item.scores.get('engineering', 0.0),
+            item.scores.get('product-development', 0.0),
+            item.scores.get('business', 0.0),
+        ),
+        reverse=True,
+    )
+    chosen = None
+    for candidate in candidates:
+        if candidate.id in picked_ids:
+            return
+        chosen = candidate
+        break
+    if chosen is None:
+        return
+
+    target_slug = 'engineering'
+    target = sections.get(target_slug, [])
+    if len(target) < max_per_section:
+        target.append(chosen)
+        picked_ids.add(chosen.id)
+        log.info('Injected high-signal announcement into section=%s: %s', target_slug, chosen.title)
+        return
+
+    lowest = min(target, key=lambda item: item.scores.get(target_slug, 0.0))
+    if chosen.scores.get(target_slug, 0.0) <= lowest.scores.get(target_slug, 0.0):
+        return
+    target.remove(lowest)
+    picked_ids.discard(lowest.id)
+    target.append(chosen)
+    picked_ids.add(chosen.id)
+    log.info(
+        'Replaced low-score item with high-signal announcement in section=%s: %s',
+        target_slug,
+        chosen.title,
+    )
+
+
 def curate_sections(
     articles: list[Article],
     min_per_section: int = SECTION_TARGET_MIN,
@@ -669,11 +765,26 @@ def curate_sections(
 ) -> dict[str, list[Article]]:
     if feed_dt is None:
         feed_dt = datetime.now(timezone.utc)
-    recent_articles = [
-        article
-        for article in articles
-        if _is_within_recency_window(article, feed_dt, RECENCY_REQUIRED_HOURS)
-    ]
+    recent_articles: list[Article] = []
+    high_signal_grace_count = 0
+    for article in articles:
+        if _is_within_recency_window(article, feed_dt, RECENCY_REQUIRED_HOURS):
+            recent_articles.append(article)
+            continue
+        text_blob = article.canonical_text().lower()
+        if (
+            _is_high_signal_announcement(article, text_blob)
+            and _is_within_recency_window(article, feed_dt, HIGH_SIGNAL_RECENCY_HOURS)
+        ):
+            article.metrics['recency_grace_applied'] = 1.0
+            recent_articles.append(article)
+            high_signal_grace_count += 1
+    if high_signal_grace_count > 0:
+        log.info(
+            'Included %s high-signal announcement item(s) with %s-hour recency grace.',
+            high_signal_grace_count,
+            HIGH_SIGNAL_RECENCY_HOURS,
+        )
     articles = recent_articles
     score_articles(articles, feed_dt=feed_dt)
     sections: dict[str, list[Article]] = {section.slug: [] for section in SECTIONS}
@@ -797,5 +908,12 @@ def curate_sections(
             curator_total_cap,
             curator_per_section_cap,
         )
+
+    _ensure_high_signal_coverage(
+        sections=sections,
+        articles=articles,
+        picked_ids=picked_ids,
+        max_per_section=max_per_section,
+    )
 
     return sections

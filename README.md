@@ -20,8 +20,10 @@ Each daily post includes:
    - arXiv API
    - X API (optional)
    - LinkedIn API (optional)
+   - Includes default Hacker News (`hackernews-ai`) and TLDR (`tldr-ai`) sources
 2. Normalize and deduplicate links.
 3. Require source items to be within the last 24 hours, then score each item across the six sections.
+   - High-signal model/company announcements from trusted domains get a 48-hour grace window to avoid missing major releases by schedule timing.
 4. Apply LLM-assisted curation reranking (default on) with deterministic fallback if LLM is unavailable.
 5. Select top `3-5` per section with domain diversity constraints.
 6. Generate concise summaries and "why it matters":
@@ -65,8 +67,31 @@ Optional environment variables:
 - `LINKEDIN_ACCESS_TOKEN` (for `type: linkedin` sources)
 - `LINKEDIN_API_VERSION` (default: `202503`)
 - `LINKEDIN_AUTHOR_URN` (optional override for LinkedIn org/person URN)
+- `DISCORD_APPLICATION_ID` (Discord app client id)
+- `DISCORD_BOT_TOKEN` (Discord bot token)
+- `DISCORD_GUILD_ID` (Discord server id)
+- `DISCORD_CHANNEL_IDS` (comma-separated Discord channel ids)
 - `FEED_TIMEZONE` (default: `America/New_York`)
 - `NEWSLETTER_SUBSCRIBE_ENDPOINT` (optional subscribe API URL embedded in site header)
+
+Discord setup helper:
+
+```bash
+python -m ai_news_feed.discord_setup \
+  --application-id "$DISCORD_APPLICATION_ID" \
+  --bot-token "$DISCORD_BOT_TOKEN" \
+  --guild-id "$DISCORD_GUILD_ID" \
+  --write-env .env \
+  --append-feeds-other \
+  --feeds-file config/feeds.md
+```
+
+What it automates:
+- Builds install URL for your bot
+- Validates bot token
+- Lists accessible guilds/channels
+- Writes Discord keys into `.env`
+- Appends selected Discord channel notes into `config/feeds.md` section `4. other`
 
 ## Email Subscription API (Phase 1)
 
@@ -142,6 +167,10 @@ Workflow: `.github/workflows/daily-feed.yml`
 
 - Edit sources in `config/sources.yaml`.
 - Maintain ongoing discovered feeds/users in `config/feeds.md`.
+- Built-in defaults include:
+  - `hackernews-ai` (`type: hackernews`) in `config/sources.yaml`
+  - `tldr-ai` (`type: rss`) in `config/sources.yaml`
+  - Extra TLDR variants can stay in `config/feeds.md` under `1. URLs`
 - Tune section scoring keywords in `ai_news_feed/config.py`.
 - Adjust min/max links per section via CLI:
 

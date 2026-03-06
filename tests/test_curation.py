@@ -66,6 +66,82 @@ def test_curate_sections_filters_items_older_than_24_hours() -> None:
     assert 'fresh-item' in all_ids
 
 
+def test_high_signal_release_uses_extended_recency_grace() -> None:
+    feed_dt = datetime(2026, 3, 6, 11, 0, tzinfo=timezone.utc)
+    high_signal = Article(
+        id='gpt-54-release',
+        title='Introducing GPT-5.4',
+        url='https://openai.com/index/introducing-gpt-5-4',
+        summary='OpenAI released GPT-5.4 with stronger coding and computer use.',
+        source_name='OpenAI News',
+        source_type='rss',
+        domain='openai.com',
+        published_at=datetime(2026, 3, 5, 10, 0, tzinfo=timezone.utc),
+        priority=9.0,
+        section_hint='big-announcements',
+    )
+    filler = Article(
+        id='fresh-filler',
+        title='Workflow notes',
+        url='https://example.com/workflow-notes',
+        summary='practical workflow tutorial for engineering teams',
+        source_name='Example',
+        source_type='rss',
+        domain='example.com',
+        published_at=datetime(2026, 3, 6, 9, 0, tzinfo=timezone.utc),
+        priority=4.0,
+        section_hint='engineering',
+    )
+    sections = curate_sections(
+        articles=[high_signal, filler],
+        min_per_section=1,
+        max_per_section=3,
+        feed_dt=feed_dt,
+        enable_llm_curation=False,
+    )
+    all_ids = {item.id for picks in sections.values() for item in picks}
+    assert 'gpt-54-release' in all_ids
+    assert high_signal.metrics.get('recency_grace_applied') == 1.0
+
+
+def test_high_signal_release_is_filtered_when_older_than_grace_window() -> None:
+    feed_dt = datetime(2026, 3, 6, 11, 0, tzinfo=timezone.utc)
+    too_old = Article(
+        id='gpt-54-too-old',
+        title='Introducing GPT-5.4',
+        url='https://openai.com/index/introducing-gpt-5-4',
+        summary='OpenAI released GPT-5.4 with stronger coding and computer use.',
+        source_name='OpenAI News',
+        source_type='rss',
+        domain='openai.com',
+        published_at=datetime(2026, 3, 4, 9, 0, tzinfo=timezone.utc),
+        priority=9.0,
+        section_hint='big-announcements',
+    )
+    fresh = Article(
+        id='fresh-for-check',
+        title='Prompt template for test generation',
+        url='https://example.com/prompts',
+        summary='prompt template for unit test and ci pipeline automation',
+        source_name='Example',
+        source_type='rss',
+        domain='example.com',
+        published_at=datetime(2026, 3, 6, 10, 0, tzinfo=timezone.utc),
+        priority=5.0,
+        section_hint='big-announcements',
+    )
+    sections = curate_sections(
+        articles=[too_old, fresh],
+        min_per_section=1,
+        max_per_section=3,
+        feed_dt=feed_dt,
+        enable_llm_curation=False,
+    )
+    all_ids = {item.id for picks in sections.values() for item in picks}
+    assert 'gpt-54-too-old' not in all_ids
+    assert 'fresh-for-check' in all_ids
+
+
 def test_business_prefers_practical_over_announcement_items() -> None:
     feed_dt = datetime(2026, 3, 1, 12, 0, tzinfo=timezone.utc)
     announcement = Article(

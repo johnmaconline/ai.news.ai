@@ -181,6 +181,23 @@ KEYWORDS = {
 SECTION_TARGET_MIN = 3
 SECTION_TARGET_MAX = 4
 RECENCY_REQUIRED_HOURS = 24.0
+HIGH_SIGNAL_RECENCY_HOURS = 48.0
+
+HIGH_SIGNAL_MODEL_RELEASE_KEYWORDS = [
+    'gpt-',
+    'claude',
+    'gemini',
+    'llama',
+    'qwen',
+    'mistral',
+    'deepseek',
+    'grok',
+    'frontier model',
+    'system card',
+    'model card',
+    'release notes',
+    'thinking model',
+]
 
 BUSINESS_PRACTICAL_KEYWORDS = [
     'agent',
