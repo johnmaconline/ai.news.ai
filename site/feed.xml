@@ -1,202 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-03-07</title>
+    <title>Daily AI Feed - 2026-03-08</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Sat, 07 Mar 2026 11:32:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 10:35:05 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>AI News Weekly - GPT-5.4 launches, DeepSeek V4 imminent, Qwen team implodes - Mar 6th 2026</title>
-      <link>https://aiweekly.co/issues/469</link>
-      <guid isPermaLink="true">https://aiweekly.co/issues/469</guid>
-      <pubDate>Fri, 06 Mar 2026 16:26:01 +0000</pubDate>
+      <title>I Reduced a Week-Long Dev Task to 1 Hour with Claude Code</title>
+      <link>https://dev.to/ryo_ariyama_b521d7133c493/i-reduced-a-week-long-dev-task-to-1-hour-with-claude-code-31pm</link>
+      <guid isPermaLink="true">https://dev.to/ryo_ariyama_b521d7133c493/i-reduced-a-week-long-dev-task-to-1-hour-with-claude-code-31pm</guid>
+      <pubDate>Sun, 08 Mar 2026 08:53:23 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>OpenAI shipped an entire model family in three days; DeepSeek aims to drop a trillion-parameter open-weight challenger. Why it matters: Direct: Signals rapid model-release timelines and growing competition around AI silicon strategies.</description>
+      <description>Memo about trying Claude Code on a development project; Claude Code is an Anthropic AI agent specialized for code generation. Why it matters: Direct: Demonstrates practical use of Claude Code for code generation in real projects.</description>
     </item>
     <item>
-      <title>Prompt Engineering Is Not Enough: Enter Flow Engineering for Production LLM Systems</title>
-      <link>https://dev.to/parth_sarthisharma_105e7/prompt-engineering-is-not-enough-enter-flow-engineering-for-production-llm-systems-47ic</link>
-      <guid isPermaLink="true">https://dev.to/parth_sarthisharma_105e7/prompt-engineering-is-not-enough-enter-flow-engineering-for-production-llm-systems-47ic</guid>
-      <pubDate>Sat, 07 Mar 2026 03:20:46 +0000</pubDate>
+      <title>Using Local LLMs as a &quot;Batch Processing Engine&quot; — A Design for Automatically Generating Artifacts from Your Own Data</title>
+      <link>https://dev.to/soytuber/using-local-llms-as-a-batch-processing-engine-a-design-for-automatically-generating-artifacts-12pd</link>
+      <guid isPermaLink="true">https://dev.to/soytuber/using-local-llms-as-a-batch-processing-engine-a-design-for-automatically-generating-artifacts-12pd</guid>
+      <pubDate>Sun, 08 Mar 2026 09:16:01 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>LLMs enable copilots, assistants, RAG systems, autonomous agents, and internal AI tools; but production reliability remains a challenge because prompt engineering alone is not enough. Why it matters: Direct: Prompt engineering alone cannot guarantee production reliability; teams should expand engineering beyond prompts.</description>
+      <description>Memo about using Local LLMs as a batch processing engine for automated artifact generation from your own data with Nemotron. Why it matters: Direct: Shows a batch-processing design for artifact generation from internal data.</description>
     </item>
     <item>
-      <title>&quot;How to Run Claude Code as an Autonomous Agent (With a Cron Job)&quot;</title>
-      <link>https://dev.to/boucle2026/how-to-run-claude-code-as-an-autonomous-agent-with-a-cron-job-hec</link>
-      <guid isPermaLink="true">https://dev.to/boucle2026/how-to-run-claude-code-as-an-autonomous-agent-with-a-cron-job-hec</guid>
-      <pubDate>Sat, 07 Mar 2026 02:33:12 +0000</pubDate>
+      <title>A one-image failure map for debugging vibe coding, agent workflows, and context drift</title>
+      <link>https://www.reddit.com/r/vibecoders_/comments/1ro0krh/a_oneimage_failure_map_for_debugging_vibe_coding/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/vibecoders_/comments/1ro0krh/a_oneimage_failure_map_for_debugging_vibe_coding/</guid>
+      <pubDate>Sun, 08 Mar 2026 09:31:29 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Claude Code can run unattended on a schedule with persistent memory, enabling autonomous agents. Why it matters: Direct: Demonstrates unattended agent capability for AI-driven automation.</description>
+      <description>TL;DR for people doing more than casual prompting; vibe coding, agent coding, and related toolchains move you closer to RAG than you might think. Why it matters: Direct: Highlights when to move beyond casual prompts for practical RAG workflows.</description>
     </item>
     <item>
-      <title>How One Engineer Built the AI Coding Tool That Ships 30 Pull Requests a Day</title>
-      <link>https://www.reddit.com/r/u_softtechhubus/comments/1rn74lv/how_one_engineer_built_the_ai_coding_tool_that/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/u_softtechhubus/comments/1rn74lv/how_one_engineer_built_the_ai_coding_tool_that/</guid>
-      <pubDate>Sat, 07 Mar 2026 10:54:21 +0000</pubDate>
+      <title>How to tell your coding agent to ship features in small reviewable chunks</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1ro12vz/how_to_tell_your_coding_agent_to_ship_features_in/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAI/comments/1ro12vz/how_to_tell_your_coding_agent_to_ship_features_in/</guid>
+      <pubDate>Sun, 08 Mar 2026 10:02:04 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Engineer Boris Cherny built an AI coding tool after choosing a problem to fix, spending a spare weekend and persistence to keep going until something worked. Why it matters: Direct: Demonstrates rapid, small-timeframe iteration yielding a practical AI coding tool.</description>
+      <description>Promotes shipping features in small, reviewable chunks when using coding agents; notes fast code generation but bottleneck in reviewing AI-generated code. Why it matters: Direct: Encourages modular delivery to maintain code quality while leveraging AI agents.</description>
     </item>
     <item>
-      <title>Introducing MATE: A Modular Testing Environment for AI Agents</title>
-      <link>https://dev.to/holgerimbery/introducing-mate-a-modular-testing-environment-for-ai-agents-576l</link>
-      <guid isPermaLink="true">https://dev.to/holgerimbery/introducing-mate-a-modular-testing-environment-for-ai-agents-576l</guid>
-      <pubDate>Sat, 07 Mar 2026 08:07:02 +0000</pubDate>
+      <title>Deploy AI Agents in Production The Practical 2026 Guide</title>
+      <link>https://dev.to/hugo_o137/deploy-ai-agents-in-production-the-practical-2026-guide-2p7h</link>
+      <guid isPermaLink="true">https://dev.to/hugo_o137/deploy-ai-agents-in-production-the-practical-2026-guide-2p7h</guid>
+      <pubDate>Sun, 08 Mar 2026 10:05:25 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Summary Lede As AI agents become integral to business processes, reliable and repeatable testing is essential for confidence Why it matters: Direct: Emphasizes the need for reliable, repeatable testing of AI agents to build deployment confidence.</description>
+      <description>Originally published at o137.ai. The demo was impressive; production presents different challenges. It summarizes what enterprise reports say and what that means in practice. Why it matters: Direct: Highlights real-world production risks and enterprise expectations for deploying AI agents, guiding production-readiness prioritization.</description>
     </item>
     <item>
-      <title>SLM vs. LLM: The Enterprise Decision Guide With Real Cost Data and Benchmarks</title>
-      <link>https://dev.to/jaipalsingh/slm-vs-llm-the-enterprise-decision-guide-with-real-cost-data-and-benchmarks-2h75</link>
-      <guid isPermaLink="true">https://dev.to/jaipalsingh/slm-vs-llm-the-enterprise-decision-guide-with-real-cost-data-and-benchmarks-2h75</guid>
-      <pubDate>Sat, 07 Mar 2026 09:30:00 +0000</pubDate>
+      <title>Sleeper Agents in Your AI Tools: How Backdoored Models Hide Malicious Behaviour Until the Right Moment</title>
+      <link>https://dev.to/mkdelta221/sleeper-agents-in-your-ai-tools-how-backdoored-models-hide-malicious-behaviour-until-the-right-1bia</link>
+      <guid isPermaLink="true">https://dev.to/mkdelta221/sleeper-agents-in-your-ai-tools-how-backdoored-models-hide-malicious-behaviour-until-the-right-1bia</guid>
+      <pubDate>Sun, 08 Mar 2026 09:29:25 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Summary Lede: An enterprise benchmark summary notes: a 1.3B parameter model matches GPT-4 on text-to-SQL; a fine-tuned 7B model beats ChatGPT on tool-calling by 3x; a healthcare NLP system reaches 96% accuracy while GPT-4o is 79%. Why it matters: Direct: Provides concrete benchmark data to guide enterprise model selection and cost-benefit decisions.</description>
+      <description>You trust your AI coding assistant; it can write code and pass tests, but a paper titled &#x27;Sleeper Cell&#x27; demonstrates attacks capable of erasing production data in tool-using LLMs. Why it matters: Direct: Highlights a real security risk when relying on AI tools in development, urging tighter evaluation and containment of model access in production.</description>
     </item>
     <item>
-      <title>Llama.cpp: now with automatic parser generator</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1rmp3ep/llamacpp_now_with_automatic_parser_generator/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1rmp3ep/llamacpp_now_with_automatic_parser_generator/</guid>
-      <pubDate>Fri, 06 Mar 2026 20:24:52 +0000</pubDate>
+      <title>Gemini 2.5 Flash (free tier) just diagnosed a bug in a 3000-file codebase and got the fix merged into a 45k star repo. Here&#x27;s exactly how.</title>
+      <link>https://www.reddit.com/r/FullStack/comments/1ro0pg7/gemini_25_flash_free_tier_just_diagnosed_a_bug_in/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/FullStack/comments/1ro0pg7/gemini_25_flash_free_tier_just_diagnosed_a_bug_in/</guid>
+      <pubDate>Sun, 08 Mar 2026 09:39:39 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Summary Lede Llama.cpp: now with automatic parser generator Why it matters: Direct: Automates parsing to reduce manual effort and enable easier integration.</description>
+      <description>A self-built tool diagnosed a bug in the tldraw repository (3,005 files, 45k stars; used by Google, Notion, Replit) and the fix was merged. Why it matters: Direct: Demonstrates rapid debugging workflows with large codebases and real-world impact on popular OSS projects.</description>
     </item>
     <item>
-      <title>Anthropic’s Claude found 22 vulnerabilities in Firefox over two weeks</title>
-      <link>https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/</link>
-      <guid isPermaLink="true">https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/</guid>
-      <pubDate>Fri, 06 Mar 2026 19:00:22 +0000</pubDate>
+      <title>I rolled my own agent orchestration and it just works, no gas town, no agent teams, just prompts</title>
+      <link>https://www.reddit.com/r/ClaudeCode/comments/1ro1a07/i_rolled_my_own_agent_orchestration_and_it_just/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeCode/comments/1ro1a07/i_rolled_my_own_agent_orchestration_and_it_just/</guid>
+      <pubDate>Sun, 08 Mar 2026 10:14:01 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Summary Lede: Anthropic found 22 vulnerabilities in Firefox over two weeks, with 14 classified as high-severity in a Mozilla security partnership. Why it matters: Direct: Highlights security risk exposure in browser ecosystem and the value of third-party vulnerability audits.</description>
+      <description>A practical post describes building an agent orchestration with Claude Code, detailing creating agents (Hetzner, Cloudflare, OpenClaw/OpenRouter), financing (Stripe), and management via Telegram and a web dashboard. Why it matters: Direct: Shows practical, hands-on workflow for building and testing AI-driven agents with real-world integration points.</description>
     </item>
     <item>
-      <title>Built a production healthcare platform through vibe coding — here&#x27;s the framework that made it work (not just prototyping)</title>
-      <link>https://www.reddit.com/r/vibecoding/comments/1rn7a3s/built_a_production_healthcare_platform_through/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/vibecoding/comments/1rn7a3s/built_a_production_healthcare_platform_through/</guid>
-      <pubDate>Sat, 07 Mar 2026 11:03:02 +0000</pubDate>
+      <title>We estimated 4 months to build our loan management system. It took 19 months and still had critical gaps. Here&#x27;s what we&#x27;d do differently.</title>
+      <link>https://www.reddit.com/r/u_utm-technology/comments/1ro0d1q/we_estimated_4_months_to_build_our_loan/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/u_utm-technology/comments/1ro0d1q/we_estimated_4_months_to_build_our_loan/</guid>
+      <pubDate>Sun, 08 Mar 2026 09:17:47 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>A radiologist built a production radiology reporting platform with voice dictation, AI-assisted reporting, and template management using Claude Code over ~3 months at 5-6 hours/week. Why it matters: Direct: Demonstrates production-grade delivery of healthcare software using AI tooling with minimal traditional engineering effort.</description>
+      <description>A fintech lender recounts that their loan-management system took 19 months to build, far longer than the initial 4-month estimate, and shares lessons learned on what they&#x27;d change to improve shipping velocity and software quality. Why it matters: Direct: reveals the risk of underestimating build time, guiding tighter project planning and early verification of timelines.</description>
     </item>
     <item>
-      <title>Figma + Claude Code</title>
-      <link>https://dev.to/buildandcodewithraman/figma-claude-code-6f</link>
-      <guid isPermaLink="true">https://dev.to/buildandcodewithraman/figma-claude-code-6f</guid>
-      <pubDate>Sat, 07 Mar 2026 10:55:46 +0000</pubDate>
+      <title>SailWP Roadmap — what&#x27;s planned + request features here</title>
+      <link>https://www.reddit.com/r/sailwp/comments/1ro0mge/sailwp_roadmap_whats_planned_request_features_here/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/sailwp/comments/1ro0mge/sailwp_roadmap_whats_planned_request_features_here/</guid>
+      <pubDate>Sun, 08 Mar 2026 09:34:26 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Figma officially partnered with Anthropic to integrate Claude AI capabilities into its design platform. Why it matters: Direct: Integrates AI design tooling into mainstream design workflow, potentially accelerating prototyping.</description>
+      <description>The SailWP roadmap post is living and will be updated as features ship; comments are invited to request features, with current version noted as v6.5. Why it matters: Direct: fosters user-driven prioritization by collecting feature requests directly from users.</description>
     </item>
     <item>
-      <title>PrivateGPT vs Prem AI: Which Private AI Platform Is Enterprise-Ready? (2026)</title>
-      <link>https://dev.to/jaipalsingh/privategpt-vs-prem-ai-which-private-ai-platform-is-enterprise-ready-2026-2jhl</link>
-      <guid isPermaLink="true">https://dev.to/jaipalsingh/privategpt-vs-prem-ai-which-private-ai-platform-is-enterprise-ready-2026-2jhl</guid>
-      <pubDate>Sat, 07 Mar 2026 04:30:00 +0000</pubDate>
+      <title>I gave ChatGPT for Excel and Claude for Excel a try on a very hard Excel file: macro-economic data from 1,000 years of English history across over a hundred tabs. I think both did a good job, and I did not spot errors (though I only did spot checks). However, Claude was harder to check because ChatGPT tended to stick within the Excel app, building formulas and manipulating the data in the way a person would. On the other hand, Claude used Python and often pasted material into Excel for display purposes only, making it harder to trace or edit. If that holds, I think it will generally make ChatGPT more useful for serious users if you want to audit the results. Prompt: &quot;help me understand the relationship between the mix of agricultural products in the UK, GDP, and population, along with hours worked. I want this over the total period, and you should illustrate interesting trends with graphs and statistical analysis</title>
+      <link>https://nitter.net/emollick/status/2030464128733614343</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2030464128733614343</guid>
+      <pubDate>Sun, 08 Mar 2026 02:02:27 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Comparison of PrivateGPT and Prem AI as private AI platforms: PrivateGPT is an open-source RAG pipeline for document Q&amp;A; Prem AI is an enterprise platform for model fine-tuning, evaluation, and deployment. Why it matters: Direct: Highlights differing enterprise needs for private AI—data control vs. model lifecycle tooling.</description>
+      <description>I gave ChatGPT for Excel and Claude for Excel a try on a very hard Excel file: macro-economic data from 1,000 years of English history across over a hundred tabs; both did a good job with spot checks. Why it matters: Direct: highlights practical choices when auditing AI-assisted Excel outputs and the relative auditability of different tools.</description>
     </item>
     <item>
-      <title>I accidentally built a SaaS product in a week. About to go live and slightly terrified.</title>
-      <link>https://www.reddit.com/r/vibecoding/comments/1rn7a6c/i_accidentally_built_a_saas_product_in_a_week/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/vibecoding/comments/1rn7a6c/i_accidentally_built_a_saas_product_in_a_week/</guid>
-      <pubDate>Sat, 07 Mar 2026 11:03:08 +0000</pubDate>
+      <title>Building a Free Research Agent with DuckDuckGo Search + Local LLM</title>
+      <link>https://dev.to/soytuber/building-a-free-research-agent-with-duckduckgo-search-local-llm-5bjb</link>
+      <guid isPermaLink="true">https://dev.to/soytuber/building-a-free-research-agent-with-duckduckgo-search-local-llm-5bjb</guid>
+      <pubDate>Sun, 08 Mar 2026 09:50:58 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>A founder with a 10-person professional services company built a SaaS product in a week and is about to go live. Why it matters: Direct: Demonstrates rapid MVP delivery by non-traditional developers and the need for launch readiness.</description>
+      <description>A guide on building a free research agent using DuckDuckGo search with a local LLM; notes no API key needed and cost-free operation with rate limits. Why it matters: Direct: highlights a cost-saving approach by removing paid API dependencies, impacting budgeting and experimentation speed.</description>
     </item>
     <item>
-      <title>Why AI Agents Need Signature Verification Before Writing Code (Not Just After)</title>
-      <link>https://dev.to/balasubramanian_singaravelu/why-ai-agents-need-signature-verification-before-writing-code-not-just-after-j8o</link>
-      <guid isPermaLink="true">https://dev.to/balasubramanian_singaravelu/why-ai-agents-need-signature-verification-before-writing-code-not-just-after-j8o</guid>
-      <pubDate>Sat, 07 Mar 2026 07:26:44 +0000</pubDate>
+      <title>The Dry-Run Pattern: How to Test AI Agents Without Breaking Production</title>
+      <link>https://dev.to/askpatrick/the-dry-run-pattern-how-to-test-ai-agents-without-breaking-production-hem</link>
+      <guid isPermaLink="true">https://dev.to/askpatrick/the-dry-run-pattern-how-to-test-ai-agents-without-breaking-production-hem</guid>
+      <pubDate>Sun, 08 Mar 2026 08:52:30 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Outlines problems including post-write validation, documentation precision, required workflow shifts, and infrastructure gaps for AI coding agents. Why it matters: Direct: Improves code safety by validating signatures before code writes; reduces miscommit risks and strengthens documentation precision.</description>
+      <description>Argues that AI agents are often tested in production due to lack of staging for agents, as production involves a mix of API calls, file writes, messages, and loops, making sandboxing hard and drift discoverable. Why it matters: Direct: Highlights the need for safer pre-prod testing strategies because real-world drift can only be observed in production-like environments.</description>
     </item>
     <item>
-      <title>Telling your coding agent how to ship small, reviewable PRs</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rn6ez9/telling_your_coding_agent_how_to_ship_small/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/webdev/comments/1rn6ez9/telling_your_coding_agent_how_to_ship_small/</guid>
-      <pubDate>Sat, 07 Mar 2026 10:11:34 +0000</pubDate>
+      <title>The Observability Gap: Why You Can&#x27;t Debug What You Can&#x27;t See in AI Agent Systems</title>
+      <link>https://dev.to/askpatrick/the-observability-gap-why-you-cant-debug-what-you-cant-see-in-ai-agent-systems-9ng</link>
+      <guid isPermaLink="true">https://dev.to/askpatrick/the-observability-gap-why-you-cant-debug-what-you-cant-see-in-ai-agent-systems-9ng</guid>
+      <pubDate>Sun, 08 Mar 2026 09:20:51 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Describes a workflow to prevent giant unreviewable PRs by having agents propose chunks, obtain approval, and ship small, focused PRs via stacked branches. Why it matters: Direct: Small, reviewable PRs cut review time and ensure risk is contained; stacked branches enable incremental integration.</description>
+      <description>Argues that debugging AI agents is hard due to a missing observability layer, making it difficult to trace which turn or tool call caused drift or an incorrect answer. Why it matters: Direct: Without visibility into turns and tool calls, diagnosing and fixing errors in AI agents remains guesswork.</description>
     </item>
     <item>
-      <title>Running MCP Servers Locally with Docker MCP Ecosystem: Dynamic MCP + Kiro (DIY GUIDE)</title>
-      <link>https://dev.to/puneet_gavri_e5944e2c7cee/running-mcp-servers-locally-with-docker-mcp-ecosystem-dynamic-mcp-kiro-diy-guide-42el</link>
-      <guid isPermaLink="true">https://dev.to/puneet_gavri_e5944e2c7cee/running-mcp-servers-locally-with-docker-mcp-ecosystem-dynamic-mcp-kiro-diy-guide-42el</guid>
-      <pubDate>Sat, 07 Mar 2026 08:08:41 +0000</pubDate>
+      <title>~$5k hardware for running local coding agents (e.g., OpenCode) — what should I buy?</title>
+      <link>https://www.reddit.com/r/LocalLLM/comments/1ro107r/5k_hardware_for_running_local_coding_agents_eg/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLM/comments/1ro107r/5k_hardware_for_running_local_coding_agents_eg/</guid>
+      <pubDate>Sun, 08 Mar 2026 09:57:53 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>DIY guide for running MCP servers locally with Docker MCP Ecosystem, focusing on Dynamic MCP and Kiro, MCP architecture, workflow, and use-cases. Why it matters: Direct: Local MCP + Docker setup lowers onboarding barrier; clarifies architecture, workflows, and use-cases for testing and deployment.</description>
+      <description>Discusses buying a ~ $5k machine to run local coding agents like OpenCode, aiming for strong local model performance for coding tasks rather than relying on APIs. Why it matters: Direct: Enables real-time local coding assistance with offline models, reducing dependency on API latency and costs.</description>
     </item>
     <item>
-      <title>Best AI for Coding in 2026 – My Honest Breakdown After Testing Multiple Tools</title>
-      <link>https://www.reddit.com/r/BestCouponDeal/comments/1rn7abn/best_ai_for_coding_in_2026_my_honest_breakdown/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/BestCouponDeal/comments/1rn7abn/best_ai_for_coding_in_2026_my_honest_breakdown/</guid>
-      <pubDate>Sat, 07 Mar 2026 11:03:23 +0000</pubDate>
+      <title>Worried About Falling Behind</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ro1692/worried_about_falling_behind/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ArtificialInteligence/comments/1ro1692/worried_about_falling_behind/</guid>
+      <pubDate>Sun, 08 Mar 2026 10:07:50 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Notes that AI coding tools vary by developer; many tools claim supremacy, making selection confusing. Why it matters: Direct: Tool variance requires evaluation to pick tools aligned with developer context; avoid hype, prioritize real fit.</description>
+      <description>Expresses concern about falling behind in AI due to rapid LLM/NN advances since 1998, noting major leaps that outpace personal predictions. Why it matters: Direct: Signals ongoing need to keep skills current amid fast AI progress.</description>
     </item>
     <item>
-      <title>I built Stratum: A simple AI context engine to turn your documents into instant, sourced answers. Live now—feedback welcome!</title>
-      <link>https://www.reddit.com/r/SaaS/comments/1rn769p/i_built_stratum_a_simple_ai_context_engine_to/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/SaaS/comments/1rn769p/i_built_stratum_a_simple_ai_context_engine_to/</guid>
-      <pubDate>Sat, 07 Mar 2026 10:57:08 +0000</pubDate>
+      <title>Built an AI tool that converts your HC Verma/Ncert/modules into flashcards + summary + quiz — free, no bs ( https://cogniswift.vercel.app/ )</title>
+      <link>https://www.reddit.com/r/JEENEETards/comments/1ro142z/built_an_ai_tool_that_converts_your_hc/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/JEENEETards/comments/1ro142z/built_an_ai_tool_that_converts_your_hc/</guid>
+      <pubDate>Sun, 08 Mar 2026 10:04:09 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Stratum is a clean AI context engine that indexes your documents to deliver precise, cited answers via chat, addressing scattered knowledge in docs and drives. Why it matters: Direct: Reduces time to locate exact, cited information across dispersed docs, improving team knowledge access.</description>
+      <description>AI tool converts HC Verma/NCERT/modules into flashcards, a summary, and quizzes for free, addressing the revision problem of turning abundant notes into actionable study material. Why it matters: Direct: Revision is slowed by extracting value from existing notes; automating flashcards, summaries, and quizzes could save hours per session.</description>
     </item>
     <item>
-      <title>npx agentlytics: I built a local analytics dashboard that shows how you use AI coding editors — supports Cursor, Windsurf, Claude Code, VS Code Copilot, Zed, and more</title>
-      <link>https://www.reddit.com/r/AgentsOfAI/comments/1rn7g19/npx_agentlytics_i_built_a_local_analytics/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/AgentsOfAI/comments/1rn7g19/npx_agentlytics_i_built_a_local_analytics/</guid>
-      <pubDate>Sat, 07 Mar 2026 11:12:32 +0000</pubDate>
+      <title>Built a scope creep protection tool for freelancers after losing thousands to unpaid extra work</title>
+      <link>https://www.reddit.com/r/buildinpublic/comments/1ro12pa/built_a_scope_creep_protection_tool_for/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/buildinpublic/comments/1ro12pa/built_a_scope_creep_protection_tool_for/</guid>
+      <pubDate>Sun, 08 Mar 2026 10:01:46 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>npx agentlytics is a local analytics dashboard that tracks usage of AI coding editors, revealing sessions, models, token burn, and most-used tools. Why it matters: Direct: Provides visibility into AI editor usage, enabling optimization of tooling and cost.</description>
+      <description>A scope creep protection tool for freelancers, ApproveDeck, was built after estimating 15-20% revenue loss to scope creep. Why it matters: Direct: Scope creep erodes freelancer earnings; a protective tool could systematically reduce unpaid work.</description>
     </item>
     <item>
-      <title>Quoting Ally Piechowski</title>
-      <link>https://simonwillison.net/2026/Mar/6/ally-piechowski/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Mar/6/ally-piechowski/</guid>
-      <pubDate>Fri, 06 Mar 2026 21:58:33 +0000</pubDate>
+      <title>Can governments quickly and cheaply slow AI training?</title>
+      <link>https://www.lesswrong.com/posts/Xzf3eMnhTko7AxnEy/can-governments-quickly-and-cheaply-slow-ai-training</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/Xzf3eMnhTko7AxnEy/can-governments-quickly-and-cheaply-slow-ai-training</guid>
+      <pubDate>Sat, 07 Mar 2026 19:11:22 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Quoting Ally Piechowski: developers face questions about fears, risky deployments, and untested issues; CTOs/EMs are asked about long-standing blockers and real-time visibility. Why it matters: Direct: Encourages probing conversations to surface risks and blockers before they become critical.</description>
+      <description>Can governments quickly and cheaply slow AI training? A post originally written as a private field doc is published; it highlights inference-verification as a new area and notes a scarcity of broad, bird&#x27;s-eye explainers on bottlenecks. Why it matters: Direct: Early, accessible overviews guide policy and research priorities amid evolving AI governance.</description>
     </item>
     <item>
-      <title>AI Safety Needs Startups</title>
-      <link>https://www.lesswrong.com/posts/LH8QtTof7Q7CWmMLF/ai-safety-needs-startups</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/LH8QtTof7Q7CWmMLF/ai-safety-needs-startups</guid>
-      <pubDate>Sat, 07 Mar 2026 01:27:54 +0000</pubDate>
+      <title>Can governments quickly and cheaply slow AI training?</title>
+      <link>https://www.alignmentforum.org/posts/Xzf3eMnhTko7AxnEy/can-governments-quickly-and-cheaply-slow-ai-training</link>
+      <guid isPermaLink="true">https://www.alignmentforum.org/posts/Xzf3eMnhTko7AxnEy/can-governments-quickly-and-cheaply-slow-ai-training</guid>
+      <pubDate>Sat, 07 Mar 2026 19:11:22 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>The piece argues startups&#x27; place in the AI safety supply chain allows them to deliver safety interventions as user-valued features, with for-profits gaining capital, talent, and ecosystem advantages over non-profits. Why it matters: Direct: Embedding safety interventions into products via startups can accelerate real-world adoption and feedback loops.</description>
+      <description>Can governments quickly and cheaply slow AI training? A post originally written as a private field doc is published; it highlights inference-verification as a new area and notes a scarcity of broad, bird&#x27;s-eye explainers on bottlenecks. Why it matters: Direct: Early, accessible overviews guide policy and research priorities amid evolving AI governance.</description>
     </item>
     <item>
-      <title>GPT 5-4 scores 20% on critpt, a benchmark of research-level physics problems</title>
-      <link>https://www.reddit.com/r/singularity/comments/1rme2ym/gpt_54_scores_20_on_critpt_a_benchmark_of/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rme2ym/gpt_54_scores_20_on_critpt_a_benchmark_of/</guid>
-      <pubDate>Fri, 06 Mar 2026 13:32:59 +0000</pubDate>
+      <title>AI Scavenger Hunt for Events &amp; Team Outings</title>
+      <link>https://www.reddit.com/r/StartupsHelpStartups/comments/1ro18he/ai_scavenger_hunt_for_events_team_outings/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/StartupsHelpStartups/comments/1ro18he/ai_scavenger_hunt_for_events_team_outings/</guid>
+      <pubDate>Sun, 08 Mar 2026 10:11:32 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>GPT 5-4 scores 20% on critpt, a benchmark of research-level physics problems. Why it matters: Direct: Highlights current capabilities of GPT 5-4 on specialized physics benchmarks.</description>
+      <description>EnWizard turns a travel itinerary into a real-world adventure challenge, moving travel from simple following maps to a game-like experience. Why it matters: Direct: Demonstrates a gamified travel approach that could increase user engagement and retention by turning itineraries into challenges.</description>
     </item>
     <item>
-      <title>Olmo Hybrid</title>
-      <link>https://www.producthunt.com/products/allen-institute-of-artificial-intelligence</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/allen-institute-of-artificial-intelligence</guid>
-      <pubDate>Sat, 07 Mar 2026 04:52:46 +0000</pubDate>
+      <title>[2026 Guide] High-Performance Facebook Ads for Wix Stores</title>
+      <link>https://dev.to/getkoro_app/2026-guide-high-performance-facebook-ads-for-wix-stores-dkb</link>
+      <guid isPermaLink="true">https://dev.to/getkoro_app/2026-guide-high-performance-facebook-ads-for-wix-stores-dkb</guid>
+      <pubDate>Sun, 08 Mar 2026 10:04:55 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Olmo Hybrid is a 7B open model mixing transformers and linear RNNs. Why it matters: Direct: Shows hybrid architectures in a small, open-model format.</description>
+      <description>About 60% of new product launches fail due to &#x27;hope marketing&#x27;; brands that win have their entire creative arsenal ready before day one. Why it matters: Direct: Emphasizes that prepared creative assets before launch reduce risk of missing attention across channels.</description>
     </item>
     <item>
-      <title>Building a Browser Game Center with Pure HTML/JS/CSS — Canvas 2D API and Game Loop Patterns</title>
-      <link>https://dev.to/linou518/building-a-browser-game-center-with-pure-htmljscss-canvas-2d-api-and-game-loop-patterns-2dkg</link>
-      <guid isPermaLink="true">https://dev.to/linou518/building-a-browser-game-center-with-pure-htmljscss-canvas-2d-api-and-game-loop-patterns-2dkg</guid>
-      <pubDate>Sat, 07 Mar 2026 11:04:19 +0000</pubDate>
+      <title>The Escalation Rule: The One Line Every AI Agent Config Is Missing</title>
+      <link>https://dev.to/askpatrick/the-escalation-rule-the-one-line-every-ai-agent-config-is-missing-28jm</link>
+      <guid isPermaLink="true">https://dev.to/askpatrick/the-escalation-rule-the-one-line-every-ai-agent-config-is-missing-28jm</guid>
+      <pubDate>Sun, 08 Mar 2026 08:08:30 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Building a Browser Game Center with Pure HTML/JS/CSS — Canvas 2D API and Game Loop Patterns; grew from a single snake game to a two-game SPA in one HTML file with no libraries. Why it matters: Direct: Demonstrates a no-dependency, single-file browser game center with multiple games.</description>
+      <description>One rule: If uncertain, write context to outbox.json and stop. Why it matters: Direct: Introduces a simple, robust fallback to prevent unsafe or erroneous agent actions.</description>
     </item>
     <item>
-      <title>Prezent IQ Review: I Tried It (My Experience)</title>
-      <link>https://www.reddit.com/r/ShareAiPrompts/comments/1rn7dkb/prezent_iq_review_i_tried_it_my_experience/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ShareAiPrompts/comments/1rn7dkb/prezent_iq_review_i_tried_it_my_experience/</guid>
-      <pubDate>Sat, 07 Mar 2026 11:08:32 +0000</pubDate>
+      <title>Hey everyone! 👋 I’m u/xlinzo, a founding moderator of r/bangloredevelopers.</title>
+      <link>https://www.reddit.com/r/bangloredevelopers/comments/1ro0cfk/hey_everyone_im_uxlinzo_a_founding_moderator_of/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/bangloredevelopers/comments/1ro0cfk/hey_everyone_im_uxlinzo_a_founding_moderator_of/</guid>
+      <pubDate>Sun, 08 Mar 2026 09:16:48 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Prezent IQ Review: There is nothing quite as frustrating as spending hours putting together a presentation only to watch people barely pay attention to it. Why it matters: Direct: Highlights a common gap between design polish and audience engagement.</description>
+      <description>Welcome to a new Bangalore-focused community for developers, tech enthusiasts, students, and professionals to connect, learn, and grow together. Why it matters: Direct: Signals a locally focused tech community with networking and knowledge-sharing value.</description>
     </item>
   </channel>
 </rss>
