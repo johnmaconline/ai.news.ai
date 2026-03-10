@@ -8,6 +8,7 @@
 
 import json
 import os
+import re
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from html import escape
@@ -674,15 +675,38 @@ def _render_story(article: Article) -> str:
     )
 
 
+def _headline_chip_text(article: Article, max_words: int = 4) -> str:
+    candidates = [
+        article.title,
+        article.summary_text,
+        article.summary,
+    ]
+    for candidate in candidates:
+        if not candidate:
+            continue
+        text = str(candidate).strip()
+        if not text:
+            continue
+        text = re.sub(r'^RT by @[A-Za-z0-9_]+:\s*', '', text, flags=re.IGNORECASE)
+        text = re.sub(r'^I[\'’]?m excited to announce\s+', '', text, flags=re.IGNORECASE)
+        text = re.sub(r'^(Announcing|Introducing)\s+', '', text, flags=re.IGNORECASE)
+        text = re.sub(r'https?://\S+', '', text)
+        words = re.findall(r"[A-Za-z0-9][A-Za-z0-9'&./+-]*", text)
+        if not words:
+            continue
+        return ' '.join(words[:max_words])
+    return 'View item'
+
+
 def _render_headline_strip(feed: DailyFeed) -> str:
-    stories = feed.sections.get('big-announcements', [])[:3]
+    stories = feed.sections.get('practical-prompts', [])[:3]
     if not stories:
         return ''
     chips = []
     for story in stories:
         chips.append(
             f'<a class="headline-chip" href="{escape(story.url)}" target="_blank" rel="noopener noreferrer">'
-            f'{escape(story.title)}</a>'
+            f'{escape(_headline_chip_text(story))}</a>'
         )
     return (
         '<div class="headline-strip">'

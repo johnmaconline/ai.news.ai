@@ -25,7 +25,7 @@ class Section:
 SECTIONS = [
     Section(
         order=0,
-        slug='big-announcements',
+        slug='practical-prompts',
         label='0) Practical Prompts',
         description='Real, practical prompts for software development: code, tests, review, docs, DevOps, and CI.',
     ),
@@ -64,7 +64,7 @@ SECTIONS = [
 SECTION_BY_SLUG = {section.slug: section for section in SECTIONS}
 
 KEYWORDS = {
-    'big-announcements': [
+    'practical-prompts': [
         'prompt',
         'prompts',
         'prompt template',

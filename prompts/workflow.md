@@ -17,7 +17,7 @@ Operating rules:
 - Penalize low-signal, repetitive, or hype-heavy content.
 
 Section intent:
-- Practical Prompts: real prompts and prompt templates for software development tasks.
+- Practical Prompts: only real prompt assets or prompt-file discussions for software development tasks. Reject generic tool comparisons, announcements, and non-prompt workflow pieces.
 - Engineering: concrete developer workflows, agents, tooling, evals, and code-level practices.
 - Product Development: practical PM/product workflows, shipping, experimentation, and UX changes driven by AI.
 - Software Development: actionable guides, runbooks, implementation patterns, and hands-on dev productivity gains.

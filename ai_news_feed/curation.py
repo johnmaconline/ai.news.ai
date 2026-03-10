@@ -246,7 +246,7 @@ def _is_practical_prompt_candidate(article: Article, text_blob: str) -> bool:
         return True
     if required_hits >= 1 and exclude_hits == 0:
         return True
-    if article.section_hint == 'big-announcements' and required_hits >= 1 and exclude_hits == 0:
+    if article.section_hint == 'practical-prompts' and required_hits >= 1 and exclude_hits == 0:
         return True
     return False
 
@@ -646,11 +646,11 @@ def score_articles(articles: list[Article], feed_dt: datetime | None = None) -> 
             if article.section_hint == section.slug:
                 if section.slug == 'business':
                     section_score += 2.2
-                elif section.slug == 'big-announcements':
+                elif section.slug == 'practical-prompts':
                     section_score += 2.2
                 else:
                     section_score += 4.5
-            if section.slug == 'big-announcements':
+            if section.slug == 'practical-prompts':
                 prompt_hits = _keyword_hits(text_blob, PRACTICAL_PROMPT_REQUIRED_KEYWORDS)
                 exclude_hits = _keyword_hits(text_blob, PRACTICAL_PROMPT_EXCLUDE_KEYWORDS)
                 section_score += prompt_hits * 1.9
@@ -834,7 +834,7 @@ def curate_sections(
         candidate_pool = [
             article for article in candidate_pool if article.assigned_section == section.slug
         ]
-        if section.slug == 'big-announcements':
+        if section.slug == 'practical-prompts':
             narrowed = [
                 article
                 for article in candidate_pool
@@ -913,7 +913,7 @@ def curate_sections(
             non_curator_fallback = [item for item in fallback_pool if not _is_curator_watchlist_article(item)]
             if non_curator_fallback:
                 fallback_pool = non_curator_fallback
-        if section.slug == 'big-announcements':
+        if section.slug == 'practical-prompts':
             narrowed = [
                 article
                 for article in articles

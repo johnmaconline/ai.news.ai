@@ -14,19 +14,19 @@ Format:
 - https://www.oneusefulthing.org/feed | platform=substack | name=One Useful Thing | section=product-development | tags=product-development,under-the-radar
 - https://www.latent.space/feed | platform=substack | name=Latent Space | section=engineering | tags=engineering,under-the-radar
 - https://www.interconnects.ai/feed | platform=substack | name=Interconnects AI | section=under-the-radar | tags=under-the-radar,engineering
-- https://www.importai.net/feed | platform=substack | name=Import AI | section=big-announcements | tags=big-announcements,under-the-radar
-- https://www.understandingai.org/feed | platform=substack | name=Understanding AI | section=under-the-radar | tags=under-the-radar,big-announcements
+- https://www.importai.net/feed | platform=substack | name=Import AI | section=engineering | tags=engineering,under-the-radar
+- https://www.understandingai.org/feed | platform=substack | name=Understanding AI | section=under-the-radar | tags=under-the-radar,engineering
 - https://www.aisnakeoil.com/feed | name=AI Snake Oil | section=under-the-radar | tags=under-the-radar,engineering
 - https://newsletter.victordibia.com/feed | platform=substack | name=Designing with AI | section=product-development | tags=product-development,under-the-radar
-- https://newsletter.semianalysis.com/feed | platform=substack | name=SemiAnalysis | section=big-announcements | tags=big-announcements,business
-- https://www.exponentialview.co/feed | platform=substack | name=Exponential View | section=big-announcements | tags=big-announcements,business
+- https://newsletter.semianalysis.com/feed | platform=substack | name=SemiAnalysis | section=engineering | tags=engineering,business
+- https://www.exponentialview.co/feed | platform=substack | name=Exponential View | section=engineering | tags=engineering,business
 - https://www.notboring.co/feed | platform=substack | name=Not Boring | section=product-development | tags=product-development,business
-- https://lastweekin.ai/feed/ | name=Last Week in AI | section=big-announcements | tags=big-announcements,under-the-radar
+- https://lastweekin.ai/feed/ | name=Last Week in AI | section=engineering | tags=engineering,under-the-radar
 - https://www.aitidbits.ai/feed | platform=substack | name=AI Tidbits | section=under-the-radar | tags=under-the-radar,for-fun
-- https://www.ben-evans.com/benedictevans?format=rss | name=Benedict Evans | section=big-announcements | tags=big-announcements,business
-- https://stratechery.com/feed/ | name=Stratechery | section=big-announcements | tags=big-announcements,business
-- https://www.aiweekly.co/issues.rss | name=AI Weekly | section=big-announcements | tags=big-announcements,curators
-- https://www.tldrnewsletter.com/rss | name=TLDR (AI Edition) | section=big-announcements | tags=big-announcements,curators
+- https://www.ben-evans.com/benedictevans?format=rss | name=Benedict Evans | section=engineering | tags=engineering,business
+- https://stratechery.com/feed/ | name=Stratechery | section=engineering | tags=engineering,business
+- https://www.aiweekly.co/issues.rss | name=AI Weekly | section=engineering | tags=engineering,curators
+- https://www.tldrnewsletter.com/rss | name=TLDR (AI Edition) | section=engineering | tags=engineering,curators
 - https://www.thealgorithmicbridge.com/feed | name=The Algorithmic Bridge | section=business | tags=business,curators,engineering
 - https://news.smol.ai/rss.xml | name=smol.ai news | section=engineering | tags=engineering,curators,under-the-radar
 - https://newsletter.pragmaticengineer.com/feed | name=Pragmatic Engineer | section=business | tags=business,engineering,curators
@@ -38,12 +38,12 @@ Format:
 - https://swyx.io/feed | name=swyx | section=business | tags=business,engineering,under-the-radar
 - https://blog.langchain.dev/rss/ | name=LangChain Blog | section=engineering | tags=engineering,business
 - https://sourcegraph.com/blog/rss.xml | name=Sourcegraph Blog | section=business | tags=business,engineering
-- https://www.promptfoo.dev/blog/rss.xml | name=Promptfoo Blog | section=business | tags=business,engineering
-- https://blog.cloudflare.com/tag/ai/rss/ | name=Cloudflare AI | section=engineering | tags=engineering,big-announcements
+- https://www.promptfoo.dev/blog/rss.xml | name=Promptfoo Blog | section=practical-prompts | tags=practical-prompts,engineering
+- https://blog.cloudflare.com/tag/ai/rss/ | name=Cloudflare AI | section=engineering | tags=engineering
 - https://blog.cloudflare.com/tag/workers-ai/rss/ | name=Cloudflare Workers AI | section=business | tags=business,engineering
 - https://github.blog/ai-and-ml/feed/ | name=GitHub Blog AI/ML | section=business | tags=business,engineering
-- https://huggingface.co/blog/feed.xml | name=Hugging Face Blog | section=engineering | tags=engineering,big-announcements
-- https://aws.amazon.com/blogs/machine-learning/feed/ | name=AWS Machine Learning Blog | section=engineering | tags=engineering,big-announcements
+- https://huggingface.co/blog/feed.xml | name=Hugging Face Blog | section=engineering | tags=engineering
+- https://aws.amazon.com/blogs/machine-learning/feed/ | name=AWS Machine Learning Blog | section=engineering | tags=engineering
 - https://www.databricks.com/feed | name=Databricks Blog | section=business | tags=business,engineering
 - https://weaviate.io/blog/rss.xml | name=Weaviate Blog | section=engineering | tags=engineering,business
 - https://airbyte.com/blog/rss.xml | name=Airbyte Blog | section=engineering | tags=engineering,business
@@ -64,18 +64,18 @@ Format:
 - https://www.ycombinator.com/blog/feed | name=Y Combinator Blog | section=product-development | tags=product-development,business
 - https://www.producthunt.com/feed | name=Product Hunt | section=for-fun | tags=for-fun,product-development
 
-- https://openai.com/news/rss.xml | name=OpenAI News | section=big-announcements | tags=big-announcements,engineering
-- https://blog.google/technology/ai/rss/ | name=Google AI Blog | section=big-announcements | tags=big-announcements,engineering
-- https://research.google/blog/rss/ | name=Google Research Blog | section=big-announcements | tags=big-announcements,engineering
-- https://blog.google/technology/developers/rss/ | name=Google Developer Blog | section=engineering | tags=engineering,big-announcements
-- https://www.microsoft.com/en-us/ai/blog/feed/ | name=Microsoft AI Blog | section=big-announcements | tags=big-announcements,product-development
-- https://www.microsoft.com/en-us/research/blog/feed/ | name=Microsoft Research Blog | section=engineering | tags=engineering,big-announcements
-- https://research.facebook.com/feed/ | name=Meta Research | section=big-announcements | tags=big-announcements,engineering
-- https://techcrunch.com/category/artificial-intelligence/feed/ | name=TechCrunch AI | section=big-announcements | tags=big-announcements,business
-- https://www.theverge.com/rss/ai-artificial-intelligence/index.xml | name=The Verge AI | section=big-announcements | tags=big-announcements,for-fun
-- https://www.technologyreview.com/topic/artificial-intelligence/feed/ | name=MIT Technology Review AI | section=big-announcements | tags=big-announcements,business
-- https://www.wired.com/feed/tag/ai/latest/rss | name=Wired AI | section=big-announcements | tags=big-announcements,for-fun
-- https://www.theguardian.com/technology/artificialintelligenceai/rss | name=The Guardian AI | section=big-announcements | tags=big-announcements,business
+- https://openai.com/news/rss.xml | name=OpenAI News | section=engineering | tags=engineering
+- https://blog.google/technology/ai/rss/ | name=Google AI Blog | section=engineering | tags=engineering
+- https://research.google/blog/rss/ | name=Google Research Blog | section=engineering | tags=engineering
+- https://blog.google/technology/developers/rss/ | name=Google Developer Blog | section=engineering | tags=engineering
+- https://www.microsoft.com/en-us/ai/blog/feed/ | name=Microsoft AI Blog | section=engineering | tags=engineering,product-development
+- https://www.microsoft.com/en-us/research/blog/feed/ | name=Microsoft Research Blog | section=engineering | tags=engineering
+- https://research.facebook.com/feed/ | name=Meta Research | section=engineering | tags=engineering
+- https://techcrunch.com/category/artificial-intelligence/feed/ | name=TechCrunch AI | section=engineering | tags=engineering,business
+- https://www.theverge.com/rss/ai-artificial-intelligence/index.xml | name=The Verge AI | section=engineering | tags=engineering,for-fun
+- https://www.technologyreview.com/topic/artificial-intelligence/feed/ | name=MIT Technology Review AI | section=engineering | tags=engineering,business
+- https://www.wired.com/feed/tag/ai/latest/rss | name=Wired AI | section=engineering | tags=engineering,for-fun
+- https://www.theguardian.com/technology/artificialintelligenceai/rss | name=The Guardian AI | section=engineering | tags=engineering,business
 - https://www.marktechpost.com/feed/ | name=MarkTechPost | section=under-the-radar | tags=under-the-radar,engineering
 
 - http://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.LG&sortBy=submittedDate&sortOrder=descending&start=0&max_results=40 | name=arXiv cs.AI+cs.LG | section=engineering | tags=engineering,under-the-radar,research
@@ -90,8 +90,8 @@ Format:
 
 - https://blog.langchain.com/rss/ | name=LangChain Blog | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 - https://www.normaltech.ai/feed | name=AI as Normal Technology | section=under-the-radar | tags=autodiscovered,under-the-radar | discovered=auto
-- https://jack-clark.net/feed/ | name=Import AI | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
-- https://news.microsoft.com/source/feed/ | name=Source | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://jack-clark.net/feed/ | name=Import AI | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://news.microsoft.com/source/feed/ | name=Source | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 - https://newsletter.danielpaleka.com/feed | name=Daniel Paleka's Newsletter | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 - https://tonsky.me/atom.xml | name=tonsky.me | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 - https://codingfox.net.pl/index.xml | name=CodingFox | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
@@ -108,43 +108,43 @@ Format:
 - https://matklad.github.io/feed.xml | name=matklad | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 - https://copyrightlately.com/feed | name=Copyright Lately | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 - https://www.tyleo.com/rss.xml | name=tyleo.com | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
-- https://engineering.fb.com/feed/ | name=Engineering at Meta | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://engineering.fb.com/feed/ | name=Engineering at Meta | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 
 - https://www.theregister.com/headlines.atom | name=The Register | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
-- https://blogs.windows.com/feed | name=Windows Blog | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
-- https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml | name=NYT > Top Stories | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
-- https://www.aol.com/rss-index.xml | name=AOL.com | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
-- https://www.hcamag.com/rss | name=Human Resources Director Australia | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
-- https://www.latimes.com/index.rss | name=News from California, across the nation and world - Los Angeles Times | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
-- https://markets.businessinsider.com/rss | name=All Content from Business Insider | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
-- https://en.antaranews.com/feed | name=ANTARA News - Latest Indonesia News | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
-- https://feeds.businessinsider.com/custom/all | name=All Content from Business Insider | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
-- https://www.storagereview.com/feed | name=StorageReview.com | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
-- https://www.tradingview.com/feed | name=TradingView Ideas | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://blogs.windows.com/feed | name=Windows Blog | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml | name=NYT > Top Stories | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://www.aol.com/rss-index.xml | name=AOL.com | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://www.hcamag.com/rss | name=Human Resources Director Australia | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://www.latimes.com/index.rss | name=News from California, across the nation and world - Los Angeles Times | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://markets.businessinsider.com/rss | name=All Content from Business Insider | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://en.antaranews.com/feed | name=ANTARA News - Latest Indonesia News | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://feeds.businessinsider.com/custom/all | name=All Content from Business Insider | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://www.storagereview.com/feed | name=StorageReview.com | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://www.tradingview.com/feed | name=TradingView Ideas | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 
-- https://futurecio.tech/feed/ | name=FutureCIO | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
-- https://www.thehansindia.com/google_feeds.xml | name=Andhra Pradesh Breaking News, Telangana News, Hyderabad News Updates, National News, Breaking News | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
-- https://www.stocktitan.net/rss | name=Latest News - Stock Titan | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
-- https://rollcall.com/feed | name=Roll Call | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
-- https://accesspartnership.com/feed/ | name=Access Partnership | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
-- https://www.mckinsey.com/rss | name=McKinsey Insights & Publications | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://futurecio.tech/feed/ | name=FutureCIO | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://www.thehansindia.com/google_feeds.xml | name=Andhra Pradesh Breaking News, Telangana News, Hyderabad News Updates, National News, Breaking News | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://www.stocktitan.net/rss | name=Latest News - Stock Titan | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://rollcall.com/feed | name=Roll Call | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://accesspartnership.com/feed/ | name=Access Partnership | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
+- https://www.mckinsey.com/rss | name=McKinsey Insights & Publications | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 - https://www.sitepoint.com/feed | name=SitePoint | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 - https://siliconangle.com/feed/ | name=SiliconANGLE | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 
-- https://tldr.tech/rss | name=TLDR RSS Feed | section=big-announcements | tags=autodiscovered,big-announcements,under-the-radar | discovered=auto
+- https://tldr.tech/rss | name=TLDR RSS Feed | section=engineering | tags=autodiscovered,engineering,under-the-radar | discovered=auto
 ## 2. LinkedIN users
 
 - https://www.linkedin.com/in/emollick/ | name=Ethan Mollick | section=product-development | tags=product-development,under-the-radar,social
-- https://www.linkedin.com/in/andrewng/ | name=Andrew Ng | section=big-announcements | tags=big-announcements,education,social
+- https://www.linkedin.com/in/andrewng/ | name=Andrew Ng | section=engineering | tags=engineering,education,social
 - https://www.linkedin.com/in/karpathy/ | name=Andrej Karpathy | section=engineering | tags=engineering,under-the-radar,social
-- https://www.linkedin.com/in/satyanadella/ | name=Satya Nadella | section=big-announcements | tags=big-announcements,business,social
-- https://www.linkedin.com/company/openai/ | name=OpenAI (LinkedIn) | section=big-announcements | tags=big-announcements,social
-- https://www.linkedin.com/company/anthropicresearch/ | name=Anthropic (LinkedIn) | section=big-announcements | tags=big-announcements,social
-- https://www.linkedin.com/company/google-deepmind/ | name=Google DeepMind (LinkedIn) | section=big-announcements | tags=big-announcements,social
+- https://www.linkedin.com/in/satyanadella/ | name=Satya Nadella | section=engineering | tags=engineering,business,social
+- https://www.linkedin.com/company/openai/ | name=OpenAI (LinkedIn) | section=engineering | tags=engineering,social
+- https://www.linkedin.com/company/anthropicresearch/ | name=Anthropic (LinkedIn) | section=engineering | tags=engineering,social
+- https://www.linkedin.com/company/google-deepmind/ | name=Google DeepMind (LinkedIn) | section=engineering | tags=engineering,social
 - https://www.linkedin.com/company/huggingface/ | name=Hugging Face (LinkedIn) | section=engineering | tags=engineering,social
-- https://www.linkedin.com/company/microsoft/ | name=Microsoft (LinkedIn) | section=big-announcements | tags=big-announcements,social
-- https://www.linkedin.com/company/nvidia/ | name=NVIDIA (LinkedIn) | section=big-announcements | tags=big-announcements,social
-- https://www.linkedin.com/company/meta/ | name=Meta (LinkedIn) | section=big-announcements | tags=big-announcements,social
+- https://www.linkedin.com/company/microsoft/ | name=Microsoft (LinkedIn) | section=engineering | tags=engineering,social
+- https://www.linkedin.com/company/nvidia/ | name=NVIDIA (LinkedIn) | section=engineering | tags=engineering,social
+- https://www.linkedin.com/company/meta/ | name=Meta (LinkedIn) | section=engineering | tags=engineering,social
 - https://www.linkedin.com/company/databricks/ | name=Databricks (LinkedIn) | section=business | tags=business,social
 - https://www.linkedin.com/company/sourcegraph/ | name=Sourcegraph (LinkedIn) | section=business | tags=business,social
 - https://www.linkedin.com/company/langchain/ | name=LangChain (LinkedIn) | section=business | tags=business,engineering,social
@@ -154,17 +154,17 @@ Format:
 
 - @swyx | name=swyx | section=business | tags=business,engineering,social
 - @karpathy | name=Andrej Karpathy | section=engineering | tags=engineering,under-the-radar,social
-- @AndrewYNg | name=Andrew Ng | section=big-announcements | tags=big-announcements,social
+- @AndrewYNg | name=Andrew Ng | section=engineering | tags=engineering,social
 - @emollick | name=Ethan Mollick | section=product-development | tags=product-development,social
-- @sama | name=Sam Altman | section=big-announcements | tags=big-announcements,social
+- @sama | name=Sam Altman | section=engineering | tags=engineering,social
 - @fchollet | name=Francois Chollet | section=engineering | tags=engineering,social
 - @jeremyphoward | name=Jeremy Howard | section=engineering | tags=engineering,under-the-radar,social
-- @ylecun | name=Yann LeCun | section=big-announcements | tags=big-announcements,research,social
+- @ylecun | name=Yann LeCun | section=engineering | tags=engineering,research,social
 - @lilianweng | name=Lilian Weng | section=engineering | tags=engineering,research,social
 - @vboykis | name=Vicki Boykis | section=under-the-radar | tags=under-the-radar,engineering,social
-- @OpenAI | name=OpenAI | section=big-announcements | tags=big-announcements,social
-- @AnthropicAI | name=Anthropic | section=big-announcements | tags=big-announcements,social
-- @GoogleDeepMind | name=Google DeepMind | section=big-announcements | tags=big-announcements,social
+- @OpenAI | name=OpenAI | section=engineering | tags=engineering,social
+- @AnthropicAI | name=Anthropic | section=engineering | tags=engineering,social
+- @GoogleDeepMind | name=Google DeepMind | section=engineering | tags=engineering,social
 - @huggingface | name=Hugging Face | section=engineering | tags=engineering,social
 - @LangChainAI | name=LangChain | section=business | tags=business,engineering,social
 - @LlamaIndex | name=LlamaIndex | section=business | tags=business,engineering,social

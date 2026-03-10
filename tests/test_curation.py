@@ -40,7 +40,7 @@ def test_curate_sections_filters_items_older_than_24_hours() -> None:
         domain='example.com',
         published_at=datetime(2026, 2, 27, 10, 0, tzinfo=timezone.utc),
         priority=10.0,
-        section_hint='big-announcements',
+        section_hint='practical-prompts',
     )
     fresh_article = Article(
         id='fresh-item',
@@ -78,7 +78,7 @@ def test_high_signal_release_uses_extended_recency_grace() -> None:
         domain='openai.com',
         published_at=datetime(2026, 3, 5, 10, 0, tzinfo=timezone.utc),
         priority=9.0,
-        section_hint='big-announcements',
+        section_hint='practical-prompts',
     )
     filler = Article(
         id='fresh-filler',
@@ -116,7 +116,7 @@ def test_high_signal_release_is_filtered_when_older_than_grace_window() -> None:
         domain='openai.com',
         published_at=datetime(2026, 3, 4, 9, 0, tzinfo=timezone.utc),
         priority=9.0,
-        section_hint='big-announcements',
+        section_hint='practical-prompts',
     )
     fresh = Article(
         id='fresh-for-check',
@@ -128,7 +128,7 @@ def test_high_signal_release_is_filtered_when_older_than_grace_window() -> None:
         domain='example.com',
         published_at=datetime(2026, 3, 6, 10, 0, tzinfo=timezone.utc),
         priority=5.0,
-        section_hint='big-announcements',
+        section_hint='practical-prompts',
     )
     sections = curate_sections(
         articles=[too_old, fresh],
@@ -154,7 +154,7 @@ def test_business_prefers_practical_over_announcement_items() -> None:
         domain='openai.com',
         published_at=datetime(2026, 3, 1, 9, 0, tzinfo=timezone.utc),
         priority=8.0,
-        section_hint='big-announcements',
+        section_hint='practical-prompts',
     )
     practical = Article(
         id='practical',
@@ -185,7 +185,7 @@ def test_practical_prompts_prefers_prompt_content_over_announcement_news() -> No
         domain='example.com',
         published_at=datetime(2026, 3, 3, 10, 0, tzinfo=timezone.utc),
         priority=7.0,
-        section_hint='big-announcements',
+        section_hint='practical-prompts',
     )
     announcement_article = Article(
         id='layoff-news',
@@ -197,10 +197,10 @@ def test_practical_prompts_prefers_prompt_content_over_announcement_news() -> No
         domain='news.example.com',
         published_at=datetime(2026, 3, 3, 9, 30, tzinfo=timezone.utc),
         priority=7.0,
-        section_hint='big-announcements',
+        section_hint='practical-prompts',
     )
     score_articles([prompt_article, announcement_article], feed_dt=feed_dt)
-    assert prompt_article.scores['big-announcements'] > announcement_article.scores['big-announcements']
+    assert prompt_article.scores['practical-prompts'] > announcement_article.scores['practical-prompts']
 
 
 def test_practical_prompts_excludes_generic_tool_roundups() -> None:
@@ -215,7 +215,7 @@ def test_practical_prompts_excludes_generic_tool_roundups() -> None:
         domain='dev.to',
         published_at=datetime(2026, 3, 10, 9, 30, tzinfo=timezone.utc),
         priority=7.0,
-        section_hint='big-announcements',
+        section_hint='practical-prompts',
     )
     sections = curate_sections(
         articles=[roundup_article],
@@ -224,7 +224,7 @@ def test_practical_prompts_excludes_generic_tool_roundups() -> None:
         feed_dt=feed_dt,
         enable_llm_curation=False,
     )
-    practical_prompt_ids = {item.id for item in sections['big-announcements']}
+    practical_prompt_ids = {item.id for item in sections['practical-prompts']}
     assert 'open-webui-roundup' not in practical_prompt_ids
 
 
@@ -240,7 +240,7 @@ def test_practical_prompts_accepts_agent_md_and_prompt_files() -> None:
         domain='example.com',
         published_at=datetime(2026, 3, 10, 10, 0, tzinfo=timezone.utc),
         priority=7.0,
-        section_hint='big-announcements',
+        section_hint='practical-prompts',
     )
     sections = curate_sections(
         articles=[agent_md_article],
@@ -249,7 +249,7 @@ def test_practical_prompts_accepts_agent_md_and_prompt_files() -> None:
         feed_dt=feed_dt,
         enable_llm_curation=False,
     )
-    practical_prompt_ids = {item.id for item in sections['big-announcements']}
+    practical_prompt_ids = {item.id for item in sections['practical-prompts']}
     assert 'agent-md-guide' in practical_prompt_ids
 
 

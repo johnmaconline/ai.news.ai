@@ -4,7 +4,7 @@ sources:
     name: OpenAI News
     url: https://openai.com/news/rss.xml
     priority: 9
-    section_hint: big-announcements
+    section_hint: engineering
     tags: [announcements, ai]
     max_items: 12
 
@@ -13,7 +13,7 @@ sources:
     name: Google AI Blog
     url: https://blog.google/technology/ai/rss/
     priority: 8
-    section_hint: big-announcements
+    section_hint: engineering
     tags: [announcements, product]
     max_items: 12
 
@@ -22,7 +22,7 @@ sources:
     name: Microsoft AI Blog
     url: https://blogs.microsoft.com/blog/tag/ai/feed/
     priority: 8
-    section_hint: big-announcements
+    section_hint: engineering
     tags: [announcements, enterprise]
     max_items: 12
 
@@ -94,7 +94,7 @@ sources:
     name: TechCrunch AI
     url: https://techcrunch.com/tag/artificial-intelligence/feed/
     priority: 6
-    section_hint: big-announcements
+    section_hint: engineering
     tags: [news, announcements]
     max_items: 25
 
@@ -112,7 +112,7 @@ sources:
     name: TLDR AI
     url: https://www.tldrnewsletter.com/rss
     priority: 6
-    section_hint: big-announcements
+    section_hint: engineering
     tags: [curators, announcements, ai]
     max_items: 20
 
@@ -140,7 +140,7 @@ sources:
     url: https://www.reddit.com/r/singularity/.rss
     priority: 4
     section_hint: for-fun
-    tags: [for-fun, big-announcements]
+    tags: [for-fun, engineering]
     max_items: 30
 
   - id: reddit-ai-workflows-search
@@ -167,13 +167,13 @@ sources:
 
   - id: reddit-ai-announcements-search
     type: reddit-search
-    name: Reddit AI Announcement Search
-    query: '(openai OR anthropic OR google OR microsoft OR meta) (announced OR launch OR layoffs OR acquisition OR partnership)'
+    name: Reddit AI Prompt Search
+    query: '("system prompt" OR "prompt template" OR "agents.md" OR "agent.md" OR "claude.md" OR "cursor rules" OR "copilot instructions") ("code review" OR testing OR CI OR debugging OR refactor OR docs)'
     sort: new
     time: day
     priority: 5
-    section_hint: big-announcements
-    tags: [big-announcements, under-the-radar, reddit]
+    section_hint: practical-prompts
+    tags: [practical-prompts, engineering, reddit]
     max_items: 40
 
   - id: hackernews-ai

@@ -75,11 +75,11 @@ AUTO_DISCOVER_REDDIT_EXCLUDED_SUBREDDITS = {
 
 _LINKEDIN_PROFILE_URN_HINT_LOGGED = False
 WEB_DISCOVERY_QUERIES = {
-    'big-announcements': [
-        'software development prompt template code generation',
-        'prompt for unit tests and integration tests',
-        'code review prompt workflow',
-        'devops ci cd prompt playbook',
+    'practical-prompts': [
+        '"system prompt" software development',
+        '"prompt template" code review tests',
+        '"agents.md" OR "agent.md" OR "claude.md" software development',
+        '"cursor rules" OR "copilot instructions" software development',
     ],
     'engineering': [
         'agentic engineering workflow blog',
@@ -1851,7 +1851,7 @@ def _linkedin_error_snippet(response) -> str:
 def build_sample_articles() -> list[Article]:
     now = datetime.now(timezone.utc)
     templates = [
-        ('Practical prompt template for code review and test generation', 'big-announcements'),
+        ('Practical prompt template for code review and test generation', 'practical-prompts'),
         ('Engineering team replaces flaky tests with AI-generated fixtures', 'engineering'),
         ('PM team ships weekly experiments with AI-generated specs', 'product-development'),
         ('Solo founder reaches $42k MRR with AI-native support desk', 'business'),

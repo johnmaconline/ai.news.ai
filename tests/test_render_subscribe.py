@@ -9,7 +9,7 @@
 from datetime import datetime, timezone
 
 from ai_news_feed.models import Article, DailyFeed
-from ai_news_feed.render import _render_page
+from ai_news_feed.render import _headline_chip_text, _render_page
 
 
 def test_render_page_includes_subscribe_endpoint(monkeypatch) -> None:
@@ -55,7 +55,7 @@ def test_render_page_includes_actionable_and_provenance_fields() -> None:
         date='2026-03-04',
         generated_at='2026-03-04T12:00:00Z',
         title='Daily AI Feed - 2026-03-04',
-        sections={'big-announcements': [article]},
+        sections={'practical-prompts': [article]},
         intro='Intro',
     )
     html = _render_page(feed, archive=[])
@@ -70,3 +70,19 @@ def test_render_page_includes_actionable_and_provenance_fields() -> None:
     assert 'Novelty 6.8' in html
     assert 'Confidence 8.2' in html
     assert 'corroborating source' in html
+
+
+def test_headline_chip_text_is_capped_to_four_words() -> None:
+    article = Article(
+        id='item-2',
+        title='OpenAI acquires Promptfoo to secure its AI agents',
+        url='https://example.com/promptfoo',
+        summary='I am excited to announce Context Hub for coding agents.',
+        source_name='Example Source',
+        source_type='rss',
+        domain='example.com',
+        published_at=datetime(2026, 3, 10, 11, 0, tzinfo=timezone.utc),
+    )
+    chip_text = _headline_chip_text(article)
+    assert len(chip_text.split()) <= 4
+    assert chip_text == 'OpenAI acquires Promptfoo to'

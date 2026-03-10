@@ -235,7 +235,7 @@ Prompt customization:
 - Edit `prompts/system.md` for global summarization behavior.
 - Edit `prompts/workflow.md` for global workflow-level guidance shared by curation and summarization.
 - Edit section-specific files in `prompts/sections/`:
-  - `big-announcements.md`
+  - `practical-prompts.md`
   - `engineering.md`
   - `product-development.md`
   - `software.md` (used by section slug `business`)
