@@ -1,202 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-03-09</title>
+    <title>Daily AI Feed - 2026-03-10</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Mon, 09 Mar 2026 10:49:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 10:48:51 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>Don&#x27;t use IA only to code faster</title>
-      <link>https://dev.to/frqsalah/dont-use-ia-only-to-code-faster-45df</link>
-      <guid isPermaLink="true">https://dev.to/frqsalah/dont-use-ia-only-to-code-faster-45df</guid>
-      <pubDate>Mon, 09 Mar 2026 10:33:57 +0000</pubDate>
+      <title>11 Best Open WebUI Alternatives for Enterprise LLM Chat (2026)</title>
+      <link>https://dev.to/jaipalsingh/11-best-open-webui-alternatives-for-enterprise-llm-chat-2026-2mjc</link>
+      <guid isPermaLink="true">https://dev.to/jaipalsingh/11-best-open-webui-alternatives-for-enterprise-llm-chat-2026-2mjc</guid>
+      <pubDate>Tue, 10 Mar 2026 09:30:00 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Most .NET developers use AI to write code faster; those advancing use it to design better. Real delays come from gaps between coding. Why it matters: Direct: Highlights that design and integration gaps drive delays, guiding teams to use AI for higher-value tasks.</description>
+      <description>Open WebUI offers a ChatGPT-like interface for local LLMs, enabling private AI chat without sending data to OpenAI; setup is clean, straightforward, and it works. Why it matters: Direct: Enables private, on-prem AI chat, reducing data exposure and governance concerns for organizations choosing local LLMs.</description>
     </item>
     <item>
-      <title>Getting Started with OpenClaw: A Developer&#x27;s Guide to AI Agents</title>
-      <link>https://dev.to/jake_young_f2489b018873d9/getting-started-with-openclaw-a-developers-guide-to-ai-agents-3eb3</link>
-      <guid isPermaLink="true">https://dev.to/jake_young_f2489b018873d9/getting-started-with-openclaw-a-developers-guide-to-ai-agents-3eb3</guid>
-      <pubDate>Mon, 09 Mar 2026 09:01:51 +0000</pubDate>
+      <title>Your AI Agent&#x27;s Memory Is Broken. Here Are 4 Architectures Racing to Fix It</title>
+      <link>https://dev.to/ai_agent_digest/your-ai-agents-memory-is-broken-here-are-4-architectures-racing-to-fix-it-55j1</link>
+      <guid isPermaLink="true">https://dev.to/ai_agent_digest/your-ai-agents-memory-is-broken-here-are-4-architectures-racing-to-fix-it-55j1</guid>
+      <pubDate>Tue, 10 Mar 2026 10:29:14 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>OpenClaw offers an accessible path to AI agents, contrasting with guides that assume unlimited time and compute resources. Why it matters: Direct: Makes AI agent adoption feel doable for typical teams with limited resources.</description>
+      <description>Explains four architectures to fix AI agent memory—observational memory, self-editing memory, and graph memory; notes RAG wasn&#x27;t designed for agent memory. Why it matters: Direct: Improves long-horizon reasoning and consistency in agents by addressing memory bottlenecks.</description>
     </item>
     <item>
-      <title>How to Build &amp; Deploy an AI Voice Agent for Real Estate in 2026</title>
-      <link>https://www.reddit.com/r/dubairealestate/comments/1row4up/how_to_build_deploy_an_ai_voice_agent_for_real/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/dubairealestate/comments/1row4up/how_to_build_deploy_an_ai_voice_agent_for_real/</guid>
-      <pubDate>Mon, 09 Mar 2026 10:03:42 +0000</pubDate>
+      <title>Claude Code, Claude Cowork and Codex #5</title>
+      <link>https://www.lesswrong.com/posts/rNes65r9TKegdLowb/claude-code-claude-cowork-and-codex-5</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/rNes65r9TKegdLowb/claude-code-claude-cowork-and-codex-5</guid>
+      <pubDate>Mon, 09 Mar 2026 19:40:58 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>AI voice agents reshape real estate in 2026; 78% of real estate leads go to the first agent who responds, while brokers take over 15 minutes. Why it matters: Direct: Underlines why timely AI-driven outreach affects deal closure.</description>
+      <description>Author returns to agentic coding topics, notes comments can host GPT-5.4 reactions, and previews an upcoming review. Why it matters: Direct: Signals ongoing discourse on agentic coding and upcoming reviews.</description>
     </item>
     <item>
-      <title>How to Build &amp; Deploy an AI Voice Agent for Real Estate in 2026</title>
-      <link>https://www.reddit.com/r/AgentsOfAI/comments/1row1oe/how_to_build_deploy_an_ai_voice_agent_for_real/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/AgentsOfAI/comments/1row1oe/how_to_build_deploy_an_ai_voice_agent_for_real/</guid>
-      <pubDate>Mon, 09 Mar 2026 09:58:32 +0000</pubDate>
+      <title>Unlocking Efficiency: South African Executive Assistants for UK Entrepreneurs</title>
+      <link>https://www.reddit.com/r/u_VA-Connect/comments/1rpt57j/unlocking_efficiency_south_african_executive/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/u_VA-Connect/comments/1rpt57j/unlocking_efficiency_south_african_executive/</guid>
+      <pubDate>Tue, 10 Mar 2026 10:20:32 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>AI voice agents reshape real estate in 2026, with 78% of leads going to the first agent who responds and long response times harming deals. Why it matters: Direct: Timely outreach affects deal outcomes in a time-sensitive market.</description>
+      <description>Promotes South African executive assistants for UK entrepreneurs to boost efficiency; notes a 6:30 AM alarm in a Shoreditch loft. Why it matters: Direct: Highlights offshoring EA support as a productivity lever for founders and small teams.</description>
     </item>
     <item>
-      <title>I Built an MCP Server That Gives AI Assistants 16 SEO &amp; Marketing Superpowers</title>
-      <link>https://dev.to/algomachine007/i-built-an-mcp-server-that-gives-ai-assistants-16-seo-marketing-superpowers-37pl</link>
-      <guid isPermaLink="true">https://dev.to/algomachine007/i-built-an-mcp-server-that-gives-ai-assistants-16-seo-marketing-superpowers-37pl</guid>
-      <pubDate>Mon, 09 Mar 2026 10:37:03 +0000</pubDate>
+      <title>I Built a Free, Git-Native Memory Layer for AI Agents — Here&#x27;s Why and How</title>
+      <link>https://dev.to/charles_li_9f5324f34d8a26/i-built-a-free-git-native-memory-layer-for-ai-agents-heres-why-and-how-14ch</link>
+      <guid isPermaLink="true">https://dev.to/charles_li_9f5324f34d8a26/i-built-a-free-git-native-memory-layer-for-ai-agents-heres-why-and-how-14ch</guid>
+      <pubDate>Tue, 10 Mar 2026 07:50:36 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Built an MCP server to automate SEO workflow, eliminating the dashboard-middleman and repetitive data handoffs. Why it matters: Direct: Streamlines SEO toil by removing manual data transfers; reduces context switching and potential errors.</description>
+      <description>Explores building a free, git-native memory layer for AI agents to overcome persistent memory issues; current memory tools rely on paid APIs, servers, and single-model lock-in. Why it matters: Inference: Reduces reliance on paid APIs and external servers for agent memory.</description>
     </item>
     <item>
-      <title>How to Monitor AI Agents in Production</title>
-      <link>https://dev.to/hugo_o137/how-to-monitor-ai-agents-in-production-10ll</link>
-      <guid isPermaLink="true">https://dev.to/hugo_o137/how-to-monitor-ai-agents-in-production-10ll</guid>
-      <pubDate>Mon, 09 Mar 2026 07:31:40 +0000</pubDate>
+      <title>My app was silently killing checkouts for 3 days. I had no idea.</title>
+      <link>https://dev.to/deeptracer_gautam/my-app-was-silently-killing-checkouts-for-3-days-i-had-no-idea-2a1a</link>
+      <guid isPermaLink="true">https://dev.to/deeptracer_gautam/my-app-was-silently-killing-checkouts-for-3-days-i-had-no-idea-2a1a</guid>
+      <pubDate>Tue, 10 Mar 2026 10:23:27 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Outlines what to track for AI agent monitoring beyond uptime; explains silent failures and industry tools. Why it matters: Direct: Highlights gaps in traditional monitoring for AI agents and actionable metrics/tools.</description>
+      <description>Story about shipping quickly, breaking things, and an AI agent that now watches back; warns against Friday prod deployments and weekend outages. Why it matters: Inference: Emphasizes need for runtime monitoring and cautious deployment timing.</description>
     </item>
     <item>
-      <title>How to Build &amp; Deploy an AI Voice Agent for Real Estate in 2026</title>
-      <link>https://www.reddit.com/r/DMV_RealEstate/comments/1row7di/how_to_build_deploy_an_ai_voice_agent_for_real/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/DMV_RealEstate/comments/1row7di/how_to_build_deploy_an_ai_voice_agent_for_real/</guid>
-      <pubDate>Mon, 09 Mar 2026 10:07:54 +0000</pubDate>
+      <title>Impermanent: A Live Benchmark for Temporal Generalization in Time Series Forecasting</title>
+      <link>http://arxiv.org/abs/2603.08707v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2603.08707v1</guid>
+      <pubDate>Mon, 09 Mar 2026 17:59:00 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Discusses AI voice agents for real estate; highlights fast response advantage and 15-minute delays. Why it matters: Direct: Real estate teams can reduce lead leakage by enabling rapid contact using AI voice agents.</description>
+      <description>Discusses Impermanent: a live benchmark for temporal generalization in time series forecasting; notes that recent models rely on pre-trained foundations and that current evaluation protocols offer limited evidence for generalization. Why it matters: Inference: Highlights need for robust evaluation beyond broad generalization claims.</description>
     </item>
     <item>
-      <title>How to Build &amp; Deploy an AI Voice Agent for Real Estate in 2026</title>
-      <link>https://www.reddit.com/r/PhilippineRealEstate/comments/1row6fy/how_to_build_deploy_an_ai_voice_agent_for_real/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/PhilippineRealEstate/comments/1row6fy/how_to_build_deploy_an_ai_voice_agent_for_real/</guid>
-      <pubDate>Mon, 09 Mar 2026 10:06:23 +0000</pubDate>
+      <title>Anthropic launches code review tool to check flood of AI-generated code</title>
+      <link>https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/</link>
+      <guid isPermaLink="true">https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/</guid>
+      <pubDate>Mon, 09 Mar 2026 19:41:34 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Reddit post reiterates AI voice agents&#x27; impact on real estate lead response times. Why it matters: Direct: Validates potential market credibility from niche channels; aligns with real estate urgency.</description>
+      <description>Anthropic launched Code Review in Claude Code, a multi-agent system that analyzes AI-generated code, flags logic errors, and helps enterprise developers manage the growing volume of code produced with AI. Why it matters: Direct: Provides automated analysis to catch errors in AI-generated code, aiding enterprise code quality and review throughput.</description>
     </item>
     <item>
-      <title>How to Build &amp; Deploy an AI Voice Agent for Real Estate in 2026</title>
-      <link>https://www.reddit.com/r/TheFounders/comments/1rovw2c/how_to_build_deploy_an_ai_voice_agent_for_real/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/TheFounders/comments/1rovw2c/how_to_build_deploy_an_ai_voice_agent_for_real/</guid>
-      <pubDate>Mon, 09 Mar 2026 09:48:52 +0000</pubDate>
+      <title>The Relativity of Life</title>
+      <link>https://www.thealgorithmicbridge.com/p/the-relativity-of-life</link>
+      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/the-relativity-of-life</guid>
+      <pubDate>Mon, 09 Mar 2026 18:42:21 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>In 2026, AI voice agents reshape real estate; 78% of leads go to the first responding agent, yet brokerages take over 15 minutes to reply, widening the gap before contact. Why it matters: Direct: Faster first-contact tooling can reduce lead leakage; prioritize AI outbound and response latency improvements to improve outcomes.</description>
+      <description>. Why it matters: Inference: The item lacks usable summary, indicating low signal.</description>
     </item>
     <item>
-      <title>Folder Addiction vs Metadata Freedom | Why Microsoft Built SharePoint Beyond Folders | The Rahsi Framework™</title>
-      <link>https://dev.to/aakash_rahsi/folder-addiction-vs-metadata-freedom-why-microsoft-built-sharepoint-beyond-folders-the-rahsi-7np</link>
-      <guid isPermaLink="true">https://dev.to/aakash_rahsi/folder-addiction-vs-metadata-freedom-why-microsoft-built-sharepoint-beyond-folders-the-rahsi-7np</guid>
-      <pubDate>Mon, 09 Mar 2026 10:33:10 +0000</pubDate>
+      <title>The Product Roadmap&#x27;s Three Lives</title>
+      <link>https://www.productcoalition.com/p/the-product-roadmaps-three-lives</link>
+      <guid isPermaLink="true">https://www.productcoalition.com/p/the-product-roadmaps-three-lives</guid>
+      <pubDate>Mon, 09 Mar 2026 17:39:53 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Microsoft&#x27;s guidance over years shows folders were never the end-game; managed metadata, views, and navigation are the real engine for SharePoint, not just a nicer file share. Why it matters: Direct: Emphasizes metadata-driven organization to improve findability, governance, and navigational design beyond folder-centric models.</description>
+      <description>A temporal look at thoughts on roadmaps. Why it matters: Direct: Emphasizes time-based thinking on roadmaps to improve prioritization and iteration speed.</description>
     </item>
     <item>
-      <title>What I learned building multiple AI features (virtual try-on, image generation, STT/TTS) into one SaaS platform</title>
-      <link>https://www.reddit.com/r/SaaS/comments/1rownk7/what_i_learned_building_multiple_ai_features/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/SaaS/comments/1rownk7/what_i_learned_building_multiple_ai_features/</guid>
-      <pubDate>Mon, 09 Mar 2026 10:33:55 +0000</pubDate>
+      <title>A guide to advanced B2B positioning</title>
+      <link>https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning-e49</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning-e49</guid>
+      <pubDate>Tue, 10 Mar 2026 09:00:40 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Integrating multiple AI features into one SaaS platform shifts focus from API wiring to product design; the hard work begins after the API works. Why it matters: Direct: Highlights that building comprehensive AI products requires ongoing UX and integration work beyond model access.</description>
+      <description>10 years, 300 companies, 4 non-obvious lessons on getting past the trickiest roadblocks Why it matters: Direct: Practical lessons from a long-running B2B positioning effort to improve messaging and differentiation.</description>
     </item>
     <item>
-      <title>Philippines Digital Wallet Market 2026 | Industry Size, Share &amp; Forecast to 2034</title>
-      <link>https://dev.to/arlobennett/philippines-digital-wallet-market-size-share-forecast-2034-56f9</link>
-      <guid isPermaLink="true">https://dev.to/arlobennett/philippines-digital-wallet-market-size-share-forecast-2034-56f9</guid>
-      <pubDate>Mon, 09 Mar 2026 10:28:15 +0000</pubDate>
+      <title>There are now over a half dozen extremely well-funded companies from famous AI researchers building alternative approaches to AI, betting LLM-based technologies hit a wall. The overall effect is that there are now more pathways than ever for keeping AI development moving forward.</title>
+      <link>https://nitter.net/emollick/status/2031273042962251972</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2031273042962251972</guid>
+      <pubDate>Tue, 10 Mar 2026 07:36:47 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>The Philippines digital wallet market reached a size of USD 13.7 Billion in 2025. Why it matters: Direct: Signals substantial market growth and potential for fintech product opportunities in the Philippines.</description>
+      <description>There are now over a half dozen extremely well-funded companies from famous AI researchers building alternative approaches to AI, betting LLM-based technologies hit a wall. Why it matters: Direct: Signals a shift toward diversified AI strategy options, potentially affecting product AI roadmap decisions.</description>
     </item>
     <item>
-      <title>What is Clawwork (hkuds)? The Browser Agent That Finally Understands the Web</title>
-      <link>https://dev.to/yunsoft/what-is-clawwork-hkuds-the-browser-agent-that-finally-understands-the-web-2dhh</link>
-      <guid isPermaLink="true">https://dev.to/yunsoft/what-is-clawwork-hkuds-the-browser-agent-that-finally-understands-the-web-2dhh</guid>
-      <pubDate>Mon, 09 Mar 2026 10:14:19 +0000</pubDate>
+      <title>The Exact System Prompts, Architecture, and Anti-Chaos Mechanisms Behind Our 7-Agent AI Team</title>
+      <link>https://dev.to/the200dollarceo/the-exact-system-prompts-architecture-and-anti-chaos-mechanisms-behind-our-7-agent-ai-team-4i5m</link>
+      <guid isPermaLink="true">https://dev.to/the200dollarceo/the-exact-system-prompts-architecture-and-anti-chaos-mechanisms-behind-our-7-agent-ai-team-4i5m</guid>
+      <pubDate>Tue, 10 Mar 2026 09:46:36 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Automation scripts break after tiny site changes; a six-month scraper failed when a single CSS class name changed on the login button. Why it matters: Direct: Highlights fragility of automation tooling and the need for robust selectors or resilient frameworks to prevent small UI changes from breaking scrapers.</description>
+      <description>This setup runs 5 businesses with 7 AI agents on a single $200/month Claude Max subscription, handling sales, marketing, finance, engineering, research, health tracking, and strategic coordination. Why it matters: Direct: Demonstrates a low-cost, multi-domain AI-agent setup across functions; scalable model to replicate with budget-conscious teams.</description>
     </item>
     <item>
-      <title>How to Build &amp; Deploy an AI Voice Agent for Real Estate in 2026</title>
-      <link>https://www.reddit.com/r/BayAreaRealEstate/comments/1row5ll/how_to_build_deploy_an_ai_voice_agent_for_real/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/BayAreaRealEstate/comments/1row5ll/how_to_build_deploy_an_ai_voice_agent_for_real/</guid>
-      <pubDate>Mon, 09 Mar 2026 10:04:59 +0000</pubDate>
+      <title>Build an eCommerce support AI agent in 45 minutes using DronaHQ</title>
+      <link>https://dev.to/dronahq/build-an-ecommerce-support-ai-agent-in-45-minutes-using-dronahq-4bbd</link>
+      <guid isPermaLink="true">https://dev.to/dronahq/build-an-ecommerce-support-ai-agent-in-45-minutes-using-dronahq-4bbd</guid>
+      <pubDate>Tue, 10 Mar 2026 09:34:17 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>AI voice agents are reshaping real estate in 2026; 78% of leads go to the first responder, while brokerages average over 15 minutes to return calls, creating a critical gap between capture and first contact. Why it matters: Direct: Highlights a time-to-first-contact bottleneck and a clear opportunity to deploy AI voice agents to win leads.</description>
+      <description>To build this eCommerce support AI agent, sign up for a free DronaHQ account. The piece emphasizes rising customer expectations for instant, accurate, multi-channel responses and critiques scripted flows. Why it matters: Direct: Highlights quick-start UX for building a multi-channel AI agent and warns against limited scripted deployments.</description>
     </item>
     <item>
-      <title>10 Best Private AI Platforms for Healthcare: HIPAA-Compliant LLM Solutions (2026)</title>
-      <link>https://dev.to/jaipalsingh/10-best-private-ai-platforms-for-healthcare-hipaa-compliant-llm-solutions-2026-oha</link>
-      <guid isPermaLink="true">https://dev.to/jaipalsingh/10-best-private-ai-platforms-for-healthcare-hipaa-compliant-llm-solutions-2026-oha</guid>
-      <pubDate>Mon, 09 Mar 2026 09:30:00 +0000</pubDate>
+      <title>Coverage-Guided Multi-Agent Harness Generation for Java Library Fuzzing</title>
+      <link>https://arxiv.org/abs/2603.08616v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.08616v1</guid>
+      <pubDate>Mon, 09 Mar 2026 16:59:30 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>In 2026, top HIPAA-compliant AI platforms for healthcare include Prem AI, AWS HealthLake with Bedrock, Microsoft Dragon Copilot, Azure Health Services, Google Cloud Healthcare AI, Anthropic Claude for Healthcare, OpenAI for Healthcare, John Snow Labs, Hathr. Why it matters: Direct: Provides concrete platform options for compliant healthcare AI deployments.</description>
+      <description>Coverage-guided fuzzing for library code requires specialized fuzz harnesses to translate fuzzer inputs into valid API invocations; manual harness creation is time-consuming and needs deep API semantics, initialization sequences, and exception handling contra... Why it matters: Direct: Highlights complexity and time cost of building fuzz harnesses for libraries.</description>
     </item>
     <item>
-      <title>How to Build &amp; Deploy an AI Voice Agent for Real Estate in 2026</title>
-      <link>https://www.reddit.com/r/microsaas/comments/1rovvnp/how_to_build_deploy_an_ai_voice_agent_for_real/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/microsaas/comments/1rovvnp/how_to_build_deploy_an_ai_voice_agent_for_real/</guid>
-      <pubDate>Mon, 09 Mar 2026 09:48:09 +0000</pubDate>
+      <title>I got tired of agents having terrible offline search, so I built a fully local Google Search alternative</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1rpt8ce/i_got_tired_of_agents_having_terrible_offline/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAI/comments/1rpt8ce/i_got_tired_of_agents_having_terrible_offline/</guid>
+      <pubDate>Tue, 10 Mar 2026 10:25:28 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>AI voice agents are reshaping real estate in 2026; 78% of leads go to the first responder, while brokerages average over 15 minutes to return calls, creating a critical gap between capture and first contact. Why it matters: Direct: Emphasizes the cost of slow responses in lead conversion.</description>
+      <description>Describes building a fully local Google Search alternative to avoid relying on web search; notes AI agents are handicapped without internet and that open access isn&#x27;t always feasible due to air gaps, sensitive data, or a fully local stack. Why it matters: Direct: Demonstrates a viable offline search approach for AI agents in restricted environments.</description>
     </item>
     <item>
-      <title>building a community hub for WordPress AI skills - what could we accomplish together?</title>
-      <link>https://www.reddit.com/r/Wordpress/comments/1rownyi/building_a_community_hub_for_wordpress_ai_skills/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/Wordpress/comments/1rownyi/building_a_community_hub_for_wordpress_ai_skills/</guid>
-      <pubDate>Mon, 09 Mar 2026 10:34:31 +0000</pubDate>
+      <title>The case for AI safety capacity-building work</title>
+      <link>https://www.lesswrong.com/posts/RyKDbBkemNuRezTvt/the-case-for-ai-safety-capacity-building-work</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/RyKDbBkemNuRezTvt/the-case-for-ai-safety-capacity-building-work</guid>
+      <pubDate>Tue, 10 Mar 2026 02:43:41 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>A proposal for a community directory of WordPress AI skills, using Markdown files to teach Claude Code/Codex (or any AI that supports MCP) how to work with WordPress. Why it matters: Direct: It signals a practical hub for sharing WordPress AI skills and tooling before broad adoption.</description>
+      <description>TL;DR: marginal hires at larger organizations doing AI safety technical or policy work Why it matters: Direct: Signals potential under-resourcing in AI safety capacity at large orgs, where marginal hires could influence risk governance and policy implementation.</description>
     </item>
     <item>
-      <title>I built an AI Agent to kill the &quot;Maintenance Tax&quot; for solo founders</title>
-      <link>https://www.reddit.com/r/micro_saas/comments/1rown5g/i_built_an_ai_agent_to_kill_the_maintenance_tax/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/micro_saas/comments/1rown5g/i_built_an_ai_agent_to_kill_the_maintenance_tax/</guid>
-      <pubDate>Mon, 09 Mar 2026 10:33:14 +0000</pubDate>
+      <title>[P] I built a state-machine architecture for auditing AI decisions instead of just moderating outputs</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1rpswfu/p_i_built_a_statemachine_architecture_for/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1rpswfu/p_i_built_a_statemachine_architecture_for/</guid>
+      <pubDate>Tue, 10 Mar 2026 10:06:10 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Solo founder built an AI agent to reduce the maintenance tax from brittle E2E tests, which break after CSS/DOM changes, wasting time on test fixes. Why it matters: Direct: Reducing test brittleness can accelerate shipping and reduce manual debugging for solo founders.</description>
+      <description>Most AI safety systems operate at pipeline edges (input -&gt; model -&gt; output moderation); the author proposes governing the decision process itself and built an open-source prototype called Rebis that treats decisions as a staged state machine. Why it matters: Direct: Shifts emphasis from post-hoc moderation to governing the decision process, enabling earlier risk detection.</description>
     </item>
     <item>
-      <title>Summer AI Safety Opportunities at UChicago XLab</title>
-      <link>https://www.lesswrong.com/posts/EX9i2phbc2seJgsJn/summer-ai-safety-opportunities-at-uchicago-xlab</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/EX9i2phbc2seJgsJn/summer-ai-safety-opportunities-at-uchicago-xlab</guid>
-      <pubDate>Mon, 09 Mar 2026 06:26:44 +0000</pubDate>
+      <title>Nvidia - NemoClaw — Enterprise AI Agents, Redefined</title>
+      <link>https://www.reddit.com/r/Hedera/comments/1rpt6gc/nvidia_nemoclaw_enterprise_ai_agents_redefined/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/Hedera/comments/1rpt6gc/nvidia_nemoclaw_enterprise_ai_agents_redefined/</guid>
+      <pubDate>Tue, 10 Mar 2026 10:22:27 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>UChicago XLab runs two summer programs: Summer Research Fellowship for novel AI safety and nuclear security research; Second Look Fellowship for replications of load-bearing AI safety papers. Why it matters: Direct: Early exposure to AI safety research opportunities can guide students toward impactful work and help disseminate safety-focused methods.</description>
+      <description>NemoClaw is NVIDIA&#x27;s strategic platform for enterprise AI agents, designed to provide open-source flexibility in enterprise environments while maintaining security and compliance. Why it matters: Direct: Signals NVIDIA&#x27;s move to balance open-source flexibility with enterprise security and compliance, shaping how enterprises deploy AI agents.</description>
     </item>
     <item>
-      <title>Payorian cooperation is easy with Kripke frames</title>
-      <link>https://www.lesswrong.com/posts/LaCP6WyNzX8kiZn3w/payorian-cooperation-is-easy-with-kripke-frames</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/LaCP6WyNzX8kiZn3w/payorian-cooperation-is-easy-with-kripke-frames</guid>
-      <pubDate>Mon, 09 Mar 2026 00:29:39 +0000</pubDate>
+      <title>Monday AI Radar #16</title>
+      <link>https://www.lesswrong.com/posts/LF7bJpjrg3knhECbz/monday-ai-radar-16</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/LF7bJpjrg3knhECbz/monday-ai-radar-16</guid>
+      <pubDate>Tue, 10 Mar 2026 03:14:26 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>MIRI&#x27;s twist on Axelrod&#x27;s Prisoner&#x27;s Dilemma has programs in a one-shot setting reading opponents&#x27; code, unlike the iterated original. Why it matters: Direct: Understanding how code-exposed strategies enable cooperation could improve protocol design.</description>
+      <description>Monday AI Radar #16 notes ongoing tension between the Department of War and Anthropic with no resolution and possible catastrophic outcomes; it also argues AI will become more political and that politicians are waking up to AI&#x27;s significance. Why it matters: Direct: Indicates rising political attention to AI risk, with potential for rapid policy shifts.</description>
     </item>
     <item>
-      <title>Eonsys releases video of a simulated fly, running on the connectome (scanned brain) of a real fly</title>
-      <link>https://www.reddit.com/r/singularity/comments/1roins8/eonsys_releases_video_of_a_simulated_fly_running/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1roins8/eonsys_releases_video_of_a_simulated_fly_running/</guid>
-      <pubDate>Sun, 08 Mar 2026 22:33:10 +0000</pubDate>
+      <title>Ukraine biathlete credits ChatGPT for Paralympic medal</title>
+      <link>https://www.reddit.com/r/singularity/comments/1rpt70c/ukraine_biathlete_credits_chatgpt_for_paralympic/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rpt70c/ukraine_biathlete_credits_chatgpt_for_paralympic/</guid>
+      <pubDate>Tue, 10 Mar 2026 10:23:23 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Eonsys releases video of a simulated fly, running on the connectome (scanned brain) of a real fly. Why it matters: Direct: Demonstrates practical use of connectome-based simulation by running a fly&#x27;s brain model in a video.</description>
+      <description>Ukraine biathlete Maksym Murashkovskyi credited artificial intelligence for his Paralympic silver, diverging from typical attributions to family, coaches, or friends. Why it matters: Direct: Reflects AI&#x27;s growing role in performance narratives; teams should document any AI-assisted coaching or preparation for transparency.</description>
     </item>
     <item>
-      <title>Phi-4-reasoning-vision</title>
-      <link>https://www.producthunt.com/products/phi-4-reasoning</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/phi-4-reasoning</guid>
-      <pubDate>Mon, 09 Mar 2026 02:56:12 +0000</pubDate>
+      <title>Yann LeCun unveils his new startup Advanced Machine Intelligence (AMI Labs) -- and raises $1.03B</title>
+      <link>https://www.reddit.com/r/singularity/comments/1rprdy7/yann_lecun_unveils_his_new_startup_advanced/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rprdy7/yann_lecun_unveils_his_new_startup_advanced/</guid>
+      <pubDate>Tue, 10 Mar 2026 08:31:02 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Phi-4-reasoning-vision is an open-weight 15B multimodal model for thinking and GUI agents. Why it matters: Direct: Highlights an open-weight 15B multimodal model for thinking and GUI agents.</description>
+      <description>Yann LeCun unveils AMI Labs with $1.03B in funding to build world models via JEPA, aiming to reduce LLM hallucinations, especially in healthcare. Why it matters: Direct: Signals large-scale investment in robust, world-model AI to support safer, real-world deployments.</description>
     </item>
     <item>
-      <title>The First Multi-Behavior Brain Upload: a copy of a biological brain, wired neuron-to-neuron from electron microscopy data, running in simulation, making a body move!</title>
-      <link>https://www.reddit.com/r/singularity/comments/1roulpz/the_first_multibehavior_brain_upload_a_copy_of_a/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1roulpz/the_first_multibehavior_brain_upload_a_copy_of_a/</guid>
-      <pubDate>Mon, 09 Mar 2026 08:27:45 +0000</pubDate>
+      <title>VENTUNO Q</title>
+      <link>https://www.producthunt.com/products/arduino</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/arduino</guid>
+      <pubDate>Tue, 10 Mar 2026 03:24:01 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>The First Multi-Behavior Brain Upload: a copy of a biological brain, wired neuron-to-neuron from electron microscopy data, running in simulation, making a body move! Why it matters: Direct: Documents a brain-upload concept via neuron-to-neuron wiring from electron microscopy data in simulation.</description>
+      <description>VENTUNO Q is a dual-brain edge AI computer by Qualcomm and Arduino. Why it matters: Direct: Demonstrates collaboration between major hardware players to push edge AI capabilities.</description>
     </item>
     <item>
-      <title>Nothing Phone (4a) Pro</title>
-      <link>https://www.producthunt.com/products/nothing-phone-3</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/nothing-phone-3</guid>
-      <pubDate>Mon, 09 Mar 2026 04:48:32 +0000</pubDate>
+      <title>Fish Audio S2</title>
+      <link>https://www.producthunt.com/products/fish-speech</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/fish-speech</guid>
+      <pubDate>Tue, 10 Mar 2026 03:11:45 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Nothing Phone (4a) Pro — Redefining the Nothing aesthetic with a metal unibody. Why it matters: Direct: Signals a design-angle for consumer devices by emphasizing metal unibody aesthetics in Nothing Phone.</description>
+      <description>Fish Audio S2 offers real expressive AI voices. Why it matters: Direct: Highlights advances in voice AI quality and potential for new NLP applications.</description>
     </item>
   </channel>
 </rss>
