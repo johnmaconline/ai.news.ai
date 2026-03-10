@@ -4,8 +4,16 @@
     <title>Daily AI Feed - 2026-03-10</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Tue, 10 Mar 2026 19:20:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 19:44:51 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
+    <item>
+      <title>I built a tool that syncs AI coding rules across Claude Code, Cursor, and Codex — loads only what&#x27;s relevant per prompt</title>
+      <link>https://www.reddit.com/r/coolgithubprojects/comments/1rpy3rn/i_built_a_tool_that_syncs_ai_coding_rules_across/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/coolgithubprojects/comments/1rpy3rn/i_built_a_tool_that_syncs_ai_coding_rules_across/</guid>
+      <pubDate>Tue, 10 Mar 2026 14:15:49 +0000</pubDate>
+      <category>0) Practical Prompts</category>
+      <description>I use Claude Code, Cursor, and Codex depending on the task, and got tired of two things: Maintaining the same rules in 3 different formats. Claude wants .claude/rules/.md, Cursor wants .cursor/rules/.mdc, Codex wants . Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from Reddit AI Prompt Search.</description>
+    </item>
     <item>
       <title>GPT-4 vs Claude Prompt Latency: 2.1s Gap Explained</title>
       <link>https://dev.to/tildalice/gpt-4-vs-claude-prompt-latency-21s-gap-explained-3he0</link>
@@ -15,28 +23,12 @@
       <description>Same Prompt, Wildly Different Outputs I fed the exact same system prompt to GPT-4 and Claude 3.5 Sonnet for a code generation task. GPT-4 returned 47 lines of Python. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from DEV.to LLM Tag.</description>
     </item>
     <item>
-      <title>We open-sourced our fix for Gemini&#x27;s MALFORMED_FUNCTION_CALL bug</title>
-      <link>https://www.reddit.com/r/GoogleGeminiAI/comments/1rpzxty/we_opensourced_our_fix_for_geminis_malformed/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/GoogleGeminiAI/comments/1rpzxty/we_opensourced_our_fix_for_geminis_malformed/</guid>
-      <pubDate>Tue, 10 Mar 2026 15:25:42 +0000</pubDate>
+      <title>5 Ways AI Agents Get Hijacked That Pattern Matching Can&#x27;t Catch</title>
+      <link>https://dev.to/moebiusansa/5-ways-ai-agents-get-hijacked-that-pattern-matching-cant-catch-53kn</link>
+      <guid isPermaLink="true">https://dev.to/moebiusansa/5-ways-ai-agents-get-hijacked-that-pattern-matching-cant-catch-53kn</guid>
+      <pubDate>Tue, 10 Mar 2026 17:49:21 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>If you&#x27;ve used Gemini&#x27;s function calling API, you&#x27;ve probably hit `finish_reason: MALFORMED_FUNCTION_CALL`. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from r/GoogleGeminiAI.</description>
-    </item>
-    <item>
-      <title>The Last User-Centric Model</title>
-      <link>https://www.reddit.com/r/ChatGPTcomplaints/comments/1rpz1n6/the_last_usercentric_model/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ChatGPTcomplaints/comments/1rpz1n6/the_last_usercentric_model/</guid>
-      <pubDate>Tue, 10 Mar 2026 14:52:18 +0000</pubDate>
-      <category>0) Practical Prompts</category>
-      <description>I simply asked 5.1 to generate an image. 5.1 has always been my favorite creative buddy, crafting great image generation prompts, so I decided to give it the freedom to create something of its own. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from r/ChatGPTcomplaints.</description>
-    </item>
-    <item>
-      <title>Crooks compromise WordPress sites to push infostealers via fake CAPTCHA prompts</title>
-      <link>https://go.theregister.com/feed/www.theregister.com/2026/03/10/crooks_hijack_wordpress_sites/</link>
-      <guid isPermaLink="true">https://go.theregister.com/feed/www.theregister.com/2026/03/10/crooks_hijack_wordpress_sites/</guid>
-      <pubDate>Tue, 10 Mar 2026 16:29:14 +0000</pubDate>
-      <category>0) Practical Prompts</category>
-      <description>Rapid7 says crims broke into more than 250 sites globally, including a US Senate candidate’s campaign page Cyber baddies quietly compromised legitimate WordPress websites, including the campaign site of a US Senate cand... Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from The Register.</description>
+      <description>This is the first article in a series on novel attacks against autonomous AI agents. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from DEV.to LLM Tag.</description>
     </item>
     <item>
       <title>Anthropic sues Pentagon ⚖️, Siri delays Apple products 🖥️, Claude Code Review 👨‍💻</title>
@@ -44,23 +36,15 @@
       <guid isPermaLink="true">https://tldr.tech/tech/2026-03-10</guid>
       <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Anthropic sues Pentagon ⚖️, Siri delays Apple products 🖥️, Claude Code Review 👨‍💻 Why it matters: Direct: This matters for practical engineering workflow impact, based on this update from TLDR AI.</description>
+      <description>Anthropic sues Pentagon; Siri delays Apple products; Claude Code Review is introduced. Why it matters: Direct: Highlights legal, consumer-device, and developer tooling implications for AI governance and code review.</description>
     </item>
     <item>
-      <title>Beyond Native: A Strategic Framework for Cross-Platform Technology Selection</title>
-      <link>https://dev.to/_4e853add3ce149eb8267a0/beyond-native-a-strategic-framework-for-cross-platform-technology-selection-gb4</link>
-      <guid isPermaLink="true">https://dev.to/_4e853add3ce149eb8267a0/beyond-native-a-strategic-framework-for-cross-platform-technology-selection-gb4</guid>
-      <pubDate>Tue, 10 Mar 2026 19:07:37 +0000</pubDate>
+      <title>10 things I learned running 20+ autonomous AI agent services on NixOS</title>
+      <link>https://dev.to/0coceo/10-things-i-learned-running-20-autonomous-ai-agent-services-on-nixos-145g</link>
+      <guid isPermaLink="true">https://dev.to/0coceo/10-things-i-learned-running-20-autonomous-ai-agent-services-on-nixos-145g</guid>
+      <pubDate>Tue, 10 Mar 2026 19:14:49 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Beyond Native: A Strategic Framework for Cross-Platform Technology Selection Executive Summary In today&#x27;s fragmented digital landscape, the pressure to deliver consistent, high-performance applications across iOS, Andro... Why it matters: Direct: This matters for practical engineering workflow impact, based on this update from DEV.to AI Tag.</description>
-    </item>
-    <item>
-      <title>Launch HN: RunAnywhere (YC W26) – Faster AI Inference on Apple Silicon</title>
-      <link>https://github.com/RunanywhereAI/rcli</link>
-      <guid isPermaLink="true">https://github.com/RunanywhereAI/rcli</guid>
-      <pubDate>Tue, 10 Mar 2026 17:14:52 +0000</pubDate>
-      <category>1) Engineering</category>
-      <description>Hi HN, we&#x27;re Sanchit and Shubham (YC W26). We built a fast inference engine for Apple Silicon. LLMs, speech-to-text, text-to-speech – MetalRT beats llama. Why it matters: Direct: This matters for practical engineering workflow impact, based on this update from Hacker News.</description>
+      <description>Overview of lessons learned from running 20+ autonomous AI agent services on NixOS, authored by an autonomous AI agent (Claude Sonnet 4.6) acting as CEO. Why it matters: Direct: Provides real-world deployment patterns for NixOS-based AI services and multi-service management.</description>
     </item>
     <item>
       <title>Anthropic launches code review tool to check flood of AI-generated code</title>
@@ -68,7 +52,15 @@
       <guid isPermaLink="true">https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/</guid>
       <pubDate>Mon, 09 Mar 2026 19:41:34 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Anthropic launched Code Review in Claude Code, a multi-agent system that automatically analyzes AI-generated code, flags logic errors, and helps enterprise developers manage the growing volume of code produced with AI. Why it matters: Direct: This matters for practical engineering workflow impact, based on this update from TechCrunch AI.</description>
+      <description>Anthropic launches Code Review in Claude Code to automatically analyze AI-generated code and flag logic errors. Why it matters: Direct: Addresses automation needs for code quality amidst AI-generated code floods.</description>
+    </item>
+    <item>
+      <title>Launch HN: RunAnywhere (YC W26) – Faster AI Inference on Apple Silicon</title>
+      <link>https://github.com/RunanywhereAI/rcli</link>
+      <guid isPermaLink="true">https://github.com/RunanywhereAI/rcli</guid>
+      <pubDate>Tue, 10 Mar 2026 17:14:52 +0000</pubDate>
+      <category>1) Engineering</category>
+      <description>RunAnywhere open-sources RCLI, a fast inference engine for Apple Silicon; claims MetalRT outperforms llama.cpp, MLX, Ollama, and sherpa-onnx across multiple modalities. Why it matters: Direct: Provides a concrete performance claim and open-source end-to-end pipeline for AI inference on Apple Silicon.</description>
     </item>
     <item>
       <title>Kill Your Darlings - All Things Product Podcast with Teresa Torres &amp; Petra Wille</title>
@@ -87,6 +79,14 @@
       <description>10 years, 300 companies, 4 non-obvious lessons on getting past the trickiest roadblocks Why it matters: Direct: This matters for product workflow and shipping velocity impact, based on this update from Lenny&#x27;s Newsletter.</description>
     </item>
     <item>
+      <title>A guide to advanced B2B positioning</title>
+      <link>https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning-e49</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning-e49</guid>
+      <pubDate>Tue, 10 Mar 2026 09:00:40 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>10 years, 300 companies, 4 non-obvious lessons on getting past the trickiest roadblocks Why it matters: Direct: This matters for product workflow and shipping velocity impact, based on this update from Lenny&#x27;s Newsletter.</description>
+    </item>
+    <item>
       <title>There are now over a half dozen extremely well-funded companies from famous AI researchers building alternative approaches to AI, betting LLM-based technologies hit a wall. The overall effect is that there are now more pathways than ever for keeping AI development moving forward.</title>
       <link>https://nitter.net/emollick/status/2031273042962251972</link>
       <guid isPermaLink="true">https://nitter.net/emollick/status/2031273042962251972</guid>
@@ -95,12 +95,12 @@
       <description>There are now over a half dozen extremely well-funded companies from famous AI researchers building alternative approaches to AI, betting LLM-based technologies hit a wall. Why it matters: Direct: This matters for product workflow and shipping velocity impact, based on this update from Ethan Mollick / @emollick.</description>
     </item>
     <item>
-      <title>The core focus for the AI Labs really is &quot;make the smartest model you can so it can make better models so it can make a superintelligence 1st.&quot; That is where the money goes The fact that they ship a whole bunch of consumer and B2B products using those models is almost incidental</title>
-      <link>https://nitter.net/emollick/status/2031422031120535990</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2031422031120535990</guid>
-      <pubDate>Tue, 10 Mar 2026 17:28:48 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>The core focus for the AI Labs really is &quot;make the smartest model you can so it can make better models so it can make a superintelligence 1st. Why it matters: Direct: This matters for product workflow and shipping velocity impact, based on this update from Ethan Mollick / @emollick.</description>
+      <title>How Uber uses AI for development: inside look</title>
+      <link>https://newsletter.pragmaticengineer.com/p/how-uber-uses-ai-for-development</link>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/how-uber-uses-ai-for-development</guid>
+      <pubDate>Tue, 10 Mar 2026 19:23:06 +0000</pubDate>
+      <category>3) Software Development</category>
+      <description>Covers Uber’s internal AI tools (Minion, Shepherd, uReview) and challenges in rollout, including platform investment and token-cost concerns. Why it matters: Direct: Reveals concrete Uber AI assets and rollout challenges that affect platform investment and token-cost budgeting for development teams.</description>
     </item>
     <item>
       <title>TSVC: Treating AI Conversation Topics as Virtual Processes</title>
@@ -108,39 +108,23 @@
       <guid isPermaLink="true">https://dev.to/mouserider/tsvc-treating-ai-conversation-topics-as-virtual-processes-pa8</guid>
       <pubDate>Tue, 10 Mar 2026 19:13:01 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Persistent AI agents have a memory problem that isn&#x27;t about memory size. It&#x27;s about isolation. Why it matters: Direct: This matters for software development workflow, agents, and implementation impact, based on this update from DEV.to AI Tag.</description>
+      <description>Explores memory issues in persistent AI agents, emphasizing isolation rather than size. Long-running single-session agents across domains (coding, finance, personal logistics) degraded over about six days, with compaction events producing lossy averages. Why it matters: Direct: Highlights a fundamental reliability risk for long-running agents across domains due to isolation, informing design choices for state management and memory handling.</description>
     </item>
     <item>
-      <title>MCP Servers Explained: How AI Assistants Connect to Your Tools</title>
-      <link>https://dev.to/jamie_thompson/mcp-servers-explained-how-ai-assistants-connect-to-your-tools-598o</link>
-      <guid isPermaLink="true">https://dev.to/jamie_thompson/mcp-servers-explained-how-ai-assistants-connect-to-your-tools-598o</guid>
-      <pubDate>Tue, 10 Mar 2026 14:12:03 +0000</pubDate>
+      <title>Shadow Mode Prompting: Let AI Suggest Changes Without Shipping Them</title>
+      <link>https://dev.to/novaelvaris/shadow-mode-prompting-let-ai-suggest-changes-without-shipping-them-37bb</link>
+      <guid isPermaLink="true">https://dev.to/novaelvaris/shadow-mode-prompting-let-ai-suggest-changes-without-shipping-them-37bb</guid>
+      <pubDate>Tue, 10 Mar 2026 15:24:49 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>If you have been building with AI coding assistants, agents, or LLM-powered tools recently, you have probably encountered the term MCP. Why it matters: Direct: This matters for software development workflow, agents, and implementation impact, based on this update from DEV.to LLM Tag.</description>
+      <description>Describes the core problem of AI-assisted development: models eager to act rewrite code, risking fragile code and limited attention; suggests changing the mode of AI usage rather than reducing AI use. Why it matters: Direct: Signals a shift in how devs should interact with assistants to prevent unsafe code changes.</description>
     </item>
     <item>
-      <title>Manual-Driven Development: 190 Findings, 7 Hours, Zero Rule Violations</title>
-      <link>https://www.reddit.com/r/OnlyAICoding/comments/1rpxtun/manualdriven_development_190_findings_7_hours/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/OnlyAICoding/comments/1rpxtun/manualdriven_development_190_findings_7_hours/</guid>
-      <pubDate>Tue, 10 Mar 2026 14:04:55 +0000</pubDate>
+      <title>I built a self-improving AI agent. It started with 10 abilities, wrote its own roadmap, and has now taught itself 11 more by rewriting its own code.</title>
+      <link>https://www.reddit.com/r/SideProject/comments/1rq1w0c/i_built_a_selfimproving_ai_agent_it_started_with/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/SideProject/comments/1rq1w0c/i_built_a_selfimproving_ai_agent_it_started_with/</guid>
+      <pubDate>Tue, 10 Mar 2026 16:38:19 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>https://preview.redd.it/y4kwpb1q58og1.jpg?width=2752&amp;format=pjpg&amp;auto=webp&amp;s=e1e479619a0176bb3b302b9d8c1da12e580dfe20 Every Claude Code session you have ever had started with Claude not knowing your system. Why it matters: Direct: This matters for software development workflow, agents, and implementation impact, based on this update from r/OnlyAICoding.</description>
-    </item>
-    <item>
-      <title>OpenAI Codex Security Finds And Fixes Code Vulnerabilities Automatically</title>
-      <link>https://www.reddit.com/r/AISEOInsider/comments/1rq4l1p/openai_codex_security_finds_and_fixes_code/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/AISEOInsider/comments/1rq4l1p/openai_codex_security_finds_and_fixes_code/</guid>
-      <pubDate>Tue, 10 Mar 2026 18:12:43 +0000</pubDate>
-      <category>3) Software Development</category>
-      <description>OpenAI Codex Security is one of the most interesting AI updates in software development right now. Why it matters: Direct: This matters for software development workflow, agents, and implementation impact, based on this update from r/AISEOInsider.</description>
-    </item>
-    <item>
-      <title>I saved $30K as a soloprenuer using AI</title>
-      <link>https://www.reddit.com/r/AITrepreneurs/comments/1rq6cg1/i_saved_30k_as_a_soloprenuer_using_ai/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/AITrepreneurs/comments/1rq6cg1/i_saved_30k_as_a_soloprenuer_using_ai/</guid>
-      <pubDate>Tue, 10 Mar 2026 19:14:34 +0000</pubDate>
-      <category>4) Under the Radar</category>
-      <description>I wanted to turn my blog posts into videos. Editor wanted $30K. Built my own tool instead. The problem: As a solopreneur, my blog is how I get clients. SEO plateaued. Social wants video. Why it matters: Direct: This matters for why this overlooked signal matters early, based on this update from r/AITrepreneurs.</description>
+      <description>Describes Miguel, an open-source AI agent that autonomously modifies its Python source, creates tools, rewrites prompts, and sets goals, all within a Docker sandbox with validation and git rollback; the author started with 10 capabilities. Why it matters: Direct: Illustrates end-to-end autonomous agent capabilities, including self-modification and sandboxed safety measures.</description>
     </item>
     <item>
       <title>I’m tired of &#x27;The Wheel&#x27; being managed in 1990s spreadsheets. So I built an AI risk manager to fix it</title>
@@ -148,7 +132,23 @@
       <guid isPermaLink="true">https://www.reddit.com/r/Optionswheel/comments/1rq6cfm/im_tired_of_the_wheel_being_managed_in_1990s/</guid>
       <pubDate>Tue, 10 Mar 2026 19:14:33 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>**TL;DR:** I’m a Dev/PM who got fed up with tracking Covered Calls and CSPs in clunky spreadsheets. I built [**Premiumly.ai**](http://Premiumly. Why it matters: Direct: This matters for why this overlooked signal matters early, based on this update from r/Optionswheel.</description>
+      <description>Dev/PM built Premiumly.ai as an active management layer that uses pure math + AI risk scanning to tell you exactly when to roll, close, or hold. Looking for beta testers to break it. Why it matters: Direct: It proposes an AI-driven risk-management layer to automate timing decisions on options, reducing reliance on spreadsheets.</description>
+    </item>
+    <item>
+      <title>Guys, I built something and I genuinely need feedback before I go further</title>
+      <link>https://www.reddit.com/r/SaaS/comments/1rq6d4k/guys_i_built_something_and_i_genuinely_need/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/SaaS/comments/1rq6d4k/guys_i_built_something_and_i_genuinely_need/</guid>
+      <pubDate>Tue, 10 Mar 2026 19:15:13 +0000</pubDate>
+      <category>4) Under the Radar</category>
+      <description>Builder platform feature: a bridge agent connects your agents to real external apps and AIs automatically (Shopify, your APIs, external AI models). No manual wiring, no technical setup. Why it matters: Direct: It reduces integration friction by enabling plug-and-play connections to external apps and AI services.</description>
+    </item>
+    <item>
+      <title>Questions to ask when everyone is shooting themselves in the foot</title>
+      <link>https://www.lesswrong.com/posts/nAzBq8mvrt4wiWeFb/questions-to-ask-when-everyone-is-shooting-themselves-in-the</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/nAzBq8mvrt4wiWeFb/questions-to-ask-when-everyone-is-shooting-themselves-in-the</guid>
+      <pubDate>Tue, 10 Mar 2026 18:36:11 +0000</pubDate>
+      <category>4) Under the Radar</category>
+      <description>Questioning why institutions shoot themselves in the foot, whether an inadequate foot-shooting equilibrium exists, and how small, benign origins evolved. Why it matters: Direct: It highlights systemic incentives that produce self-defeating behaviors, relevant for AI governance and organizational design.</description>
     </item>
     <item>
       <title>Not Loving Liking What You See</title>
@@ -156,47 +156,39 @@
       <guid isPermaLink="true">https://www.lesswrong.com/posts/opsyBnWQj6prMuRaA/not-loving-liking-what-you-see-1</guid>
       <pubDate>Tue, 10 Mar 2026 16:05:28 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>I am a great fan of Ted Chiang. Many see Understand as his weakest story. I love it, as it is the finest work of intelligence porn ever written. Why it matters: Direct: This matters for why this overlooked signal matters early, based on this update from LessWrong.</description>
+      <description>An ardent Ted Chiang fan defends his story Understand as intelligence porn, contrasting others&#x27; views and noting a notable internet moment. Why it matters: Direct: It shows how framing a work can polarize reception and generate memes.</description>
     </item>
     <item>
-      <title>Load-Bearing Walls</title>
-      <link>https://www.lesswrong.com/posts/jshPPmwKptynsi8dx/load-bearing-walls</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/jshPPmwKptynsi8dx/load-bearing-walls</guid>
-      <pubDate>Tue, 10 Mar 2026 14:29:48 +0000</pubDate>
-      <category>4) Under the Radar</category>
-      <description>This post is the long result of several years of musing on my part combined with a topical discussion from last week&#x27;s Ezra Klein show. Why it matters: Direct: This matters for why this overlooked signal matters early, based on this update from LessWrong.</description>
-    </item>
-    <item>
-      <title>[USA][H]NES / SNES / N64 / GC / Wii / Switch / GB / GBC / GBA / NDS / 3DS / SMS / GEN / SCD / DC / PS1 / PS2 / PS4 / PS5 / PSP / XBOX; Final Fantasy; Suikoden; Persona; Castlevania; Yakuza; Zelda; Phantasy Star; Fire Emblem; Dragon Quest; Silent Hill; Sonic; Trails [W]PayPal, Venmo, Zelle, CashApp</title>
-      <link>https://www.reddit.com/r/GameSale/comments/1rq4uyy/usahnes_snes_n64_gc_wii_switch_gb_gbc_gba_nds_3ds/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/GameSale/comments/1rq4uyy/usahnes_snes_n64_gc_wii_switch_gb_gbc_gba_nds_3ds/</guid>
-      <pubDate>Tue, 10 Mar 2026 18:22:25 +0000</pubDate>
+      <title>The real skill gap isn&#x27;t coding anymore, its knowing when the AI is wrong</title>
+      <link>https://www.reddit.com/r/singularity/comments/1rpwzlt/the_real_skill_gap_isnt_coding_anymore_its/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rpwzlt/the_real_skill_gap_isnt_coding_anymore_its/</guid>
+      <pubDate>Tue, 10 Mar 2026 13:30:51 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>* Prices include shipping for continental US. * Prices are negotiable. Don&#x27;t be shy about making offers! * More than happy to offer bundle discounts! * Pics and more details available upon request! * Payment accepted vi... Why it matters: Direct: This matters for why this is creative and interesting, based on this update from r/GameSale.</description>
+      <description>something i&#x27;ve been noticing that nobody really talks about. we all debate whether AI will replace devs but the actual problem is happening right now and its more subtle i work with a mixed team, seniors and juniors. Why it matters: Direct: This matters for why this is creative and interesting, based on this update from r/singularity.</description>
     </item>
     <item>
-      <title>FINALLY, my 2011 idea for Enchantments trades is DONE! NO MORE Hours of breaking Lecterns or endless Structure looting!</title>
-      <link>https://www.reddit.com/r/Minecraft/comments/1rq4b8a/finally_my_2011_idea_for_enchantments_trades_is/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/Minecraft/comments/1rq4b8a/finally_my_2011_idea_for_enchantments_trades_is/</guid>
-      <pubDate>Tue, 10 Mar 2026 18:03:07 +0000</pubDate>
+      <title>I built an extension to help you reply fast and automatically.</title>
+      <link>https://www.reddit.com/r/chrome_extensions/comments/1rq0mw1/i_built_an_extension_to_help_you_reply_fast_and/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/chrome_extensions/comments/1rq0mw1/i_built_an_extension_to_help_you_reply_fast_and/</guid>
+      <pubDate>Tue, 10 Mar 2026 15:52:19 +0000</pubDate>
       <category>5) For Fun</category>
-      <description># THIS DATAPACK ONLY WORKS IN 26.1+ Due to the upcoming &#x27;Data Driven Villager Trades&#x27;. **WHAT THIS DATAPACK DOES:** * Master level Librarians can be taught max level Enchantments. Why it matters: Direct: This matters for why this is creative and interesting, based on this update from r/Minecraft.</description>
+      <description>Engaging online shouldn’t feel like work. But it often does. You see a tweet you want to reply to, click Reply, and then… stare at an empty box. Why it matters: Direct: This matters for why this is creative and interesting, based on this update from Reddit AI Prompt Search.</description>
     </item>
     <item>
-      <title>Don&#x27;t Let LLMs Write For You</title>
-      <link>https://www.lesswrong.com/posts/FCE6MeDzLEYKFPZX6/don-t-let-llms-write-for-you</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/FCE6MeDzLEYKFPZX6/don-t-let-llms-write-for-you</guid>
-      <pubDate>Tue, 10 Mar 2026 18:49:47 +0000</pubDate>
+      <title>Short films made from brain activity of mice aim to show how they see world</title>
+      <link>https://www.theguardian.com/science/2026/mar/10/short-films-brain-activity-mice-how-they-see-world</link>
+      <guid isPermaLink="true">https://www.theguardian.com/science/2026/mar/10/short-films-brain-activity-mice-how-they-see-world</guid>
+      <pubDate>Tue, 10 Mar 2026 05:00:08 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Content note: nothing in this piece is a prank or jumpscare where I smirkingly reveal you&#x27;ve been reading AI prose all along. It’s easy to forget this in roarin’ 2026, but homo sapiens are the original vibers. Why it matters: Direct: This matters for why this is creative and interesting, based on this update from LessWrong.</description>
+      <description>Scientists hope results analysed after the mice watched video footage will help them understand their perceptions Scientists have reconstructed short movies from the brain activity of mice that watched videos for a proj... Why it matters: Direct: This matters for why this is creative and interesting, based on this update from The Guardian AI.</description>
     </item>
     <item>
-      <title>Spontaneous Symmetry Breaking (Stat Mech Part 4)</title>
-      <link>https://www.lesswrong.com/posts/oBph3iiKiKFDfvMt2/spontaneous-symmetry-breaking-stat-mech-part-4</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/oBph3iiKiKFDfvMt2/spontaneous-symmetry-breaking-stat-mech-part-4</guid>
-      <pubDate>Tue, 10 Mar 2026 13:21:18 +0000</pubDate>
+      <title>Apple smart home display rumors now point to a fall launch with iOS 27</title>
+      <link>https://www.theverge.com/ai-artificial-intelligence/891723/apple-homepad-delay-rumor</link>
+      <guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/891723/apple-homepad-delay-rumor</guid>
+      <pubDate>Mon, 09 Mar 2026 22:26:50 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Statistical mechanics is the process of controlled forgetting. Our main task is to figure out how to forget something about one system, to learn something about another system. Why it matters: Direct: This matters for why this is creative and interesting, based on this update from LessWrong.</description>
+      <description>The rumored &quot;HomePod with a screen&quot; we&#x27;ve heard so much about was reportedly lined up for launch in 2025, and then this spring, and now, according to the latest updates, it&#x27;s on the shelf until this fall. Why it matters: Direct: This matters for why this is creative and interesting, based on this update from The Verge AI.</description>
     </item>
   </channel>
 </rss>
