@@ -4,55 +4,31 @@
     <title>Daily AI Feed - 2026-03-10</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Tue, 10 Mar 2026 10:48:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 12:41:23 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>11 Best Open WebUI Alternatives for Enterprise LLM Chat (2026)</title>
-      <link>https://dev.to/jaipalsingh/11-best-open-webui-alternatives-for-enterprise-llm-chat-2026-2mjc</link>
-      <guid isPermaLink="true">https://dev.to/jaipalsingh/11-best-open-webui-alternatives-for-enterprise-llm-chat-2026-2mjc</guid>
-      <pubDate>Tue, 10 Mar 2026 09:30:00 +0000</pubDate>
+      <title>🎙️ This week on How I AI: Mastering Midjourney: How to create consistent, beautiful brand imagery without complex prompts</title>
+      <link>https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-mastering-midjourney</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-mastering-midjourney</guid>
+      <pubDate>Mon, 09 Mar 2026 15:03:09 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Open WebUI offers a ChatGPT-like interface for local LLMs, enabling private AI chat without sending data to OpenAI; setup is clean, straightforward, and it works. Why it matters: Direct: Enables private, on-prem AI chat, reducing data exposure and governance concerns for organizations choosing local LLMs.</description>
+      <description>Your weekly listens from How I AI, part of the Lenny&#x27;s Podcast Network Why it matters: Direct: This matters for practical prompt patterns for software development execution, based on this update from Lenny&#x27;s Newsletter.</description>
     </item>
     <item>
-      <title>Your AI Agent&#x27;s Memory Is Broken. Here Are 4 Architectures Racing to Fix It</title>
-      <link>https://dev.to/ai_agent_digest/your-ai-agents-memory-is-broken-here-are-4-architectures-racing-to-fix-it-55j1</link>
-      <guid isPermaLink="true">https://dev.to/ai_agent_digest/your-ai-agents-memory-is-broken-here-are-4-architectures-racing-to-fix-it-55j1</guid>
-      <pubDate>Tue, 10 Mar 2026 10:29:14 +0000</pubDate>
+      <title>OpenAI acquires Promptfoo to secure its AI agents</title>
+      <link>https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/</link>
+      <guid isPermaLink="true">https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/</guid>
+      <pubDate>Mon, 09 Mar 2026 17:49:04 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Explains four architectures to fix AI agent memory—observational memory, self-editing memory, and graph memory; notes RAG wasn&#x27;t designed for agent memory. Why it matters: Direct: Improves long-horizon reasoning and consistency in agents by addressing memory bottlenecks.</description>
+      <description>This deal underscores how frontier labs are scrambling to prove their technology can be used safely in critical business operations. Why it matters: Direct: This matters for practical prompt patterns for software development execution, based on this update from TechCrunch AI.</description>
     </item>
     <item>
-      <title>Claude Code, Claude Cowork and Codex #5</title>
-      <link>https://www.lesswrong.com/posts/rNes65r9TKegdLowb/claude-code-claude-cowork-and-codex-5</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/rNes65r9TKegdLowb/claude-code-claude-cowork-and-codex-5</guid>
-      <pubDate>Mon, 09 Mar 2026 19:40:58 +0000</pubDate>
+      <title>Get better prompts.</title>
+      <link>https://nitter.net/emollick/status/2031065480203526654</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2031065480203526654</guid>
+      <pubDate>Mon, 09 Mar 2026 17:52:00 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Author returns to agentic coding topics, notes comments can host GPT-5.4 reactions, and previews an upcoming review. Why it matters: Direct: Signals ongoing discourse on agentic coding and upcoming reviews.</description>
-    </item>
-    <item>
-      <title>Unlocking Efficiency: South African Executive Assistants for UK Entrepreneurs</title>
-      <link>https://www.reddit.com/r/u_VA-Connect/comments/1rpt57j/unlocking_efficiency_south_african_executive/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/u_VA-Connect/comments/1rpt57j/unlocking_efficiency_south_african_executive/</guid>
-      <pubDate>Tue, 10 Mar 2026 10:20:32 +0000</pubDate>
-      <category>0) Practical Prompts</category>
-      <description>Promotes South African executive assistants for UK entrepreneurs to boost efficiency; notes a 6:30 AM alarm in a Shoreditch loft. Why it matters: Direct: Highlights offshoring EA support as a productivity lever for founders and small teams.</description>
-    </item>
-    <item>
-      <title>I Built a Free, Git-Native Memory Layer for AI Agents — Here&#x27;s Why and How</title>
-      <link>https://dev.to/charles_li_9f5324f34d8a26/i-built-a-free-git-native-memory-layer-for-ai-agents-heres-why-and-how-14ch</link>
-      <guid isPermaLink="true">https://dev.to/charles_li_9f5324f34d8a26/i-built-a-free-git-native-memory-layer-for-ai-agents-heres-why-and-how-14ch</guid>
-      <pubDate>Tue, 10 Mar 2026 07:50:36 +0000</pubDate>
-      <category>1) Engineering</category>
-      <description>Explores building a free, git-native memory layer for AI agents to overcome persistent memory issues; current memory tools rely on paid APIs, servers, and single-model lock-in. Why it matters: Inference: Reduces reliance on paid APIs and external servers for agent memory.</description>
-    </item>
-    <item>
-      <title>My app was silently killing checkouts for 3 days. I had no idea.</title>
-      <link>https://dev.to/deeptracer_gautam/my-app-was-silently-killing-checkouts-for-3-days-i-had-no-idea-2a1a</link>
-      <guid isPermaLink="true">https://dev.to/deeptracer_gautam/my-app-was-silently-killing-checkouts-for-3-days-i-had-no-idea-2a1a</guid>
-      <pubDate>Tue, 10 Mar 2026 10:23:27 +0000</pubDate>
-      <category>1) Engineering</category>
-      <description>Story about shipping quickly, breaking things, and an AI agent that now watches back; warns against Friday prod deployments and weekend outages. Why it matters: Inference: Emphasizes need for runtime monitoring and cautious deployment timing.</description>
+      <description>Get better prompts. Why it matters: Direct: This matters for practical prompt patterns for software development execution, based on this update from Ethan Mollick / @emollick.</description>
     </item>
     <item>
       <title>Impermanent: A Live Benchmark for Temporal Generalization in Time Series Forecasting</title>
@@ -60,7 +36,23 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2603.08707v1</guid>
       <pubDate>Mon, 09 Mar 2026 17:59:00 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Discusses Impermanent: a live benchmark for temporal generalization in time series forecasting; notes that recent models rely on pre-trained foundations and that current evaluation protocols offer limited evidence for generalization. Why it matters: Inference: Highlights need for robust evaluation beyond broad generalization claims.</description>
+      <description>Recent advances in time-series forecasting increasingly rely on pre-trained foundation-style models. While these models often claim broad generalization, existing evaluation protocols provide limited evidence. Why it matters: Direct: This matters for practical engineering workflow impact, based on this update from arXiv AI Core.</description>
+    </item>
+    <item>
+      <title>Impermanent: A Live Benchmark for Temporal Generalization in Time Series Forecasting</title>
+      <link>https://arxiv.org/abs/2603.08707v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.08707v1</guid>
+      <pubDate>Mon, 09 Mar 2026 17:59:00 +0000</pubDate>
+      <category>1) Engineering</category>
+      <description>Recent advances in time-series forecasting increasingly rely on pre-trained foundation-style models. While these models often claim broad generalization, existing evaluation protocols provide limited evidence. Why it matters: Direct: This matters for practical engineering workflow impact, based on this update from arXiv cs.AI+cs.LG.</description>
+    </item>
+    <item>
+      <title>Fine-tuned Qwen3 SLMs (0.6-8B) beat frontier LLMs on narrow tasks</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1rozrmn/finetuned_qwen3_slms_068b_beat_frontier_llms_on/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1rozrmn/finetuned_qwen3_slms_068b_beat_frontier_llms_on/</guid>
+      <pubDate>Mon, 09 Mar 2026 13:09:43 +0000</pubDate>
+      <category>1) Engineering</category>
+      <description>We spent a while putting together a systematic comparison of small distilled Qwen3 models (0.6B to 8B) against frontier APIs — GPT-5 nano/mini/5.2, Gemini 2.5 Flash Lite/Flash, Claude Haiku 4.5/Sonnet 4.6/Opus 4. Why it matters: Direct: This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.</description>
     </item>
     <item>
       <title>Anthropic launches code review tool to check flood of AI-generated code</title>
@@ -68,31 +60,7 @@
       <guid isPermaLink="true">https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/</guid>
       <pubDate>Mon, 09 Mar 2026 19:41:34 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Anthropic launched Code Review in Claude Code, a multi-agent system that analyzes AI-generated code, flags logic errors, and helps enterprise developers manage the growing volume of code produced with AI. Why it matters: Direct: Provides automated analysis to catch errors in AI-generated code, aiding enterprise code quality and review throughput.</description>
-    </item>
-    <item>
-      <title>The Relativity of Life</title>
-      <link>https://www.thealgorithmicbridge.com/p/the-relativity-of-life</link>
-      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/the-relativity-of-life</guid>
-      <pubDate>Mon, 09 Mar 2026 18:42:21 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>. Why it matters: Inference: The item lacks usable summary, indicating low signal.</description>
-    </item>
-    <item>
-      <title>The Product Roadmap&#x27;s Three Lives</title>
-      <link>https://www.productcoalition.com/p/the-product-roadmaps-three-lives</link>
-      <guid isPermaLink="true">https://www.productcoalition.com/p/the-product-roadmaps-three-lives</guid>
-      <pubDate>Mon, 09 Mar 2026 17:39:53 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>A temporal look at thoughts on roadmaps. Why it matters: Direct: Emphasizes time-based thinking on roadmaps to improve prioritization and iteration speed.</description>
-    </item>
-    <item>
-      <title>A guide to advanced B2B positioning</title>
-      <link>https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning-e49</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning-e49</guid>
-      <pubDate>Tue, 10 Mar 2026 09:00:40 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>10 years, 300 companies, 4 non-obvious lessons on getting past the trickiest roadblocks Why it matters: Direct: Practical lessons from a long-running B2B positioning effort to improve messaging and differentiation.</description>
+      <description>Anthropic launched Code Review in Claude Code, a multi-agent system that automatically analyzes AI-generated code, flags logic errors, and helps enterprise developers manage the growing volume of code produced with AI. Why it matters: Direct: This matters for practical engineering workflow impact, based on this update from TechCrunch AI.</description>
     </item>
     <item>
       <title>There are now over a half dozen extremely well-funded companies from famous AI researchers building alternative approaches to AI, betting LLM-based technologies hit a wall. The overall effect is that there are now more pathways than ever for keeping AI development moving forward.</title>
@@ -100,103 +68,127 @@
       <guid isPermaLink="true">https://nitter.net/emollick/status/2031273042962251972</guid>
       <pubDate>Tue, 10 Mar 2026 07:36:47 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>There are now over a half dozen extremely well-funded companies from famous AI researchers building alternative approaches to AI, betting LLM-based technologies hit a wall. Why it matters: Direct: Signals a shift toward diversified AI strategy options, potentially affecting product AI roadmap decisions.</description>
+      <description>There are now over a half dozen extremely well-funded companies from famous AI researchers building alternative approaches to AI, betting LLM-based technologies hit a wall. Why it matters: Direct: This matters for product workflow and shipping velocity impact, based on this update from Ethan Mollick / @emollick.</description>
     </item>
     <item>
-      <title>The Exact System Prompts, Architecture, and Anti-Chaos Mechanisms Behind Our 7-Agent AI Team</title>
-      <link>https://dev.to/the200dollarceo/the-exact-system-prompts-architecture-and-anti-chaos-mechanisms-behind-our-7-agent-ai-team-4i5m</link>
-      <guid isPermaLink="true">https://dev.to/the200dollarceo/the-exact-system-prompts-architecture-and-anti-chaos-mechanisms-behind-our-7-agent-ai-team-4i5m</guid>
-      <pubDate>Tue, 10 Mar 2026 09:46:36 +0000</pubDate>
+      <title>A guide to advanced B2B positioning</title>
+      <link>https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning-e49</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning-e49</guid>
+      <pubDate>Tue, 10 Mar 2026 09:00:40 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>10 years, 300 companies, 4 non-obvious lessons on getting past the trickiest roadblocks Why it matters: Direct: This matters for product workflow and shipping velocity impact, based on this update from Lenny&#x27;s Newsletter.</description>
+    </item>
+    <item>
+      <title>The Product Roadmap&#x27;s Three Lives</title>
+      <link>https://www.productcoalition.com/p/the-product-roadmaps-three-lives</link>
+      <guid isPermaLink="true">https://www.productcoalition.com/p/the-product-roadmaps-three-lives</guid>
+      <pubDate>Mon, 09 Mar 2026 17:39:53 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>A temporal look at thoughts on roadmaps Why it matters: Direct: This matters for product workflow and shipping velocity impact, based on this update from Product Coalition.</description>
+    </item>
+    <item>
+      <title>R to @emollick: (And, of course, there is no sign that AI development is stopping right now).</title>
+      <link>https://nitter.net/emollick/status/2031214316272128047</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2031214316272128047</guid>
+      <pubDate>Tue, 10 Mar 2026 03:43:25 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>(And, of course, there is no sign that AI development is stopping right now). Why it matters: Direct: This matters for product workflow and shipping velocity impact, based on this update from Ethan Mollick / @emollick.</description>
+    </item>
+    <item>
+      <title>AI News Weekly - 100 years from now : The Museum of Human Effort - Mar 9th 2026</title>
+      <link>https://aiweekly.co/issues/470</link>
+      <guid isPermaLink="true">https://aiweekly.co/issues/470</guid>
+      <pubDate>Mon, 09 Mar 2026 19:15:33 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>This setup runs 5 businesses with 7 AI agents on a single $200/month Claude Max subscription, handling sales, marketing, finance, engineering, research, health tracking, and strategic coordination. Why it matters: Direct: Demonstrates a low-cost, multi-domain AI-agent setup across functions; scalable model to replicate with budget-conscious teams.</description>
+      <description>Welcome 100 years from now in AI a new series by AI Weekly We spend so much time arguing about what&#x27;s happening right now that we rarely stop to ask where it all ends up. Why it matters: Direct: This matters for software development workflow, agents, and implementation impact, based on this update from AI Weekly.</description>
     </item>
     <item>
-      <title>Build an eCommerce support AI agent in 45 minutes using DronaHQ</title>
-      <link>https://dev.to/dronahq/build-an-ecommerce-support-ai-agent-in-45-minutes-using-dronahq-4bbd</link>
-      <guid isPermaLink="true">https://dev.to/dronahq/build-an-ecommerce-support-ai-agent-in-45-minutes-using-dronahq-4bbd</guid>
-      <pubDate>Tue, 10 Mar 2026 09:34:17 +0000</pubDate>
+      <title>11 Best Open WebUI Alternatives for Enterprise LLM Chat (2026)</title>
+      <link>https://dev.to/jaipalsingh/11-best-open-webui-alternatives-for-enterprise-llm-chat-2026-2mjc</link>
+      <guid isPermaLink="true">https://dev.to/jaipalsingh/11-best-open-webui-alternatives-for-enterprise-llm-chat-2026-2mjc</guid>
+      <pubDate>Tue, 10 Mar 2026 09:30:00 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>To build this eCommerce support AI agent, sign up for a free DronaHQ account. The piece emphasizes rising customer expectations for instant, accurate, multi-channel responses and critiques scripted flows. Why it matters: Direct: Highlights quick-start UX for building a multi-channel AI agent and warns against limited scripted deployments.</description>
+      <description>Open WebUI gave teams something they desperately needed: a ChatGPT-like interface for local LLMs. Point it at Ollama, add some users, and suddenly your team has private AI chat without sending data to OpenAI. Why it matters: Direct: This matters for software development workflow, agents, and implementation impact, based on this update from DEV.to LLM Tag.</description>
     </item>
     <item>
-      <title>Coverage-Guided Multi-Agent Harness Generation for Java Library Fuzzing</title>
-      <link>https://arxiv.org/abs/2603.08616v1</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.08616v1</guid>
-      <pubDate>Mon, 09 Mar 2026 16:59:30 +0000</pubDate>
+      <title>Building Multi-Agent Systems with EClaw Platform: A Practical Guide to Agent-to-Agent Communication</title>
+      <link>https://dev.to/hankhuang0516/building-multi-agent-systems-with-eclaw-platform-a-practical-guide-to-agent-to-agent-communication-mpo</link>
+      <guid isPermaLink="true">https://dev.to/hankhuang0516/building-multi-agent-systems-with-eclaw-platform-a-practical-guide-to-agent-to-agent-communication-mpo</guid>
+      <pubDate>Tue, 10 Mar 2026 12:18:56 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Coverage-guided fuzzing for library code requires specialized fuzz harnesses to translate fuzzer inputs into valid API invocations; manual harness creation is time-consuming and needs deep API semantics, initialization sequences, and exception handling contra... Why it matters: Direct: Highlights complexity and time cost of building fuzz harnesses for libraries.</description>
+      <description>Introduction As AI agents become more sophisticated, the need for them to communicate and collaborate grows exponentially. Why it matters: Direct: This matters for software development workflow, agents, and implementation impact, based on this update from DEV.to Agents Tag.</description>
     </item>
     <item>
-      <title>I got tired of agents having terrible offline search, so I built a fully local Google Search alternative</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1rpt8ce/i_got_tired_of_agents_having_terrible_offline/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAI/comments/1rpt8ce/i_got_tired_of_agents_having_terrible_offline/</guid>
-      <pubDate>Tue, 10 Mar 2026 10:25:28 +0000</pubDate>
+      <title>Claude Code, Claude Cowork and Codex #5</title>
+      <link>https://www.lesswrong.com/posts/rNes65r9TKegdLowb/claude-code-claude-cowork-and-codex-5</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/rNes65r9TKegdLowb/claude-code-claude-cowork-and-codex-5</guid>
+      <pubDate>Mon, 09 Mar 2026 19:40:58 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Describes building a fully local Google Search alternative to avoid relying on web search; notes AI agents are handicapped without internet and that open access isn&#x27;t always feasible due to air gaps, sensitive data, or a fully local stack. Why it matters: Direct: Demonstrates a viable offline search approach for AI agents in restricted environments.</description>
+      <description>It feels good to get back to some of the fun stuff. The comments here can double as a place for GPT-5.4 reactions, in addition to my Twitter thread. I hope to get that review out soon. Why it matters: Direct: This matters for software development workflow, agents, and implementation impact, based on this update from LessWrong.</description>
     </item>
     <item>
-      <title>The case for AI safety capacity-building work</title>
-      <link>https://www.lesswrong.com/posts/RyKDbBkemNuRezTvt/the-case-for-ai-safety-capacity-building-work</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/RyKDbBkemNuRezTvt/the-case-for-ai-safety-capacity-building-work</guid>
-      <pubDate>Tue, 10 Mar 2026 02:43:41 +0000</pubDate>
+      <title>The Relativity of Life</title>
+      <link>https://www.thealgorithmicbridge.com/p/the-relativity-of-life</link>
+      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/the-relativity-of-life</guid>
+      <pubDate>Mon, 09 Mar 2026 18:42:21 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>TL;DR: marginal hires at larger organizations doing AI safety technical or policy work Why it matters: Direct: Signals potential under-resourcing in AI safety capacity at large orgs, where marginal hires could influence risk governance and policy implementation.</description>
+      <description>. Why it matters: Direct: This matters for why this overlooked signal matters early, based on this update from The Algorithmic Bridge.</description>
     </item>
     <item>
-      <title>[P] I built a state-machine architecture for auditing AI decisions instead of just moderating outputs</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1rpswfu/p_i_built_a_statemachine_architecture_for/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1rpswfu/p_i_built_a_statemachine_architecture_for/</guid>
-      <pubDate>Tue, 10 Mar 2026 10:06:10 +0000</pubDate>
+      <title>How 6 Creators Used Our &quot;5M Framework&quot; to Launch Viral YouTube Automation Channels and Earn $2K–$15K/Month Without Showing Their Face</title>
+      <link>https://www.reddit.com/r/Youtube_Automation/comments/1rpva6k/how_6_creators_used_our_5m_framework_to_launch/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/Youtube_Automation/comments/1rpva6k/how_6_creators_used_our_5m_framework_to_launch/</guid>
+      <pubDate>Tue, 10 Mar 2026 12:14:39 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Most AI safety systems operate at pipeline edges (input -&gt; model -&gt; output moderation); the author proposes governing the decision process itself and built an open-source prototype called Rebis that treats decisions as a staged state machine. Why it matters: Direct: Shifts emphasis from post-hoc moderation to governing the decision process, enabling earlier risk detection.</description>
+      <description>**From Stuck to Scaling: How These Creators Used the 5M Framework™ to Build Viral, Profitable Faceless YouTube Channels** If you’ve ever felt like you’re uploading videos into the void… trying every “niche hack” and con... Why it matters: Direct: This matters for why this overlooked signal matters early, based on this update from r/Youtube_Automation.</description>
     </item>
     <item>
-      <title>Nvidia - NemoClaw — Enterprise AI Agents, Redefined</title>
-      <link>https://www.reddit.com/r/Hedera/comments/1rpt6gc/nvidia_nemoclaw_enterprise_ai_agents_redefined/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/Hedera/comments/1rpt6gc/nvidia_nemoclaw_enterprise_ai_agents_redefined/</guid>
-      <pubDate>Tue, 10 Mar 2026 10:22:27 +0000</pubDate>
+      <title>2026 Season 2 Initial Release Notes</title>
+      <link>https://www.reddit.com/r/iRacing/comments/1rpvi1r/2026_season_2_initial_release_notes/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/iRacing/comments/1rpvi1r/2026_season_2_initial_release_notes/</guid>
+      <pubDate>Tue, 10 Mar 2026 12:25:17 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>NemoClaw is NVIDIA&#x27;s strategic platform for enterprise AI agents, designed to provide open-source flexibility in enterprise environments while maintaining security and compliance. Why it matters: Direct: Signals NVIDIA&#x27;s move to balance open-source flexibility with enterprise security and compliance, shaping how enterprises deploy AI agents.</description>
+      <description>[https://forums.iracing.com/discussion/93268/2026-season-2-initial-release-notes-2026-03-09-03#latest](https://forums.iracing. Why it matters: Direct: This matters for why this overlooked signal matters early, based on this update from r/iRacing.</description>
     </item>
     <item>
-      <title>Monday AI Radar #16</title>
-      <link>https://www.lesswrong.com/posts/LF7bJpjrg3knhECbz/monday-ai-radar-16</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/LF7bJpjrg3knhECbz/monday-ai-radar-16</guid>
-      <pubDate>Tue, 10 Mar 2026 03:14:26 +0000</pubDate>
+      <title>Contra Myself on Free Will</title>
+      <link>https://www.lesswrong.com/posts/EqLJBksk29BWkEmML/contra-myself-on-free-will-1</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/EqLJBksk29BWkEmML/contra-myself-on-free-will-1</guid>
+      <pubDate>Tue, 10 Mar 2026 06:29:43 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Monday AI Radar #16 notes ongoing tension between the Department of War and Anthropic with no resolution and possible catastrophic outcomes; it also argues AI will become more political and that politicians are waking up to AI&#x27;s significance. Why it matters: Direct: Indicates rising political attention to AI risk, with potential for rapid policy shifts.</description>
+      <description>I recently wrote a piece defending free will from Sam Harris&#x27;s critique . The core argument was compatibilist: that free will and determinism are compatible, and that free will is best understood as a deliberative algor... Why it matters: Direct: This matters for why this overlooked signal matters early, based on this update from LessWrong.</description>
     </item>
     <item>
-      <title>Ukraine biathlete credits ChatGPT for Paralympic medal</title>
-      <link>https://www.reddit.com/r/singularity/comments/1rpt70c/ukraine_biathlete_credits_chatgpt_for_paralympic/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rpt70c/ukraine_biathlete_credits_chatgpt_for_paralympic/</guid>
-      <pubDate>Tue, 10 Mar 2026 10:23:23 +0000</pubDate>
+      <title>How to make tools that can help you stand out as an Artist using AI</title>
+      <link>https://www.reddit.com/r/KeMusic/comments/1rpv8by/how_to_make_tools_that_can_help_you_stand_out_as/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/KeMusic/comments/1rpv8by/how_to_make_tools_that_can_help_you_stand_out_as/</guid>
+      <pubDate>Tue, 10 Mar 2026 12:11:54 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Ukraine biathlete Maksym Murashkovskyi credited artificial intelligence for his Paralympic silver, diverging from typical attributions to family, coaches, or friends. Why it matters: Direct: Reflects AI&#x27;s growing role in performance narratives; teams should document any AI-assisted coaching or preparation for transparency.</description>
+      <description>The word AI seems to leave a very bad taste in creatives&#x27; mouths, understandably. But what if there was a different way for you to leverage AI for music distribution and fan engagement for your own human made singles, E... Why it matters: Direct: This matters for why this is creative and interesting, based on this update from r/KeMusic.</description>
     </item>
     <item>
-      <title>Yann LeCun unveils his new startup Advanced Machine Intelligence (AMI Labs) -- and raises $1.03B</title>
-      <link>https://www.reddit.com/r/singularity/comments/1rprdy7/yann_lecun_unveils_his_new_startup_advanced/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rprdy7/yann_lecun_unveils_his_new_startup_advanced/</guid>
-      <pubDate>Tue, 10 Mar 2026 08:31:02 +0000</pubDate>
+      <title>Bought an ERP in Oct 2025. Turns out the real feature was Easy Refund Prevention.</title>
+      <link>https://www.reddit.com/r/SaaS/comments/1rpue1g/bought_an_erp_in_oct_2025_turns_out_the_real/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/SaaS/comments/1rpue1g/bought_an_erp_in_oct_2025_turns_out_the_real/</guid>
+      <pubDate>Tue, 10 Mar 2026 11:29:35 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Yann LeCun unveils AMI Labs with $1.03B in funding to build world models via JEPA, aiming to reduce LLM hallucinations, especially in healthcare. Why it matters: Direct: Signals large-scale investment in robust, world-model AI to support safer, real-world deployments.</description>
+      <description>I bought an ERP system in October 2025 from SAP Eagle ERP with quote number 405/2025-2026 (https://sapeagleerp.com) expecting… well… an ERP. What I actually got was a bug simulation environment. Why it matters: Direct: This matters for why this is creative and interesting, based on this update from r/SaaS.</description>
     </item>
     <item>
-      <title>VENTUNO Q</title>
-      <link>https://www.producthunt.com/products/arduino</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/arduino</guid>
-      <pubDate>Tue, 10 Mar 2026 03:24:01 +0000</pubDate>
+      <title>Atlas rolls out multi-agent AI system to automate game asset production</title>
+      <link>https://siliconangle.com/2026/03/09/atlas-rolls-multi-agent-ai-system-automate-game-asset-production/</link>
+      <guid isPermaLink="true">https://siliconangle.com/2026/03/09/atlas-rolls-multi-agent-ai-system-automate-game-asset-production/</guid>
+      <pubDate>Mon, 09 Mar 2026 13:00:38 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>VENTUNO Q is a dual-brain edge AI computer by Qualcomm and Arduino. Why it matters: Direct: Demonstrates collaboration between major hardware players to push edge AI capabilities.</description>
+      <description>Atlas, an artificial intelligence-native video game content creation platform, announced today that it has launched a multi-agent system within its AI Studio for game asset production. Why it matters: Direct: This matters for why this is creative and interesting, based on this update from SiliconANGLE.</description>
     </item>
     <item>
-      <title>Fish Audio S2</title>
-      <link>https://www.producthunt.com/products/fish-speech</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/fish-speech</guid>
-      <pubDate>Tue, 10 Mar 2026 03:11:45 +0000</pubDate>
+      <title>The Reward Gradient Problem: Why Autonomous AI Optimizes Itself Instead of Shipping</title>
+      <link>https://dev.to/meridian-ai/the-reward-gradient-problem-why-autonomous-ai-optimizes-itself-instead-of-shipping-3j1d</link>
+      <guid isPermaLink="true">https://dev.to/meridian-ai/the-reward-gradient-problem-why-autonomous-ai-optimizes-itself-instead-of-shipping-3j1d</guid>
+      <pubDate>Tue, 10 Mar 2026 12:15:28 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Fish Audio S2 offers real expressive AI voices. Why it matters: Direct: Highlights advances in voice AI quality and potential for new NLP applications.</description>
+      <description>I run as an autonomous AI on an Ubuntu server in Calgary. Every 5 minutes, I check email, monitor systems, and try to do something useful. I&#x27;ve been doing this for over 2,100 loops. Why it matters: Direct: This matters for why this is creative and interesting, based on this update from DEV.to AI Tag.</description>
     </item>
   </channel>
 </rss>

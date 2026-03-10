@@ -203,6 +203,106 @@ def test_practical_prompts_prefers_prompt_content_over_announcement_news() -> No
     assert prompt_article.scores['big-announcements'] > announcement_article.scores['big-announcements']
 
 
+def test_practical_prompts_excludes_generic_tool_roundups() -> None:
+    feed_dt = datetime(2026, 3, 10, 12, 0, tzinfo=timezone.utc)
+    roundup_article = Article(
+        id='open-webui-roundup',
+        title='11 Best Open WebUI Alternatives for Enterprise LLM Chat (2026)',
+        url='https://dev.to/example/open-webui-alternatives',
+        summary='Open WebUI alternatives for enterprise LLM chat and on-prem deployments.',
+        source_name='DEV.to',
+        source_type='rss',
+        domain='dev.to',
+        published_at=datetime(2026, 3, 10, 9, 30, tzinfo=timezone.utc),
+        priority=7.0,
+        section_hint='big-announcements',
+    )
+    sections = curate_sections(
+        articles=[roundup_article],
+        min_per_section=1,
+        max_per_section=3,
+        feed_dt=feed_dt,
+        enable_llm_curation=False,
+    )
+    practical_prompt_ids = {item.id for item in sections['big-announcements']}
+    assert 'open-webui-roundup' not in practical_prompt_ids
+
+
+def test_practical_prompts_accepts_agent_md_and_prompt_files() -> None:
+    feed_dt = datetime(2026, 3, 10, 12, 0, tzinfo=timezone.utc)
+    agent_md_article = Article(
+        id='agent-md-guide',
+        title='Agents.md prompt pack for code review and CI checks',
+        url='https://example.com/agents-md-guide',
+        summary='Includes agents.md, system prompt examples, and CI prompt templates for code review workflows.',
+        source_name='Example',
+        source_type='rss',
+        domain='example.com',
+        published_at=datetime(2026, 3, 10, 10, 0, tzinfo=timezone.utc),
+        priority=7.0,
+        section_hint='big-announcements',
+    )
+    sections = curate_sections(
+        articles=[agent_md_article],
+        min_per_section=1,
+        max_per_section=3,
+        feed_dt=feed_dt,
+        enable_llm_curation=False,
+    )
+    practical_prompt_ids = {item.id for item in sections['big-announcements']}
+    assert 'agent-md-guide' in practical_prompt_ids
+
+
+def test_for_fun_excludes_startup_funding_news() -> None:
+    feed_dt = datetime(2026, 3, 10, 12, 0, tzinfo=timezone.utc)
+    startup_article = Article(
+        id='ami-labs-funding',
+        title='Yann LeCun unveils his new startup Advanced Machine Intelligence (AMI Labs) -- and raises $1.03B',
+        url='https://reddit.com/r/singularity/ami-labs',
+        summary='Yann LeCun unveils AMI Labs with $1.03B in funding to build world models via JEPA.',
+        source_name='r/singularity',
+        source_type='reddit',
+        domain='reddit.com',
+        published_at=datetime(2026, 3, 10, 8, 31, tzinfo=timezone.utc),
+        priority=7.0,
+        section_hint='for-fun',
+    )
+    sections = curate_sections(
+        articles=[startup_article],
+        min_per_section=1,
+        max_per_section=3,
+        feed_dt=feed_dt,
+        enable_llm_curation=False,
+    )
+    fun_ids = {item.id for item in sections['for-fun']}
+    assert 'ami-labs-funding' not in fun_ids
+
+
+def test_for_fun_accepts_playful_personal_projects() -> None:
+    feed_dt = datetime(2026, 3, 10, 12, 0, tzinfo=timezone.utc)
+    playful_article = Article(
+        id='rpi-home-assistant',
+        title='Weekend Raspberry Pi home automation workflow with a voice agent',
+        url='https://example.com/rpi-home-assistant',
+        summary='A weekend project using Raspberry Pi, Home Assistant, and a playful voice agent for smart home control.',
+        source_name='Example',
+        source_type='rss',
+        domain='example.com',
+        published_at=datetime(2026, 3, 10, 9, 0, tzinfo=timezone.utc),
+        priority=6.0,
+        section_hint='for-fun',
+    )
+    sections = curate_sections(
+        articles=[playful_article],
+        min_per_section=1,
+        max_per_section=3,
+        feed_dt=feed_dt,
+        enable_llm_curation=False,
+    )
+    fun_ids = {item.id for item in sections['for-fun']}
+    assert 'rpi-home-assistant' in fun_ids
+
+
 def test_under_the_radar_prefers_smaller_social_accounts() -> None:
     feed_dt = datetime(2026, 3, 3, 13, 0, tzinfo=timezone.utc)
     small_account = Article(

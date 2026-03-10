@@ -33,6 +33,8 @@ Format:
 - https://every.to/chain-of-thought/feed | name=Every: Chain of Thought | section=product-development | tags=product-development,curators
 
 - https://simonwillison.net/atom/everything/ | name=Simon Willison | section=engineering | tags=engineering,under-the-radar
+- https://steipete.me/rss.xml | name=Peter Steinberger | section=engineering | tags=engineering,under-the-radar
+- https://medium.com/feed/@thdxr | platform=medium | name=Dax Raad (thdxr) | section=engineering | tags=engineering,under-the-radar
 - https://swyx.io/feed | name=swyx | section=business | tags=business,engineering,under-the-radar
 - https://blog.langchain.dev/rss/ | name=LangChain Blog | section=engineering | tags=engineering,business
 - https://sourcegraph.com/blog/rss.xml | name=Sourcegraph Blog | section=business | tags=business,engineering

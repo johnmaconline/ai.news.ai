@@ -22,6 +22,8 @@ from .config import (
     BUSINESS_ANNOUNCEMENT_KEYWORDS,
     BUSINESS_PRACTICAL_KEYWORDS,
     BIG_ANNOUNCEMENT_INTENT_KEYWORDS,
+    FOR_FUN_EXCLUDE_KEYWORDS,
+    FOR_FUN_REQUIRED_KEYWORDS,
     HIGH_SIGNAL_MODEL_RELEASE_KEYWORDS,
     HIGH_SIGNAL_RECENCY_HOURS,
     KEYWORDS,
@@ -240,11 +242,23 @@ def _is_software_development_candidate(article: Article, text_blob: str) -> bool
 def _is_practical_prompt_candidate(article: Article, text_blob: str) -> bool:
     required_hits = _keyword_hits(text_blob, PRACTICAL_PROMPT_REQUIRED_KEYWORDS)
     exclude_hits = _keyword_hits(text_blob, PRACTICAL_PROMPT_EXCLUDE_KEYWORDS)
-    if required_hits >= 2:
+    if required_hits >= 2 and exclude_hits == 0:
         return True
     if required_hits >= 1 and exclude_hits == 0:
         return True
     if article.section_hint == 'big-announcements' and required_hits >= 1 and exclude_hits == 0:
+        return True
+    return False
+
+
+def _is_for_fun_candidate(article: Article, text_blob: str) -> bool:
+    required_hits = _keyword_hits(text_blob, FOR_FUN_REQUIRED_KEYWORDS)
+    exclude_hits = _keyword_hits(text_blob, FOR_FUN_EXCLUDE_KEYWORDS)
+    if required_hits >= 2 and exclude_hits == 0:
+        return True
+    if required_hits >= 1 and exclude_hits == 0 and article.section_hint == 'for-fun':
+        return True
+    if article.source_type == 'reddit' and required_hits >= 1 and exclude_hits == 0:
         return True
     return False
 
@@ -652,6 +666,15 @@ def score_articles(articles: list[Article], feed_dt: datetime | None = None) -> 
                 else:
                     section_score -= 0.8
                 section_score += _under_the_radar_boost(article, text_blob)
+            if section.slug == 'for-fun':
+                fun_hits = _keyword_hits(text_blob, FOR_FUN_REQUIRED_KEYWORDS)
+                exclude_hits = _keyword_hits(text_blob, FOR_FUN_EXCLUDE_KEYWORDS)
+                section_score += fun_hits * 1.7
+                section_score -= exclude_hits * 1.8
+                if _is_for_fun_candidate(article, text_blob):
+                    section_score += 5.0
+                else:
+                    section_score -= 7.0
             if section.slug in {'engineering', 'product-development'}:
                 section_score += min(2.0, article.metrics.get('points', 0.0) / 150.0)
             if section.slug == 'business':
@@ -808,6 +831,9 @@ def curate_sections(
 
     for section in SECTIONS:
         candidate_pool = by_section[section.slug]
+        candidate_pool = [
+            article for article in candidate_pool if article.assigned_section == section.slug
+        ]
         if section.slug == 'big-announcements':
             narrowed = [
                 article
@@ -823,6 +849,13 @@ def curate_sections(
             ]
             if workflow_focused:
                 candidate_pool = workflow_focused
+        if section.slug == 'for-fun':
+            playful_items = [
+                article
+                for article in candidate_pool
+                if _is_for_fun_candidate(article, article.canonical_text().lower())
+            ]
+            candidate_pool = playful_items
         picks: list[Article] = []
         if (
             curator_enabled
@@ -871,7 +904,11 @@ def curate_sections(
         if len(sections[section.slug]) >= min_per_section:
             continue
         needed = min_per_section - len(sections[section.slug])
-        fallback_pool = articles
+        fallback_pool = [
+            article for article in articles if article.assigned_section == section.slug
+        ]
+        if not fallback_pool:
+            fallback_pool = articles
         if curator_enabled and curator_total_selected >= curator_total_cap:
             non_curator_fallback = [item for item in fallback_pool if not _is_curator_watchlist_article(item)]
             if non_curator_fallback:
@@ -891,6 +928,13 @@ def curate_sections(
             ]
             if workflow_focused:
                 fallback_pool = workflow_focused
+        if section.slug == 'for-fun':
+            playful_items = [
+                article
+                for article in fallback_pool
+                if _is_for_fun_candidate(article, article.canonical_text().lower())
+            ]
+            fallback_pool = playful_items
         fallbacks = _pick_candidates(
             candidates=fallback_pool,
             score_key=section.slug,
