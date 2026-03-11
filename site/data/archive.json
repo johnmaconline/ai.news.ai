@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-03-11",
+    "title": "Daily AI Feed - 2026-03-11",
+    "lead_story": "Prompt Engineering vs Structured Prompts",
+    "lead_url": "https://dev.to/artanidos/prompt-engineering-vs-prompt-engineering-vs-structured-prompts-5fm3",
+    "generated_at": "2026-03-11T10:43:17+00:00"
+  },
+  {
     "date": "2026-03-10",
     "title": "Daily AI Feed - 2026-03-10",
     "lead_story": "I built a tool that syncs AI coding rules across Claude Code, Cursor, and Codex \u2014 loads only what's relevant per prompt",
