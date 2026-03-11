@@ -1437,6 +1437,50 @@ def _build_social_title(prefix: str, content: str, max_chars: int = 120) -> str:
     return f'{prefix}: {cleaned[: max_chars - 4].rstrip()}...'
 
 
+def _build_x_headline(content: str, max_words: int = 10, max_chars: int = 80) -> str:
+    cleaned = strip_html(content)
+    if not cleaned:
+        return 'X post summary'
+
+    cleaned = re.sub(r'https?://\S+', '', cleaned)
+    cleaned = re.sub(r'(?i)^rt\s+by\s+@\w+:\s*', '', cleaned)
+    cleaned = re.sub(r'(?i)^rt\s+@\w+:?\s*', '', cleaned)
+    cleaned = re.sub(r'\s+', ' ', cleaned).strip(" \t\r\n-–—:;,.")
+
+    for prefix in (
+        "i'm excited to announce ",
+        'im excited to announce ',
+        'excited to announce ',
+        'announcing ',
+        'introducing ',
+        'new: ',
+    ):
+        if cleaned.lower().startswith(prefix):
+            cleaned = cleaned[len(prefix) :].strip(" \t\r\n-–—:;,.")
+            break
+
+    clauses = [
+        segment.strip(" \t\r\n-–—:;,.")
+        for segment in re.split(r'(?<=[.!?])\s+|\s+[—-]\s+|\n+|\bwhy it matters\b', cleaned, flags=re.IGNORECASE)
+        if segment.strip()
+    ]
+    headline = clauses[0] if clauses else cleaned
+
+    comma_head = headline.split(',', 1)[0].strip(" \t\r\n-–—:;,.")
+    if 2 <= len(comma_head.split()) <= max_words:
+        headline = comma_head
+
+    words = headline.split()
+    if len(words) > max_words:
+        headline = ' '.join(words[:max_words]).strip(" \t\r\n-–—:;,.")
+    if len(headline) > max_chars:
+        headline = headline[:max_chars].rsplit(' ', 1)[0].strip(" \t\r\n-–—:;,.")
+
+    if not headline:
+        return 'X post summary'
+    return headline
+
+
 def _extract_text(value) -> str:
     if value is None:
         return ''
@@ -1538,7 +1582,7 @@ def _fetch_x_rss_fallback(source: dict, max_items: int) -> list[Article]:
                 or entry.get('updated')
                 or entry.get('pubDate')
             )
-            article_title = title or _build_social_title(f'@{username}', summary)
+            article_title = _build_x_headline(summary or title)
             article = _make_article(
                 source=source,
                 title=article_title,
@@ -1637,10 +1681,9 @@ def fetch_x_source(source: dict) -> list[Article]:
             'followers': float((author.get('public_metrics') or {}).get('followers_count') or 0),
             'verified': 1.0 if author.get('verified') else 0.0,
         }
-        title_prefix = f'@{username}' if username else 'X post'
         article = _make_article(
             source=source,
-            title=_build_social_title(title_prefix, text),
+            title=_build_x_headline(text),
             url=url,
             summary=text,
             published_at=published_at,
