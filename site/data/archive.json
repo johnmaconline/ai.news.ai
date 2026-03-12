@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-03-12",
+    "title": "Daily AI Feed - 2026-03-12",
+    "lead_story": "heretic-llm for qwen3.5:9b on Linux Mint 22.3",
+    "lead_url": "https://www.reddit.com/r/LocalLLM/comments/1rrhm1j/hereticllm_for_qwen359b_on_linux_mint_223/",
+    "generated_at": "2026-03-12T10:45:07+00:00"
+  },
+  {
     "date": "2026-03-11",
     "title": "Daily AI Feed - 2026-03-11",
     "lead_story": "Crooks compromise WordPress sites to push infostealers via fake CAPTCHA prompts",
