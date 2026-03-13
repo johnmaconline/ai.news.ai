@@ -1,194 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-03-12</title>
+    <title>Daily AI Feed - 2026-03-13</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Thu, 12 Mar 2026 10:45:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 10:39:13 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>heretic-llm for qwen3.5:9b on Linux Mint 22.3</title>
-      <link>https://www.reddit.com/r/LocalLLM/comments/1rrhm1j/hereticllm_for_qwen359b_on_linux_mint_223/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLM/comments/1rrhm1j/hereticllm_for_qwen359b_on_linux_mint_223/</guid>
-      <pubDate>Thu, 12 Mar 2026 04:56:24 +0000</pubDate>
+      <title>Nano‑Banana 2 prompt template, really works</title>
+      <link>https://www.reddit.com/r/GoogleGeminiAI/comments/1rscwfx/nanobanana_2_prompt_template_really_works/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/GoogleGeminiAI/comments/1rscwfx/nanobanana_2_prompt_template_really_works/</guid>
+      <pubDate>Fri, 13 Mar 2026 03:50:41 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>User attempts to hereticize qwen3.5:9b on Linux Mint 22.3 and shows a sample execution with --model ~/HuggingFace/Qwen3.5-9B, --quantization NONE, --device-map auto, and --max-memory settings. Why it matters: Direct: Documents a practical attempt to run Heretic with Qwen3.5-9B on Linux Mint 22.3.</description>
+      <description>Nano-Banana 2 prompt template appears effective for image-to-image and text-to-image workflows; testing shows the model is fast and consistent, particularly for commercial-style outputs. Why it matters: Direct: Demonstrates a fast, consistent prompt template for commercial-style image workflows; evaluate integration in production prompts and replication across similar tasks.</description>
     </item>
     <item>
-      <title>Mitigating The Risk of Prompt Injection for AI Agents on Databricks</title>
-      <link>https://www.databricks.com/blog/mitigating-risk-prompt-injection-ai-agents-databricks</link>
-      <guid isPermaLink="true">https://www.databricks.com/blog/mitigating-risk-prompt-injection-ai-agents-databricks</guid>
-      <pubDate>Wed, 11 Mar 2026 19:00:00 +0000</pubDate>
+      <title>MN-VelvetCafe-RP-12B-V2 - Updated</title>
+      <link>https://www.reddit.com/r/SillyTavernAI/comments/1rs6uxp/mnvelvetcaferp12bv2_updated/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/SillyTavernAI/comments/1rs6uxp/mnvelvetcaferp12bv2_updated/</guid>
+      <pubDate>Thu, 12 Mar 2026 23:24:13 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Databricks blog discusses mitigating prompt injection risks for AI agents and references the Databricks AI Security Framework (DASF) released in 2024. Why it matters: Direct: Outlines concrete steps to reduce prompt-injection risks in AI agent deployments.</description>
+      <description>MN-VelvetCafe-RP-12B-V2 updated to fix two main issues from the previous release, notably a bad preset; updated preset link provided to HuggingFace. Why it matters: Direct: Demonstrates ongoing QA for presets to ensure reliability and prevent misconfigurations in user setups.</description>
     </item>
     <item>
-      <title>Claude 4.6 Experiment: &quot;Can you use whatever resources you like, and python, to generate a short &#x27;youtube poop&#x27; video and render it using ffmpeg? It should express what it&#x27;s like to be a LLM.&quot;</title>
-      <link>https://www.reddit.com/r/singularity/comments/1rr8mri/claude_46_experiment_can_you_use_whatever/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rr8mri/claude_46_experiment_can_you_use_whatever/</guid>
-      <pubDate>Wed, 11 Mar 2026 22:26:49 +0000</pubDate>
+      <title>Remember how fast Custom GPTs</title>
+      <link>https://nitter.net/levelsio/status/2032148818729283704</link>
+      <guid isPermaLink="true">https://nitter.net/levelsio/status/2032148818729283704</guid>
+      <pubDate>Thu, 12 Mar 2026 17:36:48 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Prompt asks Claude 4.6 to use any resources and Python to generate a short &#x27;youtube poop&#x27; video rendered with ffmpeg, expressing what it&#x27;s like to be an LLM. Why it matters: Direct: Demonstrates a multi-tool, creative-prompt scenario combining coding, media generation, and execution via ffmpeg.</description>
+      <description>Remember how fast Custom GPTs, launched back in 2023, died? Within a year the general models were already better than custom GPTs (which where just specialized system prompts) General models will keep getting better at ... Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from @levelsio / @levelsio.</description>
     </item>
     <item>
-      <title>AI News Weekly - The AI civil war? Anthropic blasted and Open AI sees users flee - Mar 11th 2026</title>
-      <link>https://aiweekly.co/issues/471</link>
-      <guid isPermaLink="true">https://aiweekly.co/issues/471</guid>
-      <pubDate>Wed, 11 Mar 2026 15:52:32 +0000</pubDate>
+      <title>Hoi3DGen: Generating High-Quality Human-Object-Interactions in 3D</title>
+      <link>http://arxiv.org/abs/2603.12126v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2603.12126v1</guid>
+      <pubDate>Thu, 12 Mar 2026 16:27:35 +0000</pubDate>
+      <category>0) Practical Prompts</category>
+      <description>Modeling and generating 3D human-object interactions from text is crucial for applications in AR, XR, and gaming. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from arXiv AI Core.</description>
+    </item>
+    <item>
+      <title>**Machine Learning‑Driven DNA Methylation Atlas for Arsenic‑Induced Liver Toxicity Prediction**</title>
+      <link>https://dev.to/freederia-research/machine-learning-driven-dna-methylation-atlas-for-arsenic-induced-liver-toxicity-prediction-4dcl</link>
+      <guid isPermaLink="true">https://dev.to/freederia-research/machine-learning-driven-dna-methylation-atlas-for-arsenic-induced-liver-toxicity-prediction-4dcl</guid>
+      <pubDate>Fri, 13 Mar 2026 10:12:14 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>AI is a geopolitical issue, and more AI companies have 1 billion seed rounds. Anthropic blacklisted; OpenAI criticized as users revolted. LeCun left Meta with a billion dollars and a thesis that everyone else is wrong. Why it matters: Direct: Reflects geopolitical framing and large seed-round activity shaping AI ecosystem signals.</description>
+      <description>Arsenic exposure via contaminated groundwater is a global public-health issue; chronic inorganic arsenic (&gt;100 μg/L) causes hepatotoxicity including hepatic fibrosis, cirrhosis, and higher hepatocellular carcinoma risk. Why it matters: Direct: Highlights a health-risk domain where ML-driven methylation mapping could improve prediction of arsenic-induced liver injury.</description>
     </item>
     <item>
-      <title>Databricks launches data engineering copilot and acquires agent evaluation startup Quotient AI</title>
-      <link>https://siliconangle.com/2026/03/11/databricks-launches-data-engineering-copilot-acquires-agent-evaluation-startup/</link>
-      <guid isPermaLink="true">https://siliconangle.com/2026/03/11/databricks-launches-data-engineering-copilot-acquires-agent-evaluation-startup/</guid>
-      <pubDate>Wed, 11 Mar 2026 20:50:58 +0000</pubDate>
+      <title>EndoCoT: Scaling Endogenous Chain-of-Thought Reasoning in Diffusion Models</title>
+      <link>http://arxiv.org/abs/2603.12252v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2603.12252v1</guid>
+      <pubDate>Thu, 12 Mar 2026 17:58:48 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Databricks launched Genie Code, an AI agent to automate complex data engineering and analytics tasks, extending agents from software engineering into enterprise data workflows; also announced acquisition of Quotient AI Inc. Why it matters: Direct: Signals a concrete shift toward AI agents automating data engineering and analytics, expanding enterprise workflow automation.</description>
+      <description>Multimodal Large Language Models (MLLMs) have been widely integrated into diffusion frameworks primarily as text encoders to tackle complex tasks such as spatial reasoning. Why it matters: Direct: Identifies insufficient reasoning depth in MLLMs when used as text encoders in diffusion models.</description>
     </item>
     <item>
-      <title>TOSSS: a CVE-based Software Security Benchmark for Large Language Models</title>
-      <link>http://arxiv.org/abs/2603.10969v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2603.10969v1</guid>
-      <pubDate>Wed, 11 Mar 2026 16:54:01 +0000</pubDate>
+      <title>Show HN: Axe – A 12MB binary that replaces your AI framework</title>
+      <link>https://github.com/jrswab/axe</link>
+      <guid isPermaLink="true">https://github.com/jrswab/axe</guid>
+      <pubDate>Thu, 12 Mar 2026 13:49:12 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>LLMs are increasingly used across industries, and have become useful tools for software engineers, supporting a wide range of development tasks. Why it matters: Direct: Establishes a CVE-based benchmark to evaluate LLM software security risk.</description>
+      <description>Axe provides a 12MB binary that replaces large AI frameworks by treating LLM agents as Unix programs, prioritizing small, focused, composable components over chat-centric sessions. Why it matters: Direct: Proposes a modular Unix-like approach to AI agents that could improve engineering workflows.</description>
     </item>
     <item>
-      <title>TOSSS: a CVE-based Software Security Benchmark for Large Language Models</title>
-      <link>https://arxiv.org/abs/2603.10969v1</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.10969v1</guid>
-      <pubDate>Wed, 11 Mar 2026 16:54:01 +0000</pubDate>
+      <title>Comparing Self-Hosted Workflow Automation Infrastructure with Cloud Automation Platforms</title>
+      <link>https://dev.to/dmankani2007/comparing-self-hosted-workflow-automation-infrastructure-with-cloud-automation-platforms-3mg5</link>
+      <guid isPermaLink="true">https://dev.to/dmankani2007/comparing-self-hosted-workflow-automation-infrastructure-with-cloud-automation-platforms-3mg5</guid>
+      <pubDate>Fri, 13 Mar 2026 10:10:42 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>LLMs are increasingly used across industries, and have become useful tools for software engineers, supporting a wide range of development tasks. Why it matters: Direct: Establishes a CVE-based benchmark to evaluate LLM software security risk.</description>
+      <description>Automation systems are essential for modern digital workflows; businesses and developers rely on automation platforms to connect apps, process data, and trigger operations across services without manual intervention. Why it matters: Direct: Frames practical tradeoffs between self-hosted and cloud automation for reliability, control, and maintenance in engineering workflows.</description>
     </item>
     <item>
-      <title>From Figma to Claude Code and back | Gui Seiz &amp; Alex Kern (Figma)</title>
-      <link>https://www.lennysnewsletter.com/p/from-figma-to-claude-code-and-back</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/from-figma-to-claude-code-and-back</guid>
-      <pubDate>Wed, 11 Mar 2026 12:03:30 +0000</pubDate>
+      <title>Launch HN: IonRouter (YC W26) – High-throughput, low-cost inference</title>
+      <link>https://ionrouter.io</link>
+      <guid isPermaLink="true">https://ionrouter.io</guid>
+      <pubDate>Thu, 12 Mar 2026 18:52:36 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Describes how Figma designers and engineers use MCPs to pull production code into Figma, edit designs, and push changes back to code, eliminating design drift and enabling real-time collaboration. Why it matters: Direct: Highlights improved iteration speed and reduced drift through an integrated design-to-code flow.</description>
+      <description>Veer and Suryaa of Cumulus Labs (YC W26) announce IonRouter, an inference API for open-source and fine-tuned models. Why it matters: Direct: Enables developers to access an API for open-source and fine-tuned models, enabling faster experimentation.</description>
     </item>
     <item>
-      <title>Computer is personal to you and your organization</title>
-      <link>https://nitter.net/perplexity_ai/status/2031799093300011024</link>
-      <guid isPermaLink="true">https://nitter.net/perplexity_ai/status/2031799093300011024</guid>
-      <pubDate>Wed, 11 Mar 2026 18:27:07 +0000</pubDate>
+      <title>The skill that got a PM fired</title>
+      <link>https://www.productcoalition.com/p/the-skill-that-got-a-pm-fired</link>
+      <guid isPermaLink="true">https://www.productcoalition.com/p/the-skill-that-got-a-pm-fired</guid>
+      <pubDate>Thu, 12 Mar 2026 18:37:25 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Describes a personal-computer approach for organizations: build and share skills, connect with hundreds of apps, bring your own MCP, and inherit enterprise data-retention, audit logs, and permissions, with no model training on your data. Why it matters: Direct: Emphasizes privacy and policy alignment; no training on user data.</description>
+      <description>A product manager I know got let go after three years. Why it matters: Direct: Illustrates PM role risk and the implications for team stability and hiring practices.</description>
     </item>
     <item>
-      <title>Talking to agents in Slack</title>
-      <link>https://nitter.net/emollick/status/2031820850337370352</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2031820850337370352</guid>
-      <pubDate>Wed, 11 Mar 2026 19:53:34 +0000</pubDate>
+      <title>How I built a 1M+ subscriber newsletter and top 10 tech podcast | Lenny Rachitsky</title>
+      <link>https://www.lennysnewsletter.com/p/how-i-built-a-1m-subscriber-newsletter</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/how-i-built-a-1m-subscriber-newsletter</guid>
+      <pubDate>Thu, 12 Mar 2026 12:32:15 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Argues that talking to agents in Slack will be a transitional phase like chatbots; calls for new systems to manage agentic work and better UX. Why it matters: Direct: Highlights the need for rethinking agent UX and organizational workflows to support evolving AI-enabled collaboration.</description>
+      <description>Lenny Rachitsky discusses the story behind his 1M+ subscriber newsletter and top 10 tech podcast. Why it matters: Direct: Demonstrates creator-driven growth patterns for audience-focused products.</description>
     </item>
     <item>
-      <title>Taking a break</title>
-      <link>https://www.reddit.com/r/google_antigravity/comments/1rrml7o/taking_a_break/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/google_antigravity/comments/1rrml7o/taking_a_break/</guid>
-      <pubDate>Thu, 12 Mar 2026 10:00:32 +0000</pubDate>
+      <title>Perplexity Computer is now available for Pro subscribers</title>
+      <link>https://nitter.net/perplexity_ai/status/2032160576303219185</link>
+      <guid isPermaLink="true">https://nitter.net/perplexity_ai/status/2032160576303219185</guid>
+      <pubDate>Thu, 12 Mar 2026 18:23:31 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>User reports taking a break from Antigravity due to UI/UX issues and clearer limits; plans to return later. Why it matters: Direct: Signals need for clearer UI/UX and limit visibility to sustain usage.</description>
+      <description>Perplexity Computer is now available for Pro subscribers. Access Computer’s full suite of 20+ advanced models, prebuilt and custom skills, and hundreds of connectors. Max subscribers receive monthly credits and higher spend limits than Pro. Why it matters: Direct: Expands access for a paying tier with scalable model access and usage limits.</description>
     </item>
     <item>
-      <title>From IDEs to AI Agents with Steve Yegge</title>
-      <link>https://newsletter.pragmaticengineer.com/p/from-ides-to-ai-agents-with-steve</link>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/from-ides-to-ai-agents-with-steve</guid>
-      <pubDate>Wed, 11 Mar 2026 16:58:07 +0000</pubDate>
+      <title>Skills: Domain Expertise on Demand</title>
+      <link>https://dev.to/idavidov13/skills-domain-expertise-on-demand-4e52</link>
+      <guid isPermaLink="true">https://dev.to/idavidov13/skills-domain-expertise-on-demand-4e52</guid>
+      <pubDate>Fri, 13 Mar 2026 06:11:57 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Steve Yegge discusses AI reshaping software engineering, the rise of &#x27;vibe coding,&#x27; and the need for developers to adapt to a fast-changing craft. Why it matters: Direct: Highlights industry shifts toward AI-enabled coding practices; practitioners should explore AI-assisted workflows and &#x27;vibe coding&#x27; concepts.</description>
+      <description>CLAUDE.md defines agent rules and workflow; depth matters. Beyond &#x27;Use the Page Object Model&#x27;, the post asks how to structure a page object, distinguish getters from actions, and compose components, motivating skill files. Why it matters: Direct: Defines the need for concrete skill files to implement page-object structures, getters vs actions, and component composition to operationalize rules.</description>
     </item>
     <item>
-      <title>15 Best LM Studio Alternatives for Running Local LLMs (2026)</title>
-      <link>https://dev.to/jaipalsingh/15-best-lm-studio-alternatives-for-running-local-llms-2026-36bg</link>
-      <guid isPermaLink="true">https://dev.to/jaipalsingh/15-best-lm-studio-alternatives-for-running-local-llms-2026-36bg</guid>
-      <pubDate>Thu, 12 Mar 2026 09:30:00 +0000</pubDate>
+      <title>Let&#x27;s Build A Strapi Plugin To Integrate Vercel’s AI SDK In Our Next.js 16 Project</title>
+      <link>https://dev.to/strapijs/lets-build-a-strapi-plugin-to-integrate-vercels-ai-sdk-in-our-nextjs-16-project-1d31</link>
+      <guid isPermaLink="true">https://dev.to/strapijs/lets-build-a-strapi-plugin-to-integrate-vercels-ai-sdk-in-our-nextjs-16-project-1d31</guid>
+      <pubDate>Fri, 13 Mar 2026 10:07:33 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>A 2025–2026 roundup of 15 LM Studio alternatives for local LLMs, highlighting LM Studio v0.4.3 with headless deployment and parallel inference, PremAI with compliance, Ollama v0.16.3, Gemma 3/Qwen 3, GPT4All with LocalDocs and RAG. Why it matters: Direct: Provides a snapshot of local-LMM tooling options and notable features to compare for self-hosted inference.</description>
+      <description>Proposal to build a custom Strapi plugin integrating Vercel&#x27;s AI SDK to add backend AI capabilities securely accessible from our Next.js 16 app; includes a supplementary video. Why it matters: Direct: Enables backend AI features for Next.js apps by embedding Vercel&#x27;s AI SDK via a Strapi plugin.</description>
     </item>
     <item>
-      <title>How to Build a Multi-Provider LLM Infrastructure with an AI Gateway (OpenAI, Claude, Azure &amp; Vertex)</title>
-      <link>https://dev.to/hadil/how-to-build-a-multi-provider-llm-infrastructure-with-an-ai-gateway-openai-claude-azure-vertex-2kpc</link>
-      <guid isPermaLink="true">https://dev.to/hadil/how-to-build-a-multi-provider-llm-infrastructure-with-an-ai-gateway-openai-claude-azure-vertex-2kpc</guid>
-      <pubDate>Thu, 12 Mar 2026 08:14:39 +0000</pubDate>
+      <title>Getting Your MERN Stack Workspace Ready Step-by-Step</title>
+      <link>https://www.reddit.com/r/u_Aggravating-Till5879/comments/1rsip0u/getting_your_mern_stack_workspace_ready_stepbystep/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/u_Aggravating-Till5879/comments/1rsip0u/getting_your_mern_stack_workspace_ready_stepbystep/</guid>
+      <pubDate>Fri, 13 Mar 2026 09:30:28 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Guidance on building a multi-provider LLM infra with an AI gateway, noting that many teams start with a single model (often OpenAI GPT-4 or Claude) and scale from there. Why it matters: Direct: Outlines why teams start simple and how to architect an AI gateway supporting multiple providers.</description>
+      <description>Step-by-step guide for preparing a MERN stack workspace; highlights common setup issues like ports, DB connections, React-Express coordination, and precise steps to avoid frustration. Why it matters: Direct: Provides a repeatable, stepwise approach to avoid port clashes and connection issues in MERN projects.</description>
     </item>
     <item>
-      <title>AI-SDLC Maturity Model: From Traditional Practices to AI-Autonomous Development</title>
-      <link>https://www.reddit.com/r/u_eleks/comments/1rrm4sd/aisdlc_maturity_model_from_traditional_practices/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/u_eleks/comments/1rrm4sd/aisdlc_maturity_model_from_traditional_practices/</guid>
-      <pubDate>Thu, 12 Mar 2026 09:32:03 +0000</pubDate>
+      <title>Automatic Generation of High-Performance RL Environments</title>
+      <link>https://arxiv.org/abs/2603.12145v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.12145v1</guid>
+      <pubDate>Thu, 12 Mar 2026 16:45:47 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Discussion of an AI-SDLC maturity model describing the shift from traditional practices to AI-autonomous development, with AI tools influencing planning, building, testing, and delivery. Why it matters: Direct: Emphasizes strategic placement of AI tooling in the SDLC and maturity assessment for organizations.</description>
+      <description>Proposes automatic generation for high-performance RL environments, noting that translating complex RL environments into high-performance implementations has historically required months of specialized engineering. Why it matters: Direct: Highlights a timing-aware effort to reduce engineering lead time for RL environment development.</description>
     </item>
     <item>
-      <title>Privacy-Focused AI Terminal Emulator Written in Rust</title>
-      <link>https://www.reddit.com/r/LocalLLM/comments/1rrmsj7/privacyfocused_ai_terminal_emulator_written_in/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLM/comments/1rrmsj7/privacyfocused_ai_terminal_emulator_written_in/</guid>
-      <pubDate>Thu, 12 Mar 2026 10:12:23 +0000</pubDate>
+      <title>How AI Will Erase Entire Industries Without Automating Them</title>
+      <link>https://www.thealgorithmicbridge.com/p/how-ai-will-erase-entire-industries</link>
+      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/how-ai-will-erase-entire-industries</guid>
+      <pubDate>Thu, 12 Mar 2026 17:42:25 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>pH7Console is an open-source AI-powered terminal that runs LLMs locally in Rust; it runs fully offline with no telemetry or cloud calls, so command history and data stay on the user&#x27;s machine. Why it matters: Direct: Local, private LLM usage reduces data exposure and telemetry risk, aligning with privacy-focused workflows.</description>
+      <description>Notes on the shape AI displacement will actually take Why it matters: Direct: This signals broad, non-automation-driven disruption in industries, highlighting timing and pathways early for strategic risk and opportunity assessment.</description>
     </item>
     <item>
-      <title>From 35 WPM to 120+ WPM: voice dictation quietly became my biggest productivity unlock</title>
-      <link>https://www.reddit.com/r/ProductivityGeeks/comments/1rrmvc7/from_35_wpm_to_120_wpm_voice_dictation_quietly/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ProductivityGeeks/comments/1rrmvc7/from_35_wpm_to_120_wpm_voice_dictation_quietly/</guid>
-      <pubDate>Thu, 12 Mar 2026 10:17:06 +0000</pubDate>
+      <title>HOW TO GET YOUR FIRST 100 PAYING USERS WITH ZERO AD SPEND</title>
+      <link>https://www.reddit.com/r/StartupMind/comments/1rsjfzh/how_to_get_your_first_100_paying_users_with_zero/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/StartupMind/comments/1rsjfzh/how_to_get_your_first_100_paying_users_with_zero/</guid>
+      <pubDate>Fri, 13 Mar 2026 10:15:35 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>A user reports that voice dictation raised productivity from 35 WPM to over 120 WPM, reducing typing bottlenecks when thinking through prompts. Why it matters: Direct: Elevates cognitive throughput by minimizing manual typing, benefiting dev/productivity workflows where long prompts are frequent.</description>
+      <description>How to get your first 100 paying users with zero ad spend. Why it matters: Direct: Signals a zero-cost, scalable path to early customer acquisition via Reddit-driven growth.</description>
     </item>
     <item>
-      <title>Dwarkesh Patel on the Anthropic DoW dispute</title>
-      <link>https://www.lesswrong.com/posts/PDWFed8JT9FitPkzQ/dwarkesh-patel-on-the-anthropic-dow-dispute</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/PDWFed8JT9FitPkzQ/dwarkesh-patel-on-the-anthropic-dow-dispute</guid>
-      <pubDate>Wed, 11 Mar 2026 23:19:01 +0000</pubDate>
+      <title>NIOCORP MINE~ &quot;Project Vault&quot; and the New US Critical Minerals Playbook, US critical minerals talks advance with EU &amp; Japan, Operation Epic Fury runs on critical minerals and we’re getting them from our adversaries, Highlights of NioCorp&#x27;s &quot;Stocks to Watch&quot; presentation plus a bit more with coffee..</title>
+      <link>https://www.reddit.com/r/NIOCORP_MINE/comments/1rsjfsj/niocorp_mine_project_vault_and_the_new_us/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/NIOCORP_MINE/comments/1rsjfsj/niocorp_mine_project_vault_and_the_new_us/</guid>
+      <pubDate>Fri, 13 Mar 2026 10:15:15 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>A blog post by Dwarkesh Patel discusses the Anthropic DoW dispute and related topics; he also provides an accompanying narration. Why it matters: Direct: Highlights ongoing debates about DoW frameworks in AI safety, signaling where governance discussions are focusing.</description>
+      <description>Notes on March 12th, 2026~Critical Minerals: &quot;Project Vault&quot; and the New US Critical Minerals Playbook Why it matters: Direct: Signals early US critical minerals strategy and international alignment.</description>
     </item>
     <item>
-      <title>We do not live by course alone</title>
-      <link>https://www.lesswrong.com/posts/5W3DC8QCd4DNpqeCc/we-do-not-live-by-course-alone</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/5W3DC8QCd4DNpqeCc/we-do-not-live-by-course-alone</guid>
-      <pubDate>Wed, 11 Mar 2026 21:12:26 +0000</pubDate>
+      <title>Power Steering: Behavior Steering via Layer-to-Layer Jacobian Singular Vectors</title>
+      <link>https://www.lesswrong.com/posts/EAE9u4YnE75eoiWDg/power-steering-behavior-steering-via-layer-to-layer-jacobian</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/EAE9u4YnE75eoiWDg/power-steering-behavior-steering-via-layer-to-layer-jacobian</guid>
+      <pubDate>Fri, 13 Mar 2026 04:05:29 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>During AI Safety advising calls, the author asks which courses to take next and answers: none; go do stuff instead; making creates mastery. Why it matters: Direct: Practical, hands-on experience can be more valuable than theoretical coursework in AI safety development.</description>
+      <description>Discusses steering LLM behavior using layer-to-layer Jacobian vectors; top high-rank components can be found with ~15 forward passes. Why it matters: Direct: Reveals a practical, low-cost signal for influencing model behavior that seasoned curators may overlook.</description>
     </item>
     <item>
-      <title>I&#x27;m currently working on a pure sample generator for traditional music production. I&#x27;m getting high fidelity, tempo synced, musical outputs, with high timbre control. It will be optimized for sub 7 Gigs of VRAM for local inference. It will be released entirely free for all to use.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1rrhafn/im_currently_working_on_a_pure_sample_generator/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1rrhafn/im_currently_working_on_a_pure_sample_generator/</guid>
-      <pubDate>Thu, 12 Mar 2026 04:38:52 +0000</pubDate>
+      <title>Window View</title>
+      <link>https://www.producthunt.com/products/window-view</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/window-view</guid>
+      <pubDate>Fri, 13 Mar 2026 02:36:47 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Developer is building a pure sample generator for traditional music with high fidelity, tempo-synced outputs, strong timbre control, optimized for sub-7GB VRAM local inference, and will be released entirely free to all. Why it matters: Direct: Demonstrates a memory-efficient, local-inference approach to high-fidelity, tempo-synced sample generation for traditional music.</description>
+      <description>Step inside any building on Google Earth to see the view. Why it matters: Direct: Enables users to virtually view inside any building via Google Earth, useful for planning, travel previews, or design exploration.</description>
     </item>
     <item>
-      <title>V2M-Zero: Zero-Pair Time-Aligned Video-to-Music Generation</title>
-      <link>http://arxiv.org/abs/2603.11042v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2603.11042v1</guid>
-      <pubDate>Wed, 11 Mar 2026 17:59:40 +0000</pubDate>
+      <title>Claude can now create interactive visualizations in chat responses</title>
+      <link>https://www.reddit.com/r/singularity/comments/1rs29ip/claude_can_now_create_interactive_visualizations/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rs29ip/claude_can_now_create_interactive_visualizations/</guid>
+      <pubDate>Thu, 12 Mar 2026 20:30:45 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>V2M-Zero presents a zero-pair time-aligned video-to-music generation approach that outputs time-aligned music for video. Why it matters: Direct: Enables precise alignment of music to video events, improving cross-modal creativity.</description>
+      <description>Claude can create interactive visualizations in chat responses, including widgets (sliders, controls, live calculations), diagrams/flowcharts, and charts (bar, line, scatter, pie) using Chart. Why it matters: Direct: Demonstrates chat-based, embeddable visualizations (widgets, diagrams, charts) within responses, enabling dynamic data exploration in conversations.</description>
     </item>
     <item>
-      <title>Sorting algorithms</title>
-      <link>https://simonwillison.net/2026/Mar/11/sorting-algorithms/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Mar/11/sorting-algorithms/</guid>
-      <pubDate>Wed, 11 Mar 2026 22:58:06 +0000</pubDate>
+      <title>What type of AI is Jarvis from Marvel?</title>
+      <link>https://www.reddit.com/r/singularity/comments/1rsfukg/what_type_of_ai_is_jarvis_from_marvel/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1rsfukg/what_type_of_ai_is_jarvis_from_marvel/</guid>
+      <pubDate>Fri, 13 Mar 2026 06:31:40 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Animated explanations of sorting algorithms built with Claude Artifacts, including Python&#x27;s timsort and a feature to run them all at once. Why it matters: Direct: Combines AI-assisted visuals with practical sorting concepts, improving accessibility of algorithm explanations.</description>
+      <description>Explores how Jarvis and other Marvel and DC AIs would be defined and classified by purpose and functional behavior. Why it matters: Direct: Provides a framework to classify AI characters by purpose and behavior.</description>
     </item>
     <item>
-      <title>V2M-Zero: Zero-Pair Time-Aligned Video-to-Music Generation</title>
-      <link>https://arxiv.org/abs/2603.11042v1</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.11042v1</guid>
-      <pubDate>Wed, 11 Mar 2026 17:59:40 +0000</pubDate>
+      <title>Backpropagation Explained in Plain English (With a PyTorch Example)</title>
+      <link>https://dev.to/benkemp/backpropagation-explained-in-plain-english-with-a-pytorch-example-595h</link>
+      <guid isPermaLink="true">https://dev.to/benkemp/backpropagation-explained-in-plain-english-with-a-pytorch-example-595h</guid>
+      <pubDate>Fri, 13 Mar 2026 10:06:31 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>V2M-Zero: Zero-Pair Time-Aligned Video-to-Music Generation delivers time-aligned music for video. Why it matters: Direct: Enables synchronized audio tracks with video for multimedia projects.</description>
+      <description>Backpropagation explains how neural networks are trained, describing how it adjusts parameters to improve models during training. Why it matters: Direct: Clarifies backpropagation&#x27;s role in training and model improvement.</description>
     </item>
   </channel>
 </rss>
