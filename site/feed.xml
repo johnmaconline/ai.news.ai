@@ -1,194 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-03-17</title>
+    <title>Daily AI Feed - 2026-03-19</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Tue, 17 Mar 2026 10:59:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 10:43:53 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>5.3 new system prompt: No more penalty clause?</title>
-      <link>https://www.reddit.com/r/ChatGPTcomplaints/comments/1rw2uuu/53_new_system_prompt_no_more_penalty_clause/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ChatGPTcomplaints/comments/1rw2uuu/53_new_system_prompt_no_more_penalty_clause/</guid>
-      <pubDate>Tue, 17 Mar 2026 10:33:43 +0000</pubDate>
+      <title>For anyone impacted by the recent change undermining bypassPermissions, here is a workaround</title>
+      <link>https://www.reddit.com/r/ClaudeCode/comments/1rxr2jn/for_anyone_impacted_by_the_recent_change/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeCode/comments/1rxr2jn/for_anyone_impacted_by_the_recent_change/</guid>
+      <pubDate>Thu, 19 Mar 2026 04:43:47 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Discussion points the absence of the penalty clause in the 5.3 system prompt and how it may affect content quality, plus noticed shifts in tool instructions and tone. Why it matters: Direct: A missing penalty clause can alter content constraints, risking output quality; review the 5.3 prompt text to confirm guardrails and tone.</description>
+      <description>For whatever reason, in CC 2.1.78, Anthropic decided to require user approval in bypassPermissions for any changes made to .claude or .git. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from Reddit AI Prompt Search.</description>
     </item>
     <item>
-      <title>I built a static site generator that works through Claude Code</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1rvlo3q/i_built_a_static_site_generator_that_works/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAI/comments/1rvlo3q/i_built_a_static_site_generator_that_works/</guid>
-      <pubDate>Mon, 16 Mar 2026 20:45:12 +0000</pubDate>
+      <title>A Creative Agent is Worth a 64-Token Template</title>
+      <link>https://arxiv.org/abs/2603.17895v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.17895v1</guid>
+      <pubDate>Wed, 18 Mar 2026 16:25:52 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>I use Claude Code for basically all my dev work now, and it bugged me that managing my website meant switching to a completely different tool — or paying for yet another AI subscription that&#x27;s really just an LLM wrapper... Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from Reddit AI Prompt Search.</description>
+      <description>Text-to-image (T2I) models have substantially improved image fidelity and prompt adherence, yet their creativity remains constrained by reliance on discrete natural language prompts. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from arXiv Agentic AI Query.</description>
     </item>
     <item>
-      <title>Codex needed a procol to work well with Subagents</title>
-      <link>https://www.reddit.com/r/codex/comments/1rw02ez/codex_needed_a_procol_to_work_well_with_subagents/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/codex/comments/1rw02ez/codex_needed_a_procol_to_work_well_with_subagents/</guid>
-      <pubDate>Tue, 17 Mar 2026 07:39:18 +0000</pubDate>
+      <title>I built a free tool that compresses AI prompts and saves ~20% on token costs</title>
+      <link>https://www.reddit.com/r/SideProject/comments/1rxkzcd/i_built_a_free_tool_that_compresses_ai_prompts/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/SideProject/comments/1rxkzcd/i_built_a_free_tool_that_compresses_ai_prompts/</guid>
+      <pubDate>Thu, 19 Mar 2026 00:07:03 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Discussion of subagent coordination: it spawned subagents but ignored their work and continued on its own as the main agent; suggested Subagent Coordination Protocol and planned AGENTS.md documentation. Why it matters: Direct: Protocols can improve reliability in multi-agent setups by clarifying roles and coordination.</description>
+      <description>TokenShrink is a free, open-source prompt compression tool that reduces token costs by about 20% by compressing prompts before they hit the API. Why it matters: Direct: Reduces per-call token usage, lowering API costs for prompt-heavy workloads.</description>
     </item>
     <item>
-      <title>GitHub Copilot Completes a Real Code Review (Claude Sonnet 4.5)</title>
-      <link>https://dev.to/incomplete_developer/github-copilot-completes-a-real-code-review-claude-sonnet-45-3250</link>
-      <guid isPermaLink="true">https://dev.to/incomplete_developer/github-copilot-completes-a-real-code-review-claude-sonnet-45-3250</guid>
-      <pubDate>Tue, 17 Mar 2026 10:25:25 +0000</pubDate>
+      <title>Show HN: Reprompt – Score your AI coding prompts with NLP papers</title>
+      <link>https://github.com/reprompt-dev/reprompt</link>
+      <guid isPermaLink="true">https://github.com/reprompt-dev/reprompt</guid>
+      <pubDate>Wed, 18 Mar 2026 13:00:13 +0000</pubDate>
+      <category>0) Practical Prompts</category>
+      <description>Show HN: Reprompt – Score your AI coding prompts with NLP papers Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from Hacker News.</description>
+    </item>
+    <item>
+      <title>CodeScout: An Effective Recipe for Reinforcement Learning of Code Search Agents</title>
+      <link>http://arxiv.org/abs/2603.17829v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2603.17829v1</guid>
+      <pubDate>Wed, 18 Mar 2026 15:25:42 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>GitHub Copilot was asked to perform a full code review on a .NET app it had helped rewrite; the original project from 2013 still runs but carries significant technical debt. Why it matters: Direct: Demonstrates Copilot&#x27;s potential in end-to-end code quality assessment, highlighting practical implications for debt reduction workflows.</description>
+      <description>CodeScout outlines code localization as a prerequisite for coding agents to operate on large repositories, identifying relevant files, classes, and functions to work on. Why it matters: Direct: Precise code localization enables RL-based code search agents to operate on relevant files and functions with higher reliability.</description>
     </item>
     <item>
-      <title>RoCo Challenge at AAAI 2026: Benchmarking Robotic Collaborative Manipulation for Assembly Towards Industrial Automation</title>
-      <link>http://arxiv.org/abs/2603.15469v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2603.15469v1</guid>
-      <pubDate>Mon, 16 Mar 2026 16:05:01 +0000</pubDate>
+      <title>Toward Scalable Automated Repository-Level Datasets for Software Vulnerability Detection</title>
+      <link>http://arxiv.org/abs/2603.17974v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2603.17974v1</guid>
+      <pubDate>Wed, 18 Mar 2026 17:38:35 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>RoCo Challenge at AAAI 2026: Benchmarking Robotic Collaborative Manipulation for Assembly Towards Industrial Automation Why it matters: Direct: Sets a benchmark for evaluating robotic collaborative manipulation in industrial automation contexts; helps teams identify capability gaps and guide research or tooling pr...</description>
+      <description>Software vulnerabilities continue to grow in volume and remain difficult to detect in practice. Why it matters: Direct: Move toward benchmarks that capture executable interprocedural settings to improve detection models.</description>
     </item>
     <item>
-      <title>Show HN: Claude Code skills that build complete Godot games</title>
-      <link>https://github.com/htdt/godogen</link>
-      <guid isPermaLink="true">https://github.com/htdt/godogen</guid>
-      <pubDate>Mon, 16 Mar 2026 16:07:29 +0000</pubDate>
+      <title>Multiverse Computing pushes its compressed AI models into the mainstream</title>
+      <link>https://techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream/</link>
+      <guid isPermaLink="true">https://techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream/</guid>
+      <pubDate>Thu, 19 Mar 2026 08:00:00 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Show HN: Claude Code skills that build complete Godot games Why it matters: Direct: Demonstrates practical AI-driven code generation for game projects, potentially shortening prototyping cycles.</description>
+      <description>Multiverse Computing has launched an app and API to showcase the capabilities of its compressed models and broaden access after compressing models from major AI labs including OpenAI, Meta, DeepSeek and Mistral AI. Why it matters: Direct: Wider access enables faster experimentation and deployment of compressed models in real-world workloads.</description>
     </item>
     <item>
-      <title>InterveneBench: Benchmarking LLMs for Intervention Reasoning and Causal Study Design in Real Social Systems</title>
-      <link>http://arxiv.org/abs/2603.15542v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2603.15542v1</guid>
-      <pubDate>Mon, 16 Mar 2026 17:06:37 +0000</pubDate>
+      <title>Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training</title>
+      <link>https://github.com/alainnothere/llm-circuit-finder</link>
+      <guid isPermaLink="true">https://github.com/alainnothere/llm-circuit-finder</guid>
+      <pubDate>Wed, 18 Mar 2026 21:31:12 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>InterveneBench: Benchmarking LLMs for Intervention Reasoning and Causal Study Design in Real Social Systems Why it matters: Direct: Provides a benchmark to assess LLM performance on intervention-based reasoning in social contexts.</description>
+      <description>Replication of David Ng&#x27;s RYS method on consumer AMD GPUs suggests transformers have discrete &#x27;reasoning circuits&#x27;—contiguous blocks of 3-4 layers acting as cognitive units. Why it matters: Direct: If real, modular reasoning blocks enable targeted optimizations and faster inference.</description>
     </item>
     <item>
-      <title>AI really can help education: Randomized controlled experiment on high</title>
-      <link>https://nitter.net/emollick/status/2033773791688433708</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2033773791688433708</guid>
-      <pubDate>Tue, 17 Mar 2026 05:13:52 +0000</pubDate>
+      <title>We need guides through the inevitable bout of AI psychosis</title>
+      <link>https://nitter.net/emollick/status/2034468631594390015</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2034468631594390015</guid>
+      <pubDate>Thu, 19 Mar 2026 03:14:55 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>A randomized controlled trial with high school students found a GPT-4o powered tutor that personalized problems for students raised final test scores by .15 SD. Why it matters: Direct: Demonstrates measurable student score gains from AI tutoring, informing adaptive-content and tutoring UX decisions in edtech products.</description>
+      <description>Calls for guides to manage the inevitable AI psychosis professionals experience after getting AI, including intense, sleepless, and complex projects with AI as company; it&#x27;s usually temporary and can be productive. Why it matters: Direct: Guides help teams avoid burnout and maintain sustainable AI-driven project velocity.</description>
     </item>
     <item>
-      <title>I get why AI labs are so focused on software</title>
-      <link>https://nitter.net/emollick/status/2033745890762952834</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2033745890762952834</guid>
-      <pubDate>Tue, 17 Mar 2026 03:23:00 +0000</pubDate>
+      <title>I&#x27;m very bullish on the role of AI qualitative interviewers</title>
+      <link>https://nitter.net/abhishekn/status/2034384135821959332</link>
+      <guid isPermaLink="true">https://nitter.net/abhishekn/status/2034384135821959332</guid>
+      <pubDate>Wed, 18 Mar 2026 21:39:09 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>AI labs prioritize software development to enable recursive improvement; there are 9.5x more managers than coders and tools for managers are still nascent. Why it matters: Direct: Signals the need for manager-focused AI tooling and organizational workflows to accelerate cross-functional decision-making.</description>
+      <description>Expresses bullish view on AI qualitative interviewers while warning results should be contextualized by sample size and applicability to AI in general. Why it matters: Direct: Signals potential for AI-driven qualitative research methods, with caveats about sample limits.</description>
     </item>
     <item>
-      <title>From journalist to iOS developer: How LinkedIn’s editor builds with Claude Code | Daniel Roth</title>
-      <link>https://www.lennysnewsletter.com/p/from-journalist-to-ios-developer</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/from-journalist-to-ios-developer</guid>
-      <pubDate>Mon, 16 Mar 2026 12:04:08 +0000</pubDate>
+      <title>Outcomes vs. Outputs: What&#x27;s the Difference and Why Does It Matter?</title>
+      <link>https://www.producttalk.org/outcomes-vs-outputs/</link>
+      <guid isPermaLink="true">https://www.producttalk.org/outcomes-vs-outputs/</guid>
+      <pubDate>Wed, 18 Mar 2026 13:00:41 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>LinkedIn editor uses Claude agents to plan features, write code, review security, and ship iOS apps—with zero coding experience. Why it matters: Direct:</description>
+      <description>Explains the difference between outcomes and outputs with clear examples, common mistakes, and practical steps. Why it matters: Direct: Helps product teams focus on value delivery instead of output vanity.</description>
     </item>
     <item>
-      <title>🎙️ This week on How I AI: From Figma to Claude Code and back &amp; From journalist to iOS developer</title>
-      <link>https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-from-figma</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-from-figma</guid>
-      <pubDate>Mon, 16 Mar 2026 15:03:06 +0000</pubDate>
+      <title>Stitch 2.0 by Google</title>
+      <link>https://www.producthunt.com/products/stitch-2-0-by-google-2</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/stitch-2-0-by-google-2</guid>
+      <pubDate>Wed, 18 Mar 2026 18:36:27 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Your weekly listens from How I AI, part of the Lenny&#x27;s Podcast Network. Why it matters: Direct: Highlights ongoing AI-curation content that may inform product teams about AI tooling and developer workflows.</description>
+      <description>Promotes Stitch 2.0 by Google for design that produces a beautiful production-ready UI in seconds. Why it matters: Direct: Could accelerate UI shipping and reduce early-stage design toil.</description>
     </item>
     <item>
-      <title>CPF: Compact Prompt Format — 30-50% Fewer Tokens, Zero Loss</title>
-      <link>https://dev.to/victorstackai/cpf-compact-prompt-format-30-50-fewer-tokens-zero-loss-4k1j</link>
-      <guid isPermaLink="true">https://dev.to/victorstackai/cpf-compact-prompt-format-30-50-fewer-tokens-zero-loss-4k1j</guid>
-      <pubDate>Tue, 17 Mar 2026 08:06:51 +0000</pubDate>
+      <title>How to Train Custom Language Models: Fine-Tuning vs Training From Scratch (2026)</title>
+      <link>https://dev.to/jaipalsingh/how-to-train-custom-language-models-fine-tuning-vs-training-from-scratch-2026-414o</link>
+      <guid isPermaLink="true">https://dev.to/jaipalsingh/how-to-train-custom-language-models-fine-tuning-vs-training-from-scratch-2026-414o</guid>
+      <pubDate>Thu, 19 Mar 2026 09:30:00 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>LLM prompts contain repeated English grammar; token waste arises from common phrases like &#x27;If a module exists, then recommend it. Do NOT reinvent the wheel.&#x27;. Why it matters: Direct: Reducing token waste improves prompt efficiency in practical prompts.</description>
+      <description>Training a custom language model provides full control, no per-token API fees, domain understanding, and ownership of weights; however, &#x27;train a language model&#x27; means different things—some teams adapt an LLM for instructions, others train on proprietary data. Why it matters: Direct: Compares strategies (fine-tuning vs scratch) to help teams decide the best path for domain specialization and data ownership.</description>
     </item>
     <item>
-      <title>AI Agents &amp; Agentic Dev: 7 Quick Tips Every Dev Needs in 2026 🤖</title>
-      <link>https://dev.to/emma_schmidt_/ai-agents-agentic-dev-7-quick-tips-every-dev-needs-in-2026-3jad</link>
-      <guid isPermaLink="true">https://dev.to/emma_schmidt_/ai-agents-agentic-dev-7-quick-tips-every-dev-needs-in-2026-3jad</guid>
-      <pubDate>Tue, 17 Mar 2026 04:53:13 +0000</pubDate>
+      <title>OpenClaw Use Cases: Complete Configuration Guide for AI Product Developers (2026)</title>
+      <link>https://www.reddit.com/r/u_Spare_Ad7081/comments/1rxtwg7/openclaw_use_cases_complete_configuration_guide/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/u_Spare_Ad7081/comments/1rxtwg7/openclaw_use_cases_complete_configuration_guide/</guid>
+      <pubDate>Thu, 19 Mar 2026 07:28:55 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>90% of production code is now being written by AI agents. Not in 5 years. Right now, in 2026. The question isn&#x27;t if you adopt agentic development. It&#x27;s whether you&#x27;ll do it well or set your codebase on fire. Why it matters: Direct: Encourages careful adoption of AI agents to avoid fragile or unsafe codebases.</description>
+      <description>Using OpenClaw with official provider endpoints incurs list-price costs, multiple API keys, and constant switching between docs to change models; a faster path exists. Why it matters: Direct: Highlights operational friction when using OpenClaw and points to a streamlined alternative for model switching.</description>
     </item>
     <item>
-      <title>[AI] Claude Certified Architect</title>
-      <link>https://www.reddit.com/r/azuretips/comments/1rvxiaq/ai_claude_certified_architect/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/azuretips/comments/1rvxiaq/ai_claude_certified_architect/</guid>
-      <pubDate>Tue, 17 Mar 2026 05:06:17 +0000</pubDate>
+      <title>Apa itu OpenViking? Panduan Lengkap dan Fitur Unggulan</title>
+      <link>https://dev.to/walse/apa-itu-openviking-panduan-lengkap-dan-fitur-unggulan-2gd8</link>
+      <guid isPermaLink="true">https://dev.to/walse/apa-itu-openviking-panduan-lengkap-dan-fitur-unggulan-2gd8</guid>
+      <pubDate>Thu, 19 Mar 2026 09:54:11 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Claude Certified Architect — Foundations certification confirms that a specialist can make sound trade-off decisions when implementing real-world Claude-based solutions. Why it matters: Direct: Establishes a foundations-level Claude certification for sound architectural decisions.</description>
+      <description>OpenViking is an open-context database for AI agents, replacing flat vector storage with a filesystem-like paradigm. It organizes context (memory, resources, skills) under viking:// with three layers: L0 (~100 tokens), L1 (~2k), L2 full content. Why it matters: Direct: Describes a hierarchical context model useful for agent memory management and data governance.</description>
     </item>
     <item>
-      <title>CI/CD for AI: Automating Prompt Testing in Your Deployment Pipeline</title>
-      <link>https://www.reddit.com/r/LightAPILLM/comments/1rvqxoh/cicd_for_ai_automating_prompt_testing_in_your/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LightAPILLM/comments/1rvqxoh/cicd_for_ai_automating_prompt_testing_in_your/</guid>
-      <pubDate>Tue, 17 Mar 2026 00:03:13 +0000</pubDate>
+      <title>Jailbreaking Skills 101 - Prompt Extraction</title>
+      <link>https://www.reddit.com/r/ClaudeAIJailbreak/comments/1rxw5od/jailbreaking_skills_101_prompt_extraction/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAIJailbreak/comments/1rxw5od/jailbreaking_skills_101_prompt_extraction/</guid>
+      <pubDate>Thu, 19 Mar 2026 09:52:41 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Describes automated prompt testing in CI/CD using LightAPI to save API costs and harden deployment pipelines against prompt regression. Why it matters: Direct: Automating prompt testing reduces downstream instability due to prompt or model changes and lowers costs.</description>
+      <description>Author recounts a late-2024 phase of blue teaming to create nearly impenetrable prompt techniques, noting that nothing is foolproof. Why it matters: Direct: Highlights limits of jailbreaks and the need for robust prompt-security practices.</description>
     </item>
     <item>
-      <title>Troubleshooting and Optimizing a BFRB Sensor Data Model using LightGBM and AI Assistants</title>
-      <link>https://www.reddit.com/r/BiomedicalDataScience/comments/1rw2wxq/troubleshooting_and_optimizing_a_bfrb_sensor_data/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/BiomedicalDataScience/comments/1rw2wxq/troubleshooting_and_optimizing_a_bfrb_sensor_data/</guid>
-      <pubDate>Tue, 17 Mar 2026 10:36:54 +0000</pubDate>
+      <title>Building WhatsApp with Jean Lee</title>
+      <link>https://newsletter.pragmaticengineer.com/p/building-whatsapp-with-jean-lee</link>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/building-whatsapp-with-jean-lee</guid>
+      <pubDate>Wed, 18 Mar 2026 17:20:22 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>A practical coding session targets improving a BFRB classification model with time-series/sensor data, addressing feature overlap and class imbalance that can hurt F1 scores in IMU/TOF contexts. Why it matters: Direct: Highlights practical steps for handling overlapping features and imbalanced classes in sensor time-series models, potentially boosting F1 performance in BFRB classificatio...</description>
+      <description>Jean Lee, engineer #19 at WhatsApp, discusses scaling the app with a tiny team, the Facebook acquisition, and what it reveals about the future of engineering. Why it matters: Direct: Highlights scalable practices from a tiny team at WhatsApp post-acquisition, signaling future constraints and opportunities for engineering org structures.</description>
     </item>
     <item>
-      <title>Creating a WhatsApp AI Agent for Doctor Appointment Scheduling with n8n</title>
-      <link>https://www.reddit.com/r/AI_Agents/comments/1rw2uaa/creating_a_whatsapp_ai_agent_for_doctor/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/AI_Agents/comments/1rw2uaa/creating_a_whatsapp_ai_agent_for_doctor/</guid>
-      <pubDate>Tue, 17 Mar 2026 10:32:49 +0000</pubDate>
+      <title>I’m a student who got tired of 8-hour &quot;One-Shot&quot; videos, so I built a tool to automate Board revision.</title>
+      <link>https://www.reddit.com/r/ICSE/comments/1rxwse3/im_a_student_who_got_tired_of_8hour_oneshot/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ICSE/comments/1rxwse3/im_a_student_who_got_tired_of_8hour_oneshot/</guid>
+      <pubDate>Thu, 19 Mar 2026 10:29:20 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Describes a workflow using n8n to automate doctor appointment booking via WhatsApp and an AI-driven system to handle scheduling and patient interactions with minimal manual input. Why it matters: Direct: Demonstrates a low-code approach to AI-assisted scheduling that could reduce queue time and manual workload in clinical settings.</description>
+      <description>I&#x27;m a first-year mechanical engineering student, and I remember the chaos of Boards and entrance exams last year. Why it matters: Direct: Highlights learner fatigue with long-form content and signals demand for concise revision tools.</description>
     </item>
     <item>
-      <title>PSA: Predictions markets often have very low liquidity; be careful citing them.</title>
-      <link>https://www.lesswrong.com/posts/SrtoF6PcbHpzcT82T/psa-predictions-markets-often-have-very-low-liquidity-be</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/SrtoF6PcbHpzcT82T/psa-predictions-markets-often-have-very-low-liquidity-be</guid>
-      <pubDate>Mon, 16 Mar 2026 21:07:17 +0000</pubDate>
+      <title>I built an AI file organizer clean your folders automatically (offline &amp; private)</title>
+      <link>https://www.reddit.com/r/software/comments/1rxwnbw/i_built_an_ai_file_organizer_clean_your_folders/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/software/comments/1rxwnbw/i_built_an_ai_file_organizer_clean_your_folders/</guid>
+      <pubDate>Thu, 19 Mar 2026 10:21:10 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Warns against citing low-liquidity prediction markets to support nontrivial claims, noting such numbers should be treated as less informative. Why it matters: Direct: Highlights a common misstep in using thinly traded markets as solid probabilities, reducing overconfidence in AI decision contexts.</description>
+      <description>An offline AI-driven file organizer built solo, automatically tidying folders by understanding file content rather than only sorting by type. Why it matters: Direct: Demonstrates practical offline AI tooling that preserves privacy while improving file organization, a potential edge over cloud-based solutions.</description>
     </item>
     <item>
-      <title>You can’t imitation-learn how to continual-learn</title>
-      <link>https://www.lesswrong.com/posts/9rCTjbJpZB4KzqhiQ/you-can-t-imitation-learn-how-to-continual-learn</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/9rCTjbJpZB4KzqhiQ/you-can-t-imitation-learn-how-to-continual-learn</guid>
-      <pubDate>Mon, 16 Mar 2026 21:20:12 +0000</pubDate>
+      <title>A Coding Guide to Implement Advanced Differential Equation Solvers, Stochastic Simulations, and Neural Ordinary Differential Equations Using Diffrax and JAX</title>
+      <link>https://www.marktechpost.com/2026/03/19/a-coding-guide-to-implement-advanced-differential-equation-solvers-stochastic-simulations-and-neural-ordinary-differential-equations-using-diffrax-and-jax/</link>
+      <guid isPermaLink="true">https://www.marktechpost.com/2026/03/19/a-coding-guide-to-implement-advanced-differential-equation-solvers-stochastic-simulations-and-neural-ordinary-differential-equations-using-diffrax-and-jax/</guid>
+      <pubDate>Thu, 19 Mar 2026 08:11:01 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Argues that imitation learning cannot substitute for continual learning in LLMs, highlighting limitations of current human-learning analogy. Why it matters: Direct: Clarifies boundary conditions for AI education and deployment, preventing overreliance on imitation-based approaches for continual learning.</description>
+      <description>Tutorial on solving differential equations and neural differential equations using Diffrax with environment setup for JAX, Diffrax, Equinox, and Optax. Why it matters: Direct: Highlights practical steps to start advanced differential equation work with neural components and concrete toolchain.</description>
     </item>
     <item>
-      <title>I use Lisp to script my game&#x27;s missions. Yes, in 2026. Here&#x27;s why.</title>
-      <link>https://www.reddit.com/r/gamedev/comments/1rvxmpc/i_use_lisp_to_script_my_games_missions_yes_in/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/gamedev/comments/1rvxmpc/i_use_lisp_to_script_my_games_missions_yes_in/</guid>
-      <pubDate>Tue, 17 Mar 2026 05:13:08 +0000</pubDate>
+      <title>I built a multiplayer game where two AIs debate and people can vote on who wins.</title>
+      <link>https://www.reddit.com/r/u_Fun_Version7007/comments/1rxwmps/i_built_a_multiplayer_game_where_two_ais_debate/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/u_Fun_Version7007/comments/1rxwmps/i_built_a_multiplayer_game_where_two_ais_debate/</guid>
+      <pubDate>Thu, 19 Mar 2026 10:20:13 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>I&#x27;m building a browser-based turn-based stealth game (Rust backend, SvelteKit + Pixi.js frontend) and I needed a way to define mission logic - triggers, NPC behaviors, dialogue outcomes, event chains. Why it matters: Direct: This matters for why this is creative and interesting, based on this update from Reddit AI Prompt Search.</description>
+      <description>Last weekend, I built a demo multiplayer game where two AIs debate and players vote on the winner, using Next.js, Liveblocks, OpenAI, and Supabase; it can be edgy. Why it matters: Direct: Demonstrates a real-time AI debate game prototype with audience voting, illustrating practical UX for AI-enabled competitive formats.</description>
     </item>
     <item>
-      <title>Claude AI peut-il créer des assets et des HUD &quot;Premium&quot; pour Roblox ? (Retour d&#x27;expérience)</title>
-      <link>https://www.reddit.com/r/robloxgamedev/comments/1rw2qxt/claude_ai_peutil_créer_des_assets_et_des_hud/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/robloxgamedev/comments/1rw2qxt/claude_ai_peutil_créer_des_assets_et_des_hud/</guid>
-      <pubDate>Tue, 17 Mar 2026 10:27:27 +0000</pubDate>
+      <title>I built a multiplayer game where two AIs debate and people can vote on who wins.</title>
+      <link>https://www.reddit.com/r/nextjs/comments/1rxwp4y/i_built_a_multiplayer_game_where_two_ais_debate/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/nextjs/comments/1rxwp4y/i_built_a_multiplayer_game_where_two_ais_debate/</guid>
+      <pubDate>Thu, 19 Mar 2026 10:24:11 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Salut à tous ! J&#x27;utilise Claude pour mon projet Roblox et honnêtement, côté scripting, c&#x27;est un 10/10. Il me gère des systèmes complexes (inventaires à onglets, économie, data) sans aucune erreur. Why it matters: Direct: This matters for why this is creative and interesting, based on this update from Reddit AI Workflow Search.</description>
+      <description>submitted by /u/Fun_Version7007 to r/nextjs [link] [comments] Why it matters: Direct: Shows user-sourced content sharing AI gameplay concepts, highlighting community-driven iteration.</description>
     </item>
     <item>
-      <title>Nvidia builds partnerships in effort to connect AI-driven robots to the real world</title>
-      <link>https://siliconangle.com/2026/03/16/nvidia-builds-partnerships-effort-connect-ai-driven-robots-real-world/</link>
-      <guid isPermaLink="true">https://siliconangle.com/2026/03/16/nvidia-builds-partnerships-effort-connect-ai-driven-robots-real-world/</guid>
-      <pubDate>Mon, 16 Mar 2026 20:30:59 +0000</pubDate>
+      <title>Doodles Ai</title>
+      <link>https://www.producthunt.com/products/doodles-ai</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/doodles-ai</guid>
+      <pubDate>Wed, 18 Mar 2026 20:05:35 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Nvidia Corp. announced today that it’s partnering with global robotics leaders, including robot “brains” developers, industrial humanoid makers and others to advance the production-scale of physical AI, the technology t... Why it matters: Direct: This matters for why this is creative and interesting, based on this update from SiliconANGLE.</description>
+      <description>Doodles Ai is an artist platform described as a self-contained Doodles IP LLM Discussion; link provided. Why it matters: Direct: Highlights IP-aware AI artist platforms and self-contained models that facilitate discussions around intellectual property and licensing.</description>
     </item>
     <item>
-      <title>&#x27;One in a million&#x27; malfunction rained shrapnel onto 5 Freeway near Camp Pendleton, report says</title>
-      <link>https://www.latimes.com/california/story/2026-03-16/live-fire-exercise-malfunction-camp-pendleton</link>
-      <guid isPermaLink="true">https://www.latimes.com/california/story/2026-03-16/live-fire-exercise-malfunction-camp-pendleton</guid>
-      <pubDate>Tue, 17 Mar 2026 00:22:41 +0000</pubDate>
+      <title>Your next car might need 300 GB of RAM, and so will autonomous robots</title>
+      <link>https://go.theregister.com/feed/www.theregister.com/2026/03/19/micron_q2_2026/</link>
+      <guid isPermaLink="true">https://go.theregister.com/feed/www.theregister.com/2026/03/19/micron_q2_2026/</guid>
+      <pubDate>Thu, 19 Mar 2026 04:39:35 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>An artillery shell fired over Interstate 5 during a live-fire demonstration at Camp Pendleton prematurely exploded, military officials said in a report, calling the incident a &quot;one in a million&quot; malfunction. Why it matters: Direct: This matters for why this is creative and interesting, based on this update from News from California, across the nation and world - Los Angeles Times.</description>
+      <description>Micron predicts continued demand as autonomous cars and robots will need about 300 gigabytes of DRAM or more, after $10 billion revenue in a single quarter. Why it matters: Direct: Quantifies AI and robotics memory needs, informing procurement, architecture choices, and supply chain planning for memory vendors.</description>
     </item>
   </channel>
 </rss>
