@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-03-21",
+    "title": "Daily AI Feed - 2026-03-21",
+    "lead_story": "sharing my approach to solving context loss across Claude sessions",
+    "lead_url": "https://www.reddit.com/r/ClaudeAI/comments/1rzg4of/sharing_my_approach_to_solving_context_loss/",
+    "generated_at": "2026-03-21T10:31:00+00:00"
+  },
+  {
     "date": "2026-03-20",
     "title": "Daily AI Feed - 2026-03-20",
     "lead_story": "I built a free Claude Code skill that checks your setup against the latest docs and recommends what to change",
