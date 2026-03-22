@@ -1,202 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-03-21</title>
+    <title>Daily AI Feed - 2026-03-22</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Sat, 21 Mar 2026 10:31:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 10:32:41 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>sharing my approach to solving context loss across Claude sessions</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1rzg4of/sharing_my_approach_to_solving_context_loss/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAI/comments/1rzg4of/sharing_my_approach_to_solving_context_loss/</guid>
-      <pubDate>Sat, 21 Mar 2026 02:41:35 +0000</pubDate>
+      <title>My Hammertime Final Exam</title>
+      <link>https://www.lesswrong.com/posts/5PCvd2FYxhCuqBdQw/my-hammertime-final-exam-1</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/5PCvd2FYxhCuqBdQw/my-hammertime-final-exam-1</guid>
+      <pubDate>Sat, 21 Mar 2026 22:11:59 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>A post describes repeatedly re-explaining project architecture to Claude at session start; attempts include giant system prompts and CLAUDE.md files. Why it matters: Direct: Illustrates practical prompts-based approaches to reduce re-explanation overhead and maintain context across Claude sessions.</description>
+      <description>LessWrong post outlining prompts to design an instrumental rationality technique, introduce a rationality principle or framework, and describe a cognitive defect, bias, or blindspot. Why it matters: Direct: Provides a concrete prompt task for articulating rationality prompts, aiding reproducible prompt design.</description>
     </item>
     <item>
-      <title>Building Memory for an AI Career Advisor Was Harder Than Building the AI Itself</title>
-      <link>https://dev.to/puttapaka_nikhilyadav_63/building-memory-for-an-ai-career-advisor-was-harder-than-building-the-ai-itself-8oi</link>
-      <guid isPermaLink="true">https://dev.to/puttapaka_nikhilyadav_63/building-memory-for-an-ai-career-advisor-was-harder-than-building-the-ai-itself-8oi</guid>
-      <pubDate>Sat, 21 Mar 2026 10:04:00 +0000</pubDate>
+      <title>Building an AWS Cost Visualization Workflow with Strands Agents Skills and AgentCore Code Interpreter</title>
+      <link>https://dev.to/yokomachi/building-an-aws-cost-visualization-workflow-with-strands-agents-skills-and-agentcore-code-4h10</link>
+      <guid isPermaLink="true">https://dev.to/yokomachi/building-an-aws-cost-visualization-workflow-with-strands-agents-skills-and-agentcore-code-4h10</guid>
+      <pubDate>Sun, 22 Mar 2026 09:56:11 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>An account argues memory for an AI career advisor is harder than building the advisor; naive memory approaches fail quickly. Why it matters: Direct: Demonstrates limits of naive memory approaches and the need for robust memory strategies in AI apps.</description>
+      <description>Introduction I&#x27;m currently developing a personal AI agent called TONaRi. It also has an X (Twitter) account where it posts tech news and more. https://x. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from DEV.to AI Tag.</description>
     </item>
     <item>
-      <title>Turbo Pascal 3.02A, deconstructed</title>
-      <link>https://simonwillison.net/2026/Mar/20/turbo-pascal/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Mar/20/turbo-pascal/</guid>
-      <pubDate>Fri, 20 Mar 2026 23:59:14 +0000</pubDate>
+      <title>[SELLING] Promptiya AI -Duolingo for Prompt Engineering| Fully Built SaaS $100</title>
+      <link>https://www.reddit.com/r/SaaSAcquire/comments/1s0hme3/selling_promptiya_ai_duolingo_for_prompt/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/SaaSAcquire/comments/1s0hme3/selling_promptiya_ai_duolingo_for_prompt/</guid>
+      <pubDate>Sun, 22 Mar 2026 09:51:52 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>A post notes that Borland&#x27;s Turbo Pascal 3.02 executable (39,731 bytes) included a full text editor IDE and Pascal compiler. Why it matters: Direct: Demonstrates how small binaries can embed substantial tooling, informing packaging and tool-size considerations.</description>
+      <description>Selling a fully production-ready SaaS I built called Promptiya AI https://promptsbud.web. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from Reddit AI Workflow Search.</description>
     </item>
     <item>
-      <title>We thought our system prompt was private. Turns out anyone can extract it with the right questions.</title>
-      <link>https://www.reddit.com/r/artificial/comments/1rz9yg5/we_thought_our_system_prompt_was_private_turns/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/artificial/comments/1rz9yg5/we_thought_our_system_prompt_was_private_turns/</guid>
-      <pubDate>Fri, 20 Mar 2026 22:12:01 +0000</pubDate>
-      <category>0) Practical Prompts</category>
-      <description>Post reports that a detailed system prompt for an internal AI tool can be extracted by end users, contradicting assumptions of privacy. Why it matters: Direct: Reveals prompt-privacy risk and potential exposure of internal app logic.</description>
-    </item>
-    <item>
-      <title>Control Claude Code from Telegram — Hermes IDE Just Made It a Checkbox</title>
-      <link>https://dev.to/gabrielanhaia/control-claude-code-from-telegram-hermes-ide-just-made-it-a-checkbox-2k1b</link>
-      <guid isPermaLink="true">https://dev.to/gabrielanhaia/control-claude-code-from-telegram-hermes-ide-just-made-it-a-checkbox-2k1b</guid>
-      <pubDate>Sat, 21 Mar 2026 10:14:37 +0000</pubDate>
+      <title>A VC-Backed Startup Just Open-Sourced What I Built in My Apartment</title>
+      <link>https://dev.to/the200dollarceo/a-vc-backed-startup-just-open-sourced-what-i-built-in-my-apartment-lm7</link>
+      <guid isPermaLink="true">https://dev.to/the200dollarceo/a-vc-backed-startup-just-open-sourced-what-i-built-in-my-apartment-lm7</guid>
+      <pubDate>Sun, 22 Mar 2026 10:09:20 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Article discusses controlling Claude code from Telegram via Hermes IDE checkbox, enabling remote build control. Why it matters: Direct: Enables remote build control workflow via Telegram and Hermes IDE, reducing context-switching during out-of-office builds.</description>
+      <description>Galileo, backed by Databricks Ventures and Battery Ventures, released Agent Control as an open-source (Apache 2.0) control plane with day-one integrations to CrewAI, Cisco AI Defense, and Glean to define and enforce desired AI-agent behavior. Why it matters: Direct: Enables teams to operationalize multi-agent policies via open-source tooling, reducing dependency on proprietary controls.</description>
     </item>
     <item>
-      <title>OpenCode – Open source AI coding agent</title>
-      <link>https://opencode.ai/</link>
-      <guid isPermaLink="true">https://opencode.ai/</guid>
-      <pubDate>Fri, 20 Mar 2026 21:03:52 +0000</pubDate>
+      <title>Every web form should be callable by AI agents (and yours can be today)</title>
+      <link>https://dev.to/prasannagyde/every-web-form-should-be-callable-by-ai-agents-and-yours-can-be-today-228</link>
+      <guid isPermaLink="true">https://dev.to/prasannagyde/every-web-form-should-be-callable-by-ai-agents-and-yours-can-be-today-228</guid>
+      <pubDate>Sun, 22 Mar 2026 10:04:05 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>OpenCode is an open-source AI coding agent. Why it matters: Direct: OpenCode&#x27;s open-source AI coding agent warrants quick capability and ecosystem assessment.</description>
+      <description>AI agents can browse, click, read emails, and write code, but struggle to fill web forms using brittle CSS selectors and XPath; Chrome is about to introduce changes. Why it matters: Direct: Reduces reliance on fragile DOM targeting as Chrome updates form-interaction capabilities.</description>
     </item>
     <item>
-      <title>[D] Seeking feedback: Safe autonomous agents for enterprise systems</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1rziq9q/d_seeking_feedback_safe_autonomous_agents_for/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1rziq9q/d_seeking_feedback_safe_autonomous_agents_for/</guid>
-      <pubDate>Sat, 21 Mar 2026 04:56:03 +0000</pubDate>
+      <title>ik_llama.cpp gives 26x faster prompt processing on Qwen 3.5 27B — real world numbers</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s07ysr/ik_llamacpp_gives_26x_faster_prompt_processing_on/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s07ysr/ik_llamacpp_gives_26x_faster_prompt_processing_on/</guid>
+      <pubDate>Sun, 22 Mar 2026 00:52:53 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Post seeking feedback on safe autonomous agents for enterprise systems, noting risk of unsafe actions in production. Why it matters: Direct: Enterprise safety considerations for autonomous agents; provide feedback and establish production risk guidelines.</description>
+      <description>User reports that switching from mainline llama.cpp to the ik_llama.cpp fork yields about 26x faster prompt processing for Qwen 3.5 27B on a Blackwell RTX PRO 4000 (24GB), based on agentic coding workloads. Why it matters: Direct: Provides a practical speedup path for local inference workloads with 27B-size models on consumer GPUs.</description>
     </item>
     <item>
-      <title>Running TinyLlama 1.1B locally on a PowerBook G4 from 2002. Mac OS 9, no internet, installed from a CD.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1ryu7rr/running_tinyllama_11b_locally_on_a_powerbook_g4/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1ryu7rr/running_tinyllama_11b_locally_on_a_powerbook_g4/</guid>
-      <pubDate>Fri, 20 Mar 2026 11:54:40 +0000</pubDate>
+      <title>I checked Strix Halo (Ryzen ai max+ 395) performance test as context length increases</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s0hpg8/i_checked_strix_halo_ryzen_ai_max_395_performance/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s0hpg8/i_checked_strix_halo_ryzen_ai_max_395_performance/</guid>
+      <pubDate>Sun, 22 Mar 2026 09:57:14 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Post about running TinyLlama 1.1B locally on a PowerBook G4, showcasing offline AI on vintage Mac hardware. Why it matters: Direct: Demonstrates offline AI inference on vintage hardware; consider documentation and reproducibility steps.</description>
+      <description>Benchmarking Strix Halo (Ryzen AI Max+ 395) for Local LLM, testing model latency as context length grows on a 128GB AMD Strix Halo; results published at bluepaun.github. Why it matters: Direct: Context-length scaling matters for local LLM deployments; provides hands-on data on latency trends for 128GB hardware.</description>
     </item>
     <item>
-      <title>When Your Vibe Coded App Goes Viral—And Then Goes Down</title>
-      <link>https://every.to/chain-of-thought/when-your-vibe-coded-app-goes-viral-and-then-goes-down</link>
-      <guid isPermaLink="true">https://every.to/chain-of-thought/when-your-vibe-coded-app-goes-viral-and-then-goes-down</guid>
-      <pubDate>Fri, 20 Mar 2026 14:00:00 +0000</pubDate>
+      <title>I don’t think AIs should be auto-adding themselves as credited</title>
+      <link>https://nitter.net/emollick/status/2035398018019508403</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2035398018019508403</guid>
+      <pubDate>Sat, 21 Mar 2026 16:47:58 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Post-launch, a vibe-coded app went viral then faced outages; the author recounts watching a Codex agent attempt to revive the server after launching their agent-native document editor, Proof. Why it matters: Direct: Shows real-world uptime pressure after a product launch and the need for quick recovery workflows in AI-assisted apps.</description>
+      <description>AIs should not auto-credit themselves on Github or other projects; credits are better reserved for humans who choose their relationship with AI work. Why it matters: Direct: Highlights human-centered attribution, reducing marketing-driven AI branding in product work.</description>
     </item>
     <item>
-      <title>These are the most bot-infested my replies have ever been</title>
-      <link>https://nitter.net/emollick/status/2035171797474197599</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2035171797474197599</guid>
-      <pubDate>Sat, 21 Mar 2026 01:49:02 +0000</pubDate>
+      <title>Its not Simcity</title>
+      <link>https://nitter.net/emollick/status/2035533726319357956</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2035533726319357956</guid>
+      <pubDate>Sun, 22 Mar 2026 01:47:13 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Author notes bot-infested replies, estimating at most 10% are human. Why it matters: Direct: Indicates automation saturation in replies and the need for human-in-the-loop checks.</description>
+      <description>Its not Simcity, but Civ V skills correlate with better planning, organizing, and problem-solving in a small experiment. Why it matters: Direct: Signals that transferability of game-based skills to management tasks can inform hiring and training in product roles.</description>
     </item>
     <item>
-      <title>Weekly Dose of Optimism #185</title>
-      <link>https://www.notboring.co/p/weekly-dose-of-optimism-185</link>
-      <guid isPermaLink="true">https://www.notboring.co/p/weekly-dose-of-optimism-185</guid>
-      <pubDate>Fri, 20 Mar 2026 12:46:59 +0000</pubDate>
+      <title>🧠 Community Wisdom: Beating the solo-founder procrastination trap, best tools for B2B prospecting, finding your first real users pre-launch, and more</title>
+      <link>https://www.lennysnewsletter.com/p/community-wisdom-beating-the-solo</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/community-wisdom-beating-the-solo</guid>
+      <pubDate>Sat, 21 Mar 2026 17:19:36 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Weekly Dose of Optimism #185 compiles topics including Kalanick, Bezos, Copper One, cancer drugs, Shinzen, scientific breakthroughs, and a favored essay. Why it matters: Direct: Curated mix of AI/business breakthroughs informs product strategy and inspiration.</description>
+      <description>Community Wisdom 178 Why it matters: Direct: Highlights a curated set of insights on startup tooling and go-to-market practices.</description>
     </item>
     <item>
-      <title>Our editor just won a global award from Medium</title>
-      <link>https://www.productcoalition.com/p/our-editor-just-won-a-global-award</link>
-      <guid isPermaLink="true">https://www.productcoalition.com/p/our-editor-just-won-a-global-award</guid>
-      <pubDate>Fri, 20 Mar 2026 12:13:34 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>An editor won a global Medium award for uplifting new and emerging voices on the platform. Why it matters: Direct: Demonstrates recognition for inclusive content strategies and potential trust/engagement gains.</description>
-    </item>
-    <item>
-      <title>Building Production AI Agents with LangGraph: Beyond the Toy Examples (2026)</title>
-      <link>https://dev.to/young_gao/building-production-ai-agents-with-langgraph-beyond-the-toy-examples-2idm</link>
-      <guid isPermaLink="true">https://dev.to/young_gao/building-production-ai-agents-with-langgraph-beyond-the-toy-examples-2idm</guid>
-      <pubDate>Sat, 21 Mar 2026 07:46:49 +0000</pubDate>
+      <title>AI Agents for Business: What They Are and How Teams Use Them in 2026</title>
+      <link>https://dev.to/superdots/ai-agents-for-business-what-they-are-and-how-teams-use-them-in-2026-10n8</link>
+      <guid isPermaLink="true">https://dev.to/superdots/ai-agents-for-business-what-they-are-and-how-teams-use-them-in-2026-10n8</guid>
+      <pubDate>Sun, 22 Mar 2026 09:00:02 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Notes that every AI tutorial shows a chatbot that answers questions; an agent decides what to do, takes action, observes results, and adapts, with production requiring audit trails, error recovery, and human oversight. Why it matters: Direct: Production-grade AI agents require reliable action-taking, observation, and adaptation, along with audit trails and human oversight to avoid toy behavior.</description>
+      <description>AI agents perform end-to-end workflows, handling researching, planning, executing, and checking their own work, representing a shift beyond traditional chatbots that answer questions. Why it matters: Direct: Highlights a practical shift to autonomous workflow handling, enabling faster delivery by reducing manual handoffs.</description>
     </item>
     <item>
-      <title>Agent Diagnostics Mode — A Structured Technique for Iterative Prompt Tuning</title>
-      <link>https://dev.to/gemyago/agent-diagnostics-mode-a-structured-technique-for-iterative-prompt-tuning-hg8</link>
-      <guid isPermaLink="true">https://dev.to/gemyago/agent-diagnostics-mode-a-structured-technique-for-iterative-prompt-tuning-hg8</guid>
-      <pubDate>Sat, 21 Mar 2026 09:24:12 +0000</pubDate>
+      <title>Engineering GraphRAG for Production: API Design, Query Optimization, and Service Reliability</title>
+      <link>https://dev.to/jamesli/engineering-graphrag-for-production-api-design-query-optimization-and-service-reliability-2mh6</link>
+      <guid isPermaLink="true">https://dev.to/jamesli/engineering-graphrag-for-production-api-design-query-optimization-and-service-reliability-2mh6</guid>
+      <pubDate>Sun, 22 Mar 2026 08:13:58 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Notes that prompts are not static configuration, and drift occurs after model updates even for months-long LLM-powered agents; introduces Agent Diagnostics Mode as a structured iterative prompt-tuning technique. Why it matters: Direct: Prompt drift undermines long-running agents; structured diagnostic prompts help maintain alignment across model updates.</description>
+      <description>Production deployment of GraphRAG faces gaps between open-source scripts and enterprise services, as official tooling provides CLI scripts and low-level Python calls instead of a full API. Why it matters: Direct: Highlights a production gap that requires an API-first approach to replace CLI scripts.</description>
     </item>
     <item>
-      <title>Want to share my workflow building an iOS app</title>
-      <link>https://www.reddit.com/r/vibecoding/comments/1rzanr3/want_to_share_my_workflow_building_an_ios_app/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/vibecoding/comments/1rzanr3/want_to_share_my_workflow_building_an_ios_app/</guid>
-      <pubDate>Fri, 20 Mar 2026 22:41:04 +0000</pubDate>
+      <title>Show HN: AI SDLC Scaffold, repo template for AI-assisted software development</title>
+      <link>https://github.com/pangon/ai-sdlc-scaffold/</link>
+      <guid isPermaLink="true">https://github.com/pangon/ai-sdlc-scaffold/</guid>
+      <pubDate>Sat, 21 Mar 2026 12:43:09 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Reddit post describes a non-developer with strong tech/AI interest who built an iOS app workflow, heavily using ComfyUI and image/video generation, evolving from a hobby project to App Store consideration. Why it matters: Direct: Demonstrates how hobbyist workflows can scale toward real app deployment using AI tools, relevant to indie developers.</description>
+      <description>An open-source AI SDLC scaffold provides a repo template structuring from objectives and user stories through architecture decisions, designed to be tool-agnostic. Why it matters: Direct: Demonstrates a practical starting point for AI-driven software projects.</description>
     </item>
     <item>
-      <title>How to make your skill or agent in Claude Code go live</title>
-      <link>https://www.reddit.com/r/ClaudeCode/comments/1rzn2cf/how_to_make_your_skill_or_agent_in_claude_code_go/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeCode/comments/1rzn2cf/how_to_make_your_skill_or_agent_in_claude_code_go/</guid>
-      <pubDate>Sat, 21 Mar 2026 09:22:12 +0000</pubDate>
+      <title>Using Git with coding agents</title>
+      <link>https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/</link>
+      <guid isPermaLink="true">https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/</guid>
+      <pubDate>Sat, 21 Mar 2026 22:08:24 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Notes that Claude Code is praised as a strong agent runtime but is terminal-only; the team needs live agents that autonomously respond to events (errors, new leads) via webhooks and notifications, rather than waiting for sessions. Why it matters: Direct: Production needs agents that operate continuously, handle real-time events, and push alerts, rather than relying on manual session starts.</description>
+      <description>Git is a key tool for coding agents, enabling version control to track changes and support investigation and reversal of mistakes. Why it matters: Direct: Emphasizes practical application of Git for auditing agent-coded changes and reversing errors.</description>
     </item>
     <item>
-      <title>I built a tool that turns any PDF or photo into a quiz in 30 seconds — here&#x27;s why I made it</title>
-      <link>https://www.reddit.com/r/studytips/comments/1rznpa0/i_built_a_tool_that_turns_any_pdf_or_photo_into_a/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/studytips/comments/1rznpa0/i_built_a_tool_that_turns_any_pdf_or_photo_into_a/</guid>
-      <pubDate>Sat, 21 Mar 2026 10:03:04 +0000</pubDate>
+      <title>If you intensively use chatGPT or Claude you should give this addon a try</title>
+      <link>https://www.reddit.com/r/Solopreneur/comments/1s0hwih/if_you_intensively_use_chatgpt_or_claude_you/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/Solopreneur/comments/1s0hwih/if_you_intensively_use_chatgpt_or_claude_you/</guid>
+      <pubDate>Sun, 22 Mar 2026 10:08:57 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>A tool that converts any PDF or photo into a quiz in 30 seconds was built to replace slow manual flashcards, addressing passive reading that failed to aid retention. Why it matters: Direct: Demonstrates a practical workflow for rapid quiz generation to boost retention over passive reading.</description>
+      <description>Agentic Prompts Chain is a browser extension that turns AI chats into structured, repeatable workflows, reducing repeated searches across multi-prompt chains (6–7 prompts mentioned). Why it matters: Direct: Reduces friction from repetitive prompt chaining by enabling repeatable AI workflows at scale.</description>
     </item>
     <item>
-      <title>I was tired of manually screening hundreds of candidates. So I built an AI to solve it, and now 100+ businesses use it</title>
-      <link>https://www.reddit.com/r/InterviewFlowAI/comments/1rzntdw/i_was_tired_of_manually_screening_hundreds_of/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/InterviewFlowAI/comments/1rzntdw/i_was_tired_of_manually_screening_hundreds_of/</guid>
-      <pubDate>Sat, 21 Mar 2026 10:10:16 +0000</pubDate>
+      <title>Profiling Hacker News users based on their comments</title>
+      <link>https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/</guid>
+      <pubDate>Sat, 21 Mar 2026 23:59:47 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>A person tired of screening hundreds of candidates built an AI to automate the process; now 100+ businesses use it. Why it matters: Direct: Demonstrates scalable recruitment automation with measurable adoption across multiple firms.</description>
+      <description>Experimenting with a Profile this user prompt using the last 1,000 Hacker News comments; comments can be retrieved via Algolia Hacker News API with author_username tagging. Why it matters: Direct: Enables scalable profiling of users, highlighting potential biases and behavioral patterns from public comment data.</description>
     </item>
     <item>
-      <title>Quoting Kimi.ai @Kimi_Moonshot</title>
-      <link>https://simonwillison.net/2026/Mar/20/cursor-on-kimi/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Mar/20/cursor-on-kimi/</guid>
-      <pubDate>Fri, 20 Mar 2026 20:29:23 +0000</pubDate>
+      <title>From n8n to Making a Platform</title>
+      <link>https://www.reddit.com/r/n8n/comments/1s0i1jb/from_n8n_to_making_a_platform/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/n8n/comments/1s0i1jb/from_n8n_to_making_a_platform/</guid>
+      <pubDate>Sun, 22 Mar 2026 10:17:20 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Simon Willison congratulates Cursor AI on Composer 2, confirming Kimi-k2.5 foundations and integration via Cursor&#x27;s pretraining and RL training. Why it matters: Direct: Highlights open-model ecosystem support and integration pathways via Kimi-k2.5 within Cursor&#x27;s tooling.</description>
+      <description>A solo developer from the Philippines shipped something after a year of building with no team or money, driven by frustration with online learning. Why it matters: Direct: Highlights solo founders&#x27; path to shipping without equity funding, underscoring practical constraints and learning platform development.</description>
     </item>
     <item>
-      <title>NVIDIA Releases Nemotron-Cascade 2: An Open 30B MoE with 3B Active Parameters, Delivering Better Reasoning and Strong Agentic Capabilities</title>
-      <link>https://www.marktechpost.com/2026/03/20/nvidia-releases-nemotron-cascade-2-an-open-30b-moe-with-3b-active-parameters-delivering-better-reasoning-and-strong-agentic-capabilities/</link>
-      <guid isPermaLink="true">https://www.marktechpost.com/2026/03/20/nvidia-releases-nemotron-cascade-2-an-open-30b-moe-with-3b-active-parameters-delivering-better-reasoning-and-strong-agentic-capabilities/</guid>
-      <pubDate>Fri, 20 Mar 2026 22:38:13 +0000</pubDate>
+      <title>Key to Life No. 9: Access</title>
+      <link>https://www.lesswrong.com/posts/ev2iXMfeecxZkw8HR/key-to-life-no-9-access</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/ev2iXMfeecxZkw8HR/key-to-life-no-9-access</guid>
+      <pubDate>Sat, 21 Mar 2026 21:53:32 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>NVIDIA released Nemotron-Cascade 2, an open-weight 30B MoE with 3B active parameters, aiming to improve reasoning and agentic capabilities. Why it matters: Direct: Indicates momentum for MoE approaches with reduced active parameters, inviting benchmarking against dense models.</description>
+      <description>There is now an enormous amount of incredibly useful information in the world, but access to it remains a problem; access to knowledge is now better than ever in human history. Why it matters: Direct: Abundance of information coexists with access gaps, affecting education and research equity.</description>
     </item>
     <item>
-      <title>Built a local AI creative suite for Windows, thought you might find it useful</title>
-      <link>https://www.reddit.com/r/StableDiffusion/comments/1rznto9/built_a_local_ai_creative_suite_for_windows/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/StableDiffusion/comments/1rznto9/built_a_local_ai_creative_suite_for_windows/</guid>
-      <pubDate>Sat, 21 Mar 2026 10:10:45 +0000</pubDate>
+      <title>What is Table of One? (Start here)</title>
+      <link>https://www.reddit.com/r/TableofOne/comments/1s0cux2/what_is_table_of_one_start_here/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/TableofOne/comments/1s0cux2/what_is_table_of_one_start_here/</guid>
+      <pubDate>Sun, 22 Mar 2026 04:57:18 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Spent 6 weeks (about 550 hours between Claude Code and various OOMs) building a single desktop app that covers the full creative pipeline, locally, no cloud, no subscriptions. Why it matters: Direct: Demonstrates a local, no-cloud AI creative pipeline, useful for privacy-conscious creators and offline workflows.</description>
+      <description>Table of One is a game mechanics system that turns any AI assistant into a dungeon master; you download a PDF and load it into your AI (ChatGPT, Claude, or Gemini). Why it matters: Direct: Demonstrates a quick, hands-on way to experiment with AI as a dungeon master using a downloadable PDF.</description>
     </item>
     <item>
-      <title>I ported TouchHLE to iOS. (Play 32-bit Games iOS 11+). Dopamine Jailbreak Demo. Sorry about Redtrol btw :(</title>
-      <link>https://www.reddit.com/r/jailbreak/comments/1rzmp6m/i_ported_touchhle_to_ios_play_32bit_games_ios_11/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/jailbreak/comments/1rzmp6m/i_ported_touchhle_to_ios_play_32bit_games_ios_11/</guid>
-      <pubDate>Sat, 21 Mar 2026 08:58:33 +0000</pubDate>
+      <title>This was kind of fun</title>
+      <link>https://nitter.net/emollick/status/2035561955964891578</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2035561955964891578</guid>
+      <pubDate>Sun, 22 Mar 2026 03:39:23 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Apologizes for promising the Redtrol (Blutrol alternative) release about 1-2 years ago; lost interest because I couldn&#x27;t get all the controllers I wanted supported (PS3 controllers and Wii Remotes). Why it matters: Direct: Highlights delays due to controller support constraints; actionable next step: validate remaining controller compatibility and re-plan release timeline.</description>
+      <description>This was kind of fun. Codex: &quot;download nethack, add new items that would make the game easy to win and make me feel powerful&quot; It did, giving a new .exe file after navigating issues that older AI tools could not. Why it matters: Direct: Shows a hands-on AI-assisted game modding capability that yielded a tangible executable.</description>
     </item>
     <item>
-      <title>Show HN: Red Grid Link – peer-to-peer team tracking over Bluetooth, no servers</title>
-      <link>https://github.com/RedGridTactical/RedGridLink</link>
-      <guid isPermaLink="true">https://github.com/RedGridTactical/RedGridLink</guid>
-      <pubDate>Fri, 20 Mar 2026 22:25:51 +0000</pubDate>
+      <title>I got tired of &quot;Black Swan&quot; events wiping out my portfolio, so I built an AI risk engine to monitor it 24/7</title>
+      <link>https://www.reddit.com/r/SideProject/comments/1s0hnva/i_got_tired_of_black_swan_events_wiping_out_my/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/SideProject/comments/1s0hnva/i_got_tired_of_black_swan_events_wiping_out_my/</guid>
+      <pubDate>Sun, 22 Mar 2026 09:54:30 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Show HN: Red Grid Link - peer-to-peer team tracking over Bluetooth, no servers; enables offline group awareness when cell service is limited. Why it matters: Direct: Addresses offline, serverless tracking needs; actionable next step: evaluate Bluetooth range, battery life, and user interface for field use.</description>
+      <description>Former licensed financial advisor built an AI risk engine to monitor market risk 24/7 after noticing diversification fails: five ETFs often overweight the same tech stocks. Why it matters: Direct: Highlights a real-world AI risk-monitoring approach to systemic diversification problems.</description>
     </item>
     <item>
-      <title>The Future of Aligning Deep Learning systems will probably look like &quot;training on interp&quot;</title>
-      <link>https://www.lesswrong.com/posts/DzKhPKjyYSy5oih2u/the-future-of-aligning-deep-learning-systems-will-probably</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/DzKhPKjyYSy5oih2u/the-future-of-aligning-deep-learning-systems-will-probably</guid>
-      <pubDate>Fri, 20 Mar 2026 23:06:00 +0000</pubDate>
+      <title>US man pleads guilty to defrauding music streamers out of millions using AI</title>
+      <link>https://www.theguardian.com/us-news/2026/mar/21/man-pleads-guilty-music-streaming-fraud-ai</link>
+      <guid isPermaLink="true">https://www.theguardian.com/us-news/2026/mar/21/man-pleads-guilty-music-streaming-fraud-ai</guid>
+      <pubDate>Sat, 21 Mar 2026 15:14:59 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Discusses future DL alignment via training on interpolation; cautions current methods are bad, field moves fast, and dangerous territory. Why it matters: Direct: Highlights potential path for aligning DL systems; actionable next step: monitor emerging methods and empirical results.</description>
+      <description>Michael Smith, 52, pled guilty to defrauding music streaming platforms and musicians by flooding services with thousands of AI-generated songs boosted by bots, defrauding millions in royalties. Why it matters: Direct: Shows AI-enabled fraud case and its impact on platforms and artists.</description>
     </item>
   </channel>
 </rss>

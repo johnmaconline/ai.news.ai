@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-03-22",
+    "title": "Daily AI Feed - 2026-03-22",
+    "lead_story": "My Hammertime Final Exam",
+    "lead_url": "https://www.lesswrong.com/posts/5PCvd2FYxhCuqBdQw/my-hammertime-final-exam-1",
+    "generated_at": "2026-03-22T10:32:41+00:00"
+  },
+  {
     "date": "2026-03-21",
     "title": "Daily AI Feed - 2026-03-21",
     "lead_story": "sharing my approach to solving context loss across Claude sessions",
