@@ -1,186 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-03-22</title>
+    <title>Daily AI Feed - 2026-03-23</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Sun, 22 Mar 2026 10:32:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 10:55:19 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>My Hammertime Final Exam</title>
-      <link>https://www.lesswrong.com/posts/5PCvd2FYxhCuqBdQw/my-hammertime-final-exam-1</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/5PCvd2FYxhCuqBdQw/my-hammertime-final-exam-1</guid>
-      <pubDate>Sat, 21 Mar 2026 22:11:59 +0000</pubDate>
+      <title>I built a codebase review skill that auto-detects your tech stack and loads targeted checks — works in both Claude Code and Claude.ai</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1s1a9tp/i_built_a_codebase_review_skill_that_autodetects/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAI/comments/1s1a9tp/i_built_a_codebase_review_skill_that_autodetects/</guid>
+      <pubDate>Mon, 23 Mar 2026 07:30:13 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>LessWrong post outlining prompts to design an instrumental rationality technique, introduce a rationality principle or framework, and describe a cognitive defect, bias, or blindspot. Why it matters: Direct: Provides a concrete prompt task for articulating rationality prompts, aiding reproducible prompt design.</description>
+      <description>A codebase review skill that auto-detects your tech stack and loads targeted checks, designed and iterated entirely in Claude Code and Claude.ai, with prompts refined through multiple review cycles. Why it matters: Direct: Demonstrates a Claude-based, end-to-end codebase review workflow with auto-detected tech stack and targeted checks, illustrating practical prompt-driven automation.</description>
     </item>
     <item>
-      <title>Building an AWS Cost Visualization Workflow with Strands Agents Skills and AgentCore Code Interpreter</title>
-      <link>https://dev.to/yokomachi/building-an-aws-cost-visualization-workflow-with-strands-agents-skills-and-agentcore-code-4h10</link>
-      <guid isPermaLink="true">https://dev.to/yokomachi/building-an-aws-cost-visualization-workflow-with-strands-agents-skills-and-agentcore-code-4h10</guid>
-      <pubDate>Sun, 22 Mar 2026 09:56:11 +0000</pubDate>
+      <title>Vibe coding an agent for a tutoring busines</title>
+      <link>https://www.reddit.com/r/vibecoding/comments/1s1cic5/vibe_coding_an_agent_for_a_tutoring_busines/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/vibecoding/comments/1s1cic5/vibe_coding_an_agent_for_a_tutoring_busines/</guid>
+      <pubDate>Mon, 23 Mar 2026 09:53:04 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Introduction I&#x27;m currently developing a personal AI agent called TONaRi. It also has an X (Twitter) account where it posts tech news and more. https://x. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from DEV.to AI Tag.</description>
+      <description>A tutoring business agent built with Struere&#x27;s Lovable for AI Agents, featuring dynamic system prompts, custom tools, automations, and a built-in DB; deployed in a few prompts, seeking early adopters. Why it matters: Direct: Demonstrates rapid agent creation using a no-code-like prompt workflow and AI agents framework for customer-facing tasks.</description>
     </item>
     <item>
-      <title>[SELLING] Promptiya AI -Duolingo for Prompt Engineering| Fully Built SaaS $100</title>
-      <link>https://www.reddit.com/r/SaaSAcquire/comments/1s0hme3/selling_promptiya_ai_duolingo_for_prompt/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/SaaSAcquire/comments/1s0hme3/selling_promptiya_ai_duolingo_for_prompt/</guid>
-      <pubDate>Sun, 22 Mar 2026 09:51:52 +0000</pubDate>
+      <title>LLM failure modes map surprisingly well onto ADHD cognitive science. Six parallels from independent research.</title>
+      <link>https://www.reddit.com/r/artificial/comments/1s0x54t/llm_failure_modes_map_surprisingly_well_onto_adhd/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/artificial/comments/1s0x54t/llm_failure_modes_map_surprisingly_well_onto_adhd/</guid>
+      <pubDate>Sun, 22 Mar 2026 20:59:29 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Selling a fully production-ready SaaS I built called Promptiya AI https://promptsbud.web. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from Reddit AI Workflow Search.</description>
+      <description>ADHD author pairs with LLMs, describing failure modes: confidently making stuff up, losing context mid-conversation, and botching sequential logic, referencing cognitive science. Why it matters: Direct: Highlights real-world LLM failure modes that align with cognitive science, useful for debugging and UX considerations.</description>
     </item>
     <item>
-      <title>A VC-Backed Startup Just Open-Sourced What I Built in My Apartment</title>
-      <link>https://dev.to/the200dollarceo/a-vc-backed-startup-just-open-sourced-what-i-built-in-my-apartment-lm7</link>
-      <guid isPermaLink="true">https://dev.to/the200dollarceo/a-vc-backed-startup-just-open-sourced-what-i-built-in-my-apartment-lm7</guid>
-      <pubDate>Sun, 22 Mar 2026 10:09:20 +0000</pubDate>
+      <title>WMB-100K – open source benchmark for AI memory systems at 100K turns</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s1brq3/wmb100k_open_source_benchmark_for_ai_memory/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s1brq3/wmb100k_open_source_benchmark_for_ai_memory/</guid>
+      <pubDate>Mon, 23 Mar 2026 09:07:08 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Galileo, backed by Databricks Ventures and Battery Ventures, released Agent Control as an open-source (Apache 2.0) control plane with day-one integrations to CrewAI, Cisco AI Defense, and Glean to define and enforce desired AI-agent behavior. Why it matters: Direct: Enables teams to operationalize multi-agent policies via open-source tooling, reducing dependency on proprietary controls.</description>
+      <description>WMB-100K benchmarks AI memory systems at 100,000 turns, far larger than LOCOMO&#x27;s 600 turns or LongMemEval&#x27;s around 1,000. It uses 3,134 questions across 5 difficulty levels. Why it matters: Direct: Highlights the need for large-scale memory benchmarks to reflect real usage beyond 600–1,000 turns.</description>
     </item>
     <item>
-      <title>Every web form should be callable by AI agents (and yours can be today)</title>
-      <link>https://dev.to/prasannagyde/every-web-form-should-be-callable-by-ai-agents-and-yours-can-be-today-228</link>
-      <guid isPermaLink="true">https://dev.to/prasannagyde/every-web-form-should-be-callable-by-ai-agents-and-yours-can-be-today-228</guid>
-      <pubDate>Sun, 22 Mar 2026 10:04:05 +0000</pubDate>
+      <title>MCP in 2026 — Why Every AI Agent Needs External Data Tools</title>
+      <link>https://dev.to/0012303/mcp-in-2026-why-every-ai-agent-needs-external-data-tools-3i74</link>
+      <guid isPermaLink="true">https://dev.to/0012303/mcp-in-2026-why-every-ai-agent-needs-external-data-tools-3i74</guid>
+      <pubDate>Mon, 23 Mar 2026 10:33:24 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>AI agents can browse, click, read emails, and write code, but struggle to fill web forms using brittle CSS selectors and XPath; Chrome is about to introduce changes. Why it matters: Direct: Reduces reliance on fragile DOM targeting as Chrome updates form-interaction capabilities.</description>
+      <description>Model Context Protocol (MCP) enables AI agents to access external data via tools that return verified information, addressing hallucinations from real-world data gaps. Why it matters: Direct: Provides a mechanism to reduce hallucinations by sourcing verified external data.</description>
     </item>
     <item>
-      <title>ik_llama.cpp gives 26x faster prompt processing on Qwen 3.5 27B — real world numbers</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s07ysr/ik_llamacpp_gives_26x_faster_prompt_processing_on/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s07ysr/ik_llamacpp_gives_26x_faster_prompt_processing_on/</guid>
-      <pubDate>Sun, 22 Mar 2026 00:52:53 +0000</pubDate>
+      <title>Pilos Agents Weekly Update — 2026-03-23</title>
+      <link>https://dev.to/pilosdotnet/pilos-agents-weekly-update-2026-03-23-4k3c</link>
+      <guid isPermaLink="true">https://dev.to/pilosdotnet/pilos-agents-weekly-update-2026-03-23-4k3c</guid>
+      <pubDate>Mon, 23 Mar 2026 10:44:34 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>User reports that switching from mainline llama.cpp to the ik_llama.cpp fork yields about 26x faster prompt processing for Qwen 3.5 27B on a Blackwell RTX PRO 4000 (24GB), based on agentic coding workloads. Why it matters: Direct: Provides a practical speedup path for local inference workloads with 27B-size models on consumer GPUs.</description>
+      <description>Pilos Agents weekly update notes 8 stars, 196 total downloads, latest release v2.9. Why it matters: Direct: Offers a concise traction snapshot for product and engineering teams.</description>
     </item>
     <item>
-      <title>I checked Strix Halo (Ryzen ai max+ 395) performance test as context length increases</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s0hpg8/i_checked_strix_halo_ryzen_ai_max_395_performance/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s0hpg8/i_checked_strix_halo_ryzen_ai_max_395_performance/</guid>
-      <pubDate>Sun, 22 Mar 2026 09:57:14 +0000</pubDate>
+      <title>Fixing Qwen Repetition IMPROVEMENT</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s11kvt/fixing_qwen_repetition_improvement/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s11kvt/fixing_qwen_repetition_improvement/</guid>
+      <pubDate>Mon, 23 Mar 2026 00:01:43 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Benchmarking Strix Halo (Ryzen AI Max+ 395) for Local LLM, testing model latency as context length grows on a 128GB AMD Strix Halo; results published at bluepaun.github. Why it matters: Direct: Context-length scaling matters for local LLM deployments; provides hands-on data on latency trends for 128GB hardware.</description>
+      <description>Image-based post addressing Fixing Qwen repetition, with a preview image link and Reddit attribution. Why it matters: Direct: Signals ongoing experiments on reducing repetition in Qwen.</description>
     </item>
     <item>
-      <title>I don’t think AIs should be auto-adding themselves as credited</title>
-      <link>https://nitter.net/emollick/status/2035398018019508403</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2035398018019508403</guid>
-      <pubDate>Sat, 21 Mar 2026 16:47:58 +0000</pubDate>
+      <title>The art of influence: The single most important skill that AI can’t replace | Jessica Fain (Webflow, ex-Slack)</title>
+      <link>https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain</guid>
+      <pubDate>Sun, 22 Mar 2026 12:31:51 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>AIs should not auto-credit themselves on Github or other projects; credits are better reserved for humans who choose their relationship with AI work. Why it matters: Direct: Highlights human-centered attribution, reducing marketing-driven AI branding in product work.</description>
+      <description>A PM’s guide to influencing executives: align with their incentives, present three options, and follow the breadcrumbs Why it matters: Direct: provides a concrete, repeatable framing for PMs to influence executives and make decisions faster.</description>
     </item>
     <item>
-      <title>Its not Simcity</title>
-      <link>https://nitter.net/emollick/status/2035533726319357956</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2035533726319357956</guid>
-      <pubDate>Sun, 22 Mar 2026 01:47:13 +0000</pubDate>
+      <title>From Early Adopter to AI Instructor: Teaching 500 Engineers to Build with LLMs</title>
+      <link>https://dev.to/jeffreese/from-early-adopter-to-ai-instructor-teaching-500-engineers-to-build-with-llms-p53</link>
+      <guid isPermaLink="true">https://dev.to/jeffreese/from-early-adopter-to-ai-instructor-teaching-500-engineers-to-build-with-llms-p53</guid>
+      <pubDate>Mon, 23 Mar 2026 08:39:41 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Its not Simcity, but Civ V skills correlate with better planning, organizing, and problem-solving in a small experiment. Why it matters: Direct: Signals that transferability of game-based skills to management tasks can inform hiring and training in product roles.</description>
+      <description>A walkthrough of moving from early adoption to AI instruction, growing from initial ChatGPT experiments to teaching 500 engineers to build with LLMs. Why it matters: Direct: shows scalable internal upskilling of engineers to leverage LLMs, enabling faster capability diffusion.</description>
     </item>
     <item>
-      <title>🧠 Community Wisdom: Beating the solo-founder procrastination trap, best tools for B2B prospecting, finding your first real users pre-launch, and more</title>
-      <link>https://www.lennysnewsletter.com/p/community-wisdom-beating-the-solo</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/community-wisdom-beating-the-solo</guid>
-      <pubDate>Sat, 21 Mar 2026 17:19:36 +0000</pubDate>
+      <title>Since Rawls appears to be coming up again (at least</title>
+      <link>https://nitter.net/emollick/status/2035821199758930145</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2035821199758930145</guid>
+      <pubDate>Sun, 22 Mar 2026 20:49:32 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Community Wisdom 178 Why it matters: Direct: Highlights a curated set of insights on startup tooling and go-to-market practices.</description>
+      <description>References Rawls&#x27; veil of ignorance and uses ChatGPT-5.4 Pro on a project exploring how lucky you are to be alive. Why it matters: Inference: signals how AI progress intersects with philosophical questions of luck and survivorship in public discourse.</description>
     </item>
     <item>
-      <title>AI Agents for Business: What They Are and How Teams Use Them in 2026</title>
-      <link>https://dev.to/superdots/ai-agents-for-business-what-they-are-and-how-teams-use-them-in-2026-10n8</link>
-      <guid isPermaLink="true">https://dev.to/superdots/ai-agents-for-business-what-they-are-and-how-teams-use-them-in-2026-10n8</guid>
-      <pubDate>Sun, 22 Mar 2026 09:00:02 +0000</pubDate>
+      <title>Also performance in MOBAs like League of Legends correlates with</title>
+      <link>https://nitter.net/emollick/status/2035756883328237776</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2035756883328237776</guid>
+      <pubDate>Sun, 22 Mar 2026 16:33:58 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>MOBA performance correlates with IQ, but FPS performance does not; WoW guild leaders are more likely to be good leaders in real life. Why it matters: Inference: implies measuring leadership may require broader skill sets beyond IQ.</description>
+    </item>
+    <item>
+      <title>MiniMax M2.7: The Evolution of Autonomous AI Agents</title>
+      <link>https://dev.to/evan-dong/minimax-m27-the-evolution-of-autonomous-ai-agents-3nbo</link>
+      <guid isPermaLink="true">https://dev.to/evan-dong/minimax-m27-the-evolution-of-autonomous-ai-agents-3nbo</guid>
+      <pubDate>Mon, 23 Mar 2026 09:49:14 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>AI agents perform end-to-end workflows, handling researching, planning, executing, and checking their own work, representing a shift beyond traditional chatbots that answer questions. Why it matters: Direct: Highlights a practical shift to autonomous workflow handling, enabling faster delivery by reducing manual handoffs.</description>
+      <description>MiniMax M2.7 advances autonomous AI agents; the AI agent landscape is evolving rapidly, and MiniMax&#x27;s latest release, M2.7, marks a significant milestone. Why it matters: Direct: Highlights a milestone in autonomous agent evolution, guiding teams evaluating next-gen agent capabilities.</description>
     </item>
     <item>
-      <title>Engineering GraphRAG for Production: API Design, Query Optimization, and Service Reliability</title>
-      <link>https://dev.to/jamesli/engineering-graphrag-for-production-api-design-query-optimization-and-service-reliability-2mh6</link>
-      <guid isPermaLink="true">https://dev.to/jamesli/engineering-graphrag-for-production-api-design-query-optimization-and-service-reliability-2mh6</guid>
-      <pubDate>Sun, 22 Mar 2026 08:13:58 +0000</pubDate>
+      <title>Testing AI: How to Effectively Evaluate LLMs</title>
+      <link>https://dev.to/audaciatechnology/testing-ai-how-to-effectively-evaluate-llms-4603</link>
+      <guid isPermaLink="true">https://dev.to/audaciatechnology/testing-ai-how-to-effectively-evaluate-llms-4603</guid>
+      <pubDate>Mon, 23 Mar 2026 10:00:00 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Production deployment of GraphRAG faces gaps between open-source scripts and enterprise services, as official tooling provides CLI scripts and low-level Python calls instead of a full API. Why it matters: Direct: Highlights a production gap that requires an API-first approach to replace CLI scripts.</description>
+      <description>Traditional software testing rests on a basic assumption that given the same input, the system produces the same Why it matters: Direct: Shows why evaluation for LLMs must account for non-deterministic outputs.</description>
     </item>
     <item>
-      <title>Show HN: AI SDLC Scaffold, repo template for AI-assisted software development</title>
-      <link>https://github.com/pangon/ai-sdlc-scaffold/</link>
-      <guid isPermaLink="true">https://github.com/pangon/ai-sdlc-scaffold/</guid>
-      <pubDate>Sat, 21 Mar 2026 12:43:09 +0000</pubDate>
+      <title>Manus AI Agent Desktop Could Replace Hours Of Manual Desktop Work</title>
+      <link>https://www.reddit.com/r/AISEOInsider/comments/1s1c7cj/manus_ai_agent_desktop_could_replace_hours_of/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/AISEOInsider/comments/1s1c7cj/manus_ai_agent_desktop_could_replace_hours_of/</guid>
+      <pubDate>Mon, 23 Mar 2026 09:34:28 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>An open-source AI SDLC scaffold provides a repo template structuring from objectives and user stories through architecture decisions, designed to be tool-agnostic. Why it matters: Direct: Demonstrates a practical starting point for AI-driven software projects.</description>
+      <description>Manus AI Agent Desktop enables multi-app AI workflows by not being confined to a browser tab, contrasting with tools that require copy-paste, switching apps, and manual work. Why it matters: Direct: Supports efficiency gains from cross-app automation for knowledge workers.</description>
     </item>
     <item>
-      <title>Using Git with coding agents</title>
-      <link>https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/</link>
-      <guid isPermaLink="true">https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/</guid>
-      <pubDate>Sat, 21 Mar 2026 22:08:24 +0000</pubDate>
+      <title>Top 10 Logistics Software Development Companies in France in 2026</title>
+      <link>https://www.reddit.com/r/branding/comments/1s1chlj/top_10_logistics_software_development_companies/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/branding/comments/1s1chlj/top_10_logistics_software_development_companies/</guid>
+      <pubDate>Mon, 23 Mar 2026 09:51:57 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Git is a key tool for coding agents, enabling version control to track changes and support investigation and reversal of mistakes. Why it matters: Direct: Emphasizes practical application of Git for auditing agent-coded changes and reversing errors.</description>
+      <description>France’s logistics sector is moving through a major digital shift; From fleet optimization and warehouse automation to real-time shipment tracking and supply chain analytics, businesses now need software that does more than just manage operations. Why it matters: Direct: Indicates demand for integrated logistics software in France’s digital shift.</description>
     </item>
     <item>
-      <title>If you intensively use chatGPT or Claude you should give this addon a try</title>
-      <link>https://www.reddit.com/r/Solopreneur/comments/1s0hwih/if_you_intensively_use_chatgpt_or_claude_you/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/Solopreneur/comments/1s0hwih/if_you_intensively_use_chatgpt_or_claude_you/</guid>
-      <pubDate>Sun, 22 Mar 2026 10:08:57 +0000</pubDate>
+      <title>Agentic AI for telecom support: complaint → root cause → resolutio</title>
+      <link>https://www.reddit.com/r/ArtificialNtelligence/comments/1s1dast/agentic_ai_for_telecom_support_complaint_root/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ArtificialNtelligence/comments/1s1dast/agentic_ai_for_telecom_support_complaint_root/</guid>
+      <pubDate>Mon, 23 Mar 2026 10:38:34 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Agentic Prompts Chain is a browser extension that turns AI chats into structured, repeatable workflows, reducing repeated searches across multi-prompt chains (6–7 prompts mentioned). Why it matters: Direct: Reduces friction from repetitive prompt chaining by enabling repeatable AI workflows at scale.</description>
+      <description>Discusses exploring a use case where AI agents handle telecom support tickets end-to-end. Why it matters: Direct: End-to-end AI handling could reduce ticket turnaround time and improve consistency.</description>
     </item>
     <item>
-      <title>Profiling Hacker News users based on their comments</title>
-      <link>https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/</guid>
-      <pubDate>Sat, 21 Mar 2026 23:59:47 +0000</pubDate>
+      <title>[GTS] I built a free AI background remover that works 100% in your browser — no uploads, no privacy issues</title>
+      <link>https://www.reddit.com/r/guessthesubreddit/comments/1s1d7uf/gts_i_built_a_free_ai_background_remover_that/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/guessthesubreddit/comments/1s1d7uf/gts_i_built_a_free_ai_background_remover_that/</guid>
+      <pubDate>Mon, 23 Mar 2026 10:33:55 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Experimenting with a Profile this user prompt using the last 1,000 Hacker News comments; comments can be retrieved via Algolia Hacker News API with author_username tagging. Why it matters: Direct: Enables scalable profiling of users, highlighting potential biases and behavioral patterns from public comment data.</description>
+      <description>A post highlights a free AI background remover that runs in the browser with no uploads and privacy assurances. Why it matters: Direct: In-browser operation reduces privacy concerns and friction for ad-hoc image editing.</description>
     </item>
     <item>
-      <title>From n8n to Making a Platform</title>
-      <link>https://www.reddit.com/r/n8n/comments/1s0i1jb/from_n8n_to_making_a_platform/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/n8n/comments/1s0i1jb/from_n8n_to_making_a_platform/</guid>
-      <pubDate>Sun, 22 Mar 2026 10:17:20 +0000</pubDate>
+      <title>Beats now have notes</title>
+      <link>https://simonwillison.net/2026/Mar/23/beats-now-have-notes/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Mar/23/beats-now-have-notes/</guid>
+      <pubDate>Mon, 23 Mar 2026 02:13:13 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>A solo developer from the Philippines shipped something after a year of building with no team or money, driven by frustration with online learning. Why it matters: Direct: Highlights solo founders&#x27; path to shipping without equity funding, underscoring practical constraints and learning platform development.</description>
+      <description>Simon Willison reports adding &#x27;beats&#x27; that pull in external content to homepage, search, and archive pages. Why it matters: Direct: Beats improve content discoverability by surfacing external materials in key site areas.</description>
     </item>
     <item>
-      <title>Key to Life No. 9: Access</title>
-      <link>https://www.lesswrong.com/posts/ev2iXMfeecxZkw8HR/key-to-life-no-9-access</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/ev2iXMfeecxZkw8HR/key-to-life-no-9-access</guid>
-      <pubDate>Sat, 21 Mar 2026 21:53:32 +0000</pubDate>
+      <title>Implementing Deep Q-Learning (DQN) from Scratch Using RLax JAX Haiku and Optax to Train a CartPole Reinforcement Learning Agent</title>
+      <link>https://www.marktechpost.com/2026/03/22/implementing-deep-q-learning-dqn-from-scratch-using-rlax-jax-haiku-and-optax-to-train-a-cartpole-reinforcement-learning-agent/</link>
+      <guid isPermaLink="true">https://www.marktechpost.com/2026/03/22/implementing-deep-q-learning-dqn-from-scratch-using-rlax-jax-haiku-and-optax-to-train-a-cartpole-reinforcement-learning-agent/</guid>
+      <pubDate>Sun, 22 Mar 2026 21:54:00 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>There is now an enormous amount of incredibly useful information in the world, but access to it remains a problem; access to knowledge is now better than ever in human history. Why it matters: Direct: Abundance of information coexists with access gaps, affecting education and research equity.</description>
+      <description>A tutorial demonstrates implementing a Deep Q-Learning agent using RLax with JAX, Haiku, and Optax to solve the CartPole environment. Why it matters: Direct: Demonstrates practical integration of RL tooling (RLax, JAX, Haiku, Optax) for real RL tasks.</description>
     </item>
     <item>
-      <title>What is Table of One? (Start here)</title>
-      <link>https://www.reddit.com/r/TableofOne/comments/1s0cux2/what_is_table_of_one_start_here/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/TableofOne/comments/1s0cux2/what_is_table_of_one_start_here/</guid>
-      <pubDate>Sun, 22 Mar 2026 04:57:18 +0000</pubDate>
+      <title>Text Ai DnD fun to anybody?</title>
+      <link>https://www.reddit.com/r/AIDungeon/comments/1s1dcud/text_ai_dnd_fun_to_anybody/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/AIDungeon/comments/1s1dcud/text_ai_dnd_fun_to_anybody/</guid>
+      <pubDate>Mon, 23 Mar 2026 10:41:39 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Table of One is a game mechanics system that turns any AI assistant into a dungeon master; you download a PDF and load it into your AI (ChatGPT, Claude, or Gemini). Why it matters: Direct: Demonstrates a quick, hands-on way to experiment with AI as a dungeon master using a downloadable PDF.</description>
+      <description>Is purely text-based D&amp;D still fun to anyone in 2026? A software developer uses AI as a solo DM to scratch the itch when a group can&#x27;t meet; notes the AI&#x27;s problems. Why it matters: Direct: Demonstrates practical AI-as-DM use for solo play and highlights current AI limitations.</description>
     </item>
     <item>
-      <title>This was kind of fun</title>
-      <link>https://nitter.net/emollick/status/2035561955964891578</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2035561955964891578</guid>
-      <pubDate>Sun, 22 Mar 2026 03:39:23 +0000</pubDate>
+      <title>Show HN: Refrax – my Arc Browser replacement I made from scratch</title>
+      <link>https://refrax.website/</link>
+      <guid isPermaLink="true">https://refrax.website/</guid>
+      <pubDate>Sun, 22 Mar 2026 22:52:29 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>This was kind of fun. Codex: &quot;download nethack, add new items that would make the game easy to win and make me feel powerful&quot; It did, giving a new .exe file after navigating issues that older AI tools could not. Why it matters: Direct: Shows a hands-on AI-assisted game modding capability that yielded a tangible executable.</description>
+      <description>Show HN: Refrax — a browser built from scratch where two windows show the same page updating live, unlike Chrome, Safari, or Arc. Why it matters: Direct: Demonstrates live synchronization across multiple windows as a practical UX enhancement.</description>
     </item>
     <item>
-      <title>I got tired of &quot;Black Swan&quot; events wiping out my portfolio, so I built an AI risk engine to monitor it 24/7</title>
-      <link>https://www.reddit.com/r/SideProject/comments/1s0hnva/i_got_tired_of_black_swan_events_wiping_out_my/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/SideProject/comments/1s0hnva/i_got_tired_of_black_swan_events_wiping_out_my/</guid>
-      <pubDate>Sun, 22 Mar 2026 09:54:30 +0000</pubDate>
+      <title>AI influencer awards season is upon us</title>
+      <link>https://www.theverge.com/ai-artificial-intelligence/898781/ai-personality-of-the-year-influencer-contest</link>
+      <guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/898781/ai-personality-of-the-year-influencer-contest</guid>
+      <pubDate>Mon, 23 Mar 2026 00:01:00 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Former licensed financial advisor built an AI risk engine to monitor market risk 24/7 after noticing diversification fails: five ETFs often overweight the same tech stocks. Why it matters: Direct: Highlights a real-world AI risk-monitoring approach to systemic diversification problems.</description>
+      <description>AI Personality of the Year award appears as part of the expanding AI influencer awards, signaling maturation from novelty to lucrative industry; the contest is a joint venture with generative AI studio OpenArt. Why it matters: Direct: Shows monetization potential and governance needs for AI-driven personalities.</description>
     </item>
     <item>
-      <title>US man pleads guilty to defrauding music streamers out of millions using AI</title>
-      <link>https://www.theguardian.com/us-news/2026/mar/21/man-pleads-guilty-music-streaming-fraud-ai</link>
-      <guid isPermaLink="true">https://www.theguardian.com/us-news/2026/mar/21/man-pleads-guilty-music-streaming-fraud-ai</guid>
-      <pubDate>Sat, 21 Mar 2026 15:14:59 +0000</pubDate>
+      <title>Is it stupid to buy a 128gb MacBook Pro M5 Max if I don’t really know what I’m doing?</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s0t0bw/is_it_stupid_to_buy_a_128gb_macbook_pro_m5_max_if/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s0t0bw/is_it_stupid_to_buy_a_128gb_macbook_pro_m5_max_if/</guid>
+      <pubDate>Sun, 22 Mar 2026 18:20:05 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Michael Smith, 52, pled guilty to defrauding music streaming platforms and musicians by flooding services with thousands of AI-generated songs boosted by bots, defrauding millions in royalties. Why it matters: Direct: Shows AI-enabled fraud case and its impact on platforms and artists.</description>
+      <description>Reddit user questions if buying a 128GB MacBook Pro M5 Max makes sense for a beginner coder who wants to tinker; they currently use an aging Windows gaming laptop with some AI work. Why it matters: Direct: Illustrates hardware-choice considerations for learners starting with AI and tinkering.</description>
     </item>
   </channel>
 </rss>
