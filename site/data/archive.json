@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-03-24",
+    "title": "Daily AI Feed - 2026-03-24",
+    "lead_story": "Most people treat system prompts wrong. Here's the framework that actually works.",
+    "lead_url": "https://www.reddit.com/r/PromptEngineering/comments/1s21gv1/most_people_treat_system_prompts_wrong_heres_the/",
+    "generated_at": "2026-03-24T10:53:46+00:00"
+  },
+  {
     "date": "2026-03-23",
     "title": "Daily AI Feed - 2026-03-23",
     "lead_story": "I built a codebase review skill that auto-detects your tech stack and loads targeted checks \u2014 works in both Claude Code and Claude.ai",
