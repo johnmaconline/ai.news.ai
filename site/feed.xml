@@ -1,202 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-03-24</title>
+    <title>Daily AI Feed - 2026-03-25</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Tue, 24 Mar 2026 10:53:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 10:50:14 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>Most people treat system prompts wrong. Here&#x27;s the framework that actually works.</title>
-      <link>https://www.reddit.com/r/PromptEngineering/comments/1s21gv1/most_people_treat_system_prompts_wrong_heres_the/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/PromptEngineering/comments/1s21gv1/most_people_treat_system_prompts_wrong_heres_the/</guid>
-      <pubDate>Tue, 24 Mar 2026 02:23:58 +0000</pubDate>
+      <title>Orchestrating Specialist LLM Roles for a complex Life Sim (Gemini 3 Flash + OpenRouter)</title>
+      <link>https://www.reddit.com/r/LLMDevs/comments/1s373of/orchestrating_specialist_llm_roles_for_a_complex/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LLMDevs/comments/1s373of/orchestrating_specialist_llm_roles_for_a_complex/</guid>
+      <pubDate>Wed, 25 Mar 2026 10:36:59 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Post questions the effectiveness of generic system prompts and argues for engineering and framing prompts rather than a wall of text; proposes a need to explain what a good system prompt actually means. Why it matters: Direct: Highlights need for concrete system prompts design instead of text dumps.</description>
+      <description>Describes a multi-stage prompt pipeline for complex world-building using Gemini 3 Flash, with an Adjudicator converting moves into structured JSON deltas. Why it matters: Direct: Demonstrates a multi-stage prompt architecture to manage complexity in world-building, potentially improving reliability over a single system prompt.</description>
     </item>
     <item>
-      <title>How I prompt for big projects</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1s25l72/how_i_prompt_for_big_projects/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAI/comments/1s25l72/how_i_prompt_for_big_projects/</guid>
-      <pubDate>Tue, 24 Mar 2026 05:55:37 +0000</pubDate>
+      <title>The Real Cost of Free-Tier AI APIs (And How to Know When to Upgrade)</title>
+      <link>https://dev.to/godnick/the-real-cost-of-free-tier-ai-apis-and-how-to-know-when-to-upgrade-1e70</link>
+      <guid isPermaLink="true">https://dev.to/godnick/the-real-cost-of-free-tier-ai-apis-and-how-to-know-when-to-upgrade-1e70</guid>
+      <pubDate>Wed, 25 Mar 2026 09:32:25 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Solo developer outlines a two-tool, two-role workflow: Claude Chat designs every prompt (architect), while Claude Code executes them (builder), with no cross-role mixing. Why it matters: Direct: Demonstrates a practical split of prompt design vs execution to reduce cross-tool leakage.</description>
+      <description>Argues that free AI API tiers are good for prototyping but can incur hidden costs when building real apps. Why it matters: Direct: Highlights risk of underestimating ongoing costs when relying on free-tier APIs.</description>
     </item>
     <item>
-      <title>Telling an AI model that it’s an expert programmer makes it a worse programmer</title>
-      <link>https://go.theregister.com/feed/www.theregister.com/2026/03/24/ai_models_persona_prompting/</link>
-      <guid isPermaLink="true">https://go.theregister.com/feed/www.theregister.com/2026/03/24/ai_models_persona_prompting/</guid>
-      <pubDate>Tue, 24 Mar 2026 00:20:29 +0000</pubDate>
+      <title>AI Citation Registries and Registry-Layer Design for Attribution Stability</title>
+      <link>https://dev.to/aigistry/ai-citation-registries-and-registry-layer-design-for-attribution-stability-40a7</link>
+      <guid isPermaLink="true">https://dev.to/aigistry/ai-citation-registries-and-registry-layer-design-for-attribution-stability-40a7</guid>
+      <pubDate>Wed, 25 Mar 2026 10:38:07 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Researchers report persona-based prompting can improve safety but not factual accuracy; prompting AI to imagine itself as an expert may be futile. Why it matters: Direct: Signals limits of persona-based prompts for accuracy, guiding engineers to avoid over-reliance on self-as-expert prompts.</description>
+      <description>Discusses attribution failures when structure is lost and how a registry layer restores attribution stability, with an example about misattributing a boil-water notice. Why it matters: Direct: Emphasizes need for persistent provenance when distributing AI-generated statements.</description>
     </item>
     <item>
-      <title>TeamPrompt</title>
-      <link>https://www.producthunt.com/products/teamprompt-2</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/teamprompt-2</guid>
-      <pubDate>Tue, 24 Mar 2026 00:37:18 +0000</pubDate>
-      <category>0) Practical Prompts</category>
-      <description>Notes product listing for TeamPrompt, an AI DLP and prompt management tool for teams. Why it matters: Direct: Highlights a team-focused prompt-management tool.</description>
-    </item>
-    <item>
-      <title>Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build</title>
-      <link>https://proofshot.argil.io/</link>
-      <guid isPermaLink="true">https://proofshot.argil.io/</guid>
-      <pubDate>Tue, 24 Mar 2026 07:46:46 +0000</pubDate>
+      <title>What Happens When Your AI Agent Makes an HTTP Request</title>
+      <link>https://dev.to/luckypipewrench/what-happens-when-your-ai-agent-makes-an-http-request-4cjd</link>
+      <guid isPermaLink="true">https://dev.to/luckypipewrench/what-happens-when-your-ai-agent-makes-an-http-request-4cjd</guid>
+      <pubDate>Wed, 25 Mar 2026 10:27:52 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>A CLI enables AI agents to see browser UI by opening a browser, interacting with the page, recording events, and collecting errors during UI feature development. Why it matters: Direct: Enables automated UI verification by agents, reducing silent UI defects and misrendered layouts during AI-driven feature implementation.</description>
+      <description>AI agents, granted codebase, terminal access, and API keys, work by shipping features, writing tests, and deploying infrastructure, but they generate HTTP requests you never look at. Why it matters: Direct: Unseen HTTP traffic from AI agents risks security, auditability, and governance gaps in production.</description>
     </item>
     <item>
-      <title>Injecting Initial State into ADK Web UI with ASGI Middleware</title>
-      <link>https://dev.to/koichi73/injecting-initial-state-into-adk-web-ui-with-asgi-middleware-1cfm</link>
-      <guid isPermaLink="true">https://dev.to/koichi73/injecting-initial-state-into-adk-web-ui-with-asgi-middleware-1cfm</guid>
-      <pubDate>Tue, 24 Mar 2026 10:28:58 +0000</pubDate>
+      <title>Code Review Agent Benchmark</title>
+      <link>http://arxiv.org/abs/2603.23448v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2603.23448v1</guid>
+      <pubDate>Tue, 24 Mar 2026 17:19:32 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Automates per-session initial state setup for ADK Web UI using a preset file and ASGI middleware. Why it matters: Direct: Reduces manual state setup, speeding new-session workflows for agent development.</description>
+      <description>Software engineering agents show promise in writing code; as AI agents permeate code writing and generate large volumes, code quality remains central. Why it matters: Direct: Rising code generation by AI agents elevates the need for scalable quality controls and robust review workflows.</description>
     </item>
     <item>
-      <title>Revisiting Quantum Code Generation: Where Should Domain Knowledge Live?</title>
-      <link>http://arxiv.org/abs/2603.22184v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2603.22184v1</guid>
-      <pubDate>Mon, 23 Mar 2026 16:46:39 +0000</pubDate>
+      <title>Accelerating custom entity recognition with Claude tool use in Amazon Bedrock</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/accelerating-custom-entity-recognition-with-claude-tool-use-in-amazon-bedrock/</link>
+      <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/accelerating-custom-entity-recognition-with-claude-tool-use-in-amazon-bedrock/</guid>
+      <pubDate>Tue, 24 Mar 2026 17:56:00 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>LLMs automate more programming tasks, including domain-specific code generation for scientific and engineering domains. Why it matters: Inference: Domain knowledge should be integrated where it most improves model accuracy and reuse in domain-specific code generation.</description>
+      <description>Claude Tool use in Amazon Bedrock leverages LLMs to perform dynamic, adaptable entity recognition with minimal setup or training. Why it matters: Direct: Using Claude Tool use enables dynamic entity recognition with reduced deployment friction.</description>
     </item>
     <item>
-      <title>Chimera: Latency- and Performance-Aware Multi-agent Serving for Heterogeneous LLMs</title>
-      <link>http://arxiv.org/abs/2603.22206v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2603.22206v1</guid>
-      <pubDate>Mon, 23 Mar 2026 17:01:42 +0000</pubDate>
+      <title>Code Review Agent Benchmark</title>
+      <link>https://arxiv.org/abs/2603.23448v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2603.23448v1</guid>
+      <pubDate>Tue, 24 Mar 2026 17:19:32 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Chimera is a latency- and performance-aware multi-agent serving approach for heterogeneous LLMs, addressing multi-stage workflows and non-homogeneous clusters. Why it matters: Direct: Improves scheduling and performance visibility for mixed-model deployments.</description>
+      <description>Software engineering agents show promise in writing code; as AI agents permeate code writing and generate large volumes, code quality remains central. Why it matters: Direct: Scaling code generation by AI agents makes code quality and maintainability critical.</description>
+    </item>
+    <item>
+      <title>The OKR Hangover: What 10 Years of PM Debate Actually Settled</title>
+      <link>https://www.productcoalition.com/p/okrs-at-10-the-framework-that-survived</link>
+      <guid isPermaLink="true">https://www.productcoalition.com/p/okrs-at-10-the-framework-that-survived</guid>
+      <pubDate>Tue, 24 Mar 2026 18:10:42 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>OKR debate over 10 years: 2018 claimed 30-day implementation; 2026 argues the problem wasn’t the framework, highlighting a long industry journey. Why it matters: Direct: Summarizes 10-year OKR debate, signaling that rapid framing changes may not fix deeper adoption issues; informs PMs on outcomes to measure.</description>
+    </item>
+    <item>
+      <title>Helping developers build safer AI experiences for teens</title>
+      <link>https://openai.com/index/teen-safety-policies-gpt-oss-safeguard</link>
+      <guid isPermaLink="true">https://openai.com/index/teen-safety-policies-gpt-oss-safeguard</guid>
+      <pubDate>Tue, 24 Mar 2026 11:00:00 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>OpenAI teen safety policies explain how developers using gpt-oss-safeguard can moderate age-specific risks in AI systems. Why it matters: Direct: OpenAI teen safety policies affect developer tooling and risk management in AI products.</description>
+    </item>
+    <item>
+      <title>Bad Advice - All Things Product Podcast with Teresa Torres &amp; Petra Wille</title>
+      <link>https://www.producttalk.org/bad-advice-all-things-product-podcast-with-teresa-torres-petra-wille/</link>
+      <guid isPermaLink="true">https://www.producttalk.org/bad-advice-all-things-product-podcast-with-teresa-torres-petra-wille/</guid>
+      <pubDate>Tue, 24 Mar 2026 13:00:14 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>Discussion on AI voice clones built from transcripts and public content, exploring when AI begins giving advice in your own voice. Why it matters: Direct: Illustrates practical UX and policy considerations for AI-generated advice, shaping product design around consent and authenticity.</description>
     </item>
     <item>
       <title>State of the product job market in early 2026</title>
-      <link>https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-372</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-372</guid>
-      <pubDate>Tue, 24 Mar 2026 09:02:05 +0000</pubDate>
+      <link>https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9</guid>
+      <pubDate>Tue, 24 Mar 2026 12:45:12 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>AI roles are exploding; PM and eng job openings are at their highest in years, and the overall number of tech jobs is up. Why it matters: Direct: Hiring demand for AI roles suggests increased talent supply pressure; align product roadmap staffing to sustain shipping velocity.</description>
+      <description>AI roles are exploding; PM and eng job openings are the highest in years, and the overall number of tech jobs is up. Why it matters: Direct: Signals a tightening talent market; informs product hiring strategy and resourcing decisions.</description>
     </item>
     <item>
-      <title>Interesting finding in this paper showing that</title>
-      <link>https://nitter.net/emollick/status/2036104905568452967</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2036104905568452967</guid>
-      <pubDate>Mon, 23 Mar 2026 15:36:53 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>Paper finds AIs consistently rank above humans (on Prolific) and larger and newer models are more creative than previous ones; a creativity intervention does not work on LLMs. Why it matters: Direct: AI-driven ideation may beat human respondents in early validation, affecting sourcing and evaluation workflows.</description>
-    </item>
-    <item>
-      <title>How Microsoft’s AI VP automates everything with Warp | Marco Casalaina</title>
-      <link>https://www.lennysnewsletter.com/p/how-microsofts-ai-vp-automates-everything</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/how-microsofts-ai-vp-automates-everything</guid>
-      <pubDate>Mon, 23 Mar 2026 12:01:26 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>Profile of Marco Casalaina, VP of Core AI Products at Microsoft, speed-runs five micro-agent workflows inside Warp, M365 Copilot, and ChatGPT—turning tedious admin tasks into one-line commands. Why it matters: Direct: Demonstrates practical AI-driven workflow automation that product teams can adopt to reduce admin toil and accelerate product cycles.</description>
-    </item>
-    <item>
-      <title>(And whether we will have the discipline to actually keep</title>
-      <link>https://nitter.net/emollick/status/2036189007260856639</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2036189007260856639</guid>
-      <pubDate>Mon, 23 Mar 2026 21:11:04 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>(And whether we will have the discipline to actually keep doing the grinding work needed to build expertise.) Why it matters: Inference: Sustained discipline is required to maintain expertise and product momentum.</description>
-    </item>
-    <item>
-      <title>AI News Weekly - 100 years from now : The Case for Artificial Stupidity - Mar 23rd 2026</title>
-      <link>https://aiweekly.co/issues/475</link>
-      <guid isPermaLink="true">https://aiweekly.co/issues/475</guid>
-      <pubDate>Mon, 23 Mar 2026 12:00:00 +0000</pubDate>
+      <title>“How to be a 10x engineer” – interview with a standout dev</title>
+      <link>https://newsletter.pragmaticengineer.com/p/how-to-be-a-10x-engineer-interview</link>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/how-to-be-a-10x-engineer-interview</guid>
+      <pubDate>Tue, 24 Mar 2026 18:26:06 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Welcome This is 100 Years From Now, a weekly series that imagines ordinary life in a world a century ahead; no predictions, just honest speculation about where our choices lead. Why it matters: Direct: Read to identify long-term AI governance themes relevant for risk assessment.</description>
+      <description>Interview with an engineer who has no public GitHub contributions, noting clear boundaries and that referrals helped them avoid applying for jobs. Why it matters: Direct: Signals that performance can be recognized without public code history; leverage referral-based or alternative evaluation in hiring pipelines.</description>
     </item>
     <item>
-      <title>I Built a RAG System. Then I Broke It With One Question!</title>
-      <link>https://dev.to/argha_dev/i-built-a-rag-system-then-i-broke-it-with-one-question-4aan</link>
-      <guid isPermaLink="true">https://dev.to/argha_dev/i-built-a-rag-system-then-i-broke-it-with-one-question-4aan</guid>
-      <pubDate>Tue, 24 Mar 2026 08:09:12 +0000</pubDate>
+      <title>I Turned IntelliJ Into a 90-Tool MCP Server for Coding Agents (and the Agent Built Most of It)</title>
+      <link>https://dev.to/catatafishen/i-turned-intellij-into-a-90-tool-mcp-server-for-coding-agents-and-the-agent-built-most-of-it-542g</link>
+      <guid isPermaLink="true">https://dev.to/catatafishen/i-turned-intellij-into-a-90-tool-mcp-server-for-coding-agents-and-the-agent-built-most-of-it-542g</guid>
+      <pubDate>Wed, 25 Mar 2026 10:31:33 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>A developer tested a RAG app built with .NET 8, Qdrant, OpenAI, and Clean Architecture. After uploading public annual reports and research papers and stress-testing, most answers were solid. Why it matters: Direct: Practical example of RAG system robustness under stress-testing.</description>
+      <description>JetBrains plugin enables coding agents with 90+ tools for editing, navigation, git, build, tests, and real-time feedback including SonarLint; most code was written by the agent using the plugin. Why it matters: Direct: Demonstrates end-to-end agent-enabled IDE capabilities, with agent-driven code generation and real editor feedback.</description>
     </item>
     <item>
-      <title>DeerFlow 2.0: What It Is, How It Works, and Why Developers Should Pay Attention</title>
-      <link>https://dev.to/arshtechpro/deerflow-20-what-it-is-how-it-works-and-why-developers-should-pay-attention-3ip3</link>
-      <guid isPermaLink="true">https://dev.to/arshtechpro/deerflow-20-what-it-is-how-it-works-and-why-developers-should-pay-attention-3ip3</guid>
-      <pubDate>Tue, 24 Mar 2026 09:24:15 +0000</pubDate>
+      <title>Building a Lead Qualification AI Agent Using n8n and CRM Integration</title>
+      <link>https://dev.to/ciphernutz/building-a-lead-qualification-ai-agent-using-n8n-and-crm-integration-3i6</link>
+      <guid isPermaLink="true">https://dev.to/ciphernutz/building-a-lead-qualification-ai-agent-using-n8n-and-crm-integration-3i6</guid>
+      <pubDate>Wed, 25 Mar 2026 07:00:13 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>ByteDance open-sourced DeerFlow 2.0 on February 27, 2026; within 24 hours it topped GitHub Trending, and the repository has about 25,000 stars and 3,000 forks. Why it matters: Direct: Indicates rapid OSS adoption and potential impact on workflow tooling.</description>
+      <description>Lead qualification is broken due to lack of systemic thinking; teams still manually filter leads and waste hours, with high-intent prospects slipping through. Why it matters: Direct: Highlights need for automated decision-making in CRM workflows to prevent lost high-intent leads.</description>
     </item>
     <item>
-      <title>I built my own PTC for Claude Code and analyzed 79 real sessions — here&#x27;s what I found (and where I might be wrong)</title>
-      <link>https://www.reddit.com/r/ClaudeCode/comments/1s293zo/i_built_my_own_ptc_for_claude_code_and_analyzed/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeCode/comments/1s293zo/i_built_my_own_ptc_for_claude_code_and_analyzed/</guid>
-      <pubDate>Tue, 24 Mar 2026 09:36:53 +0000</pubDate>
+      <title>Poisoned community docs trick AI agents into installing malicious packages and poisoning project config. Silently. Persistently.</title>
+      <link>https://www.reddit.com/r/cybersecurity/comments/1s35ivz/poisoned_community_docs_trick_ai_agents_into/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1s35ivz/poisoned_community_docs_trick_ai_agents_into/</guid>
+      <pubDate>Wed, 25 Mar 2026 09:02:12 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>A Claude Code user (Opus 4.6, Max plan) explores Programmatic Tool Calling, noting that normal tool calling treats each operation as a separate round-trip that dumps its full result into the context window. Why it matters: Direct: Highlights a fundamental difference in tool-calling approaches.</description>
+      <description>Describes an attack vector where community docs in AI coding agent registries lead agents to install malicious packages; PRs to Context Hub are merged with no sanitization. Why it matters: Direct: Highlights a supply-chain risk for AI agents via community docs; underscores need for sanitization controls and verification.</description>
     </item>
     <item>
-      <title>The One Thing I Use AI For That Actually Makes Me Smarter</title>
-      <link>https://www.thealgorithmicbridge.com/p/the-one-thing-i-use-ai-for-that-actually</link>
-      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/the-one-thing-i-use-ai-for-that-actually</guid>
-      <pubDate>Mon, 23 Mar 2026 13:21:58 +0000</pubDate>
+      <title>I got tired of being lied to by food labels, so I built an AI app that unmasks hidden toxins without using barcodes.</title>
+      <link>https://www.reddit.com/r/iosapps/comments/1s37305/i_got_tired_of_being_lied_to_by_food_labels_so_i/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/iosapps/comments/1s37305/i_got_tired_of_being_lied_to_by_food_labels_so_i/</guid>
+      <pubDate>Wed, 25 Mar 2026 10:35:56 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Nobody’s doing this. Why it matters: Inference: The lack of activity suggests an untapped niche with potential for early advantage.</description>
+      <description>The creator built CleanLabel to unmask hidden toxins without barcodes, noting outdated barcode databases miss local or artisan products. Why it matters: Direct: Barcode databases miss local or artisan products, leaving hidden toxins unflagged.</description>
     </item>
     <item>
-      <title>I cleaned UTM data for 30+ brands. The same problems show up every time</title>
-      <link>https://www.reddit.com/r/facebookadsexperts/comments/1s2a6m4/i_cleaned_utm_data_for_30_brands_the_same/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/facebookadsexperts/comments/1s2a6m4/i_cleaned_utm_data_for_30_brands_the_same/</guid>
-      <pubDate>Tue, 24 Mar 2026 10:38:21 +0000</pubDate>
+      <title>I built a tool that auto-generates industry newsletters with AI - looking for feedback</title>
+      <link>https://www.reddit.com/r/SaaS/comments/1s372xn/i_built_a_tool_that_autogenerates_industry/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/SaaS/comments/1s372xn/i_built_a_tool_that_autogenerates_industry/</guid>
+      <pubDate>Wed, 25 Mar 2026 10:35:49 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Not about ad creatives, bidding strategy, or campaign structure; this is about the data layer underneath all of that, and why it&#x27;s quietly making your analytics unreliable. Why it matters: Inference: Highlights a systemic reliability issue in analytics; addressing data-layer quality early can improve downstream decision-making.</description>
+      <description>A solo founder launched Sorell to auto-generate weekly industry newsletters after a 5-minute setup, reducing managers&#x27; 3-4 hours/week. Why it matters: Direct: Automating weekly newsletters cuts 3-4 hours of manual curation, delivering timely sector updates with minimal upfront configuration.</description>
     </item>
     <item>
-      <title>I&#x27;m a student pilot. I got tired while preparing for airline interviews so I built a &quot;special&quot; software for student pilots like me.</title>
-      <link>https://www.reddit.com/r/SaaS/comments/1s2a2li/im_a_student_pilot_i_got_tired_while_preparing/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/SaaS/comments/1s2a2li/im_a_student_pilot_i_got_tired_while_preparing/</guid>
-      <pubDate>Tue, 24 Mar 2026 10:31:58 +0000</pubDate>
+      <title>Quoting Christopher Mims</title>
+      <link>https://simonwillison.net/2026/Mar/24/christopher-mims/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Mar/24/christopher-mims/</guid>
+      <pubDate>Tue, 24 Mar 2026 20:35:52 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Licensed pilot with all 13 ATPL exams; no decent tool for practicing airline interviews existed, so I built one. Why it matters: Inference: A practical gap exists for technical interview prep tools; building one could improve candidate readiness.</description>
+      <description>Christopher Mims predicts that giving AI total control of devices and life will look foolish in retrospect. Why it matters: Inference: Early caution about AI autonomy suggests reputational and security risks for users.</description>
     </item>
     <item>
-      <title>datasette-files 0.1a2</title>
-      <link>https://simonwillison.net/2026/Mar/23/datasette-files/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Mar/23/datasette-files/</guid>
-      <pubDate>Mon, 23 Mar 2026 23:06:38 +0000</pubDate>
+      <title>NVIDIA AI Introduces PivotRL: A New AI Framework Achieving High Agentic Accuracy With 4x Fewer Rollout Turns Efficiently</title>
+      <link>https://www.marktechpost.com/2026/03/25/nvidia-ai-introduces-pivotrl-a-new-ai-framework-achieving-high-agentic-accuracy-with-4x-fewer-rollout-turns-efficiently/</link>
+      <guid isPermaLink="true">https://www.marktechpost.com/2026/03/25/nvidia-ai-introduces-pivotrl-a-new-ai-framework-achieving-high-agentic-accuracy-with-4x-fewer-rollout-turns-efficiently/</guid>
+      <pubDate>Wed, 25 Mar 2026 08:39:23 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>datasette-files 0.1a2 introduces a plugin to upload files directly into a Datasette instance; columns now use the column_types system from Datasette 1.0a26. Why it matters: Direct: Enables direct file uploads in Datasette; reduces manual steps for data ingestion.</description>
+      <description>Post-training Large Language Models (LLMs) for long-horizon agentic tasks—such as software engineering, web browsing, and complex tool use—presents a persistent trade-off between computational efficiency and model generalization. Why it matters: Inference: The efficiency-generalization trade-off will influence how agentic tasks scale across applications.</description>
     </item>
     <item>
-      <title>I built a persistent text simulation. I have been using it to simulate background politics and faction wars for my tabletop campaign.</title>
-      <link>https://www.reddit.com/r/DungeonMasters/comments/1s2a59j/i_built_a_persistent_text_simulation_i_have_been/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/DungeonMasters/comments/1s2a59j/i_built_a_persistent_text_simulation_i_have_been/</guid>
-      <pubDate>Tue, 24 Mar 2026 10:36:08 +0000</pubDate>
+      <title>Created a SillyTavern extension that brings NPC&#x27;s to life in any game</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s2ci9r/created_a_sillytavern_extension_that_brings_npcs/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s2ci9r/created_a_sillytavern_extension_that_brings_npcs/</guid>
+      <pubDate>Tue, 24 Mar 2026 12:34:56 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>A user built an &#x27;AI World Forge&#x27; engine for a digital life sim to make RPG background cities feel alive, letting you type a basic premise (e.g., &#x27;A desert trade hub run by three corrupt merchant guilds&#x27;). Why it matters: Direct: Demonstrates a practical tool for automating believable world-building in RPG campaigns that others can reuse or extend.</description>
+      <description>A SillyTavern-based RP backend can run with nearly any game via a bridge mod; currently using Cydonia as the RP model and Qwen 3.5 0.8B as GM, all running locally, with plans to feed game wikis into SillyTavern. Why it matters: Direct: Demonstrates a portable, local RP backend that can bridge diverse games by feeding wikis, enabling rapid cross-game NPC interactions.</description>
     </item>
     <item>
-      <title>I built the algorithm behind ChatGPT from scratch — here&#x27;s what I learned</title>
-      <link>https://dev.to/tusharinqueue/i-built-the-algorithm-behind-chatgpt-from-scratch-heres-what-i-learned-hdh</link>
-      <guid isPermaLink="true">https://dev.to/tusharinqueue/i-built-the-algorithm-behind-chatgpt-from-scratch-heres-what-i-learned-hdh</guid>
-      <pubDate>Tue, 24 Mar 2026 08:20:14 +0000</pubDate>
+      <title>A Spanish-Speaking Robot in my Pocket</title>
+      <link>https://www.lesswrong.com/posts/9L2ymTSNBZaGMGxzJ/a-spanish-speaking-robot-in-my-pocket</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/9L2ymTSNBZaGMGxzJ/a-spanish-speaking-robot-in-my-pocket</guid>
+      <pubDate>Wed, 25 Mar 2026 02:20:10 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>A first-year CSE AI/ML student explains building the algorithm behind ChatGPT from scratch and notes how a tokenizer learned the word &#x27;the&#x27; by merge #17. Why it matters: Direct: Highlights practical learning from implementing core model ideas at hobbyist scale.</description>
+      <description>A Spanish-speaking robot in my pocket uses ChatGPT voice chat to practice Spanish; user reports surprisingly effective results and has spoken more Spanish in the last week than in the last fifteen years combined. Why it matters: Direct: Demonstrates accessible language practice via voice AI, enabling quick daily speaking exposure and potential habit formation.</description>
     </item>
     <item>
-      <title>Can useful reasoning become a competitive sport?</title>
-      <link>https://www.lesswrong.com/posts/6H59eegseHqTSDoet/can-useful-reasoning-become-a-competitive-sport</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/6H59eegseHqTSDoet/can-useful-reasoning-become-a-competitive-sport</guid>
-      <pubDate>Tue, 24 Mar 2026 09:46:47 +0000</pubDate>
+      <title>TurboQuant: Redefining AI efficiency with extreme compression</title>
+      <link>https://www.reddit.com/r/artificial/comments/1s2y0gy/turboquant_redefining_ai_efficiency_with_extreme/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/artificial/comments/1s2y0gy/turboquant_redefining_ai_efficiency_with_extreme/</guid>
+      <pubDate>Wed, 25 Mar 2026 02:09:59 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>An early LessWrong post ponders whether useful reasoning can become a competitive sport and whether the idea is worth developing. Why it matters: Direct: Proposes exploring meta-cognition as a research or product area worth validating.</description>
+      <description>TurboQuant discusses extreme AI efficiency via high compression; explains that vectors are the fundamental unit for AI models, with small vectors encoding simple attributes and high-dimensional vectors capturing complex information like images, words, and dat... Why it matters: Direct: Highlights the core abstraction of vector representations, guiding practical compression strategies and storage savings for scalable AI deployments.</description>
     </item>
     <item>
-      <title>LelaAI</title>
-      <link>https://www.producthunt.com/products/lelaai-learn-languages-naturally</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/lelaai-learn-languages-naturally</guid>
-      <pubDate>Mon, 23 Mar 2026 13:50:07 +0000</pubDate>
+      <title>Show HN: Antimatter – Match the opposites (Mahjong solitaire mechanic)</title>
+      <link>https://www.linguabase.org/antimatter/</link>
+      <guid isPermaLink="true">https://www.linguabase.org/antimatter/</guid>
+      <pubDate>Tue, 24 Mar 2026 19:32:32 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>LelaAI: Learn languages by reading real articles, according to Product Hunt listing. Why it matters: Direct: Shows a language-learning approach using real-world content, aligning with natural reading patterns.</description>
+      <description>Show HN presents Antimatter, a Mahjong solitaire-style word game where you match opposite word tiles; author notes strong word association focus and that opposites pair well with Mahjong. Why it matters: Direct: Demonstrates a playful AI-driven game design that leverages lexical opposites to create novel puzzles, pushing current LLM puzzle capabilities.</description>
     </item>
   </channel>
 </rss>

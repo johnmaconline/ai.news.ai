@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-03-25",
+    "title": "Daily AI Feed - 2026-03-25",
+    "lead_story": "Orchestrating Specialist LLM Roles for a complex Life Sim (Gemini 3 Flash + OpenRouter)",
+    "lead_url": "https://www.reddit.com/r/LLMDevs/comments/1s373of/orchestrating_specialist_llm_roles_for_a_complex/",
+    "generated_at": "2026-03-25T10:50:14+00:00"
+  },
+  {
     "date": "2026-03-24",
     "title": "Daily AI Feed - 2026-03-24",
     "lead_story": "Most people treat system prompts wrong. Here's the framework that actually works.",
