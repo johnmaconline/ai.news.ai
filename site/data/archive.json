@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-03-28",
+    "title": "Daily AI Feed - 2026-03-28",
+    "lead_story": "Prompts are a meta-programming language. Here's the proof.",
+    "lead_url": "https://www.reddit.com/r/ClaudeAI/comments/1s5qnjd/prompts_are_a_metaprogramming_language_heres_the/",
+    "generated_at": "2026-03-28T10:35:15+00:00"
+  },
+  {
     "date": "2026-03-27",
     "title": "Daily AI Feed - 2026-03-27",
     "lead_story": "I built a library of compressed knowledge packs you can paste into system prompts \u2014 saves ~15% tokens",

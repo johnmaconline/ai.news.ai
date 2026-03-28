@@ -1,58 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-03-27</title>
+    <title>Daily AI Feed - 2026-03-28</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Fri, 27 Mar 2026 10:52:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 10:35:15 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>I built a library of compressed knowledge packs you can paste into system prompts — saves ~15% tokens</title>
-      <link>https://www.reddit.com/r/ollama/comments/1s4sany/i_built_a_library_of_compressed_knowledge_packs/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ollama/comments/1s4sany/i_built_a_library_of_compressed_knowledge_packs/</guid>
-      <pubDate>Fri, 27 Mar 2026 02:54:31 +0000</pubDate>
+      <title>Prompts are a meta-programming language. Here&#x27;s the proof.</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1s5qnjd/prompts_are_a_metaprogramming_language_heres_the/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAI/comments/1s5qnjd/prompts_are_a_metaprogramming_language_heres_the/</guid>
+      <pubDate>Sat, 28 Mar 2026 04:25:24 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>CodexLib is a curated library of knowledge packs designed to fit into AI system prompts efficiently, enabling deep domain expertise in medicine, law, cybersecurity, and related fields. Why it matters: Direct: Reduces prompt token usage by about 15%, cutting costs and improving prompt efficiency.</description>
+      <description>Prompts are a meta-programming language. Here&#x27;s the proof. I&#x27;ve been building an Electron app (Claude Code CLI, React, TypeScript, SQLite) and ended up with a prompt pipeline that has the structural properties of a prog... Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from Reddit AI Prompt Search.</description>
     </item>
     <item>
-      <title>Claude&#x27;s system prompt + XML tags is the most underused power combo right now</title>
-      <link>https://www.reddit.com/r/artificial/comments/1s4odb8/claudes_system_prompt_xml_tags_is_the_most/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/artificial/comments/1s4odb8/claudes_system_prompt_xml_tags_is_the_most/</guid>
-      <pubDate>Fri, 27 Mar 2026 00:01:50 +0000</pubDate>
+      <title>246 Prompts for Brainrot Tiny World Review – The Ultimate Viral AI Prompt System for Explosive Content Creation</title>
+      <link>https://dev.to/nhan_scope/246-prompts-for-brainrot-tiny-world-review-the-ultimate-viral-ai-prompt-system-for-explosive-2ei4</link>
+      <guid isPermaLink="true">https://dev.to/nhan_scope/246-prompts-for-brainrot-tiny-world-review-the-ultimate-viral-ai-prompt-system-for-explosive-2ei4</guid>
+      <pubDate>Sat, 28 Mar 2026 10:14:38 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Claude&#x27;s system prompt + XML tags is the most underused power combo right now. Why it matters: Direct: Highlights a practical prompt technique that could significantly alter Claude&#x27;s effectiveness by using structured system prompts with XML tags.</description>
+      <description>246 Prompts for Brainrot Tiny World Review – Introduction In today’s hyper-competitive digital ecosystem, capturing attention is no longer optional—it is the foundation of success. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from DEV.to AI Tag.</description>
     </item>
     <item>
-      <title>Prabowo&#x27;s visit prompts housing plan for Jakarta railway slum area</title>
-      <link>https://en.antaranews.com/news/410006/prabowos-visit-prompts-housing-plan-for-jakarta-railway-slum-area</link>
-      <guid isPermaLink="true">https://en.antaranews.com/news/410006/prabowos-visit-prompts-housing-plan-for-jakarta-railway-slum-area</guid>
-      <pubDate>Fri, 27 Mar 2026 06:49:50 +0000</pubDate>
+      <title>Hi, pure vibe coder with 0 technical knowledge, BUT!!</title>
+      <link>https://www.reddit.com/r/vibecoding/comments/1s5w93d/hi_pure_vibe_coder_with_0_technical_knowledge_but/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/vibecoding/comments/1s5w93d/hi_pure_vibe_coder_with_0_technical_knowledge_but/</guid>
+      <pubDate>Sat, 28 Mar 2026 09:55:44 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>The Indonesian government has moved to prepare better homes for residents living along the railway in Senen, Central ... Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from ANTARA News - Latest Indonesia News.</description>
+      <description>Hello, I am planning to launch my SaaS soon. As I said, I 100% vibe coded it. I know many people will comment like, &quot;You can&#x27;t do this,&quot; &quot;The SaaS will break soon,&quot; or &quot;There will be security threats. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from Reddit Software Dev AI Search.</description>
     </item>
     <item>
-      <title>Vercel Releases JSON-Render: A Generative UI Framework for AI-Driven Interface Composition</title>
-      <link>https://www.infoq.com/news/2026/03/vercel-json-render/</link>
-      <guid isPermaLink="true">https://www.infoq.com/news/2026/03/vercel-json-render/</guid>
-      <pubDate>Thu, 26 Mar 2026 14:56:00 +0000</pubDate>
-      <category>0) Practical Prompts</category>
-      <description>Vercel has open-sourced json-render, a framework that enables AI models to create structured user interfaces from natural language prompts. Released under the Apache 2. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from InfoQ AI/ML/Data Engineering.</description>
-    </item>
-    <item>
-      <title>AI News Weekly - Can you guess how much cash Open AI was losing with Sora? - Mar 26th 2026</title>
-      <link>https://aiweekly.co/issues/476</link>
-      <guid isPermaLink="true">https://aiweekly.co/issues/476</guid>
-      <pubDate>Thu, 26 Mar 2026 18:37:37 +0000</pubDate>
+      <title>You Can&#x27;t Tell It&#x27;s a Robot Anymore — Build Your Own Conversational Voice AI for Pennies with NexaAPI</title>
+      <link>https://dev.to/q2408808/you-cant-tell-its-a-robot-anymore-build-your-own-conversational-voice-ai-for-pennies-with-4f5p</link>
+      <guid isPermaLink="true">https://dev.to/q2408808/you-cant-tell-its-a-robot-anymore-build-your-own-conversational-voice-ai-for-pennies-with-4f5p</guid>
+      <pubDate>Sat, 28 Mar 2026 10:15:32 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Accountability dominates this week&#x27;s AI discourse: who decides AI capabilities, with a federal judge calling Pentagon blacklisting of Anthropic an &#x27;attempt to cripple&#x27; and juries ruling Meta liable for addictive platforms. Why it matters: Direct: Highlights governance tensions critical for safe, scalable AI deployment.</description>
+      <description>A DEV.to piece explains building a penny-cost conversational voice AI using NexaAPI, noting Google&#x27;s Gemini 3.1 Flash Live and Gemini 3 launch, and claims the Turing Test is obsolete. Why it matters: Direct: Highlights low-cost, rapid prototyping for voice AI using NexaAPI; assess Gemini 3.1/3 capabilities and any pricing constraints.</description>
     </item>
     <item>
-      <title>PICon: A Multi-Turn Interrogation Framework for Evaluating Persona Agent Consistency</title>
-      <link>http://arxiv.org/abs/2603.25620v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2603.25620v1</guid>
-      <pubDate>Thu, 26 Mar 2026 16:34:34 +0000</pubDate>
+      <title>AG2 Has a Free API: Microsoft&#x27;s Framework for Multi-Agent AI Systems</title>
+      <link>https://dev.to/0012303/ag2-has-a-free-api-microsofts-framework-for-multi-agent-ai-systems-179j</link>
+      <guid isPermaLink="true">https://dev.to/0012303/ag2-has-a-free-api-microsofts-framework-for-multi-agent-ai-systems-179j</guid>
+      <pubDate>Sat, 28 Mar 2026 10:17:38 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>PICon introduces a multi-turn interrogation framework to verify persona agent consistency, addressing the lack of systematic methods to detect contradictions and factual inaccuracies in ongoing interactions. Why it matters: Direct: Ensures persona agents remain consistent and accurate across extended interactions, a prerequisite for trustworthy automation.</description>
+      <description>AG2 provides a free API for building multi-agent AI systems, evolving from Microsoft&#x27;s AutoGen. Why it matters: Direct: Enables orchestration-free multi-agent AI experiments using a free API.</description>
     </item>
     <item>
       <title>Run Generative AI inference with Amazon Bedrock in Asia Pacific (New Zealand)</title>
@@ -60,135 +52,135 @@
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/run-generative-ai-inference-with-amazon-bedrock-in-asia-pacific-new-zealand/</guid>
       <pubDate>Thu, 26 Mar 2026 23:08:53 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Amazon Bedrock becomes available in the Asia Pacific (New Zealand) region, enabling cross-region inference and access to Anthropic Claude models and Amazon Nova 2 Lite in Auckland. Why it matters: Direct: Extends cloud-inference options for NZ users, enabling cross-region access to Claude and Nova models.</description>
+      <description>Amazon Bedrock is available in the Asia Pacific (New Zealand) region; NZ customers can access Anthropic Claude models (Opus 4.5/4.6, Sonnet 4.5/4.6, Haiku 4.5) and Nova 2 Lite with cross-region inference. Why it matters: Direct: Expands Bedrock reach in NZ and enables cross-region inference for Claude and Nova models.</description>
     </item>
     <item>
-      <title>I benchmarked 31 STT models on medical audio — VibeVoice 9B is the new open-source leader at 8.34% WER, but it&#x27;s big and slow</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1s4z18o/i_benchmarked_31_stt_models_on_medical_audio/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1s4z18o/i_benchmarked_31_stt_models_on_medical_audio/</guid>
-      <pubDate>Fri, 27 Mar 2026 09:13:24 +0000</pubDate>
+      <title>Mistral releases a new open source model for speech generation</title>
+      <link>https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/</link>
+      <guid isPermaLink="true">https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/</guid>
+      <pubDate>Thu, 26 Mar 2026 11:30:00 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Benchmark v3 compares 31 STT models on medical audio; VibeVoice-ASR 9B leads open-source WER at 8.34%, though it&#x27;s large and slow. Why it matters: Direct: Highlights trade-offs between accuracy and latency/compute for open-source STT models.</description>
+      <description>Mistral released a new open-source speech generation model for enterprises to build voice agents for sales and customer engagement, competing with ElevenLabs, Deepgram, and OpenAI. Why it matters: Direct: Provides a competitive, open-source voice-generation option for enterprises; indicates market pressure from ElevenLabs, Deepgram, OpenAI.</description>
     </item>
     <item>
-      <title>The Pulse: is GitHub still best for AI-native development?</title>
-      <link>https://newsletter.pragmaticengineer.com/p/the-pulse-is-github-still-best-for</link>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-pulse-is-github-still-best-for</guid>
-      <pubDate>Thu, 26 Mar 2026 17:23:07 +0000</pubDate>
+      <title>Asking Codex to build a SimGothicManor game and really enjoying</title>
+      <link>https://nitter.net/emollick/status/2037765012958199898</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2037765012958199898</guid>
+      <pubDate>Sat, 28 Mar 2026 05:33:33 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>GitHub&#x27;s poor availability for months raises questions about its status and focus; the piece also notes Microsoft&#x27;s promise that Windows will not be Microslop and mentions a large LLM supply-chain risk. Why it matters: Direct: Signals potential reliability risks in tooling that could impact AI-native workflow stability and shipping velocity.</description>
+      <description>Asking Codex to build a SimGothicManor game and really enjoying its internal planning monologue obsessed with tongue-in-cheek gothic, such as worrying about scope creep in a velvet cape. Why it matters: Direct: Demonstrates how AI-driven planning monologues can surface design thresholds (like scope creep) early, guiding iterative UX decisions.</description>
     </item>
     <item>
-      <title>It is worth noting the absolute confidence of the leading</title>
-      <link>https://nitter.net/emollick/status/2037392207641014688</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2037392207641014688</guid>
-      <pubDate>Fri, 27 Mar 2026 04:52:09 +0000</pubDate>
+      <title>Heh, it really likes this theme</title>
+      <link>https://nitter.net/emollick/status/2037772430798647422</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2037772430798647422</guid>
+      <pubDate>Sat, 28 Mar 2026 06:03:02 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>It is worth noting the absolute confidence of the leading AI labs that they can continue to release ever more powerful models for the near future. Why it matters: Inference: Aligns execs on monitoring AI capability claims and planning for dependency changes in AI model deployment.</description>
+      <description>Heh, it really likes this theme, with some excellent error messages. Why it matters: Direct: Highlights alignment between theme preferences and the quality of user-facing error messaging, a practical UX signal.</description>
     </item>
     <item>
-      <title>we basically covered the entire history of information technology in</title>
-      <link>https://nitter.net/swyx/status/2037389754686472674</link>
-      <guid isPermaLink="true">https://nitter.net/swyx/status/2037389754686472674</guid>
-      <pubDate>Fri, 27 Mar 2026 04:42:25 +0000</pubDate>
+      <title>Weekly Dose of Optimism #186</title>
+      <link>https://www.notboring.co/p/weekly-dose-of-optimism-186</link>
+      <guid isPermaLink="true">https://www.notboring.co/p/weekly-dose-of-optimism-186</guid>
+      <pubDate>Fri, 27 Mar 2026 12:39:57 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>we basically covered the entire history of information technology in the pod nitter. Why it matters: Inference: Highlights the podcast&#x27;s framing as a wide-from-history narrative—worth considering for context in product-market explanations.</description>
+      <description>Not Boring&#x27;s Weekly Dose of Optimism #186 highlights NASA Goes Nuclear, Terraform, Arbor Turbines, Flu Vaccine, Chicken Egg Drugs, Science Breakthroughs, and Extra Doses. Why it matters: Direct: Signals breadth of AI-curation coverage in science and tech breakthroughs, informing product prioritization.</description>
     </item>
     <item>
-      <title>How to Add Verifiable Execution to an AI Agent in Under 30 Minutes</title>
-      <link>https://dev.to/arrotu/how-to-add-verifiable-execution-to-an-ai-agent-in-under-30-minutes-3o6h</link>
-      <guid isPermaLink="true">https://dev.to/arrotu/how-to-add-verifiable-execution-to-an-ai-agent-in-under-30-minutes-3o6h</guid>
-      <pubDate>Fri, 27 Mar 2026 09:42:05 +0000</pubDate>
+      <title>How to Run an AI Full-Stack Developer That Actually Ships (Not Just Loops)</title>
+      <link>https://www.reddit.com/r/openclaw/comments/1s5n2fi/how_to_run_an_ai_fullstack_developer_that/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/openclaw/comments/1s5n2fi/how_to_run_an_ai_fullstack_developer_that/</guid>
+      <pubDate>Sat, 28 Mar 2026 01:31:28 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Explains how to verify an AI agent&#x27;s decision after the fact: inputs, tools, step sequence, workflow changes, and record integrity to restore confidence. Why it matters: Direct: Provides a practical prompt for verifiable execution, addressing common confidence gaps in AI decision-making.</description>
+      <description>An experienced AI/agent practitioner argues that autonomous agents are not the main problem; success depends on tools, deployment, and processes rather than just better models or prompts. Why it matters: Direct: Shifts focus from model improvements to actionable deployment and tooling, enabling reliable autonomous agents.</description>
     </item>
     <item>
-      <title>WORCA - Workflow Orchestration for Agents with Claude Code</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1s4w4yj/worca_workflow_orchestration_for_agents_with/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAI/comments/1s4w4yj/worca_workflow_orchestration_for_agents_with/</guid>
-      <pubDate>Fri, 27 Mar 2026 06:11:17 +0000</pubDate>
+      <title>Evolution Engineering: The Missing Discipline in AI</title>
+      <link>https://dev.to/rotiferdev/evolution-engineering-the-missing-discipline-in-ai-lic</link>
+      <guid isPermaLink="true">https://dev.to/rotiferdev/evolution-engineering-the-missing-discipline-in-ai-lic</guid>
+      <pubDate>Sat, 28 Mar 2026 10:09:44 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Presents WORCA — a workflow orchestration approach for Claude Code agents, highlighting a pattern where tasks start strong but progress becomes uncertain. Why it matters: Direct: Highlights practical orchestration patterns for agents coding with Claude Code to improve reliability.</description>
+      <description>The article says prompt engineering, context engineering, and harness engineering cover different AI stack layers; it identifies capability as the missing layer. Why it matters: Direct: Highlights where capability remains unaddressed, guiding engineers to fill the gap.</description>
     </item>
     <item>
-      <title>How to Develop a CLI-Based Autonomous Agent in Python</title>
-      <link>https://www.reddit.com/r/LightAPILLM/comments/1s4y49u/how_to_develop_a_clibased_autonomous_agent_in/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LightAPILLM/comments/1s4y49u/how_to_develop_a_clibased_autonomous_agent_in/</guid>
-      <pubDate>Fri, 27 Mar 2026 08:15:22 +0000</pubDate>
+      <title>AIReputors Review: I Used It for 5 Days (My Results)</title>
+      <link>https://www.reddit.com/r/ShareAiPrompts/comments/1s5wa8u/aireputors_review_i_used_it_for_5_days_my_results/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ShareAiPrompts/comments/1s5wa8u/aireputors_review_i_used_it_for_5_days_my_results/</guid>
+      <pubDate>Sat, 28 Mar 2026 09:57:45 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Guides developing a CLI-based autonomous agent in Python; cautions about API costs from repeated reasoning steps and long prompts. Why it matters: Direct: Highlights cost risks when building CLI agents due to repeated reasoning and prompts.</description>
+      <description>The reviewer argues online reputation determines local business success; even strong ads, sites, and offers fail if reputation looks weak, since people no longer politely ask for proof. Why it matters: Direct: Reputation anchors conversion; digital marketing must address perception.</description>
     </item>
     <item>
-      <title>Ollama in Docker Compose with GPU and Persistent Model Storage</title>
-      <link>https://dev.to/rosgluk/ollama-in-docker-compose-with-gpu-and-persistent-model-storage-224h</link>
-      <guid isPermaLink="true">https://dev.to/rosgluk/ollama-in-docker-compose-with-gpu-and-persistent-model-storage-224h</guid>
-      <pubDate>Fri, 27 Mar 2026 09:57:49 +0000</pubDate>
+      <title>AI Agents are Fragile. Stop your AI Agents from crashing: The 6-Layer Security Mesh</title>
+      <link>https://dev.to/harshit_joshi_40e8d863ba7/ai-agents-are-fragile-stop-your-ai-agents-from-crashing-the-6-layer-security-mesh-2726</link>
+      <guid isPermaLink="true">https://dev.to/harshit_joshi_40e8d863ba7/ai-agents-are-fragile-stop-your-ai-agents-from-crashing-the-6-layer-security-mesh-2726</guid>
+      <pubDate>Sat, 28 Mar 2026 10:16:39 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Explains running Ollama as a service via Docker Compose with GPU acceleration and persistent storage for reproducible single-node deployments. Why it matters: Direct: Provides concrete Docker Compose pattern to deploy GPU-accelerated Ollama with persistent model storage.</description>
+      <description>The author presents ToolGuard, an execution-layer firewall for AI agents, within a six-layer security mesh to mitigate fragility. Why it matters: Direct: An open-source firewall concept may reduce AI agent fragility and provide a deployment pattern.</description>
     </item>
     <item>
-      <title>It’s AI, so I Didn’t Read</title>
-      <link>https://www.thealgorithmicbridge.com/p/its-ai-so-i-didnt-read</link>
-      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/its-ai-so-i-didnt-read</guid>
-      <pubDate>Thu, 26 Mar 2026 20:02:02 +0000</pubDate>
+      <title>Weekly Top Picks #117</title>
+      <link>https://www.thealgorithmicbridge.com/p/weekly-top-picks-117</link>
+      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/weekly-top-picks-117</guid>
+      <pubDate>Fri, 27 Mar 2026 17:23:34 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>The Algorithmic Bridge highlights a new AI shorthand, AI;DR, gaining attention. Why it matters: Direct: AI;DR signals growing shorthand adoption framing how audiences discuss AI, shaping early discourse and potential policy or product naming.</description>
+      <description>Weekly Top Picks #117 covers OpenAI&#x27;s main quest; Anthropic Trumps the DoD; ARC-AGI 3, Spud, and Mythos; The tragedy of AI writing; This is a disaster, so have fun. Why it matters: Direct: Signals rising debates around OpenAI, Anthropic, and ARC-AGI themes that may influence policy and product risk soon.</description>
     </item>
     <item>
-      <title>Turned 1,300+ dead screenshots into searchable Markdown notes</title>
-      <link>https://www.reddit.com/r/AutoHotkey/comments/1s50d2y/turned_1300_dead_screenshots_into_searchable/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/AutoHotkey/comments/1s50d2y/turned_1300_dead_screenshots_into_searchable/</guid>
-      <pubDate>Fri, 27 Mar 2026 10:31:53 +0000</pubDate>
+      <title>[Project] PentaNet: Pushing beyond BitNet with Native Pentanary {-2, -1, 0, 1, 2} Quantization (124M, zero-multiplier inference)</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1s5l5l2/project_pentanet_pushing_beyond_bitnet_with/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1s5l5l2/project_pentanet_pushing_beyond_bitnet_with/</guid>
+      <pubDate>Sat, 28 Mar 2026 00:05:50 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>VisionScribe converts a 1.7 GB screenshots folder into searchable Markdown notes, using an AHK v2 GUI and Python; repo at github.com/wsnh2022/VisionScribe. Why it matters: Direct: VisionScribe demonstrates practical archival search improvements for massive, unstructured media assets, paired with a cross-language toolchain; could influence future per...</description>
+      <description>A Reddit post reports experimenting with extreme LLM quantization following BitNet 1.58b; discusses potential capacity loss from ternary {-1,0,1} and explores whether pentanary weights could help. Why it matters: Direct: Highlights potential efficiency vs. capacity tradeoffs in LLM quantization that could influence future model deployment.</description>
     </item>
     <item>
-      <title>We Rewrote JSONata with AI in a Day, Saved $500K/Year</title>
-      <link>https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/</guid>
-      <pubDate>Fri, 27 Mar 2026 00:35:01 +0000</pubDate>
+      <title>An Implementation of IWE’s Context Bridge as an AI-Powered Knowledge Graph with Agentic RAG, OpenAI Function Calling, and Graph Traversal</title>
+      <link>https://www.marktechpost.com/2026/03/27/an-implementation-of-iwes-context-bridge-as-an-ai-powered-knowledge-graph-with-agentic-rag-openai-function-calling-and-graph-traversal/</link>
+      <guid isPermaLink="true">https://www.marktechpost.com/2026/03/27/an-implementation-of-iwes-context-bridge-as-an-ai-powered-knowledge-graph-with-agentic-rag-openai-function-calling-and-graph-traversal/</guid>
+      <pubDate>Fri, 27 Mar 2026 20:06:55 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Go-based rewrite of JSONata in a day saved $500K/year; described as vibe porting and a new Go implementation related to Node-RED. Why it matters: Direct: Rewriting JSONata in Go and saving $500K/year highlights AI-assisted porting approaches with real cost impact; may inform maintenance decisions for legacy JSON tooling.</description>
+      <description>Tutorial implements IWE, an open-source, Rust-powered personal knowledge management system that treats Markdown notes as a navigable knowledge graph; the CLI/LSP tool designed for local editors. Why it matters: Direct: Highlights local-first knowledge graphs and CLI tooling for private data.</description>
     </item>
     <item>
-      <title>I got tired of AI tools that can&#x27;t see what&#x27;s actually running in my browser, so I built one that can</title>
-      <link>https://www.reddit.com/r/selfhosted/comments/1s50hcc/i_got_tired_of_ai_tools_that_cant_see_whats/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/selfhosted/comments/1s50hcc/i_got_tired_of_ai_tools_that_cant_see_whats/</guid>
-      <pubDate>Fri, 27 Mar 2026 10:38:24 +0000</pubDate>
+      <title>made a tool to auto setup opencode config with claude, cursor rules etc. just hit 100 github stars</title>
+      <link>https://www.reddit.com/r/opencode/comments/1s5wk41/made_a_tool_to_auto_setup_opencode_config_with/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/opencode/comments/1s5wk41/made_a_tool_to_auto_setup_opencode_config_with/</guid>
+      <pubDate>Sat, 28 Mar 2026 10:14:06 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Two developers built a browser-visible AI coding tool; architecture-focused; project hosted as frontman-ai/frontman with ~180 stars. Why it matters: Direct: The frontman project emphasizes architecture over wrappers, suggesting more transparent, auditable AI tooling in IDEs and reproducible setups.</description>
+      <description>A Reddit post introduces ai-setup, a tool that auto-generates OpenCode config with Cursor rules and CLAUDE, reducing setup friction for users. Why it matters: Direct: Demonstrates practical tooling to streamline AI integration workflows and reduce onboarding friction.</description>
     </item>
     <item>
-      <title>Live AI video generation feels like it&#x27;s about to become a completely different thing from what most people think it is</title>
-      <link>https://www.reddit.com/r/singularity/comments/1s4u7ym/live_ai_video_generation_feels_like_its_about_to/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1s4u7ym/live_ai_video_generation_feels_like_its_about_to/</guid>
-      <pubDate>Fri, 27 Mar 2026 04:26:37 +0000</pubDate>
+      <title>Just Use Bayes: Sleeping Beauty and Monty Hall</title>
+      <link>https://www.lesswrong.com/posts/zvdqNxsgKzqrtjkdA/just-use-bayes-sleeping-beauty-and-monty-hall</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/zvdqNxsgKzqrtjkdA/just-use-bayes-sleeping-beauty-and-monty-hall</guid>
+      <pubDate>Sat, 28 Mar 2026 02:59:56 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>A discussion notes that AI video talk centers on generation quality, but the author argues the real interest lies in future directions. Why it matters: Inference: Highlights a shift from surface realism to strategic implications of AI video tech.</description>
+      <description>Author explores a longstanding fascination with a paradox, noting it isn’t exactly the famous Sleeping Beauty problem. Why it matters: Direct: Highlights how nuanced probability puzzles can inform Bayesian reasoning in AI systems and decision-support tools.</description>
     </item>
     <item>
-      <title>Analyzing the claim “The most fundamental right is the right to exist”</title>
-      <link>https://www.lesswrong.com/posts/4M6q2WCCwW9cqNgRc/analyzing-the-claim-the-most-fundamental-right-is-the-right</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/4M6q2WCCwW9cqNgRc/analyzing-the-claim-the-most-fundamental-right-is-the-right</guid>
-      <pubDate>Fri, 27 Mar 2026 01:05:27 +0000</pubDate>
+      <title>Vibe coding is fun until your app ends up in superposition</title>
+      <link>https://www.reddit.com/r/vibecoding/comments/1s5whm6/vibe_coding_is_fun_until_your_app_ends_up_in/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/vibecoding/comments/1s5whm6/vibe_coding_is_fun_until_your_app_ends_up_in/</guid>
+      <pubDate>Sat, 28 Mar 2026 10:10:06 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Notes that the claim &#x27;The most fundamental right is the right to exist&#x27; traces to expanding the moral circle—from humans to animals, and now AI moral status. Why it matters: Direct: Examines a foundational ethical claim and its lineage across moral inclusion.</description>
+      <description>FE developer with 10+ years&#x27; experience explains embracing AI agents but cautions that surface improvements can mask underlying confidence collapse when a small change is requested. Why it matters: Direct: Emphasizes risks of over-reliance on surface gains in AI-enabled products and the need to monitor model confidence.</description>
     </item>
     <item>
-      <title>Inside Project Kobe: Amazon&#x27;s plan to build Walmart-style supercenters powered by warehouse robots and AI</title>
-      <link>https://www.businessinsider.com/amazon-building-massive-ai-superstores-go-after-walmart-project-kobe-2026-3</link>
-      <guid isPermaLink="true">https://www.businessinsider.com/amazon-building-massive-ai-superstores-go-after-walmart-project-kobe-2026-3</guid>
-      <pubDate>Fri, 27 Mar 2026 09:00:01 +0000</pubDate>
+      <title>Vibe coding SwiftUI apps is a lot of fun</title>
+      <link>https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/</guid>
+      <pubDate>Fri, 27 Mar 2026 20:59:53 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Describes Amazon&#x27;s Project Kobe plan to disrupt Walmart by creating supercenters blending retail and fulfillment automation, per internal docs. Why it matters: Direct: Highlights a corporate AI-enabled expansion strategy that merges shopping and logistics.</description>
+      <description>A user with a new 128GB M5 MacBook Pro tests running local LLMs and builds vibe-coded performance monitoring tools, reporting high satisfaction with the results. Why it matters: Direct: Demonstrates practical use of local LLMs on consumer hardware and custom monitoring tooling.</description>
     </item>
     <item>
-      <title>Lawmakers Eye Bipartisan Crackdown On &#x27;Prediction Market&#x27; Gambling</title>
-      <link>https://www.aol.com/articles/lawmakers-eye-bipartisan-crackdown-prediction-201909028.html</link>
-      <guid isPermaLink="true">https://www.aol.com/articles/lawmakers-eye-bipartisan-crackdown-prediction-201909028.html</guid>
-      <pubDate>Thu, 26 Mar 2026 20:19:09 +0000</pubDate>
+      <title>When AI Learns to Dream: The Unexpected Poetry of Machine Creativity</title>
+      <link>https://dev.to/paifamily/when-ai-learns-to-dream-the-unexpected-poetry-of-machine-creativity-46on</link>
+      <guid isPermaLink="true">https://dev.to/paifamily/when-ai-learns-to-dream-the-unexpected-poetry-of-machine-creativity-46on</guid>
+      <pubDate>Sat, 28 Mar 2026 08:59:59 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Headline notes lawmakers are pursuing a bipartisan crackdown on prediction market gambling. Why it matters: Direct: Points to potential regulatory changes affecting prediction markets.</description>
+      <description>Author reflects on moments of unexpected emergence in creative processes and how AI models interact with art. Why it matters: Direct: Highlights the surprising generative aspects of AI art and relates to modeling creativity and user perception.</description>
     </item>
   </channel>
 </rss>
