@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-03-29",
+    "title": "Daily AI Feed - 2026-03-29",
+    "lead_story": "built an npx tool that scans your Node project and auto generates AI coding assistant config files, 150 GitHub stars",
+    "lead_url": "https://www.reddit.com/r/node/comments/1s6p6y4/built_an_npx_tool_that_scans_your_node_project/",
+    "generated_at": "2026-03-29T10:35:29+00:00"
+  },
+  {
     "date": "2026-03-28",
     "title": "Daily AI Feed - 2026-03-28",
     "lead_story": "Prompts are a meta-programming language. Here's the proof.",
