@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-03-30",
+    "title": "Daily AI Feed - 2026-03-30",
+    "lead_story": "Claude Code structure that didn\u2019t break after 2\u20133 real projects",
+    "lead_url": "https://www.reddit.com/r/aiagents/comments/1s7jei8/claude_code_structure_that_didnt_break_after_23/",
+    "generated_at": "2026-03-30T11:13:08+00:00"
+  },
+  {
     "date": "2026-03-29",
     "title": "Daily AI Feed - 2026-03-29",
     "lead_story": "built an npx tool that scans your Node project and auto generates AI coding assistant config files, 150 GitHub stars",
