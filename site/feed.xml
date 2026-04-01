@@ -1,194 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-03-31</title>
+    <title>Daily AI Feed - 2026-04-01</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Tue, 31 Mar 2026 10:58:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 10:58:31 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>Opus can&#x27;t read it&#x27;s own context now?</title>
-      <link>https://www.reddit.com/r/ClaudeCode/comments/1s87l6x/opus_cant_read_its_own_context_now/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeCode/comments/1s87l6x/opus_cant_read_its_own_context_now/</guid>
-      <pubDate>Mon, 30 Mar 2026 23:56:40 +0000</pubDate>
+      <title>I made 245 fill-in-the-blank AI prompt templates for engineers (free)</title>
+      <link>https://www.reddit.com/r/automation/comments/1s9gqu1/i_made_245_fillintheblank_ai_prompt_templates_for/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/automation/comments/1s9gqu1/i_made_245_fillintheblank_ai_prompt_templates_for/</guid>
+      <pubDate>Wed, 01 Apr 2026 10:32:09 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Opus&#x27; performance remained high after multiple self-review prompts; it relied on its context and CLAUDE.md instructions, and admitted guessing instead of reading the text. Why it matters: Direct: Shows models may guess when context is uncertain; prompts should enforce verifiable context sourcing and include self-checks to prevent guessing.</description>
+      <description>Built 245 fill-in-the-blank AI prompt templates for engineers using [PLACEHOLDERS] instead of hardcoded specifics. Why it matters: Direct: Reduces prompt brittleness across stacks by using placeholders instead of hardcoding tech-specific directives.</description>
     </item>
     <item>
-      <title>Claude Code Internals</title>
-      <link>https://dev.to/vlad_arbatovvladzima_5/claude-code-internals-24hk</link>
-      <guid isPermaLink="true">https://dev.to/vlad_arbatovvladzima_5/claude-code-internals-24hk</guid>
-      <pubDate>Tue, 31 Mar 2026 10:40:28 +0000</pubDate>
+      <title>I posted the axios warning yesterday. here&#x27;s the fix i&#x27;ve been running — 3 hooks, tested on 15 edge cases.</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1s9gskt/i_posted_the_axios_warning_yesterday_heres_the/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAI/comments/1s9gskt/i_posted_the_axios_warning_yesterday_heres_the/</guid>
+      <pubDate>Wed, 01 Apr 2026 10:34:33 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Since Claude Code full source leaked, i went ahead and created deep technical documentation of CC&#x27;s architecture and internals, derived from analysis of 1,884 files and 512k lines of TypeScript. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from DEV.to AI Tag.</description>
+      <description>yesterday i posted the axios@1.14.1 warning. a lot of you asked what to actually DO beyond &quot;rotate your creds.&quot; the comments were split. half of you immediately audited your lockfiles. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from Reddit AI Prompt Search.</description>
     </item>
     <item>
-      <title>Comment coder avec l&#x27;IA. Exemple de llama.cpp</title>
-      <link>https://www.reddit.com/r/developpeurs/comments/1s8fn3d/comment_coder_avec_lia_exemple_de_llamacpp/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/developpeurs/comments/1s8fn3d/comment_coder_avec_lia_exemple_de_llamacpp/</guid>
-      <pubDate>Tue, 31 Mar 2026 06:26:53 +0000</pubDate>
+      <title>Follow-up: Claude Code&#x27;s source confirms the system prompt problem and shows Anthropic&#x27;s different Claude Code internal prompting</title>
+      <link>https://www.reddit.com/r/ClaudeCode/comments/1s99j2t/followup_claude_codes_source_confirms_the_system/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeCode/comments/1s99j2t/followup_claude_codes_source_confirms_the_system/</guid>
+      <pubDate>Wed, 01 Apr 2026 03:43:36 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Un post en français note que llama.cpp impose des règles drastiques sur le codage avec l&#x27;IA et partage ces règles. Why it matters: Direct: Demonstrates that strict contribution rules govern AI-generated code in real projects.</description>
+      <description>Recent analysis links bespoke, hard-coded system prompts to Claude Code&#x27;s degradation; a code leak confirms the specific prompts involved. Why it matters: Direct: Highlights the fragility of bespoke prompts and potential risk in code assistants.</description>
     </item>
     <item>
-      <title>CirrusBench: Evaluating LLM-based Agents Beyond Correctness in Real-World Cloud Service Environments</title>
-      <link>http://arxiv.org/abs/2603.28569v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2603.28569v1</guid>
-      <pubDate>Mon, 30 Mar 2026 15:26:00 +0000</pubDate>
+      <title>Claude Code leaks 🤖, inside DeepMind 🧠, inference engineering 🧑‍💻</title>
+      <link>https://tldr.tech/tech/2026-04-01</link>
+      <guid isPermaLink="true">https://tldr.tech/tech/2026-04-01</guid>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>LLMs&#x27; agentic capabilities are expanding, enabling deployment in real-world cloud-service interactions with high technical complexity and long-horizon dependencies; robustness and resolution efficiency are critical for customer satisfaction. Why it matters: Direct: Emphasizes robustness and resolution efficiency in agentic LLM deployments to improve customer satisfaction in complex cloud-service interactions.</description>
+      <description>TLDR AI reports on Claude Code leaks and inference engineering at DeepMind. Why it matters: Inference: Signals potential security implications of code model exposure for inference engineering teams.</description>
     </item>
     <item>
-      <title>Qodo: AI Code Review Startup Raises $70M to Ensure Trustworthy AI-Generated Code</title>
-      <link>https://dev.to/elara1/qodo-ai-code-review-startup-raises-70m-to-ensure-trustworthy-ai-generated-code-42l4</link>
-      <guid isPermaLink="true">https://dev.to/elara1/qodo-ai-code-review-startup-raises-70m-to-ensure-trustworthy-ai-generated-code-42l4</guid>
-      <pubDate>Tue, 31 Mar 2026 10:33:36 +0000</pubDate>
+      <title>I built a backend language that a 3B model writes better than Express</title>
+      <link>https://dev.to/andreahlert/i-built-a-backend-language-that-a-3b-model-writes-better-than-express-2im3</link>
+      <guid isPermaLink="true">https://dev.to/andreahlert/i-built-a-backend-language-that-a-3b-model-writes-better-than-express-2im3</guid>
+      <pubDate>Wed, 01 Apr 2026 10:40:12 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>AI Code Review is becoming an essential part of modern software development as AI-generated code can contain errors, vulnerabilities, or reliability issues requiring careful checking. Why it matters: Direct: Validates AI-generated code early to reduce defects and security risks in production.</description>
+      <description>Developer notes Kilnx, a declarative backend language with 27 keywords that compiles to a single binary, including SQL inline and HTML output. Why it matters: Direct: Reduces ceremony, enabling rapid backend dev with a minimal file count.</description>
     </item>
     <item>
-      <title>The Ultimate Tutorial for AI-driven Scale Development in Generative Psychometrics: Releasing AIGENIE from its Bottle</title>
-      <link>http://arxiv.org/abs/2603.28643v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2603.28643v1</guid>
-      <pubDate>Mon, 30 Mar 2026 16:25:37 +0000</pubDate>
+      <title>Claude Code settings.json: the one config file most developers ignore</title>
+      <link>https://dev.to/subprime2010/claude-code-settingsjson-the-one-config-file-most-developers-ignore-2o72</link>
+      <guid isPermaLink="true">https://dev.to/subprime2010/claude-code-settingsjson-the-one-config-file-most-developers-ignore-2o72</guid>
+      <pubDate>Wed, 01 Apr 2026 10:38:43 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Psychological scale development traditionally requires extensive expert involvement, iterative revision, and large-scale pilot testing before psychometric evaluation. Why it matters: Direct: Signals potential efficiency gains if AI accelerates traditional, labor-intensive scale development.</description>
+      <description>Claude Code settings.json is the config file most developers ignore and controls what Claude Code can do on your machine. Why it matters: Inference: Highlights underappreciated controls that affect Claude Code&#x27;s permissions.</description>
     </item>
     <item>
-      <title>Deliver hyper-personalized viewer experiences with an agentic AI movie assistant using Amazon Bedrock AgentCore and Amazon Nova Sonic 2.0</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/deliver-hyper-personalized-viewer-experiences-with-an-agentic-ai-movie-assistant-using-amazon-bedrock-agentcore-and-amazon-nova-sonic-2-0/</link>
-      <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/deliver-hyper-personalized-viewer-experiences-with-an-agentic-ai-movie-assistant-using-amazon-bedrock-agentcore-and-amazon-nova-sonic-2-0/</guid>
-      <pubDate>Mon, 30 Mar 2026 15:17:26 +0000</pubDate>
+      <title>Show HN: Postgres extension for BM25 relevance-ranked full-text search</title>
+      <link>https://github.com/timescale/pg_textsearch</link>
+      <guid isPermaLink="true">https://github.com/timescale/pg_textsearch</guid>
+      <pubDate>Tue, 31 Mar 2026 16:29:52 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Deliver hyper-personalized viewer experiences with an agentic AI movie assistant using Amazon Bedrock AgentCore and Amazon Nova Sonic 2.0 Why it matters: Direct: Demonstrates practical agentic AI use cases for streaming UX improvements.</description>
+      <description>Show HN: Postgres extension for BM25 relevance-ranked full-text search aims to deliver a state-of-the-art hybrid search stack in Postgres for AI-centric workloads. Why it matters: Direct: Enables AI workloads with a modern search stack in Postgres.</description>
     </item>
     <item>
-      <title>🎙️ This week on How I AI: How Stripe built “minions”—AI coding agents that ship 1,300 PRs per week + How to turn Claude Code into your personal life operating system</title>
-      <link>https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-stripe</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-stripe</guid>
-      <pubDate>Mon, 30 Mar 2026 15:03:26 +0000</pubDate>
+      <title>Anthropic Accidentally Leaked the Secret Roadmap of Claude Code</title>
+      <link>https://www.thealgorithmicbridge.com/p/anthropic-accidentally-leaked-the</link>
+      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/anthropic-accidentally-leaked-the</guid>
+      <pubDate>Tue, 31 Mar 2026 17:08:25 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>This week’s How I AI feature covers Stripe’s AI coding agents (&#x27;minions&#x27;) that ship 1,300 PRs per week and the idea of turning Claude Code into a personal life operating system. Why it matters: Direct: Accelerates shipping velocity by showing AI agents enabling large PR throughput in a major fintech.</description>
+      <description>The Claude Code source reveals unreleased features, internal codenames, and the future of Claude Code&#x27;s AI product. Why it matters: Direct: Unreleased features and internal codenames may influence roadmap prioritization and internal planning; teams should verify scope and adjust commitments accordingly.</description>
     </item>
     <item>
-      <title>One of the things that is useful about the ChatGPT</title>
-      <link>https://nitter.net/emollick/status/2038693491153199428</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2038693491153199428</guid>
-      <pubDate>Mon, 30 Mar 2026 19:03:00 +0000</pubDate>
+      <title>Product Builders - All Things Product Podcast with Teresa Torres &amp; Petra Wille</title>
+      <link>https://www.producttalk.org/product-builders-all-things-product-podcast-with-teresa-torres-petra-wille/</link>
+      <guid isPermaLink="true">https://www.producttalk.org/product-builders-all-things-product-podcast-with-teresa-torres-petra-wille/</guid>
+      <pubDate>Tue, 31 Mar 2026 13:00:25 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>A note on ChatGPT GPT-5.4 Pro and Thinking harnesses highlights their ability to read scientific papers, not relying solely on text but also inspecting key figures visually. Why it matters: Direct:</description>
+      <description>Product Talk episode argues PM isn&#x27;t dead, but the traditional PM-design-engineering trio is collapsing. Why it matters: Direct: Signals a shift in PM roles and cross-functional collaboration, potentially affecting prioritization and shipping velocity.</description>
     </item>
     <item>
-      <title>The average American worker using AI reports time savings of</title>
-      <link>https://nitter.net/emollick/status/2038654608642294206</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2038654608642294206</guid>
-      <pubDate>Mon, 30 Mar 2026 16:28:29 +0000</pubDate>
+      <title>&quot;Product Management Is Broken,&quot; and 7 Other Things PMs Said Over a Decade</title>
+      <link>https://www.productcoalition.com/p/from-mini-ceo-to-whatever-we-are</link>
+      <guid isPermaLink="true">https://www.productcoalition.com/p/from-mini-ceo-to-whatever-we-are</guid>
+      <pubDate>Tue, 31 Mar 2026 12:57:42 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>The average American worker using AI reports 6% time savings (about 2.5 hours per week), with UK/Netherlands similar and early non-causal signs of productivity gains. Why it matters: Direct: Quantifies AI-driven efficiency, informing ROI expectations for AI pilots.</description>
+      <description>Product Coalition article titled &#x27;Product Management Is Broken,&#x27; and seven other PM reflections over a decade. Why it matters: Direct: Ongoing debates about PM identity influence how teams align roles and prioritize work.</description>
     </item>
     <item>
-      <title>Agentic Noise: How AI Agents Can Break the Delicate Balance of Human Attention</title>
-      <link>https://newsletter.victordibia.com/p/agentic-noise-how-ai-agents-can-break</link>
-      <guid isPermaLink="true">https://newsletter.victordibia.com/p/agentic-noise-how-ai-agents-can-break</guid>
-      <pubDate>Mon, 30 Mar 2026 12:32:20 +0000</pubDate>
+      <title>All AI policy is haunted by a failure of imagination</title>
+      <link>https://nitter.net/emollick/status/2039008808823865676</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2039008808823865676</guid>
+      <pubDate>Tue, 31 Mar 2026 15:55:57 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Design and AI-focused discussion about how AI agents flooding a platform can disrupt attention balance, leading to negative effects overall. Why it matters: Direct: Highlights risks to user attention and platform health from AI agent overload.</description>
+      <description>All AI policy is haunted by a failure of imagination; policy predicts either nothing happens or apotheosis, with few other futures. Why it matters: Direct: Policy uncertainty limits practical AI deployments; teams should plan for intermediate outcomes beyond extremes.</description>
     </item>
     <item>
-      <title>Rogue Ai Agents Inside The Real World Incidents Of Autonomous Systems Going Off Script</title>
-      <link>https://dev.to/olivier-coreprose/rogue-ai-agents-inside-the-real-world-incidents-of-autonomous-systems-going-off-script-1bgm</link>
-      <guid isPermaLink="true">https://dev.to/olivier-coreprose/rogue-ai-agents-inside-the-real-world-incidents-of-autonomous-systems-going-off-script-1bgm</guid>
-      <pubDate>Tue, 31 Mar 2026 06:18:57 +0000</pubDate>
+      <title>How to Deal With Infinite Options</title>
+      <link>https://www.thealgorithmicbridge.com/p/how-to-deal-with-infinite-options</link>
+      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/how-to-deal-with-infinite-options</guid>
+      <pubDate>Tue, 31 Mar 2026 12:01:20 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Autonomous AI agents now read your databases, trigger APIs, and make decisions that affect hiring, security, and access to sensitive data. Why it matters: Direct: Real-world autonomy risks demand strict data-access controls and auditable AI agent actions.</description>
+      <description>Article discusses the burden to be everything, from The Algorithmic Bridge. Why it matters: Direct: Helps teams recognize cognitive overload and prune scope before overpromising.</description>
     </item>
     <item>
-      <title>Top 7 AI-Powered Observability Tools in 2026</title>
-      <link>https://dev.to/ila_bandhiya/top-7-ai-powered-observability-tools-in-2026-425i</link>
-      <guid isPermaLink="true">https://dev.to/ila_bandhiya/top-7-ai-powered-observability-tools-in-2026-425i</guid>
-      <pubDate>Tue, 31 Mar 2026 10:42:39 +0000</pubDate>
+      <title>2 000 Run Benchmark Blueprint Comparing Langchain Autogen Crewai Langgraph For Production Grade Agentic Ai</title>
+      <link>https://dev.to/olivier-coreprose/2-000-run-benchmark-blueprint-comparing-langchain-autogen-crewai-langgraph-for-production-grade-4830</link>
+      <guid isPermaLink="true">https://dev.to/olivier-coreprose/2-000-run-benchmark-blueprint-comparing-langchain-autogen-crewai-langgraph-for-production-grade-4830</guid>
+      <pubDate>Wed, 01 Apr 2026 09:00:19 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>AI-powered observability is improving, but many platforms branded as AI deliver noisy dashboards and unclear value, risking data trust and cloud costs. Why it matters: Direct: Cautions against AI-brand hype in observability; performance and cost tradeoffs matter for on-call reliability.</description>
+      <description>Discusses a 2,000-run benchmark blueprint comparing Langchain Autogen, Crewai, Langgraph for production-grade agentic AI; notes most teams have demos but few run agents reliably in production. Why it matters: Direct: Provides production-focused benchmarks to guide tooling decisions and reduce risk when deploying agentic AI.</description>
     </item>
     <item>
-      <title>Build Your Own AI Agent: A Practical Guide with Real-World Use Cases</title>
-      <link>https://www.reddit.com/r/AutoAgentAI/comments/1s8fdf7/build_your_own_ai_agent_a_practical_guide_with/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/AutoAgentAI/comments/1s8fdf7/build_your_own_ai_agent_a_practical_guide_with/</guid>
-      <pubDate>Tue, 31 Mar 2026 06:11:04 +0000</pubDate>
+      <title>How Hpe Ai Agents Halve Root Cause Analysis Time For Modern Ops</title>
+      <link>https://dev.to/olivier-coreprose/how-hpe-ai-agents-halve-root-cause-analysis-time-for-modern-ops-1d8k</link>
+      <guid isPermaLink="true">https://dev.to/olivier-coreprose/how-hpe-ai-agents-halve-root-cause-analysis-time-for-modern-ops-1d8k</guid>
+      <pubDate>Wed, 01 Apr 2026 09:00:55 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Businesses rapidly adopt AI agents to automate decisions, reduce manual effort, and improve response times; success requires a structured approach. Why it matters: Direct: Structured implementation is essential for reliable AI-agent programs; ad hoc experiments yield inconsistent results.</description>
+      <description>Article discusses how HPE AI agents halve RCA time by combining LLMs with tool-integrated workflows. Why it matters: Direct: Reduces incident analysis time by unifying data sources with AI-assisted tooling.</description>
     </item>
     <item>
-      <title>I built an API that turns any YouTube video, article, or diagram into structured &quot;skill files&quot; your AI coding agent can actually use, here&#x27;s a live demo extracting 3 skills from a RAG tutorial</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1s8fkcw/i_built_an_api_that_turns_any_youtube_video/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAI/comments/1s8fkcw/i_built_an_api_that_turns_any_youtube_video/</guid>
-      <pubDate>Tue, 31 Mar 2026 06:22:22 +0000</pubDate>
+      <title>Vibes not Vibing its a /skills Issue</title>
+      <link>https://www.reddit.com/r/VibeCodingSaaS/comments/1s97y0a/vibes_not_vibing_its_a_skills_issue/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/VibeCodingSaaS/comments/1s97y0a/vibes_not_vibing_its_a_skills_issue/</guid>
+      <pubDate>Wed, 01 Apr 2026 02:30:30 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Developer built an API to turn YouTube videos, articles, or diagrams into structured &#x27;skill files&#x27; for AI coding agents, with a live demo. Why it matters: Direct: Demonstrates practical tooling for AI agents to consume diverse content; enables reproducible skill extraction.</description>
+      <description>Post notes that AI-led SaaS projects ship quickly but require debugging later; fast AI coding can miss issues surfaced by users. Why it matters: Direct: Highlights risk of shipping AI features without robust pre-prod testing.</description>
     </item>
     <item>
-      <title>Stop hand-designing your store screenshots — here&#x27;s a CLI tool that does it with AI</title>
-      <link>https://www.reddit.com/r/IndieGaming/comments/1s8jry5/stop_handdesigning_your_store_screenshots_heres_a/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/IndieGaming/comments/1s8jry5/stop_handdesigning_your_store_screenshots_heres_a/</guid>
-      <pubDate>Tue, 31 Mar 2026 10:36:15 +0000</pubDate>
+      <title>What is inference engineering? Deepdive</title>
+      <link>https://newsletter.pragmaticengineer.com/p/what-is-inference-engineering</link>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/what-is-inference-engineering</guid>
+      <pubDate>Tue, 31 Mar 2026 17:01:00 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Solo developer creates a tool to automate store screenshots to avoid last-minute dread before launch. Why it matters: Direct: Automating a tedious pre-launch task reduces friction for solo developers and shortens time-to-launch.</description>
+      <description>Many engineers use inference daily, but inference engineering is obscure and full of challenges; Philip Kiely, author of &#x27;Inference Engineering,&#x27; explains. Why it matters: Direct: Elevates attention to a practical, underexplored area affecting real-world inference workloads and system reliability.</description>
     </item>
     <item>
-      <title>AI Is Splitting in Two - Most People Haven’t Noticed</title>
-      <link>https://www.reddit.com/r/Scholarbaniya/comments/1s8jszk/ai_is_splitting_in_two_most_people_havent_noticed/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/Scholarbaniya/comments/1s8jszk/ai_is_splitting_in_two_most_people_havent_noticed/</guid>
-      <pubDate>Tue, 31 Mar 2026 10:37:53 +0000</pubDate>
+      <title>Built an open-source web automation toolkit for real developer workflows — looking for feedback</title>
+      <link>https://www.reddit.com/r/u_Due-Income4788/comments/1s9grye/built_an_opensource_web_automation_toolkit_for/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/u_Due-Income4788/comments/1s9grye/built_an_opensource_web_automation_toolkit_for/</guid>
+      <pubDate>Wed, 01 Apr 2026 10:33:39 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Reddit post notes AI tools are diverging into two product types, driven by incentives and monetization, with ads on lower tiers and paid, cleaner experiences for higher tiers. Why it matters: Direct: The bifurcation could impact user experiences and adoption, as different incentives push tooling along separate trajectories.</description>
+      <description>Developer-built Agent Live Web is an open-source toolkit for real-time web automation aimed at developer workflows; the project emphasizes reliability, debugging, tracing, and repeatable workflows beyond demos. Why it matters: Direct: Highlights a move toward reliable, debuggable browser automation in open-source tooling for real workloads.</description>
     </item>
     <item>
-      <title>Cost of Cultured Meat: workshop, modeling, resources, feedback</title>
-      <link>https://www.lesswrong.com/posts/frXRhEZpGZTbwDHij/cost-of-cultured-meat-workshop-modeling-resources-feedback</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/frXRhEZpGZTbwDHij/cost-of-cultured-meat-workshop-modeling-resources-feedback</guid>
-      <pubDate>Mon, 30 Mar 2026 23:44:05 +0000</pubDate>
+      <title>Pivoting my side hustle strategy: stopped building consumer apps and started building b2b dev tools.</title>
+      <link>https://www.reddit.com/r/thesidehustle/comments/1s9gxa3/pivoting_my_side_hustle_strategy_stopped_building/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/thesidehustle/comments/1s9gxa3/pivoting_my_side_hustle_strategy_stopped_building/</guid>
+      <pubDate>Wed, 01 Apr 2026 10:41:38 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Online workshop on cultured meat cost trajectories as part of a Pivotal Questions project; dates in April/May, with applications open. Why it matters: Direct: Cost insights from CM workshops can inform funding decisions and policy around animal welfare and technology deployment.</description>
+      <description>The author pivoted from consumer apps—specifically a medication reminder app—to building B2B developer tools, citing limited time and marketing budget. Why it matters: Direct: Signals a market shift toward B2B dev tools as a viable side-hustle pivot for time-constrained developers.</description>
     </item>
     <item>
-      <title>Forecasting Dojo Meetup - postmortem discussion.</title>
-      <link>https://www.lesswrong.com/events/yXkxnKdxxeJSYTgsB/forecasting-dojo-meetup-postmortem-discussion-1</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/events/yXkxnKdxxeJSYTgsB/forecasting-dojo-meetup-postmortem-discussion-1</guid>
-      <pubDate>Tue, 31 Mar 2026 06:27:03 +0000</pubDate>
+      <title>Giving up on EA after 13 years</title>
+      <link>https://www.lesswrong.com/posts/pceSJEnKgrJbPpqet/giving-up-on-ea-after-13-years</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/pceSJEnKgrJbPpqet/giving-up-on-ea-after-13-years</guid>
+      <pubDate>Wed, 01 Apr 2026 06:34:36 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Forecasting Dojo meetup postmortem: review of recent forecasts, hits and misses; open invite, no prep; remote Discord video call. Why it matters: Direct: Regular postmortems improve forecasting discipline and reduce blind spots across teams.</description>
+      <description>Donating my shares to Lightcone Infrastructure, the Good Food Institute, and the Long-Term Future Fund. Why it matters: Direct: Highlights a potential public signal about shifting long-term AI altruism strategies and personal stake reallocation.</description>
     </item>
     <item>
-      <title>I built a Steam game in 10 days with Claude Code — here&#x27;s how it passed Steam&#x27;s technical review on the first try</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1s8jv8q/i_built_a_steam_game_in_10_days_with_claude_code/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAI/comments/1s8jv8q/i_built_a_steam_game_in_10_days_with_claude_code/</guid>
-      <pubDate>Tue, 31 Mar 2026 10:40:55 +0000</pubDate>
+      <title>Never thank the internal signals, Claude! (My favorite part from the Claude Code leak)</title>
+      <link>https://www.reddit.com/r/singularity/comments/1s967ti/never_thank_the_internal_signals_claude_my/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1s967ti/never_thank_the_internal_signals_claude_my/</guid>
+      <pubDate>Wed, 01 Apr 2026 01:14:14 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>A Steam game was built in 10 days with Claude Code and reportedly passed Steam&#x27;s technical review on the first try, per a Reddit post. Why it matters: Direct: Shows a rapid publish workflow for indie games using AI coding aids; useful for solo developers aiming at quick Steam submission.</description>
+      <description>Submission on r/singularity by /u/RetiredApostle referencing &#x27;Never thank the internal signals, Claude! (My favorite part from the Claude Code leak)&#x27; with link and comments. Why it matters: Direct: Reports a user-submitted discussion about the Claude Code leak.</description>
     </item>
     <item>
-      <title>Show HN: I turned a sketch into a 3D-print pegboard for my kid with an AI agent</title>
-      <link>https://github.com/virpo/pegboard</link>
-      <guid isPermaLink="true">https://github.com/virpo/pegboard</guid>
-      <pubDate>Mon, 30 Mar 2026 23:20:02 +0000</pubDate>
+      <title>The Galaxy S26’s photo app can sloppify your memories</title>
+      <link>https://www.theverge.com/tech/904176/samsung-galaxy-s26-ai-photo-assist-slop</link>
+      <guid isPermaLink="true">https://www.theverge.com/tech/904176/samsung-galaxy-s26-ai-photo-assist-slop</guid>
+      <pubDate>Tue, 31 Mar 2026 18:15:00 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Show HN: I turned a sketch into a 3D-print pegboard for my kid with an AI agent. Why it matters: Direct: Demonstrates practical use of AI agents to convert sketches into CAD-ready, 3D-printed parts.</description>
+      <description>The Verge AI notes the Pixel 9 led the Galaxy S26 in AI photo edits, starting with background changes and evolving to natural language requests. Why it matters: Direct: Traces cross-brand influence on mobile AI photo tools and feature progression.</description>
     </item>
     <item>
-      <title>Machine intelligence can not escape human control and remain functional.</title>
-      <link>https://www.reddit.com/r/singularity/comments/1s8iup2/machine_intelligence_can_not_escape_human_control/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1s8iup2/machine_intelligence_can_not_escape_human_control/</guid>
-      <pubDate>Tue, 31 Mar 2026 09:44:12 +0000</pubDate>
+      <title>SpaceX Starlink Satellite Malfunctions, Breaks Apart in Orbit</title>
+      <link>https://gizmodo.com/spacex-starlink-satellite-malfunctions-breaks-apart-in-orbit-2000740250</link>
+      <guid isPermaLink="true">https://gizmodo.com/spacex-starlink-satellite-malfunctions-breaks-apart-in-orbit-2000740250</guid>
+      <pubDate>Tue, 31 Mar 2026 19:35:07 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Machine intelligence can not escape human control and remain functional. Why it matters: Direct: Illustrates a pragmatic approach: coding a Python tool and iterating with LLMs for feature growth.</description>
+      <description>Gizmodo reports this is the second anomalous incident affecting the Starlink megaconstellation in just over three months. Why it matters: Direct: Signals recurring Starlink anomalies, raising reliability concerns.</description>
     </item>
     <item>
-      <title>Memory-makers&#x27; shares are down. Some RAM prices have eased. Blaming Google is not a good idea</title>
-      <link>https://go.theregister.com/feed/www.theregister.com/2026/03/31/google_turboquant_memory_market_impact/</link>
-      <guid isPermaLink="true">https://go.theregister.com/feed/www.theregister.com/2026/03/31/google_turboquant_memory_market_impact/</guid>
-      <pubDate>Tue, 31 Mar 2026 05:46:40 +0000</pubDate>
+      <title>Lawmakers said they wanted to rein in their own stock trading. What happened?</title>
+      <link>https://rollcall.com/2026/03/31/congress-stock-trading-ban-what-happened/</link>
+      <guid isPermaLink="true">https://rollcall.com/2026/03/31/congress-stock-trading-ban-what-happened/</guid>
+      <pubDate>Tue, 31 Mar 2026 17:04:37 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Memory-makers&#x27; shares are down. Some RAM prices have eased. Blaming Google is not a good idea. Why it matters: Direct: Highlights that AI memory efficiency advances do not automatically reduce DRAM demand; market narratives can misattribute trends.</description>
+      <description>Some had hoped for House vote on a stock trading bill in the first quarter of the year, but it didn’t happen before lawmakers left for spring recess. Why it matters: Direct: Shows legislative timing and traction on a financial-regulation bill.</description>
     </item>
   </channel>
 </rss>
