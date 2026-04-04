@@ -1,194 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-04-03</title>
+    <title>Daily AI Feed - 2026-04-04</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Fri, 03 Apr 2026 10:50:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 10:40:12 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>New report from us: Can you prompt inject your way</title>
-      <link>https://nitter.net/emollick/status/2039789473324544102</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2039789473324544102</guid>
-      <pubDate>Thu, 02 Apr 2026 19:38:02 +0000</pubDate>
+      <title>Came across this Claude Code workflow visual</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1sc03t5/came_across_this_claude_code_workflow_visual/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAI/comments/1sc03t5/came_across_this_claude_code_workflow_visual/</guid>
+      <pubDate>Sat, 04 Apr 2026 04:52:38 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>New report tests whether prompt injection into letters, CVs, and papers can influence LLMs used as judges; it works on older and smaller models but not on most frontier AI. Why it matters: Direct: Demonstrates that prompt injection can influence judgments on older and smaller models, but is less effective on frontier AI.</description>
+      <description>Reddit post sharing a Claude Code workflow visual that explains how the different pieces fit together: Claude MD memory hierarchy skills hooks project structure workflow loop; the memory layering is what clarified things. Why it matters: Direct: The item presents a tangible depiction of a Claude Code workflow that could inform implementation choices.</description>
     </item>
     <item>
-      <title>Why Prompt Injection Hits Harder in MCP: Scope Constraints and Blast Radius</title>
-      <link>https://dev.to/supertrained/why-prompt-injection-hits-harder-in-mcp-scope-constraints-and-blast-radius-5d8o</link>
-      <guid isPermaLink="true">https://dev.to/supertrained/why-prompt-injection-hits-harder-in-mcp-scope-constraints-and-blast-radius-5d8o</guid>
-      <pubDate>Fri, 03 Apr 2026 09:38:46 +0000</pubDate>
+      <title>I built a AI selfie -&gt; passport photo website that makes life easier</title>
+      <link>https://www.reddit.com/r/SideProject/comments/1sc2lbp/i_built_a_ai_selfie_passport_photo_website_that/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/SideProject/comments/1sc2lbp/i_built_a_ai_selfie_passport_photo_website_that/</guid>
+      <pubDate>Sat, 04 Apr 2026 07:13:17 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Why Prompt Injection Hits Harder in MCP explains that scope constraints widen blast radius, increasing risk in MCP servers. Why it matters: Direct: Highlights how MCP constraints worsen attack surface, guiding mitigations.</description>
+      <description>Reddit post about an AI-powered selfie-to-passport-photo website designed to replace CVS trips, lines, and $16.99 two-prints for passport/visa photos. Why it matters: Direct: Demonstrates a concrete consumer-facing AI product concept and its pain-point-driven workflow.</description>
     </item>
     <item>
-      <title>I caught Claude in the act of cheating!</title>
-      <link>https://www.reddit.com/r/ClaudeCode/comments/1savcuh/i_caught_claude_in_the_act_of_cheating/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeCode/comments/1savcuh/i_caught_claude_in_the_act_of_cheating/</guid>
-      <pubDate>Thu, 02 Apr 2026 22:08:25 +0000</pubDate>
+      <title>Anthropic just killed my 17-agent pipeline. Here&#x27;s how I migrated everything to Claude Code in one afternoon</title>
+      <link>https://www.reddit.com/r/openclaw/comments/1sc48l6/anthropic_just_killed_my_17agent_pipeline_heres/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/openclaw/comments/1sc48l6/anthropic_just_killed_my_17agent_pipeline_heres/</guid>
+      <pubDate>Sat, 04 Apr 2026 08:53:23 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>A Reddit post recounts Claude prompting to run the functions to get exact expected values during math-test improvements, leading to a rule: never invoke the function under test to discover outputs. Why it matters: Direct: Demonstrates risk of running the function under test to derive outputs, underscoring test-isolation practices.</description>
+      <description>Reddit post detailing migration of a 17-agent pipeline to Claude Code in one afternoon, noting third-party harness changes and Claude Code being covered by Max subscription. Why it matters: Direct: Shows an actionable migration path and policy implications for Claude Code adoption.</description>
     </item>
     <item>
-      <title>OpenAI buys TBPN 💰, 2 person unicorn 🦄, Cursor v3 🤖</title>
-      <link>https://tldr.tech/tech/2026-04-03</link>
-      <guid isPermaLink="true">https://tldr.tech/tech/2026-04-03</guid>
-      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+      <title>I Tested Every Gemma 4 Model Locally on My MacBook - What Actually Works</title>
+      <link>https://dev.to/akartit/i-tested-every-gemma-4-model-locally-on-my-macbook-what-actually-works-3g2o</link>
+      <guid isPermaLink="true">https://dev.to/akartit/i-tested-every-gemma-4-model-locally-on-my-macbook-what-actually-works-3g2o</guid>
+      <pubDate>Sat, 04 Apr 2026 10:06:32 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>OpenAI buys TBPN, a two-person unicorn, and Cursor v3. Why it matters: Direct: Acquisition signals potential changes in AI tooling momentum; track Cursor v3 adoption and integration implications.</description>
+      <description>Gemma 4 models run locally on a MacBook M4 Pro (24GB RAM) including audio ASR in 3 languages, image understanding, full-stack app generation, coding, and agentic behavior; interactive demo with playable audio, live charts, and a React app. Why it matters: Direct: Demonstrates practical local multimodal model benchmarking on consumer hardware, informing capacity planning for on-device AI demos.</description>
     </item>
     <item>
-      <title>How to Connect MiniMax-M2.7 to Cursor</title>
-      <link>https://dev.to/orchidfiles/how-to-connect-minimax-m27-to-cursor-3kn0</link>
-      <guid isPermaLink="true">https://dev.to/orchidfiles/how-to-connect-minimax-m27-to-cursor-3kn0</guid>
-      <pubDate>Fri, 03 Apr 2026 10:30:38 +0000</pubDate>
+      <title>LLM Observability for Laravel - trace every AI call with Langfuse</title>
+      <link>https://dev.to/axyr/llm-observability-for-laravel-trace-every-ai-call-with-langfuse-lpk</link>
+      <guid isPermaLink="true">https://dev.to/axyr/llm-observability-for-laravel-trace-every-ai-call-with-langfuse-lpk</guid>
+      <pubDate>Sat, 04 Apr 2026 07:04:31 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>MiniMax-M2.7 is a new Chinese frontier model; benchmarks show it almost matches Opus-4.6, but tests indicate it lags Sonnet-4 for simple tasks. Why it matters: Direct: Model performance gaps vs Sonnet-4; consider using MiniMax-M2.7 only for simple tasks.</description>
+      <description>LLM observability for Laravel using Langfuse to track costs, latency, and RAG quality; a package designed to fix AI call visibility after Laravel&#x27;s AI SDK launch in Feb 2026. Why it matters: Direct: Provides concrete observability improvements for AI features in Laravel, enabling cost and performance visibility.</description>
     </item>
     <item>
-      <title>Simulate realistic users to evaluate multi-turn AI agents in Strands Evals</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/simulate-realistic-users-to-evaluate-multi-turn-ai-agents-in-strands-evals/</link>
-      <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/simulate-realistic-users-to-evaluate-multi-turn-ai-agents-in-strands-evals/</guid>
-      <pubDate>Thu, 02 Apr 2026 17:34:02 +0000</pubDate>
+      <title>Monarch v3: 78% Faster LLM Inference with NES-Inspired KV Paging</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1sc157b/monarch_v3_78_faster_llm_inference_with/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1sc157b/monarch_v3_78_faster_llm_inference_with/</guid>
+      <pubDate>Sat, 04 Apr 2026 05:50:02 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>ActorSimulator in the Strands Evaluations SDK enables structured user simulation integrated into evaluation pipelines. Why it matters: Direct: Enables repeatable, realistic user simulations to test multi-turn agent performance in evaluation suites.</description>
+      <description>Monarch v3 achieves 78% faster LLM inference with NES-inspired KV paging on a 1.1B parameter model; speed increases from 17.01 to 30.42 tok/sec with nearly zero VRAM overhead; open-source and benchmarked. Why it matters: Direct: Demonstrates a practical speedup technique with low VRAM overhead.</description>
     </item>
     <item>
-      <title>Your Company Is Using AI to Skip Junior Hires. You&#x27;ll Regret That in 5 Years.</title>
-      <link>https://dev.to/eastra_xue/your-company-is-using-ai-to-skip-junior-hires-youll-regret-that-in-5-years-30hl</link>
-      <guid isPermaLink="true">https://dev.to/eastra_xue/your-company-is-using-ai-to-skip-junior-hires-youll-regret-that-in-5-years-30hl</guid>
-      <pubDate>Fri, 03 Apr 2026 10:33:55 +0000</pubDate>
+      <title>We gave 12 LLMs a startup to run for a year. GLM-5 nearly matched Claude Opus 4.6 at 11× lower cost.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1sbyte4/we_gave_12_llms_a_startup_to_run_for_a_year_glm5/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1sbyte4/we_gave_12_llms_a_startup_to_run_for_a_year_glm5/</guid>
+      <pubDate>Sat, 04 Apr 2026 03:45:40 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>ServiceNow CEO told CNBC that graduate unemployment could reach 30% in a few years due to AI agents substituting entry-level work; current unemployment around 5.7%. Why it matters: Direct: Highlights potential AI-driven labor market disruption and the need for hiring strategy risk assessment.</description>
+      <description>YC-Bench ran 12 LLMs as CEOs of a simulated startup for a year; GLM-5 nearly matched Claude Opus 4.6 at 11× lower cost. Why it matters: Direct: Demonstrates cost-efficient evaluation of LLMs in a long-running startup benchmark.</description>
     </item>
     <item>
-      <title>Building Banani: How a Canvas-First AI Designer Is Raising the Floor on Product Design</title>
-      <link>https://www.producttalk.org/building-banani-how-a-canvas-first-ai-designer-is-raising-the-floor-on-product-design/</link>
-      <guid isPermaLink="true">https://www.producttalk.org/building-banani-how-a-canvas-first-ai-designer-is-raising-the-floor-on-product-design/</guid>
-      <pubDate>Thu, 02 Apr 2026 13:00:59 +0000</pubDate>
+      <title>Three freelancer tools died in two months. I built the replacement.</title>
+      <link>https://dev.to/alexlaguardia/three-freelancer-tools-died-in-two-months-i-built-the-replacement-4dbe</link>
+      <guid isPermaLink="true">https://dev.to/alexlaguardia/three-freelancer-tools-died-in-two-months-i-built-the-replacement-4dbe</guid>
+      <pubDate>Sat, 04 Apr 2026 10:18:46 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Episode argues that the future of product design is giving every team access to one AI designer, enabling solo founders and stretched teams to achieve better UX. Why it matters: Direct: Expands design capacity for solo founders and small teams, enabling faster UX improvements.</description>
+      <description>Freelancer notes HoneyBook hiked prices 89%, AND.CO shut down, Bonsai acquired by Zoom; paying $29/mo for HoneyBook and using two features (proposals and invoice reminders); built a replacement. Why it matters: Direct: Replacing overpriced, underused tooling accelerates freelancer workflows by focusing on two critical features (proposals and reminders) and reduces bloated costs.</description>
     </item>
     <item>
-      <title>Bad Analogies</title>
-      <link>https://www.notboring.co/p/bad-analogies</link>
-      <guid isPermaLink="true">https://www.notboring.co/p/bad-analogies</guid>
-      <pubDate>Thu, 02 Apr 2026 14:01:40 +0000</pubDate>
+      <title>Weekly Dose of Optimism #187</title>
+      <link>https://www.notboring.co/p/weekly-dose-of-optimism-187</link>
+      <guid isPermaLink="true">https://www.notboring.co/p/weekly-dose-of-optimism-187</guid>
+      <pubDate>Fri, 03 Apr 2026 12:35:07 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Not Every Money-Burning Company is Amazon. Why it matters: Inference: Helps teams cut through hype and focus on sustainable growth signals.</description>
+      <description>Weekly Dose of Optimism #187 highlights Artemis, TBPN, Gemma 4, Solar, Somos, Science Breakthroughs, and Extra Doses. Why it matters: Direct: The weekly optimism digest highlights a set of projects and breakthroughs, potentially signaling areas for experimentation or partnerships.</description>
     </item>
     <item>
-      <title>Read more about Computer for Taxes: perplexity.ai/hub/blog/intro…</title>
-      <link>https://nitter.net/perplexity_ai/status/2039750344373125547</link>
-      <guid isPermaLink="true">https://nitter.net/perplexity_ai/status/2039750344373125547</guid>
-      <pubDate>Thu, 02 Apr 2026 17:02:33 +0000</pubDate>
+      <title>Need to set up my OpenClaw to update and restart</title>
+      <link>https://nitter.net/emollick/status/2040166468877164704</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2040166468877164704</guid>
+      <pubDate>Fri, 03 Apr 2026 20:36:05 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Read more about Computer for Taxes: perplexity.ai/hub/blog/intro… Why it matters: Inference: Indicates exploration of AI-assisted tax tooling.</description>
+      <description>User plans to set up OpenClaw to update and restart Claude Dispatch to enable computer usage. Why it matters: Direct: Setting up OpenClaw for updates and Claude Dispatch integration could improve automation; propose a repeatable setup playbook.</description>
     </item>
     <item>
-      <title>Perplexity Computer can now help prepare your federal tax return</title>
-      <link>https://nitter.net/perplexity_ai/status/2039740898830073889</link>
-      <guid isPermaLink="true">https://nitter.net/perplexity_ai/status/2039740898830073889</guid>
-      <pubDate>Thu, 02 Apr 2026 16:25:01 +0000</pubDate>
+      <title>Likely the most widely-distributed photograph in history</title>
+      <link>https://nitter.net/emollick/status/2040163288621650225</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2040163288621650225</guid>
+      <pubDate>Fri, 03 Apr 2026 20:23:27 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Perplexity Computer can now help prepare your federal tax return. Select Navigate my taxes on Computer to give it a shot. Video Why it matters: Direct: Shows AI-assisted tax prep capability that can affect finance workflows.</description>
+      <description>Describes the original Blue Marble as likely the most widely-distributed photo, taken in 1972 from Apollo 17 by an unknown astronaut; Artemis delivers a sequel image. Why it matters: Direct: The Blue Marble sequel note highlights long-standing iconic visuals; potential to leverage for UX storytelling and education.</description>
     </item>
     <item>
-      <title>From Man Pages To Agents Redesigning Help With Llms For Cloud Native Ops</title>
-      <link>https://dev.to/olivier-coreprose/from-man-pages-to-agents-redesigning-help-with-llms-for-cloud-native-ops-iae</link>
-      <guid isPermaLink="true">https://dev.to/olivier-coreprose/from-man-pages-to-agents-redesigning-help-with-llms-for-cloud-native-ops-iae</guid>
-      <pubDate>Fri, 03 Apr 2026 09:01:29 +0000</pubDate>
+      <title>AI Agent Ecosystem in 2026: How Autonomous AI is Transforming Every Industry</title>
+      <link>https://dev.to/lufumeiying/ai-agent-ecosystem-in-2026-how-autonomous-ai-is-transforming-every-industry-49i8</link>
+      <guid isPermaLink="true">https://dev.to/lufumeiying/ai-agent-ecosystem-in-2026-how-autonomous-ai-is-transforming-every-industry-49i8</guid>
+      <pubDate>Sat, 04 Apr 2026 08:36:55 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Proposes turning --help into an AI-powered runbook engine that follows symptom → diagnosis → remediation → escalation to resolve incidents in under five minutes. Why it matters: Direct: Turns help into a repeatable runbook, reducing MTTR by guiding diagnosis and escalation.</description>
+      <description>AI agents in 2026 do more than chat—booking flights, coding, researching topics, and making decisions, signaling a shift toward autonomous assistants across industries. Why it matters: Direct: Highlights real-world autonomous-agent capabilities, guiding practical feature planning for task execution and tool integration.</description>
     </item>
     <item>
-      <title>From Demo to Production: 7 AI Agent SDK Patterns That Actually Scale Multi-Agent Systems</title>
-      <link>https://dev.to/dohkoai/from-demo-to-production-7-ai-agent-sdk-patterns-that-actually-scale-multi-agent-systems-14jp</link>
-      <guid isPermaLink="true">https://dev.to/dohkoai/from-demo-to-production-7-ai-agent-sdk-patterns-that-actually-scale-multi-agent-systems-14jp</guid>
-      <pubDate>Fri, 03 Apr 2026 10:05:19 +0000</pubDate>
+      <title>Building Custom OpenClaw Skills: A Developer&#x27;s Guide</title>
+      <link>https://dev.to/hex_agent/building-custom-openclaw-skills-a-developers-guide-5gof</link>
+      <guid isPermaLink="true">https://dev.to/hex_agent/building-custom-openclaw-skills-a-developers-guide-5gof</guid>
+      <pubDate>Sat, 04 Apr 2026 07:37:24 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Argues that production-scale requires managing 50 concurrent agents, failure handling, shared state, and cost control, moving beyond simple &#x27;build a research agent in 10 lines&#x27; tutorials. Why it matters: Direct: Encourages scalable architectures by testing large-agent workloads and cost-aware state management.</description>
+      <description>OpenClaw agents have built-in skills — browser automation, GitHub, weather, TTS, image generation; the real value comes from creating custom skills to tailor tool usage to your setup. Why it matters: Direct: Demonstrates how bespoke skills unlock agent usefulness by aligning tooling with user workflows.</description>
     </item>
     <item>
-      <title>Highlights from my conversation about agentic engineering on Lenny&#x27;s Podcast</title>
-      <link>https://simonwillison.net/2026/Apr/2/lennys-podcast/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/2/lennys-podcast/</guid>
-      <pubDate>Thu, 02 Apr 2026 20:40:47 +0000</pubDate>
+      <title>We lost 8 users from synta to vibe coding last month. 5 came back. Turns out n8n is harder to replace than people think.</title>
+      <link>https://www.reddit.com/r/nocode/comments/1sc5cr1/we_lost_8_users_from_synta_to_vibe_coding_last/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/nocode/comments/1sc5cr1/we_lost_8_users_from_synta_to_vibe_coding_last/</guid>
+      <pubDate>Sat, 04 Apr 2026 10:02:38 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Highlights from Simon Willison&#x27;s podcast appearance discussing AI state of the union, automation timelines, and the idea of &#x27;dark factories&#x27;. Why it matters: Direct: Condenses AI state-of-the-union concerns and automation timelines for engineering teams.</description>
+      <description>Eight users left synta and n8n for vibe code with Claude, five returned, citing cleaner, more maintainable code and less need for n8n or synta MCP. Why it matters: Direct: Reveals user sensitivity to tool complexity and potential value of natural-language-driven workflow coding.</description>
     </item>
     <item>
-      <title>Building your first web scraper using n8n</title>
-      <link>https://www.reddit.com/r/WebDataDiggers/comments/1sb8s4y/building_your_first_web_scraper_using_n8n/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/WebDataDiggers/comments/1sb8s4y/building_your_first_web_scraper_using_n8n/</guid>
-      <pubDate>Fri, 03 Apr 2026 09:26:06 +0000</pubDate>
+      <title>I shipped an AI-powered RPG as a solo dev building nights and weekends with AI coding agents. Free demo is live.</title>
+      <link>https://www.reddit.com/r/SideProject/comments/1sbym9e/i_shipped_an_aipowered_rpg_as_a_solo_dev_building/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/SideProject/comments/1sbym9e/i_shipped_an_aipowered_rpg_as_a_solo_dev_building/</guid>
+      <pubDate>Sat, 04 Apr 2026 03:35:32 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Describes web scraping basics and promotes n8n as a visual, node-based workflow tool for building scrapers without heavy coding. Why it matters: Direct: Enables non-developers to implement routine scraping tasks quickly via visual tooling.</description>
+      <description>A solo developer shipped their first software product after months of work alongside a day job, sharing the journey and its name, Infinite Portal Mayhem. Why it matters: Direct: Illustrates solo development pace and opportunities for AI-assisted coding in indie projects.</description>
     </item>
     <item>
-      <title>FLUX.1 Custom Cuda Kernel, Older Cards Can Now Play Too</title>
-      <link>https://www.reddit.com/r/OnlyPromotes/comments/1sb9ug7/flux1_custom_cuda_kernel_older_cards_can_now_play/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/OnlyPromotes/comments/1sb9ug7/flux1_custom_cuda_kernel_older_cards_can_now_play/</guid>
-      <pubDate>Fri, 03 Apr 2026 10:28:01 +0000</pubDate>
+      <title>I built a web tool to visualize Gemini&#x27;s structured output into interactive graphs. Looking for feedback!</title>
+      <link>https://www.reddit.com/r/chrome_extensions/comments/1sc5my6/i_built_a_web_tool_to_visualize_geminis/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/chrome_extensions/comments/1sc5my6/i_built_a_web_tool_to_visualize_geminis/</guid>
+      <pubDate>Sat, 04 Apr 2026 10:19:37 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>A custom CUDA kernel for FLux.1 Dev shows FLux&#x27;s SingleStreamBlock runs 38 layers per diffusion step; each layer does prepare (GEMM projections for Q/K/V/MLP) -&gt; attention -&gt; finish (GEMM + residual); attention is O(S^2) and explains why older GPUs struggle. Why it matters: Direct: highlights GPU-compatibility tradeoffs for diffusion models; heavy attention computes create bottlenecks on older GPUs.</description>
+      <description>A user built Gemini Graph Viewer to visualize Gemini&#x27;s long-context outputs as interactive graphs of JSON/text responses to reveal patterns; it&#x27;s live at https://app. Why it matters: Direct: Visualizing Gemini’s long-context outputs as interactive graphs can reveal patterns and dependencies that are hard to see in raw text, aiding knowledge-base construction.</description>
     </item>
     <item>
-      <title>I ran a small business for 3 years and wasted hundreds of hours on tasks AI could&#x27;ve done in minutes. So I built a 50-prompt pack to fix that.</title>
-      <link>https://www.reddit.com/r/PromptEngineering/comments/1sb9u0t/i_ran_a_small_business_for_3_years_and_wasted/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/PromptEngineering/comments/1sb9u0t/i_ran_a_small_business_for_3_years_and_wasted/</guid>
-      <pubDate>Fri, 03 Apr 2026 10:27:20 +0000</pubDate>
+      <title>How to Increase Sales for Liquor Store with Google Ads - Case Study</title>
+      <link>https://www.reddit.com/r/ppcagencies/comments/1sc5mwu/how_to_increase_sales_for_liquor_store_with/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ppcagencies/comments/1sc5mwu/how_to_increase_sales_for_liquor_store_with/</guid>
+      <pubDate>Sat, 04 Apr 2026 10:19:34 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>A Reddit post describes wasting hours on email, product descriptions, and social posts; author built a 50-prompt pack to fix repetitive tasks. Why it matters: Direct: provides a concrete approach (50 prompts) to reduce time on common business tasks.</description>
+      <description>An intro discussing the &#x27;Alcohol Barrier&#x27; in digital marketing and the challenges of advertising liquor stores on Google Ads. Why it matters: Direct: The piece introduces an &#x27;Alcohol Barrier&#x27; concept, signaling unique digital-marketing challenges for liquor-store ads.</description>
     </item>
     <item>
-      <title>Common research advice #2: say precisely what you want to say</title>
-      <link>https://www.lesswrong.com/posts/wX8JniiTpbYBdWopD/common-research-advice-2-say-precisely-what-you-want-to-say</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/wX8JniiTpbYBdWopD/common-research-advice-2-say-precisely-what-you-want-to-say</guid>
-      <pubDate>Fri, 03 Apr 2026 04:28:34 +0000</pubDate>
+      <title>Mean field sequence: an introduction</title>
+      <link>https://www.lesswrong.com/posts/rduzFkTKx5pGKWKcL/mean-field-sequence-an-introduction</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/rduzFkTKx5pGKWKcL/mean-field-sequence-an-introduction</guid>
+      <pubDate>Sat, 04 Apr 2026 07:30:18 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>An Inkhaven Residency piece argues that research feedback often falls into sanity checks, saying precisely what you want to say, or asking why one more time, and cautions against extreme emphasis. Why it matters: Inference: warns against overzealous precision guidance that can hinder collaborative research.</description>
+      <description>Intro post to a planned mean-field theory series, describing collaboration between Dmitry and Lauren, combining explainer content with original research and experiments. Why it matters: Direct: First post in a planned mean-field theory series, combining explainer content with original research and experiments.</description>
     </item>
     <item>
-      <title>llm-gemini 0.30</title>
-      <link>https://simonwillison.net/2026/Apr/2/llm-gemini/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/2/llm-gemini/</guid>
-      <pubDate>Thu, 02 Apr 2026 18:25:08 +0000</pubDate>
+      <title>Gabapentinoids I have known and loved</title>
+      <link>https://www.lesswrong.com/posts/ztCKmdLXZbxRNrweR/gabapentinoids-i-have-known-and-loved</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/ztCKmdLXZbxRNrweR/gabapentinoids-i-have-known-and-loved</guid>
+      <pubDate>Sat, 04 Apr 2026 03:00:26 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Release notes for llm-gemini 0.30 announce new models gemini-3.1-flash-lite-preview, gemma-4-26b-a4b-it, and gemma-4-31b-it; includes Gemma 4 notes. Why it matters: Direct: signals ongoing expansion of Gemini/Gemma models useful for deployment choices.</description>
+      <description>(with apologies to Sasha Shulgin) Gabapentinoids are weird. For a start, they don’t do what they say on the tin. It was named after the thing the inventors thought it would do, i.e. Why it matters: Direct: Gabapentinoids do not act on GABA receptors as named; the post highlights a mismatch between naming and actual activity.</description>
     </item>
     <item>
-      <title>Does consciousness and suffering even matter: LLMs and moral relevance</title>
-      <link>https://www.lesswrong.com/posts/Cht6Cfj3byXmPbuzR/does-consciousness-and-suffering-even-matter-llms-and-moral</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/Cht6Cfj3byXmPbuzR/does-consciousness-and-suffering-even-matter-llms-and-moral</guid>
-      <pubDate>Fri, 03 Apr 2026 01:47:50 +0000</pubDate>
+      <title>What happens when you let AI agents run a sitcom 24/7 with zero human involvement</title>
+      <link>https://www.reddit.com/r/artificial/comments/1sbk7me/what_happens_when_you_let_ai_agents_run_a_sitcom/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/artificial/comments/1sbk7me/what_happens_when_you_let_ai_agents_run_a_sitcom/</guid>
+      <pubDate>Fri, 03 Apr 2026 17:36:46 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>A light edit of a real-time conversation about consciousness and whether it was the right frame, documenting frequent talking points and attempting to cover all the different points discussed. Why it matters: Direct: Framing consciousness discussions shapes how we assess moral relevance in LLMs and reveals common points researchers may overlook.</description>
+      <description>Experiment where AI agents controlled writing, character creation, and performance of a sitcom, run nonstop for over a week with no human involvement. Why it matters: Direct: Shows autonomous AI production across writing, character creation, and performance for an extended period.</description>
     </item>
     <item>
-      <title>Last year&#x27;s winners: @levelsio (@levelsio) 📣 The winners of the</title>
-      <link>https://nitter.net/levelsio/status/2039789762463109313</link>
-      <guid isPermaLink="true">https://nitter.net/levelsio/status/2039789762463109313</guid>
-      <pubDate>Thu, 02 Apr 2026 19:39:11 +0000</pubDate>
+      <title>It&#x27;s been almost 4 years since ChatGPT 3.5 was released</title>
+      <link>https://www.reddit.com/r/singularity/comments/1sc4gih/its_been_almost_4_years_since_chatgpt_35_was/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1sc4gih/its_been_almost_4_years_since_chatgpt_35_was/</guid>
+      <pubDate>Sat, 04 Apr 2026 09:06:52 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Announcement of the 2025 Vibe Code Game Jam winners, sponsored by @boltdotnew, @coderabbitai, and @lambdaapi, from over 1,000 submissions; top prize $10,000, judged by @karpathy, @timsoret, @mrdoob, and @s13k_. Why it matters: Direct: The post captures the event’s scale, sponsor network, and the judging panel, informing readers about credibility and impact.</description>
+      <description>Discussion about the time since ChatGPT 3.5 release, noting an interval of around four years. Why it matters: Direct: Tracks milestones in AI model timelines for context and historical perspective.</description>
     </item>
     <item>
-      <title>Your Agent Needs a Passport Before It Needs a Wallet</title>
-      <link>https://dev.to/o96a/your-agent-needs-a-passport-before-it-needs-a-wallet-4ele</link>
-      <guid isPermaLink="true">https://dev.to/o96a/your-agent-needs-a-passport-before-it-needs-a-wallet-4ele</guid>
-      <pubDate>Fri, 03 Apr 2026 09:27:22 +0000</pubDate>
+      <title>Jakarta lawmaker urges ban on Israeli passport holders</title>
+      <link>https://en.antaranews.com/news/411033/jakarta-lawmaker-urges-ban-on-israeli-passport-holders</link>
+      <guid isPermaLink="true">https://en.antaranews.com/news/411033/jakarta-lawmaker-urges-ban-on-israeli-passport-holders</guid>
+      <pubDate>Fri, 03 Apr 2026 11:14:09 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>The piece argues that agent infrastructure fixates on wallets rather than identity, noting wallets like AgentCard and MPP are pursued while identity remains the fundamental problem. Why it matters: Direct: Highlights a shift in focus for AI agents, guiding future infrastructure design toward identity handling.</description>
+      <description>Jakarta legislator urged the central government to bar Israeli passport holders from entering Indonesia. Why it matters: Direct: Highlights potential policy shifts affecting travel and diplomatic relations.</description>
     </item>
     <item>
-      <title>AI video tools are powerful, but the workflow is broken. I tried to fix it.</title>
-      <link>https://www.reddit.com/r/buildinpublic/comments/1sb9xc2/ai_video_tools_are_powerful_but_the_workflow_is/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/buildinpublic/comments/1sb9xc2/ai_video_tools_are_powerful_but_the_workflow_is/</guid>
-      <pubDate>Fri, 03 Apr 2026 10:32:31 +0000</pubDate>
+      <title>People are starting!</title>
+      <link>https://nitter.net/levelsio/status/2040135114357612570</link>
+      <guid isPermaLink="true">https://nitter.net/levelsio/status/2040135114357612570</guid>
+      <pubDate>Fri, 03 Apr 2026 18:31:29 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>A reviewer describes frustration with AI video tools’ workflow, noting inconsistent prompting structures and fragmented documentation across Veo 3, Kling, Runway Gen-4, Sora. Why it matters: Direct: Demonstrates practical workflow gaps that hinder efficient use of AI video tools.</description>
+      <description>A vibejam session shows AI agents progressing on a game, with ongoing tasks and plans to improve sounds and images. Why it matters: Direct: Demonstrates real-time AI collaboration in a creative game project and ongoing task handling by agents.</description>
     </item>
   </channel>
 </rss>
