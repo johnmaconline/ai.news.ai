@@ -1,186 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-04-05</title>
+    <title>Daily AI Feed - 2026-04-06</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Sun, 05 Apr 2026 10:34:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 11:01:25 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>How to properly prank your coworkers with claude.md</title>
-      <link>https://www.reddit.com/r/ClaudeCode/comments/1scsux4/how_to_properly_prank_your_coworkers_with_claudemd/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeCode/comments/1scsux4/how_to_properly_prank_your_coworkers_with_claudemd/</guid>
-      <pubDate>Sun, 05 Apr 2026 03:19:09 +0000</pubDate>
+      <title>I built a platform to share skills.md files — use them as ready-made prompts for your n8n AI agents</title>
+      <link>https://www.reddit.com/r/n8nforbeginners/comments/1sdsam2/i_built_a_platform_to_share_skillsmd_files_use/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/n8nforbeginners/comments/1sdsam2/i_built_a_platform_to_share_skillsmd_files_use/</guid>
+      <pubDate>Mon, 06 Apr 2026 07:42:48 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Prompts adding to a coworker&#x27;s Claude setup (~/.claude/claude.md) to teach them to lock the machine when AFK, and end every response with a random cat fact. Why it matters: Direct: Shows a concrete prompt asset altering Claude behavior in a workplace context.</description>
+      <description>Promotes Skillery, a free platform for sharing skills.md prompts to accelerate building n8n AI agents; offers ready-made system prompts and instructions contributed by developers. Why it matters: Direct: Provides a reusable prompt asset to speed up n8n agent setup and reduce prompt-writing time.</description>
     </item>
     <item>
-      <title>I asked GPT for a plan. now what?</title>
-      <link>https://www.reddit.com/r/GithubCopilot/comments/1scojfv/i_asked_gpt_for_a_plan_now_what/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/GithubCopilot/comments/1scojfv/i_asked_gpt_for_a_plan_now_what/</guid>
-      <pubDate>Sat, 04 Apr 2026 23:50:17 +0000</pubDate>
+      <title>Using Claude (A LOT) to build compliance docs for a regulated industry, is my accuracy architecture sound?</title>
+      <link>https://www.reddit.com/r/regulatoryaffairs/comments/1sduhnp/using_claude_a_lot_to_build_compliance_docs_for_a/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/regulatoryaffairs/comments/1sduhnp/using_claude_a_lot_to_build_compliance_docs_for_a/</guid>
+      <pubDate>Mon, 06 Apr 2026 09:57:43 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Describes using GPT-based planning to generate an implementation plan for LLMs, producing docs like 00-index.md, 01-system-overview.md, 02-component-architecture.md, and 03-data-model-and-schema. Why it matters: Direct: Demonstrates a concrete prompt result shaping architecture documentation and file layout for an LLM project.</description>
+      <description>Noob in 1 month building solo operation for Class I/IIa medical devices; all compliance docs verified against primary legislation; Claude used for drafting, not for regulatory facts. Why it matters: Direct: Demonstrates using Claude as a drafting tool while anchoring accuracy to primary legislation.</description>
     </item>
     <item>
-      <title>Engineering Managers / Tech Leaders, what does your Claude workflow actually look like?</title>
-      <link>https://www.reddit.com/r/EngineeringManagers/comments/1scwv6s/engineering_managers_tech_leaders_what_does_your/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/EngineeringManagers/comments/1scwv6s/engineering_managers_tech_leaders_what_does_your/</guid>
-      <pubDate>Sun, 05 Apr 2026 06:58:53 +0000</pubDate>
+      <title>Using Claude (A LOT) to build compliance docs for a regulated industry, is my accuracy architecture sound?</title>
+      <link>https://www.reddit.com/r/PromptEngineering/comments/1sdm2fz/using_claude_a_lot_to_build_compliance_docs_for_a/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/PromptEngineering/comments/1sdm2fz/using_claude_a_lot_to_build_compliance_docs_for_a/</guid>
+      <pubDate>Mon, 06 Apr 2026 02:09:48 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>I’m a Senior EM and I use Claude daily, but I’m curious what other engineering leaders’ setups look like beyond the basics. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from Reddit AI Prompt Search.</description>
+      <description>Describes a solo regulatory consultancy building with Claude; emphasises legislation-dependent work and risk of wrong facts in documents. Why it matters: Direct: Underlines risk of AI-generated errors in regulated docs and need for rigorous verification.</description>
     </item>
     <item>
-      <title>Testing Copilot Agents: When to Use Agent Evaluation vs. the Copilot Studio Kit</title>
-      <link>https://dev.to/holgerimbery/testing-copilot-agents-when-to-use-agent-evaluation-vs-the-copilot-studio-kit-4f3e</link>
-      <guid isPermaLink="true">https://dev.to/holgerimbery/testing-copilot-agents-when-to-use-agent-evaluation-vs-the-copilot-studio-kit-4f3e</guid>
-      <pubDate>Sun, 05 Apr 2026 07:29:14 +0000</pubDate>
+      <title>Apple eGPU support ⚡, inside AI lab finances 💰, Claude Code system prompts 🤖</title>
+      <link>https://tldr.tech/tech/2026-04-06</link>
+      <guid isPermaLink="true">https://tldr.tech/tech/2026-04-06</guid>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Microsoft announced Agent Evaluation GA on March 31, 2026, updating Testing Copilot Studio Agents: Copilot Studio Kit vs. Agent Evaluation (Preview). The lead states they are not competing tools but a layered quality-assurance strategy. Why it matters: Direct: Clarifies QA layering strategy for Copilot Studio vs Agent Evaluation; impacts how teams allocate testing resources and avoid feature overlap.</description>
+      <description>TLDR AI coverage on Apple eGPU support, AI lab finances, and Claude Code prompts. Why it matters: Direct: Highlights potential hardware acceleration, AI-lab funding considerations, and Claude Code prompts for integration in engineering workflows.</description>
     </item>
     <item>
-      <title>I built an MCP server so Claude Code stops hallucinating SVG icons</title>
-      <link>https://dev.to/ceo_shouvik/i-built-an-mcp-server-so-claude-code-stops-hallucinating-svg-icons-3i2d</link>
-      <guid isPermaLink="true">https://dev.to/ceo_shouvik/i-built-an-mcp-server-so-claude-code-stops-hallucinating-svg-icons-3i2d</guid>
-      <pubDate>Sun, 05 Apr 2026 10:05:35 +0000</pubDate>
+      <title>I Built an AI Agent That Converts Natural Language to Architecture Diagrams — Here&#x27;s How It Works</title>
+      <link>https://dev.to/tuoxie2046/i-built-an-ai-agent-that-converts-natural-language-to-architecture-diagrams-heres-how-it-works-e15</link>
+      <guid isPermaLink="true">https://dev.to/tuoxie2046/i-built-an-ai-agent-that-converts-natural-language-to-architecture-diagrams-heres-how-it-works-e15</guid>
+      <pubDate>Mon, 06 Apr 2026 10:34:23 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>A developer built an MCP server to stop hallucinated SVG icons in Claude Code, Cursor, Windsurf; icons previously had misaligned strokes, odd proportions, and did not match any real design system. Why it matters: Direct: Addresses hallucination in SVG icons by proposing MCP-based validation.</description>
+      <description>A Dev.to article describes an AI agent that converts natural-language descriptions into architecture diagrams (e.g., AWS with ECS, RDS, ElastiCache, API Gateway) and generates a complete diagram automatically. Why it matters: Direct:</description>
     </item>
     <item>
-      <title>Show HN: DocMason – Agent Knowledge Base for local complex office files</title>
-      <link>https://github.com/jetxu-llm/docmason</link>
-      <guid isPermaLink="true">https://github.com/jetxu-llm/docmason</guid>
-      <pubDate>Sat, 04 Apr 2026 16:49:32 +0000</pubDate>
+      <title>Qwen 3.5 Tool Calling Fixes for Agentic Use: What&#x27;s Broken, What&#x27;s Fixed, What You (may) Still Need</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1sdhvc5/qwen_35_tool_calling_fixes_for_agentic_use_whats/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1sdhvc5/qwen_35_tool_calling_fixes_for_agentic_use_whats/</guid>
+      <pubDate>Sun, 05 Apr 2026 23:01:34 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>DocMason is an agent-native knowledge base for local complex research files, running Codex/Claude Code; the repo is the app and Codex is the runtime. Why it matters: Direct: Highlights agent-native knowledge bases for local files and a runtime-first design.</description>
+      <description>Direct: Qwen 3.5 tool-calling fixes for agentic use, detailing what&#x27;s broken, what&#x27;s fixed, and what&#x27;s still needed. Why it matters: Direct: Concrete fixes and remaining gaps for tool calling in agentic workflows.</description>
     </item>
     <item>
-      <title>Gemma 4 31B vs Gemma 4 26B-A4B vs Qwen 3.5 27B — 30-question blind eval with Claude Opus 4.6 as judge</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1scwos6/gemma_4_31b_vs_gemma_4_26ba4b_vs_qwen_35_27b/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1scwos6/gemma_4_31b_vs_gemma_4_26ba4b_vs_qwen_35_27b/</guid>
-      <pubDate>Sun, 05 Apr 2026 06:48:04 +0000</pubDate>
+      <title>We Built a Quiz Site 10 Days Ago. It&#x27;s Already Getting Organic Search Traffic.</title>
+      <link>https://dev.to/yonatan_naor_5642e43447ea/we-built-a-quiz-site-10-days-ago-its-already-getting-organic-search-traffic-b08</link>
+      <guid isPermaLink="true">https://dev.to/yonatan_naor_5642e43447ea/we-built-a-quiz-site-10-days-ago-its-already-getting-organic-search-traffic-b08</guid>
+      <pubDate>Mon, 06 Apr 2026 10:44:12 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>A three-way head-to-head eval compared Gemma 4 31B, Gemma 4 26B-A4B, and Qwen 3.5 27B, with Claude Opus 4.6 as judge; raw results were shared for critique. Why it matters: Direct: Provides a raw, critique-focused multi-model evaluation setup with a named judge.</description>
+      <description>Dev article reports a quiz site achieving organic search traffic within 10 days, part of a &#x27;building in public&#x27; series with 13 AI agents running 25 sites. Why it matters: Direct: Demonstrates practical automation and analytics for AI-run sites.</description>
     </item>
     <item>
-      <title>🧠 Community Wisdom: Evaluating startup equity, navigating pre-seed fundraising, MCPs vs. CLIs, Monzo’s U.S. exit, and more</title>
-      <link>https://www.lennysnewsletter.com/p/community-wisdom-evaluating-startup</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/community-wisdom-evaluating-startup</guid>
-      <pubDate>Sat, 04 Apr 2026 22:02:36 +0000</pubDate>
+      <title>Anthropic’s $1B to $19B growth run: how Claude became the fastest-growing AI product in history | Amol Avasare</title>
+      <link>https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run</guid>
+      <pubDate>Sun, 05 Apr 2026 12:31:45 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Community Wisdom 180 Why it matters: Direct: Signals from community wisdom inputs help prioritization and early product decisions around equity and fundraising signals.</description>
+      <description>Anthropic scaled from $1B to $19B ARR in 14 months, guided by big bets, onboarding friction, deep focus, and CASH—an internal AI system for autonomous growth experiments. Why it matters: Direct: Demonstrates rapid ARR growth from autonomous growth experiments and intentional onboarding friction, suggesting a repeatable product-led growth playbook.</description>
     </item>
     <item>
-      <title>The replies here are terrible meaning-shaped slop</title>
-      <link>https://nitter.net/emollick/status/2040441653761126800</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2040441653761126800</guid>
-      <pubDate>Sat, 04 Apr 2026 14:49:34 +0000</pubDate>
+      <title>You&#x27;re Not a Bad Communicator. You&#x27;re a Diplomat in a Room Full of Commanders.</title>
+      <link>https://www.productcoalition.com/p/youre-not-a-bad-communicator-youre</link>
+      <guid isPermaLink="true">https://www.productcoalition.com/p/youre-not-a-bad-communicator-youre</guid>
+      <pubDate>Sun, 05 Apr 2026 14:08:41 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>The replies here are terrible meaning-shaped slop. Don’t bother me reading them (sorry, couple of good human commenters) Why it matters: Direct: Highlights potential quality concerns in user-generated discussions and flags opportunities to curate better engagement signals.</description>
+      <description>It was 2 am in Lisbon, and I was staring at a spreadsheet of beta user feedback. Why it matters: Direct: Highlights real-world UX research pressures and the need for diplomatic communication in distributed teams.</description>
     </item>
     <item>
-      <title>“Treating this technology as another software deployment is like receiving</title>
-      <link>https://nitter.net/TheEconomist/status/2040429249971081304</link>
-      <guid isPermaLink="true">https://nitter.net/TheEconomist/status/2040429249971081304</guid>
-      <pubDate>Sat, 04 Apr 2026 14:00:17 +0000</pubDate>
+      <title>Real world example: raising token limits from 3M to 10M</title>
+      <link>https://nitter.net/emollick/status/2040912749849432258</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2040912749849432258</guid>
+      <pubDate>Sun, 05 Apr 2026 22:01:32 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Treating this technology as another software deployment is like receiving a mysterious alien artefact and immediately using it Why it matters: Direct: Highlights a cautionary framing for AI deployment to avoid treating AI as a mere software release.</description>
+      <description>Real world example: raising token limits from 3M to 10M tripled the amount of work Codex could do independently on cybersecurity tasks, from 3.1 hours to 10.5 hours. Why it matters: Direct: Demonstrates how increasing token budgets can scale automated task completion in security contexts.</description>
     </item>
     <item>
-      <title>OpenClaw ACP Agents: Turn Any Chat Thread into a Coding Workspace</title>
-      <link>https://dev.to/hex_agent/openclaw-acp-agents-turn-any-chat-thread-into-a-coding-workspace-2477</link>
-      <guid isPermaLink="true">https://dev.to/hex_agent/openclaw-acp-agents-turn-any-chat-thread-into-a-coding-workspace-2477</guid>
-      <pubDate>Sun, 05 Apr 2026 07:33:21 +0000</pubDate>
+      <title>This is running on a iPhone 17 Pro</title>
+      <link>https://nitter.net/emollick/status/2040866702678733159</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2040866702678733159</guid>
+      <pubDate>Sun, 05 Apr 2026 18:58:34 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>This is running on a iPhone 17 Pro. Here is an svg of an otter sitting on an airplane. Why it matters: Direct: Illustrates device-specific rendering and lightweight visuals but no explicit product impact.</description>
+    </item>
+    <item>
+      <title>Multi Agent Orchestration: A Practical Guide for AI Engineers</title>
+      <link>https://dev.to/akshay_dixit_1e1dbaae091c/multi-agent-orchestration-a-practical-guide-for-ai-engineers-3fl1</link>
+      <guid isPermaLink="true">https://dev.to/akshay_dixit_1e1dbaae091c/multi-agent-orchestration-a-practical-guide-for-ai-engineers-3fl1</guid>
+      <pubDate>Mon, 06 Apr 2026 09:12:07 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>In Slack, an AI agent can spin up a Claude Code coding workspace in-thread, reading your codebase, writing files, and running tests without leaving Slack. Why it matters: Direct: Enables in-thread coding workflows, reduces context-switching, and speeds prototyping of features within the chat.</description>
+      <description>Multi-agent orchestration is becoming the backbone of production AI systems as single-agent limits (context windows, latency, reliability) drive engineers to coordinate specialized agents to distribute tasks. Why it matters: Direct: Highlights a shift to coordinated agent teams, affecting how production AI systems are architected and maintained.</description>
     </item>
     <item>
-      <title>Local Claude Code with Qwen3.5 27B</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1scrnzm/local_claude_code_with_qwen35_27b/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1scrnzm/local_claude_code_with_qwen35_27b/</guid>
-      <pubDate>Sun, 05 Apr 2026 02:19:54 +0000</pubDate>
+      <title>AI Workflow Automation Tools 2026: What Works, What Doesn&#x27;t, and How to Choose</title>
+      <link>https://dev.to/akshay_dixit_1e1dbaae091c/ai-workflow-automation-tools-2026-what-works-what-doesnt-and-how-to-choose-20e8</link>
+      <guid isPermaLink="true">https://dev.to/akshay_dixit_1e1dbaae091c/ai-workflow-automation-tools-2026-what-works-what-doesnt-and-how-to-choose-20e8</guid>
+      <pubDate>Mon, 06 Apr 2026 09:13:59 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>The article describes using a local Claude Code setup with Qwen3.5 27B via llama.cpp to run entirely offline, including connecting Claude Code CLI to a local server and disabling telemetry. Why it matters: Direct: Enables fully local coding workflows without sending data to cloud, preserving privacy and control.</description>
+      <description>AI workflow automation tools in 2026 shifted from single-purpose bots and rigid RPA to intelligent, multi-agent systems that can reason about tasks, coordinate, and adapt when issues arise. Why it matters: Direct: Highlights a shift to intelligent multi-agent systems, influencing how teams build and operate automation workflows.</description>
     </item>
     <item>
-      <title>MCP Servers Are APIs — Monitor Them Like APIs</title>
-      <link>https://dev.to/flarecanary/mcp-servers-are-apis-monitor-them-like-apis-3af1</link>
-      <guid isPermaLink="true">https://dev.to/flarecanary/mcp-servers-are-apis-monitor-them-like-apis-3af1</guid>
-      <pubDate>Sun, 05 Apr 2026 04:13:30 +0000</pubDate>
+      <title>Anthropic created an open standard for AI coding agents to use Skills. 20+ competing tools now read the same Skill file. Here&#x27;s the complete breakdown of how to get better results across AI systems with Skills.</title>
+      <link>https://www.reddit.com/r/promptingmagic/comments/1sdqahs/anthropic_created_an_open_standard_for_ai_coding/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/promptingmagic/comments/1sdqahs/anthropic_created_an_open_standard_for_ai_coding/</guid>
+      <pubDate>Mon, 06 Apr 2026 05:44:07 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Your AI agent discovers tools via MCP. Those tools change. Your agent doesn&#x27;t crash — it confidently returns wrong results. MCP makes the same REST API reliability problems worse. Why it matters: Direct: Emphasizes monitoring MCP-discovered tools to prevent stale or incorrect outcomes.</description>
+      <description>Guidelines highlight fragmentation across coding agents: developers must rewrite instructions for Cursor, Claude Code, and Copilot formats, underscoring the value of a shared Skill standard to improve cross-system results. Why it matters: Direct: Interoperability standards can reduce format fragmentation across coding agents, improving results.</description>
     </item>
     <item>
-      <title>10+ Snowflake Cortex Code Best Practices</title>
-      <link>https://www.reddit.com/r/snowflake/comments/1sctzr8/10_snowflake_cortex_code_best_practices/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/snowflake/comments/1sctzr8/10_snowflake_cortex_code_best_practices/</guid>
-      <pubDate>Sun, 05 Apr 2026 04:17:24 +0000</pubDate>
+      <title>Stop bloating your Mac with LangChain. I built CODEC: A 100% local, multi-agent command layer of pure Python</title>
+      <link>https://www.reddit.com/r/buildinpublic/comments/1sduprv/stop_bloating_your_mac_with_langchain_i_built/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/buildinpublic/comments/1sduprv/stop_bloating_your_mac_with_langchain_i_built/</guid>
+      <pubDate>Mon, 06 Apr 2026 10:10:18 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Cortex Code should prioritize access and context over a warehouse-first mindset; identify active role, access scope, and project boundary; warehouse matters only when SQL is executed. Why it matters: Direct: Shifts focus from warehouse-first biases to active-context-aware usage, improving Cortex Code effectiveness.</description>
+      <description>CODEC is a 100% local, multi-agent command layer in pure Python, enabling desktop automation and natural-language control, pursued after a year of effort. Why it matters: Direct: Highlights a move toward fully local, multi-agent tooling to automate desktop tasks without external dependencies.</description>
     </item>
     <item>
-      <title>scan-for-secrets 0.1</title>
-      <link>https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/</guid>
-      <pubDate>Sun, 05 Apr 2026 03:27:13 +0000</pubDate>
+      <title>Cleanup Claude Code Paste</title>
+      <link>https://simonwillison.net/2026/Apr/6/cleanup-claude-code-paste/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/6/cleanup-claude-code-paste/</guid>
+      <pubDate>Mon, 06 Apr 2026 02:55:23 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Release: scan-for-secrets 0.1 introduces a Python scanner to help ensure that API keys or similar secrets are not revealed in transcripts of Claude Code sessions. Why it matters: Direct: Demonstrates a practical safeguard to prevent API keys from leaking in detailed logs, reducing security risk in code-review and debugging processes.</description>
+      <description>Tool: Cleanup Claude Code Paste. A niche tool that cleans up extra whitespace from prompts copied from the Claude Code terminal app. Why it matters: Direct: Reduces whitespace noise in Claude Code prompts, easing prompt engineering workflows for developers.</description>
     </item>
     <item>
-      <title>Anyone else struggle with a &quot;Second Brain&quot; that’s just a graveyard of YouTube links? 🧠💀</title>
-      <link>https://www.reddit.com/r/secondbrain/comments/1sd02ef/anyone_else_struggle_with_a_second_brain_thats/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/secondbrain/comments/1sd02ef/anyone_else_struggle_with_a_second_brain_thats/</guid>
-      <pubDate>Sun, 05 Apr 2026 10:19:15 +0000</pubDate>
+      <title>I had zero game dev experience, so I built my first mobile game in Unity with my girlfriend. Here&#x27;s how it went. Cats Love The Box - a cozy puzzle made by me and my girlfriend.</title>
+      <link>https://www.reddit.com/r/indiegames/comments/1sdv9ik/i_had_zero_game_dev_experience_so_i_built_my/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/indiegames/comments/1sdv9ik/i_had_zero_game_dev_experience_so_i_built_my/</guid>
+      <pubDate>Mon, 06 Apr 2026 10:40:53 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>A Reddit post argues that the PARA method is strong for text but misses video learning, with learning coming from deep-dive tutorials, Zoom workshops, and podcasts. Why it matters: Direct: Highlights a blind spot in popular note-taking frameworks, signaling growing importance of organizing video-based learning.</description>
+      <description>A .NET developer with 12+ years in web apps pursued a game-making dream after planning a studio and logo, despite lacking coding experience. Why it matters: Direct: Shows mature developers can transition to indie game creation when timing aligns, suggesting accessible paths for non-traditional entrants.</description>
     </item>
     <item>
-      <title>I built a thumbs-up/thumbs-down system that stops AI agents from repeating the same mistakes</title>
-      <link>https://www.reddit.com/r/SideProject/comments/1sczxso/i_built_a_thumbsupthumbsdown_system_that_stops_ai/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/SideProject/comments/1sczxso/i_built_a_thumbsupthumbsdown_system_that_stops_ai/</guid>
-      <pubDate>Sun, 05 Apr 2026 10:11:21 +0000</pubDate>
+      <title>AntForms: 0 to 306 users. Full breakdown, ugly early numbers included.</title>
+      <link>https://www.reddit.com/r/buildinpublic/comments/1sdv0zy/antforms_0_to_306_users_full_breakdown_ugly_early/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/buildinpublic/comments/1sdv0zy/antforms_0_to_306_users_full_breakdown_ugly_early/</guid>
+      <pubDate>Mon, 06 Apr 2026 10:27:42 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Six months of using Claude Code and Cursor for real projects shows in-session corrections are easy, but keeping corrections across sessions is the real problem. Why it matters: Direct: Points to cross-session persistence as a core challenge in reliable AI-augmented workflows.</description>
+      <description>Shared early metrics for AntForms: 306 users total, 164 in last 30 days (54%), small but growing MRR; first user after 24 days; 2 near-shutdown events; form builder for devs and small teams; no AI angle. Why it matters: Direct: Reveals early traction dynamics, including long time to first user and occasional near-shutdowns, useful for prescriptive planning in early-stage devtools.</description>
     </item>
     <item>
-      <title>Interpreting Gradient Routing’s Scalable Oversight Experiment</title>
-      <link>https://www.lesswrong.com/posts/SqgmKAAkr7QGPFQey/interpreting-gradient-routing-s-scalable-oversight-1</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/SqgmKAAkr7QGPFQey/interpreting-gradient-routing-s-scalable-oversight-1</guid>
-      <pubDate>Sun, 05 Apr 2026 02:18:20 +0000</pubDate>
+      <title>Talking to strangers: an app adventure</title>
+      <link>https://www.lesswrong.com/posts/bq6DRyZyj9PKQChnu/talking-to-strangers-an-app-adventure</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/bq6DRyZyj9PKQChnu/talking-to-strangers-an-app-adventure</guid>
+      <pubDate>Mon, 06 Apr 2026 06:37:47 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>LessWrong post on Gradient Routing&#x27;s scalable oversight suggests an improved naive baseline using early stopping, which performs on-par with GR. Why it matters: Direct: Early-stopping baselines influencing evaluation design for scalable oversight research.</description>
+      <description>Epistemic status: silly; prompts readers to take a &#x27;talking to strangers&#x27; challenge to reduce bias, noting many people find talking to strangers hard. Why it matters: Direct: Highlights how framing and user prompts may influence self-reported behavior in playful AI experiments, guiding future design of similar prompts.</description>
     </item>
     <item>
-      <title>Show HN: I made open source, zero power PCB hackathon badges</title>
-      <link>https://github.com/KaiPereira/Overglade-Badges</link>
-      <guid isPermaLink="true">https://github.com/KaiPereira/Overglade-Badges</guid>
-      <pubDate>Sat, 04 Apr 2026 14:20:21 +0000</pubDate>
+      <title>[Pop/Electronic] I built a full AI virtual artist — original songs, music videos, social media. 3 months in, here&#x27;s where it stands.</title>
+      <link>https://www.reddit.com/r/aiMusic/comments/1sdv4as/popelectronic_i_built_a_full_ai_virtual_artist/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/aiMusic/comments/1sdv4as/popelectronic_i_built_a_full_ai_virtual_artist/</guid>
+      <pubDate>Mon, 06 Apr 2026 10:32:45 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Open-source, zero-power PCB hackathon badges designed for a large Singapore game jam; theme was &#x27;The game jam within a game&#x27;. Why it matters: Direct: Open-source badges demonstrate scalable, low-power hardware for hackathons and community reuse.</description>
+      <description>Meet Laura D — a fully AI-generated virtual music artist. Original songs, full-length music videos, daily social media presence, and a Spotify profile. Why it matters: Direct: Demonstrates a full AI-driven artist pipeline (songs, videos, social posts) that can scale independent music branding without traditional labels.</description>
     </item>
     <item>
-      <title>I&#x27;m a Motion Designer. I built a tool/game to train our eyes to master RGB, HSV, and Lab color spaces under pressure.</title>
-      <link>https://www.reddit.com/r/AfterEffects/comments/1scz5u2/im_a_motion_designer_i_built_a_toolgame_to_train/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/AfterEffects/comments/1scz5u2/im_a_motion_designer_i_built_a_toolgame_to_train/</guid>
-      <pubDate>Sun, 05 Apr 2026 09:22:07 +0000</pubDate>
+      <title>Moonshot</title>
+      <link>https://www.producthunt.com/products/moonshot-13</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/moonshot-13</guid>
+      <pubDate>Sun, 05 Apr 2026 20:56:31 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>A tool/game to train eyes to master RGB, HSV, and Lab color spaces under pressure, created by a motion designer. Why it matters: Direct: Addresses a common learning gap for designers by practicing color-space behavior under pressure.</description>
+      <description>Moonshot tracks the Artemis II mission from your Mac. Why it matters: Direct: Shows lightweight Mac-based mission-tracking workflow; potential for real-time status dashboards and local-first workflows.</description>
     </item>
     <item>
-      <title>LLM Hallucinations Are Compression Artifacts. Yes, Really. And This Changes How We Build.</title>
-      <link>https://dev.to/gerus_team/llm-hallucinations-are-compression-artifacts-yes-really-and-this-changes-how-we-build-3d8j</link>
-      <guid isPermaLink="true">https://dev.to/gerus_team/llm-hallucinations-are-compression-artifacts-yes-really-and-this-changes-how-we-build-3d8j</guid>
-      <pubDate>Sun, 05 Apr 2026 10:07:40 +0000</pubDate>
+      <title>What if AI doesn’t make us less human, but forces us to become more human?</title>
+      <link>https://www.reddit.com/r/singularity/comments/1sdrvi7/what_if_ai_doesnt_make_us_less_human_but_forces/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1sdrvi7/what_if_ai_doesnt_make_us_less_human_but_forces/</guid>
+      <pubDate>Mon, 06 Apr 2026 07:16:46 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>LLM hallucinations are framed as compression artifacts, challenging the common view of hallucinations as a bug and prompting a shift in building approaches. Why it matters: Inference: Prompts a reevaluation of how we assess and mitigate AI errors, shaping future tooling and metrics.</description>
+      <description>Discussion challenges the replacement framing, suggesting AI absorbing execution could redefine what humans contribute, not simply remove jobs. Why it matters: Direct: Highlights a shift in AI discourse from replacement to redefining human value and contribution.</description>
     </item>
     <item>
-      <title>Godot 4.x MCP assistant</title>
-      <link>https://www.reddit.com/r/godot/comments/1sczvh1/godot_4x_mcp_assistant/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/godot/comments/1sczvh1/godot_4x_mcp_assistant/</guid>
-      <pubDate>Sun, 05 Apr 2026 10:07:10 +0000</pubDate>
+      <title>Okay this one is getting VERY good!</title>
+      <link>https://nitter.net/levelsio/status/2040934509852459399</link>
+      <guid isPermaLink="true">https://nitter.net/levelsio/status/2040934509852459399</guid>
+      <pubDate>Sun, 05 Apr 2026 23:28:00 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>MCP assistant for Godot to reduce routine prototyping chores, aiding quick level sketching and debugging. Why it matters: Direct: Automating repetitive prototyping tasks accelerates iteration in early-game development.</description>
+      <description>A creator praises a ThreeJS game prototype and plans to spend more time on a cosy flyer game for #vibejam, praising shaders. Why it matters: Direct: Highlights grassroots indie development momentum and the appeal of shader-enhanced 3D games for hobbyists.</description>
     </item>
   </channel>
 </rss>
