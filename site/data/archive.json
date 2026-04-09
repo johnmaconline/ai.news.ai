@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-04-09",
+    "title": "Daily AI Feed - 2026-04-09",
+    "lead_story": "I built a no-signup playground so people can actually test my LLM cost optimizer before committing",
+    "lead_url": "https://www.reddit.com/r/SideProject/comments/1sgib8i/i_built_a_nosignup_playground_so_people_can/",
+    "generated_at": "2026-04-09T11:05:44+00:00"
+  },
+  {
     "date": "2026-04-08",
     "title": "Daily AI Feed - 2026-04-08",
     "lead_story": "Dream memory pruning - what's new in CC 2.1.94 (+2,000 tokens)",
