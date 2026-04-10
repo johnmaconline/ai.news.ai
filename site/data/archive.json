@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-04-10",
+    "title": "Daily AI Feed - 2026-04-10",
+    "lead_story": "Confused about Copilot \u201cinstructions vs skills\u201d \u2014 are both actually on-demand?",
+    "lead_url": "https://www.reddit.com/r/GithubCopilot/comments/1shimyk/confused_about_copilot_instructions_vs_skills_are/",
+    "generated_at": "2026-04-10T11:03:11+00:00"
+  },
+  {
     "date": "2026-04-09",
     "title": "Daily AI Feed - 2026-04-09",
     "lead_story": "I built a no-signup playground so people can actually test my LLM cost optimizer before committing",
