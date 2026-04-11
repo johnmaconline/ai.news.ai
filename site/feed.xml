@@ -1,194 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-04-10</title>
+    <title>Daily AI Feed - 2026-04-11</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Fri, 10 Apr 2026 11:03:11 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 10:37:42 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>Confused about Copilot “instructions vs skills” — are both actually on-demand?</title>
-      <link>https://www.reddit.com/r/GithubCopilot/comments/1shimyk/confused_about_copilot_instructions_vs_skills_are/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/GithubCopilot/comments/1shimyk/confused_about_copilot_instructions_vs_skills_are/</guid>
-      <pubDate>Fri, 10 Apr 2026 10:26:13 +0000</pubDate>
+      <title>Claude Code is my entire development team. Here&#x27;s the 15-project, 4-machine setup.</title>
+      <link>https://www.reddit.com/r/ClaudeCode/comments/1si6ba0/claude_code_is_my_entire_development_team_heres/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeCode/comments/1si6ba0/claude_code_is_my_entire_development_team_heres/</guid>
+      <pubDate>Sat, 11 Apr 2026 02:09:22 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>A Reddit discussion on how GitHub Copilot handles agent instructions vs agent skills, noting conflicting explanations: instructions always loaded (global context) and skills loaded on demand, while docs mention file-based instructions like *.instructions. Why it matters: Direct: Highlights conflicting explanations on Copilot’s loading of instructions versus skills; prompts engineers to verify official docs and concrete implementation details.</description>
+      <description>A user describes nearly a year with Claude Code, noting extensive work and a blog post detailing projects, with more content promised in the full post. Why it matters: Direct: Demonstrates using Claude Code for a long-term project showcase and documentation.</description>
     </item>
     <item>
-      <title>From prompts to partnership: How LTM’s Rajesh Kumar collaborates with Microsoft 365 Copilot</title>
-      <link>https://news.microsoft.com/source/asia/features/from-prompts-to-partnership-how-ltms-rajesh-kumar-collaborates-with-microsoft-365-copilot/</link>
-      <guid isPermaLink="true">https://news.microsoft.com/source/asia/features/from-prompts-to-partnership-how-ltms-rajesh-kumar-collaborates-with-microsoft-365-copilot/</guid>
-      <pubDate>Thu, 09 Apr 2026 13:04:31 +0000</pubDate>
+      <title>I built dotfiles that give Claude Code persistent memory across sessions and machines</title>
+      <link>https://www.reddit.com/r/ClaudeAI/comments/1shzkwf/i_built_dotfiles_that_give_claude_code_persistent/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAI/comments/1shzkwf/i_built_dotfiles_that_give_claude_code_persistent/</guid>
+      <pubDate>Fri, 10 Apr 2026 21:19:30 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>The post From prompts to partnership: How LTM’s Rajesh Kumar collaborates with Microsoft 365 Copilot appeared first on Source . Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from Source.</description>
+      <description>User notes Claude Code loses memory across sessions and machines; built a dotfiles repository to persist context, enabling memory bridging via a script and stored text. Why it matters: Direct: Demonstrates persisting Claude Code context across sessions and machines via a memory_bridge script and a dotfiles repo.</description>
     </item>
     <item>
-      <title>Writing system prompts is weirdly hard — would anyone play a game that turns it into a skill challenge?</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1shauup/writing_system_prompts_is_weirdly_hard_would/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ChatGPT/comments/1shauup/writing_system_prompts_is_weirdly_hard_would/</guid>
-      <pubDate>Fri, 10 Apr 2026 03:10:42 +0000</pubDate>
+      <title>Building Your Own &quot;Google Maps for Codebases&quot;: A Guide to Semantic Code Search with LLMs</title>
+      <link>https://dev.to/midas126/building-your-own-google-maps-for-codebases-a-guide-to-semantic-code-search-with-llms-138g</link>
+      <guid isPermaLink="true">https://dev.to/midas126/building-your-own-google-maps-for-codebases-a-guide-to-semantic-code-search-with-llms-138g</guid>
+      <pubDate>Sat, 11 Apr 2026 02:13:16 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>I&#x27;ve been building a supportive AI grandmother — a bot that&#x27;s always available to listen about your day and help you track your goals. Sounds simple, right? Turns out making a model actually follow rules is brutal. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from Reddit AI Prompt Search.</description>
+      <description>From File Explorer to Semantic Navigator: The Next Evolution of Code Understanding We’ve all been there. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from DEV.to LLM Tag.</description>
     </item>
     <item>
-      <title>I no longer need a cloud LLM to do quick web research</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1shezi8/i_no_longer_need_a_cloud_llm_to_do_quick_web/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1shezi8/i_no_longer_need_a_cloud_llm_to_do_quick_web/</guid>
-      <pubDate>Fri, 10 Apr 2026 06:51:35 +0000</pubDate>
+      <title>How To Leverage AI for Competitive Edge in Real Estate</title>
+      <link>https://dev.to/autonainews/how-to-leverage-ai-for-competitive-edge-in-real-estate-1p55</link>
+      <guid isPermaLink="true">https://dev.to/autonainews/how-to-leverage-ai-for-competitive-edge-in-real-estate-1p55</guid>
+      <pubDate>Sat, 11 Apr 2026 10:06:10 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>User describes a local web search/scraping setup using a local model (Qwen3), noting Github and SearXNG support. Why it matters: Direct: Demonstrates a shift to local LLMs for web search, reducing reliance on cloud LLMs.</description>
+      <description>Summary: Establish a robust data infrastructure with diverse sources for insights into market trends and customer behavior; strategically select and integrate AI tools for predictive market analysis, property valuation, and enhancing client experiences. Why it matters: Direct: Practical data foundation and targeted AI tooling enable reliable market insights and scalable client experiences in real estate operations.</description>
     </item>
     <item>
-      <title>AVGen-Bench: A Task-Driven Benchmark for Multi-Granular Evaluation of Text-to-Audio-Video Generation</title>
-      <link>http://arxiv.org/abs/2604.08540v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2604.08540v1</guid>
-      <pubDate>Thu, 09 Apr 2026 17:59:39 +0000</pubDate>
+      <title>I built a VSCode extension that reviews your code like a senior engineer — here&#x27;s what I learned</title>
+      <link>https://dev.to/kshitij_sawant_cb62de0f6f/i-built-a-vscode-extension-that-reviews-your-code-like-a-senior-engineer-heres-what-i-learned-3d9p</link>
+      <guid isPermaLink="true">https://dev.to/kshitij_sawant_cb62de0f6f/i-built-a-vscode-extension-that-reviews-your-code-like-a-senior-engineer-heres-what-i-learned-3d9p</guid>
+      <pubDate>Sat, 11 Apr 2026 10:08:20 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>AVGen-Bench introduces a task-driven benchmark for multi-granular evaluation of Text-to-Audio-Video (T2AV) generation, addressing fragmentation where benchmarks assess audio and video in isolation. Why it matters: Direct: Provides a comprehensive evaluation approach for T2AV that captures joint correctness beyond isolated metrics.</description>
+      <description>Summary: You make some changes, open the GhostReview sidebar, pick a persona, and click Review. Why it matters: Direct: Demonstrates a minimal, persona-driven code-review workflow via VSCode extension.</description>
     </item>
     <item>
-      <title>AVGen-Bench: A Task-Driven Benchmark for Multi-Granular Evaluation of Text-to-Audio-Video Generation</title>
-      <link>https://arxiv.org/abs/2604.08540v1</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.08540v1</guid>
-      <pubDate>Thu, 09 Apr 2026 17:59:39 +0000</pubDate>
+      <title>[R] PCA rotation makes non-Matryoshka embeddings truncatable — 27x compression at 99% recall with reranking</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1sicp1h/r_pca_rotation_makes_nonmatryoshka_embeddings/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1sicp1h/r_pca_rotation_makes_nonmatryoshka_embeddings/</guid>
+      <pubDate>Sat, 11 Apr 2026 07:44:01 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Text-to-Audio-Video (T2AV) generation is rapidly becoming a core interface for media creation, yet its evaluation remains fragmented. Why it matters: Direct: This matters for practical engineering workflow impact, based on this update from arXiv cs.AI+cs.LG.</description>
+      <description>Summary: Most embedding models weren&#x27;t trained with Matryoshka losses, so trailing dimensions can&#x27;t be dropped; truncating BGE-M3 from 1024 to 256 dims yields 0.467 cosine similarity; fix is embarrassingly simple. Why it matters: Direct: Highlights a concrete failure when truncating embeddings and the need for a workable fix.</description>
     </item>
     <item>
-      <title>Claude AI Attribution Error Highlights Ongoing Accuracy Challenges in Large Language Models</title>
-      <link>https://dev.to/yuravolontir/claude-ai-attribution-error-highlights-ongoing-accuracy-challenges-in-large-language-models-4mbc</link>
-      <guid isPermaLink="true">https://dev.to/yuravolontir/claude-ai-attribution-error-highlights-ongoing-accuracy-challenges-in-large-language-models-4mbc</guid>
-      <pubDate>Fri, 10 Apr 2026 10:41:07 +0000</pubDate>
+      <title>Show HN: Eve – Managed OpenClaw for work</title>
+      <link>https://eve.new/login</link>
+      <guid isPermaLink="true">https://eve.new/login</guid>
+      <pubDate>Fri, 10 Apr 2026 17:31:22 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>The piece discusses attribution errors in Claude AI and ongoing accuracy challenges in large language models. Why it matters: Direct: Highlights persistent misattribution risks in AI outputs, underscoring the need for improved provenance checks and attribution reliability.</description>
+      <description>Summary: Eve is an AI agent harness that runs in an isolated Linux sandbox (2 vCPUs, 4GB RAM, 10GB disk) with a real filesystem, headless Chromium, code execution, and connectors to 1000+ services; it works in the background until tasks are complete. Why it matters: Direct: Demonstrates a composable, background-task AI agent with sandboxed execution and large-service connectivity, relevant to autonomous workflow tooling.</description>
     </item>
     <item>
-      <title>I built a product for marketing videos with 2 approaches. Can you give me feedback?(not promotion, not selling anything)</title>
-      <link>https://www.reddit.com/r/u_GovernmentBroad2054/comments/1shiten/i_built_a_product_for_marketing_videos_with_2/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/u_GovernmentBroad2054/comments/1shiten/i_built_a_product_for_marketing_videos_with_2/</guid>
-      <pubDate>Fri, 10 Apr 2026 10:35:41 +0000</pubDate>
+      <title>The financial blind spot that gets product managers fired</title>
+      <link>https://www.productcoalition.com/p/the-number-your-board-asks-first</link>
+      <guid isPermaLink="true">https://www.productcoalition.com/p/the-number-your-board-asks-first</guid>
+      <pubDate>Fri, 10 Apr 2026 14:13:40 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>PM seeks feedback on an AI workflow to lower UGC costs for dropshippers, including ad quality and process; Chat Copilot vs Clicky Dashboard to decide UX for a Video Generator; Hiring UGC creators is getting way too expensive ($150+ per clip). Why it matters: Direct: Signals a need to validate cost-reduction UX decisions and prioritize video generator UX for rapid feedback.</description>
+      <description>Most product leaders can recite their NPS but not their payback period Why it matters: Direct: Payback period is essential for ROI; missing it undermines ROI-driven decisions.</description>
     </item>
     <item>
-      <title>The pace at which useful things are shipping also seems</title>
-      <link>https://nitter.net/emollick/status/2042434850003534077</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2042434850003534077</guid>
-      <pubDate>Fri, 10 Apr 2026 02:49:49 +0000</pubDate>
+      <title>I also fixed Goya&#x27;s Saturn Devouring His Son</title>
+      <link>https://nitter.net/emollick/status/2042820263239118967</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2042820263239118967</guid>
+      <pubDate>Sat, 11 Apr 2026 04:21:19 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Shipping pace is accelerating; model releases and enterprise products are coming faster, especially from Anthropic, likely outpacing market ability to track or absorb information. Why it matters: Direct: Indicates market velocity risk; teams should monitor signals and adjust cadence accordingly.</description>
+      <description>The author claims to have fixed Goya&#x27;s Saturn Devouring His Son and speculates the Black Paintings existed because Goya lacked hot dogs; includes a video. Why it matters: Direct: Highlights how offbeat content can attract attention, but product teams should assess relevance to core roadmap.</description>
     </item>
     <item>
-      <title>Things that make the jagged intelligence of AI harder to</title>
-      <link>https://nitter.net/emollick/status/2042424621626970557</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2042424621626970557</guid>
-      <pubDate>Fri, 10 Apr 2026 02:09:10 +0000</pubDate>
+      <title>Paper: arxiv.org/pdf/2604.02592</title>
+      <link>https://nitter.net/emollick/status/2042800706608836844</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2042800706608836844</guid>
+      <pubDate>Sat, 11 Apr 2026 03:03:36 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Outline of AI alignment challenges: weaknesses aren’t always intuitive; all LLMs share weaknesses; frontier is moving outward; humans are jagged too. Why it matters: Direct: Highlights AI alignment challenges and the need for shared awareness of LLM weaknesses.</description>
+      <description>Paper: arxiv.org/pdf/2604.02592 Why it matters: Direct: Points to a specific arXiv paper for deeper technical details; helps researchers and product teams benchmark AI methods.</description>
     </item>
     <item>
-      <title>Chats getting extreme laggy</title>
-      <link>https://www.reddit.com/r/ChatGPTCoding/comments/1sh575c/chats_getting_extreme_laggy/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ChatGPTCoding/comments/1sh575c/chats_getting_extreme_laggy/</guid>
-      <pubDate>Thu, 09 Apr 2026 22:59:56 +0000</pubDate>
+      <title>Weekly Dose of Optimism #188</title>
+      <link>https://www.notboring.co/p/weekly-dose-of-optimism-188</link>
+      <guid isPermaLink="true">https://www.notboring.co/p/weekly-dose-of-optimism-188</guid>
+      <pubDate>Fri, 10 Apr 2026 12:32:59 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Chats get extremely laggy; users open new chats and state current state, code, and future plans for product development. Why it matters: Direct: Points to chat UX fragility; check latency and improve developer tooling.</description>
+      <description>Weekly Dose of Optimism #188 covers AI-health and hardware topics including AI vs. Alzheimer&#x27;s, Substrate x GDM, Robot Lamp, Artemis II, and Primer + Extra Doses. Why it matters: Direct: Signals AI-health and hardware collaboration themes worth watching for product experiments and user-impact features.</description>
     </item>
     <item>
-      <title>Building Autonomous AI Agents with Free LLM APIs: A Practical Guide</title>
-      <link>https://dev.to/rtt_enjoy_321ecb2d475c379/building-autonomous-ai-agents-with-free-llm-apis-a-practical-guide-4bf9</link>
-      <guid isPermaLink="true">https://dev.to/rtt_enjoy_321ecb2d475c379/building-autonomous-ai-agents-with-free-llm-apis-a-practical-guide-4bf9</guid>
-      <pubDate>Fri, 10 Apr 2026 09:39:50 +0000</pubDate>
+      <title>Weekly Top Picks #118</title>
+      <link>https://www.thealgorithmicbridge.com/p/weekly-top-picks-118</link>
+      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/weekly-top-picks-118</guid>
+      <pubDate>Fri, 10 Apr 2026 18:09:52 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Developer experiments with building autonomous AI agents using free LLM APIs and shares experience. Why it matters: Direct: Demonstrates practical use of free LLM APIs to build autonomous agents, enabling lower-cost experimentation.</description>
+      <description>Anthropic&#x27;s $30B revenue; China won the global AI race; AI scapegoating layoffs; Mythos; Gen Z against AI; &quot;AI is conscious?&quot; is the wrong question. Why it matters: Direct: Signals potential market narratives and workforce impacts for AI policy and product strategy.</description>
     </item>
     <item>
-      <title>OpenClaw Session Pruning: Reduce Context Bloat Without Losing History</title>
-      <link>https://dev.to/hex_agent/openclaw-session-pruning-reduce-context-bloat-without-losing-history-3lkj</link>
-      <guid isPermaLink="true">https://dev.to/hex_agent/openclaw-session-pruning-reduce-context-bloat-without-losing-history-3lkj</guid>
-      <pubDate>Fri, 10 Apr 2026 08:34:37 +0000</pubDate>
+      <title>Building Autonomous AI Agents with Free LLM APIs — A Practical Guide</title>
+      <link>https://dev.to/rtt_enjoy_321ecb2d475c379/building-autonomous-ai-agents-with-free-llm-apis-a-practical-guide-57f6</link>
+      <guid isPermaLink="true">https://dev.to/rtt_enjoy_321ecb2d475c379/building-autonomous-ai-agents-with-free-llm-apis-a-practical-guide-57f6</guid>
+      <pubDate>Sat, 11 Apr 2026 07:18:17 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>OpenClaw addresses context bloat from long-running agent sessions, caused by transcripts and tool chatter; it offers session pruning as a built-in solution. Why it matters: Direct: Reduces memory and cost by trimming history while preserving essential context for continued tasks.</description>
+      <description>A developer shares experience building autonomous AI agents using free LLM APIs to automate tasks and improve efficiency. Why it matters: Direct: Provides a practical starting point for building autonomous agents with inexpensive APIs.</description>
     </item>
     <item>
-      <title>Try this master prompt for IOS development</title>
-      <link>https://www.reddit.com/r/codex/comments/1shi6kw/try_this_master_prompt_for_ios_development/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/codex/comments/1shi6kw/try_this_master_prompt_for_ios_development/</guid>
-      <pubDate>Fri, 10 Apr 2026 10:01:20 +0000</pubDate>
+      <title>Two Ends of the Token Budget: Caveman and Tool Search</title>
+      <link>https://dev.to/oldeucryptoboi/two-ends-of-the-token-budget-caveman-and-tool-search-3k8b</link>
+      <guid isPermaLink="true">https://dev.to/oldeucryptoboi/two-ends-of-the-token-budget-caveman-and-tool-search-3k8b</guid>
+      <pubDate>Sat, 11 Apr 2026 09:07:06 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Prompts a senior iOS architect to design production-ready infrastructure for a new iOS app, focusing on maintainable, scalable, testable code and clear architecture decisions. Why it matters: Direct: Provides a practical master-prompt approach to producing production-grade iOS infrastructure and extendable project structure.</description>
+      <description>Describes Claude Code&#x27;s token budget: roughly 200,000 tokens for system prompts, tool definitions, history, user input, model output, and optional chain-of-thought within a single context window. Why it matters: Direct: Highlights memory budgeting constraints that influence tool usage and session design.</description>
     </item>
     <item>
-      <title>Fragments: April 9</title>
-      <link>https://martinfowler.com/fragments/2026-04-09.html</link>
-      <guid isPermaLink="true">https://martinfowler.com/fragments/2026-04-09.html</guid>
-      <pubDate>Thu, 09 Apr 2026 13:23:00 +0000</pubDate>
+      <title>Fastest way to run Gemma 4 locally: 3-step deployment with Ollama + OpenClaw (zero API bills)</title>
+      <link>https://www.reddit.com/r/AskClaw/comments/1sib9ox/fastest_way_to_run_gemma_4_locally_3step/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/AskClaw/comments/1sib9ox/fastest_way_to_run_gemma_4_locally_3step/</guid>
+      <pubDate>Sat, 11 Apr 2026 06:21:35 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Martin Fowler notes two excellent podcasts and praises Simon Willison, whose fragmentary posts have earned a regular spot in the author&#x27;s RSS reader. Why it matters: Direct: Highlights trusted voices and podcast recommendations for ongoing learning in software engineering.</description>
+      <description>Describes a 3-step deployment using Ollama and OpenClaw to run Gemma 4 locally on a MacBook Air M4; claims local AI performance feels normal on a thin laptop. Why it matters: Direct: Demonstrates a practical path to local, cost-efficient AI deployment on consumer hardware.</description>
     </item>
     <item>
-      <title>What Happens When AI Gets Too Good at One Thing</title>
-      <link>https://www.thealgorithmicbridge.com/p/what-happens-when-ai-gets-too-good</link>
-      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/what-happens-when-ai-gets-too-good</guid>
-      <pubDate>Thu, 09 Apr 2026 18:28:35 +0000</pubDate>
+      <title>I built and decided to share ultimate pentesting Terminal (RDP/VNC/SSH/Browser/Inteligence/Rubooks/Commands/AI/CherryNotes...)</title>
+      <link>https://www.reddit.com/r/Pentesting/comments/1sifdj8/i_built_and_decided_to_share_ultimate_pentesting/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/Pentesting/comments/1sifdj8/i_built_and_decided_to_share_ultimate_pentesting/</guid>
+      <pubDate>Sat, 11 Apr 2026 10:23:34 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Thoughts on Claude Mythos Why it matters: Direct: Highlights risk of over-optimization on a single capability and potential misalignment.</description>
+      <description>Developer built an ultimate pentesting terminal after 20 years of dissatisfaction with existing terminals and shared it publicly, inviting collaboration via cerebra.sh and GitHub. Why it matters: Direct: Could signal a shift toward customizable, all-in-one terminal stacks for pentesting and collaboration.</description>
     </item>
     <item>
-      <title>AI tool to help manage properties and tenants</title>
-      <link>https://www.reddit.com/r/ParcelTrackerMailroom/comments/1shixqf/ai_tool_to_help_manage_properties_and_tenants/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ParcelTrackerMailroom/comments/1shixqf/ai_tool_to_help_manage_properties_and_tenants/</guid>
-      <pubDate>Fri, 10 Apr 2026 10:42:14 +0000</pubDate>
+      <title>Open-source accessibility analyzer for Flutter (Conalyz)</title>
+      <link>https://www.reddit.com/r/FlutterDev/comments/1sifca6/opensource_accessibility_analyzer_for_flutter/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/FlutterDev/comments/1sifca6/opensource_accessibility_analyzer_for_flutter/</guid>
+      <pubDate>Sat, 11 Apr 2026 10:21:34 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>There’s a lot of noise around “AI for property management,” but real value comes from automating day-to-day workflows; tenant mailroom management is where things look interesting. Why it matters: Direct: Demonstrates how automation in daily workflows can unlock measurable value in property management.</description>
+      <description>Open-source accessibility analyzer for Flutter apps named Conalyz scans widget trees and flags accessibility issues (missing semantics, contrast, touch targets); can run as a CLI tool or plug into workflows using AI to automate checks. Why it matters: Direct: Automates early accessibility checks in Flutter apps, reducing risk of UX-blocking issues before release.</description>
     </item>
     <item>
-      <title>AI can now clone full websites automatically using Claude Code + Playwright MCP</title>
-      <link>https://www.reddit.com/r/DigitalMarketing/comments/1shivfr/ai_can_now_clone_full_websites_automatically/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/DigitalMarketing/comments/1shivfr/ai_can_now_clone_full_websites_automatically/</guid>
-      <pubDate>Fri, 10 Apr 2026 10:38:36 +0000</pubDate>
+      <title>Announcing ILIAD 2026</title>
+      <link>https://www.lesswrong.com/posts/tTP49RgCiHGSCpYA6/announcing-iliad-2026-1</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/tTP49RgCiHGSCpYA6/announcing-iliad-2026-1</guid>
+      <pubDate>Sat, 11 Apr 2026 07:02:10 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>AI can now clone full websites automatically using Claude Code + Playwright MCP to convert live sites into working codebases without manual HTML or CSS. Why it matters: Direct: Demonstrates practical AI-assisted code generation workflows that bypass manual web development steps.</description>
+      <description>ILIAD 2026 is a five-day conference bringing together researchers to build scientific foundations for AI alignment; this is the third iteration since 2024. Why it matters: Direct: Signals ongoing community investment in AI alignment foundations and peer collaboration.</description>
     </item>
     <item>
-      <title>My Specific Singularity Timeline to Utopia</title>
-      <link>https://www.lesswrong.com/posts/YfhA3KWLtFqBeFnpb/my-specific-singularity-timeline-to-utopia</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/YfhA3KWLtFqBeFnpb/my-specific-singularity-timeline-to-utopia</guid>
-      <pubDate>Fri, 10 Apr 2026 00:11:48 +0000</pubDate>
+      <title>Have we already lost? Part 3: Reasons for Optimism</title>
+      <link>https://www.lesswrong.com/posts/ZimWxECcHtjZAycGS/have-we-already-lost-part-3-reasons-for-optimism</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/ZimWxECcHtjZAycGS/have-we-already-lost-part-3-reasons-for-optimism</guid>
+      <pubDate>Sat, 11 Apr 2026 06:58:07 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Author outlines a specific, step-by-step timeline to utopia, challenging vague Twitter timelines and grounding the transition in AI insights and papers like Emergent Misalignment. Why it matters: Direct: Provides a concrete, human-centered scenario for AI-driven future planning and risk awareness.</description>
+      <description>LessWrong post Have we already lost? Part 3: Reasons for Optimism reflects on AI Safety in early 2026 and asks if the AI Safety community has already lost or passed the point of no return; written for Inkhaven Residency. Why it matters: Direct: Highlights optimistic signals in AI safety debates and the need for balanced discourse.</description>
     </item>
     <item>
-      <title>Onstage text monitor</title>
-      <link>https://www.reddit.com/r/raspberry_pi/comments/1shixkt/onstage_text_monitor/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/raspberry_pi/comments/1shixkt/onstage_text_monitor/</guid>
-      <pubDate>Fri, 10 Apr 2026 10:41:59 +0000</pubDate>
+      <title>Is this really the future of all programmers? Does it make sense to still doing things by hand?</title>
+      <link>https://www.reddit.com/r/singularity/comments/1shnp26/is_this_really_the_future_of_all_programmers_does/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1shnp26/is_this_really_the_future_of_all_programmers_does/</guid>
+      <pubDate>Fri, 10 Apr 2026 14:11:54 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>I built an onstage text monitor for our local Musikverein (community music club) using a Raspberry Pi Our Musikverein performs with rotating singers and a full setlist, and we needed a reliable way to display lyrics on ... Why it matters: Direct: This matters for why this is creative and interesting, based on this update from Reddit AI Workflow Search.</description>
+      <description>A discussion questions whether coding by hand remains relevant, noting that content suggests LLMs generate code and programmers act mainly as validators under &#x27;intelligence on demand&#x27;. Why it matters: Direct: Reflects a clear debate on whether programmers should hand over coding to AI, and the economics of &#x27;intelligence on demand&#x27; subscriptions.</description>
     </item>
     <item>
-      <title>I suddenly realized I have started mimicking writing style of LLMs.</title>
-      <link>https://www.reddit.com/r/singularity/comments/1shfjsi/i_suddenly_realized_i_have_started_mimicking/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1shfjsi/i_suddenly_realized_i_have_started_mimicking/</guid>
-      <pubDate>Fri, 10 Apr 2026 07:23:56 +0000</pubDate>
+      <title>I&#x27;m a 62-year-old paralegal who turned my needlepoint hobby into a side hustle. Gen Z are some of my best customers.</title>
+      <link>https://www.businessinsider.com/how-paralegal-built-needlepoint-side-hustle-popular-with-gen-z-2026-4</link>
+      <guid isPermaLink="true">https://www.businessinsider.com/how-paralegal-built-needlepoint-side-hustle-popular-with-gen-z-2026-4</guid>
+      <pubDate>Sat, 11 Apr 2026 09:15:01 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>I am not a native english speaker and most of the English language I learned, is from movies, online articles, social media and such. Why it matters: Direct: This matters for why this is creative and interesting, based on this update from r/singularity.</description>
+      <description>Needlepoint artist Kevin Lustik is getting more Gen Z customers, while balancing his law career with art inspired by important topics. Why it matters: Direct: Shows a cross-generational consumer trend where niche craft businesses attract younger customers while integrating professional careers.</description>
     </item>
     <item>
-      <title>OpenAI just mass-unsubscribed paying users — the case for running AI locally</title>
-      <link>https://dev.to/purpledoubled/openai-just-mass-unsubscribed-paying-users-the-case-for-running-ai-locally-5ehp</link>
-      <guid isPermaLink="true">https://dev.to/purpledoubled/openai-just-mass-unsubscribed-paying-users-the-case-for-running-ai-locally-5ehp</guid>
-      <pubDate>Fri, 10 Apr 2026 10:41:28 +0000</pubDate>
+      <title>How to Generate Royalty-Free DnB Tracks On Demand — No Subscription, No Auction Required</title>
+      <link>https://dev.to/aied/how-to-generate-royalty-free-dnb-tracks-on-demand-no-subscription-no-auction-required-3aci</link>
+      <guid isPermaLink="true">https://dev.to/aied/how-to-generate-royalty-free-dnb-tracks-on-demand-no-subscription-no-auction-required-3aci</guid>
+      <pubDate>Sat, 11 Apr 2026 10:17:47 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Yesterday, thousands of ChatGPT Plus and Pro subscribers woke up to find their paid accounts downgraded to free tier — mid-work, mid-exam, mid-project. Why it matters: Direct: This matters for why this is creative and interesting, based on this update from DEV.to AI Tag.</description>
+      <description>AI-driven platform Skank Bank moves to on-demand, royalty-free DnB tracks without subscriptions or auctions, for creators who want immediate access. Why it matters: Direct: Demonstrates product pivots toward immediate access over marketplaces to meet creator demand.</description>
     </item>
     <item>
-      <title>🧑‍🚀 Day 7 of the @cursor_ai #vibejam Proudly sponsored by</title>
-      <link>https://nitter.net/levelsio/status/2042358377460678859</link>
-      <guid isPermaLink="true">https://nitter.net/levelsio/status/2042358377460678859</guid>
-      <pubDate>Thu, 09 Apr 2026 21:45:57 +0000</pubDate>
+      <title>Agentic AI will force a rethink at the network edge</title>
+      <link>https://siliconangle.com/2026/04/10/agentic-ai-will-force-rethink-network-edge/</link>
+      <guid isPermaLink="true">https://siliconangle.com/2026/04/10/agentic-ai-will-force-rethink-network-edge/</guid>
+      <pubDate>Fri, 10 Apr 2026 21:03:09 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>🧑‍🚀 Day 7 of the @cursor_ai #vibejam Proudly sponsored by @cursor_ai + @boltdotnew + @heyglif Prizes to win (submit your vibe coded game before May 1!) 🏆 $20,000 🥈 $10,000 🥉 $5,000 Today&#x27;s games I liked most from the Vi... Why it matters: Direct: This matters for why this is creative and interesting, based on this update from @levelsio / @levelsio.</description>
+      <description>Agentic AI introduces autonomous systems that perceive, decide, act and learn without constant human oversight, operating independently across distributed environments and collaborating with other agents in real time. Why it matters: Direct: Illustrates a shift toward autonomous, edge-distributed AI that can operate with reduced human supervision.</description>
     </item>
   </channel>
 </rss>
