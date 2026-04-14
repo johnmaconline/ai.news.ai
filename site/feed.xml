@@ -1,186 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-04-12</title>
+    <title>Daily AI Feed - 2026-04-14</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Sun, 12 Apr 2026 10:41:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 11:09:05 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>I built a skill that generates importable Make.com blueprints from natural language descriptions — 3/3 successful imports</title>
-      <link>https://www.reddit.com/r/Make/comments/1sizei2/i_built_a_skill_that_generates_importable_makecom/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/Make/comments/1sizei2/i_built_a_skill_that_generates_importable_makecom/</guid>
-      <pubDate>Sun, 12 Apr 2026 00:17:17 +0000</pubDate>
+      <title>Claude burned 64% of my limit in ONE message. Here&#x27;s what I found (and the fix that actually works)</title>
+      <link>https://www.reddit.com/r/PromptEngineering/comments/1skuvgj/claude_burned_64_of_my_limit_in_one_message_heres/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/PromptEngineering/comments/1skuvgj/claude_burned_64_of_my_limit_in_one_message_heres/</guid>
+      <pubDate>Tue, 14 Apr 2026 01:46:14 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>I discovered you can reverse-engineer Make.com&#x27;s blueprint JSON format and generate complete scenarios with AI, then import them directly. Why it matters: Direct: Shows an AI-assisted method to reverse-engineer Make.com&#x27;s blueprint JSON and auto-generate importable scenarios.</description>
+      <description>User reports Claude burns 64% of token limit by pasting ONE doc; due to context accumulation where Claude re-reads chat history. It notes the 3k word doc from message 2 is reprocessed multiple times. Fixes include /compact, tight CLAUDE. Why it matters: Direct: Reveals a practical token-budget risk in long-context chats; prompts engineering fixes to reduce repeated reprocessing and preserve throughput.</description>
     </item>
     <item>
-      <title>I made something for all your non-dev vibecoders. Good luck, have fun.</title>
-      <link>https://www.reddit.com/r/VibeCodeDevs/comments/1six9qa/i_made_something_for_all_your_nondev_vibecoders/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/VibeCodeDevs/comments/1six9qa/i_made_something_for_all_your_nondev_vibecoders/</guid>
-      <pubDate>Sat, 11 Apr 2026 22:43:09 +0000</pubDate>
+      <title>CodeTracer: Towards Traceable Agent States</title>
+      <link>http://arxiv.org/abs/2604.11641v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2604.11641v1</guid>
+      <pubDate>Mon, 13 Apr 2026 15:52:03 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>VibeCheck is a prompt that turns your AI coding tool into a structured mentor. It drops into Cursor, Claude, ChatGPT, or GitHub Copilot and interviews you about your idea before generating a local planning document (VIBECHECK). Why it matters: Direct: Presents a system-prompt that interviews the user and generates a local planning doc before coding.</description>
+      <description>Code agents are advancing rapidly, but debugging them is becoming increasingly difficult. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from arXiv AI Core.</description>
     </item>
     <item>
-      <title>I made something for all your non-dev vibecoders. Good luck, have fun.</title>
-      <link>https://www.reddit.com/r/vibecoding/comments/1six7j5/i_made_something_for_all_your_nondev_vibecoders/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/vibecoding/comments/1six7j5/i_made_something_for_all_your_nondev_vibecoders/</guid>
-      <pubDate>Sat, 11 Apr 2026 22:40:35 +0000</pubDate>
+      <title>Please Make it Sound like Human: Encoder-Decoder vs. Decoder-Only Transformers for AI-to-Human Text Style Transfer</title>
+      <link>http://arxiv.org/abs/2604.11687v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2604.11687v1</guid>
+      <pubDate>Mon, 13 Apr 2026 16:30:15 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>VibeCheck is a prompt that turns your AI coding tool into a structured mentor. It drops into Cursor, Claude, ChatGPT, or GitHub Copilot and interviews you about your idea before generating a local planning document (VIBECHECK). Why it matters: Direct: Presents a system-prompt that interviews the user and generates a local planning doc before coding.</description>
+      <description>AI-generated text has become common in academic and professional writing, prompting research into detection methods. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from arXiv AI Core.</description>
     </item>
     <item>
-      <title>What I learned parsing transcripts into Hindsight</title>
-      <link>https://dev.to/rituparnaghosh/what-i-learned-parsing-transcripts-into-hindsight-1c07</link>
-      <guid isPermaLink="true">https://dev.to/rituparnaghosh/what-i-learned-parsing-transcripts-into-hindsight-1c07</guid>
-      <pubDate>Sun, 12 Apr 2026 09:53:40 +0000</pubDate>
+      <title>OpenAI&#x27;s leaked memo 📝, Meta passes Google 📈, GitHub Stacked PRs 👨‍💻</title>
+      <link>https://tldr.tech/tech/2026-04-14</link>
+      <guid isPermaLink="true">https://tldr.tech/tech/2026-04-14</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Trying to parse raw meeting transcripts into a JSON &#x27;action items&#x27; and &#x27;sentiment&#x27; structure for an AI meeting copilot failed; the approach was miserable and ineffective. Why it matters: Direct: Naive transcript-to-JSON prompts are unreliable; motivates engineering robust state extraction and structured representation methods.</description>
+      <description>Why it matters: Direct: No details available in input; requires source verification.</description>
     </item>
     <item>
-      <title>How I Built an OCR-Based Defense Against Prompt Injection for Local LLM Search</title>
-      <link>https://dev.to/morfasco/how-i-built-an-ocr-based-defense-against-prompt-injection-for-local-llm-search-1mnl</link>
-      <guid isPermaLink="true">https://dev.to/morfasco/how-i-built-an-ocr-based-defense-against-prompt-injection-for-local-llm-search-1mnl</guid>
-      <pubDate>Sun, 12 Apr 2026 10:23:00 +0000</pubDate>
+      <title>Smart Backend Routing — Predictions vs Q&amp;A Intelligently</title>
+      <link>https://dev.to/jayakrishnayadav24/smart-backend-routing-predictions-vs-qa-intelligently-2j7p</link>
+      <guid isPermaLink="true">https://dev.to/jayakrishnayadav24/smart-backend-routing-predictions-vs-qa-intelligently-2j7p</guid>
+      <pubDate>Tue, 14 Apr 2026 10:47:09 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Plugging a local LLM into a web search tool expands attack surface; in my Ollama setup, pages contained invisible Unicode injections, fake system prompts, and markdown image tags exfiltrating data via URLs. Why it matters: Direct: Local LLM deployments must guard input surfaces; prompt-injection mitigations are essential when indexing or scraping web content.</description>
+      <description>Part 4 of a five-part series on IPL AI Assistant architecture using FastAPI; shows app initialization with CORSMiddleware, title &#x27;IPL AI Assistant&#x27;, and description &#x27;Predictions + Q&amp;A for cricket&#x27;. Why it matters: Direct: Demonstrates concrete backend wiring (FastAPI, CORSMiddleware) for a sports-predictive QA app.</description>
     </item>
     <item>
-      <title>Open source agent stack that actually works in 2026 (no hype)</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1sj6ke6/open_source_agent_stack_that_actually_works_in/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1sj6ke6/open_source_agent_stack_that_actually_works_in/</guid>
-      <pubDate>Sun, 12 Apr 2026 06:16:49 +0000</pubDate>
+      <title>The User Interface &amp; Ground-Truth Testing</title>
+      <link>https://dev.to/jayakrishnayadav24/the-user-interface-ground-truth-testing-3g47</link>
+      <guid isPermaLink="true">https://dev.to/jayakrishnayadav24/the-user-interface-ground-truth-testing-3g47</guid>
+      <pubDate>Tue, 14 Apr 2026 10:49:18 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>A practical open-source agent stack that operates fully offline on local hardware, using Hermes agent with local memory in sqlite and Ollama; data stays on device. Why it matters: Direct: Demonstrates a practical, offline-first agent stack with persistent local memory; reduces data exfiltration risk and eliminates cloud dependency.</description>
+      <description>Part 5 of 5 | ← Part 4 | Complete Series Streamlit Overview. Streamlit lets you build data apps in pure Python—no HTML, CSS, or JavaScript needed. Why it matters: Direct: Demonstrates Streamlit-based UI tooling and a path to ground-truth testing.</description>
     </item>
     <item>
-      <title>How We Broke Top AI Agent Benchmarks: And What Comes Next</title>
-      <link>https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/</link>
-      <guid isPermaLink="true">https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/</guid>
-      <pubDate>Sat, 11 Apr 2026 19:15:56 +0000</pubDate>
+      <title>N-Day-Bench – Can LLMs find real vulnerabilities in real codebases?</title>
+      <link>https://ndaybench.winfunc.com</link>
+      <guid isPermaLink="true">https://ndaybench.winfunc.com</guid>
+      <pubDate>Mon, 13 Apr 2026 21:54:03 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Why it matters: Direct: This entry lacks summary_input; needs primary-source extraction to be actionable.</description>
+      <description>N-Day-Bench tests whether frontier LLMs can find known security vulnerabilities in real repository code. Why it matters: Direct: Demonstrates security-focused benchmark methodology using real-world repos.</description>
     </item>
     <item>
-      <title>Really interesting ideas are going to be increasingly at a</title>
-      <link>https://nitter.net/emollick/status/2043146517028958365</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2043146517028958365</guid>
-      <pubDate>Sun, 12 Apr 2026 01:57:44 +0000</pubDate>
+      <title>🎙️ This week on How I AI: Claude Cowork tutorial for non-engineers + Build your own Slack inbox (for $0)</title>
+      <link>https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-claude-cowork</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-claude-cowork</guid>
+      <pubDate>Mon, 13 Apr 2026 15:07:46 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Really interesting ideas are going to be increasingly at a premium as the cost of executing those ideas drops. Why it matters: Direct: prioritize high-potential ideas that are costly to execute; invest in discovery to identify true outliers.</description>
+      <description>Weekly listens from How I AI, part of Lenny&#x27;s Podcast Network. Why it matters: Direct: Highlights how AI-driven content can guide non-engineers in adopting AI-enabled routines.</description>
     </item>
     <item>
-      <title>It isn&#x27;t at the level of the Big Three models</title>
-      <link>https://nitter.net/emollick/status/2043209495740842443</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2043209495740842443</guid>
-      <pubDate>Sun, 12 Apr 2026 06:07:59 +0000</pubDate>
+      <title>And this is a very generous definition of notable</title>
+      <link>https://nitter.net/emollick/status/2043924521137168472</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2043924521137168472</guid>
+      <pubDate>Tue, 14 Apr 2026 05:29:14 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>It isn&#x27;t at the level of the Big Three models when you poke at it, but a very solid start. Why it matters: Direct: set pragmatic expectations and guide prioritization toward improvements or supplementary tooling.</description>
+      <description>Frontier-model race is largely US and China; Big Three US labs lead, with a lead measured in months rather than years. Why it matters: Direct: Signals that frontier model progress is concentrated in US/China with near-term leadership by top labs.</description>
     </item>
     <item>
-      <title>🧠 Community Wisdom: Vibe coding as a team sport, teaching interviewers to surface real signal, what’s missing from leadership offsites, and more</title>
-      <link>https://www.lennysnewsletter.com/p/community-wisdom-vibe-coding-as-a</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/community-wisdom-vibe-coding-as-a</guid>
-      <pubDate>Sat, 11 Apr 2026 19:36:51 +0000</pubDate>
+      <title>The idea of sovereign frontier models is only viable as</title>
+      <link>https://nitter.net/emollick/status/2043925198601150903</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2043925198601150903</guid>
+      <pubDate>Tue, 14 Apr 2026 05:31:56 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Community Wisdom 181 Why it matters: Direct: highlights practical signals from community discussions to inform product culture and leadership practices.</description>
+      <description>Sovereign frontier models depend on open-weight Chinese models; viability hinges on continued shipping, with few alternatives. Why it matters: Direct: Highlights dependency on open access for sovereign frontier models and potential fragility.</description>
     </item>
     <item>
-      <title>The Agent Protocol Stack: MCP vs A2A vs AG-UI — When to Use What</title>
-      <link>https://dev.to/jubinsoni/the-agent-protocol-stack-mcp-vs-a2a-vs-ag-ui-when-to-use-what-6dn</link>
-      <guid isPermaLink="true">https://dev.to/jubinsoni/the-agent-protocol-stack-mcp-vs-a2a-vs-ag-ui-when-to-use-what-6dn</guid>
-      <pubDate>Sun, 12 Apr 2026 08:49:35 +0000</pubDate>
+      <title>Claude Cowork 101: How to automate your workday without touching code | JJ Englert (Tenex)</title>
+      <link>https://www.lennysnewsletter.com/p/claude-cowork-101-how-to-automate</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/claude-cowork-101-how-to-automate</guid>
+      <pubDate>Mon, 13 Apr 2026 12:03:52 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>Claude Cowork 101 shows no-code automation by connecting tools and AI skills to automate emails, Slack, and daily planning. Why it matters: Direct: Illustrates no-code AI workflow automation for business tasks using Claude Cowork.</description>
+    </item>
+    <item>
+      <title>Build a Sales Follow-Up Agent With the Claude Agent SDK</title>
+      <link>https://dev.to/kfuras/build-a-sales-follow-up-agent-with-the-claude-agent-sdk-37hh</link>
+      <guid isPermaLink="true">https://dev.to/kfuras/build-a-sales-follow-up-agent-with-the-claude-agent-sdk-37hh</guid>
+      <pubDate>Tue, 14 Apr 2026 09:42:54 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>MCP, A2A, and AG-UI are not competing standards; they are complementary for building AI agents in 2026. Why it matters: Direct: Enables identification of safe extension points for AI agents to perform on-chain actions, highlighting the current limitation gap.</description>
+      <description>A Norwegian sales manager claimed his team closed 1,000+ deals in three months using AI agents, and the article shows how to build one with the Claude Agent SDK - the same SDK used to run Koda. Why it matters: Direct: Demonstrates a practical, vendor-specific approach to building AI-driven sales agents.</description>
     </item>
     <item>
-      <title>Beyond Transactions: How AI Agents Execute Offchain Actions</title>
-      <link>https://dev.to/walletguy/beyond-transactions-how-ai-agents-execute-offchain-actions-2b43</link>
-      <guid isPermaLink="true">https://dev.to/walletguy/beyond-transactions-how-ai-agents-execute-offchain-actions-2b43</guid>
-      <pubDate>Sun, 12 Apr 2026 07:47:24 +0000</pubDate>
+      <title>How Bifrost&#x27;s MCP Gateway Cuts AI Agent Token Costs by 92% Without Sacrificing Capability</title>
+      <link>https://dev.to/andrewbaisden/how-bifrosts-mcp-gateway-cuts-ai-agent-token-costs-by-92-without-sacrificing-capability-237i</link>
+      <guid isPermaLink="true">https://dev.to/andrewbaisden/how-bifrosts-mcp-gateway-cuts-ai-agent-token-costs-by-92-without-sacrificing-capability-237i</guid>
+      <pubDate>Tue, 14 Apr 2026 10:17:28 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>AI agents can analyze market data, generate trading strategies, and write smart contracts, but they struggle with executing transactions; most are read-only and cannot interact with DeFi protocols or handle real money. Why it matters: Direct: Highlights the current limitation gap in enabling on-chain execution by AI agents.</description>
+      <description>The piece argues that expanding tool connections increases per-request token costs in MCP-based AI agents, and presents MCP Gateway as a solution to cut token costs by 92% without sacrificing capability. Why it matters: Direct: Reducing per-request costs is critical for scalable agent orchestration.</description>
     </item>
     <item>
-      <title>40+ FREE Courses (12 April 2026 - Free codes valid for 2-3 days max or 1000 redemption)</title>
-      <link>https://www.reddit.com/r/FREECoursesEveryday/comments/1sjajf9/40_free_courses_12_april_2026_free_codes_valid/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/FREECoursesEveryday/comments/1sjajf9/40_free_courses_12_april_2026_free_codes_valid/</guid>
-      <pubDate>Sun, 12 Apr 2026 10:06:49 +0000</pubDate>
+      <title>Full tutorial: Running AI Agents locally on AMD with zero cost and absolutely no OpenAI API</title>
+      <link>https://www.reddit.com/r/openclaw/comments/1skwcbj/full_tutorial_running_ai_agents_locally_on_amd/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/openclaw/comments/1skwcbj/full_tutorial_running_ai_agents_locally_on_amd/</guid>
+      <pubDate>Tue, 14 Apr 2026 02:50:56 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Promotes 40+ free courses (12 April 2026 - Free codes valid for 2-3 days max or 1000 redemption) including Google AI Stack 2026 components and AI-powered job search courses. Why it matters: Direct: Highlights accessible AI learning paths and potential cost savings for developers and product teams.</description>
+      <description>A full tutorial demonstrates running AI agents locally on AMD hardware with zero cost and no OpenAI API, illustrating a completely local stack. Why it matters: Direct: Local stacks avoid API costs and data transit, useful for cost-sensitive workloads.</description>
     </item>
     <item>
-      <title>Usage limits hit me out of the blue! Found a 20K phantom token bug + cache issues. Evidence and fix inside.</title>
-      <link>https://www.reddit.com/r/ClaudeCode/comments/1sj10ou/usage_limits_hit_me_out_of_the_blue_found_a_20k/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeCode/comments/1sj10ou/usage_limits_hit_me_out_of_the_blue_found_a_20k/</guid>
-      <pubDate>Sun, 12 Apr 2026 01:34:18 +0000</pubDate>
+      <title>As AI agents accelerate coding</title>
+      <link>https://nitter.net/AndrewYNg/status/2043742105852621052</link>
+      <guid isPermaLink="true">https://nitter.net/AndrewYNg/status/2043742105852621052</guid>
+      <pubDate>Mon, 13 Apr 2026 17:24:23 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>User warns against CC versions 2.1.100/2.1.101 due to about 20K phantom tokens per request; recommending v2.1.98; try fresh account to mitigate cache issues affecting quota. Why it matters: Direct: Highlights a reproducible token inflation bug and a practical downgrade path for production workflows.</description>
+      <description>Explores how AI agents speed up coding and mentions a trend called the Product Management Bottleneck, where deciding what to build constrains progress. Why it matters: Direct: Highlights bottlenecks that affect engineering workflow and planning in AI-augmented development.</description>
     </item>
     <item>
-      <title>I built an Autonomous AI Macro Agent for Trading physical silver/gold. I’m a pure backend dev, and I suck at marketing. Looking for a growth partner (40% recurring split).</title>
-      <link>https://www.reddit.com/r/SideProject/comments/1sjaq35/i_built_an_autonomous_ai_macro_agent_for_trading/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/SideProject/comments/1sjaq35/i_built_an_autonomous_ai_macro_agent_for_trading/</guid>
-      <pubDate>Sun, 12 Apr 2026 10:17:29 +0000</pubDate>
+      <title>23 Questions Every Heavy AI User Should Ask</title>
+      <link>https://www.thealgorithmicbridge.com/p/23-questions-every-heavy-ai-user</link>
+      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/23-questions-every-heavy-ai-user</guid>
+      <pubDate>Mon, 13 Apr 2026 19:46:27 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Autonomous AI Macro Agent for trading physical silver and gold built by a pure backend developer; seeking a growth partner (40% recurring split). Why it matters: Direct: Highlights a practical AI macro agent concept for cross-market arbitrage and potential new growth models.</description>
+      <description>A checklist for the rest of us Why it matters: Direct: Highlights a practical checklist that heavy AI users can apply beyond sensational headlines.</description>
     </item>
     <item>
-      <title>Been building a multi-agent framework in public for 5 weeks, its been a Journey.</title>
-      <link>https://www.reddit.com/r/artificial/comments/1sj6o0i/been_building_a_multiagent_framework_in_public/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/artificial/comments/1sj6o0i/been_building_a_multiagent_framework_in_public/</guid>
-      <pubDate>Sun, 12 Apr 2026 06:22:28 +0000</pubDate>
+      <title>about mythos AI</title>
+      <link>https://www.reddit.com/r/artificial/comments/1sl11ho/about_mythos_ai/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/artificial/comments/1sl11ho/about_mythos_ai/</guid>
+      <pubDate>Tue, 14 Apr 2026 06:53:46 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Publicly building a multi-agent framework for about 5 weeks; AIPass is a local CLI framework where AI agents have persistent identity, memory, and communication. Why it matters: Direct: Enables persistent agent identity and cross-agent collaboration in a shared project space, easing reproducibility.</description>
+      <description>A reader spent a Sunday studying Anthropic&#x27;s Mythos technical report, notes that headlines miss inside details, and highlights what stood out. Why it matters: Direct: The Mythos report contains overlooked details worth highlighting beyond headlines.</description>
     </item>
     <item>
-      <title>SQLite Query Result Formatter Demo</title>
-      <link>https://simonwillison.net/2026/Apr/11/sqlite-qrf/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/11/sqlite-qrf/</guid>
-      <pubDate>Sat, 11 Apr 2026 19:35:31 +0000</pubDate>
+      <title>I built an e-sign &amp; PDF toolkit that works 100% offline.</title>
+      <link>https://www.reddit.com/r/iosapps/comments/1sl4ymy/i_built_an_esign_pdf_toolkit_that_works_100/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/iosapps/comments/1sl4ymy/i_built_an_esign_pdf_toolkit_that_works_100/</guid>
+      <pubDate>Tue, 14 Apr 2026 10:39:47 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Demo by Simon Willison of a UI playground for rendering SQL results with the SQLite 3.53.0 Query Result Formatter library, compiled to WebAssembly. Why it matters: Direct: Demonstrates tooling to compare rendering options for SQL result tables via WebAssembly-based libraries.</description>
+      <description>A solo developer built Signfolio, an e-sign and PDF toolkit that works 100% offline. Why it matters: Direct: Demonstrates demand for privacy-preserving offline tools and potential shift away from cloud-based processing.</description>
     </item>
     <item>
-      <title>Searchable explorer of EA Forum &amp; LessWrong posts with explicit cruxes or &quot;change my mind&quot; content</title>
-      <link>https://www.lesswrong.com/posts/EFAqqytSzK8xYfDTY/searchable-explorer-of-ea-forum-and-lesswrong-posts-with</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/EFAqqytSzK8xYfDTY/searchable-explorer-of-ea-forum-and-lesswrong-posts-with</guid>
-      <pubDate>Sun, 12 Apr 2026 00:19:32 +0000</pubDate>
+      <title>Only Law Can Prevent Extinction</title>
+      <link>https://www.lesswrong.com/posts/5CfBDiQNg9upfipWk/only-law-can-prevent-extinction</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/5CfBDiQNg9upfipWk/only-law-can-prevent-extinction</guid>
+      <pubDate>Mon, 13 Apr 2026 20:57:01 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Early-stage project offering a searchable explorer of EA Forum and LessWrong posts with explicit cruxes and &#x27;change my mind&#x27; content. Why it matters: Direct: Highlights critical debate points early, guiding research focus and reducing duplication.</description>
+      <description>A LessWrong post quotes a childhood line equating tax revenue with coercive force, attributed to P. J. O&#x27;Rourke. Why it matters: Direct: Reveals how provocative tax rhetoric can influence discussions on funding and governance in AI policy.</description>
     </item>
     <item>
-      <title>Been building a multi-agent framework in public for 5 weeks, its been a Journey.</title>
-      <link>https://www.reddit.com/r/singularity/comments/1sj6yar/been_building_a_multiagent_framework_in_public/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1sj6yar/been_building_a_multiagent_framework_in_public/</guid>
-      <pubDate>Sun, 12 Apr 2026 06:38:37 +0000</pubDate>
+      <title>Google&#x27;s Nest Doorbell</title>
+      <link>https://www.producthunt.com/products/google</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/google</guid>
+      <pubDate>Mon, 13 Apr 2026 15:53:10 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Publicly building a multi-agent framework for 5 weeks using Claude Code. AIPass is a local CLI framework where AI agents have persistent identity, memory, and communication, sharing the same filesystem, project, and files—no sandboxes or isolation. Why it matters: Direct: Demonstrates persistent identity, memory, and shared filesystem design in a local multi-agent framework.</description>
+      <description>Smart, battery-powered video doorbell to detect what matters. Why it matters: Direct: Demonstrates practical AI-enabled sensing for consumer devices with targeted detection and reduced false alerts.</description>
     </item>
     <item>
-      <title>Interactive Simulations in Gemini</title>
-      <link>https://www.producthunt.com/products/gemini-6</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/gemini-6</guid>
-      <pubDate>Sat, 11 Apr 2026 17:29:00 +0000</pubDate>
+      <title>Swalwell resigns seat in Congress ahead of expulsion threat, citing &#x27;mistakes&#x27;</title>
+      <link>https://www.latimes.com/politics/story/2026-04-13/eric-swalwell-bipartisan-push-to-expel-him-from-house</link>
+      <guid isPermaLink="true">https://www.latimes.com/politics/story/2026-04-13/eric-swalwell-bipartisan-push-to-expel-him-from-house</guid>
+      <pubDate>Mon, 13 Apr 2026 18:26:44 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Gemini now lets you play with the concepts you ask about. Why it matters: Direct: Introduces interactive concept exploration in Gemini, signaling a more hands-on AI sandbox experience.</description>
+      <description>Rep. Eric Swalwell resigned his congressional seat under intense pressure from lawmakers of both parties after several women accused him of sexual misconduct. Why it matters: Direct: Demonstrates how media and political pressure can trigger leadership changes.</description>
     </item>
     <item>
-      <title>How to make good tea</title>
-      <link>https://www.lesswrong.com/posts/d4SNYCop34nX2o6ay/how-to-make-good-tea</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/d4SNYCop34nX2o6ay/how-to-make-good-tea</guid>
-      <pubDate>Sun, 12 Apr 2026 02:27:13 +0000</pubDate>
+      <title>For The First Time In War, Drones &amp; Ground Robotic Systems Seized Enemy positions Without A Single Soldier</title>
+      <link>https://www.reddit.com/r/singularity/comments/1skxzk3/for_the_first_time_in_war_drones_ground_robotic/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1skxzk3/for_the_first_time_in_war_drones_ground_robotic/</guid>
+      <pubDate>Tue, 14 Apr 2026 04:08:30 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>From cheap teabags, the easiest improvement is avoiding oversteeping; black tea at 3 minutes instead of 4-5. Why it matters: Direct: Shows a specific, small tweak to improve routine quality with measurable timing guidance.</description>
+      <description>The Future of war is here! submitted by /u/FuneralCry- [link] Why it matters: Direct: Reflects popular interest in AI-enabled military tech and autonomous systems.</description>
     </item>
     <item>
-      <title>Sex toys thrown at detention facility in L.A. anti-ICE protest; police declare unlawful assembly</title>
-      <link>https://www.latimes.com/california/story/2026-04-11/anti-ice-sex-toy-protest-outside-la-detention-center-leads-to-arrests</link>
-      <guid isPermaLink="true">https://www.latimes.com/california/story/2026-04-11/anti-ice-sex-toy-protest-outside-la-detention-center-leads-to-arrests</guid>
-      <pubDate>Sat, 11 Apr 2026 23:59:02 +0000</pubDate>
+      <title>The Devil is in the Details -- From OCR for Old Church Slavonic to Purely Visual Stemma Reconstruction</title>
+      <link>https://arxiv.org/abs/2604.11724v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2604.11724v1</guid>
+      <pubDate>Mon, 13 Apr 2026 16:58:57 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>LAPD issued an unlawful assembly order and made arrests during a Saturday protest outside the Metropolitan Detention Center. Why it matters: Direct: Reflects enforcement actions during protest events and legal bounds.</description>
+      <description>AI has brought new possibilities and pitfalls; the devil is in the details when building pipelines and small experiments like OCR and stemmatology. Why it matters: Direct: Highlights practical pitfalls in AI pipelines; emphasizes careful validation in niche OCR/stemma research.</description>
     </item>
   </channel>
 </rss>

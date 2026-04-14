@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-04-14",
+    "title": "Daily AI Feed - 2026-04-14",
+    "lead_story": "Claude burned 64% of my limit in ONE message. Here's what I found (and the fix that actually works)",
+    "lead_url": "https://www.reddit.com/r/PromptEngineering/comments/1skuvgj/claude_burned_64_of_my_limit_in_one_message_heres/",
+    "generated_at": "2026-04-14T11:09:05+00:00"
+  },
+  {
     "date": "2026-04-12",
     "title": "Daily AI Feed - 2026-04-12",
     "lead_story": "I built a skill that generates importable Make.com blueprints from natural language descriptions \u2014 3/3 successful imports",
