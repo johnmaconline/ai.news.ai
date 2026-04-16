@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-04-16",
+    "title": "Daily AI Feed - 2026-04-16",
+    "lead_story": "I built a pre-release security scanner for LLM APIs to catch prompt injection, leaks, and tool abuse before launch",
+    "lead_url": "https://www.reddit.com/r/promoteMyApp/comments/1smpnsy/i_built_a_prerelease_security_scanner_for_llm/",
+    "generated_at": "2026-04-16T11:07:36+00:00"
+  },
+  {
     "date": "2026-04-15",
     "title": "Daily AI Feed - 2026-04-15",
     "lead_story": "Google adds AI Skills to Chrome to help you save favorite workflows",

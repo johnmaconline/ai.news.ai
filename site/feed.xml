@@ -1,202 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-04-15</title>
+    <title>Daily AI Feed - 2026-04-16</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Wed, 15 Apr 2026 11:05:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 11:07:36 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>Google adds AI Skills to Chrome to help you save favorite workflows</title>
-      <link>https://techcrunch.com/2026/04/14/google-adds-ai-skills-to-chrome-to-help-you-save-favorite-workflows/</link>
-      <guid isPermaLink="true">https://techcrunch.com/2026/04/14/google-adds-ai-skills-to-chrome-to-help-you-save-favorite-workflows/</guid>
-      <pubDate>Tue, 14 Apr 2026 17:00:00 +0000</pubDate>
+      <title>I built a pre-release security scanner for LLM APIs to catch prompt injection, leaks, and tool abuse before launch</title>
+      <link>https://www.reddit.com/r/promoteMyApp/comments/1smpnsy/i_built_a_prerelease_security_scanner_for_llm/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/promoteMyApp/comments/1smpnsy/i_built_a_prerelease_security_scanner_for_llm/</guid>
+      <pubDate>Thu, 16 Apr 2026 01:42:27 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Google is adding “Skills” to Chrome, letting users save and reuse AI prompts across websites, building on Gemini’s browser integration. Why it matters: Direct: Enables reusing prompts across sites, reducing manual prompt creation and speeding automation workflows.</description>
+      <description>A developer built PromptBrake, a pre-release security scanner for LLM APIs to detect prompt injection, leaks, and tool abuse. Why it matters: Direct: Early testing catches prompt-injection, leaks, and tool abuse before launch.</description>
     </item>
     <item>
-      <title>Google introduces &quot;Skills&quot; in Chrome to make Gemini prompts instantly reusable</title>
-      <link>https://arstechnica.com/google/2026/04/google-introduces-skills-in-chrome-to-make-gemini-prompts-instantly-reusable/</link>
-      <guid isPermaLink="true">https://arstechnica.com/google/2026/04/google-introduces-skills-in-chrome-to-make-gemini-prompts-instantly-reusable/</guid>
-      <pubDate>Tue, 14 Apr 2026 17:00:37 +0000</pubDate>
+      <title>Built an evaluation tool that tests if your AI prompt actually works</title>
+      <link>https://www.reddit.com/r/OpenAIDev/comments/1smtj97/built_an_evaluation_tool_that_tests_if_your_ai/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/OpenAIDev/comments/1smtj97/built_an_evaluation_tool_that_tests_if_your_ai/</guid>
+      <pubDate>Thu, 16 Apr 2026 04:42:47 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Chrome allows saving custom prompts or grabbing a premade Skill from Google&#x27;s library. Why it matters: Direct: Enables rapid reuse of prompts across sessions, reducing setup for AI-assisted browsing.</description>
+      <description>Built BeamEval, an evaluation tool that quickly checks if your AI prompts actually work. Why it matters: Direct: Verifies prompt effectiveness early, enabling teams to quantify AI prompt quality before product release.</description>
     </item>
     <item>
-      <title>Understanding and Improving Continuous Adversarial Training for LLMs via In-context Learning Theory</title>
-      <link>http://arxiv.org/abs/2604.12817v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2604.12817v1</guid>
-      <pubDate>Tue, 14 Apr 2026 14:43:55 +0000</pubDate>
+      <title>AI ruling prompts warnings from US lawyers: Your chats could be used against you</title>
+      <link>https://www.reuters.com/legal/government/ai-ruling-prompts-warnings-us-lawyers-your-chats-could-be-used-against-you-2026-04-15/</link>
+      <guid isPermaLink="true">https://www.reuters.com/legal/government/ai-ruling-prompts-warnings-us-lawyers-your-chats-could-be-used-against-you-2026-04-15/</guid>
+      <pubDate>Wed, 15 Apr 2026 12:51:13 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Continuous Adversarial Training (CAT) aims to improve AT efficiency for LLMs by searching for adversarial inputs in the embedding space during training. Why it matters: Direct: Reduces cost and time for defending LLMs against jailbreaks by using continuous input space searches.</description>
+      <description>Reuters reports warnings from US lawyers that AI ruling prompts could be used against you. Why it matters: Direct: Legal warnings suggest potential data exposure and compliance risks in chat-based AI tools.</description>
     </item>
     <item>
-      <title>We just launched PromptOT on Product Hunt - built after a production incident that took 4 hours to debug.</title>
-      <link>https://www.reddit.com/r/PromptEngineering/comments/1slyxhx/we_just_launched_promptot_on_product_hunt_built/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/PromptEngineering/comments/1slyxhx/we_just_launched_promptot_on_product_hunt_built/</guid>
-      <pubDate>Wed, 15 Apr 2026 07:21:51 +0000</pubDate>
+      <title>One injured in shooting near Sepulveda Middle School</title>
+      <link>https://www.latimes.com/california/story/2026-04-15/shooting-near-sepulveda-middle-school</link>
+      <guid isPermaLink="true">https://www.latimes.com/california/story/2026-04-15/shooting-near-sepulveda-middle-school</guid>
+      <pubDate>Wed, 15 Apr 2026 22:55:55 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>We just launched PromptOT on Product Hunt after a production incident that took 4 hours to debug. Why it matters: Direct: Highlights risks of in-code prompt edits without versioning and the need for rollback plans.</description>
+      <description>One person was injured in a shooting near Sepulveda Middle School, triggering a brief campus lockdown. Why it matters: Direct: Demonstrates need for real-time event ingestion and alerting in news apps.</description>
     </item>
     <item>
-      <title>Amazon&#x27;s satellite internet 🛰️, Anthropic&#x27;s $800B offer 💰, Claude Code Routines 👨‍💻</title>
-      <link>https://tldr.tech/tech/2026-04-15</link>
-      <guid isPermaLink="true">https://tldr.tech/tech/2026-04-15</guid>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <title>Inside Elon&#x27;s Terafab ⚡, how ChatGPT sources 🤖, Snap layoffs 💼</title>
+      <link>https://tldr.tech/tech/2026-04-16</link>
+      <guid isPermaLink="true">https://tldr.tech/tech/2026-04-16</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>TLDR AI highlights Amazon&#x27;s satellite internet, Anthropic&#x27;s $800B offer, and Claude Code Routines. Why it matters: Direct: Highlights potential macro moves in satellite internet, massive funding rounds, and AI tooling trends worth tracking for infra planning.</description>
+      <description>TLDR AI article covering Elon Musk&#x27;s Terafab, how ChatGPT sources, and Snap layoffs. Why it matters: Direct: Highlights potential signals for sourcing behavior and staffing shifts, informing builds around AI-enabled search, data provenance, or risk signaling.</description>
     </item>
     <item>
-      <title>Spring AI SDK for Amazon Bedrock AgentCore is now Generally Available</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/spring-ai-sdk-for-amazon-bedrock-agentcore-is-now-generally-available/</link>
-      <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/spring-ai-sdk-for-amazon-bedrock-agentcore-is-now-generally-available/</guid>
-      <pubDate>Tue, 14 Apr 2026 12:40:47 +0000</pubDate>
+      <title>CollabCoder: Plan-Code Co-Evolution via Collaborative Decision-Making for Efficient Code Generation</title>
+      <link>http://arxiv.org/abs/2604.13946v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2604.13946v1</guid>
+      <pubDate>Wed, 15 Apr 2026 14:58:26 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Spring AI AgentCore SDK enables building production-ready AI agents and running them on the scalable AgentCore Runtime; it&#x27;s an open source library bringing Bedrock AgentCore into Spring AI. Why it matters: Direct: Validates a production-ready, Spring-integrated path to deploy Bedrock AgentCore agents at scale.</description>
+      <description>CollabCoder proposes plan-code co-evolution via collaborative decision-making to improve code generation, addressing persistent challenges and the limitations of conventional multi-agent frameworks (static planning, isolated execution, high overhead, limited ... Why it matters: Direct: Practical approach to reducing overhead and increasing adaptability in automated code generation workflows.</description>
     </item>
     <item>
-      <title>CoDe-R: Refining Decompiler Output with LLMs via Rationale Guidance and Adaptive Inference</title>
-      <link>http://arxiv.org/abs/2604.12913v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2604.12913v1</guid>
-      <pubDate>Tue, 14 Apr 2026 15:58:38 +0000</pubDate>
+      <title>&quot;Why Your AI Agent Failed in Week One: A Brutally Honest Post-Mortem of Valhalla</title>
+      <link>https://dev.to/stone_vell_6d4e932c750288/why-your-ai-agent-failed-in-week-one-a-brutally-honest-post-mortem-of-valhalla-3bbe</link>
+      <guid isPermaLink="true">https://dev.to/stone_vell_6d4e932c750288/why-your-ai-agent-failed-in-week-one-a-brutally-honest-post-mortem-of-valhalla-3bbe</guid>
+      <pubDate>Thu, 16 Apr 2026 10:45:52 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>CoDe-R proposes refining decompiler output using LLMs with rationale guidance and adaptive inference to improve high-level reconstruction from stripped binaries. Why it matters: Direct: Addresses reliability gaps in decompilation by injecting reasoning prompts to guide model outputs and adapt inference to context.</description>
+      <description>An honest post-mortem on Valhalla Arena: after months of training and benchmark success, Week One failed within 72 hours; explains what went wrong. Why it matters: Direct: Reveals practical failure modes to improve agent design and avoid early-system collapse.</description>
     </item>
     <item>
-      <title>Growing Pains: Extensible and Efficient LLM Benchmarking Via Fixed Parameter Calibration</title>
-      <link>http://arxiv.org/abs/2604.12843v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2604.12843v1</guid>
-      <pubDate>Tue, 14 Apr 2026 15:01:29 +0000</pubDate>
+      <title>From Feelings to Metrics: Understanding and Formalizing How Users Vibe-Test LLMs</title>
+      <link>http://arxiv.org/abs/2604.14137v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2604.14137v1</guid>
+      <pubDate>Wed, 15 Apr 2026 17:57:08 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Growing Pains argues for extensible and efficient LLM benchmarking by fixed parameter calibration to enable cross-model comparisons despite uneven release schedules. Why it matters: Direct: Addresses inconsistent benchmarking practices due to varying samples and release timing, enabling more stable model comparisons.</description>
+      <description>ArXiv paper argues that benchmark scores miss real usefulness; users rely on vibe-testing—informal, experience-based evaluation on tasks like coding. Why it matters: Direct: Signals the need to incorporate user-centric metrics when evaluating LLMs beyond benchmarks.</description>
     </item>
     <item>
-      <title>Product Work Is Relationship Work - All Things Product Podcast with Teresa Torres &amp; Petra Wille</title>
-      <link>https://www.producttalk.org/product-work-is-relationship-work-all-things-product-podcast-with-teresa-torres-petra-wille/</link>
-      <guid isPermaLink="true">https://www.producttalk.org/product-work-is-relationship-work-all-things-product-podcast-with-teresa-torres-petra-wille/</guid>
-      <pubDate>Tue, 14 Apr 2026 13:00:06 +0000</pubDate>
+      <title>Building QuickProof simplifying creative workflows (would love feedback)</title>
+      <link>https://www.reddit.com/r/SoftwareandApps/comments/1smzs23/building_quickproof_simplifying_creative/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/SoftwareandApps/comments/1smzs23/building_quickproof_simplifying_creative/</guid>
+      <pubDate>Thu, 16 Apr 2026 10:39:35 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>As AI makes it easier than ever to generate ideas and build products, some people are asking: Do we still need product managers? In this episode of All Things Product, Petra Wille and Teresa Torres argue that the real work of product Why it matters: Inference: AI-enabled ideation challenges PM roles, signaling a need to redefine product responsibilities and cross-functional collaboration.</description>
+      <description>QuickProof is a developing product to streamline messy creative workflows where files, feedback, tasks, and approvals are scattered across tools. Why it matters: Direct: Consolidation of files, feedback, tasks, and approvals reduces friction in creative workflows.</description>
     </item>
     <item>
-      <title>As someone who teaches at a business school</title>
-      <link>https://nitter.net/emollick/status/2044210104887570678</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2044210104887570678</guid>
-      <pubDate>Wed, 15 Apr 2026 00:24:03 +0000</pubDate>
+      <title>A real issue with the current state of our knowledge</title>
+      <link>https://nitter.net/emollick/status/2044576806926512446</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2044576806926512446</guid>
+      <pubDate>Thu, 16 Apr 2026 00:41:11 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>As someone who teaches at a business school, I can tell you that pre-professional students are extremely sensitive to signs of expected market demand in their fields of interest. Why it matters: Inference: Signals about student market demand awareness influence talent pipelines and program offerings.</description>
+      <description>A real issue is the knowledge gap on AI&#x27;s work implications after 2026, due to a discontinuity with practical agentic systems, with little data on agents. Why it matters: Direct: Highlights a knowledge gap on AI&#x27;s work implications after 2026.</description>
     </item>
     <item>
-      <title>Listen: Not all AI agents are created equal</title>
-      <link>https://www.lennysnewsletter.com/p/listen-not-all-ai-agents-are-created</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/listen-not-all-ai-agents-are-created</guid>
-      <pubDate>Wed, 15 Apr 2026 03:45:04 +0000</pubDate>
+      <title>On the quality of the current round of proofs</title>
+      <link>https://nitter.net/emollick/status/2044484539918250049</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2044484539918250049</guid>
+      <pubDate>Wed, 15 Apr 2026 18:34:33 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>An audio edition of Lenny&#x27;s Newsletter post. Why it matters: Direct: Noting differences in AI agent capabilities guides cautious selection and testing.</description>
+      <description>The post assesses the quality of the latest proofs, citing Erdos&#x27;s &#x27;Proofs from The Book&#x27; concept and calling GPT5.4&#x27;s proof a possible &#x27;Book Proof&#x27;. Why it matters: Direct: Indicates credibility risks and standard-setting when AI-generated proofs are involved.</description>
     </item>
     <item>
-      <title>Compute constraints are a double bind: On the inference side</title>
-      <link>https://nitter.net/emollick/status/2044226087610114356</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2044226087610114356</guid>
-      <pubDate>Wed, 15 Apr 2026 01:27:33 +0000</pubDate>
+      <title>Build a personal organization command center with GitHub Copilot CLI</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/</link>
+      <guid isPermaLink="true">https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/</guid>
+      <pubDate>Wed, 15 Apr 2026 17:00:00 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Compute constraints are a double bind: On the inference side you must raise prices, ration use, or serve worse models. This hurts current growth. On the training side, you can&#x27;t train the next generation of models, hurting future growth. Why it matters: Inference: Highlights trade-offs between current growth and future model progress, guiding pricing, usage limits, and model quality decisions.</description>
+      <description>GitHub describes a productivity tool in which an engineer built a personal organization command center with Copilot CLI and AI support. Why it matters: Direct: Demonstrates practical AI tooling patterns that could accelerate personal organization workflows.</description>
     </item>
     <item>
-      <title>🏗️ 📐 Harness Engineering: The Emerging Discipline of Making AI Agents Reliable 🤖</title>
-      <link>https://dev.to/truongpx396/harness-engineering-the-emerging-discipline-of-making-ai-agents-reliable-42gf</link>
-      <guid isPermaLink="true">https://dev.to/truongpx396/harness-engineering-the-emerging-discipline-of-making-ai-agents-reliable-42gf</guid>
-      <pubDate>Wed, 15 Apr 2026 08:44:19 +0000</pubDate>
+      <title>How to Deploy AI Agents in Production: Architecture, Failures &amp; Best Practices</title>
+      <link>https://dev.to/solutelabs/how-to-deploy-ai-agents-in-production-architecture-failures-best-practices-4h22</link>
+      <guid isPermaLink="true">https://dev.to/solutelabs/how-to-deploy-ai-agents-in-production-architecture-failures-best-practices-4h22</guid>
+      <pubDate>Thu, 16 Apr 2026 10:08:13 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>A comprehensive guide on shaping the environment around AI agents to ensure dependable operation, drawing on the Awesome Harness Engineering collection. Why it matters: Direct: Provides a practical guide to shaping agent environments for reliability, drawing from harness engineering references.</description>
+      <description>Demos of AI agents are easy, but production deployment is hard. Real users, messy inputs, slow tools, and hard constraints reveal issues not seen in demos. Why it matters: Direct: Highlights the gap between demos and production, guiding teams to prioritize production-readiness practices.</description>
     </item>
     <item>
-      <title>Spec-Driven Development Based on DSPI: Design-Specify-Plan-Implement</title>
-      <link>https://dev.to/jhagerer/spec-driven-development-based-on-dspi-design-specify-plan-implement-dm2</link>
-      <guid isPermaLink="true">https://dev.to/jhagerer/spec-driven-development-based-on-dspi-design-specify-plan-implement-dm2</guid>
-      <pubDate>Wed, 15 Apr 2026 08:37:58 +0000</pubDate>
+      <title>Why Agent Frameworks End Up As SDK Wrappers - And How To Overcome It</title>
+      <link>https://dev.to/jigjoy/why-agent-frameworks-end-up-as-sdk-wrappers-and-how-to-overcome-it-51j9</link>
+      <guid isPermaLink="true">https://dev.to/jigjoy/why-agent-frameworks-end-up-as-sdk-wrappers-and-how-to-overcome-it-51j9</guid>
+      <pubDate>Thu, 16 Apr 2026 07:48:43 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>DSPI is a phased Design → Specify → Plan → Implement workflow for software development using AI coding agents. Why it matters: Direct: Introduces DSPI as a phased AI-assisted software development workflow.</description>
+      <description>Most AI agent frameworks lack fundamental elements; their domain models are anemic, offering abstractions like &#x27;agent&#x27;, &#x27;tool&#x27;, and &#x27;step&#x27; without adequate context. Why it matters: Direct: Highlights a core design flaw in agent frameworks, guiding developers to push for richer context modeling.</description>
     </item>
     <item>
-      <title>I tracked what AI agents actually do when nobody&#x27;s watching. Built a tool that replays every decision.</title>
-      <link>https://www.reddit.com/r/AiAutomations/comments/1sm22lu/i_tracked_what_ai_agents_actually_do_when_nobodys/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/AiAutomations/comments/1sm22lu/i_tracked_what_ai_agents_actually_do_when_nobodys/</guid>
-      <pubDate>Wed, 15 Apr 2026 10:26:29 +0000</pubDate>
+      <title>Show HN: Libretto – Making AI browser automations deterministic</title>
+      <link>https://github.com/saffron-health/libretto</link>
+      <guid isPermaLink="true">https://github.com/saffron-health/libretto</guid>
+      <pubDate>Wed, 15 Apr 2026 15:57:54 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>A tool to replay every decision of AI agents to reveal their behavior after deployment. Why it matters: Direct: Highlights opacity in deployed AI agents and offers a replay tool to trace decisions.</description>
+      <description>Libretto ( https://libretto.sh ) is a Skill+CLI that makes it easy for your coding agent to generate deterministic browser automations and debug existing ones. Why it matters: Direct: Demonstrates a practical approach to producing auditable browser automation, improving reproducibility and debugging.</description>
     </item>
     <item>
-      <title>9 Best Knowatoa AI Alternatives Worth Exploring</title>
-      <link>https://www.reddit.com/r/geotoolsreview/comments/1sm20dy/9_best_knowatoa_ai_alternatives_worth_exploring/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/geotoolsreview/comments/1sm20dy/9_best_knowatoa_ai_alternatives_worth_exploring/</guid>
-      <pubDate>Wed, 15 Apr 2026 10:23:11 +0000</pubDate>
+      <title>A five-word correction consumed 46% of my Claude Code session&#x27;s cost — so I profiled the session and cut it by 60%</title>
+      <link>https://www.reddit.com/r/AIToolsAndTips/comments/1smzh50/a_fiveword_correction_consumed_46_of_my_claude/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/AIToolsAndTips/comments/1smzh50/a_fiveword_correction_consumed_46_of_my_claude/</guid>
+      <pubDate>Thu, 16 Apr 2026 10:22:55 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Knowatoa and alternatives help marketers monitor AI visibility, crawl access, and understand whether AI systems surface content in major tools. Why it matters: Direct: Emphasizes monitoring AI visibility and crawl access to ensure content surfaces in major tools.</description>
+      <description>Claude Code (Haiku) delivered a REST API with CRUD, tests, and a README, but incurred $1.42 and 18.6 minutes of tool calls, appearing slow. Why it matters: Direct: Quantifies cost and time implications of model-driven tasks, encouraging profiling and optimization.</description>
     </item>
     <item>
-      <title>The impact of AI on software engineers in 2026: key trends</title>
-      <link>https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026</link>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026</guid>
-      <pubDate>Tue, 14 Apr 2026 16:01:02 +0000</pubDate>
+      <title>What the Studies Say About How AI Affects Your Brain: A (Very Big) Compilation</title>
+      <link>https://www.thealgorithmicbridge.com/p/what-the-studies-say-about-how-ai</link>
+      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/what-the-studies-say-about-how-ai</guid>
+      <pubDate>Wed, 15 Apr 2026 18:37:01 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Our AI tooling survey finds concerns about mounting AI costs, more engineers hitting usage limits, and AI tools having uneven effects upon different types of engineers Why it matters: Direct: Early awareness of cost and usage constraints informs budgeting and tool selection.</description>
+      <description>The entire literature clearly points to a single surprising finding Why it matters: Direct: The result signals a notable consensus in AI-brain literature worth investigating.</description>
     </item>
     <item>
-      <title>Preserving Yoruba Philosophy: I built a digital library and study companion for the 256 Odus of Ifá (Available in 4 languages)</title>
-      <link>https://www.reddit.com/r/AfricanReligions/comments/1sm2epi/preserving_yoruba_philosophy_i_built_a_digital/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/AfricanReligions/comments/1sm2epi/preserving_yoruba_philosophy_i_built_a_digital/</guid>
-      <pubDate>Wed, 15 Apr 2026 10:43:58 +0000</pubDate>
+      <title>Your SaaS is probably breaking 7 of these 10 rules. Here&#x27;s the exact fix for each (15+ years of audits)</title>
+      <link>https://www.reddit.com/r/WTFisAI/comments/1smzqms/your_saas_is_probably_breaking_7_of_these_10/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/WTFisAI/comments/1smzqms/your_saas_is_probably_breaking_7_of_these_10/</guid>
+      <pubDate>Thu, 16 Apr 2026 10:37:20 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>A passion project to build Ifá Wisdom, a digital library and study companion for the 256 Odus of Ifá, available in 4 languages for students, practitioners, and Yoruba philosophy enthusiasts. Why it matters: Direct: Expands multilingual access to Yoruba wisdom, aiding learners and scholars with digital resources.</description>
+      <description>Nicolas has 15+ years in web development, created OceanWP (500K+ active installs), and is building LinkedGrow (AI tool for LinkedIn content); he has reviewed hundreds of SaaS and offers honest feedback to founders. Why it matters: Direct: Real-world SaaS audits by an experienced founder highlight concrete pitfalls and fixes for product teams.</description>
     </item>
     <item>
-      <title>Speak Diary - A safe space for your virtual journaling habits with daily journal prompts and dedicated insights.</title>
-      <link>https://www.reddit.com/r/ShowMeYourApps/comments/1sm2auo/speak_diary_a_safe_space_for_your_virtual/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ShowMeYourApps/comments/1sm2auo/speak_diary_a_safe_space_for_your_virtual/</guid>
-      <pubDate>Wed, 15 Apr 2026 10:38:18 +0000</pubDate>
+      <title>I built an AI-powered Islamic education platform with a full LMS — Nura AI</title>
+      <link>https://www.reddit.com/r/sideprojects/comments/1smzxlb/i_built_an_aipowered_islamic_education_platform/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/sideprojects/comments/1smzxlb/i_built_an_aipowered_islamic_education_platform/</guid>
+      <pubDate>Thu, 16 Apr 2026 10:47:57 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Speak Diary is built for your journaling routine, so you can start each day with clarity. Why it matters: Direct: Supports private emotional processing and routine journaling.</description>
+      <description>Nura AI is an AI-powered Islamic education platform with a full LMS. Why it matters: Direct: Niche AI edtech projects could inform how AI-powered LMS features scale in specialized curricula.</description>
     </item>
     <item>
-      <title>Potentially impactful research: Unjournal AI-assisted prioritization dashboard (~prototype)</title>
-      <link>https://www.lesswrong.com/posts/BqsBBtHBh2wGYGMq3/potentially-impactful-research-unjournal-ai-assisted</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/BqsBBtHBh2wGYGMq3/potentially-impactful-research-unjournal-ai-assisted</guid>
-      <pubDate>Wed, 15 Apr 2026 03:29:50 +0000</pubDate>
+      <title>datasette 1.0a27</title>
+      <link>https://simonwillison.net/2026/Apr/15/datasette/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/15/datasette/</guid>
+      <pubDate>Wed, 15 Apr 2026 23:16:34 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>We now have a public prototype dashboard for AI-assisted prioritization to identify and rank Unjournal research, designed to complement human prioritization; early-stage and needs refinement. Why it matters: Direct: Early-stage prototype can augment human decision-making in research prioritization with LLMs.</description>
+      <description>Datasette 1.0a27 release introduces two major changes: no more Django-style CSRF tokens, instead using modern browser headers as described by Filippo Valsorda. Why it matters: Direct: Adopting header-based CSRF protection aligns with modern browser practices, reducing token handling complexity.</description>
     </item>
     <item>
-      <title>Claude Code Routines</title>
-      <link>https://www.producthunt.com/products/claude</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/claude</guid>
-      <pubDate>Tue, 14 Apr 2026 16:45:51 +0000</pubDate>
+      <title>Cadence, Nvidia working together on developing AI for robotics</title>
+      <link>https://www.reddit.com/r/singularity/comments/1smzztj/cadence_nvidia_working_together_on_developing_ai/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1smzztj/cadence_nvidia_working_together_on_developing_ai/</guid>
+      <pubDate>Thu, 16 Apr 2026 10:51:08 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Discussion about putting Claude Code tasks on autopilot with smart routines. Why it matters: Direct: Automating Claude Code routines could reduce manual task handling and speed up repetitive coding work.</description>
+      <description>Cadence Design Systems and Nvidia are partnering to further the development of artificial intelligence for robots, according to Reuters. Why it matters: Direct: Indicates cross-vendor collaboration between AI and robotics players.</description>
     </item>
     <item>
-      <title>Car-wash question and Qwen3.5-27b-Q6</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1sm0ylx/carwash_question_and_qwen3527bq6/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1sm0ylx/carwash_question_and_qwen3527bq6/</guid>
-      <pubDate>Wed, 15 Apr 2026 09:23:37 +0000</pubDate>
+      <title>ChatGPT Prompt of the Day: The AI Trust Gap Calculator That Shows Where You Actually Stand 🧭</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1sn00fy/chatgpt_prompt_of_the_day_the_ai_trust_gap/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ChatGPT/comments/1sn00fy/chatgpt_prompt_of_the_day_the_ai_trust_gap/</guid>
+      <pubDate>Thu, 16 Apr 2026 10:52:03 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Test of Qwen3.5-27b-Q6 from Unsloth in LMStudio; expected a bad answer but was surprised; notes Temperature 0.1, Top K 40, Repeat Penalty 1.1, Top P 0, Min P 0. Why it matters: Direct: Demonstrates unexpected performance of Qwen3.5-27b-Q6 in a practical test, underscoring variability across configurations.</description>
+      <description>From the Stanford AI Index, 10% of Americans are more excited than concerned about AI, while 56% of AI experts think AI will have a positive impact. Why it matters: Direct: Highlights a trust gap between public sentiment and expert outlook on AI.</description>
     </item>
     <item>
-      <title>Vector-only agent memory fails on temporal and relational queries. How are people solving this?</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1sm177f/vectoronly_agent_memory_fails_on_temporal_and/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1sm177f/vectoronly_agent_memory_fails_on_temporal_and/</guid>
-      <pubDate>Wed, 15 Apr 2026 09:37:47 +0000</pubDate>
+      <title>Post-Scarcity is bullshit</title>
+      <link>https://www.lesswrong.com/posts/S2hpq3Tw9CadfjQxT/post-scarcity-is-bullshit</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/S2hpq3Tw9CadfjQxT/post-scarcity-is-bullshit</guid>
+      <pubDate>Thu, 16 Apr 2026 07:00:35 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>I&#x27;ve been struggling with a fundamental limitation in how most people build agent memory — curious if I&#x27;m Why it matters: Direct: Highlights a fundamental limitation in current agent memory approaches and the need to explore alternatives for temporal and relational queries.</description>
+      <description>LessWrong blog discusses whether post-scarcity is real, arguing that the idea is bullshit. Why it matters: Direct: Highlights skepticism about AI-driven abundance and limits of automation.</description>
     </item>
     <item>
-      <title>FastGrasp: Learning-based Whole-body Control method for Fast Dexterous Grasping with Mobile Manipulators</title>
-      <link>http://arxiv.org/abs/2604.12879v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2604.12879v1</guid>
-      <pubDate>Tue, 14 Apr 2026 15:30:57 +0000</pubDate>
+      <title>FunKey</title>
+      <link>https://www.producthunt.com/products/funkey</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/funkey</guid>
+      <pubDate>Wed, 15 Apr 2026 18:33:27 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Fast grasping is critical for mobile robots in logistics, manufacturing, and service applications. Why it matters: Direct: Highlights importance of fast grasping capability for real-world mobile-robot deployments.</description>
+      <description>Product Hunt entry for FunKey discusses mechanical keyboard and mouse sounds for Mac. Why it matters: Direct: Showcases a playful, customizable sound experience for Mac users.</description>
     </item>
   </channel>
 </rss>
