@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-04-17",
+    "title": "Daily AI Feed - 2026-04-17",
+    "lead_story": "The one Claude Code habit that cuts your debug sessions in half (it's not the prompting)",
+    "lead_url": "https://www.reddit.com/r/u_Miamiconnectionexo/comments/1snwc0r/the_one_claude_code_habit_that_cuts_your_debug/",
+    "generated_at": "2026-04-17T10:59:52+00:00"
+  },
+  {
     "date": "2026-04-16",
     "title": "Daily AI Feed - 2026-04-16",
     "lead_story": "I built a pre-release security scanner for LLM APIs to catch prompt injection, leaks, and tool abuse before launch",
