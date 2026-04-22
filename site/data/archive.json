@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-04-22",
+    "title": "Daily AI Feed - 2026-04-22",
+    "lead_story": "I'm building a registry where AI agents can pull production-ready prompts and structured inputs programmatically",
+    "lead_url": "https://www.reddit.com/r/AI_Agents/comments/1ss6mi3/im_building_a_registry_where_ai_agents_can_pull/",
+    "generated_at": "2026-04-22T11:09:37+00:00"
+  },
+  {
     "date": "2026-04-19",
     "title": "Daily AI Feed - 2026-04-19",
     "lead_story": "Single Markdown file that evaluates build-vs-kill decisions - works with any model/assistant",
