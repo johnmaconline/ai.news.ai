@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-04-24",
+    "title": "Daily AI Feed - 2026-04-24",
+    "lead_story": "Beyond the Prompt: Understanding \"Agent Skills\" as Dynamic Context Management",
+    "lead_url": "https://dev.to/peng_r_8a73c977039dac3b9c/beyond-the-prompt-understanding-agent-skills-as-dynamic-context-management-e5o",
+    "generated_at": "2026-04-24T11:10:47+00:00"
+  },
+  {
     "date": "2026-04-22",
     "title": "Daily AI Feed - 2026-04-22",
     "lead_story": "I'm building a registry where AI agents can pull production-ready prompts and structured inputs programmatically",
