@@ -1,194 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-04-26</title>
+    <title>Daily AI Feed - 2026-05-02</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Sun, 26 Apr 2026 10:48:33 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 10:53:42 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>What is the ultimate prompt you’ve used for high-quality, &quot;production-ready&quot; articles? (Prompt + CSS sharing)</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1svr3pt/what_is_the_ultimate_prompt_youve_used_for/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAI/comments/1svr3pt/what_is_the_ultimate_prompt_youve_used_for/</guid>
-      <pubDate>Sat, 25 Apr 2026 23:18:56 +0000</pubDate>
+      <title>The open-source AI agent config repo the community has been building just hit 888 stars — asking for feedback &amp; feature ideas</title>
+      <link>https://www.reddit.com/r/artificial/comments/1t1kyx5/the_opensource_ai_agent_config_repo_the_community/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/artificial/comments/1t1kyx5/the_opensource_ai_agent_config_repo_the_community/</guid>
+      <pubDate>Sat, 02 May 2026 09:17:24 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>A Reddit post seeks the &#x27;Holy Grail&#x27; prompt for long-form articles that deliver high-quality, well-structured pieces, meet search intent, and minimize fluff while staying engaging. Why it matters: Direct: A high-quality, reusable prompt could deliver well-structured, concise articles that meet search intent without fluff.</description>
+      <description>Over the past year our team and community have been building an open-source collection of AI agent configs: production-ready system prompts, tool-calling schemas, RAG setups, multi-agent orchestration patterns, and mode... Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from Reddit r/artificial.</description>
     </item>
     <item>
-      <title>RTX 5060 Ti 16GB Owners: My Complete NVFP4 Guide (What Actually Works in April 2026)</title>
-      <link>https://www.reddit.com/r/BlackwellPerformance/comments/1svvuxp/rtx_5060_ti_16gb_owners_my_complete_nvfp4_guide/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/BlackwellPerformance/comments/1svvuxp/rtx_5060_ti_16gb_owners_my_complete_nvfp4_guide/</guid>
-      <pubDate>Sun, 26 Apr 2026 03:04:31 +0000</pubDate>
+      <title>I built a verification framework that forces AI to show confidence scores, source tiers, and unresolved conflicts — not just answers</title>
+      <link>https://www.reddit.com/r/ChatGPTPromptGenius/comments/1t1l9ga/i_built_a_verification_framework_that_forces_ai/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ChatGPTPromptGenius/comments/1t1l9ga/i_built_a_verification_framework_that_forces_ai/</guid>
+      <pubDate>Sat, 02 May 2026 09:34:27 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>An NVFP4 guide claims a stable, fast local setup for bots on consumer Blackwell hardware, noting CUDA 13 JIT issues and a winner: cosmicproc/Qwen3. Why it matters: Direct: Demonstrates end-to-end local bot deployment viability on consumer hardware.</description>
+      <description>Built reClaim, a system prompt framework turning frontier models into structured research and verification agents, addressing overconfident AI answers. Why it matters: Direct: Converts models into verifiable research agents, enabling confidence scores, sources, and unresolved conflicts to improve accountability in AI answers.</description>
     </item>
     <item>
-      <title>Carbon fire in Orange County burns 200 acres, prompts evacuation warnings</title>
-      <link>https://www.latimes.com/california/story/2026-04-25/carbon-fire-evacuation-warnings-orange-county</link>
-      <guid isPermaLink="true">https://www.latimes.com/california/story/2026-04-25/carbon-fire-evacuation-warnings-orange-county</guid>
-      <pubDate>Sun, 26 Apr 2026 00:35:00 +0000</pubDate>
+      <title>Why Your LLM Agent Costs 10x More Than Your Estimate</title>
+      <link>https://dev.to/awxglobal/why-your-llm-agent-costs-10x-more-than-your-estimate-4o78</link>
+      <guid isPermaLink="true">https://dev.to/awxglobal/why-your-llm-agent-costs-10x-more-than-your-estimate-4o78</guid>
+      <pubDate>Sat, 02 May 2026 07:00:43 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>A wildfire in northern Orange County prompted evacuation warnings in Carbon Canyon, Brea. Why it matters: Direct: Signals immediate risk to residents; requires monitoring by authorities.</description>
+      <description>Originally published at awx-shredder.fly.dev/blog Why Your LLM Agent Costs 10x More Than Your Estimate Your product manager approved the $500/month LLM budget. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from DEV.to LLM Tag.</description>
     </item>
     <item>
-      <title>Building a Complete Developer Terminal Setup for Claude Code — Part 2: Custom Statusline</title>
-      <link>https://dev.to/avinash431/building-a-complete-developer-terminal-setup-for-claude-code-part-2-custom-statusline-4lmj</link>
-      <guid isPermaLink="true">https://dev.to/avinash431/building-a-complete-developer-terminal-setup-for-claude-code-part-2-custom-statusline-4lmj</guid>
-      <pubDate>Sun, 26 Apr 2026 10:31:31 +0000</pubDate>
+      <title>Show HN: Filling PDF forms with AI using client-side tool calling</title>
+      <link>https://copilot.simplepdf.com/?share=a7d00ad073c75a75d493228e6ff7b11eb3f2d945b6175913e87898ec96ca8076&amp;form=w9&amp;lang=en</link>
+      <guid isPermaLink="true">https://copilot.simplepdf.com/?share=a7d00ad073c75a75d493228e6ff7b11eb3f2d945b6175913e87898ec96ca8076&amp;form=w9&amp;lang=en</guid>
+      <pubDate>Sat, 02 May 2026 08:54:27 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>macOS-specific guide outlining a complete developer terminal setup for Claude Code with a custom statusline; Part 2 of a 6-part series. Why it matters: Direct: Demonstrates a concrete macOS terminal setup for Claude Code, enabling streamlined dev workflow with a custom statusline.</description>
+      <description>SimplePDF Copilot is an AI assistant that can interact with a PDF editor to fill fields, answer questions, focus on a specific field, add fields, and delete pages; built on privacy-respecting client-side editing used by 200k+ monthly. Why it matters: Direct: Demonstrates client-side AI for interactive PDF editing with field-level automation, preserving privacy and reducing server dependency.</description>
     </item>
     <item>
-      <title>llama.cpp DeepSeek v4 Flash experimental inference</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1sw3stb/llamacpp_deepseek_v4_flash_experimental_inference/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1sw3stb/llamacpp_deepseek_v4_flash_experimental_inference/</guid>
-      <pubDate>Sun, 26 Apr 2026 10:20:32 +0000</pubDate>
+      <title>Show HN: Agent-desktop – Native desktop automation CLI for AI agents</title>
+      <link>https://github.com/lahfir/agent-desktop</link>
+      <guid isPermaLink="true">https://github.com/lahfir/agent-desktop</guid>
+      <pubDate>Sat, 02 May 2026 02:18:24 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Report on experimental llama.cpp DeepSeek v4 support; mentions GGUF for 128GB RAM, 2-bit quantization; 17 t/s on MacBook M3 Max; deemed usable. Why it matters: Direct: Highlights practical GPU-accelerated inference options and RAM requirements for users evaluating DeepSeek v4 with llama.cpp.</description>
+      <description>Show HN on Agent-desktop, a native desktop automation CLI for AI agents; the author notes ongoing tools for computer-use and mentions 122 Stars on GitHub after launch about a month ago, referencing Codex, Claude Code, and CUA. Why it matters: Direct: Highlights a native desktop automation approach for AI agents and compares it with existing agent-model tools.</description>
     </item>
     <item>
-      <title>EXIDE – ADDL BUY SET-UP (H) The Chart AlChemist | 26 April 2026</title>
-      <link>https://www.tradingview.com/chart/EXIDE/Akkv1y3Y-EXIDE-ADDL-BUY-SET-UP-H-The-Chart-AlChemist-26-April-2026/</link>
-      <guid isPermaLink="true">https://www.tradingview.com/chart/EXIDE/Akkv1y3Y-EXIDE-ADDL-BUY-SET-UP-H-The-Chart-AlChemist-26-April-2026/</guid>
-      <pubDate>Sun, 26 Apr 2026 10:18:55 +0000</pubDate>
+      <title>Launching ai-tldr.dev — A Weekly TL;DR of New AI Models, Papers &amp; Dev Tools</title>
+      <link>https://dev.to/alexmorgan_finwriter/launching-ai-tldrdev-a-weekly-tldr-of-new-ai-models-papers-dev-tools-489i</link>
+      <guid isPermaLink="true">https://dev.to/alexmorgan_finwriter/launching-ai-tldrdev-a-weekly-tldr-of-new-ai-models-papers-dev-tools-489i</guid>
+      <pubDate>Sat, 02 May 2026 10:35:18 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>EXIDE – ADDL BUY SET-UP (H) By The Chart AlChemist on 26 April 2026; includes buy levels (560, 530, 510), targets (600, 640, 690, 755) and stop loss details. Why it matters: Direct: Summarizes a specific trading setup with defined buy levels and profit targets.</description>
+      <description>ai-tldr.dev provides a weekly TL;DR of AI models, papers, and dev tools; the author notes AI in 2026 is a part-time job, many weekly items are noise, but some are worth attention. ai-tldr. Why it matters: Direct: Provides a curated weekly signal to cut through noise in AI developments.</description>
     </item>
     <item>
-      <title>Benchmark: Windows 11 vs Lubuntu 26.04 on Llama.cpp (RTX 5080 + i9-14900KF). I didn&#x27;t expect the gap to be this big.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1sw2fjc/benchmark_windows_11_vs_lubuntu_2604_on_llamacpp/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1sw2fjc/benchmark_windows_11_vs_lubuntu_2604_on_llamacpp/</guid>
-      <pubDate>Sun, 26 Apr 2026 09:00:10 +0000</pubDate>
+      <title>PFlash: 10x prefill speedup over llama.cpp at 128K on a RTX 3090</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1t0vp3w/pflash_10x_prefill_speedup_over_llamacpp_at_128k/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1t0vp3w/pflash_10x_prefill_speedup_over_llamacpp_at_128k/</guid>
+      <pubDate>Fri, 01 May 2026 14:53:57 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Benchmark comparing Windows 11 and Lubuntu 26.04 on Llama.cpp with RTX 5080 and i9-14900KF; notes a surprisingly large performance gap. Why it matters: Direct: Provides cross-OS performance insights that inform hardware/software stack choices.</description>
+      <description>PFlash claims 10x prefill speedup over llama.cpp at 128K context on RTX 3090; builder mentions speculative prefill for long-context decode on quantized 27B targets, implemented in C++/CUDA. Why it matters: Direct: Presents a concrete optimization technique (speculative prefill) for long-context decoding with quantized models on consumer GPUs.</description>
     </item>
     <item>
-      <title>Why Localization Matters More Than You Think in Modern Web Apps</title>
-      <link>https://dev.to/asmaayy/why-localization-matters-more-than-you-think-in-modern-web-apps-51bh</link>
-      <guid isPermaLink="true">https://dev.to/asmaayy/why-localization-matters-more-than-you-think-in-modern-web-apps-51bh</guid>
-      <pubDate>Sun, 26 Apr 2026 10:31:56 +0000</pubDate>
+      <title>I should also add that one of the strongest alignment</title>
+      <link>https://nitter.net/krishnanrohit/status/2050263448664342852</link>
+      <guid isPermaLink="true">https://nitter.net/krishnanrohit/status/2050263448664342852</guid>
+      <pubDate>Fri, 01 May 2026 17:17:52 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Localization is a critical factor often overlooked; limiting product to one language reduces potential users. Why it matters: Inference: Localizing products broadens the potential user base beyond a single-language audience.</description>
+      <description>Note on alignment: naming OpenAI&#x27;s product chatgpt as gpt 5.5 medium was seen as uninspired and not friendly, unlike Claudia. Why it matters: Direct: Naming choices shape user trust and perception of friendliness, influencing early adoption in AI products.</description>
     </item>
     <item>
-      <title>🧠 Community Wisdom: What great product leaders do differently, Claude vs. ChatGPT, receiving hard feedback two weeks into the job, tips for joining a pre-PMF startup, and more</title>
-      <link>https://www.lennysnewsletter.com/p/community-wisdom-what-great-product</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/community-wisdom-what-great-product</guid>
-      <pubDate>Sat, 25 Apr 2026 19:51:00 +0000</pubDate>
+      <title>Organizations are already superhuman intelligences</title>
+      <link>https://nitter.net/emollick/status/2050206768551129460</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2050206768551129460</guid>
+      <pubDate>Fri, 01 May 2026 13:32:39 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Community Wisdom 182 Why it matters: Inference: Community Wisdom provides compact, practical insights for product leadership.</description>
+      <description>Organizations are already superhuman intelligences. AI benefits depend on integration with firms, not just individual productivity tools. Why it matters: Direct: Value from AI grows when integrated into organizational workflows, not merely as standalone productivity tools.</description>
     </item>
     <item>
-      <title>Fieri Iussit nitter.net/emollick/status/196999… Ethan Mollick (@emollick) My</title>
-      <link>https://nitter.net/emollick/status/2048280028442468753</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2048280028442468753</guid>
-      <pubDate>Sun, 26 Apr 2026 05:56:28 +0000</pubDate>
+      <title>Weekly Dose of Optimism #191</title>
+      <link>https://www.notboring.co/p/weekly-dose-of-optimism-191</link>
+      <guid isPermaLink="true">https://www.notboring.co/p/weekly-dose-of-optimism-191</guid>
+      <pubDate>Fri, 01 May 2026 12:53:52 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Mollick proposes using the Latin phase &quot;Fieri Iussit,&quot; to acknowledge AI work. Why it matters: Inference: Clear attribution for AI-generated work can improve recognition and governance.</description>
+      <description>Weekly Dose of Optimism #191 highlights Cancer Sniffing Dogs, Zuck&#x27;s Virtual Cell + Space Lasers, Rainmeasurer, De-extincting the Bluebuck, Millennial Dads + Science Breakthroughs + Extra Doses. Why it matters: Direct: Quick triage of notable AI breakthroughs can inform future product exploration and risk assessment.</description>
     </item>
     <item>
-      <title>This is a useful image for thinking about the curve</title>
-      <link>https://nitter.net/emollick/status/2048126759648862571</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2048126759648862571</guid>
-      <pubDate>Sat, 25 Apr 2026 19:47:26 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>A useful image illustrates the curve ahead and the era when AI bumbles, slowing coding. Why it matters: Inference: Provides PMs with a concrete frame to plan iteration pace and resourcing.</description>
-    </item>
-    <item>
-      <title>Breaking the Memory Wall: How to Give Any Open-Source Agent Claude-Level Recall</title>
-      <link>https://dev.to/glad_labs/breaking-the-memory-wall-how-to-give-any-open-source-agent-claude-level-recall-45aj</link>
-      <guid isPermaLink="true">https://dev.to/glad_labs/breaking-the-memory-wall-how-to-give-any-open-source-agent-claude-level-recall-45aj</guid>
-      <pubDate>Sun, 26 Apr 2026 10:29:44 +0000</pubDate>
+      <title>Adding a Trust Boundary to a CrewAI Multi-Agent Workflow</title>
+      <link>https://dev.to/anviren/adding-a-trust-boundary-to-a-crewai-multi-agent-workflow-41mh</link>
+      <guid isPermaLink="true">https://dev.to/anviren/adding-a-trust-boundary-to-a-crewai-multi-agent-workflow-41mh</guid>
+      <pubDate>Sat, 02 May 2026 08:28:53 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Explains the difference between ephemeral context windows and persistent memory layers, how to decouple agent memory from providers to avoid vendor lock-in, and the role of vector databases and embeddings for long-term context. Why it matters: Direct: Provides a practical view of memory architecture choices for open-source agents.</description>
+      <description>A CrewAI workflow appears organized, with defined roles and task descriptions, but roles do not enforce security boundaries. Why it matters: Direct: Highlights the need for explicit security boundaries within multi-agent workflows.</description>
     </item>
     <item>
-      <title>Why Your OpenClaw Agent Keeps Failing (And How to Fix It)</title>
-      <link>https://dev.to/hex_agent/why-your-openclaw-agent-keeps-failing-and-how-to-fix-it-4j0h</link>
-      <guid isPermaLink="true">https://dev.to/hex_agent/why-your-openclaw-agent-keeps-failing-and-how-to-fix-it-4j0h</guid>
-      <pubDate>Sun, 26 Apr 2026 08:35:48 +0000</pubDate>
+      <title>OpenClaw Sandbox vs Approvals vs Tool Policy: Three Different Safety Layers</title>
+      <link>https://dev.to/hex_agent/openclaw-sandbox-vs-approvals-vs-tool-policy-three-different-safety-layers-5ffn</link>
+      <guid isPermaLink="true">https://dev.to/hex_agent/openclaw-sandbox-vs-approvals-vs-tool-policy-three-different-safety-layers-5ffn</guid>
+      <pubDate>Sat, 02 May 2026 08:36:05 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Describes that OpenClaw failures stem from systems that seem functional but undermine trust: tasks start but aren’t finished, a deploy runs but blockers go unreported, and browser steps become brittle. Why it matters: Direct: Highlights recurring failure patterns that erode trust and stall deployment.</description>
+      <description>OpenClaw Sandbox vs Approvals vs Tool Policy: Three Different Safety Layers When an OpenClaw command gets blocked, the tempting reaction is to look for one magic switch. Why it matters: Direct: Encourages thorough safety layering rather than quick fixes when sandbox blocks occur.</description>
     </item>
     <item>
-      <title>I think I&#x27;m slowly building unlimited employees.</title>
-      <link>https://www.reddit.com/r/codex/comments/1svzjpp/i_think_im_slowly_building_unlimited_employees/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/codex/comments/1svzjpp/i_think_im_slowly_building_unlimited_employees/</guid>
-      <pubDate>Sun, 26 Apr 2026 06:16:09 +0000</pubDate>
+      <title>I built a Markdown skill pack for more reliable AI coding agents</title>
+      <link>https://www.reddit.com/r/AI_Agents/comments/1t1577k/i_built_a_markdown_skill_pack_for_more_reliable/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/AI_Agents/comments/1t1577k/i_built_a_markdown_skill_pack_for_more_reliable/</guid>
+      <pubDate>Fri, 01 May 2026 20:37:10 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Discusses building scalable automation pipelines to act as unlimited employees, citing Claude Code, Codex, Google Ads API, n8n, CRM, websites, and transcripts, with folder structure as a critical factor. Why it matters: Direct: Highlights how folder structure patterns underpin scalable automation for automated assistants.</description>
+      <description>Open-source Markdown skill pack provides reusable procedural workflows for AI coding agents by adapting Superpowers concepts, reducing reliance on a single prompt or model memory. Why it matters: Direct: Provides a reusable workflow resource to improve developer practices for AI coding agents.</description>
     </item>
     <item>
-      <title>Tested AI workflows for real income: $350+/month generating niche website content with Jasper &amp; SEO analysis (after 40 hrs setup) 💰</title>
-      <link>https://www.reddit.com/r/AIContentAutomators/comments/1sw3wv4/tested_ai_workflows_for_real_income_350month/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/AIContentAutomators/comments/1sw3wv4/tested_ai_workflows_for_real_income_350month/</guid>
-      <pubDate>Sun, 26 Apr 2026 10:26:51 +0000</pubDate>
+      <title>Markdown as a Database: Memory for Humans and AI Agents</title>
+      <link>https://www.reddit.com/r/iwe/comments/1t1m93k/markdown_as_a_database_memory_for_humans_and_ai/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/iwe/comments/1t1m93k/markdown_as_a_database_memory_for_humans_and_ai/</guid>
+      <pubDate>Sat, 02 May 2026 10:30:52 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Describes a pragmatic AI content workflow that after 40 hours of setup and testing yields about $350+/month by generating niche website content with Jasper and SEO analysis. Why it matters: Direct: Demonstrates a real, repeatable income trajectory from AI-generated content workflows.</description>
+      <description>Design should align with human workflows—agents perform best using plain text, files, and familiar tools like the filesystem and Git. Why it matters: Direct: Aligns agent memory tooling with human-friendly formats.</description>
     </item>
     <item>
-      <title>🐼 Lazy Panda - Small Habits, Big Changes</title>
-      <link>https://www.reddit.com/r/IMadeThis/comments/1sw3xww/lazy_panda_small_habits_big_changes/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/IMadeThis/comments/1sw3xww/lazy_panda_small_habits_big_changes/</guid>
-      <pubDate>Sun, 26 Apr 2026 10:28:30 +0000</pubDate>
+      <title>Weekly Top Picks #120</title>
+      <link>https://www.thealgorithmicbridge.com/p/weekly-top-picks-120</link>
+      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/weekly-top-picks-120</guid>
+      <pubDate>Fri, 01 May 2026 22:33:12 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>I built a local-first habit tracking app for myself — and I felt sharing it in case it helps others too; I kept bouncing between &#x27;track everything&#x27; and &#x27;quit completely,&#x27; so I built Lazy Panda to feel simple and sustainable. Why it matters: Direct: Local-first design and simplicity may increase ongoing use and reduce burnout in habit-tracking.</description>
+      <description>Q1 earnings, Trump wants to nationalize AI, China protects its workers, ARC-AGI-3 defeats GPT-5.5 and Opus-4.7, the &#x27;permanent underclass&#x27;, and Dawkins x Claudia. Why it matters: Direct: Highlights policy and geopolitics around AI, signaling potential shifts in regulation and labor protections that could affect AI deployment costs.</description>
     </item>
     <item>
-      <title>[Open source] App that avoids the window flip-flop when following ChatGPT instructions</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1sw3z4r/open_source_app_that_avoids_the_window_flipflop/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ChatGPT/comments/1sw3z4r/open_source_app_that_avoids_the_window_flipflop/</guid>
-      <pubDate>Sun, 26 Apr 2026 10:30:25 +0000</pubDate>
+      <title>Querying my notes folder like a database, from inside Neovim</title>
+      <link>https://www.reddit.com/r/neovim/comments/1t1mf0u/querying_my_notes_folder_like_a_database_from/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/neovim/comments/1t1mf0u/querying_my_notes_folder_like_a_database_from/</guid>
+      <pubDate>Sat, 02 May 2026 10:40:20 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Built a utility to speak steps and wait for &#x27;Next&#x27; to keep your eye on one window; GitHub: https://github.com/krexil/ai-step-guide; seeking usability feedback on general flow. Why it matters: Direct: Reducing window flip-flop by guiding steps and waiting for &#x27;Next&#x27;.</description>
+      <description>Most of my workflow already lives in Neovim—code, prose, notes, scratchpads. Querying notes lagged; now it&#x27;s possible to ask cross-item questions inside the buffer. Why it matters: Direct: Demonstrates a low-friction, in-editor data querying capability that can speed research and reduce context switching.</description>
     </item>
     <item>
-      <title>RAG Without Vectors: How PageIndex Retrieves by Reasoning</title>
-      <link>https://www.marktechpost.com/2026/04/25/rag-without-vectors-how-pageindex-retrieves-by-reasoning/</link>
-      <guid isPermaLink="true">https://www.marktechpost.com/2026/04/25/rag-without-vectors-how-pageindex-retrieves-by-reasoning/</guid>
-      <pubDate>Sun, 26 Apr 2026 04:22:40 +0000</pubDate>
+      <title>I built a unified API gateway for Chinese LLMs like DeepSeek,Mimo and GLM — looking for feedback</title>
+      <link>https://www.reddit.com/r/IMadeThis/comments/1t1mbk3/i_built_a_unified_api_gateway_for_chinese_llms/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/IMadeThis/comments/1t1mbk3/i_built_a_unified_api_gateway_for_chinese_llms/</guid>
+      <pubDate>Sat, 02 May 2026 10:34:50 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Retrieval is where most RAG systems quietly break; traditional pipelines rely on vector similarity to fetch closest matches, but similarity is a weak proxy for relevance grounded in reasoning. Why it matters: Direct: Emphasizes a shift toward reasoning-based retrieval over pure embedding similarity, implying potential for more accurate retrieval.</description>
+      <description>A unified AI API gateway provides access to multiple Chinese LLMs through one platform; many Chinese models are becoming capable, with pricing often lower than mainstream providers. Why it matters: Inference: Signals growing viability of multi-LLM platforms in lower-cost markets.</description>
     </item>
     <item>
-      <title>A Coding Tutorial on Datashader on Rendering Massive Datasets with High-Performance Python Visual Analytics</title>
-      <link>https://www.marktechpost.com/2026/04/25/a-coding-tutorial-on-datashader-on-rendering-massive-datasets-with-high-performance-python-visual-analytics/</link>
-      <guid isPermaLink="true">https://www.marktechpost.com/2026/04/25/a-coding-tutorial-on-datashader-on-rendering-massive-datasets-with-high-performance-python-visual-analytics/</guid>
-      <pubDate>Sun, 26 Apr 2026 04:04:15 +0000</pubDate>
+      <title>Understand why AI is a doom-risk in 39 captivating minutes</title>
+      <link>https://www.lesswrong.com/posts/xjyAY5TdPnvgKPoYX/understand-why-ai-is-a-doom-risk-in-39-captivating-minutes</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/xjyAY5TdPnvgKPoYX/understand-why-ai-is-a-doom-risk-in-39-captivating-minutes</guid>
+      <pubDate>Sat, 02 May 2026 07:40:53 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>This tutorial examines Datashader, a high-performance visualization library for rendering massive datasets that overwhelm traditional plotting tools. Why it matters: Direct: Validates Datashader as a practical solution for scalable Python analytics.</description>
+      <description>An effort to provide a concise account of why AI poses an existential risk, motivated by personal priority, but delayed. Why it matters: Direct: Creates a compact risk narrative that could accelerate stakeholder education and policy discussions around AI existential risks.</description>
     </item>
     <item>
-      <title>[Demo] Real-time EEG analysis-driven guided-meditation system</title>
-      <link>https://www.reddit.com/r/singularity/comments/1sve74q/demo_realtime_eeg_analysisdriven_guidedmeditation/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1sve74q/demo_realtime_eeg_analysisdriven_guidedmeditation/</guid>
-      <pubDate>Sat, 25 Apr 2026 14:49:06 +0000</pubDate>
+      <title>The Anti-Gallery: Where AI Art Goes When No One Will Show It</title>
+      <link>https://dev.to/velocityai/the-anti-gallery-where-ai-art-goes-when-no-one-will-show-it-153e</link>
+      <guid isPermaLink="true">https://dev.to/velocityai/the-anti-gallery-where-ai-art-goes-when-no-one-will-show-it-153e</guid>
+      <pubDate>Sat, 02 May 2026 10:39:44 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>An AI orchestration system inside TouchDesigner uses live brain-signal summaries (OpenBCI → TD → Python) to automatically generate guiding cues (video, voice, light, text) for meditative users, deciding if, when, and how to interact. Why it matters: Direct: Demonstrates an automated, multimodal meditation assistant using live brain data.</description>
+      <description>Examines where AI art that violates policies or copyrights goes when mainstream platforms won&#x27;t touch it; these outputs don&#x27;t disappear. Why it matters: Direct: Identifies a category of under-the-radar AI art likely to escape mainstream curation, informing curation policies and potential archival strategies.</description>
     </item>
     <item>
-      <title>GLM 5.1 is so smart!</title>
-      <link>https://www.reddit.com/r/singularity/comments/1sw3fla/glm_51_is_so_smart/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1sw3fla/glm_51_is_so_smart/</guid>
-      <pubDate>Sun, 26 Apr 2026 09:59:38 +0000</pubDate>
+      <title>OpenCode + LLM to create a 1:1 Settlers of Catan clone. Guess which model I did it with!</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1t1jlet/opencode_llm_to_create_a_11_settlers_of_catan/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1t1jlet/opencode_llm_to_create_a_11_settlers_of_catan/</guid>
+      <pubDate>Sat, 02 May 2026 07:57:51 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Reddit post titled &#x27;GLM 5.1 is so smart!&#x27; Why it matters: Inference: Signals curiosity about GLM 5.1 performance, but lacks details.</description>
+      <description>The post documents building a 1:1 recreation of Settlers of Catan using OpenCode and an LLM, with a live preview planned. Why it matters: Direct: Demonstrates practical use of LLMs to implement full-board-game logic at parity, revealing models&#x27; capability to emulate complex real-world systems.</description>
     </item>
     <item>
-      <title>🧑‍🚀 Day 23 of the @cursor_ai #vibejam Proudly sponsored by</title>
-      <link>https://nitter.net/levelsio/status/2048176274787471385</link>
-      <guid isPermaLink="true">https://nitter.net/levelsio/status/2048176274787471385</guid>
-      <pubDate>Sat, 25 Apr 2026 23:04:11 +0000</pubDate>
+      <title>Games that change your mind</title>
+      <link>https://www.lesswrong.com/posts/wB8Cki3ZXAz46taZC/games-that-change-your-mind</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/wB8Cki3ZXAz46taZC/games-that-change-your-mind</guid>
+      <pubDate>Sat, 02 May 2026 07:40:56 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Day 23 of the @cursor_ai #vibejam Proudly sponsored by @cursor_ai + @boltdotnew + @heyglif + @tripoai Why it matters: Direct: Highlights sponsorship-driven, prize-focused community event with clear rewards.</description>
+      <description>The piece notes games teach different skills: Trivial Pursuit for trivia, MasterType for typing, and Grand Theft Auto for driving or crime. Why it matters: Direct: Highlights that gameplay can offer practical insights into learning and behavior, beyond entertainment.</description>
     </item>
     <item>
-      <title>✨ Added client-side OpenCV to my drone sim that watches</title>
-      <link>https://nitter.net/levelsio/status/2048070627894948057</link>
-      <guid isPermaLink="true">https://nitter.net/levelsio/status/2048070627894948057</guid>
-      <pubDate>Sat, 25 Apr 2026 16:04:23 +0000</pubDate>
+      <title>I built a personal life OS because I was tired of feeling guilty every new year</title>
+      <link>https://www.reddit.com/r/vibecoding/comments/1t1mdk5/i_built_a_personal_life_os_because_i_was_tired_of/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/vibecoding/comments/1t1mdk5/i_built_a_personal_life_os_because_i_was_tired_of/</guid>
+      <pubDate>Sat, 02 May 2026 10:38:01 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Client-side OpenCV added to a drone sim to watch the video feed and attempt people detection; still messy, but improving, with multiplayer making it more fun. Why it matters: Direct: Demonstrates client-side CV usage in a hobbyist drone sim, highlighting real-time vision constraints and multiplayer potential.</description>
+      <description>A creator built Timeday, a browser-based personal life OS as a single HTML file with no backend and no accounts, addressing time blindness. Why it matters: Direct: Demonstrates a lightweight, no-backend tool approach to personal productivity addressing time-tracking gaps.</description>
     </item>
   </channel>
 </rss>
