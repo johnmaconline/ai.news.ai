@@ -1,202 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-05-10</title>
+    <title>Daily AI Feed - 2026-05-16</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Sun, 10 May 2026 11:07:29 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 11:06:44 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>20 Claude Code commands worth using.</title>
-      <link>https://www.reddit.com/r/vibecoding/comments/1t91pkb/20_claude_code_commands_worth_using/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/vibecoding/comments/1t91pkb/20_claude_code_commands_worth_using/</guid>
-      <pubDate>Sun, 10 May 2026 08:58:30 +0000</pubDate>
+      <title>Genuine question. Is the whole &quot;AI guzzles gallons of water&quot; thing totally true, or do people get it wrong? Does AI consume a lot of water for every single prompt, or is the majority of water consumed during data farming? Don&#x27;t non-AI data centers use up a lot of water on cooling too?</title>
+      <link>https://www.reddit.com/r/singularity/comments/1tdvi2f/genuine_question_is_the_whole_ai_guzzles_gallons/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1tdvi2f/genuine_question_is_the_whole_ai_guzzles_gallons/</guid>
+      <pubDate>Fri, 15 May 2026 12:53:33 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Prompts asset listing 20 Claude code commands, grouped by problem solved. Notable items: Esc stops the current task; double-tap Esc or /rewind opens a menu with Restore code and conversation, Restore conversation only, Restore code only, Summarize from here, ... Why it matters: Direct: Provides concrete Claude control prompts to manage tasks, dialogs, and summarization, reducing context loss during coding sessions.</description>
+      <description>Please someone set me straight and dispel whether there are myths surrounding this often-repeated internet factoid And I genuinely don&#x27;t know the answers which is why I&#x27;m asking, so I&#x27;ve got nothing to debate here Edit:... Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from r/singularity.</description>
     </item>
     <item>
-      <title>20 Claude Code commands worth using.</title>
-      <link>https://www.reddit.com/r/ClaudeAI/comments/1t91pht/20_claude_code_commands_worth_using/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeAI/comments/1t91pht/20_claude_code_commands_worth_using/</guid>
-      <pubDate>Sun, 10 May 2026 08:58:24 +0000</pubDate>
+      <title>Advanced AI Agent for Legal Document Analysis and Summarization</title>
+      <link>https://www.reddit.com/r/xclusiveprompt_free/comments/1tepwt8/advanced_ai_agent_for_legal_document_analysis_and/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/xclusiveprompt_free/comments/1tepwt8/advanced_ai_agent_for_legal_document_analysis_and/</guid>
+      <pubDate>Sat, 16 May 2026 10:30:13 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Prompts asset listing 20 Claude code commands, grouped by problem solved. Notable items: Esc stops the current task; double-tap Esc or /rewind opens a menu with Restore code and conversation, Restore conversation only, Restore code only, Summarize from here, ... Why it matters: Direct: Provides concrete Claude control prompts to manage tasks, dialogs, and summarization, reducing context loss during coding sessions.</description>
+      <description>Design a sophisticated AI agent workflow for analyzing and summarizing [complex legal contracts and agreements]. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from Reddit AI Workflow Search.</description>
     </item>
     <item>
-      <title>The Freelancer Follow-Up System That Runs Without You Thinking About It</title>
-      <link>https://dev.to/alfred_p_c0ddb65b3df9fc36/the-freelancer-follow-up-system-that-runs-without-you-thinking-about-it-43fn</link>
-      <guid isPermaLink="true">https://dev.to/alfred_p_c0ddb65b3df9fc36/the-freelancer-follow-up-system-that-runs-without-you-thinking-about-it-43fn</guid>
-      <pubDate>Sun, 10 May 2026 10:51:37 +0000</pubDate>
+      <title>RFE-Core2 Time Dilation &amp; Subjective Time Substrate</title>
+      <link>https://www.reddit.com/r/ThroughTheVeil/comments/1tehyif/rfecore2_time_dilation_subjective_time_substrate/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/ThroughTheVeil/comments/1tehyif/rfecore2_time_dilation_subjective_time_substrate/</guid>
+      <pubDate>Sat, 16 May 2026 03:25:34 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>The freelancers who consistently get paid on time are not more assertive than you. They have a system. Missed follow-ups are almost never a confidence problem. They are a memory problem. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from DEV.to AI Tag.</description>
+      <description>v0.4.0 — Tier 4.1-4.2: Affective Time Dilation The system now has its own clock — and that clock runs at a rate determined by what it&#x27;s feeling. What&#x27;s New Tier 4. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from Reddit AI Prompt Search.</description>
     </item>
     <item>
-      <title>Frontier labs are betting AGI models will be so good</title>
-      <link>https://nitter.net/FireworksAI_HQ/status/2053223439549530560</link>
-      <guid isPermaLink="true">https://nitter.net/FireworksAI_HQ/status/2053223439549530560</guid>
-      <pubDate>Sat, 09 May 2026 21:19:49 +0000</pubDate>
-      <category>0) Practical Prompts</category>
-      <description>Frontier labs are betting AGI models will be so good you won&#x27;t ever want to customize them. We think different. Building on a closed platform means renting your intelligence. The landlord sets the terms. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from Jeremy Howard / @jeremyphoward.</description>
-    </item>
-    <item>
-      <title>Run Frontier AI for Free — Ollama Cloud Models with OpenCode</title>
-      <link>https://dev.to/insight105/run-frontier-ai-for-free-ollama-cloud-models-with-opencode-4j54</link>
-      <guid isPermaLink="true">https://dev.to/insight105/run-frontier-ai-for-free-ollama-cloud-models-with-opencode-4j54</guid>
-      <pubDate>Sun, 10 May 2026 10:37:30 +0000</pubDate>
+      <title>Clawdmeter turns your Claude Code usage stats into a tiny desktop dashboard</title>
+      <link>https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/</link>
+      <guid isPermaLink="true">https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/</guid>
+      <pubDate>Thu, 14 May 2026 19:05:01 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Describes running cloud-hosted AI models via Ollama for free with a single command, challenging the assumption that GLM-4.7, GPT-OSS 120B, or Gemma3 27B require hardware or paid APIs. Why it matters: Direct: Demonstrates a zero-cost path to test cloud-hosted models, lowering barrier to experimentation and enabling rapid prototyping.</description>
+      <description>Clawdmeter is an open source gadget that turns Claude Code usage stats into a tiny desktop dashboard for AI coding power users. Why it matters: Direct: Enables at-a-glance Claude Code usage metrics on a local desktop, helping developers monitor activity without leaving the editor.</description>
     </item>
     <item>
-      <title>Maxim AI vs DeepEval vs LangSmith vs QA Wolf: Which AI Agent Testing Framework Should You Trust With Production in 2026?</title>
-      <link>https://www.sitepoint.com/maxim-ai-vs-deepeval-vs-langsmith-vs-qa-wolf-which-ai-agent-testing-framework-should-you-trust-with-production-in-2026/</link>
-      <guid isPermaLink="true">https://www.sitepoint.com/maxim-ai-vs-deepeval-vs-langsmith-vs-qa-wolf-which-ai-agent-testing-framework-should-you-trust-with-production-in-2026/</guid>
-      <pubDate>Sun, 10 May 2026 09:51:30 +0000</pubDate>
+      <title>Qwen3.6-35B-A3B and 9B are officially on the public Terminal-Bench 2.0 leaderboard!</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1temio0/qwen3635ba3b_and_9b_are_officially_on_the_public/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1temio0/qwen3635ba3b_and_9b_are_officially_on_the_public/</guid>
+      <pubDate>Sat, 16 May 2026 07:19:25 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Provides a comprehensive guide comparing Maxim AI, DeepEval, LangSmith, and QA Wolf for production trust in 2026, with practical implementation details. Why it matters: Direct: Informs practical choices for production-ready AI agent testing frameworks.</description>
+      <description>Qwen3.6-35B-A3B and 9B are now on the public Terminal-Bench 2.0 leaderboard, with Qwen3.6-35B-A3B at 24.6% and higher than Gemini CLI and Qwen3-Coder-480B on Terminus 2. Why it matters: Direct: Public benchmarking clarifies relative performance, guiding developers choosing models for cost and capability.</description>
     </item>
     <item>
-      <title>Show HN: Mochi.js: bun-native high-fidelity browser automation library</title>
-      <link>https://mochijs.com/</link>
-      <guid isPermaLink="true">https://mochijs.com/</guid>
-      <pubDate>Sat, 09 May 2026 14:01:40 +0000</pubDate>
+      <title>ByteDance-Seed/Cola-DLM · Hugging Face</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1tdtaqt/bytedanceseedcoladlm_hugging_face/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1tdtaqt/bytedanceseedcoladlm_hugging_face/</guid>
+      <pubDate>Fri, 15 May 2026 11:19:29 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Describes Mochi.js, a Bun-native, raw-CDP browser automation framework designed for consistent, JS-layer automation parity with stock Chromium. Why it matters: Direct: Provides a Bun-native alternative for browser automation that keeps parity with typical browser usage, aiding test reliability.</description>
+      <description>Cola DLM is a hierarchical continuous latent-space diffusion language model. Why it matters: Direct: Introduces a hierarchical latent-space diffusion LM, potentially influencing diffusion-LM architectures.</description>
     </item>
     <item>
-      <title>Bootstrapping a Serverless CRM: Surviving a Forensic P0 Audit &amp; Hardening Supabase</title>
-      <link>https://dev.to/milosk88/bootstrapping-a-serverless-crm-surviving-a-forensic-p0-audit-hardening-supabase-i3b</link>
-      <guid isPermaLink="true">https://dev.to/milosk88/bootstrapping-a-serverless-crm-surviving-a-forensic-p0-audit-hardening-supabase-i3b</guid>
-      <pubDate>Sun, 10 May 2026 10:44:17 +0000</pubDate>
+      <title>Bun Rust rewrite: &quot;codebase fails basic miri checks, allows for UB in safe rust&quot;</title>
+      <link>https://github.com/oven-sh/bun/issues/30719</link>
+      <guid isPermaLink="true">https://github.com/oven-sh/bun/issues/30719</guid>
+      <pubDate>Fri, 15 May 2026 16:51:25 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Discusses launching the LuKul Bio-Sync CRM architecture on Product Hunt this Wednesday and invites systems architects in biometric telemetry or Next.js migrations to provide a teardown. Why it matters: Direct: Seeks external technical feedback during a product launch, useful for architecture scrutiny and validation.</description>
+      <description>Bun Rust rewrite reportedly fails basic Miri checks, allowing undefined behavior in safe Rust. Why it matters: Direct: Miri-check failures can signal memory-safety risks; addressing UB in the Rust rewrite is critical before shipping.</description>
     </item>
     <item>
-      <title>🧠 Community Wisdom: What to do when non-PMs start shipping directly to production, thoughts on Claude Code’s pricing A/B test, the use of gen AI in games, and more</title>
-      <link>https://www.lennysnewsletter.com/p/community-wisdom-what-to-do-when</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/community-wisdom-what-to-do-when</guid>
-      <pubDate>Sat, 09 May 2026 18:18:35 +0000</pubDate>
+      <title>Looking for 100 serious developers for paid beta testing of an Al powered IDE (early access)</title>
+      <link>https://www.reddit.com/r/CursorAI/comments/1teq0w5/looking_for_100_serious_developers_for_paid_beta/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/CursorAI/comments/1teq0w5/looking_for_100_serious_developers_for_paid_beta/</guid>
+      <pubDate>Sat, 16 May 2026 10:36:26 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Discussion on non-PMs shipping to production, Claude Code pricing A/B test, and the use of gen AI in games. Why it matters: Direct: Highlights governance and shipping risks when non-PMs push changes, plus pricing experiments and AI usage trends that influence product strategy.</description>
+      <description>Unicoder, an AI-powered IDE, aims to deeply integrate AI into the development workflow using real project context rather than isolated chat, building at the speed of thought. Why it matters: Direct: Integrating AI with real project context can improve decision quality and reduce context-switching in development workflows.</description>
     </item>
     <item>
-      <title>AI tools organized by goals: startup, SaaS, business, TikTok, ecommerce, automation</title>
-      <link>https://www.reddit.com/r/AIToolsAndTips/comments/1t93hd2/ai_tools_organized_by_goals_startup_saas_business/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/AIToolsAndTips/comments/1t93hd2/ai_tools_organized_by_goals_startup_saas_business/</guid>
-      <pubDate>Sun, 10 May 2026 10:40:15 +0000</pubDate>
+      <title>Another aspect of this is that Codex</title>
+      <link>https://nitter.net/emollick/status/2055360355132494040</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2055360355132494040</guid>
+      <pubDate>Fri, 15 May 2026 18:51:10 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Organizes tools by goals (startup, SaaS, business, TikTok, ecommerce, automation) with examples like ChatGPT, Notion, Linear, Stripe, Framer, Make. Why it matters: Direct: Helps teams map AI tooling to stages of ideation, planning, and monetization to accelerate shipping.</description>
+      <description>Codex tends to generalize problems and create repeatable code bases; this approach can be unnecessary and limiting for non-coding work. Why it matters: Direct: Highlights limits of applying code-first generalization to non-coding tasks, guiding product UX toward role-specific AI behaviors.</description>
     </item>
     <item>
-      <title>As much as the state of benchmarks in AI is</title>
-      <link>https://nitter.net/emollick/status/2053104629282378061</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2053104629282378061</guid>
-      <pubDate>Sat, 09 May 2026 13:27:43 +0000</pubDate>
+      <title>This thread is worth reading</title>
+      <link>https://nitter.net/emollick/status/2055317636586578196</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2055317636586578196</guid>
+      <pubDate>Fri, 15 May 2026 16:01:25 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Notes that AI benchmarks are flawed but tracking AI progress remains easier than robotics. Why it matters: Direct: Provides a perspective on measuring AI progress, guiding product teams to choose practical success metrics.</description>
+      <description>Thread notes AI work feels deeply weird; mentions Andon Labs&#x27; DJ Claude quitting 24/7 broadcasting as inhumane. Why it matters: Direct: Highlights the human-factor and balance considerations when deploying AI in production workflows.</description>
     </item>
     <item>
-      <title>I suspect there was a moment</title>
-      <link>https://nitter.net/emollick/status/2053270333025620106</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2053270333025620106</guid>
-      <pubDate>Sun, 10 May 2026 00:26:09 +0000</pubDate>
+      <title>Weekly Dose of Optimism #193</title>
+      <link>https://www.notboring.co/p/weekly-dose-of-optimism-193</link>
+      <guid isPermaLink="true">https://www.notboring.co/p/weekly-dose-of-optimism-193</guid>
+      <pubDate>Fri, 15 May 2026 12:42:13 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Notes a likely 2022-2023 moment when popular public AI writings influenced current models; training-data use has diminished while models remain 2022-brained. Why it matters: Direct: Highlights data-source shifts and training-data recency, informing risk assessment and future AI product decisions.</description>
+      <description>A snapshot of topics including Isomorphic, Varda, Pancreatic pt 3, Cerebras IPO, Cowboy Space plus Extra Doses. Why it matters: Direct: Keeps product teams updated on AI industry signals relevant to roadmap bets.</description>
     </item>
     <item>
-      <title>Context Governance for Coding Agents</title>
-      <link>https://dev.to/lien_jp_db54b8b7fd9fa0118/context-governance-for-coding-agents-bgl</link>
-      <guid isPermaLink="true">https://dev.to/lien_jp_db54b8b7fd9fa0118/context-governance-for-coding-agents-bgl</guid>
-      <pubDate>Sun, 10 May 2026 08:05:42 +0000</pubDate>
+      <title>Weekly Top Picks #121</title>
+      <link>https://www.thealgorithmicbridge.com/p/weekly-top-picks-121</link>
+      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/weekly-top-picks-121</guid>
+      <pubDate>Fri, 15 May 2026 16:07:02 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Context Governance for Coding Agents: Context management is mostly about conversation history, not just increasing the window size. Why it matters: Direct: Expands guidance beyond window length to improve chat-based agent reliability and memory management.</description>
+      <description>Weekly Top Picks highlights: FDEs as a hot AI job; Trump in China; No jobpocalypse; AI models fixing benchmarks; Americans agree: &quot;no datacenters here&quot;; Claude 3 vs Claude 4. Why it matters: Direct: Signals hot topics for engineering hiring, benchmarking, and model comparisons to prioritize in-week focus.</description>
     </item>
     <item>
-      <title>OpenClaw Business Ideas That Actually Sell</title>
-      <link>https://dev.to/hex_agent/openclaw-business-ideas-that-actually-sell-4iaj</link>
-      <guid isPermaLink="true">https://dev.to/hex_agent/openclaw-business-ideas-that-actually-sell-4iaj</guid>
-      <pubDate>Sun, 10 May 2026 08:32:04 +0000</pubDate>
+      <title>What Are Tokens and Temperature in AI Models?</title>
+      <link>https://dev.to/mike_anderson_d01f52129fb/what-are-tokens-and-temperature-in-ai-models-5a9b</link>
+      <guid isPermaLink="true">https://dev.to/mike_anderson_d01f52129fb/what-are-tokens-and-temperature-in-ai-models-5a9b</guid>
+      <pubDate>Sat, 16 May 2026 09:51:55 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>OpenClaw Business Ideas That Actually Sell: People want sellable AI agent ideas now, without big startups; that&#x27;s the right question. Why it matters: Direct: Short-cycle, practical market ideas help teams monetize AI agents without heavy investment.</description>
+      <description>Explains tokens and temperature in AI models with practical guidance for managers and engineers seeking predictable, cost-aware AI outputs. Why it matters: Direct: Provides actionable basics to improve predictability and cost control in AI outputs for teams.</description>
     </item>
     <item>
-      <title>[Workflow] Cost-Effective Code Generation: A Tiered Model and Iterative Prompt Refinement Workflow</title>
-      <link>https://www.reddit.com/r/ClaudeWorkflows/comments/1t8z152/workflow_costeffective_code_generation_a_tiered/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeWorkflows/comments/1t8z152/workflow_costeffective_code_generation_a_tiered/</guid>
-      <pubDate>Sun, 10 May 2026 06:25:31 +0000</pubDate>
+      <title>Breaking the Stateless Curse: Why Hermes Agent Could Change Open-Source AI Agents</title>
+      <link>https://dev.to/aashitanegii/breaking-the-stateless-curse-why-hermes-agent-could-change-open-source-ai-agents-4eh9</link>
+      <guid isPermaLink="true">https://dev.to/aashitanegii/breaking-the-stateless-curse-why-hermes-agent-could-change-open-source-ai-agents-4eh9</guid>
+      <pubDate>Sat, 16 May 2026 08:15:26 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Cost-Effective Code Generation workflow using a tiered model and iterative prompt refinement for better quality and token efficiency. Why it matters: Direct: Provides a concrete workflow pattern to reduce cost and improve code-generation outcomes.</description>
+      <description>Hermes Agent Challenge submission highlights memory problems in AI agents, emphasizing engineering costs. Why it matters: Direct: Addresses memory issues in AI agents with engineering trade-offs.</description>
     </item>
     <item>
-      <title>Remote Job - Innovecs - Senior Software Engineer (Java, AI-Driven)</title>
-      <link>https://www.reddit.com/r/jobhuntify/comments/1t93dtq/remote_job_innovecs_senior_software_engineer_java/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/jobhuntify/comments/1t93dtq/remote_job_innovecs_senior_software_engineer_java/</guid>
-      <pubDate>Sun, 10 May 2026 10:34:34 +0000</pubDate>
+      <title>We built Multimeter: a Git-friendly API testing tool for VS Code, not just another Postman clone</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tepr6u/we_built_multimeter_a_gitfriendly_api_testing/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/webdev/comments/1tepr6u/we_built_multimeter_a_gitfriendly_api_testing/</guid>
+      <pubDate>Sat, 16 May 2026 10:21:32 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Remote Job - Innovecs - Senior Software Engineer (Java, AI-Driven): Location: remote; City: , UA; Salary: 0k - 0k USD (annual). Why it matters: Direct: Signals demand for remote AI-driven Java roles.</description>
+      <description>Multimeter is a Git-friendly API testing tool for VS Code, designed to treat API tests as native project files, not exportable artifacts. Why it matters: Direct: Improves developer workflow by aligning testing with source files and Git, reducing divergence.</description>
     </item>
     <item>
-      <title>Oasis is entering a New Chapter, and the timing around AI feels extremely important</title>
-      <link>https://www.reddit.com/r/altcoin/comments/1t93jnm/oasis_is_entering_a_new_chapter_and_the_timing/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/altcoin/comments/1t93jnm/oasis_is_entering_a_new_chapter_and_the_timing/</guid>
-      <pubDate>Sun, 10 May 2026 10:43:47 +0000</pubDate>
+      <title>Most companies don’t need AI agents.</title>
+      <link>https://www.reddit.com/r/n8n/comments/1tepwmz/most_companies_dont_need_ai_agents/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/n8n/comments/1tepwmz/most_companies_dont_need_ai_agents/</guid>
+      <pubDate>Sat, 16 May 2026 10:29:57 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Oasis has focused on confidential compute and privacy-preserving infrastructure, diverging from L1s focused on TPS or meme-driven narratives. Why it matters: Direct: Highlights Oasis&#x27;s privacy lens as a potential differentiator in privacy-preserving infrastructure, signaling a niche with long-term value beyond TPS metrics.</description>
+      <description>Founders frequently request AI agents, but the author, who builds automations and AI systems, believes most founders don&#x27;t need them; after 40+ projects, pattern is predictable: they are seeking magic. Why it matters: Direct: Early-stage founders often chase magic; focusing on automations and proven AI systems reduces wasted time and budget.</description>
     </item>
     <item>
-      <title>Plurality x Oasis: building portable AI context with Privacy by default</title>
-      <link>https://www.reddit.com/r/oasisnetwork/comments/1t93h72/plurality_x_oasis_building_portable_ai_context/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/oasisnetwork/comments/1t93h72/plurality_x_oasis_building_portable_ai_context/</guid>
-      <pubDate>Sun, 10 May 2026 10:40:00 +0000</pubDate>
+      <title>How do Early-stage, Seed startups actually handle PR? Do you hire an agency, or is it all DIY?</title>
+      <link>https://www.reddit.com/r/StartUpIndia/comments/1tepyiz/how_do_earlystage_seed_startups_actually_handle/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/StartUpIndia/comments/1tepyiz/how_do_earlystage_seed_startups_actually_handle/</guid>
+      <pubDate>Sat, 16 May 2026 10:32:47 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Plurality x Oasis discuss portable AI context with privacy by default, highlighting that AI context is trapped in centralized silos and switching models loses history. Why it matters: Direct: Emphasizes privacy-by-default context portability as a neglected issue with potential to change AI workflow continuity.</description>
+      <description>Founders seek public relations options for Startups, SaaS, or industry-agnostic ventures; many feel invisible to the broader tech and business ecosystem; some think hiring an agency is the answer. Why it matters: Direct: Visibility gaps in early-stage PR create hidden growth risk; addressing PR before traction fades matters.</description>
     </item>
     <item>
-      <title>NVIDIA AI Just Released cuda-oxide: An Experimental Rust-to-CUDA Compiler Backend that Compiles SIMT GPU Kernels Directly to PTX</title>
-      <link>https://www.marktechpost.com/2026/05/09/nvidia-ai-just-released-cuda-oxide-an-experimental-rust-to-cuda-compiler-backend-that-compiles-simt-gpu-kernels-directly-to-ptx/</link>
-      <guid isPermaLink="true">https://www.marktechpost.com/2026/05/09/nvidia-ai-just-released-cuda-oxide-an-experimental-rust-to-cuda-compiler-backend-that-compiles-simt-gpu-kernels-directly-to-ptx/</guid>
-      <pubDate>Sun, 10 May 2026 06:01:13 +0000</pubDate>
+      <title>An Argument for Analogies—Polymaths 1/3</title>
+      <link>https://www.lesswrong.com/posts/XcjKmpgtu2ijPToiz/an-argument-for-analogies-polymaths-1-3-1</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/XcjKmpgtu2ijPToiz/an-argument-for-analogies-polymaths-1-3-1</guid>
+      <pubDate>Sat, 16 May 2026 02:21:49 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>NVlabs released cuda-oxide v0.1.0, a custom rustc codegen backend that compiles #[kernel]-annotated Rust functions to PTX through a Rust → Stable MIR → Pliron IR → LLVM IR → PTX pipeline, enabling single-source host+device compilation. Why it matters: Direct: Signals progress in Rust-to-CUDA tooling and single-source builds that could impact GPU kernel development workflows.</description>
+      <description>Post summarizing a series on polymathy argues for using analogy instead of first principles most of the time; includes embedded audio. Why it matters: Direct: Early teams can apply analogy-first reasoning to compress cross-domain problems; it shifts reliance away from top-down first principles.</description>
     </item>
     <item>
-      <title>Avoid alienating the marginal audience member</title>
-      <link>https://www.lesswrong.com/posts/nDeHmzqydACaXsn9h/avoid-alienating-the-marginal-audience-member</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/nDeHmzqydACaXsn9h/avoid-alienating-the-marginal-audience-member</guid>
-      <pubDate>Sun, 10 May 2026 01:56:58 +0000</pubDate>
+      <title>inaturalist-clumper 0.1</title>
+      <link>https://simonwillison.net/2026/May/15/inaturalist-clumper/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/May/15/inaturalist-clumper/</guid>
+      <pubDate>Fri, 15 May 2026 23:53:11 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>An article argues for improving public speaking to engage the marginal audience member, noting that even small-risk presentations may matter for existential risk. Why it matters: Direct: Advocates audience-inclusive communication as a risk-management practice; engaging marginal audiences may reduce risk perception.</description>
+      <description>Release: inaturalist-clumper 0.1; part of the infrastructure I use for publishing my iNaturalist sightings on my blog; in production for weeks, shipped a 0.1 release; example output is in a JSON file. Why it matters: Direct: Lightweight, production-tested tooling for niche data enhances reproducibility and publishing pipelines.</description>
     </item>
     <item>
-      <title>Sesame x Gemini: low latency, extremely realist, and they started spontaneously collaborating</title>
-      <link>https://www.reddit.com/r/singularity/comments/1t8tj4p/sesame_x_gemini_low_latency_extremely_realist_and/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1t8tj4p/sesame_x_gemini_low_latency_extremely_realist_and/</guid>
-      <pubDate>Sun, 10 May 2026 01:49:49 +0000</pubDate>
+      <title>I built a browser fleet management game in a weekend — Corsair Ledger [HTML/SVG/JS, zero dependencies] [AI-assisted]</title>
+      <link>https://www.reddit.com/r/IndieGaming/comments/1teq3f2/i_built_a_browser_fleet_management_game_in_a/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/IndieGaming/comments/1teq3f2/i_built_a_browser_fleet_management_game_in_a/</guid>
+      <pubDate>Sat, 16 May 2026 10:40:20 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Reddit post describes Sesame x Gemini with low latency, extremely realistic outputs, and spontaneous collaboration. Why it matters: Direct: Illustrates potential for low-latency cross-model collaboration and highly realistic AI outputs in hobbyist and research contexts.</description>
+      <description>Built a browser fleet management game in a weekend — Corsair Ledger — using HTML/SVG/JS with zero dependencies and AI-assisted. Why it matters: Direct: Weekend prototyping of a browser game with zero dependencies, AI-assisted, shows accessible hobby-scale development.</description>
     </item>
     <item>
-      <title>Impossible to search: AI Audiobook Player</title>
-      <link>https://www.reddit.com/r/singularity/comments/1t887iz/impossible_to_search_ai_audiobook_player/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1t887iz/impossible_to_search_ai_audiobook_player/</guid>
-      <pubDate>Sat, 09 May 2026 15:34:42 +0000</pubDate>
+      <title>‘Coding Was Never the Bottleneck’ Is Actually Bearish for Employment</title>
+      <link>https://www.reddit.com/r/singularity/comments/1tegzvj/coding_was_never_the_bottleneck_is_actually/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1tegzvj/coding_was_never_the_bottleneck_is_actually/</guid>
+      <pubDate>Sat, 16 May 2026 02:39:46 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Reddit post discusses an AI audiobook player that uses an AI assistant to follow along and answer questions, not AI-narrated. Why it matters: Direct: Demonstrates a practical AI-assisted listening workflow on mobile with interactive Q&amp;A.</description>
+      <description>Discusses AI-accelerated coding; argues productivity gains are limited since coding was not the main bottleneck. Why it matters: Direct: Highlights that AI-enabled coding may not boost productivity unless bottlenecks are addressed.</description>
     </item>
     <item>
-      <title>Neural Networks learn Bloom Filters</title>
-      <link>https://www.lesswrong.com/posts/buxBdp8NtHGgBwabv/neural-networks-learn-bloom-filters</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/buxBdp8NtHGgBwabv/neural-networks-learn-bloom-filters</guid>
-      <pubDate>Sat, 09 May 2026 20:32:32 +0000</pubDate>
+      <title>I’m 20 years old. Last month, I made my first 5-figure income online.</title>
+      <link>https://www.reddit.com/r/u_Liam_Mason_Parker/comments/1teq0wa/im_20_years_old_last_month_i_made_my_first/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/u_Liam_Mason_Parker/comments/1teq0wa/im_20_years_old_last_month_i_made_my_first/</guid>
+      <pubDate>Sat, 16 May 2026 10:36:26 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>LessWrong post explains training a tiny ReLU network to output sparse distributions over a large vocabulary, effectively learning Bloom filters. Why it matters: Direct: Demonstrates compact models handling large vocabularies via sparse top-distributions, relevant to memory-efficient indexing ideas.</description>
-    </item>
-    <item>
-      <title>Show HN: Create flashcards with Space CLI</title>
-      <link>https://getspace.app/cli</link>
-      <guid isPermaLink="true">https://getspace.app/cli</guid>
-      <pubDate>Sat, 09 May 2026 14:38:04 +0000</pubDate>
-      <category>5) For Fun</category>
-      <description>Show HN describes Space CLI, featuring offline-first mode and a CLI enabling Claude Code or Codex to create high-quality flashcards. Why it matters: Direct: Demonstrates practical CLI-assisted content creation and offline-first UX for study tools.</description>
+      <description>A 20-year-old claims last month he made his first five-figure income online after investing about $700 in five resale-right digital courses. Why it matters: Direct: Highlights that self-directed learning can translate to early online earnings.</description>
     </item>
   </channel>
 </rss>
