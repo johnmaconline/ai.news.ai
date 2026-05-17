@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-05-17",
+    "title": "Daily AI Feed - 2026-05-17",
+    "lead_story": "vibe-coded an AI rewriter with claude code. shipped today. here's the prompt architecture",
+    "lead_url": "https://www.reddit.com/r/vibecoding/comments/1tfgjx8/vibecoded_an_ai_rewriter_with_claude_code_shipped/",
+    "generated_at": "2026-05-17T11:12:54+00:00"
+  },
+  {
     "date": "2026-05-16",
     "title": "Daily AI Feed - 2026-05-16",
     "lead_story": "Genuine question. Is the whole \"AI guzzles gallons of water\" thing totally true, or do people get it wrong? Does AI consume a lot of water for every single prompt, or is the majority of water consumed during data farming? Don't non-AI data centers use up a lot of water on cooling too?",
