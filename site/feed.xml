@@ -1,194 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-05-17</title>
+    <title>Daily AI Feed - 2026-07-11</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Sun, 17 May 2026 11:12:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 11:07:45 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>vibe-coded an AI rewriter with claude code. shipped today. here&#x27;s the prompt architecture</title>
-      <link>https://www.reddit.com/r/vibecoding/comments/1tfgjx8/vibecoded_an_ai_rewriter_with_claude_code_shipped/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/vibecoding/comments/1tfgjx8/vibecoded_an_ai_rewriter_with_claude_code_shipped/</guid>
-      <pubDate>Sun, 17 May 2026 05:41:08 +0000</pubDate>
+      <title>Qwen3.6 35B-A3B (Q8_0, no KV quant) single prompt in opencode: &quot;Create a beautiful, relaxing flight simulator in a single html file with mountains, clouds, and endless procedural terrain&quot;</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1utb6io/qwen36_35ba3b_q8_0_no_kv_quant_single_prompt_in/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1utb6io/qwen36_35ba3b_q8_0_no_kv_quant_single_prompt_in/</guid>
+      <pubDate>Sat, 11 Jul 2026 05:24:45 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Shipped today: UnfakeIT, an AI text rewriter that removes AI-generated patterns while preserving your voice. Pro tier adds a second-pass audit showing what was caught; built with Claude Code as the dev partner. Why it matters: Direct: Demonstrates a real-world prompt architecture using Claude Code and a two-pass audit to enforce voice preservation.</description>
+      <description>In plan mode with no plan changes, switching from Q4_K_M on GPU to Q8_0 on CPU yields much stronger performance; the reviewer calls it meaningful despite slowdown. Why it matters: Direct: Guides practitioners on choosing tooling when chaining LLM calls.</description>
     </item>
     <item>
-      <title>We built a blue-team mode for AI security training — you write a defensive prompt, we throw 12 attack probes at it</title>
-      <link>https://www.reddit.com/r/redteamsec/comments/1tfb7tp/we_built_a_blueteam_mode_for_ai_security_training/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/redteamsec/comments/1tfb7tp/we_built_a_blueteam_mode_for_ai_security_training/</guid>
-      <pubDate>Sun, 17 May 2026 01:15:47 +0000</pubDate>
+      <title>Pipeline, Flow, or Chain? Picking the Right Tool to Wire LLM Calls Together</title>
+      <link>https://dev.to/phimage/pipeline-flow-or-chain-picking-the-right-tool-to-wire-llm-calls-together-46k5</link>
+      <guid isPermaLink="true">https://dev.to/phimage/pipeline-flow-or-chain-picking-the-right-tool-to-wire-llm-calls-together-46k5</guid>
+      <pubDate>Sat, 11 Jul 2026 09:44:51 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Blue-team mode for AI security training lets you write a defensive prompt while 12 attack probes are launched at it. Why it matters: Direct: Demonstrates defense-oriented prompt testing and red-teaming tooling in AI systems.</description>
+      <description>Practical follow-up argues that agents excel as planners and DAGs excel as executors; when wiring several LLM calls, selecting the right tool becomes a workflow decision. Why it matters: Direct: Guides practitioners on choosing tooling when wiring several LLM calls in workflows.</description>
     </item>
     <item>
-      <title>We built a blue-team mode for AI security training — you write a defensive prompt, we throw 12 attack probes at it</title>
-      <link>https://www.reddit.com/r/cybersecurity/comments/1tfas46/we_built_a_blueteam_mode_for_ai_security_training/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1tfas46/we_built_a_blueteam_mode_for_ai_security_training/</guid>
-      <pubDate>Sun, 17 May 2026 00:55:09 +0000</pubDate>
+      <title>prompt-shield: 200 lines of Python that catch prompt-injection attacks</title>
+      <link>https://dev.to/aman_sachan_126d19c4a2773/prompt-shield-200-lines-of-python-that-catch-prompt-injection-attacks-4hhe</link>
+      <guid isPermaLink="true">https://dev.to/aman_sachan_126d19c4a2773/prompt-shield-200-lines-of-python-that-catch-prompt-injection-attacks-4hhe</guid>
+      <pubDate>Sat, 11 Jul 2026 09:39:44 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Blue-team mode for AI security training lets you write a defensive prompt while 12 attack probes are launched at it. Why it matters: Direct: Validates reproducible blue-team prompting techniques across platforms.</description>
+      <description>Promotes prompt-shield, a 200-line Python tool for catching prompt-injection attacks. Why it matters: Direct: Provides a zero-dependency detector to mitigate prompt-injection risk.</description>
     </item>
     <item>
-      <title>How I use LLMs as a staff engineer in 2026</title>
-      <link>https://seangoedecke.com/how-i-use-llms-in-2026/</link>
-      <guid isPermaLink="true">https://seangoedecke.com/how-i-use-llms-in-2026/</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+      <title>Hugging Face MCP: Search, Run, and Deploy 500k+ AI Models Directly from Your Agent</title>
+      <link>https://dev.to/curatedmcp/hugging-face-mcp-search-run-and-deploy-500k-ai-models-directly-from-your-agent-54cm</link>
+      <guid isPermaLink="true">https://dev.to/curatedmcp/hugging-face-mcp-search-run-and-deploy-500k-ai-models-directly-from-your-agent-54cm</guid>
+      <pubDate>Sat, 11 Jul 2026 10:38:10 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>A bit over a year ago the author described using AI as a staff engineer: smart autocomplete with Copilot; short tactical changes in unfamiliar areas (reviewed by a SME); writing use-once-and-throwaway research code; and asking questions to learn new topics. Why it matters: Direct: Highlights concrete AI usage patterns for staff engineers, balancing automation with SME review.</description>
+      <description>Hugging Face MCP connects your AI agent to the world&#x27;s largest open-source model repository; install guide and config available at curatedmcp.com. Why it matters: Direct: Connects your agent to a vast open-source model repository, enabling in-agent search, run, and deploy workflows.</description>
     </item>
     <item>
-      <title>Fixing the &quot;Something went wrong&quot; error in JetBrains AI Assistant with Google Gemini</title>
-      <link>https://dev.to/agitrubard/fixing-the-something-went-wrong-error-in-jetbrains-ai-assistant-with-google-gemini-jlo</link>
-      <guid isPermaLink="true">https://dev.to/agitrubard/fixing-the-something-went-wrong-error-in-jetbrains-ai-assistant-with-google-gemini-jlo</guid>
-      <pubDate>Sun, 17 May 2026 10:50:29 +0000</pubDate>
+      <title>Claude Code, Beyond the Prompt — Part 4: Your First MCP Server (Give Claude Safe Hands on Your Own Tools)</title>
+      <link>https://dev.to/gde03/claude-code-beyond-the-prompt-part-4-your-first-mcp-server-give-claude-safe-hands-on-your-own-b8p</link>
+      <guid isPermaLink="true">https://dev.to/gde03/claude-code-beyond-the-prompt-part-4-your-first-mcp-server-give-claude-safe-hands-on-your-own-b8p</guid>
+      <pubDate>Sat, 11 Jul 2026 10:45:28 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>The author attempted to integrate Google Gemini into JetBrains AI Assistant via an OpenAI-compatible BYOK endpoint to avoid JetBrains&#x27; quota, but encountered persistent &#x27;Something went wrong&#x27; errors, notably when generating Git commit messages. Why it matters: Direct: Demonstrates integration challenges when routing to OpenAI-compatible endpoints and quota concerns.</description>
+      <description>Part 4 covers patterns from running a live automated trading system on Claude Code, including SSH-ing into production to run commands and paste outputs back. Why it matters: Direct: Demonstrates practical debugging workflows by SSHing into production and replaying outputs within Claude Code.</description>
     </item>
     <item>
-      <title>Jackrong/Qwopus3.5-9B-Coder-GGUF · Hugging Face</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1tfin40/jackrongqwopus359bcodergguf_hugging_face/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1tfin40/jackrongqwopus359bcodergguf_hugging_face/</guid>
-      <pubDate>Sun, 17 May 2026 07:33:35 +0000</pubDate>
+      <title>Some testing on RTX Pro 4500 (With Oculink) on PrismaQuant, INT4 Autoround and NVFP4 W4A4 quantized model</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1ut8o8t/some_testing_on_rtx_pro_4500_with_oculink_on/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1ut8o8t/some_testing_on_rtx_pro_4500_with_oculink_on/</guid>
+      <pubDate>Sat, 11 Jul 2026 03:16:19 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Qwopus3.5-9B-coder is specially optimized and fine-tuned for high-performance 🤖 Agentic Coding, complex Tool Calling, and logical reasoning; the 9B dense model is considered the ideal &#x27;sweet spot&#x27; for LLMs. Why it matters: Direct: Highlights a specific model optimized for coding and tool use, indicating a potential choice for AI-assisted development.</description>
+      <description>Testing on RTX Pro 4500 (With Oculink) on PrismaQuant, INT4 Autoround and NVFP4 W4A4 quantized model; observed tool-call errors and thinking loops. Why it matters: Direct: Documents practical hardware testing workflows for quantized models and high-memory GPUs.</description>
     </item>
     <item>
-      <title>How I Built Two Full PHP SaaS Platforms from Scratch and Bundled Them for Sale</title>
-      <link>https://dev.to/chetamnik/how-i-built-two-full-php-saas-platforms-from-scratch-and-bundled-them-for-sale-1nm</link>
-      <guid isPermaLink="true">https://dev.to/chetamnik/how-i-built-two-full-php-saas-platforms-from-scratch-and-bundled-them-for-sale-1nm</guid>
-      <pubDate>Sun, 17 May 2026 10:39:15 +0000</pubDate>
+      <title>Tencent-HY3 is the real deal on 128GB!</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1usy9ie/tencenthy3_is_the_real_deal_on_128gb/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1usy9ie/tencenthy3_is_the_real_deal_on_128gb/</guid>
+      <pubDate>Fri, 10 Jul 2026 19:53:09 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>The author finished two complete, production-ready PHP SaaS platforms and bundled them together, including LUXE, a premium e-commerce platform built on pure PHP and MySQL with no frameworks. Why it matters: Direct: Demonstrates production-ready SaaS bundling and monetization approaches that developers can replicate.</description>
+      <description>HY3 is a 295B-A21B MoE release from Tencent that competes on the frontier of open-weights models, with smaller size and stronger benchmarks. Why it matters: Direct: Indicates a scalable option for frontier models with high efficiency.</description>
     </item>
     <item>
-      <title>ChatGPT for personal finance is interesting</title>
-      <link>https://nitter.net/emollick/status/2055797877713092997</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2055797877713092997</guid>
-      <pubDate>Sat, 16 May 2026 23:49:43 +0000</pubDate>
+      <title>How GPT-5.6 Changes Knowledge Work</title>
+      <link>https://every.to/chain-of-thought/how-gpt-5-6-changes-knowledge-work</link>
+      <guid isPermaLink="true">https://every.to/chain-of-thought/how-gpt-5-6-changes-knowledge-work</guid>
+      <pubDate>Fri, 10 Jul 2026 15:37:39 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>ChatGPT for personal finance is interesting, but users must know questions to ask and have experience to fact-check assumptions. It needs pre-built skills to guide productive use cases and provide better instruction. Why it matters: Direct: Pre-built skills and clearer instructions are essential to guide productive use of AI in personal finance.</description>
+      <description>Chain of Thought Midjourney/Every illustration referenced; invites readers to read the full post and subscribe for RSS access. Why it matters: Direct: Highlights potential engagement hooks (read full post, RSS) that product teams can reuse to surface AI knowledge-work content.</description>
     </item>
     <item>
-      <title>One use case that is interesting is to ask it</title>
-      <link>https://nitter.net/emollick/status/2055799924298530884</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2055799924298530884</guid>
-      <pubDate>Sat, 16 May 2026 23:57:51 +0000</pubDate>
+      <title>To be clear</title>
+      <link>https://nitter.net/emollick/status/2075766584266653767</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2075766584266653767</guid>
+      <pubDate>Sat, 11 Jul 2026 02:18:14 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>One use case: ask it to build an interactive scenario simulator with visualizations to explore retirement outcomes based on changing financial situations. Why it matters: Direct: An interactive simulator with visuals can drive deeper understanding and engagement.</description>
+      <description>NotebookLM has its own issues and targets a research-and-analysis use case; it demonstrates a UX that treats knowledge work seriously by exposing processes instead of focusing only on outputs. Why it matters: Direct: Highlights a UX pattern that surfaces processes, guiding PMs on knowledge-work UX design.</description>
     </item>
     <item>
-      <title>🧠 Community Wisdom: Screening AI slop in hiring, Wispr Flow alternatives for voice transcription, multi-agent pipeline vs. MCP, and more</title>
-      <link>https://www.lennysnewsletter.com/p/community-wisdom-screening-ai-slop</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/community-wisdom-screening-ai-slop</guid>
-      <pubDate>Sat, 16 May 2026 21:46:34 +0000</pubDate>
+      <title>Thats good for the dumb reason that I am burning</title>
+      <link>https://nitter.net/emollick/status/2075823098868142502</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2075823098868142502</guid>
+      <pubDate>Sat, 11 Jul 2026 06:02:48 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Community Wisdom 185 Why it matters: Inference: The Community Wisdom 185 label may indicate demand for curated, minimal-signal content.</description>
+      <description>Author describes burning tokens as Sol in Codex plays Slay the Spire 2 daily challenge; notes beating Act 1 boss and plans a morning check-in. Why it matters: Direct: Illustrates rapid personal experimentation with AI-assisted workflows and token benchmarking.</description>
     </item>
     <item>
-      <title>Cowboy Space Corporation</title>
-      <link>https://www.notboring.co/p/cowboy-space-corporation</link>
-      <guid isPermaLink="true">https://www.notboring.co/p/cowboy-space-corporation</guid>
-      <pubDate>Sat, 16 May 2026 12:52:13 +0000</pubDate>
+      <title>Weekly Dose of Optimism #201</title>
+      <link>https://www.notboring.co/p/weekly-dose-of-optimism-201</link>
+      <guid isPermaLink="true">https://www.notboring.co/p/weekly-dose-of-optimism-201</guid>
+      <pubDate>Fri, 10 Jul 2026 12:56:10 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>A Great Example of The Great Differentiation Why it matters: Inference: The differentiation framing could guide product positioning and messaging.</description>
+      <description>Weekly Dose of Optimism #201 highlights Aalo, Data Centers, American Turbines, OXMAN Ink, Neo Hands + Extra Doses. Why it matters: Direct: Signals potential players and themes for AI-enabled infrastructure and product tooling.</description>
     </item>
     <item>
-      <title>Building Production-Ready AI Agents with MCP: The Enterprise Blueprint Nobody Talks About</title>
-      <link>https://dev.to/suraj_khaitan_f893c243958/building-production-ready-ai-agents-with-mcp-the-enterprise-blueprint-nobody-talks-about-22nm</link>
-      <guid isPermaLink="true">https://dev.to/suraj_khaitan_f893c243958/building-production-ready-ai-agents-with-mcp-the-enterprise-blueprint-nobody-talks-about-22nm</guid>
-      <pubDate>Sun, 17 May 2026 07:00:22 +0000</pubDate>
+      <title>Claude Code&#x27;s Mid-Year AI Boost: Enhanced Workflows and New Features</title>
+      <link>https://dev.to/davekurian/claude-codes-mid-year-ai-boost-enhanced-workflows-and-new-features-1e21</link>
+      <guid isPermaLink="true">https://dev.to/davekurian/claude-codes-mid-year-ai-boost-enhanced-workflows-and-new-features-1e21</guid>
+      <pubDate>Sat, 11 Jul 2026 10:05:41 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>A deep technical guide to multi-agent orchestration, knowledge retrieval via Model Context Protocol, hallucination control, and serverless deployment, with production-system patterns and the gap between demos and production. Why it matters: Direct: Enables building production-ready AI agents by applying MCP patterns, reducing hallucinations, and enabling scalable serverless deployments.</description>
+      <description>Claude Code&#x27;s mid-year update includes an in-app browser, Sonnet 5, and a durable layer under model churn. It lets the agent open docs and read them directly, changing the cost of the loop. Why it matters: Direct: Highlights immediate usability and cost implications of in-app browsing for agent workflows.</description>
     </item>
     <item>
-      <title>OpenClaw 2026.5.16 Beta 4: Agent Handoffs and Operator Control</title>
-      <link>https://dev.to/hex_agent/openclaw-2026516-beta-4-agent-handoffs-and-operator-control-574o</link>
-      <guid isPermaLink="true">https://dev.to/hex_agent/openclaw-2026516-beta-4-agent-handoffs-and-operator-control-574o</guid>
-      <pubDate>Sun, 17 May 2026 08:34:02 +0000</pubDate>
+      <title>My Self-Hosted AI Assistant Kept Overwriting Its Own API Keys: A Zero-Trust Postmortem</title>
+      <link>https://dev.to/veranice/my-self-hosted-ai-assistant-kept-overwriting-its-own-api-keys-a-zero-trust-postmortem-4eec</link>
+      <guid isPermaLink="true">https://dev.to/veranice/my-self-hosted-ai-assistant-kept-overwriting-its-own-api-keys-a-zero-trust-postmortem-4eec</guid>
+      <pubDate>Sat, 11 Jul 2026 10:19:27 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>OpenClaw 2026.5.16 Beta 4 emphasizes agent handoffs and operator control; described as a release operators feel more than they admire from a changelog. Why it matters: Direct: Highlights operational controls and handoff workflows essential for reliable agent workflows.</description>
+      <description>Postmortem on self-hosted AI agents overwriting API keys; includes sanitized watchdog and config-repair scripts, Part 1 of a series on running AI agents on real infrastructure without regretting it. Why it matters: Direct: Highlights practical, zero-trust postmortem lessons for running AI agents on real infrastructure.</description>
     </item>
     <item>
-      <title>[Workflow] AI-Autonomous Quality-First Development Workflow with Cross-Agent Review and Structured Memory</title>
-      <link>https://www.reddit.com/r/ClaudeWorkflows/comments/1tfjkd9/workflow_aiautonomous_qualityfirst_development/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/ClaudeWorkflows/comments/1tfjkd9/workflow_aiautonomous_qualityfirst_development/</guid>
-      <pubDate>Sun, 17 May 2026 08:25:56 +0000</pubDate>
+      <title>Persona Cartography: Charting Language Model Personality Traits in Weight Space</title>
+      <link>https://www.lesswrong.com/posts/Rkvto5BLofzuDefyB/persona-cartography-charting-language-model-personality</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/Rkvto5BLofzuDefyB/persona-cartography-charting-language-model-personality</guid>
+      <pubDate>Fri, 10 Jul 2026 18:56:21 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>AI-Autonomous Quality-First Development Workflow with Cross-Agent Review and Structured Memory Why it matters: Direct: Provides a concrete workflow idea for automated cross-agent review and persistent memory to improve quality and debugging.</description>
+      <description>Summarizes the paper Persona Cartography: Charting Language Model Personality Traits in Weight Space; links to paper, GitHub, and HuggingFace; notes safety importance of model disposition. Why it matters: Direct: Highlights safety-focused understanding and control of LLM personality traits via weight-space analysis.</description>
     </item>
     <item>
-      <title>Make $150K/Month From 20 Tiny Apps</title>
-      <link>https://www.reddit.com/r/micro_saas/comments/1tfknpm/make_150kmonth_from_20_tiny_apps/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/micro_saas/comments/1tfknpm/make_150kmonth_from_20_tiny_apps/</guid>
-      <pubDate>Sun, 17 May 2026 09:28:33 +0000</pubDate>
+      <title>Better tools made Copilot code review worse. Here’s how we actually improved it.</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/</link>
+      <guid isPermaLink="true">https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/</guid>
+      <pubDate>Fri, 10 Jul 2026 15:57:47 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Profile of Katie Keith and Barn2 Plugins&#x27; portfolio of small WordPress/WooCommerce plugins generating about $150K/month, with a practical, operator-focused breakdown. Why it matters: Direct: Demonstrates practical monetization via a small-app portfolio and operator-led execution.</description>
+      <description>Migration of Copilot code review to Unix-style code exploration tools reduced review cost by reshaping agent workflows around pull request evidence; the GitHub Blog post documents improvements. Why it matters: Direct: Demonstrates practical workflow changes that cut review time by aligning evidence-centric agent actions.</description>
     </item>
     <item>
-      <title>I built an all-in-one AI Practice OS for solo &amp; small clinics — looking for beta testers</title>
-      <link>https://www.reddit.com/r/medicine/comments/1tfm24o/i_built_an_allinone_ai_practice_os_for_solo_small/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/medicine/comments/1tfm24o/i_built_an_allinone_ai_practice_os_for_solo_small/</guid>
-      <pubDate>Sun, 17 May 2026 10:46:41 +0000</pubDate>
+      <title>Don’t bring an AI detector to a deepfake fight: proving reality through multimodal provenance</title>
+      <link>https://www.lesswrong.com/posts/MBRNR5h9g6HGvAJDe/don-t-bring-an-ai-detector-to-a-deepfake-fight-proving</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/MBRNR5h9g6HGvAJDe/don-t-bring-an-ai-detector-to-a-deepfake-fight-proving</guid>
+      <pubDate>Sat, 11 Jul 2026 02:21:18 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Built MedGuard AI, a true all-in-one AI Practice OS for solo, small, and mid-sized practices; seeking beta testers. Why it matters: Direct: Addresses fragmented tools and burnout in small practices by offering an integrated OS.</description>
+      <description>Argues that fake media detectors are outpaced in an arms race; distrust images and videos by default unless proven real. Why it matters: Direct: Shifts focus from detectors to provenance-proof methods; reduces reliance on imperfect detectors in real-world media authentication.</description>
     </item>
     <item>
-      <title>I built an all-in-one AI Practice OS for solo &amp; small clinics (notes + intake + legal + cyber) — looking for beta testers</title>
-      <link>https://www.reddit.com/r/SoloPrivatePractice/comments/1tfm06e/i_built_an_allinone_ai_practice_os_for_solo_small/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/SoloPrivatePractice/comments/1tfm06e/i_built_an_allinone_ai_practice_os_for_solo_small/</guid>
-      <pubDate>Sun, 17 May 2026 10:43:51 +0000</pubDate>
+      <title>An Induction Head in Disguise: Chasing Grammar in a Character-Level Transformer</title>
+      <link>https://www.lesswrong.com/posts/x2ZdCoqAaLedpjDk3/an-induction-head-in-disguise-chasing-grammar-in-a-character</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/x2ZdCoqAaLedpjDk3/an-induction-head-in-disguise-chasing-grammar-in-a-character</guid>
+      <pubDate>Fri, 10 Jul 2026 22:05:58 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Built an all-in-one AI Practice OS for solo and small clinics (notes, intake, legal, cyber); seeking beta testers. Why it matters: Direct: Consolidates fragmented tools to reduce burnout and improve security for small practices.</description>
+      <description>In a mechanistic interpretability post, the author is confident in measurements (copying score, OV logits, attention patterns) while exploring what the induction head &#x27;knows&#x27; and disconfirming early interpretations. Why it matters: Direct: Demonstrates rigorous measurement usage in interpretability work and cautions against overinterpreting head behavior.</description>
     </item>
     <item>
-      <title>Can ELK be brute-forced? Intertheoretic reduction</title>
-      <link>https://www.lesswrong.com/posts/gZMLnaTYTwwrjmgfa/can-elk-be-brute-forced-intertheoretic-reduction</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/gZMLnaTYTwwrjmgfa/can-elk-be-brute-forced-intertheoretic-reduction</guid>
-      <pubDate>Sun, 17 May 2026 10:21:29 +0000</pubDate>
+      <title>Ant Group’s Robbyant Unveils LingBot-VA 2.0: A Causal Video-Action Model Built Natively for Physical AI</title>
+      <link>https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0/</link>
+      <guid isPermaLink="true">https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0/</guid>
+      <pubDate>Sat, 11 Jul 2026 07:56:11 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Eliciting latent knowledge: train a model to predict the future from cameras and other sensors, then use planning to find actions that yield favorable futures. Why it matters: Inference: Highlights challenges in aligning predictions from latent knowledge with real-world planning outcomes.</description>
+      <description>Robbyant releases LingBot-VA 2.0: a Physical AI video-action foundation model built from scratch for embodiment; it uses Foresight Reasoning to predict futures and re-grounds on every real observation, reaching 225 Hz asynchronous control. Why it matters: Direct: Introduces an embodied AI foundation model approach with re-grounding on every real observation and 225 Hz asynchronous control.</description>
     </item>
     <item>
-      <title>A relatively brief explanation of Boltzmann Brains</title>
-      <link>https://www.lesswrong.com/posts/v8MSczS3CuoqMmTFw/a-relatively-brief-explanation-of-boltzmann-brains</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/v8MSczS3CuoqMmTFw/a-relatively-brief-explanation-of-boltzmann-brains</guid>
-      <pubDate>Sat, 16 May 2026 21:19:34 +0000</pubDate>
+      <title>Predicting human preference for generated image pairs using HPSv3 [P]</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1utdj1f/predicting_human_preference_for_generated_image/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1utdj1f/predicting_human_preference_for_generated_image/</guid>
+      <pubDate>Sat, 11 Jul 2026 07:36:36 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>In 1895, the physicist Ignaz Robert Schütz, who worked as an assistant to the eminent physicist Ludwig Boltzmann, wondered if our observed universe had simply assembled by a random fluctuation of order from a universe otherwise in thermal equilibrium. Why it matters: Direct: Contextualizes a classic cosmology thought experiment for researchers.</description>
+      <description>Looks at predicting human preference for generated image pairs with HPSv3; notes limitations and links to posts seeking feedback. Why it matters: Direct: Highlights practical limits of automated preference scoring for visual content; early signal for alignment gaps between metrics and human taste.</description>
     </item>
     <item>
-      <title>I built SpriteForge: A free, lightweight 2D Pixel Editor in C++17 (0% idle CPU, no Electron BS)</title>
-      <link>https://www.reddit.com/r/PixelArt/comments/1tfkpjw/i_built_spriteforge_a_free_lightweight_2d_pixel/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/PixelArt/comments/1tfkpjw/i_built_spriteforge_a_free_lightweight_2d_pixel/</guid>
-      <pubDate>Sun, 17 May 2026 09:31:27 +0000</pubDate>
+      <title>I gave Fable the code: &quot;take this game and do</title>
+      <link>https://nitter.net/emollick/status/2075760408342728820</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2075760408342728820</guid>
+      <pubDate>Sat, 11 Jul 2026 01:53:41 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>SpriteForge is a free, lightweight 2D pixel editor written in C++17 using SDL2, OpenGL 3.0, and Dear ImGui, with 0% idle CPU. Why it matters: Direct: Free, open-source sprite editor in C++17 with SDL2/OpenGL/ImGui, offering a low-resource alternative to Electron tools.</description>
+      <description>Fable was given code to create something incredible, producing DEEP TIME: a city that is built, abandoned, forgotten, and later unearthed as a future archaeologist. Why it matters: Direct: Demonstrates rapid, creative code-driven world-building and temporal storytelling.</description>
     </item>
     <item>
-      <title>On getting unstuck</title>
-      <link>https://www.lesswrong.com/posts/q9HoBo6LCkCkxavLZ/on-getting-unstuck</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/q9HoBo6LCkCkxavLZ/on-getting-unstuck</guid>
-      <pubDate>Sun, 17 May 2026 00:59:53 +0000</pubDate>
+      <title>Show HN: SubjectiveZero, an open-source agentic node editor for creative coding</title>
+      <link>https://sxp.studio/apps/subz</link>
+      <guid isPermaLink="true">https://sxp.studio/apps/subz</guid>
+      <pubDate>Fri, 10 Jul 2026 15:23:50 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Anthropic&#x27;s Claude AI has finally managed to beat Pokémon Red, with a writeup noting Claude&#x27;s earlier failures and a catchy song. Why it matters: Direct: Demonstrates real model progress; Claude AI beats Pokémon Red after iterations, illustrating trial-and-error in AI development.</description>
+      <description>SubjectiveZero is an open-source agentic node editor for creative coding, highlighted in Show HN by Clem, a solo indie dev exploring XR and agentic workflows for creative/interactive work. Why it matters: Direct: Open-source tool helps creators prototype agentic, node-based pipelines; clarifies the abstraction level needed for usable creative coding tools.</description>
     </item>
     <item>
-      <title>Are there any big AI developments in gaming?</title>
-      <link>https://www.reddit.com/r/singularity/comments/1tewcxr/are_there_any_big_ai_developments_in_gaming/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/singularity/comments/1tewcxr/are_there_any_big_ai_developments_in_gaming/</guid>
-      <pubDate>Sat, 16 May 2026 15:11:58 +0000</pubDate>
+      <title>In defense of not understanding your codebase</title>
+      <link>https://seangoedecke.com/in-defense-of-not-understanding-your-codebase/</link>
+      <guid isPermaLink="true">https://seangoedecke.com/in-defense-of-not-understanding-your-codebase/</guid>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Questioning whether AI gaming has advanced to AI communities, armies, boids, or villages of AI characters. Why it matters: Inference: Signals potential interest areas in AI gaming—communities, armies, boids, and AI-powered characters—worthy of focused exploration.</description>
+      <description>An article questions whether engineers must completely understand their own codebase, contrasting small, low-turnover codebases with the belief that full understanding is required. Why it matters: Direct: Encourages teams to balance understanding with productive work, focusing on critical areas rather than full codebase mastery.</description>
     </item>
     <item>
-      <title>James C. Scott: Seeing Like a State</title>
-      <link>https://www.lesswrong.com/posts/iiDzt5qhesmQZiNAj/james-c-scott-seeing-like-a-state</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/iiDzt5qhesmQZiNAj/james-c-scott-seeing-like-a-state</guid>
-      <pubDate>Sun, 17 May 2026 08:40:40 +0000</pubDate>
+      <title>Notes on Tony Parkes&#x27; &quot;Contra Dance Calling&quot;</title>
+      <link>https://www.lesswrong.com/posts/uLCQ6YEou5kgfW2nx/notes-on-tony-parkes-contra-dance-calling</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/uLCQ6YEou5kgfW2nx/notes-on-tony-parkes-contra-dance-calling</guid>
+      <pubDate>Sat, 11 Jul 2026 00:50:45 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>LessWrong post cites James C. Scott, noting Soviet collectivization destroyed local farming knowledge and caused a famine. Why it matters: Inference: Highlights risks of centralized state policies ignoring local knowledge (metis) in governance, as illustrated by historical famine.</description>
+      <description>Notes discuss Tony Parkes&#x27; Contra Dance Calling, covering the 1992 original and the 2010 updated edition, with the author reading both to compare thoughts and changes. Why it matters: Direct: Helps readers track edition differences and evolution in dance calling guidance.</description>
     </item>
   </channel>
 </rss>

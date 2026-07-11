@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-07-11",
+    "title": "Daily AI Feed - 2026-07-11",
+    "lead_story": "Qwen3.6 35B-A3B (Q8_0, no KV quant) single prompt in opencode: \"Create a beautiful, relaxing flight simulator in a single html file with mountains, clouds, and endless procedural terrain\"",
+    "lead_url": "https://www.reddit.com/r/LocalLLaMA/comments/1utb6io/qwen36_35ba3b_q8_0_no_kv_quant_single_prompt_in/",
+    "generated_at": "2026-07-11T11:07:45+00:00"
+  },
+  {
     "date": "2026-05-17",
     "title": "Daily AI Feed - 2026-05-17",
     "lead_story": "vibe-coded an AI rewriter with claude code. shipped today. here's the prompt architecture",
