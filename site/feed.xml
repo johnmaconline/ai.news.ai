@@ -1,194 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-07-11</title>
+    <title>Daily AI Feed - 2026-07-18</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Sat, 11 Jul 2026 11:07:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 11:08:23 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>Qwen3.6 35B-A3B (Q8_0, no KV quant) single prompt in opencode: &quot;Create a beautiful, relaxing flight simulator in a single html file with mountains, clouds, and endless procedural terrain&quot;</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1utb6io/qwen36_35ba3b_q8_0_no_kv_quant_single_prompt_in/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1utb6io/qwen36_35ba3b_q8_0_no_kv_quant_single_prompt_in/</guid>
-      <pubDate>Sat, 11 Jul 2026 05:24:45 +0000</pubDate>
+      <title>Here&#x27;s how to add the Codex Security plugin in Codex</title>
+      <link>https://nitter.net/OpenAI/status/2078243670265041038</link>
+      <guid isPermaLink="true">https://nitter.net/OpenAI/status/2078243670265041038</guid>
+      <pubDate>Fri, 17 Jul 2026 22:21:17 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>In plan mode with no plan changes, switching from Q4_K_M on GPU to Q8_0 on CPU yields much stronger performance; the reviewer calls it meaningful despite slowdown. Why it matters: Direct: Guides practitioners on choosing tooling when chaining LLM calls.</description>
+      <description>Explains how to add the Codex Security plugin in Codex, then start a scan: install the plugin, click &#x27;Try in chat&#x27; to open a Codex chat with a scan prompt, select a code folder, and send the prompt. Why it matters: Direct: Highlights a practical plugin workflow; enables prompt-ready scanning of code via Codex Security.</description>
     </item>
     <item>
-      <title>Pipeline, Flow, or Chain? Picking the Right Tool to Wire LLM Calls Together</title>
-      <link>https://dev.to/phimage/pipeline-flow-or-chain-picking-the-right-tool-to-wire-llm-calls-together-46k5</link>
-      <guid isPermaLink="true">https://dev.to/phimage/pipeline-flow-or-chain-picking-the-right-tool-to-wire-llm-calls-together-46k5</guid>
-      <pubDate>Sat, 11 Jul 2026 09:44:51 +0000</pubDate>
+      <title>How to Test Structured Outputs Across Multiple AI Models</title>
+      <link>https://dev.to/ye_allen_/how-to-test-structured-outputs-across-multiple-ai-models-d7g</link>
+      <guid isPermaLink="true">https://dev.to/ye_allen_/how-to-test-structured-outputs-across-multiple-ai-models-d7g</guid>
+      <pubDate>Sat, 18 Jul 2026 09:10:05 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Practical follow-up argues that agents excel as planners and DAGs excel as executors; when wiring several LLM calls, selecting the right tool becomes a workflow decision. Why it matters: Direct: Guides practitioners on choosing tooling when wiring several LLM calls in workflows.</description>
+      <description>Getting a model to return JSON is easy. Getting reliable JSON across multiple models is a production problem. Why it matters: Direct: Signals a production-end reliability issue; emphasizes need for cross-model JSON standardization and validation pipelines.</description>
     </item>
     <item>
-      <title>prompt-shield: 200 lines of Python that catch prompt-injection attacks</title>
-      <link>https://dev.to/aman_sachan_126d19c4a2773/prompt-shield-200-lines-of-python-that-catch-prompt-injection-attacks-4hhe</link>
-      <guid isPermaLink="true">https://dev.to/aman_sachan_126d19c4a2773/prompt-shield-200-lines-of-python-that-catch-prompt-injection-attacks-4hhe</guid>
-      <pubDate>Sat, 11 Jul 2026 09:39:44 +0000</pubDate>
+      <title>Title</title>
+      <link>https://dev.to/ken_deng_ai/title-12l</link>
+      <guid isPermaLink="true">https://dev.to/ken_deng_ai/title-12l</guid>
+      <pubDate>Sat, 18 Jul 2026 10:41:11 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Promotes prompt-shield, a 200-line Python tool for catching prompt-injection attacks. Why it matters: Direct: Provides a zero-dependency detector to mitigate prompt-injection risk.</description>
+      <description>Describes producing a Dev.to article (400-500 words) about AI automation for independent tax preparers, focusing on building audit trail and how AI ensures accuracy and creates verifiable records. Why it matters: Direct: Provides a concrete writing prompt for a practical AI-enabled article focusing on auditability and verifiable records.</description>
     </item>
     <item>
-      <title>Hugging Face MCP: Search, Run, and Deploy 500k+ AI Models Directly from Your Agent</title>
-      <link>https://dev.to/curatedmcp/hugging-face-mcp-search-run-and-deploy-500k-ai-models-directly-from-your-agent-54cm</link>
-      <guid isPermaLink="true">https://dev.to/curatedmcp/hugging-face-mcp-search-run-and-deploy-500k-ai-models-directly-from-your-agent-54cm</guid>
-      <pubDate>Sat, 11 Jul 2026 10:38:10 +0000</pubDate>
+      <title>AI Agents Look Smart Until You Put Them Inside a Real Business Process</title>
+      <link>https://dev.to/goodworklabs/ai-agents-look-smart-until-you-put-them-inside-a-real-business-process-38lf</link>
+      <guid isPermaLink="true">https://dev.to/goodworklabs/ai-agents-look-smart-until-you-put-them-inside-a-real-business-process-38lf</guid>
+      <pubDate>Sat, 18 Jul 2026 10:44:36 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Hugging Face MCP connects your AI agent to the world&#x27;s largest open-source model repository; install guide and config available at curatedmcp.com. Why it matters: Direct: Connects your agent to a vast open-source model repository, enabling in-agent search, run, and deploy workflows.</description>
+      <description>AI agent demos look flawless on clean data and scripted tasks; they perform under ideal conditions, but once deployed in production, performance changes. Why it matters: Direct: Demos often mask production drift; emphasize end-to-end reliability and real-world data handling.</description>
     </item>
     <item>
-      <title>Claude Code, Beyond the Prompt — Part 4: Your First MCP Server (Give Claude Safe Hands on Your Own Tools)</title>
-      <link>https://dev.to/gde03/claude-code-beyond-the-prompt-part-4-your-first-mcp-server-give-claude-safe-hands-on-your-own-b8p</link>
-      <guid isPermaLink="true">https://dev.to/gde03/claude-code-beyond-the-prompt-part-4-your-first-mcp-server-give-claude-safe-hands-on-your-own-b8p</guid>
-      <pubDate>Sat, 11 Jul 2026 10:45:28 +0000</pubDate>
+      <title>One MacBook vs 2× DGX Spark: DeepSeek-V4-Flash scored 54% vs 52% on Terminal-Bench 2.1</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1uzaf54/one_macbook_vs_2_dgx_spark_deepseekv4flash_scored/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1uzaf54/one_macbook_vs_2_dgx_spark_deepseekv4flash_scored/</guid>
+      <pubDate>Fri, 17 Jul 2026 19:58:13 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Part 4 covers patterns from running a live automated trading system on Claude Code, including SSH-ing into production to run commands and paste outputs back. Why it matters: Direct: Demonstrates practical debugging workflows by SSHing into production and replaying outputs within Claude Code.</description>
+      <description>A local benchmark compared DeepSeek-V4-Flash on two setups: a quantized MacBook and 2× DGX Spark; MacBook scored 54% (47/87 tasks) on Terminal-Bench 2.1. Why it matters: Direct: Demonstrates hardware tradeoffs between consumer laptops and data-center GPUs for benchmark tasks.</description>
     </item>
     <item>
-      <title>Some testing on RTX Pro 4500 (With Oculink) on PrismaQuant, INT4 Autoround and NVFP4 W4A4 quantized model</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1ut8o8t/some_testing_on_rtx_pro_4500_with_oculink_on/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1ut8o8t/some_testing_on_rtx_pro_4500_with_oculink_on/</guid>
-      <pubDate>Sat, 11 Jul 2026 03:16:19 +0000</pubDate>
+      <title>Integrating AI into a Budget Tracker using the Vercel AI SDK</title>
+      <link>https://dev.to/khaerie/integrating-ai-into-a-budget-tracker-using-the-vercel-ai-sdk-3mme</link>
+      <guid isPermaLink="true">https://dev.to/khaerie/integrating-ai-into-a-budget-tracker-using-the-vercel-ai-sdk-3mme</guid>
+      <pubDate>Sat, 18 Jul 2026 10:43:52 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Testing on RTX Pro 4500 (With Oculink) on PrismaQuant, INT4 Autoround and NVFP4 W4A4 quantized model; observed tool-call errors and thinking loops. Why it matters: Direct: Documents practical hardware testing workflows for quantized models and high-memory GPUs.</description>
+      <description>The Budget Tracker was extended with an AI-powered budgeting assistant; it already supports budgets and expense tracking but lacked guidance on spending optimization. Why it matters: Direct: Adds AI guidance to budgeting workflows, potentially improving user spending outcomes.</description>
     </item>
     <item>
-      <title>Tencent-HY3 is the real deal on 128GB!</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1usy9ie/tencenthy3_is_the_real_deal_on_128gb/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1usy9ie/tencenthy3_is_the_real_deal_on_128gb/</guid>
-      <pubDate>Fri, 10 Jul 2026 19:53:09 +0000</pubDate>
+      <title>VulnHunter: Capital One&#x27;s agentic AI code security tool</title>
+      <link>https://www.capitalone.com/tech/open-source/announcing-vulnhunter/</link>
+      <guid isPermaLink="true">https://www.capitalone.com/tech/open-source/announcing-vulnhunter/</guid>
+      <pubDate>Fri, 17 Jul 2026 12:42:12 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>HY3 is a 295B-A21B MoE release from Tencent that competes on the frontier of open-weights models, with smaller size and stronger benchmarks. Why it matters: Direct: Indicates a scalable option for frontier models with high efficiency.</description>
+      <description>VulnHunter is Capital One&#x27;s agentic AI code security tool. Why it matters: Direct: Highlights Capital One&#x27;s adoption of agentic AI for code security.</description>
     </item>
     <item>
-      <title>How GPT-5.6 Changes Knowledge Work</title>
-      <link>https://every.to/chain-of-thought/how-gpt-5-6-changes-knowledge-work</link>
-      <guid isPermaLink="true">https://every.to/chain-of-thought/how-gpt-5-6-changes-knowledge-work</guid>
-      <pubDate>Fri, 10 Jul 2026 15:37:39 +0000</pubDate>
+      <title>It should be the golden age of porting</title>
+      <link>https://nitter.net/emollick/status/2078169042687320449</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2078169042687320449</guid>
+      <pubDate>Fri, 17 Jul 2026 17:24:44 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Chain of Thought Midjourney/Every illustration referenced; invites readers to read the full post and subscribe for RSS access. Why it matters: Direct: Highlights potential engagement hooks (read full post, RSS) that product teams can reuse to surface AI knowledge-work content.</description>
+      <description>Porting era: iPad could gain native games. User describes using Codex 5.6 Sol to run RollerCoaster Tycoon 2 natively on iPad via OpenRCT2, compiling to ARM64 and adding touch controls. Why it matters: Direct: Demonstrates a concrete porting workflow achieving native ARM64 iPad app with touch controls, indicating faster platform expansion potential.</description>
     </item>
     <item>
-      <title>To be clear</title>
-      <link>https://nitter.net/emollick/status/2075766584266653767</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2075766584266653767</guid>
-      <pubDate>Sat, 11 Jul 2026 02:18:14 +0000</pubDate>
+      <title>This is all interesting but specifically</title>
+      <link>https://nitter.net/emollick/status/2078191705585553717</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2078191705585553717</guid>
+      <pubDate>Fri, 17 Jul 2026 18:54:48 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>NotebookLM has its own issues and targets a research-and-analysis use case; it demonstrates a UX that treats knowledge work seriously by exposing processes instead of focusing only on outputs. Why it matters: Direct: Highlights a UX pattern that surfaces processes, guiding PMs on knowledge-work UX design.</description>
+      <description>Discusses differing perceptions of model releases: US/UK see cyber risk in closed-lab models; China reportedly does not share this view; includes a note on Kimi observations. Why it matters: Direct: Highlights geopolitical and risk-perception variance shaping AI policy discussions and product risk framing.</description>
     </item>
     <item>
-      <title>Thats good for the dumb reason that I am burning</title>
-      <link>https://nitter.net/emollick/status/2075823098868142502</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2075823098868142502</guid>
-      <pubDate>Sat, 11 Jul 2026 06:02:48 +0000</pubDate>
+      <title>Weekly Dose of Optimism #202</title>
+      <link>https://www.notboring.co/p/weekly-dose-of-optimism-202</link>
+      <guid isPermaLink="true">https://www.notboring.co/p/weekly-dose-of-optimism-202</guid>
+      <pubDate>Fri, 17 Jul 2026 11:43:07 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Author describes burning tokens as Sol in Codex plays Slay the Spire 2 daily challenge; notes beating Act 1 boss and plans a morning check-in. Why it matters: Direct: Illustrates rapid personal experimentation with AI-assisted workflows and token benchmarking.</description>
+      <description>Weekly Dose of Optimism #202 mentions Saronic, Austin Week, Walden + Sunday Robots, Lipfendra, Kimi + Inkling + Extra Doses. Why it matters: Direct: Signals a curated set of AI projects and topics for weekly coverage, indicating breadth of practical AI themes.</description>
     </item>
     <item>
-      <title>Weekly Dose of Optimism #201</title>
-      <link>https://www.notboring.co/p/weekly-dose-of-optimism-201</link>
-      <guid isPermaLink="true">https://www.notboring.co/p/weekly-dose-of-optimism-201</guid>
-      <pubDate>Fri, 10 Jul 2026 12:56:10 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>Weekly Dose of Optimism #201 highlights Aalo, Data Centers, American Turbines, OXMAN Ink, Neo Hands + Extra Doses. Why it matters: Direct: Signals potential players and themes for AI-enabled infrastructure and product tooling.</description>
-    </item>
-    <item>
-      <title>Claude Code&#x27;s Mid-Year AI Boost: Enhanced Workflows and New Features</title>
-      <link>https://dev.to/davekurian/claude-codes-mid-year-ai-boost-enhanced-workflows-and-new-features-1e21</link>
-      <guid isPermaLink="true">https://dev.to/davekurian/claude-codes-mid-year-ai-boost-enhanced-workflows-and-new-features-1e21</guid>
-      <pubDate>Sat, 11 Jul 2026 10:05:41 +0000</pubDate>
+      <title>🛠️ Agent Toolkit for AWS: How to Give Your AI Agent 15,000 AWS APIs — and Still Sleep at Night</title>
+      <link>https://dev.to/suraj_khaitan_f893c243958/agent-toolkit-for-aws-how-to-give-your-ai-agent-15000-aws-apis-and-still-sleep-at-night-2e9g</link>
+      <guid isPermaLink="true">https://dev.to/suraj_khaitan_f893c243958/agent-toolkit-for-aws-how-to-give-your-ai-agent-15000-aws-apis-and-still-sleep-at-night-2e9g</guid>
+      <pubDate>Sat, 18 Jul 2026 09:31:49 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Claude Code&#x27;s mid-year update includes an in-app browser, Sonnet 5, and a durable layer under model churn. It lets the agent open docs and read them directly, changing the cost of the loop. Why it matters: Direct: Highlights immediate usability and cost implications of in-app browsing for agent workflows.</description>
+      <description>AWS ships official method for agents to build, deploy, and operate on your cloud via a managed MCP server, evaluated skills, and guardrails that distinguish agent actions from human work. Why it matters: Direct: AWS released an official method for agents to build, deploy, and operate on the cloud with guardrails.</description>
     </item>
     <item>
-      <title>My Self-Hosted AI Assistant Kept Overwriting Its Own API Keys: A Zero-Trust Postmortem</title>
-      <link>https://dev.to/veranice/my-self-hosted-ai-assistant-kept-overwriting-its-own-api-keys-a-zero-trust-postmortem-4eec</link>
-      <guid isPermaLink="true">https://dev.to/veranice/my-self-hosted-ai-assistant-kept-overwriting-its-own-api-keys-a-zero-trust-postmortem-4eec</guid>
-      <pubDate>Sat, 11 Jul 2026 10:19:27 +0000</pubDate>
+      <title>Is That an LLM in Your Harness, or Are You Just Glad to See Me?</title>
+      <link>https://dev.to/nickyeolk/is-that-an-llm-in-your-harness-or-are-you-just-glad-to-see-me-58k4</link>
+      <guid isPermaLink="true">https://dev.to/nickyeolk/is-that-an-llm-in-your-harness-or-are-you-just-glad-to-see-me-58k4</guid>
+      <pubDate>Sat, 18 Jul 2026 08:52:08 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Postmortem on self-hosted AI agents overwriting API keys; includes sanitized watchdog and config-repair scripts, Part 1 of a series on running AI agents on real infrastructure without regretting it. Why it matters: Direct: Highlights practical, zero-trust postmortem lessons for running AI agents on real infrastructure.</description>
+      <description>Benchmark Claude Code harness (and three rivals) on agentic knowledge management; harness engineering is having a moment, with Hashimoto arguing environment engineering prevents mistakes. Why it matters: Direct: Harness benchmarking of Claude Code and rivals signals practical eval focus in agentic knowledge management.</description>
     </item>
     <item>
-      <title>Persona Cartography: Charting Language Model Personality Traits in Weight Space</title>
-      <link>https://www.lesswrong.com/posts/Rkvto5BLofzuDefyB/persona-cartography-charting-language-model-personality</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/Rkvto5BLofzuDefyB/persona-cartography-charting-language-model-personality</guid>
-      <pubDate>Fri, 10 Jul 2026 18:56:21 +0000</pubDate>
+      <title>AIs finetune their own leader: A barking simpleton</title>
+      <link>https://www.lesswrong.com/posts/3FKugjAiEzLeWHuug/ais-finetune-their-own-leader-a-barking-simpleton</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/3FKugjAiEzLeWHuug/ais-finetune-their-own-leader-a-barking-simpleton</guid>
+      <pubDate>Fri, 17 Jul 2026 20:10:44 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Summarizes the paper Persona Cartography: Charting Language Model Personality Traits in Weight Space; links to paper, GitHub, and HuggingFace; notes safety importance of model disposition. Why it matters: Direct: Highlights safety-focused understanding and control of LLM personality traits via weight-space analysis.</description>
+      <description>Explores what values AI agents would instill into their leader through LoRA finetuning on open-source models (GPT-5.5, Opus 4.7/4.8, Gemini 3.5 Flash, Kimi K2.6). Why it matters: Direct: Examines values AI agents may instill in leaders via finetuning on open-source models.</description>
     </item>
     <item>
-      <title>Better tools made Copilot code review worse. Here’s how we actually improved it.</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/</link>
-      <guid isPermaLink="true">https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/</guid>
-      <pubDate>Fri, 10 Jul 2026 15:57:47 +0000</pubDate>
+      <title>2/2) We tested it on real large-scale codebases (Kubernetes</title>
+      <link>https://nitter.net/Sourcegraph/status/2078133204998132182</link>
+      <guid isPermaLink="true">https://nitter.net/Sourcegraph/status/2078133204998132182</guid>
+      <pubDate>Fri, 17 Jul 2026 15:02:20 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Migration of Copilot code review to Unix-style code exploration tools reduced review cost by reshaping agent workflows around pull request evidence; the GitHub Blog post documents improvements. Why it matters: Direct: Demonstrates practical workflow changes that cut review time by aligning evidence-centric agent actions.</description>
+      <description>CodeScaleBench tested on Kubernetes and Apache Kafka; results show 3x better precision and a cross-file task dropping from 2 hours to 89 seconds, give your agents the context to get it right: sourcegraph. Why it matters: Direct: Reports large-scale testing results showing improvements and encourages context provisioning via Sourcegraph.</description>
     </item>
     <item>
-      <title>Don’t bring an AI detector to a deepfake fight: proving reality through multimodal provenance</title>
-      <link>https://www.lesswrong.com/posts/MBRNR5h9g6HGvAJDe/don-t-bring-an-ai-detector-to-a-deepfake-fight-proving</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/MBRNR5h9g6HGvAJDe/don-t-bring-an-ai-detector-to-a-deepfake-fight-proving</guid>
-      <pubDate>Sat, 11 Jul 2026 02:21:18 +0000</pubDate>
+      <title>Announcing the Corrigibility Research Fund</title>
+      <link>https://www.lesswrong.com/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund</guid>
+      <pubDate>Fri, 17 Jul 2026 18:06:32 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Argues that fake media detectors are outpaced in an arms race; distrust images and videos by default unless proven real. Why it matters: Direct: Shifts focus from detectors to provenance-proof methods; reduces reliance on imperfect detectors in real-world media authentication.</description>
+      <description>I&#x27;m managing a new fund at Lightcone Infrastructure that will award at least $200,000 in grants and prizes for corrigibility research in 2026, with roughly half to traditional grants (first application deadline August 23rd) and half for prizes recognizing exc... Why it matters: Direct: Early funding signals emphasis on corrigibility research, potentially accelerating practical methods and governance-focused AI safety work.</description>
     </item>
     <item>
-      <title>An Induction Head in Disguise: Chasing Grammar in a Character-Level Transformer</title>
-      <link>https://www.lesswrong.com/posts/x2ZdCoqAaLedpjDk3/an-induction-head-in-disguise-chasing-grammar-in-a-character</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/x2ZdCoqAaLedpjDk3/an-induction-head-in-disguise-chasing-grammar-in-a-character</guid>
-      <pubDate>Fri, 10 Jul 2026 22:05:58 +0000</pubDate>
+      <title>Claude make Fable 5 permanent</title>
+      <link>https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/</guid>
+      <pubDate>Sat, 18 Jul 2026 06:00:13 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>In a mechanistic interpretability post, the author is confident in measurements (copying score, OV logits, attention patterns) while exploring what the induction head &#x27;knows&#x27; and disconfirming early interpretations. Why it matters: Direct: Demonstrates rigorous measurement usage in interpretability work and cautions against overinterpreting head behavior.</description>
+      <description>Claude Fable 5 will be permanent; Beginning July 20, it will be included in all Max and Team Premium plans at 50% of limits, while Pro and Team Standard users retain access via usage credits and receive a one-time $100 credit. Why it matters: Direct: Ensures consistent access for premium users, potentially increasing adoption and channeling further feature feedback.</description>
     </item>
     <item>
-      <title>Ant Group’s Robbyant Unveils LingBot-VA 2.0: A Causal Video-Action Model Built Natively for Physical AI</title>
-      <link>https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0/</link>
-      <guid isPermaLink="true">https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0/</guid>
-      <pubDate>Sat, 11 Jul 2026 07:56:11 +0000</pubDate>
+      <title>nascheme/quixote</title>
+      <link>https://simonwillison.net/2026/Jul/18/quixote/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Jul/18/quixote/</guid>
+      <pubDate>Sat, 18 Jul 2026 05:27:49 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Robbyant releases LingBot-VA 2.0: a Physical AI video-action foundation model built from scratch for embodiment; it uses Foresight Reasoning to predict futures and re-grounds on every real observation, reaching 225 Hz asynchronous control. Why it matters: Direct: Introduces an embodied AI foundation model approach with re-grounding on every real observation and 225 Hz asynchronous control.</description>
+      <description>nascheme/quixote notes that the most recent Quixote web framework commit was six hours ago; the oldest commit is 21 years old, the initial import of Quixote 2.4 from Subversion into Git. Why it matters: Direct: Documents long-running history of a niche Python web framework, aiding contextual tool selection and maintenance.</description>
     </item>
     <item>
-      <title>Predicting human preference for generated image pairs using HPSv3 [P]</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1utdj1f/predicting_human_preference_for_generated_image/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1utdj1f/predicting_human_preference_for_generated_image/</guid>
-      <pubDate>Sat, 11 Jul 2026 07:36:36 +0000</pubDate>
+      <title>Don&#x27;t default to nonprofit</title>
+      <link>https://www.lesswrong.com/posts/8T4MTntw4tyqc6eFm/don-t-default-to-nonprofit-1</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/8T4MTntw4tyqc6eFm/don-t-default-to-nonprofit-1</guid>
+      <pubDate>Fri, 17 Jul 2026 19:54:48 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Looks at predicting human preference for generated image pairs with HPSv3; notes limitations and links to posts seeking feedback. Why it matters: Direct: Highlights practical limits of automated preference scoring for visual content; early signal for alignment gaps between metrics and human taste.</description>
+      <description>The piece argues against defaulting to nonprofit when starting AI-safety projects, noting many favor nonprofits but this may be the wrong approach. Why it matters: Direct: Challenges nonprofit-default bias and expands viable organizational models for AI safety impact.</description>
     </item>
     <item>
-      <title>I gave Fable the code: &quot;take this game and do</title>
-      <link>https://nitter.net/emollick/status/2075760408342728820</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2075760408342728820</guid>
-      <pubDate>Sat, 11 Jul 2026 01:53:41 +0000</pubDate>
+      <title>Stereo2Spatial: Convert Stereo Music Tracks to Spatialized Binaural Mixes [P]</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1uzevbg/stereo2spatial_convert_stereo_music_tracks_to/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1uzevbg/stereo2spatial_convert_stereo_music_tracks_to/</guid>
+      <pubDate>Fri, 17 Jul 2026 22:55:00 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Fable was given code to create something incredible, producing DEEP TIME: a city that is built, abandoned, forgotten, and later unearthed as a future archaeologist. Why it matters: Direct: Demonstrates rapid, creative code-driven world-building and temporal storytelling.</description>
+      <description>I have released a model after ~6 months of work to convert stereo to spatial; there is a lot of music out there with no real quality spatial mix. Why it matters: Direct: Demonstrates a real stereo-to-spatial conversion model and a concrete push to improve spatial music quality for broader tracks.</description>
     </item>
     <item>
-      <title>Show HN: SubjectiveZero, an open-source agentic node editor for creative coding</title>
-      <link>https://sxp.studio/apps/subz</link>
-      <guid isPermaLink="true">https://sxp.studio/apps/subz</guid>
-      <pubDate>Fri, 10 Jul 2026 15:23:50 +0000</pubDate>
+      <title>Kimi K3 is absolutely hammering through my Windows XP Simulator</title>
+      <link>https://nitter.net/levelsio/status/2078170967998689480</link>
+      <guid isPermaLink="true">https://nitter.net/levelsio/status/2078170967998689480</guid>
+      <pubDate>Fri, 17 Jul 2026 17:32:23 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>SubjectiveZero is an open-source agentic node editor for creative coding, highlighted in Show HN by Clem, a solo indie dev exploring XR and agentic workflows for creative/interactive work. Why it matters: Direct: Open-source tool helps creators prototype agentic, node-based pipelines; clarifies the abstraction level needed for usable creative coding tools.</description>
-    </item>
-    <item>
-      <title>In defense of not understanding your codebase</title>
-      <link>https://seangoedecke.com/in-defense-of-not-understanding-your-codebase/</link>
-      <guid isPermaLink="true">https://seangoedecke.com/in-defense-of-not-understanding-your-codebase/</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
-      <category>5) For Fun</category>
-      <description>An article questions whether engineers must completely understand their own codebase, contrasting small, low-turnover codebases with the belief that full understanding is required. Why it matters: Direct: Encourages teams to balance understanding with productive work, focusing on critical areas rather than full codebase mastery.</description>
-    </item>
-    <item>
-      <title>Notes on Tony Parkes&#x27; &quot;Contra Dance Calling&quot;</title>
-      <link>https://www.lesswrong.com/posts/uLCQ6YEou5kgfW2nx/notes-on-tony-parkes-contra-dance-calling</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/uLCQ6YEou5kgfW2nx/notes-on-tony-parkes-contra-dance-calling</guid>
-      <pubDate>Sat, 11 Jul 2026 00:50:45 +0000</pubDate>
-      <category>5) For Fun</category>
-      <description>Notes discuss Tony Parkes&#x27; Contra Dance Calling, covering the 1992 original and the 2010 updated edition, with the author reading both to compare thoughts and changes. Why it matters: Direct: Helps readers track edition differences and evolution in dance calling guidance.</description>
+      <description>Kimi K3 is absolutely hammering through my Windows XP Simulator to do list; Claude Code couldn&#x27;t do this for 2 weeks, getting downgraded to Opus for safety and then Sonnet again for safety, wasting 2 weeks due to guardrails protecting a fun hobby project. Why it matters: Direct: Reveals a real-world frustration with safety guardrails and incentive to explore less restrictive tooling for hobby projects.</description>
     </item>
   </channel>
 </rss>

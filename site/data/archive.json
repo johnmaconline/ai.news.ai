@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-07-18",
+    "title": "Daily AI Feed - 2026-07-18",
+    "lead_story": "Here's how to add the Codex Security plugin in Codex",
+    "lead_url": "https://nitter.net/OpenAI/status/2078243670265041038",
+    "generated_at": "2026-07-18T11:08:23+00:00"
+  },
+  {
     "date": "2026-07-11",
     "title": "Daily AI Feed - 2026-07-11",
     "lead_story": "Qwen3.6 35B-A3B (Q8_0, no KV quant) single prompt in opencode: \"Create a beautiful, relaxing flight simulator in a single html file with mountains, clouds, and endless procedural terrain\"",
