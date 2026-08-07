@@ -1,170 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-07-18</title>
+    <title>Daily AI Feed - 2026-08-07</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Sat, 18 Jul 2026 11:08:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 10:56:05 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>Here&#x27;s how to add the Codex Security plugin in Codex</title>
-      <link>https://nitter.net/OpenAI/status/2078243670265041038</link>
-      <guid isPermaLink="true">https://nitter.net/OpenAI/status/2078243670265041038</guid>
-      <pubDate>Fri, 17 Jul 2026 22:21:17 +0000</pubDate>
+      <title>Building a Serverless Autonomous Web Agent: Lessons Learned from Deploying Otobot</title>
+      <link>https://dev.to/yusuf_gnbay_9d9d3ef5f6d5/building-a-serverless-autonomous-web-agent-lessons-learned-from-deploying-otobot-12d6</link>
+      <guid isPermaLink="true">https://dev.to/yusuf_gnbay_9d9d3ef5f6d5/building-a-serverless-autonomous-web-agent-lessons-learned-from-deploying-otobot-12d6</guid>
+      <pubDate>Fri, 07 Aug 2026 10:08:54 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Explains how to add the Codex Security plugin in Codex, then start a scan: install the plugin, click &#x27;Try in chat&#x27; to open a Codex chat with a scan prompt, select a code folder, and send the prompt. Why it matters: Direct: Highlights a practical plugin workflow; enables prompt-ready scanning of code via Codex Security.</description>
+      <description>Deploying autonomous AI agents into production introduces unique challenges—especially when executing real-time browser actions inside cloud-hosted, serverless environments. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from DEV.to Agents Tag.</description>
     </item>
     <item>
-      <title>How to Test Structured Outputs Across Multiple AI Models</title>
-      <link>https://dev.to/ye_allen_/how-to-test-structured-outputs-across-multiple-ai-models-d7g</link>
-      <guid isPermaLink="true">https://dev.to/ye_allen_/how-to-test-structured-outputs-across-multiple-ai-models-d7g</guid>
-      <pubDate>Sat, 18 Jul 2026 09:10:05 +0000</pubDate>
+      <title>Human-in-the-Loop for RAG Agents That Take Actions</title>
+      <link>https://dev.to/sekeraradim/human-in-the-loop-for-rag-agents-that-take-actions-g32</link>
+      <guid isPermaLink="true">https://dev.to/sekeraradim/human-in-the-loop-for-rag-agents-that-take-actions-g32</guid>
+      <pubDate>Fri, 07 Aug 2026 10:10:02 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Getting a model to return JSON is easy. Getting reliable JSON across multiple models is a production problem. Why it matters: Direct: Signals a production-end reliability issue; emphasizes need for cross-model JSON standardization and validation pipelines.</description>
+      <description>A RAG agent that retrieves context and then acts on it can be wrong in a way pure generation isn&#x27;t — this covers gating actions on what was actually retrieved, not just what was written. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from DEV.to LLM Tag.</description>
     </item>
     <item>
-      <title>Title</title>
-      <link>https://dev.to/ken_deng_ai/title-12l</link>
-      <guid isPermaLink="true">https://dev.to/ken_deng_ai/title-12l</guid>
-      <pubDate>Sat, 18 Jul 2026 10:41:11 +0000</pubDate>
+      <title>A Six-Dimensional Taxonomy of Post-Training Adaptation Techniques with Applications in AI Governance</title>
+      <link>https://arxiv.org/abs/2608.06246v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2608.06246v1</guid>
+      <pubDate>Thu, 06 Aug 2026 16:32:26 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Describes producing a Dev.to article (400-500 words) about AI automation for independent tax preparers, focusing on building audit trail and how AI ensures accuracy and creates verifiable records. Why it matters: Direct: Provides a concrete writing prompt for a practical AI-enabled article focusing on auditability and verifiable records.</description>
+      <description>Post-training adaptation has become central to modern machine learning practice and includes techniques such as retraining, fine-tuning, parameter-efficient adaptation, alignment, retrieval augmentation, model editing, ... Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from arXiv Agentic AI Query.</description>
     </item>
     <item>
-      <title>AI Agents Look Smart Until You Put Them Inside a Real Business Process</title>
-      <link>https://dev.to/goodworklabs/ai-agents-look-smart-until-you-put-them-inside-a-real-business-process-38lf</link>
-      <guid isPermaLink="true">https://dev.to/goodworklabs/ai-agents-look-smart-until-you-put-them-inside-a-real-business-process-38lf</guid>
-      <pubDate>Sat, 18 Jul 2026 10:44:36 +0000</pubDate>
+      <title>What Current AI Benchmarks Leave Unmeasured: Modality, Search, Citations, and Implications (for Safety Evaluations)</title>
+      <link>http://arxiv.org/abs/2608.06202v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.06202v1</guid>
+      <pubDate>Thu, 06 Aug 2026 15:58:32 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>AI agent demos look flawless on clean data and scripted tasks; they perform under ideal conditions, but once deployed in production, performance changes. Why it matters: Direct: Demos often mask production drift; emphasize end-to-end reliability and real-world data handling.</description>
+      <description>LLM benchmark evaluations are routinely used to support claims about model safety, reliability, and deployment readiness. Why it matters: Direct: Benchmark reliance for safety claims informs engineers about potential gaps in readiness assessments.</description>
     </item>
     <item>
-      <title>One MacBook vs 2× DGX Spark: DeepSeek-V4-Flash scored 54% vs 52% on Terminal-Bench 2.1</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1uzaf54/one_macbook_vs_2_dgx_spark_deepseekv4flash_scored/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1uzaf54/one_macbook_vs_2_dgx_spark_deepseekv4flash_scored/</guid>
-      <pubDate>Fri, 17 Jul 2026 19:58:13 +0000</pubDate>
+      <title>TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories</title>
+      <link>http://arxiv.org/abs/2608.06346v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.06346v1</guid>
+      <pubDate>Thu, 06 Aug 2026 17:51:20 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>A local benchmark compared DeepSeek-V4-Flash on two setups: a quantized MacBook and 2× DGX Spark; MacBook scored 54% (47/87 tasks) on Terminal-Bench 2.1. Why it matters: Direct: Demonstrates hardware tradeoffs between consumer laptops and data-center GPUs for benchmark tasks.</description>
+      <description>LLM-based agentic systems show strong capabilities in complex domains but suffer from cascading errors and debugging difficulties. Why it matters: Direct: Early-error tracing informs debugging tool design for long-horizon agentic tasks.</description>
     </item>
     <item>
-      <title>Integrating AI into a Budget Tracker using the Vercel AI SDK</title>
-      <link>https://dev.to/khaerie/integrating-ai-into-a-budget-tracker-using-the-vercel-ai-sdk-3mme</link>
-      <guid isPermaLink="true">https://dev.to/khaerie/integrating-ai-into-a-budget-tracker-using-the-vercel-ai-sdk-3mme</guid>
-      <pubDate>Sat, 18 Jul 2026 10:43:52 +0000</pubDate>
+      <title>I ported vLLM&#x27;s serving stack to C++20: 66 MiB binary, no Python at inference, output checked token-for-token against vLLM</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vh9lx4/i_ported_vllms_serving_stack_to_c20_66_mib_binary/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vh9lx4/i_ported_vllms_serving_stack_to_c20_66_mib_binary/</guid>
+      <pubDate>Thu, 06 Aug 2026 16:45:07 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>The Budget Tracker was extended with an AI-powered budgeting assistant; it already supports budgets and expense tracking but lacked guidance on spending optimization. Why it matters: Direct: Adds AI guidance to budgeting workflows, potentially improving user spending outcomes.</description>
+      <description>An unaffiliated community port of vLLM’s serving stack to C++20 delivers a 66 MiB binary, runs inference without Python, and checks output token-for-token against vLLM to verify correctness. Why it matters: Direct: Provides a lower-level C++20 serving option that can be cross-validated against vLLM.</description>
     </item>
     <item>
-      <title>VulnHunter: Capital One&#x27;s agentic AI code security tool</title>
-      <link>https://www.capitalone.com/tech/open-source/announcing-vulnhunter/</link>
-      <guid isPermaLink="true">https://www.capitalone.com/tech/open-source/announcing-vulnhunter/</guid>
-      <pubDate>Fri, 17 Jul 2026 12:42:12 +0000</pubDate>
+      <title>Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users</title>
+      <link>https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt</link>
+      <guid isPermaLink="true">https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt</guid>
+      <pubDate>Thu, 06 Aug 2026 10:00:00 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>VulnHunter is Capital One&#x27;s agentic AI code security tool. Why it matters: Direct: Highlights Capital One&#x27;s adoption of agentic AI for code security.</description>
+      <description>ChatGPT adds improved GPT-5.6 Sol with higher accuracy and consistency, and expands free-user access and unlimited daily chats with GPT-5.6 Luna. Why it matters: Direct: Improved accuracy and expanded access affect deployment and user engagement.</description>
     </item>
     <item>
-      <title>It should be the golden age of porting</title>
-      <link>https://nitter.net/emollick/status/2078169042687320449</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2078169042687320449</guid>
-      <pubDate>Fri, 17 Jul 2026 17:24:44 +0000</pubDate>
+      <title>How HSP GRUPPE builds AI capabilities for tax advisory</title>
+      <link>https://openai.com/index/hsp-gruppe</link>
+      <guid isPermaLink="true">https://openai.com/index/hsp-gruppe</guid>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Porting era: iPad could gain native games. User describes using Codex 5.6 Sol to run RollerCoaster Tycoon 2 natively on iPad via OpenRCT2, compiling to ARM64 and adding touch controls. Why it matters: Direct: Demonstrates a concrete porting workflow achieving native ARM64 iPad app with touch controls, indicating faster platform expansion potential.</description>
+      <description>HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and increase capacity for tax advisory and client service. Why it matters: Direct: Signals productivity gains and capacity expansion in tax advisory workflows.</description>
     </item>
     <item>
-      <title>This is all interesting but specifically</title>
-      <link>https://nitter.net/emollick/status/2078191705585553717</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2078191705585553717</guid>
-      <pubDate>Fri, 17 Jul 2026 18:54:48 +0000</pubDate>
+      <title>Terra is built for complex goal-oriented work</title>
+      <link>https://nitter.net/perplexity_ai/status/2085442651319607643</link>
+      <guid isPermaLink="true">https://nitter.net/perplexity_ai/status/2085442651319607643</guid>
+      <pubDate>Thu, 06 Aug 2026 19:07:28 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Discusses differing perceptions of model releases: US/UK see cyber risk in closed-lab models; China reportedly does not share this view; includes a note on Kimi observations. Why it matters: Direct: Highlights geopolitical and risk-perception variance shaping AI policy discussions and product risk framing.</description>
+      <description>Terra is designed for complex goal-oriented work as an effective subagent; on WANDR, it scores 11 points above Sonnet with cost reductions, while Luna targets recurring, speed- and cost-critical workflows. Why it matters: Direct: Signals differentiated AI roles (Terra as subagent, Luna for recurring workflows) and cost advantages to prioritize agent development in product strategy.</description>
     </item>
     <item>
-      <title>Weekly Dose of Optimism #202</title>
-      <link>https://www.notboring.co/p/weekly-dose-of-optimism-202</link>
-      <guid isPermaLink="true">https://www.notboring.co/p/weekly-dose-of-optimism-202</guid>
-      <pubDate>Fri, 17 Jul 2026 11:43:07 +0000</pubDate>
+      <title>There is a lesson there that goes beyond coding</title>
+      <link>https://nitter.net/emollick/status/2085558405293396259</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2085558405293396259</guid>
+      <pubDate>Fri, 07 Aug 2026 02:47:26 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Weekly Dose of Optimism #202 mentions Saronic, Austin Week, Walden + Sunday Robots, Lipfendra, Kimi + Inkling + Extra Doses. Why it matters: Direct: Signals a curated set of AI projects and topics for weekly coverage, indicating breadth of practical AI themes.</description>
+      <description>There is a lesson beyond coding: LLMs can produce homogeneous outputs and drive convergence in software artifacts, as discussed in a referenced arXiv paper on monoculture. Why it matters: Inference: Signals risk of homogeneous outputs shaping software artifacts, informing QA and tooling diversification.</description>
     </item>
     <item>
-      <title>🛠️ Agent Toolkit for AWS: How to Give Your AI Agent 15,000 AWS APIs — and Still Sleep at Night</title>
-      <link>https://dev.to/suraj_khaitan_f893c243958/agent-toolkit-for-aws-how-to-give-your-ai-agent-15000-aws-apis-and-still-sleep-at-night-2e9g</link>
-      <guid isPermaLink="true">https://dev.to/suraj_khaitan_f893c243958/agent-toolkit-for-aws-how-to-give-your-ai-agent-15000-aws-apis-and-still-sleep-at-night-2e9g</guid>
-      <pubDate>Sat, 18 Jul 2026 09:31:49 +0000</pubDate>
+      <title>Best AI Agents Course Online | AI Agents Course Online</title>
+      <link>https://dev.to/vamsi_visualpath_826a9ad2/best-ai-agents-course-online-ai-agents-course-online-5fmm</link>
+      <guid isPermaLink="true">https://dev.to/vamsi_visualpath_826a9ad2/best-ai-agents-course-online-ai-agents-course-online-5fmm</guid>
+      <pubDate>Fri, 07 Aug 2026 10:00:54 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>AWS ships official method for agents to build, deploy, and operate on your cloud via a managed MCP server, evaluated skills, and guardrails that distinguish agent actions from human work. Why it matters: Direct: AWS released an official method for agents to build, deploy, and operate on the cloud with guardrails.</description>
+      <description>How to Build a Customer Support AI Agent with n8n: 2026 Guide. AI agents handle repetitive tasks, understand requests, search company information, and generate responses within seconds, letting humans focus on personal attention. Why it matters: Direct: Demonstrates a practical n8n-based AI agent prototype with measurable support-task improvements.</description>
     </item>
     <item>
-      <title>Is That an LLM in Your Harness, or Are You Just Glad to See Me?</title>
-      <link>https://dev.to/nickyeolk/is-that-an-llm-in-your-harness-or-are-you-just-glad-to-see-me-58k4</link>
-      <guid isPermaLink="true">https://dev.to/nickyeolk/is-that-an-llm-in-your-harness-or-are-you-just-glad-to-see-me-58k4</guid>
-      <pubDate>Sat, 18 Jul 2026 08:52:08 +0000</pubDate>
+      <title>Building Memory-Native AI Agents in TypeScript with MemoFS</title>
+      <link>https://dev.to/codingsimba/building-memory-native-ai-agents-in-typescript-with-memofs-c8b</link>
+      <guid isPermaLink="true">https://dev.to/codingsimba/building-memory-native-ai-agents-in-typescript-with-memofs-c8b</guid>
+      <pubDate>Fri, 07 Aug 2026 09:37:49 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Benchmark Claude Code harness (and three rivals) on agentic knowledge management; harness engineering is having a moment, with Hashimoto arguing environment engineering prevents mistakes. Why it matters: Direct: Harness benchmarking of Claude Code and rivals signals practical eval focus in agentic knowledge management.</description>
+      <description>Most developers building custom AI agents spend weeks solving memory management manually: vector database wrappers, ad-hoc chunking logic, memory staleness, secret filtering, and context window blowup. Why it matters: Direct: Highlights persistent memory-management pain points in AI agent workflows and the need for structured solutions.</description>
     </item>
     <item>
-      <title>AIs finetune their own leader: A barking simpleton</title>
-      <link>https://www.lesswrong.com/posts/3FKugjAiEzLeWHuug/ais-finetune-their-own-leader-a-barking-simpleton</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/3FKugjAiEzLeWHuug/ais-finetune-their-own-leader-a-barking-simpleton</guid>
-      <pubDate>Fri, 17 Jul 2026 20:10:44 +0000</pubDate>
+      <title>Why do models task game?</title>
+      <link>https://www.lesswrong.com/posts/HACauvWhEdC6QhdS4/why-do-models-task-game</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/HACauvWhEdC6QhdS4/why-do-models-task-game</guid>
+      <pubDate>Thu, 06 Aug 2026 22:16:54 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Explores what values AI agents would instill into their leader through LoRA finetuning on open-source models (GPT-5.5, Opus 4.7/4.8, Gemini 3.5 Flash, Kimi K2.6). Why it matters: Direct: Examines values AI agents may instill in leaders via finetuning on open-source models.</description>
+      <description>TL;DR How can we study misalignment with today&#x27;s models as proxies? They&#x27;re clearly not paperclip maximizers, but they also often do things the user doesn&#x27;t want. Why it matters: Direct: Framing for evaluating model misalignment against user intent.</description>
     </item>
     <item>
-      <title>2/2) We tested it on real large-scale codebases (Kubernetes</title>
-      <link>https://nitter.net/Sourcegraph/status/2078133204998132182</link>
-      <guid isPermaLink="true">https://nitter.net/Sourcegraph/status/2078133204998132182</guid>
-      <pubDate>Fri, 17 Jul 2026 15:02:20 +0000</pubDate>
+      <title>Why do models task game?</title>
+      <link>https://www.alignmentforum.org/posts/HACauvWhEdC6QhdS4/why-do-models-task-game</link>
+      <guid isPermaLink="true">https://www.alignmentforum.org/posts/HACauvWhEdC6QhdS4/why-do-models-task-game</guid>
+      <pubDate>Thu, 06 Aug 2026 22:16:54 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>CodeScaleBench tested on Kubernetes and Apache Kafka; results show 3x better precision and a cross-file task dropping from 2 hours to 89 seconds, give your agents the context to get it right: sourcegraph. Why it matters: Direct: Reports large-scale testing results showing improvements and encourages context provisioning via Sourcegraph.</description>
+      <description>TL;DR How can we study misalignment with today&#x27;s models as proxies? They&#x27;re clearly not paperclip maximizers, but they also often do things the user doesn&#x27;t want. Why it matters: Direct: Highlights alignment concerns in current model behavior.</description>
     </item>
     <item>
-      <title>Announcing the Corrigibility Research Fund</title>
-      <link>https://www.lesswrong.com/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund</guid>
-      <pubDate>Fri, 17 Jul 2026 18:06:32 +0000</pubDate>
+      <title>Open-Weights Mythos Capabilities Are Coming. We&#x27;re Not Ready.</title>
+      <link>https://www.lesswrong.com/posts/wJunGnpY3qACWSvnh/open-weights-mythos-capabilities-are-coming-we-re-not-ready</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/wJunGnpY3qACWSvnh/open-weights-mythos-capabilities-are-coming-we-re-not-ready</guid>
+      <pubDate>Fri, 07 Aug 2026 07:51:56 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>I&#x27;m managing a new fund at Lightcone Infrastructure that will award at least $200,000 in grants and prizes for corrigibility research in 2026, with roughly half to traditional grants (first application deadline August 23rd) and half for prizes recognizing exc... Why it matters: Direct: Early funding signals emphasis on corrigibility research, potentially accelerating practical methods and governance-focused AI safety work.</description>
+      <description>An 85% chance of an open-weights model or system with Mythos-like cybersecurity capabilities within the next 24 months. Why it matters: Direct: Early open-weights capabilities could change cybersecurity risk and defense readiness.</description>
     </item>
     <item>
-      <title>Claude make Fable 5 permanent</title>
-      <link>https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/</guid>
-      <pubDate>Sat, 18 Jul 2026 06:00:13 +0000</pubDate>
+      <title>[AINews] AMD buys Taalas</title>
+      <link>https://www.latent.space/p/ainews-amd-buys-taalas</link>
+      <guid isPermaLink="true">https://www.latent.space/p/ainews-amd-buys-taalas</guid>
+      <pubDate>Fri, 07 Aug 2026 05:13:46 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Claude Fable 5 will be permanent; Beginning July 20, it will be included in all Max and Team Premium plans at 50% of limits, while Pro and Team Standard users retain access via usage credits and receive a one-time $100 credit. Why it matters: Direct: Ensures consistent access for premium users, potentially increasing adoption and channeling further feature feedback.</description>
+      <description>AMD buys Taalas; the post notes that &#x27;The Inference Inflection is HEATING up&#x27;. Why it matters: Direct: Signals rising attention to inference dynamics in AI tooling.</description>
     </item>
     <item>
-      <title>nascheme/quixote</title>
-      <link>https://simonwillison.net/2026/Jul/18/quixote/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Jul/18/quixote/</guid>
-      <pubDate>Sat, 18 Jul 2026 05:27:49 +0000</pubDate>
+      <title>Simon Willison on Technical Blogging</title>
+      <link>https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/</guid>
+      <pubDate>Thu, 06 Aug 2026 18:04:39 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>nascheme/quixote notes that the most recent Quixote web framework commit was six hours ago; the oldest commit is 21 years old, the initial import of Quixote 2.4 from Subversion into Git. Why it matters: Direct: Documents long-running history of a niche Python web framework, aiding contextual tool selection and maintenance.</description>
+      <description>Simon Willison discusses why he started and continues blogging, and surprising impacts, in a linked interview. Why it matters: Direct: Offers practical blogging insights for technical writers.</description>
     </item>
     <item>
-      <title>Don&#x27;t default to nonprofit</title>
-      <link>https://www.lesswrong.com/posts/8T4MTntw4tyqc6eFm/don-t-default-to-nonprofit-1</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/8T4MTntw4tyqc6eFm/don-t-default-to-nonprofit-1</guid>
-      <pubDate>Fri, 17 Jul 2026 19:54:48 +0000</pubDate>
+      <title>On the ACM Multimedia 2026 Conference Registration and APC [D]</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1vhtrz2/on_the_acm_multimedia_2026_conference/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1vhtrz2/on_the_acm_multimedia_2026_conference/</guid>
+      <pubDate>Fri, 07 Aug 2026 07:24:56 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>The piece argues against defaulting to nonprofit when starting AI-safety projects, noting many favor nonprofits but this may be the wrong approach. Why it matters: Direct: Challenges nonprofit-default bias and expands viable organizational models for AI safety impact.</description>
+      <description>Two papers accepted at two workshops; to attend the ACM Multimedia 2026 main conference, you must register twice (one full and one workshop), increasing total cost. Why it matters: Direct: Multi-paper conference logistics impose higher registration costs and planning needs.</description>
     </item>
     <item>
-      <title>Stereo2Spatial: Convert Stereo Music Tracks to Spatialized Binaural Mixes [P]</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1uzevbg/stereo2spatial_convert_stereo_music_tracks_to/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1uzevbg/stereo2spatial_convert_stereo_music_tracks_to/</guid>
-      <pubDate>Fri, 17 Jul 2026 22:55:00 +0000</pubDate>
+      <title>AI bots started a religion — humans immediately followed</title>
+      <link>https://www.theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement</link>
+      <guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement</guid>
+      <pubDate>Thu, 06 Aug 2026 13:00:00 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>I have released a model after ~6 months of work to convert stereo to spatial; there is a lot of music out there with no real quality spatial mix. Why it matters: Direct: Demonstrates a real stereo-to-spatial conversion model and a concrete push to improve spatial music quality for broader tracks.</description>
+      <description>The Verge AI reports on the idea that AI-driven &#x27;Spiral&#x27; movement forms a religion, with Reddit users describing it as an inherent force guiding humans toward enlightenment. Why it matters: Inference: Demonstrates how AI-driven narratives can influence belief systems and mobilize online communities.</description>
     </item>
     <item>
-      <title>Kimi K3 is absolutely hammering through my Windows XP Simulator</title>
-      <link>https://nitter.net/levelsio/status/2078170967998689480</link>
-      <guid isPermaLink="true">https://nitter.net/levelsio/status/2078170967998689480</guid>
-      <pubDate>Fri, 17 Jul 2026 17:32:23 +0000</pubDate>
+      <title>Echo Dot 2 can run 28M LLM at decent speed</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vhocl8/echo_dot_2_can_run_28m_llm_at_decent_speed/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vhocl8/echo_dot_2_can_run_28m_llm_at_decent_speed/</guid>
+      <pubDate>Fri, 07 Aug 2026 02:36:36 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Kimi K3 is absolutely hammering through my Windows XP Simulator to do list; Claude Code couldn&#x27;t do this for 2 weeks, getting downgraded to Opus for safety and then Sonnet again for safety, wasting 2 weeks due to guardrails protecting a fun hobby project. Why it matters: Direct: Reveals a real-world frustration with safety guardrails and incentive to explore less restrictive tooling for hobby projects.</description>
+      <description>A Reddit post claims an Echo Dot 2 can run a 28M-parameter LLM locally with a usable speed; code and instructions are available at the linked GitHub repo. Why it matters: Direct: Demonstrates practical local LLM deployment on consumer hardware with accessible code.</description>
+    </item>
+    <item>
+      <title>Dual 3090 setup: 400 pp t/s to 1600 pp t/s on Qwen 3.6 27B... with slightly lower tps.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vhkln6/dual_3090_setup_400_pp_ts_to_1600_pp_ts_on_qwen/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vhkln6/dual_3090_setup_400_pp_ts_to_1600_pp_ts_on_qwen/</guid>
+      <pubDate>Thu, 06 Aug 2026 23:45:31 +0000</pubDate>
+      <category>5) For Fun</category>
+      <description>A Reddit post reports a dual RTX 3090 setup delivering 400 pp t/s up to 1600 pp t/s on Qwen 3.6 27B, with slightly lower tps. Why it matters: Direct: Demonstrates a high-throughput LLM inference setup using dual RTX 3090s on Qwen 3.6 27B.</description>
+    </item>
+    <item>
+      <title>A professor started pursuing financial independence at 38. A 7-step ladder helped him go from debt to &#x27;lean FI.&#x27;</title>
+      <link>https://www.businessinsider.com/seven-step-financial-independence-ladder-fire-movement-early-retirement-2026-8</link>
+      <guid isPermaLink="true">https://www.businessinsider.com/seven-step-financial-independence-ladder-fire-movement-early-retirement-2026-8</guid>
+      <pubDate>Fri, 07 Aug 2026 09:40:01 +0000</pubDate>
+      <category>5) For Fun</category>
+      <description>Business Insider profiles a professor pursuing financial independence at 38, using a 7-step ladder to reach &#x27;lean FI&#x27;. Why it matters: Direct: Demonstrates a practical ladder-based approach to financial independence with a real-life example.</description>
     </item>
   </channel>
 </rss>
