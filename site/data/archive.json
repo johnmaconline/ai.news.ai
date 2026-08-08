@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-08-08",
+    "title": "Daily AI Feed - 2026-08-08",
+    "lead_story": "The Prompt Versioning Nightmare (And How I Finally Fixed It With PromptOT)",
+    "lead_url": "https://dev.to/promptot/the-prompt-versioning-nightmare-and-how-i-finally-fixed-it-with-promptot-5i1",
+    "generated_at": "2026-08-08T10:33:07+00:00"
+  },
+  {
     "date": "2026-08-07",
     "title": "Daily AI Feed - 2026-08-07",
     "lead_story": "Building a Serverless Autonomous Web Agent: Lessons Learned from Deploying Otobot",
