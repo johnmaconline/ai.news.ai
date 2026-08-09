@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-08-09",
+    "title": "Daily AI Feed - 2026-08-09",
+    "lead_story": "Meet Shepherd: An Open-Source Python Substrate That Lets Meta-Agents Fork, Replay, and Revert Any Agent Run",
+    "lead_url": "https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/",
+    "generated_at": "2026-08-09T10:32:45+00:00"
+  },
+  {
     "date": "2026-08-08",
     "title": "Daily AI Feed - 2026-08-08",
     "lead_story": "The Prompt Versioning Nightmare (And How I Finally Fixed It With PromptOT)",

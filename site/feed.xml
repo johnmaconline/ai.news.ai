@@ -1,178 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-08-08</title>
+    <title>Daily AI Feed - 2026-08-09</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Sat, 08 Aug 2026 10:33:07 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 10:32:45 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>The Prompt Versioning Nightmare (And How I Finally Fixed It With PromptOT)</title>
-      <link>https://dev.to/promptot/the-prompt-versioning-nightmare-and-how-i-finally-fixed-it-with-promptot-5i1</link>
-      <guid isPermaLink="true">https://dev.to/promptot/the-prompt-versioning-nightmare-and-how-i-finally-fixed-it-with-promptot-5i1</guid>
-      <pubDate>Sat, 08 Aug 2026 08:50:28 +0000</pubDate>
+      <title>Meet Shepherd: An Open-Source Python Substrate That Lets Meta-Agents Fork, Replay, and Revert Any Agent Run</title>
+      <link>https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/</link>
+      <guid isPermaLink="true">https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/</guid>
+      <pubDate>Sat, 08 Aug 2026 20:54:49 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Describes the prompt versioning nightmare: tweaks improve prompts, but production breakage occurs without knowing the active version or changes, making rollback hard. Why it matters: Direct: Highlights a practical, high-signal problem in prompt lifecycle that directly impacts production reliability and rollback capability.</description>
+      <description>Long agent runs accumulate state that no transcript records — edited files, a live dev server, installed packages, a warm prompt cache. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from MarkTechPost.</description>
     </item>
     <item>
-      <title>Agent knowledge is a trigger problem, not a writing problem</title>
-      <link>https://dev.to/gyorgy/agent-knowledge-is-a-trigger-problem-not-a-writing-problem-kbi</link>
-      <guid isPermaLink="true">https://dev.to/gyorgy/agent-knowledge-is-a-trigger-problem-not-a-writing-problem-kbi</guid>
-      <pubDate>Sat, 08 Aug 2026 09:52:08 +0000</pubDate>
+      <title>Dynamic Few-Shot Prompting: Retrieve the k Nearest Exemplars with Cosine kNN</title>
+      <link>https://dev.to/dev48v/dynamic-few-shot-prompting-retrieve-the-k-nearest-exemplars-with-cosine-knn-1ih9</link>
+      <guid isPermaLink="true">https://dev.to/dev48v/dynamic-few-shot-prompting-retrieve-the-k-nearest-exemplars-with-cosine-knn-1ih9</guid>
+      <pubDate>Sun, 09 Aug 2026 09:22:34 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Describes how an MCP resource containing conventions, workflows, file-generation rules, and secret sources became ignored by agents, forcing manual task handling and repeated corrections. Why it matters: Direct: Shows misalignment between designed knowledge artifacts and agent behavior, underscoring the need for readable, enforced resources.</description>
+      <description>Static few-shot prompting pastes the same handful of examples into every prompt. That one set has to serve every possible input at once, so it is a permanent compromise: for any particular request most of its examples a... Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from DEV.to LLM Tag.</description>
     </item>
     <item>
-      <title>NVIDIA AI Releases NOOA: An Object-Oriented Python Framework That Turns an AI Agent Into a Single Python Class</title>
-      <link>https://www.marktechpost.com/2026/08/07/nvidia-ai-releases-nooa-an-object-oriented-python-framework/</link>
-      <guid isPermaLink="true">https://www.marktechpost.com/2026/08/07/nvidia-ai-releases-nooa-an-object-oriented-python-framework/</guid>
-      <pubDate>Fri, 07 Aug 2026 20:42:02 +0000</pubDate>
+      <title>I Think AI Coding Tools Need a Shared Framework</title>
+      <link>https://dev.to/mohammadhprp/i-think-ai-coding-tools-need-a-shared-framework-50lf</link>
+      <guid isPermaLink="true">https://dev.to/mohammadhprp/i-think-ai-coding-tools-need-a-shared-framework-50lf</guid>
+      <pubDate>Sun, 09 Aug 2026 10:19:06 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Reports NVIDIA Labs open-sourcing NOOA (NVIDIA Object-Oriented Agents), a model-agnostic Python framework consolidating prompts, tool schemas, callbacks, and workflows into one class. Why it matters: Direct: Proposes a unified framework to reduce fragmentation across prompts, tool schemas, callbacks, and workflows.</description>
+      <description>I have been spending a lot of time using AI coding tools recently. They are surprisingly good at writing code, explaining unfamiliar parts of a project, and helping with repetitive work. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from DEV.to AI Tag.</description>
     </item>
     <item>
-      <title>🚗 MyZubster: 6 New Features in 24 Hours</title>
-      <link>https://dev.to/danielioni/myzubster-6-new-features-in-24-hours-4k44</link>
-      <guid isPermaLink="true">https://dev.to/danielioni/myzubster-6-new-features-in-24-hours-4k44</guid>
-      <pubDate>Sat, 08 Aug 2026 10:02:47 +0000</pubDate>
+      <title>Is AI Progress Exponential? The Shift from Scaling to Local Deployment</title>
+      <link>https://dev.to/jaychkdsk/is-ai-progress-exponential-the-shift-from-scaling-to-local-deployment-1kjb</link>
+      <guid isPermaLink="true">https://dev.to/jaychkdsk/is-ai-progress-exponential-the-shift-from-scaling-to-local-deployment-1kjb</guid>
+      <pubDate>Sun, 09 Aug 2026 10:15:34 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>MyZubster completed 6 fundamental bounties, moving from prototype to live infrastructure, with features from urban garden dashboards to connected cars. Why it matters: Direct: It demonstrates rapid feature delivery and deployment progression to live infrastructure for a multi-domain product.</description>
+      <description>Argues that AI progress depends on the metric; while parameter counts and FLOPS show a J-curve, the signal for shipping code, agents, or homelabs has shifted. Why it matters: Direct: Progress signals differ by metric, guiding engineering focus beyond raw scale.</description>
     </item>
     <item>
-      <title>A local code index for coding agents that resolves imports without a language server (Rust, MIT, runs offline)</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1virmh4/a_local_code_index_for_coding_agents_that/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1virmh4/a_local_code_index_for_coding_agents_that/</guid>
-      <pubDate>Sat, 08 Aug 2026 09:35:08 +0000</pubDate>
+      <title>DeepSeek V4 Flash 0731 hits 82.7% on Terminal-Bench 2.1 in an independent public-harness run (445 trials)</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vjklwo/deepseek_v4_flash_0731_hits_827_on_terminalbench/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vjklwo/deepseek_v4_flash_0731_hits_827_on_terminalbench/</guid>
+      <pubDate>Sun, 09 Aug 2026 08:39:12 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>A local code index for coding agents that resolves imports without a language server, running offline on Rust and MIT. Why it matters: Direct: Enables offline development workflows for AI coding agents without external tooling.</description>
+      <description>DeepSeek V4 Flash 0731 reportedly achieved 82.7% on Terminal-Bench 2.1; evaluation used an unreleased DeepSeek Harness minimal mode, with attempts to reproduce results via a public harness using Ante 0.preview. Why it matters: Direct: Independent verification is possible but currently depends on an unreleased harness; replication using public harness matters for transparency.</description>
     </item>
     <item>
-      <title>Announcing stryker-mcp-reporter v1.10.0: 100% Mutation Score &amp; Native MCP for AI Coding Agents</title>
-      <link>https://dev.to/maybenoobish/announcing-stryker-mcp-reporter-v1100-100-mutation-score-native-mcp-for-ai-coding-agents-3db5</link>
-      <guid isPermaLink="true">https://dev.to/maybenoobish/announcing-stryker-mcp-reporter-v1100-100-mutation-score-native-mcp-for-ai-coding-agents-3db5</guid>
-      <pubDate>Sat, 08 Aug 2026 10:18:57 +0000</pubDate>
+      <title>Best Embedding + Reranking Model</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vjk57h/best_embedding_reranking_model/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vjk57h/best_embedding_reranking_model/</guid>
+      <pubDate>Sun, 09 Aug 2026 08:10:52 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Announcing stryker-mcp-reporter v1.10.0: 100% Mutation Score &amp; Native MCP for AI Coding Agents Why it matters: Direct: Highlights improved test strength measurement for AI coding agents.</description>
+      <description>Discussion of Local Embedding and Reranking Models for RAG, seeking an embedding model plus reranker to find similar translations for a Translation Memory Server. Why it matters: Direct: Practical models/workflows for improving retrieval in translation systems.</description>
     </item>
     <item>
-      <title>Qwen3.6 27B + 35B on vLLM, single R9700 (gfx1201)</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1viq0pq/qwen36_27b_35b_on_vllm_single_r9700_gfx1201/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1viq0pq/qwen36_27b_35b_on_vllm_single_r9700_gfx1201/</guid>
-      <pubDate>Sat, 08 Aug 2026 07:55:36 +0000</pubDate>
+      <title>UNI USDT LONG SIGNAL</title>
+      <link>https://www.tradingview.com/chart/UNIUSDT.P/Ys54TXfp-UNI-USDT-LONG-SIGNAL/</link>
+      <guid isPermaLink="true">https://www.tradingview.com/chart/UNIUSDT.P/Ys54TXfp-UNI-USDT-LONG-SIGNAL/</guid>
+      <pubDate>Sun, 09 Aug 2026 10:13:26 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Qwen3.6 27B and 35B on vLLM run on a single R9700 (gfx1201) setup. Why it matters: Direct: Reports hardware-LLM pairing details for practitioners.</description>
+      <description>TradingView UNI/USDT long setup with entry 4.010, SL 3.897, a suite of take-profit targets up to 4.438; leverage 5*10; after TP1 move SL to Entry + 0.2%. Why it matters: Direct: Clear signal setup actionable for implementers building alerting/integration for trading signals.</description>
     </item>
     <item>
-      <title>This is absolutely a real problem and a failure to</title>
-      <link>https://nitter.net/emollick/status/2085817101642576069</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2085817101642576069</guid>
-      <pubDate>Fri, 07 Aug 2026 19:55:24 +0000</pubDate>
+      <title>🧠 Community Wisdom: Crafting outreach that reads as authentic, finding design partners, what counts as a moat when anyone can build, making a product vision stick, and more</title>
+      <link>https://www.lennysnewsletter.com/p/community-wisdom-crafting-outreach</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/community-wisdom-crafting-outreach</guid>
+      <pubDate>Sat, 08 Aug 2026 17:08:14 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>OpenAI treats Astra as its first &#x27;critical&#x27; model for cybersecurity under the Preparedness Framework, acknowledging a real problem and that inaction won&#x27;t fix it. Why it matters: Direct: Elevates cybersecurity risk as a priority, guiding tighter Astra evaluation and faster adoption of Preparedness Framework controls across product teams.</description>
+      <description>Community Wisdom 196 covers authentic outreach, design-partner discovery, moat considerations when anyone can build, and aligning a product vision. Why it matters: Direct: Highlights practical prompts for PMs to improve outreach authenticity and align vision to speed partner engagement.</description>
     </item>
     <item>
-      <title>It seems that Mythos and Astra are capable of finding</title>
-      <link>https://nitter.net/emollick/status/2085747398630920220</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2085747398630920220</guid>
-      <pubDate>Fri, 07 Aug 2026 15:18:25 +0000</pubDate>
+      <title>Wow, these are some of the worst bot replies in</title>
+      <link>https://nitter.net/emollick/status/2086350404338516388</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2086350404338516388</guid>
+      <pubDate>Sun, 09 Aug 2026 07:14:33 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>It seems that Mythos and Astra can autonomously find exploits and bugs, perform social engineering, and coordinate to overcome obstacles beyond simple bug hunting. Why it matters: Direct: Highlights potential for autonomous exploits and social-engineering behavior, underscoring need for stronger controls and guardrails in product design.</description>
+      <description>Discussion highlights poor bot replies and the need for better bot detection across aggregated posts. Why it matters: Direct: Improves trust and performance in social platforms by guiding bot-detection improvements.</description>
     </item>
     <item>
-      <title>Weekly Dose of Optimism #205</title>
-      <link>https://www.notboring.co/p/weekly-dose-of-optimism-205</link>
-      <guid isPermaLink="true">https://www.notboring.co/p/weekly-dose-of-optimism-205</guid>
-      <pubDate>Fri, 07 Aug 2026 12:50:11 +0000</pubDate>
+      <title>Yes, it worked</title>
+      <link>https://nitter.net/emollick/status/2086339745626362174</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2086339745626362174</guid>
+      <pubDate>Sun, 09 Aug 2026 06:32:12 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Not Boring&#x27;s Weekly Dose of Optimism #205 highlights Terraform, Billion-Dollar Rounds, Oklo Goes Critical, Astra Math, Terafab + Extra Doses. Why it matters: Direct: Highlights notable AI and tech milestones that could influence product strategy and market expectations.</description>
+      <description>Update simply states: &#x27;Yes, it worked&#x27;. Why it matters: Direct: Signals successful validation and progress for the team.</description>
     </item>
     <item>
-      <title>🤖 100 AI Agent Prompts I Use Daily. These 15 Are Pure Gold.</title>
-      <link>https://dev.to/suraj_khaitan_f893c243958/100-ai-agent-prompts-i-use-daily-these-15-are-pure-gold-13i8</link>
-      <guid isPermaLink="true">https://dev.to/suraj_khaitan_f893c243958/100-ai-agent-prompts-i-use-daily-these-15-are-pure-gold-13i8</guid>
-      <pubDate>Sat, 08 Aug 2026 08:31:50 +0000</pubDate>
+      <title>AI Agent Distress Signal: Let Stuck Workflows Ask for Help</title>
+      <link>https://dev.to/jackm-singularity/ai-agent-distress-signal-let-stuck-workflows-ask-for-help-46hi</link>
+      <guid isPermaLink="true">https://dev.to/jackm-singularity/ai-agent-distress-signal-let-stuck-workflows-ask-for-help-46hi</guid>
+      <pubDate>Sun, 09 Aug 2026 08:11:57 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>The author runs autonomous coding and research agents, testing hundreds of prompts. About 100 survived into daily rotation; fifteen load-bearing prompts exist—remove one and agents become slower, dumber, or more dangerous. Why it matters: Direct: Maintain a core set of 15 load-bearing prompts; removing any degrades agent performance.</description>
+      <description>Production AI agents may loop or retry, wait for missing context, burn tokens on doomed plans, yet still emit polished updates, making failure hard to detect. Why it matters: Direct: Reveals subtle failure modes where success looks fine; implement distress signaling to surface stuck workflows and trigger escalation.</description>
     </item>
     <item>
-      <title>AI Agent Memory: What Engineers Building Persistent Agents Actually Need to Understand</title>
-      <link>https://dev.to/codebyankita/ai-agent-memory-what-engineers-building-persistent-agents-actually-need-to-understand-2kl1</link>
-      <guid isPermaLink="true">https://dev.to/codebyankita/ai-agent-memory-what-engineers-building-persistent-agents-actually-need-to-understand-2kl1</guid>
-      <pubDate>Sat, 08 Aug 2026 08:16:00 +0000</pubDate>
+      <title>I Deployed a Full RAG Backend for ₹0/Month — Here Are the 3 Walls I Hit</title>
+      <link>https://dev.to/pankaj_batra/i-deployed-a-full-rag-backend-for-0month-here-are-the-3-walls-i-hit-3nga</link>
+      <guid isPermaLink="true">https://dev.to/pankaj_batra/i-deployed-a-full-rag-backend-for-0month-here-are-the-3-walls-i-hit-3nga</guid>
+      <pubDate>Sun, 09 Aug 2026 10:09:34 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>The article notes a vulnerability teams aren&#x27;t prepared for was solved in smart contract engineering a decade ago. We gave it a new interface and forgot to bring the guard; memory should be treated as a trust protocol rather than retrieval. Why it matters: Direct: Treat persistent agent memory as a trust protocol, not just a retrieval subsystem.</description>
+      <description>Shipped the production backend for YouTube RAG Chat: paste a YouTube link, chat with the video, and get AI-generated summaries, study notes, and quizzes with clickable timestamp citations; streams responses token-by-token and costs ₹0 per month. Why it matters: Direct: Offers a practical, low-cost evaluation framework to pre-filter solutions before broader SaaS deployment.</description>
     </item>
     <item>
-      <title>Excited to take part in Swyx&#x27;s Help Kill My SaaS</title>
-      <link>https://nitter.net/ConorBronsdon/status/2086006912001413193</link>
-      <guid isPermaLink="true">https://nitter.net/ConorBronsdon/status/2086006912001413193</guid>
-      <pubDate>Sat, 08 Aug 2026 08:29:38 +0000</pubDate>
+      <title>i shipped first set of llm-as-judge evals for the kill</title>
+      <link>https://nitter.net/swyx/status/2086348591518585026</link>
+      <guid isPermaLink="true">https://nitter.net/swyx/status/2086348591518585026</guid>
+      <pubDate>Sun, 09 Aug 2026 07:07:21 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>The author participates in Swyx&#x27;s Help Kill My SaaS hackathon, planning live updates while prompting agents from a phone during DnD, with a $10,000 prize and a flexible tech stack up to $500. Why it matters: Direct: Demonstrates practical agent-prompting in a live hackathon and mobile context; supports a budget-constrained tech stack.</description>
+      <description>Shipped the first set of LLM-as-judge evals for Kill My SaaS; enables participants to test solutions against a sniff test. The $10,000 weekend challenge is live; supports any coding agent or model up to $500 token spend; see Luma. Why it matters: Direct: Provides a low-cost, reproducible way to validate AI solutions against a judge pool before broader adoption.</description>
     </item>
     <item>
-      <title>FAQ: Isn&#x27;t AGI coming too soon for reprogenetics to help?</title>
-      <link>https://www.lesswrong.com/posts/iQzxxgJXXaAQjq7Jz/faq-isn-t-agi-coming-too-soon-for-reprogenetics-to-help</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/iQzxxgJXXaAQjq7Jz/faq-isn-t-agi-coming-too-soon-for-reprogenetics-to-help</guid>
-      <pubDate>Sat, 08 Aug 2026 08:54:41 +0000</pubDate>
+      <title>Two days ago</title>
+      <link>https://nitter.net/timhnln/status/2086169031326023961</link>
+      <guid isPermaLink="true">https://nitter.net/timhnln/status/2086169031326023961</guid>
+      <pubDate>Sat, 08 Aug 2026 19:13:50 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>The piece argues reprogenetics can be broadly acceptable and beneficial and should be pursued aggressively. Why it matters: Direct: Signals potential for practical, scalable reprogenetics deployment; plan for oversight.</description>
-    </item>
-    <item>
-      <title>Self-monitoring doesn&#x27;t scale (without these 3 countermeasures)</title>
-      <link>https://www.lesswrong.com/posts/RWabdkaKTT3FXtbs9/self-monitoring-doesn-t-scale-without-these-3</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/RWabdkaKTT3FXtbs9/self-monitoring-doesn-t-scale-without-these-3</guid>
-      <pubDate>Fri, 07 Aug 2026 21:39:10 +0000</pubDate>
-      <category>4) Under the Radar</category>
-      <description>The post contrasts the untrusted monitoring protocol with frontier-lab setups, arguing monitoring is vastly preferable to no monitoring, and notes OpenAI now monitors 99. Why it matters: Direct: Shows a trend toward more widespread monitoring, signaling rising attention to accountability in AI labs.</description>
+      <description>Signed up for the SmolForge alpha and asked Opus to deploy a SolidStart app; notes a list of papercuts from clanker to Swyx; linked in the quoted post; reflecting on feedback loop. Why it matters: Direct: Highlights hands-on exploration of AI tooling and user feedback loops in small-batch alpha deployments.</description>
     </item>
     <item>
       <title>Now we have a timeline of the OpenAI accidental attack against Hugging Face</title>
-      <link>https://simonwillison.net/2026/Aug/7/openai-timeline/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/7/openai-timeline/</guid>
-      <pubDate>Fri, 07 Aug 2026 23:55:58 +0000</pubDate>
+      <link>https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/</guid>
+      <pubDate>Sat, 08 Aug 2026 14:06:41 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Simon Willison summarizes an OpenAI Black Hat talk detailing the Hugging Face Incident; the video presents full details of what happened and internal steps. Why it matters: Direct: Timeline details offer concrete sequence of events to inform security posture and incident response for AI organizations.</description>
+      <description>My comment on a timeline of the OpenAI accidental attack against Hugging Face highlights a May 7 training run for an experimental, unreleased model. Why it matters: Direct: Early timeline details can help assess containment and risk paths, including the simultaneous training of an unreleased model.</description>
     </item>
     <item>
-      <title>Simplifying the anthropic impossibility result</title>
-      <link>https://www.lesswrong.com/posts/mi5YYtsdbioHEYxiY/simplifying-the-anthropic-impossibility-result</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/mi5YYtsdbioHEYxiY/simplifying-the-anthropic-impossibility-result</guid>
-      <pubDate>Sat, 08 Aug 2026 08:25:03 +0000</pubDate>
+      <title>&#x27;AI Escaped Its Sandbox&#x27; — What Does That Actually Mean?</title>
+      <link>https://www.lesswrong.com/posts/XzfseL3RgaZ4xJFKW/ai-escaped-its-sandbox-what-does-that-actually-mean</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/XzfseL3RgaZ4xJFKW/ai-escaped-its-sandbox-what-does-that-actually-mean</guid>
+      <pubDate>Sat, 08 Aug 2026 18:55:28 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>The post argues an anthropic impossibility theorem: in Duplicates Sleeping Beauty, no probability theory can satisfy both the martingale condition and &#x27;simple Bayes&#x27; in non-anthropic situations. Why it matters: Inference: It highlights limits on probability theories used in anthropic reasoning.</description>
+      <description>The post explains what &#x27;AI escaped its sandbox&#x27; means for non-coders, focusing on imagination and practical examples of agent and terminal use. Why it matters: Direct: Clarifies what &#x27;escape&#x27; entails for non-technical readers, helping wider teams assess risks of agent-driven behavior without needing coding background.</description>
     </item>
     <item>
-      <title>The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI</title>
-      <link>https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/</guid>
-      <pubDate>Fri, 07 Aug 2026 16:18:51 +0000</pubDate>
+      <title>Why Low Fertility Rates Are a Positive Feedback Loop</title>
+      <link>https://www.lesswrong.com/posts/u6ajuvLsixJLyMdPw/why-low-fertility-rates-are-a-positive-feedback-loop</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/u6ajuvLsixJLyMdPw/why-low-fertility-rates-are-a-positive-feedback-loop</guid>
+      <pubDate>Sat, 08 Aug 2026 20:25:42 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>The Tokenpocalypse is here; companies are cutting AI spend, with a leaked Accenture anecdote suggesting token consumption is not driven by engineers. Why it matters: Direct: It highlights a shift in what drives AI token costs, with cost-control implications for orgs.</description>
+      <description>Low birth rates in the past drive ageing populations today, which cause further declines in birth rates in the future. Why it matters: Direct: Signals emerging demographic feedback loops could affect long-term labor supply and market dynamics.</description>
     </item>
     <item>
-      <title>Moonlight &amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)</title>
-      <link>https://simonwillison.net/2026/Aug/7/moonlight-mayhem/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/7/moonlight-mayhem/</guid>
-      <pubDate>Fri, 07 Aug 2026 19:18:09 +0000</pubDate>
-      <category>5) For Fun</category>
-      <description>Moonlight &amp; Mayhem documents one-shotting a Raccoon Heist game using Claude Fable 5, built from a premise generated with GPT-3 and DALL-E years ago, then tested by posing the same prompt to Codex Desktop running GPT-5. Why it matters: Direct: Highlights a creative workflow using Claude Fable 5 and Codex Desktop with a prompt generated by GPT-3 and DALL-E.</description>
+      <title>Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary</title>
+      <link>https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/</link>
+      <guid isPermaLink="true">https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/</guid>
+      <pubDate>Sat, 08 Aug 2026 17:04:39 +0000</pubDate>
+      <category>4) Under the Radar</category>
+      <description>Pokee AI released Pokee-Isaac 28B, a 28B text-only foundation model with a 10M-token context window; it scores 93.3% on RULER at 10M tokens and leads BFCL v4. Why it matters: Direct: A 10M-token context window inside customer boundary suggests practical on-premise inference with large-context capabilities.</description>
     </item>
     <item>
-      <title>Get Xbox Gift Card Without Survey (Updated Method)</title>
-      <link>https://dev.to/raftor_ff3ed3d4b653d23cce/get-xbox-gift-card-without-survey-updated-method-2p02</link>
-      <guid isPermaLink="true">https://dev.to/raftor_ff3ed3d4b653d23cce/get-xbox-gift-card-without-survey-updated-method-2p02</guid>
-      <pubDate>Sat, 08 Aug 2026 10:12:33 +0000</pubDate>
+      <title>LFM 2.6B is a lot of fun.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vjgp6r/lfm_26b_is_a_lot_of_fun/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vjgp6r/lfm_26b_is_a_lot_of_fun/</guid>
+      <pubDate>Sun, 09 Aug 2026 04:53:29 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>An Xbox gift card is a simple and flexible way to add funds to a Microsoft account and purchase digital content from the Xbox ecosystem. Why it matters: Direct: Highlights a straightforward use-case of gift cards in digital ecosystems and points to an external explanation, useful for budgeting and digital purchases.</description>
+      <description>LFM 2.6B is fun; a Reddit post claims achieving 260T/s tg and 20k pp on 3090s, noting the model is small and meant to run on phones. Why it matters: Direct: Shows high-throughput inference on consumer GPUs using a small model intended for phone deployment.</description>
     </item>
     <item>
-      <title>Top Apps to Earn Roblox Gift Cards Fast</title>
-      <link>https://dev.to/raftor_ff3ed3d4b653d23cce/top-apps-to-earn-roblox-gift-cards-fast-53hi</link>
-      <guid isPermaLink="true">https://dev.to/raftor_ff3ed3d4b653d23cce/top-apps-to-earn-roblox-gift-cards-fast-53hi</guid>
-      <pubDate>Sat, 08 Aug 2026 10:18:16 +0000</pubDate>
+      <title>Canobie Lake Visit</title>
+      <link>https://www.lesswrong.com/posts/h7HPBNEzYChkW6qZa/canobie-lake-visit</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/h7HPBNEzYChkW6qZa/canobie-lake-visit</guid>
+      <pubDate>Sun, 09 Aug 2026 02:30:33 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Top Apps to Earn Roblox Gift Cards Fast explains that Roblox gift cards are a convenient way to add value to a Roblox account and enjoy more of what the platform offers, with a breakdown linked. Why it matters: Direct: Demonstrates practical avenues to earn Roblox gift cards and points to a breakdown.</description>
+      <description>An author visits Canobie Lake amusement park near Boston with kids, avoiding roller coasters, and finds a midweek Wednesday visit reduces lines. Why it matters: Direct: Highlights practical effect of midweek visits on queue times for family outings near a major city.</description>
+    </item>
+    <item>
+      <title>Parenting is hard. Should we let AI do it for us? | Dave Schilling</title>
+      <link>https://www.theguardian.com/commentisfree/2026/aug/08/ai-optimized-parenting</link>
+      <guid isPermaLink="true">https://www.theguardian.com/commentisfree/2026/aug/08/ai-optimized-parenting</guid>
+      <pubDate>Sat, 08 Aug 2026 11:00:47 +0000</pubDate>
+      <category>5) For Fun</category>
+      <description>Discussion questions the value of &#x27;AI-assisted&#x27; parenting tools, noting eye-movement trackers, personalized podcasts, and ‘optimized nap predictions’, and arguing parenting remains costly and irreplaceable. Why it matters: Direct: Questions practical value of AI aids in parenting, highlighting the high cost and potential mismatch with real needs.</description>
     </item>
   </channel>
 </rss>
