@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-08-10",
+    "title": "Daily AI Feed - 2026-08-10",
+    "lead_story": "Quoting Claude Opus 5 system prompt",
+    "lead_url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/",
+    "generated_at": "2026-08-10T11:10:25+00:00"
+  },
+  {
     "date": "2026-08-09",
     "title": "Daily AI Feed - 2026-08-09",
     "lead_story": "Meet Shepherd: An Open-Source Python Substrate That Lets Meta-Agents Fork, Replay, and Revert Any Agent Run",
