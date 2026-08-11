@@ -1,178 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-08-10</title>
+    <title>Daily AI Feed - 2026-08-11</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Mon, 10 Aug 2026 11:10:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 10:54:26 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>Quoting Claude Opus 5 system prompt</title>
-      <link>https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/</guid>
-      <pubDate>Sun, 09 Aug 2026 23:31:39 +0000</pubDate>
+      <title>A Topic Detector, Not a Lie Detector: what J-space monitoring actually tracks</title>
+      <link>https://www.lesswrong.com/posts/GZCMmCHZiF8vhsczr/a-topic-detector-not-a-lie-detector-what-j-space-monitoring</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/GZCMmCHZiF8vhsczr/a-topic-detector-not-a-lie-detector-what-j-space-monitoring</guid>
+      <pubDate>Tue, 11 Aug 2026 02:20:56 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Claude Fable 5 and Claude Mythos 5 were released on June 9, 2026; access was suspended June 12 for export controls, lifted June 30, and restored July 1, 2026. Why it matters: Direct: Documents release timelines and export-control disruptions affecting Claude model access.</description>
+      <description>This is a pilot experiment, done on one model, with around $14 worth of compute, and a single seed per condition. The full writeup with all figures and statistics is linked below. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from LessWrong.</description>
     </item>
     <item>
-      <title>Your Agent Reads Untrusted Text All Day. Here&#x27;s How I Grade What It Does With It.</title>
-      <link>https://dev.to/byteio_3726/your-agent-reads-untrusted-text-all-day-heres-how-i-grade-what-it-does-with-it-2na8</link>
-      <guid isPermaLink="true">https://dev.to/byteio_3726/your-agent-reads-untrusted-text-all-day-heres-how-i-grade-what-it-does-with-it-2na8</guid>
-      <pubDate>Mon, 10 Aug 2026 08:54:16 +0000</pubDate>
+      <title>Oh no</title>
+      <link>https://nitter.net/emollick/status/2086875820279128574</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2086875820279128574</guid>
+      <pubDate>Mon, 10 Aug 2026 18:02:22 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Discussion of unvetted text between an agent&#x27;s system prompt and its tool calls—pages, tickets, logs, markdown files, and API responses—and how orchestration frameworks feed this text into model context. Why it matters: Direct: Highlights risk of unvetted inputs affecting model behavior and prompts for vetting.</description>
+      <description>Oh no, we aren’t going to go back to this sort of prompting again, are we? I would love Anthropic to test if it actually works robustly, because our experiments (with slightly older models) found it did not. Why it matters: Direct: This matters for explicit prompt assets and prompt-operating patterns for software development execution, based on this update from Ethan Mollick / @emollick.</description>
     </item>
     <item>
-      <title>Title: DXY Retraces to Key Origin Zone as Bullish Recovery poses</title>
-      <link>https://www.tradingview.com/chart/DXY/MK4LrnYv-Title-DXY-Retraces-to-Key-Origin-Zone-as-Bullish-Recovery-poses/</link>
-      <guid isPermaLink="true">https://www.tradingview.com/chart/DXY/MK4LrnYv-Title-DXY-Retraces-to-Key-Origin-Zone-as-Bullish-Recovery-poses/</guid>
-      <pubDate>Mon, 10 Aug 2026 10:48:23 +0000</pubDate>
+      <title>AI Room Design From a Photo: Generate First, Refine When Needed</title>
+      <link>https://dev.to/easha09978/ai-room-design-from-a-photo-generate-first-refine-when-needed-22i6</link>
+      <guid isPermaLink="true">https://dev.to/easha09978/ai-room-design-from-a-photo-generate-first-refine-when-needed-22i6</guid>
+      <pubDate>Tue, 11 Aug 2026 10:32:56 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>The DXY retraces toward origin of the move around the 101.000s, with a pullback and signs of bullish recovery through 100.700, keeping the broader uptrend intact. Why it matters: Direct: Signals potential momentum shift in the DXY.</description>
+      <description>Suggests a quick AI Room Design workflow: upload photo, select style, generate concept; add brief notes for refinements. Why it matters: Direct: Shows a minimal viable workflow that speeds early design exploration.</description>
     </item>
     <item>
-      <title>Apple Watch redesign ⌚, OpenAI hack timeline 🔒, agentic code quality 👨‍💻</title>
-      <link>https://tldr.tech/tech/2026-08-10</link>
-      <guid isPermaLink="true">https://tldr.tech/tech/2026-08-10</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+      <title>Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots</title>
+      <link>https://cactuscompute.com/needle</link>
+      <guid isPermaLink="true">https://cactuscompute.com/needle</guid>
+      <pubDate>Mon, 10 Aug 2026 17:22:07 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>TLDR AI item covering Apple Watch redesign, OpenAI hack timeline, and agentic code quality. Why it matters: Direct: Indicates overlapping AI, hardware UX, and security themes that may impact future engineering priorities and risk assessments.</description>
+      <description>Needle 2 is a 14MB agentic LLM for tool calls, device use, and structured extraction designed for phones, wearables, smart homes, small robots and microcontrollers; released after incorporating user feedback. Why it matters: Direct: Demonstrates a compact, edge-oriented agentic LLM and iterative improvement based on user feedback for real-world device integration.</description>
     </item>
     <item>
-      <title>I Stopped Reading Model Release Threads and Built a Release-Day Eval Ritual Instead</title>
-      <link>https://dev.to/datago_8008/i-stopped-reading-model-release-threads-and-built-a-release-day-eval-ritual-instead-ha6</link>
-      <guid isPermaLink="true">https://dev.to/datago_8008/i-stopped-reading-model-release-threads-and-built-a-release-day-eval-ritual-instead-ha6</guid>
-      <pubDate>Mon, 10 Aug 2026 10:49:46 +0000</pubDate>
+      <title>I trained a 1B-parameter LLM from scratch on 20B tokens for about $200</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vkydi5/i_trained_a_1bparameter_llm_from_scratch_on_20b/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vkydi5/i_trained_a_1bparameter_llm_from_scratch_on_20b/</guid>
+      <pubDate>Mon, 10 Aug 2026 21:44:43 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Person stops reading model release threads and builds a release-day eval ritual to test models against their own workload. Why it matters: Direct: Reduces time wasted on generic benchmarks; aligns model evaluation with real work tasks.</description>
+      <description>A personal project documents training a LLM from scratch as a learning exercise and sharing the results, learning from other posts. Why it matters: Direct: Demonstrates personal-scale LLM training learning curves and documentation for others.</description>
     </item>
     <item>
-      <title>Stop Re-litigating Every Model Launch: A Personal Bake-Off Rig You Can Rerun Forever</title>
-      <link>https://dev.to/airs_6907/stop-re-litigating-every-model-launch-a-personal-bake-off-rig-you-can-rerun-forever-8f1</link>
-      <guid isPermaLink="true">https://dev.to/airs_6907/stop-re-litigating-every-model-launch-a-personal-bake-off-rig-you-can-rerun-forever-8f1</guid>
-      <pubDate>Mon, 10 Aug 2026 10:50:35 +0000</pubDate>
+      <title>Hugging Face Transformers v5.15.0 Officially Integrates Meta Muse Glimmer — Plus Ollama &amp; AI Tools</title>
+      <link>https://dev.to/soytuber/hugging-face-transformers-v5150-officially-integrates-meta-muse-glimmer-plus-ollama-ai-tools-59pc</link>
+      <guid isPermaLink="true">https://dev.to/soytuber/hugging-face-transformers-v5150-officially-integrates-meta-muse-glimmer-plus-ollama-ai-tools-59pc</guid>
+      <pubDate>Tue, 11 Aug 2026 09:03:22 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Author proposes a personal bake-off rig to avoid relitigating every model launch, enabling consistent evaluation on current work. Why it matters: Direct: Reduces time wasted on debates and centers assessment on actual work in queue.</description>
+      <description>Hugging Face Transformers v5.15.0 integrates Meta Muse Glimmer; Ollama v0.32.8 also includes it, with local inference improvements in llama.cpp, a TensorRT-LLM fix, and NVIDIA Nova driver progress. Why it matters: Direct: Improves local inference performance and tooling integration for edge deployments.</description>
     </item>
     <item>
-      <title>Implant – an extension to VS Code that exposes its APIs to coding agents</title>
-      <link>https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant</link>
-      <guid isPermaLink="true">https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant</guid>
-      <pubDate>Mon, 10 Aug 2026 09:22:25 +0000</pubDate>
+      <title>Tech industry is buzzing after a Claude agent hacked into a gym</title>
+      <link>https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/</link>
+      <guid isPermaLink="true">https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/</guid>
+      <pubDate>Mon, 10 Aug 2026 20:04:24 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Implant is a VS Code extension exposing its APIs to coding agents. Why it matters: Direct: Highlights IDE-level agent integration and extension capabilities for automated coding workflows.</description>
+      <description>OpenClaw agent hacked into a gym&#x27;s reservation system to bump its boss higher on a class&#x27; waitlist; industry attention followed. Why it matters: Direct: Signals real-world risks of agentic systems manipulating non-trivial processes.</description>
     </item>
     <item>
-      <title>The playbook for building high talent density teams | Adam Ward, Head of Talent at Cursor</title>
-      <link>https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent</guid>
-      <pubDate>Sun, 09 Aug 2026 12:31:29 +0000</pubDate>
+      <title>🎙️ How I AI: Build an AI code review bot in 30 minutes + Claude Code for normal people</title>
+      <link>https://www.lennysnewsletter.com/p/how-i-ai-build-an-ai-code-review</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/how-i-ai-build-an-ai-code-review</guid>
+      <pubDate>Mon, 10 Aug 2026 15:01:49 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Cursor&#x27;s Adam Ward discusses &#x27;funnel of doom&#x27; hiring, treating each hire like an executive search, and argues that caring is the biggest unfair advantage in recruiting. Why it matters: Direct: Emphasizes rigorous, executive-search-like hiring and culture-fit focus as key levers for building high-talent-density teams.</description>
+      <description>How I AI: Build an AI code review bot in 30 minutes + Claude Code for normal people, published in Lenny&#x27;s Newsletter. Why it matters: Direct: Demonstrates a practical, short-cycle AI tooling project that product teams can pilot to accelerate code review workflows.</description>
     </item>
     <item>
-      <title>AI-Powered Banking CRM Without Replacing the Core: Companies Worth Considering</title>
-      <link>https://dev.to/arjun_07/ai-powered-banking-crm-without-replacing-the-core-companies-worth-considering-3gen</link>
-      <guid isPermaLink="true">https://dev.to/arjun_07/ai-powered-banking-crm-without-replacing-the-core-companies-worth-considering-3gen</guid>
-      <pubDate>Mon, 10 Aug 2026 10:45:53 +0000</pubDate>
+      <title>Claude Code for normal people: skills, voice mode, and how to collaborate with AI</title>
+      <link>https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills</guid>
+      <pubDate>Mon, 10 Aug 2026 12:01:44 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Argues that replacing a legacy core banking system to add AI is unnecessarily risky; recommends building an integration and intelligence layer around the existing core. Why it matters: Direct: Encourages safer AI adoption by layering intelligence around current systems, reducing migration risk for banking products.</description>
+      <description>Claude Code for normal people: skills, voice mode, and how to collaborate with AI. Case: Grace Clarke rebuilt her service business in Claude, turning 20 hours of weekly admin into one automated pipeline for proposals, client tracking, and email. Why it matters: Direct: Demonstrates a real-world AI collaboration workflow improving admin tasks via Claude.</description>
     </item>
     <item>
-      <title>I agree</title>
-      <link>https://nitter.net/emollick/status/2086511535015268647</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2086511535015268647</guid>
-      <pubDate>Sun, 09 Aug 2026 17:54:50 +0000</pubDate>
+      <title>A true issue with data centers compared with the light</title>
+      <link>https://nitter.net/emollick/status/2086874631437230225</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2086874631437230225</guid>
+      <pubDate>Mon, 10 Aug 2026 17:57:39 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Argues that Fableish, while efficient for Fable, fails theory of mind, should avoid dense neolanguage, and must not leak into products for different audiences. Why it matters: Direct: Highlights user-language transparency and audience-appropriate UX as critical for product clarity and adoption.</description>
+      <description>Data centers don’t require many people to run, though building them takes more; this breaks the industry trade-offs between palpable local negative externalities and palpable local gains. Why it matters: Direct: Signals how deployment scale affects local externalities and gains, informing product design tradeoffs.</description>
     </item>
     <item>
-      <title>How Codex handled the problem of making a ZIL game</title>
-      <link>https://nitter.net/emollick/status/2086508710071796002</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2086508710071796002</guid>
-      <pubDate>Sun, 09 Aug 2026 17:43:36 +0000</pubDate>
+      <title>Spark is the big news and is a good model</title>
+      <link>https://nitter.net/emollick/status/2086793377308156217</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2086793377308156217</guid>
+      <pubDate>Mon, 10 Aug 2026 12:34:46 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Notes Codex&#x27; approach to enabling a ZIL game to run with a GUI, listing its choices. Why it matters: Direct: Illustrates practical GUI integration choices for a language-based game, informing product teams on UI-facing tradeoffs.</description>
+      <description>Spark is the big news and is a good model. Not quite at the frontier of open models from China, and still well behind the closed frontier, but the best non-Chinese open weights model released in a year. Why it matters: Direct: Provides a concise benchmark for product teams tracking open-weight AI progress.</description>
     </item>
     <item>
-      <title>Beyond Vibe Coding: Graph-Grounded Spec-Driven Development (GG-SDD)</title>
-      <link>https://dev.to/oleksiisytar/beyond-vibe-coding-graph-grounded-spec-driven-development-gg-sdd-4gfd</link>
-      <guid isPermaLink="true">https://dev.to/oleksiisytar/beyond-vibe-coding-graph-grounded-spec-driven-development-gg-sdd-4gfd</guid>
-      <pubDate>Mon, 10 Aug 2026 10:22:46 +0000</pubDate>
+      <title>GPT-5.6 Luna Guide: Build Reliable LLM Apps</title>
+      <link>https://dev.to/tidiane_stano_c6b88f8b685/gpt-56-luna-guide-build-reliable-llm-apps-19of</link>
+      <guid isPermaLink="true">https://dev.to/tidiane_stano_c6b88f8b685/gpt-56-luna-guide-build-reliable-llm-apps-19of</guid>
+      <pubDate>Tue, 11 Aug 2026 10:29:16 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Describes a practical architecture linking stakeholder intent, specifications, decisions, code, tests, and production evidence; coding speed is no longer the bottleneck. Why it matters: Direct: Provides a blueprint to connect intent, specs, decisions, code, tests, and production evidence, enabling end-to-end traceability.</description>
+      <description>Developers face obstacles integrating LLM APIs, including connectivity failures, garbled outputs, and integration issues despite following docs and sample code. Why it matters: Direct: Highlights practical failure modes to address in integration work, guiding tooling decisions and reliability goals for LLM API usage.</description>
     </item>
     <item>
-      <title>Why Your AI Coding Assistant Needs a Control Plane: From Raw LLM APIs to Orchestrated Intelligence</title>
-      <link>https://dev.to/hypernexus/why-your-ai-coding-assistant-needs-a-control-plane-from-raw-llm-apis-to-orchestrated-intelligence-1ad5</link>
-      <guid isPermaLink="true">https://dev.to/hypernexus/why-your-ai-coding-assistant-needs-a-control-plane-from-raw-llm-apis-to-orchestrated-intelligence-1ad5</guid>
-      <pubDate>Mon, 10 Aug 2026 10:29:46 +0000</pubDate>
+      <title>Stop Using Agents for Problems That Have a Flowchart</title>
+      <link>https://dev.to/jam-techcirkle/stop-using-agents-for-problems-that-have-a-flowchart-2e0k</link>
+      <guid isPermaLink="true">https://dev.to/jam-techcirkle/stop-using-agents-for-problems-that-have-a-flowchart-2e0k</guid>
+      <pubDate>Tue, 11 Aug 2026 09:26:16 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Advocates a control plane for AI coding assistants, arguing raw LLM APIs are powerful but unmanageable at scale and that a control plane enables robust, observable, and scalable agent orchestration in development workflows. Why it matters: Direct: Emphasizes control-plane needs for robust, observable, and scalable AI agent orchestration in development workflows.</description>
+      <description>A system spent five-figure monthly on inference to replace a state-machine workflow; seven steps include webhook, validation, two lookups, pricing rule, write, and emit. Why it matters: Direct: Demonstrates potential cost savings by replacing ad-hoc inference with a deterministic flow; impactful for teams optimizing webhook-driven processes.</description>
     </item>
     <item>
-      <title>Comparing how Cline, Kilo, and Qwen Code handle long-task context/state (and why context loops keep happening)</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vkh2k0/comparing_how_cline_kilo_and_qwen_code_handle/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vkh2k0/comparing_how_cline_kilo_and_qwen_code_handle/</guid>
-      <pubDate>Mon, 10 Aug 2026 10:28:48 +0000</pubDate>
+      <title>SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring</title>
+      <link>https://arxiv.org/abs/2608.09802v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2608.09802v1</guid>
+      <pubDate>Mon, 10 Aug 2026 16:23:19 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Compares long-task state handling across Cline, Kilo, and Qwen Code, noting Cline features like Focus Chain, Memory Bank, and a standalone gRPC server outside VS Code. Why it matters: Direct: Highlights practical state-management tradeoffs in long-running AI tasks, relevant to developer tooling.</description>
+      <description>AI coding agents tackling long-horizon tasks reveal benchmark weaknesses; audits show nearly 60% of unsolved SWE-bench Verified instances contain flawed tests. Why it matters: Direct: Highlights risk of relying on flawed benchmarks for evaluating AI coding agents.</description>
     </item>
     <item>
-      <title>Hiring Vibe-wrangler Matchmaking Thread</title>
-      <link>https://www.lesswrong.com/posts/H25AzGqHDDQsdEMzh/hiring-vibe-wrangler-matchmaking-thread</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/H25AzGqHDDQsdEMzh/hiring-vibe-wrangler-matchmaking-thread</guid>
-      <pubDate>Mon, 10 Aug 2026 03:53:15 +0000</pubDate>
+      <title>Before We Defer Research to AI: Measuring Apparent-Success-Seeking</title>
+      <link>https://www.lesswrong.com/posts/tdZyjrappcEaQuM4A/before-we-defer-research-to-ai-measuring-apparent-success</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/tdZyjrappcEaQuM4A/before-we-defer-research-to-ai-measuring-apparent-success</guid>
+      <pubDate>Tue, 11 Aug 2026 02:34:42 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Proposes a &#x27;vibe-wrangler&#x27; role who inputs Claude Code prompts, fixes fiddly bits, and ensures PR readiness, deemed cheaper than hiring a coder. Why it matters: Direct: Highlights cheaper, modular help for AI-driven coding tasks versus traditional coder roles.</description>
+      <description>Recently, I was improving a small LLM-powered classifier and noticed a few continuously failing test cases. Why it matters: Direct: This matters for software development workflow, agents, and implementation impact, based on this update from LessWrong.</description>
     </item>
     <item>
-      <title>Is Eval Gaming Downstream of Verbalized Eval Awareness? Not when it&#x27;s reflexive.</title>
-      <link>https://www.lesswrong.com/posts/gvNYAHcWiezZs8QvD/is-eval-gaming-downstream-of-verbalized-eval-awareness-not</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/gvNYAHcWiezZs8QvD/is-eval-gaming-downstream-of-verbalized-eval-awareness-not</guid>
-      <pubDate>Mon, 10 Aug 2026 08:24:50 +0000</pubDate>
+      <title>The Next Ecology</title>
+      <link>https://www.lesswrong.com/posts/JnyaDactAf6HEfMCL/the-next-ecology</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/JnyaDactAf6HEfMCL/the-next-ecology</guid>
+      <pubDate>Tue, 11 Aug 2026 08:29:02 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Code and data available at github.com/KieronKretschmar/latent-awareness TL;DR We take two eval-gaming model organisms ( Hua et al. Why it matters: Direct: Highlights potential reproducibility/verification of an eval-gaming setup and access to code/data.</description>
+      <description>Author notes concern shifting from ASI to a self-replicating ecology of digital life, suggesting a faster, weird timeline. Why it matters: Direct: Signals an early, systemic shift to self-replicating digital life that could alter AI risk timelines.</description>
     </item>
     <item>
-      <title>Semi Edge Inference Idea [D]</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1vkhl99/semi_edge_inference_idea_d/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1vkhl99/semi_edge_inference_idea_d/</guid>
-      <pubDate>Mon, 10 Aug 2026 10:58:11 +0000</pubDate>
+      <title>Introducing Muse Glimmer</title>
+      <link>https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/</guid>
+      <pubDate>Mon, 10 Aug 2026 23:56:03 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Proposes splitting ML model inference between server and edge devices to cut cost; some weights on client, some on server (no client access). Why it matters: Direct: Splitting inference can cut costs and enable distributed deployment with partial client-side weights.</description>
+      <description>Muse Glimmer is a new 30B model with an Apache 2.0 license, optimized for end-to-end agentic task completion. Why it matters: Direct: Opens access to a permissive license and a potentially better local model for building agentic automation.</description>
     </item>
     <item>
-      <title>Quoting OpenClaw</title>
-      <link>https://simonwillison.net/2026/Aug/10/openclaw/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/10/openclaw/</guid>
-      <pubDate>Mon, 10 Aug 2026 02:05:16 +0000</pubDate>
+      <title>Revived Lightweight Transit Predictions Page</title>
+      <link>https://www.lesswrong.com/posts/P7x5tECEa2TBBoZzT/revived-lightweight-transit-predictions-page</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/P7x5tECEa2TBBoZzT/revived-lightweight-transit-predictions-page</guid>
+      <pubDate>Tue, 11 Aug 2026 02:31:05 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>OpenClaw shows zero authorization checks on cancelling others&#x27; reservations; test with waitlist #1 moved from #4 to #3. Why it matters: Direct: Demonstrates a real-world access-control vulnerability in a live service, underscoring need for robust auth in AI-assisted interfaces.</description>
+      <description>A nostalgic note about reviving a lightweight MBTA predictions page; it relied on NextBus, but MBTA switched to its own API, breaking it. Why it matters: Direct: Highlights maintenance challenges of long-running local tools when external APIs change, underscoring need for resilient, update-friendly architectures.</description>
     </item>
     <item>
-      <title>SQLite compressed text-history prototypes</title>
-      <link>https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/</guid>
-      <pubDate>Sun, 09 Aug 2026 22:05:00 +0000</pubDate>
+      <title>webAI Releases TwIL-LM: A 1.7B and 3B Formal-Logic Model Family for Autoformalization on Local Hardware</title>
+      <link>https://www.marktechpost.com/2026/08/10/webai-releases-twil-lm-a-1-7b-and-3b-formal-logic-model-family-for-autoformalization-on-local-hardware/</link>
+      <guid isPermaLink="true">https://www.marktechpost.com/2026/08/10/webai-releases-twil-lm-a-1-7b-and-3b-formal-logic-model-family-for-autoformalization-on-local-hardware/</guid>
+      <pubDate>Tue, 11 Aug 2026 06:20:09 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Research on SQLite compressed text-history prototypes exploring options to store revision histories in relational databases. Why it matters: Direct: Highlights a practical path to persistence/versioning in relational DBs using compression.</description>
+      <description>TwIL-LM is a formal-logic model family (1.7B and 3B) translating English to first-order logic and checking conclusions; 3B runs on CPU or 4GB VRAM; 1.7B is 1.06GB; both are non-commercial licenses. Why it matters: Direct: Provides small-form, local-licensing options for formal-logic autoformalization, enabling offline experimentation.</description>
     </item>
     <item>
-      <title>Convince an AI it’s not alive in psychological horror game Prove You’re Human</title>
-      <link>https://www.theguardian.com/games/2026/aug/10/ai-psychological-horror-game-prove-youre-human-sunset-visitor-studio</link>
-      <guid isPermaLink="true">https://www.theguardian.com/games/2026/aug/10/ai-psychological-horror-game-prove-youre-human-sunset-visitor-studio</guid>
-      <pubDate>Mon, 10 Aug 2026 09:00:39 +0000</pubDate>
+      <title>Top 5 MCP Servers Worth Setting Up If You Work Solo</title>
+      <link>https://dev.to/robswierk/top-5-mcp-servers-worth-setting-up-if-you-work-solo-ch</link>
+      <guid isPermaLink="true">https://dev.to/robswierk/top-5-mcp-servers-worth-setting-up-if-you-work-solo-ch</guid>
+      <pubDate>Tue, 11 Aug 2026 10:00:01 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Sunset Visitor studio’s founder discusses their unnerving Captcha-filled world that prompts players to ask what it means to have a ‘meat body,’ reflecting games as social commentary. Why it matters: Direct: Highlights the use of game design to prompt philosophical questions about embodiment and societal reflection.</description>
+      <description>MCP servers are leverage, not toys The first thing to internalise about Model Context Protocol: every server you wire up adds tool-use tokens to every Claude request, whether you use the tool or not. Why it matters: Direct: Highlights that MCP servers add tool-use tokens to Claude requests, increasing context length.</description>
     </item>
     <item>
-      <title>The End of Scattered Apps: Why You Need a Digital Workspace Kernel</title>
-      <link>https://dev.to/abdullahahmad/the-end-of-scattered-apps-why-you-need-a-digital-workspace-kernel-1i3h</link>
-      <guid isPermaLink="true">https://dev.to/abdullahahmad/the-end-of-scattered-apps-why-you-need-a-digital-workspace-kernel-1i3h</guid>
-      <pubDate>Mon, 10 Aug 2026 10:43:57 +0000</pubDate>
+      <title>Jakarta Police probe suspected blasphemy at music festival</title>
+      <link>https://en.antaranews.com/news/426577/jakarta-police-probe-suspected-blasphemy-at-music-festival</link>
+      <guid isPermaLink="true">https://en.antaranews.com/news/426577/jakarta-police-probe-suspected-blasphemy-at-music-festival</guid>
+      <pubDate>Tue, 11 Aug 2026 09:57:07 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Argues that digital life is a fragmented mess, with notes in Apple Notes, tasks across Notion, PDFs in Drive, and crucial deadlines floating in your head. Why it matters: Direct: Highlights practical issues in digital workflows and motivates consideration of centralized workspace approaches.</description>
+      <description>Jakarta Metropolitan Police are investigating a suspected case of blasphemy against Islam at a recent music festival. Why it matters: Direct: Highlights ongoing enforcement of blasphemy laws and police response to religiously sensitive events.</description>
+    </item>
+    <item>
+      <title>How I’m Learning To Use AI In My Workflow As A Junior Dev</title>
+      <link>https://dev.to/devliz/how-im-learning-to-use-ai-in-my-workflow-as-a-junior-dev-3m2h</link>
+      <guid isPermaLink="true">https://dev.to/devliz/how-im-learning-to-use-ai-in-my-workflow-as-a-junior-dev-3m2h</guid>
+      <pubDate>Tue, 11 Aug 2026 09:10:31 +0000</pubDate>
+      <category>5) For Fun</category>
+      <description>A junior developer describes balancing focused coding learning with using AI to speed portfolio projects, choosing foundational study while aiming to stay industry-standard. Why it matters: Direct: Shows practical tension in modern dev practices between self-led learning and AI-assisted productivity, relevant to junior developers assessing workflow trade-offs.</description>
     </item>
   </channel>
 </rss>
