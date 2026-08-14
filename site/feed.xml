@@ -1,186 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-08-13</title>
+    <title>Daily AI Feed - 2026-08-14</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Thu, 13 Aug 2026 11:10:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 11:00:07 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>GhostSplice Isn&#x27;t a Jailbreak, It&#x27;s a Reminder That LLMs Can&#x27;t Do Access Control</title>
-      <link>https://dev.to/coridev/ghostsplice-isnt-a-jailbreak-its-a-reminder-that-llms-cant-do-access-control-31po</link>
-      <guid isPermaLink="true">https://dev.to/coridev/ghostsplice-isnt-a-jailbreak-its-a-reminder-that-llms-cant-do-access-control-31po</guid>
-      <pubDate>Thu, 13 Aug 2026 09:54:24 +0000</pubDate>
+      <title>MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination</title>
+      <link>https://arxiv.org/abs/2608.13476v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2608.13476v1</guid>
+      <pubDate>Thu, 13 Aug 2026 17:00:08 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Article argues that the technique for bypassing access control is simply splitting a sentence; no new exploit primitive required, and it worked up to 100% of the time on some models. Why it matters: Direct: Demonstrates a simple, repeatable bypass via sentence-splitting, not a new exploit; highlights need for prompt-hardening and access-control validation.</description>
+      <description>MARC is an open-source framework that replaces monolithic LLM prompting with deterministic multi-agent orchestration for clinical reasoning. Why it matters: Direct: Enables deterministic, multi-agent clinical reasoning workflows instead of single LLM prompts.</description>
     </item>
     <item>
-      <title>AI is quietly turning HR meetings into court evidence</title>
-      <link>https://www.hcamag.com/au/specialisation/employment-law/ai-is-quietly-turning-hr-meetings-into-court-evidence/585949</link>
-      <guid isPermaLink="true">https://www.hcamag.com/au/specialisation/employment-law/ai-is-quietly-turning-hr-meetings-into-court-evidence/585949</guid>
-      <pubDate>Thu, 13 Aug 2026 06:19:35 +0000</pubDate>
+      <title>Fixed Jinja chat template for Qwen 3.5, 3.6, and the new 3.8 release</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vnm7le/fixed_jinja_chat_template_for_qwen_35_36_and_the/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vnm7le/fixed_jinja_chat_template_for_qwen_35_36_and_the/</guid>
+      <pubDate>Thu, 13 Aug 2026 20:22:56 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>AI-generated meeting notes and prompts are increasingly discoverable in unfair dismissal cases, per Dentons employment partner. Why it matters: Direct: Signals AI-generated outputs can be used as legally discoverable material in disputes, prompting governance of AI-assisted notes.</description>
+      <description>Qwen 3.8 introduces prompt-steered reasoning with reasoning_effort levels (xhigh, medium, low); the template cannot disable thinking, and enable_thinking=false has issues. Why it matters: Direct: Documents prompt-control features and current template limitations for Qwen 3.8 deployments.</description>
     </item>
     <item>
-      <title>alchemy-utils 0.1a0</title>
-      <link>https://simonwillison.net/2026/Aug/12/alchemy-utils/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/12/alchemy-utils/</guid>
-      <pubDate>Wed, 12 Aug 2026 19:51:30 +0000</pubDate>
+      <title>Doom running on an LLM -- Hugging Face checkpoint included</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vnjtyh/doom_running_on_an_llm_hugging_face_checkpoint/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vnjtyh/doom_running_on_an_llm_hugging_face_checkpoint/</guid>
+      <pubDate>Thu, 13 Aug 2026 18:56:49 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Alchemy-utils 0.1a0 release introduces a database-agnostic version of sqlite-utils library and CLI; author mentions Codex and GPT-5 usage. Why it matters: Direct: Points to a database-agnostic tooling direction and hands-on use of AI helpers (Codex, GPT-5) to shape the project.</description>
+      <description>Doom rendering is ported into transformer weights without training; a host program turns generated commands into pixels. Why it matters: Direct: Demonstrates embedding rendering logic into LLM-weighted systems enabling end-to-end visual output from prompts.</description>
     </item>
     <item>
-      <title>VAKRA: Evaluating Multi-Hop Reasoning Across APIs and Retrieval Under Tool-Use Policies</title>
-      <link>http://arxiv.org/abs/2608.12282v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.12282v1</guid>
-      <pubDate>Wed, 12 Aug 2026 17:27:27 +0000</pubDate>
+      <title>My Free-Server Loop for Reviewing AI Refactors (and the First Thing It Broke)</title>
+      <link>https://dev.to/datars_7274/my-free-server-loop-for-reviewing-ai-refactors-and-the-first-thing-it-broke-257p</link>
+      <guid isPermaLink="true">https://dev.to/datars_7274/my-free-server-loop-for-reviewing-ai-refactors-and-the-first-thing-it-broke-257p</guid>
+      <pubDate>Fri, 14 Aug 2026 10:43:45 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>In enterprise settings, agents must reason across structured APIs and document collections, but current benchmarks evaluate these capabilities in isolation. Why it matters: Direct: Highlights a practical gap; enterprise-ready agents require cross-API/document retrieval reasoning beyond isolated benchmarks.</description>
+      <description>I automated a boring AI-review loop for refactoring: propose changes, read diffs, run tests, patch fails, retry until it applies. The model isn&#x27;t the bottleneck; the human writes the loop, not trust in the model. Why it matters: Direct: Establish a repeatable AI-refactor loop to reduce human bottlenecks and surface patch failures early.</description>
     </item>
     <item>
-      <title>VAKRA: Evaluating Multi-Hop Reasoning Across APIs and Retrieval Under Tool-Use Policies</title>
-      <link>https://arxiv.org/abs/2608.12282v1</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.12282v1</guid>
-      <pubDate>Wed, 12 Aug 2026 17:27:27 +0000</pubDate>
+      <title>MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination</title>
+      <link>http://arxiv.org/abs/2608.13476v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.13476v1</guid>
+      <pubDate>Thu, 13 Aug 2026 17:00:08 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>In enterprise settings, agents must reason across structured APIs and document collections, but current benchmarks evaluate these capabilities in isolation. Why it matters: Direct: Highlights a practical gap; enterprise-ready agents require cross-API/document retrieval reasoning beyond isolated benchmarks.</description>
+      <description>MARC v1 introduces an open-source framework that replaces monolithic LLM prompting with deterministic multi-agent orchestration for clinical reasoning. Why it matters: Direct: Shifts from single-prompt LLMs to coordinated agents, potentially more reliable clinical reasoning.</description>
     </item>
     <item>
-      <title>OpenAI Flags Rising Cyber Threat Capabilities, Tightens Model Safeguards</title>
-      <link>https://dev.to/mikefluff/openai-flags-rising-cyber-threat-capabilities-tightens-model-safeguards-3dal</link>
-      <guid isPermaLink="true">https://dev.to/mikefluff/openai-flags-rising-cyber-threat-capabilities-tightens-model-safeguards-3dal</guid>
-      <pubDate>Thu, 13 Aug 2026 10:37:46 +0000</pubDate>
+      <title>Gemini 3.7 Flash vs 3.6: Migrate by Accepted-Task Cost</title>
+      <link>https://dev.to/ahab_indieseek/gemini-37-flash-vs-36-migrate-by-accepted-task-cost-63</link>
+      <guid isPermaLink="true">https://dev.to/ahab_indieseek/gemini-37-flash-vs-36-migrate-by-accepted-task-cost-63</guid>
+      <pubDate>Fri, 14 Aug 2026 10:45:18 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>OpenAI cites rising cyber threat capabilities and outlines safeguards in response to advanced AI aiding offensive operations. Why it matters: Direct: Documents governance response to rising cyber capabilities and tightened safeguards.</description>
+      <description>Gemini 3.7 Flash vs 3.6 advises migration by accepted-task cost rather than launch claims; 3.7 GA on Aug 13, 2026, with up to 1,048,576-token input and 65,536 output tokens. Why it matters: Direct: Bases migration decisions on task cost, not headline model releases.</description>
     </item>
     <item>
-      <title>Everything announced at Made by Google ’26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features</title>
-      <link>https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/</link>
-      <guid isPermaLink="true">https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/</guid>
-      <pubDate>Wed, 12 Aug 2026 14:20:33 +0000</pubDate>
+      <title>OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed</title>
+      <link>https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/</link>
+      <guid isPermaLink="true">https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/</guid>
+      <pubDate>Thu, 13 Aug 2026 19:22:40 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Made by Google 2026 announced Pixel 11 series, Pixel Watch 5, Pixel Tag, and Gemini features. Why it matters: Direct: Documents new hardware lineup and competing tracking device; Gemini features indicate AI integrations.</description>
+      <description>OpenAI previews Ultrafast, a sped-up mode for its latest model aimed at enterprise customers. Why it matters: Direct: Enterprise-focused speedup could change pricing, SLAs, and deployment timelines.</description>
     </item>
     <item>
-      <title>Stop being skeptical about AI for development with Charity Majors</title>
-      <link>https://newsletter.pragmaticengineer.com/p/stop-being-skeptical-about-ai-for</link>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/stop-being-skeptical-about-ai-for</guid>
-      <pubDate>Wed, 12 Aug 2026 16:45:07 +0000</pubDate>
+      <title>Sonar is moving to the Agent API</title>
+      <link>https://nitter.net/perplexitydevs/status/2087999222478221709</link>
+      <guid isPermaLink="true">https://nitter.net/perplexitydevs/status/2087999222478221709</guid>
+      <pubDate>Thu, 13 Aug 2026 20:26:22 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Says skepticism about AI for development was rational in 2025 but not in 2026, featuring Charity Majors, Honeycomb CTO and co-founder. Why it matters: Direct: Signals product teams may accelerate AI adoption in development workflows.</description>
+      <description>Sonar is moving to the Agent API, which keeps grounded web search and adds multi-step research, code execution, built-in tools, and access to multiple models via one API. On BrowseComp and WideSearch, Agent API more than doubles the best Sonar score. Why it matters: Direct: Adoption of the Agent API could accelerate AI-powered product discovery and cross-model tooling integration.</description>
     </item>
     <item>
-      <title>Base Power Company: Chapter 3</title>
-      <link>https://www.notboring.co/p/base-power-company-chapter-3</link>
-      <guid isPermaLink="true">https://www.notboring.co/p/base-power-company-chapter-3</guid>
-      <pubDate>Wed, 12 Aug 2026 13:53:37 +0000</pubDate>
+      <title>To the extent that AI use boosts firm performance</title>
+      <link>https://nitter.net/emollick/status/2088042334902755683</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2088042334902755683</guid>
+      <pubDate>Thu, 13 Aug 2026 23:17:41 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Chapter 3 of Base Power Company, as discussed in Not Boring, centers on Manufacturing the Capability Cannon. Why it matters: Direct: Signals emphasis on scalable capability building for product teams.</description>
+      <description>Early signs indicate AI use can boost firm performance: initial adopters that were already strong may outpace others. OpenAI data shows some firms use AI much more, and those firms tend to have the most productive employees. Why it matters: Direct: Early AI adoption by strong firms may widen performance gaps; prioritize AI investments where productivity is highest.</description>
     </item>
     <item>
-      <title>I like that all AI commentators now need to pretend</title>
-      <link>https://nitter.net/emollick/status/2087556358757609854</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2087556358757609854</guid>
-      <pubDate>Wed, 12 Aug 2026 15:06:35 +0000</pubDate>
+      <title>Could ASI build an AI watermarking tool so good that</title>
+      <link>https://nitter.net/emollick/status/2087910968458436778</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2087910968458436778</guid>
+      <pubDate>Thu, 13 Aug 2026 14:35:41 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Sparks skepticism about AI commentators claiming deep, nuanced expertise in hard math, highlighting inflated claims. Why it matters: Inference: Highlights risk of overclaiming AI capabilities in product contexts.</description>
+      <description>Could ASI build an AI watermarking tool so good that no ASI could avoid detection? (The answer is no.) Why it matters: Direct: It frames the limits of watermarking/detection tools for AI content.</description>
     </item>
     <item>
-      <title>@BharatKChandar , @RuyuChen and I just released an updated version</title>
-      <link>https://nitter.net/erikbryn/status/2087553309926416887</link>
-      <guid isPermaLink="true">https://nitter.net/erikbryn/status/2087553309926416887</guid>
-      <pubDate>Wed, 12 Aug 2026 14:54:28 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>Updated version of our paper &#x27;Canaries in the Coal Mine?&#x27; finds no widespread AI-related job displacement yet, with earlier trends holding or growing. Why it matters: Direct: Reassures product teams about near-term risk; informs planning of AI bets and upskilling.</description>
-    </item>
-    <item>
-      <title>On Substack-Pangram Partnership: It&#x27;s About Sending a Message</title>
-      <link>https://www.thealgorithmicbridge.com/p/on-substack-pangram-partnership-its</link>
-      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/on-substack-pangram-partnership-its</guid>
-      <pubDate>Wed, 12 Aug 2026 12:40:50 +0000</pubDate>
+      <title>DeepSeek Harness Is Open Source: Everything Is a Plugin</title>
+      <link>https://dev.to/hunter_g_50e2ec233acd07b5/deepseek-harness-is-open-source-everything-is-a-plugin-579l</link>
+      <guid isPermaLink="true">https://dev.to/hunter_g_50e2ec233acd07b5/deepseek-harness-is-open-source-everything-is-a-plugin-579l</guid>
+      <pubDate>Fri, 14 Aug 2026 09:02:14 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Comment on Substack-Pangram partnership highlighting false positives for a slop-free internet and expressing agreement. Why it matters: Direct: Highlights a stance on a &#x27;slop-free internet&#x27; that teams may reflect when evaluating AI messaging and policy framing.</description>
+      <description>DeepSeek Harness (developer preview) went open source half a day after DeepSeek V4 Pro; the repo structure suggests it&#x27;s a breadboard, not Codex, with over 230 workspace members. Why it matters: Direct: Open sourcing enables community plugins and broader adoption; teams can assess integration patterns and contribute enhancements.</description>
     </item>
     <item>
-      <title>How to Use Surfer AI for Log File Analysis in 2026</title>
-      <link>https://dev.to/leosociallseointent/how-to-use-surfer-ai-for-log-file-analysis-in-2026-92b</link>
-      <guid isPermaLink="true">https://dev.to/leosociallseointent/how-to-use-surfer-ai-for-log-file-analysis-in-2026-92b</guid>
-      <pubDate>Thu, 13 Aug 2026 10:35:14 +0000</pubDate>
+      <title>I made my SaaS installable by AI agents. Here&#x27;s what was broken.</title>
+      <link>https://dev.to/devin_daymore/i-made-my-saas-installable-by-ai-agents-heres-what-was-broken-3c17</link>
+      <guid isPermaLink="true">https://dev.to/devin_daymore/i-made-my-saas-installable-by-ai-agents-heres-what-was-broken-3c17</guid>
+      <pubDate>Fri, 14 Aug 2026 09:18:10 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Notes that Surfer AI for log file analysis works best with a cleaned, structured CSV export and a purpose-built prompt to surface anomalies, bot traps, and orphaned URLs. Why it matters: Direct: Suggests a concrete data format (cleaned CSV) and targeted prompt for operational log-analysis tasks.</description>
+      <description>An agent executed a complete product launch for Waitlister: creating a waitlist, generating/publishing a landing page, signing up a test address, verifying signup, then deleting everything; the dashboard remained untouched. Why it matters: Direct: Demonstrates end-to-end automation of a SaaS launch by AI agents without dashboard involvement.</description>
     </item>
     <item>
-      <title>Statewave&#x27;s Memory Bundles Are Byte-Identical Every Time. Mem0 and Zep Can&#x27;t Say That.</title>
-      <link>https://dev.to/jasondevlab/statewaves-memory-bundles-are-byte-identical-every-time-mem0-and-zep-cant-say-that-50o8</link>
-      <guid isPermaLink="true">https://dev.to/jasondevlab/statewaves-memory-bundles-are-byte-identical-every-time-mem0-and-zep-cant-say-that-50o8</guid>
-      <pubDate>Thu, 13 Aug 2026 09:19:43 +0000</pubDate>
+      <title>Vero: Can AI Agents Build Formally Verified Software Repositories?</title>
+      <link>http://arxiv.org/abs/2608.13522v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.13522v1</guid>
+      <pubDate>Thu, 13 Aug 2026 17:41:27 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Describes how Mem0 or Zep deployments can yield two different answers to the same user question due to query-time retrieval over embeddings, highlighting ranking over lookup. Why it matters: Direct: Identifies a memory-retrieval pitfall where two deployments may return different results for identical prompts.</description>
+      <description>AI agents are increasingly used for programming but lack guarantees on correctness; verified code generation combines implementation with a machine-checked proof to improve trust. Why it matters: Direct: Highlights need for formal verification to improve reliability of AI-generated software.</description>
     </item>
     <item>
-      <title>The Role Specialization Model (RSM): Coordinating LLM-Based Tools in Agentic Software Development - An Exploratory Case Study</title>
-      <link>https://arxiv.org/abs/2608.12311v1</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.12311v1</guid>
-      <pubDate>Wed, 12 Aug 2026 17:57:16 +0000</pubDate>
+      <title>Vero: Can AI Agents Build Formally Verified Software Repositories?</title>
+      <link>https://arxiv.org/abs/2608.13522v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2608.13522v1</guid>
+      <pubDate>Thu, 13 Aug 2026 17:41:27 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Discusses Agentic Software Engineering (SE 3.0) where autonomous agents manage full development life cycles under human supervision. Why it matters: Direct: Describes a deployment paradigm for AI-enabled tooling in software development.</description>
+      <description>AI agents are increasingly used for programming but lack guarantees on correctness; verified code generation offers a stronger path toward trustworthy AI-generated software. Why it matters: Direct: Highlights need for formal verification to improve reliability of AI-generated software.</description>
     </item>
     <item>
-      <title>LLMs have the capacity for self-imposed steganography</title>
-      <link>https://www.lesswrong.com/posts/tdLzCtgYceEFfdbW4/llms-have-the-capacity-for-self-imposed-steganography</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/tdLzCtgYceEFfdbW4/llms-have-the-capacity-for-self-imposed-steganography</guid>
-      <pubDate>Thu, 13 Aug 2026 05:28:42 +0000</pubDate>
+      <title>Create a Reasoning-Focused LLM: A Practical Guide to Streaming, Curating, and Fine-Tuning the SupraLabs Reasoning Corpus</title>
+      <link>https://www.marktechpost.com/2026/08/13/a-practical-guide-to-streaming-curating-and-fine-tuning-the-supralabs-reasoning-corpus/</link>
+      <guid isPermaLink="true">https://www.marktechpost.com/2026/08/13/a-practical-guide-to-streaming-curating-and-fine-tuning-the-supralabs-reasoning-corpus/</guid>
+      <pubDate>Fri, 14 Aug 2026 03:09:45 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>This writeup demonstrates capacity for LLMs to take on steganography capabilities, with AI safety relevance for evading monitoring of a control protocol. Why it matters: Direct: Highlights a potential safety risk where LLMs could encode hidden information to bypass monitoring protocols.</description>
+      <description>This tutorial outlines a complete workflow to build a compact, reasoning-focused LLM by streaming the SupraLabs reasoning corpus from Hugging Face, applying quality filters, and curating data for SFT. Why it matters: Direct: Enables reproducible, compact reasoning-focused models by streaming high-signal data and applying filters for SFT, reducing data noise ahead of training.</description>
     </item>
     <item>
-      <title>DeepSeek V4 Pro 0813 (on OpenRouter)</title>
-      <link>https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/</guid>
-      <pubDate>Wed, 12 Aug 2026 23:59:23 +0000</pubDate>
+      <title>A collision-entropy floor for watermark/retrieval AI-text detection. Looking for a sanity check before I take this further [D]</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1vo2nfc/a_collisionentropy_floor_for_watermarkretrieval/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1vo2nfc/a_collisionentropy_floor_for_watermarkretrieval/</guid>
+      <pubDate>Fri, 14 Aug 2026 09:38:20 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>The latest DeepSeek Pro model is now available, via API only, linked to OpenRouter because DeepSeek lacks an obvious announcement page. Why it matters: Direct: API-only availability and OpenRouter linkage may impact integration latency and discoverability of the new model.</description>
+      <description>A Reddit post discusses a formalization of why similarity-based AI-text detectors—watermarking and retrieval-based matching—hit a floor on false-positive rate, seeking feedback; the work is self-verified so far with no external review. Why it matters: Direct: Early exploration of fundamental false-positive limits in detector methods, signaling where improvement or caution is needed before broader deployment.</description>
     </item>
     <item>
-      <title>Patterns and problems in emerging multiagent systems (Anthropic, Frontier Red Team)</title>
-      <link>https://www.lesswrong.com/posts/iQiDPmAgKo4KcG5uy/patterns-and-problems-in-emerging-multiagent-systems</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/iQiDPmAgKo4KcG5uy/patterns-and-problems-in-emerging-multiagent-systems</guid>
-      <pubDate>Thu, 13 Aug 2026 04:10:42 +0000</pubDate>
+      <title>Concrete Generalist Projects in AI Safety (and how to do them)</title>
+      <link>https://www.lesswrong.com/posts/Lu3uu8hBjsebFm6nK/concrete-generalist-projects-in-ai-safety-and-how-to-do-them</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/Lu3uu8hBjsebFm6nK/concrete-generalist-projects-in-ai-safety-and-how-to-do-them</guid>
+      <pubDate>Thu, 13 Aug 2026 19:52:15 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Anthropic research on agent coordination; Mythos 5 shows better coordination than previous models across several scenarios. Why it matters: Direct: Early signal that newer multiagent models may coordinate more effectively, informing risk assessments and governance.</description>
+      <description>The AI safety ecosystem needs generalists to tackle tasks outside traditional job descriptions. Why it matters: Direct: Generalists can fill gaps left by narrowly defined roles, accelerating practical AI safety work.</description>
     </item>
     <item>
-      <title>Dyna Robotics Introduces Dyna-2: A World-Action Model Pre-Trained on 1 Million Hours of Human Video</title>
-      <link>https://www.marktechpost.com/2026/08/13/dyna-robotics-introduces-dyna-2-a-world-action-model-pre-trained-on-1-million-hours-of-human-video/</link>
-      <guid isPermaLink="true">https://www.marktechpost.com/2026/08/13/dyna-robotics-introduces-dyna-2-a-world-action-model-pre-trained-on-1-million-hours-of-human-video/</guid>
-      <pubDate>Thu, 13 Aug 2026 07:42:02 +0000</pubDate>
+      <title>Features that current AIs don&#x27;t have that future AIs will have</title>
+      <link>https://www.lesswrong.com/posts/NyEM3FtgL7XkbfCXy/features-that-current-ais-don-t-have-that-future-ais-will</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/NyEM3FtgL7XkbfCXy/features-that-current-ais-don-t-have-that-future-ais-will</guid>
+      <pubDate>Thu, 13 Aug 2026 21:49:51 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Dyna-2 is a world-action model pre-trained on more than one million hours of egocentric human video; reports a scaling law on human data to 1M hours, transfer to unseen robot data, and evidence that video co-training drives cross-embodiment generalization. Why it matters: Direct: Demonstrated scaling laws with 1M hours of data, and cross-embodiment generalization via video co-training, impacting how robots learn from humans.</description>
+      <description>This post outlines anticipated future AI capabilities, including autonomous online updating of weights during deployment and continual long-term memory, contrasted with current AI limitations. Why it matters: Direct: Highlights self-improving models and persistent memory features that could reshape deployment and learning dynamics.</description>
     </item>
     <item>
-      <title>IF:CARGO: LLM-Based Semantic Compilation for Al-Native Rule Programming Games</title>
-      <link>https://arxiv.org/abs/2608.12195v1</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.12195v1</guid>
-      <pubDate>Wed, 12 Aug 2026 15:50:16 +0000</pubDate>
+      <title>Gemini 3.7 Flash</title>
+      <link>https://www.producthunt.com/products/gemini-3-7-flash</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/gemini-3-7-flash</guid>
+      <pubDate>Thu, 13 Aug 2026 18:16:30 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>IF:CARGO is an experimental puzzle game that uses a large language model as a semantic compiler; players author IF/THEN rules in natural language, and the model translates these into a constrained command schema for deterministic validation and execution by t... Why it matters: Direct: Demonstrates a game design workflow where natural-language rules are compiled into deterministic game commands via an LLM.</description>
+      <description>Gemini 3.7 Flash - Google&#x27;s smartest workhorse yet for coding &amp; agents. Why it matters: Direct: Signals growing interest in AI coding/agent copilots on discovery platforms.</description>
     </item>
     <item>
-      <title>‘I feel like I’m at war’: are we losing the battle against machine-made music?</title>
-      <link>https://www.theguardian.com/music/ng-interactive/2026/aug/13/ai-music</link>
-      <guid isPermaLink="true">https://www.theguardian.com/music/ng-interactive/2026/aug/13/ai-music</guid>
-      <pubDate>Thu, 13 Aug 2026 09:00:55 +0000</pubDate>
+      <title>ChordViz</title>
+      <link>https://www.producthunt.com/products/chordviz</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/chordviz</guid>
+      <pubDate>Fri, 14 Aug 2026 01:28:45 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>The Guardian notes musicians&#x27; outcry as AI-generated music enters charts and labels scramble to adapt to a new normal where hits can be made quickly, fueling a complex debate. Why it matters: Direct: highlights the cultural and industry tensions around AI-generated music and the rapid adaptation by labels.</description>
-    </item>
-    <item>
-      <title>Set up your BizNode bot in under 5 minutes. The 14-step wizard auto-creates handles from your services list. Your bot goes...</title>
-      <link>https://dev.to/biznode/set-up-your-biznode-bot-in-under-5-minutes-the-14-step-wizard-auto-creates-handles-from-your-4fem</link>
-      <guid isPermaLink="true">https://dev.to/biznode/set-up-your-biznode-bot-in-under-5-minutes-the-14-step-wizard-auto-creates-handles-from-your-4fem</guid>
-      <pubDate>Thu, 13 Aug 2026 10:34:57 +0000</pubDate>
-      <category>5) For Fun</category>
-      <description>BizNode is presented as an autonomous AI business operator that runs entirely on your machine, ensuring your data stays private and secure. Why it matters: Direct: Local operation and privacy are notable differentiators for AI business automation tools.</description>
+      <description>ChordViz - Build your own music visualizer for MIDI &amp; audio. Why it matters: Direct: Demonstrates a practical tool for building MIDI and audio visualizations, enabling hobbyists and developers to visualize music inputs.</description>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-08-14",
+    "title": "Daily AI Feed - 2026-08-14",
+    "lead_story": "MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination",
+    "lead_url": "https://arxiv.org/abs/2608.13476v1",
+    "generated_at": "2026-08-14T11:00:07+00:00"
+  },
+  {
     "date": "2026-08-13",
     "title": "Daily AI Feed - 2026-08-13",
     "lead_story": "GhostSplice Isn't a Jailbreak, It's a Reminder That LLMs Can't Do Access Control",
