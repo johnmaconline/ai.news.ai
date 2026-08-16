@@ -1,186 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-08-15</title>
+    <title>Daily AI Feed - 2026-08-16</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Sat, 15 Aug 2026 10:26:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 10:24:35 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>Mastering AI Prompts: A Step-by-Step Tutorial for Clearer, Better Results</title>
-      <link>https://dev.to/samchenreviews/mastering-ai-prompts-a-step-by-step-tutorial-for-clearer-better-results-4m1i</link>
-      <guid isPermaLink="true">https://dev.to/samchenreviews/mastering-ai-prompts-a-step-by-step-tutorial-for-clearer-better-results-4m1i</guid>
-      <pubDate>Sat, 15 Aug 2026 09:55:40 +0000</pubDate>
+      <title>Prompt caching has a break-even point, and it&#x27;s 22%</title>
+      <link>https://dev.to/altrouter/prompt-caching-has-a-break-even-point-and-its-22-7d</link>
+      <guid isPermaLink="true">https://dev.to/altrouter/prompt-caching-has-a-break-even-point-and-its-22-7d</guid>
+      <pubDate>Sun, 16 Aug 2026 08:46:58 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Overview of AI prompts, their importance, the garbage in, garbage out principle, and a brief look at prompt engineering across AI models. Why it matters: Direct: Highlights how prompt engineering improves AI interaction quality for developers.</description>
+      <description>The piece asserts prompt caching has a computable break-even point at 22%, and that caching can raise bills if teams don&#x27;t check which side they&#x27;re on. Why it matters: Direct: Measure your prompt-caching break-even point (22%) to prevent higher-than-expected bills and evaluate caching effectiveness.</description>
     </item>
     <item>
-      <title>10 Days to Build a Voice AI Tutor: The Good, The Bad, and The &quot;Why Is It Silent?!&quot;</title>
-      <link>https://dev.to/satwik_mn/10-days-to-build-a-voice-ai-tutor-the-good-the-bad-and-the-why-is-it-silent-7ii</link>
-      <guid isPermaLink="true">https://dev.to/satwik_mn/10-days-to-build-a-voice-ai-tutor-the-good-the-bad-and-the-why-is-it-silent-7ii</guid>
-      <pubDate>Sat, 15 Aug 2026 09:53:35 +0000</pubDate>
+      <title>Revolutionizing African Storytelling: The Power of AI-Driven Content Creation</title>
+      <link>https://dev.to/olanrewaju_alameen_0afe1/revolutionizing-african-storytelling-the-power-of-ai-driven-content-creation-37a6</link>
+      <guid isPermaLink="true">https://dev.to/olanrewaju_alameen_0afe1/revolutionizing-african-storytelling-the-power-of-ai-driven-content-creation-37a6</guid>
+      <pubDate>Sun, 16 Aug 2026 10:00:20 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Describes building Vidya Vani, a low-latency, multi-agent voice tutor for Bharat in 10 days to practice spoken English and Mathematics. Why it matters: Direct: Demonstrates rapid, end-to-end development of a voice AI tutor and practical multi-agent architecture.</description>
+      <description>Introduction to AI-Driven Storytelling: African creators bring rich, diverse storytelling from oral traditions to modern digital content, but translating stories to life remains daunting for those with limited resources and equipment. Why it matters: Direct: Highlights potential barriers and opportunities for AI-enabled storytelling in resource-constrained contexts.</description>
     </item>
     <item>
-      <title>15 AI models. One API key. Zero new things to learn.</title>
-      <link>https://dev.to/daniel_dong_sdwgw041/15-ai-models-one-api-key-zero-new-things-to-learn-40l9</link>
-      <guid isPermaLink="true">https://dev.to/daniel_dong_sdwgw041/15-ai-models-one-api-key-zero-new-things-to-learn-40l9</guid>
-      <pubDate>Sat, 15 Aug 2026 09:31:36 +0000</pubDate>
+      <title>I Got Tired of Alt-Tabbing to a Real Terminal, So I Built My AI a Front Door</title>
+      <link>https://dev.to/huzky30g/i-got-tired-of-alt-tabbing-to-a-real-terminal-so-i-built-my-ai-a-front-door-2h78</link>
+      <guid isPermaLink="true">https://dev.to/huzky30g/i-got-tired-of-alt-tabbing-to-a-real-terminal-so-i-built-my-ai-a-front-door-2h78</guid>
+      <pubDate>Sun, 16 Aug 2026 07:48:36 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Describes using one API key to access 15 AI models via a single endpoint, with example OpenAI client calls to deepseek-chat. Why it matters: Direct: Demonstrates a minimal endpoint abstraction for multi-model prompts and cost-effective API usage.</description>
+      <description>A developer describes building a &#x27;front door&#x27; for an AI to hand off privileged tasks when the user can&#x27;t install packages or lacks sudo, avoiding manual terminal switching. Why it matters: Direct: Demonstrates an agent-design pattern for user-initiated task handoff to bypass local permission constraints.</description>
     </item>
     <item>
-      <title>Building Vidya: An Ultra-Fast Bilingual Voice AI Tutor with Murf Falcon &amp; LiveKit (10 Days of Voice Agents)</title>
-      <link>https://dev.to/stoichotoke/building-vidya-an-ultra-fast-bilingual-voice-ai-tutor-with-murf-falcon-livekit-10-days-of-voice-1fcf</link>
-      <guid isPermaLink="true">https://dev.to/stoichotoke/building-vidya-an-ultra-fast-bilingual-voice-ai-tutor-with-murf-falcon-livekit-10-days-of-voice-1fcf</guid>
-      <pubDate>Sat, 15 Aug 2026 10:04:02 +0000</pubDate>
+      <title>llama.cpp b10448 Integrates Kimi-K3: Hybrid KDA/MLA Attention for Local Inference</title>
+      <link>https://dev.to/soytuber/llamacpp-b10448-integrates-kimi-k3-hybrid-kdamla-attention-for-local-inference-3k7d</link>
+      <guid isPermaLink="true">https://dev.to/soytuber/llamacpp-b10448-integrates-kimi-k3-hybrid-kdamla-attention-for-local-inference-3k7d</guid>
+      <pubDate>Sun, 16 Aug 2026 09:03:46 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Vidya is a real-time bilingual (English/Hindi) AI voice tutor built over 10 days for the #VoiceForBharat challenge, aiming to make learning interactive and accessible for students across India. Why it matters: Direct: Demonstrates a real-time bilingual tutor prototype aimed at interactive education in India.</description>
+      <description>The llama.cpp release b10448 adds comprehensive support for the Kimi-K3 text model, expanding open-weight architectures. Why it matters: Direct: Enables local inference with Kimi-K3 in llama.cpp, broadening model options and potentially impacting deployment choices for edge or offline AI workloads.</description>
     </item>
     <item>
-      <title>How Anthropic Is Watermarking Claude AI Text</title>
-      <link>https://dev.to/tekmag/how-anthropic-is-watermarking-claude-ai-text-20eh</link>
-      <guid isPermaLink="true">https://dev.to/tekmag/how-anthropic-is-watermarking-claude-ai-text-20eh</guid>
-      <pubDate>Sat, 15 Aug 2026 10:05:59 +0000</pubDate>
+      <title>The Face Scanner Judging You May Have Learned From Faces That Don&#x27;t Exist</title>
+      <link>https://dev.to/caracomp/the-face-scanner-judging-you-may-have-learned-from-faces-that-dont-exist-hah</link>
+      <guid isPermaLink="true">https://dev.to/caracomp/the-face-scanner-judging-you-may-have-learned-from-faces-that-dont-exist-hah</guid>
+      <pubDate>Sun, 16 Aug 2026 09:55:00 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Anthropic embeds invisible watermarks in Claude-generated text and adds signed C2PA metadata to image files, starting Aug 2, 2026, fulfilling EU AI Act obligations globally. Why it matters: Direct: Highlights global watermarking and image metadata measures to satisfy EU AI Act obligations.</description>
+      <description>Synthetic training data reshapes biometric accuracy; the gap between lab accuracy and field reliability is widening in computer vision. Why it matters: Direct: Highlights a reliability risk for computer vision systems relying on synthetic data.</description>
     </item>
     <item>
-      <title>OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed</title>
-      <link>https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/</link>
-      <guid isPermaLink="true">https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/</guid>
-      <pubDate>Thu, 13 Aug 2026 19:22:40 +0000</pubDate>
+      <title>SOTA Apple Silicon Inference (August 15, 2026)</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vphr8u/sota_apple_silicon_inference_august_15_2026/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vphr8u/sota_apple_silicon_inference_august_15_2026/</guid>
+      <pubDate>Sat, 15 Aug 2026 23:48:29 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>OpenAI previews a sped-up mode for GPT-5.6 Sol to accelerate performance, targeting enterprise users. Why it matters: Direct: Indicates a venue for enterprise adoption by offering faster GPT-5.6 Sol.</description>
+      <description>A handwritten post discusses fast inference on Apple Silicon and reasons some users may not see claimed performance in local macOS models. Why it matters: Direct: Highlights practical limits on local Apple Silicon inference and the gap between community claims and actual throughput.</description>
     </item>
     <item>
-      <title>Qwen3.8-27B is now up to ~3× faster on Apple Silicon with mlx-dspark</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vokrcy/qwen3827b_is_now_up_to_3_faster_on_apple_silicon/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vokrcy/qwen3827b_is_now_up_to_3_faster_on_apple_silicon/</guid>
-      <pubDate>Fri, 14 Aug 2026 21:54:36 +0000</pubDate>
+      <title>llama.cpp Windows Manager</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vpfrxw/llamacpp_windows_manager/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vpfrxw/llamacpp_windows_manager/</guid>
+      <pubDate>Sat, 15 Aug 2026 22:17:03 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Qwen3.8-27B runs up to ~3× faster on Apple Silicon using mlx-dspark, an MLX port of DSpark speculative-decoding drafters, with v0.10.0 adding Qwen3.8-27B via RadixArk&#x27;s drafter. Why it matters: Direct: Demonstrates speed gains on Apple Silicon via the MLX decoding stack.</description>
+      <description>Three months after sharing a personal Windows solution for running llama.cpp on Windows, the Windows Manager project has evolved toward a simple visual interface for managing llama. Why it matters: Direct: Documents progress of a practical GUI tool to manage local llama.cpp deployments on Windows.</description>
     </item>
     <item>
-      <title>This, in short</title>
-      <link>https://nitter.net/emollick/status/2088315207508803928</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2088315207508803928</guid>
-      <pubDate>Fri, 14 Aug 2026 17:21:59 +0000</pubDate>
+      <title>🧠 Community Wisdom: Recovering from burnout, what Airtable’s sale says about the ceiling on a startup, keeping architecture docs up to date, running competitor analysis, and more</title>
+      <link>https://www.lennysnewsletter.com/p/community-wisdom-recovering-from</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/community-wisdom-recovering-from</guid>
+      <pubDate>Sat, 15 Aug 2026 17:01:13 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Ethan Mollick notes that experts&#x27; linear-growth projections in solar installations miss exponential growth, and warns the same may apply to AI product-strategy discourse. Why it matters: Direct: Signals that AI product strategy may be overconfident; build flexible roadmaps to account for uncertain, non-linear growth.</description>
+      <description>Community Wisdom roundup highlights burnout recovery, Airtable sale implications for startup ceilings, keeping architecture docs up to date, and running competitor analysis. Why it matters: Direct: Highlights early signals for product strategy: burnout management, scalable docs, and competitive intelligence to inform prioritization and speed to ship.</description>
     </item>
     <item>
-      <title>People are making way too confident extrapolations about the impact</title>
-      <link>https://nitter.net/emollick/status/2088288410670940213</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2088288410670940213</guid>
-      <pubDate>Fri, 14 Aug 2026 15:35:30 +0000</pubDate>
+      <title>We are definitely in a Singularity as defined by Vinge</title>
+      <link>https://nitter.net/emollick/status/2088750423825924222</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2088750423825924222</guid>
+      <pubDate>Sat, 15 Aug 2026 22:11:22 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Mollick argues that predictions of AI impact and usage are overconfident due to price, adoption, and capability volatility; urges building flexibility for the future. Why it matters: Direct: Emphasizes adaptable product plans and staged experiments amid uncertain AI economics.</description>
+      <description>Discussion asserting we are in a Singularity per Vernor Vinge, with caveats about von Neumann/Ulam definitions, and a call to read Vinge and Kurzweil. Why it matters: Direct: clarifies distinctions in tech discourse and promotes reading primary sources to calibrate expectations.</description>
     </item>
     <item>
-      <title>Weekly Dose of Optimism #206</title>
-      <link>https://www.notboring.co/p/weekly-dose-of-optimism-206</link>
-      <guid isPermaLink="true">https://www.notboring.co/p/weekly-dose-of-optimism-206</guid>
-      <pubDate>Fri, 14 Aug 2026 13:10:36 +0000</pubDate>
+      <title>All of this was done from ChatGPT on mu phone</title>
+      <link>https://nitter.net/emollick/status/2088718921754935345</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2088718921754935345</guid>
+      <pubDate>Sat, 15 Aug 2026 20:06:12 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Not Boring&#x27;s Weekly Dose #206 covers drones, Lakers, Recast, Fuse neutrons, Rick Rubin, plus extra doses. Why it matters: Direct: Provides quick, digestible content signals for product teams seeking low-friction updates.</description>
+      <description>Notes on working entirely via ChatGPT on mu phone, connected to Codex, with Sol making choices and generating images; links to GitHub. Why it matters: Direct: demonstrates alternative AI-powered workflows that can accelerate design iterations and asset production.</description>
     </item>
     <item>
-      <title>The Pulse: Meta’s self-inflicted resignation-wave</title>
-      <link>https://newsletter.pragmaticengineer.com/p/the-pulse-metas-self-inflicted-resignation</link>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-pulse-metas-self-inflicted-resignation</guid>
-      <pubDate>Fri, 14 Aug 2026 16:55:55 +0000</pubDate>
+      <title>Inside the TormentNexus AI Skill Registry: 5,776 Reusable Modules Fueling Developer AI</title>
+      <link>https://dev.to/hypernexus/inside-the-tormentnexus-ai-skill-registry-5776-reusable-modules-fueling-developer-ai-2jfm</link>
+      <guid isPermaLink="true">https://dev.to/hypernexus/inside-the-tormentnexus-ai-skill-registry-5776-reusable-modules-fueling-developer-ai-2jfm</guid>
+      <pubDate>Sun, 16 Aug 2026 08:20:51 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Meta offers $1M+ retainer equity grants to departing staff, but effectiveness is questionable; raises question about Grok Bot as an &#x27;OpenClaw moment&#x27; for managed AI agents. Why it matters: Direct: Highlights the governance and incentive tensions in AI agent management and worker retention strategies.</description>
+      <description>The TormentNexus AI Skill Registry hosts 5,776 battle-tested, reusable AI modules. These skills—from automated code review to dynamic Terraform generation—are transforming developer workflows in a structured, community-driven ecosystem. Why it matters: Direct: Pilot 1-2 high-signal modules (e.g., automated code review, Terraform generation) in your CI/CD workflow.</description>
     </item>
     <item>
-      <title>Building MediBuddy AI: An Ultra-Fast Multilingual Voice Health Assistant for India 🇮🇳</title>
-      <link>https://dev.to/rashu_10/building-medibuddy-ai-an-ultra-fast-multilingual-voice-health-assistant-for-india-3oa</link>
-      <guid isPermaLink="true">https://dev.to/rashu_10/building-medibuddy-ai-an-ultra-fast-multilingual-voice-health-assistant-for-india-3oa</guid>
-      <pubDate>Sat, 15 Aug 2026 08:45:47 +0000</pubDate>
+      <title>Prime Agent Review: The Self-Improving RLM Coding Harness</title>
+      <link>https://dev.to/andrew-ooo/prime-agent-review-the-self-improving-rlm-coding-harness-54n9</link>
+      <guid isPermaLink="true">https://dev.to/andrew-ooo/prime-agent-review-the-self-improving-rlm-coding-harness-54n9</guid>
+      <pubDate>Sun, 16 Aug 2026 08:57:27 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Participant in the 10 Days of Voice Agents—#VoiceForBharat Edition by Murf AI aimed at building MediBuddy AI, a production-grade, real-time voice agent tailored for India&#x27;s healthcare landscape. Why it matters: Direct: Demonstrates the practical scope of production-grade voice agents in a multilingual healthcare context.</description>
+      <description>Prime Agent Review: The Self-Improving RLM Coding Harness Why it matters: Direct: Assess practical deployment hints and follow-up updates.</description>
     </item>
     <item>
-      <title>Context Engineering and Harness Engineering: Building Reliable AI Agents Beyond Prompts</title>
-      <link>https://dev.to/mino/context-engineering-and-harness-engineering-building-reliable-ai-agents-beyond-prompts-3dij</link>
-      <guid isPermaLink="true">https://dev.to/mino/context-engineering-and-harness-engineering-building-reliable-ai-agents-beyond-prompts-3dij</guid>
-      <pubDate>Sat, 15 Aug 2026 08:55:17 +0000</pubDate>
+      <title>Kimi likes causal decision theory more after RL in twin prisoner’s dilemmas</title>
+      <link>https://www.lesswrong.com/posts/hfNBEKaStASAYMLiu/kimi-likes-causal-decision-theory-more-after-rl-in-twin-1</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/hfNBEKaStASAYMLiu/kimi-likes-causal-decision-theory-more-after-rl-in-twin-1</guid>
+      <pubDate>Sat, 15 Aug 2026 22:31:38 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Overview of engineering roles: prompt engineering defines tasks, context engineering provides data, and harness engineering builds the system for action, verification, and recovery. Why it matters: Direct: Outlines three engineering layers for reliable agents—prompts, context, and harnesses—relevant to implementation.</description>
+      <description>Kimi likes causal decision theory more after RL in twin prisoner’s dilemmas Why it matters: Direct: Highlights potential CDT alignment shifts in multi-agent settings.</description>
     </item>
     <item>
-      <title>Your Agents Are Not Time Aware</title>
-      <link>https://www.lesswrong.com/posts/eAbuPXbjakop5rSJx/your-agents-are-not-time-aware</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/eAbuPXbjakop5rSJx/your-agents-are-not-time-aware</guid>
-      <pubDate>Fri, 14 Aug 2026 23:24:29 +0000</pubDate>
+      <title>Using Chunked Monitoring to Detect Deception in Long Transcripts</title>
+      <link>https://www.lesswrong.com/posts/orMEvTgtRig9qnsdL/using-chunked-monitoring-to-detect-deception-in-long</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/orMEvTgtRig9qnsdL/using-chunked-monitoring-to-detect-deception-in-long</guid>
+      <pubDate>Sat, 15 Aug 2026 20:05:20 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>MATS 10 work analyzes CLI agents Claude Code and Codex: predicting, executing, then retrospectively estimating wall-clock runtime; experiments span ProgramBench and AgentTime, with ablations on info access. Why it matters: Direct: Shows how to evaluate agent runtime and information access in a controlled test suite.</description>
+      <description>Using Chunked Monitoring to Detect Deception in Long Transcripts Why it matters: Direct: Illustrates a scalable method for detecting deception in long transcripts.</description>
     </item>
     <item>
-      <title>Rerunning AI safety papers on every frontier release would be pretty easy and valuable</title>
-      <link>https://www.lesswrong.com/posts/oKxc8maZGtnzgpNzx/rerunning-ai-safety-papers-on-every-frontier-release-would-1</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/oKxc8maZGtnzgpNzx/rerunning-ai-safety-papers-on-every-frontier-release-would-1</guid>
-      <pubDate>Sat, 15 Aug 2026 05:14:54 +0000</pubDate>
+      <title>Does DiffusionGemma do latent reasoning?</title>
+      <link>https://www.lesswrong.com/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning</guid>
+      <pubDate>Sun, 16 Aug 2026 04:22:18 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Some important AI safety research is never rerun on the newest models. There are probably cases where this would be valuable and a single well-positioned researcher could likely do this with sufficient funding. Why it matters: Direct: Empirical replications on frontier models can expose gaps in safety research before widespread deployment.</description>
+      <description>DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. Why it matters: Direct: Diffusion steps carry vectors, implying latent representations accompany token outputs.</description>
     </item>
     <item>
-      <title>Do It Like Darwin</title>
-      <link>https://www.lesswrong.com/posts/Nj9jzMBFzEZAbBpo4/do-it-like-darwin</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/Nj9jzMBFzEZAbBpo4/do-it-like-darwin</guid>
-      <pubDate>Fri, 14 Aug 2026 19:11:07 +0000</pubDate>
+      <title>Does DiffusionGemma do latent reasoning?</title>
+      <link>https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning</link>
+      <guid isPermaLink="true">https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning</guid>
+      <pubDate>Sun, 16 Aug 2026 04:22:18 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>A stated goal of many of the frontier AI labs is to automate science, or large portions of it. AlphaFold&#x27;s architects won the Nobel Prize in 2024 for enormous advances in automated solutions to protein folding. That was a system tailored to a specific domain. Why it matters: Direct: Automating scientific workflows could accelerate discovery but risks overspecialization; domain-tailored systems like AlphaFold show proof of concept.</description>
+      <description>DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. Why it matters: Direct: Diffusion steps carry vectors, implying latent representations accompany token outputs.</description>
     </item>
     <item>
-      <title>Northern Gannet</title>
-      <link>https://simonwillison.net/2026/Aug/15/sighting-391300422/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/15/sighting-391300422/</guid>
-      <pubDate>Sat, 15 Aug 2026 03:22:00 +0000</pubDate>
+      <title>CORS Chat</title>
+      <link>https://simonwillison.net/2026/Aug/15/cors-chat/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/15/cors-chat/</guid>
+      <pubDate>Sat, 15 Aug 2026 14:49:54 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Morris the Northern Gannet resides in Pillar Point Harbor, CA; the only known Northern Gannet in the Pacific Ocean. He appeared at the Farallon Islands 14 years ago. Why it matters: Direct: A unique case of a lone Pacific Gannet; signals potential shifts in regional distribution or reporting of rare seabirds.</description>
+      <description>Tool: CORS Chat I built this today ( with GPT-5.6-Sol xhigh ) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark. Why it matters: Direct: The tool provides a web UI to exercise an OpenAI-Responses-compatible chat endpoint.</description>
     </item>
     <item>
-      <title>GLM-5.3: How Chinese labs keep stride with the frontier</title>
-      <link>https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride</link>
-      <guid isPermaLink="true">https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride</guid>
-      <pubDate>Fri, 14 Aug 2026 21:23:35 +0000</pubDate>
+      <title>SSOG-Attention: Sum Of Separable Gaussians as a sub-quadratic and scalable alternative to SDPA. [R]</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1vpt6ay/ssogattention_sum_of_separable_gaussians_as_a/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1vpt6ay/ssogattention_sum_of_separable_gaussians_as_a/</guid>
+      <pubDate>Sun, 16 Aug 2026 10:06:07 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Hint: It’s really not a distillation story. Why it matters: Direct: The article challenges the notion of simplified distillation and implies more complex processes behind GLM-5.3.</description>
+      <description>Scaled dot-product attention (SDPA) computes its Attention by computing the similarity-scores of all image-tokens with all query tokens which results in O(N^2·d) complexity. Why it matters: Inference: If effective, SSOG could lower attention computation from quadratic to sub-quadratic costs, enabling scalable attention in practice.</description>
     </item>
     <item>
-      <title>Step-by-Step Method to Earn Xbox Credits</title>
-      <link>https://dev.to/raftor_ff3ed3d4b653d23cce/step-by-step-method-to-earn-xbox-credits-1e1n</link>
-      <guid isPermaLink="true">https://dev.to/raftor_ff3ed3d4b653d23cce/step-by-step-method-to-earn-xbox-credits-1e1n</guid>
-      <pubDate>Sat, 15 Aug 2026 10:09:09 +0000</pubDate>
+      <title>Why your AI agent is hallucinating its own logic</title>
+      <link>https://dev.to/renato_marinho/why-your-ai-agent-is-hallucinating-its-own-logic-103i</link>
+      <guid isPermaLink="true">https://dev.to/renato_marinho/why-your-ai-agent-is-hallucinating-its-own-logic-103i</guid>
+      <pubDate>Sun, 16 Aug 2026 08:55:50 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>An Xbox gift card is a convenient way to add funds to a Microsoft account and purchase digital entertainment from the Xbox ecosystem. Detailed explanation available here: https://incomepathhub. Why it matters: Direct: Highlights a simple, widely available way to fund Xbox purchases, useful for practical rewards or promotions.</description>
+      <description>Argues that LLM agents are not truly aware of their own actions: running tools yields results, but the model doesn&#x27;t actually &#x27;know&#x27; what it did before. Why it matters: Direct: Implement step-tracking and post hoc verification to ensure the agent&#x27;s outputs align with its actual tool sequence.</description>
     </item>
     <item>
-      <title>RetroCraft - Qwen 3.8 27B Q8, one shot with exact performance data on dual 3090s.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1voj571/retrocraft_qwen_38_27b_q8_one_shot_with_exact/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1voj571/retrocraft_qwen_38_27b_q8_one_shot_with_exact/</guid>
-      <pubDate>Fri, 14 Aug 2026 20:50:38 +0000</pubDate>
+      <title>The Session Ended With &quot;270/270, Verified.&quot; The Next One Started With Everything Broken</title>
+      <link>https://dev.to/turgaysavaci/the-session-ended-with-270270-verified-the-next-one-started-with-everything-broken-5e0i</link>
+      <guid isPermaLink="true">https://dev.to/turgaysavaci/the-session-ended-with-270270-verified-the-next-one-started-with-everything-broken-5e0i</guid>
+      <pubDate>Sun, 16 Aug 2026 09:16:46 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Demo shows a single prompt using Qwen 3.8 27B Q8_K_XL to create a single-page GeoCities-style retro Minecraft clone named RetroCraft, with Laser Wave and 80&#x27;s retro vibes, embedded in a Go binary that serves the HTML page. Why it matters: Direct: Demonstrates rapid, single-prompt front-end prototyping and packaging HTML into a self-contained Go binary.</description>
+      <description>Keeps a real-world devlog of coding sessions, not a changelog, documenting bugs found, fixes applied, and test reruns. Why it matters: Direct: Encourage an ongoing, real-world devlog to improve post-hoc debugging and learning from failures.</description>
     </item>
     <item>
-      <title>NOTCOIN ($NOT): The Sleeping Giant is Waking Up! Prime Buy Setup</title>
-      <link>https://www.tradingview.com/chart/NOTUSDT.P/fORHziIl-NOTCOIN-NOT-The-Sleeping-Giant-is-Waking-Up-Prime-Buy-Setup/</link>
-      <guid isPermaLink="true">https://www.tradingview.com/chart/NOTUSDT.P/fORHziIl-NOTCOIN-NOT-The-Sleeping-Giant-is-Waking-Up-Prime-Buy-Setup/</guid>
-      <pubDate>Sat, 15 Aug 2026 09:41:07 +0000</pubDate>
+      <title>11 of 32 RoPE Dimensions Never Complete a Rotation in a 2k Window. That Is Why Context Extension Needs Tricks</title>
+      <link>https://dev.to/dev48v/11-of-32-rope-dimensions-never-complete-a-rotation-in-a-2k-window-that-is-why-context-extension-1mk1</link>
+      <guid isPermaLink="true">https://dev.to/dev48v/11-of-32-rope-dimensions-never-complete-a-rotation-in-a-2k-window-that-is-why-context-extension-1mk1</guid>
+      <pubDate>Sun, 16 Aug 2026 09:53:28 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Are you paying attention to the TON ecosystem? Because if you aren’t, you might be missing out on the next massive wave. After a period of healthy consolidation, Notcoin (NOT/USDT) is flashing some serious bullish signals on the chart. Why it matters: Inference: Signals may indicate a bullish wave in TON ecosystem assets.</description>
-    </item>
-    <item>
-      <title>Show HN: LuaCAD – Parametric CAD Scripted in Lua</title>
-      <link>https://luacad.ad-si.com</link>
-      <guid isPermaLink="true">https://luacad.ad-si.com</guid>
-      <pubDate>Fri, 14 Aug 2026 16:43:22 +0000</pubDate>
-      <category>5) For Fun</category>
-      <description>LuaCAD models solids in Lua rather than the OpenSCAD language, with operator overloading for CSG (`a + b`, `a - b`, `a * b`). It ships with a CLI and a desktop app, including a preview area and a text editor. Why it matters: Direct: Demonstrates scripting-based CAD tooling with CSG operators and cross-platform CLI/GUI.</description>
+      <description>Notes that a 2k-token model fails beyond 2k due to simple arithmetic; RoPE encodes position as a rotation and attention depends on relative angles, not absolute positions. Why it matters: Direct: Apply context-extension tricks to extend effective context windows and manage RoPE-related limitations.</description>
     </item>
   </channel>
 </rss>
