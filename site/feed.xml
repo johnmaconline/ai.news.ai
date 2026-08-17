@@ -1,178 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-08-16</title>
+    <title>Daily AI Feed - 2026-08-17</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Sun, 16 Aug 2026 10:24:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 10:35:09 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>Prompt caching has a break-even point, and it&#x27;s 22%</title>
-      <link>https://dev.to/altrouter/prompt-caching-has-a-break-even-point-and-its-22-7d</link>
-      <guid isPermaLink="true">https://dev.to/altrouter/prompt-caching-has-a-break-even-point-and-its-22-7d</guid>
-      <pubDate>Sun, 16 Aug 2026 08:46:58 +0000</pubDate>
+      <title>Claude: System Prompts</title>
+      <link>https://platform.claude.com/docs/en/release-notes/system-prompts</link>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/release-notes/system-prompts</guid>
+      <pubDate>Sun, 16 Aug 2026 12:48:21 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>The piece asserts prompt caching has a computable break-even point at 22%, and that caching can raise bills if teams don&#x27;t check which side they&#x27;re on. Why it matters: Direct: Measure your prompt-caching break-even point (22%) to prevent higher-than-expected bills and evaluate caching effectiveness.</description>
+      <description>Entry &#x27;Claude: System Prompts&#x27; from Hacker News linking to Claude release notes on system prompts. Why it matters: Direct: Examine Claude system prompts documentation for best practices in system prompt design and initialization.</description>
     </item>
     <item>
-      <title>Revolutionizing African Storytelling: The Power of AI-Driven Content Creation</title>
-      <link>https://dev.to/olanrewaju_alameen_0afe1/revolutionizing-african-storytelling-the-power-of-ai-driven-content-creation-37a6</link>
-      <guid isPermaLink="true">https://dev.to/olanrewaju_alameen_0afe1/revolutionizing-african-storytelling-the-power-of-ai-driven-content-creation-37a6</guid>
-      <pubDate>Sun, 16 Aug 2026 10:00:20 +0000</pubDate>
+      <title>Qwen 3.8 27b vs 3.6 27b - how good is with a Turtle library.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vq9zc8/qwen_38_27b_vs_36_27b_how_good_is_with_a_turtle/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vq9zc8/qwen_38_27b_vs_36_27b_how_good_is_with_a_turtle/</guid>
+      <pubDate>Sun, 16 Aug 2026 22:01:23 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Introduction to AI-Driven Storytelling: African creators bring rich, diverse storytelling from oral traditions to modern digital content, but translating stories to life remains daunting for those with limited resources and equipment. Why it matters: Direct: Highlights potential barriers and opportunities for AI-enabled storytelling in resource-constrained contexts.</description>
+      <description>Prompt asset comparing Qwen 3.8/27b vs 3.6/27b for Turtle library; asks for complete Python code implementing a recursive tree. Why it matters: Direct: Demonstrates concrete code-generation prompts with library usage and version comparisons to guide evaluation.</description>
     </item>
     <item>
-      <title>I Got Tired of Alt-Tabbing to a Real Terminal, So I Built My AI a Front Door</title>
-      <link>https://dev.to/huzky30g/i-got-tired-of-alt-tabbing-to-a-real-terminal-so-i-built-my-ai-a-front-door-2h78</link>
-      <guid isPermaLink="true">https://dev.to/huzky30g/i-got-tired-of-alt-tabbing-to-a-real-terminal-so-i-built-my-ai-a-front-door-2h78</guid>
-      <pubDate>Sun, 16 Aug 2026 07:48:36 +0000</pubDate>
+      <title>Rolling Back a Bad AI-Generated Production Change With One Git Reset</title>
+      <link>https://dev.to/xcceleraai/rolling-back-a-bad-ai-generated-production-change-with-one-git-reset-7nc</link>
+      <guid isPermaLink="true">https://dev.to/xcceleraai/rolling-back-a-bad-ai-generated-production-change-with-one-git-reset-7nc</guid>
+      <pubDate>Mon, 17 Aug 2026 10:13:24 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>A developer describes building a &#x27;front door&#x27; for an AI to hand off privileged tasks when the user can&#x27;t install packages or lacks sudo, avoiding manual terminal switching. Why it matters: Direct: Demonstrates an agent-design pattern for user-initiated task handoff to bypass local permission constraints.</description>
+      <description>Production incidents tied to AI-generated code are climbing fast, and most teams still rely on manual, error-prone rollback procedures. Why it matters: Direct: Highlights risk and need for improved rollback automation.</description>
     </item>
     <item>
-      <title>llama.cpp b10448 Integrates Kimi-K3: Hybrid KDA/MLA Attention for Local Inference</title>
-      <link>https://dev.to/soytuber/llamacpp-b10448-integrates-kimi-k3-hybrid-kdamla-attention-for-local-inference-3k7d</link>
-      <guid isPermaLink="true">https://dev.to/soytuber/llamacpp-b10448-integrates-kimi-k3-hybrid-kdamla-attention-for-local-inference-3k7d</guid>
-      <pubDate>Sun, 16 Aug 2026 09:03:46 +0000</pubDate>
+      <title>Imagen 4 API Shutdown: A Gemini 3.1 Flash Image Migration Checklist</title>
+      <link>https://dev.to/ahab_indieseek/imagen-4-api-shutdown-a-gemini-31-flash-image-migration-checklist-5edm</link>
+      <guid isPermaLink="true">https://dev.to/ahab_indieseek/imagen-4-api-shutdown-a-gemini-31-flash-image-migration-checklist-5edm</guid>
+      <pubDate>Mon, 17 Aug 2026 10:20:50 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>The llama.cpp release b10448 adds comprehensive support for the Kimi-K3 text model, expanding open-weight architectures. Why it matters: Direct: Enables local inference with Kimi-K3 in llama.cpp, broadening model options and potentially impacting deployment choices for edge or offline AI workloads.</description>
+      <description>Imagen 4 API shutdown: migrate to Gemini 3.1 Flash Image without a blind model-ID swap Quick answer Google lists three Imagen 4 Gemini API models for shutdown on August 17, 2026 : imagen-4.0-generate-001 , imagen-4.0-ultra-generate-001 , and imagen-4. Why it matters: Direct: Highlights concrete migration target (gemini-3.1-flash-image) and known deprecated models for August 17, 2026.</description>
     </item>
     <item>
-      <title>The Face Scanner Judging You May Have Learned From Faces That Don&#x27;t Exist</title>
-      <link>https://dev.to/caracomp/the-face-scanner-judging-you-may-have-learned-from-faces-that-dont-exist-hah</link>
-      <guid isPermaLink="true">https://dev.to/caracomp/the-face-scanner-judging-you-may-have-learned-from-faces-that-dont-exist-hah</guid>
-      <pubDate>Sun, 16 Aug 2026 09:55:00 +0000</pubDate>
+      <title>Muse Glimmer 30B with 512k context</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vqntod/muse_glimmer_30b_with_512k_context/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vqntod/muse_glimmer_30b_with_512k_context/</guid>
+      <pubDate>Mon, 17 Aug 2026 09:50:37 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Synthetic training data reshapes biometric accuracy; the gap between lab accuracy and field reliability is widening in computer vision. Why it matters: Direct: Highlights a reliability risk for computer vision systems relying on synthetic data.</description>
+      <description>Muse Glimmer 30B with 512k context: project attempted longer context, aiming for 512k. Expected YaRN shenanigans and perhaps a LoRA; turned out Glimmer is architecturally unusual. Why it matters: Direct: Highlights practical considerations when expanding context windows on large models; expect compatibility and architectural quirks requiring engineering review.</description>
     </item>
     <item>
-      <title>SOTA Apple Silicon Inference (August 15, 2026)</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vphr8u/sota_apple_silicon_inference_august_15_2026/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vphr8u/sota_apple_silicon_inference_august_15_2026/</guid>
-      <pubDate>Sat, 15 Aug 2026 23:48:29 +0000</pubDate>
+      <title>Unsloth Delivers Local UI for LLM &amp; Diffusion Training on Consumer GPUs</title>
+      <link>https://dev.to/soytuber/unsloth-delivers-local-ui-for-llm-diffusion-training-on-consumer-gpus-4p9l</link>
+      <guid isPermaLink="true">https://dev.to/soytuber/unsloth-delivers-local-ui-for-llm-diffusion-training-on-consumer-gpus-4p9l</guid>
+      <pubDate>Mon, 17 Aug 2026 09:03:56 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>A handwritten post discusses fast inference on Apple Silicon and reasons some users may not see claimed performance in local macOS models. Why it matters: Direct: Highlights practical limits on local Apple Silicon inference and the gap between community claims and actual throughput.</description>
+      <description>Unsloth delivers a local UI to simplify training and deployment of large language models (LLMs) and diffusion models. Why it matters: Direct: Provides a local tooling surface to train/deploy LLMs and diffusion models without cloud dependencies.</description>
     </item>
     <item>
-      <title>llama.cpp Windows Manager</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vpfrxw/llamacpp_windows_manager/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vpfrxw/llamacpp_windows_manager/</guid>
-      <pubDate>Sat, 15 Aug 2026 22:17:03 +0000</pubDate>
+      <title>MathCode, Mathematical Coding Agent</title>
+      <link>https://math-ai-org.github.io/mathcode/</link>
+      <guid isPermaLink="true">https://math-ai-org.github.io/mathcode/</guid>
+      <pubDate>Sun, 16 Aug 2026 18:17:10 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Three months after sharing a personal Windows solution for running llama.cpp on Windows, the Windows Manager project has evolved toward a simple visual interface for managing llama. Why it matters: Direct: Documents progress of a practical GUI tool to manage local llama.cpp deployments on Windows.</description>
+      <description>Why it matters: Direct: No content to assess; requires source details.</description>
     </item>
     <item>
-      <title>🧠 Community Wisdom: Recovering from burnout, what Airtable’s sale says about the ceiling on a startup, keeping architecture docs up to date, running competitor analysis, and more</title>
-      <link>https://www.lennysnewsletter.com/p/community-wisdom-recovering-from</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/community-wisdom-recovering-from</guid>
-      <pubDate>Sat, 15 Aug 2026 17:01:13 +0000</pubDate>
+      <title>Why Businesses Are Investing in Custom Mobile Commerce Apps</title>
+      <link>https://dev.to/abdullah_siddiqui_8c991c0/why-businesses-are-investing-in-custom-mobile-commerce-apps-1joa</link>
+      <guid isPermaLink="true">https://dev.to/abdullah_siddiqui_8c991c0/why-businesses-are-investing-in-custom-mobile-commerce-apps-1joa</guid>
+      <pubDate>Mon, 17 Aug 2026 08:06:07 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Community Wisdom roundup highlights burnout recovery, Airtable sale implications for startup ceilings, keeping architecture docs up to date, and running competitor analysis. Why it matters: Direct: Highlights early signals for product strategy: burnout management, scalable docs, and competitive intelligence to inform prioritization and speed to ship.</description>
+      <description>Mobile devices have changed how consumers discover products, compare options, and complete purchases. Businesses can use dedicated applications to create more convenient shopping experiences. Why it matters: Direct: Mobile commerce apps align with rising customer expectations for fast, integrated shopping experiences, enabling better engagement and conversion.</description>
     </item>
     <item>
-      <title>We are definitely in a Singularity as defined by Vinge</title>
-      <link>https://nitter.net/emollick/status/2088750423825924222</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2088750423825924222</guid>
-      <pubDate>Sat, 15 Aug 2026 22:11:22 +0000</pubDate>
+      <title>OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber</title>
+      <link>https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the</guid>
+      <pubDate>Sun, 16 Aug 2026 12:31:42 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Discussion asserting we are in a Singularity per Vernor Vinge, with caveats about von Neumann/Ulam definitions, and a call to read Vinge and Kurzweil. Why it matters: Direct: clarifies distinctions in tech discourse and promotes reading primary sources to calibrate expectations.</description>
+      <description>OpenAI’s head of product design argues this is the best time in history to be a designer, noting humans still beat AI in some areas, and how to escape the overwhelm. Why it matters: Direct: Highlights continued human relevance in design and strategies to manage overwhelm.</description>
     </item>
     <item>
-      <title>All of this was done from ChatGPT on mu phone</title>
-      <link>https://nitter.net/emollick/status/2088718921754935345</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2088718921754935345</guid>
-      <pubDate>Sat, 15 Aug 2026 20:06:12 +0000</pubDate>
+      <title>Eventually, one approach or another will become dominant</title>
+      <link>https://nitter.net/emollick/status/2089233403426058676</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2089233403426058676</guid>
+      <pubDate>Mon, 17 Aug 2026 06:10:34 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Notes on working entirely via ChatGPT on mu phone, connected to Codex, with Sol making choices and generating images; links to GitHub. Why it matters: Direct: demonstrates alternative AI-powered workflows that can accelerate design iterations and asset production.</description>
+      <description>The post argues that eventually one approach will become dominant, with each option currently offering distinct advantages and disadvantages. Why it matters: Direct: Signals that product and AI strategy should anticipate a converging best practice as methods consolidate.</description>
     </item>
     <item>
-      <title>Inside the TormentNexus AI Skill Registry: 5,776 Reusable Modules Fueling Developer AI</title>
-      <link>https://dev.to/hypernexus/inside-the-tormentnexus-ai-skill-registry-5776-reusable-modules-fueling-developer-ai-2jfm</link>
-      <guid isPermaLink="true">https://dev.to/hypernexus/inside-the-tormentnexus-ai-skill-registry-5776-reusable-modules-fueling-developer-ai-2jfm</guid>
-      <pubDate>Sun, 16 Aug 2026 08:20:51 +0000</pubDate>
+      <title>As a single clip Video</title>
+      <link>https://nitter.net/emollick/status/2089228568236568666</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2089228568236568666</guid>
+      <pubDate>Mon, 17 Aug 2026 05:51:21 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>Reference to a single-clip video concept. Why it matters: Direct: Emphasizes concise, easily consumable video formats for faster user engagement.</description>
+    </item>
+    <item>
+      <title>Master AI Agents Training | AI Agents Course Online</title>
+      <link>https://dev.to/vamsi_visualpath_826a9ad2/master-ai-agents-training-ai-agents-course-online-1m7p</link>
+      <guid isPermaLink="true">https://dev.to/vamsi_visualpath_826a9ad2/master-ai-agents-training-ai-agents-course-online-1m7p</guid>
+      <pubDate>Mon, 17 Aug 2026 10:10:37 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>The TormentNexus AI Skill Registry hosts 5,776 battle-tested, reusable AI modules. These skills—from automated code review to dynamic Terraform generation—are transforming developer workflows in a structured, community-driven ecosystem. Why it matters: Direct: Pilot 1-2 high-signal modules (e.g., automated code review, Terraform generation) in your CI/CD workflow.</description>
+      <description>Compares n8n and LangChain for building AI agents, detailing roles, learning needs, features, and use cases; notes agents can understand requests, use tools, and take actions amid multi-service integration. Why it matters: Direct: Provides actionable guidance for teams choosing between n8n and LangChain to simplify cross-service AI agent integration.</description>
     </item>
     <item>
-      <title>Prime Agent Review: The Self-Improving RLM Coding Harness</title>
-      <link>https://dev.to/andrew-ooo/prime-agent-review-the-self-improving-rlm-coding-harness-54n9</link>
-      <guid isPermaLink="true">https://dev.to/andrew-ooo/prime-agent-review-the-self-improving-rlm-coding-harness-54n9</guid>
-      <pubDate>Sun, 16 Aug 2026 08:57:27 +0000</pubDate>
+      <title>Adversarial AI Debate: Why a Machine &quot;Critic&quot; Finds 30% More Bugs Than Solo Generation</title>
+      <link>https://dev.to/hypernexus/adversarial-ai-debate-why-a-machine-critic-finds-30-more-bugs-than-solo-generation-5b65</link>
+      <guid isPermaLink="true">https://dev.to/hypernexus/adversarial-ai-debate-why-a-machine-critic-finds-30-more-bugs-than-solo-generation-5b65</guid>
+      <pubDate>Mon, 17 Aug 2026 08:21:01 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Prime Agent Review: The Self-Improving RLM Coding Harness Why it matters: Direct: Assess practical deployment hints and follow-up updates.</description>
+      <description>Describes debate-driven development with adversarial AI agents reducing bugs by 30%; advocates multi-agent consensus for higher code quality and security. Why it matters: Direct: Demonstrates practical bug reduction via multi-agent critique, informing teams on implementing adversarial evaluation in CI pipelines.</description>
     </item>
     <item>
-      <title>Kimi likes causal decision theory more after RL in twin prisoner’s dilemmas</title>
-      <link>https://www.lesswrong.com/posts/hfNBEKaStASAYMLiu/kimi-likes-causal-decision-theory-more-after-rl-in-twin-1</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/hfNBEKaStASAYMLiu/kimi-likes-causal-decision-theory-more-after-rl-in-twin-1</guid>
-      <pubDate>Sat, 15 Aug 2026 22:31:38 +0000</pubDate>
+      <title>Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things</title>
+      <link>https://simonwillison.net/2026/Aug/16/qwen-38-27b/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/16/qwen-38-27b/</guid>
+      <pubDate>Sun, 16 Aug 2026 22:00:39 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Kimi likes causal decision theory more after RL in twin prisoner’s dilemmas Why it matters: Direct: Highlights potential CDT alignment shifts in multi-agent settings.</description>
+      <description>Qwen 3.8 27B is an Apache 2 licensed 27B parameter vision-capable LLM; 27B is an excellent size for running a model on a reasonably specced laptop. Why it matters: Direct: Highlights hardware-friendly model size for laptop-based workflows and fast prototyping, informing practitioners about deployment constraints.</description>
     </item>
     <item>
-      <title>Using Chunked Monitoring to Detect Deception in Long Transcripts</title>
-      <link>https://www.lesswrong.com/posts/orMEvTgtRig9qnsdL/using-chunked-monitoring-to-detect-deception-in-long</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/orMEvTgtRig9qnsdL/using-chunked-monitoring-to-detect-deception-in-long</guid>
-      <pubDate>Sat, 15 Aug 2026 20:05:20 +0000</pubDate>
+      <title>Long Review: Qwen 3.8 27B is VERY good at tapping into it&#x27;s real-world knowledge. It&#x27;s &quot;overthinking&quot; brings it to Sonnet level performance with the potential for Opus level results.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vqm51f/long_review_qwen_38_27b_is_very_good_at_tapping/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vqm51f/long_review_qwen_38_27b_is_very_good_at_tapping/</guid>
+      <pubDate>Mon, 17 Aug 2026 08:09:40 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Using Chunked Monitoring to Detect Deception in Long Transcripts Why it matters: Direct: Illustrates a scalable method for detecting deception in long transcripts.</description>
+      <description>Long review notes Qwen 3.8 27B is VERY good at tapping into it&#x27;s real-world knowledge; overthinking may reach Sonnet-to-Opus level results. Why it matters: Direct: Suggests deeper reasoning can unlock higher-quality results, informing evaluation of trade-offs between speed and accuracy.</description>
     </item>
     <item>
-      <title>Does DiffusionGemma do latent reasoning?</title>
-      <link>https://www.lesswrong.com/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning</guid>
-      <pubDate>Sun, 16 Aug 2026 04:22:18 +0000</pubDate>
+      <title>Untie Squared ReLU variant</title>
+      <link>https://www.lesswrong.com/posts/nkwNc4YujY2wpfSYo/untie-squared-relu-variant</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/nkwNc4YujY2wpfSYo/untie-squared-relu-variant</guid>
+      <pubDate>Mon, 17 Aug 2026 07:04:54 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. Why it matters: Direct: Diffusion steps carry vectors, implying latent representations accompany token outputs.</description>
+      <description>Idea from collaborator Michael Bukatin: in the hidden projection of MLP, replace ReLU with two branches initialized separately, then element-wise multiply and project in feedforward. Why it matters: Direct: Shows a concrete alternative to ReLU in MLP hidden projection, potentially impacting activation design and training dynamics.</description>
     </item>
     <item>
-      <title>Does DiffusionGemma do latent reasoning?</title>
-      <link>https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning</link>
-      <guid isPermaLink="true">https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning</guid>
-      <pubDate>Sun, 16 Aug 2026 04:22:18 +0000</pubDate>
+      <title>DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin</title>
+      <link>https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/</link>
+      <guid isPermaLink="true">https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/</guid>
+      <pubDate>Mon, 17 Aug 2026 09:06:32 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. Why it matters: Direct: Diffusion steps carry vectors, implying latent representations accompany token outputs.</description>
+      <description>DeepSeek Harness v0.1 is an MIT-licensed agent harness where every capability is a Cordis plugin, with four runtime modes, append-only session logs, and provider-agnostic routing. Why it matters: Direct: Highlights plugin-based architecture where everything is a Cordis plugin, enabling modularity and provider-agnostic routing.</description>
     </item>
     <item>
-      <title>CORS Chat</title>
-      <link>https://simonwillison.net/2026/Aug/15/cors-chat/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/15/cors-chat/</guid>
-      <pubDate>Sat, 15 Aug 2026 14:49:54 +0000</pubDate>
+      <title>Q2.5 2026 Timelines Update: Uplift and Revenue</title>
+      <link>https://www.lesswrong.com/posts/ZPSsmRH5oMwLPXys4/q2-5-2026-timelines-update-uplift-and-revenue</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/ZPSsmRH5oMwLPXys4/q2-5-2026-timelines-update-uplift-and-revenue</guid>
+      <pubDate>Sun, 16 Aug 2026 19:00:25 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Tool: CORS Chat I built this today ( with GPT-5.6-Sol xhigh ) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark. Why it matters: Direct: The tool provides a web UI to exercise an OpenAI-Responses-compatible chat endpoint.</description>
+      <description>Timelines largely unchanged or slightly shorter; modeling and evidence base improved, increasing confidence. Plan to regularly update AI timelines as new evidence and analyses emerge. Why it matters: Direct: Improved evidence base boosts forecast confidence, signaling more reliable timelines as new data arrives.</description>
     </item>
     <item>
-      <title>SSOG-Attention: Sum Of Separable Gaussians as a sub-quadratic and scalable alternative to SDPA. [R]</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1vpt6ay/ssogattention_sum_of_separable_gaussians_as_a/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1vpt6ay/ssogattention_sum_of_separable_gaussians_as_a/</guid>
-      <pubDate>Sun, 16 Aug 2026 10:06:07 +0000</pubDate>
+      <title>Markdown SVG upgrades</title>
+      <link>https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/</guid>
+      <pubDate>Sun, 16 Aug 2026 23:59:37 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Scaled dot-product attention (SDPA) computes its Attention by computing the similarity-scores of all image-tokens with all query tokens which results in O(N^2·d) complexity. Why it matters: Inference: If effective, SSOG could lower attention computation from quadratic to sub-quadratic costs, enabling scalable attention in practice.</description>
+      <description>Updated: Markdown-svg-renderer evolved since May; now positioned as ideal tool for sharing Markdown transcripts with embedded SVG, addressing a personal need. Why it matters: Direct: Demonstrates practical tooling improvement for Markdown with SVG, enabling shareable transcripts and visual content.</description>
     </item>
     <item>
-      <title>Why your AI agent is hallucinating its own logic</title>
-      <link>https://dev.to/renato_marinho/why-your-ai-agent-is-hallucinating-its-own-logic-103i</link>
-      <guid isPermaLink="true">https://dev.to/renato_marinho/why-your-ai-agent-is-hallucinating-its-own-logic-103i</guid>
-      <pubDate>Sun, 16 Aug 2026 08:55:50 +0000</pubDate>
+      <title>‘I see the incredible promise’: on set of an AI film shoot as new studios embrace controversial tech</title>
+      <link>https://www.theguardian.com/film/2026/aug/16/directors-embracing-ai-film-making</link>
+      <guid isPermaLink="true">https://www.theguardian.com/film/2026/aug/16/directors-embracing-ai-film-making</guid>
+      <pubDate>Sun, 16 Aug 2026 12:00:25 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Argues that LLM agents are not truly aware of their own actions: running tools yields results, but the model doesn&#x27;t actually &#x27;know&#x27; what it did before. Why it matters: Direct: Implement step-tracking and post hoc verification to ensure the agent&#x27;s outputs align with its actual tool sequence.</description>
-    </item>
-    <item>
-      <title>The Session Ended With &quot;270/270, Verified.&quot; The Next One Started With Everything Broken</title>
-      <link>https://dev.to/turgaysavaci/the-session-ended-with-270270-verified-the-next-one-started-with-everything-broken-5e0i</link>
-      <guid isPermaLink="true">https://dev.to/turgaysavaci/the-session-ended-with-270270-verified-the-next-one-started-with-everything-broken-5e0i</guid>
-      <pubDate>Sun, 16 Aug 2026 09:16:46 +0000</pubDate>
-      <category>5) For Fun</category>
-      <description>Keeps a real-world devlog of coding sessions, not a changelog, documenting bugs found, fixes applied, and test reruns. Why it matters: Direct: Encourage an ongoing, real-world devlog to improve post-hoc debugging and learning from failures.</description>
-    </item>
-    <item>
-      <title>11 of 32 RoPE Dimensions Never Complete a Rotation in a 2k Window. That Is Why Context Extension Needs Tricks</title>
-      <link>https://dev.to/dev48v/11-of-32-rope-dimensions-never-complete-a-rotation-in-a-2k-window-that-is-why-context-extension-1mk1</link>
-      <guid isPermaLink="true">https://dev.to/dev48v/11-of-32-rope-dimensions-never-complete-a-rotation-in-a-2k-window-that-is-why-context-extension-1mk1</guid>
-      <pubDate>Sun, 16 Aug 2026 09:53:28 +0000</pubDate>
-      <category>5) For Fun</category>
-      <description>Notes that a 2k-token model fails beyond 2k due to simple arithmetic; RoPE encodes position as a rotation and attention depends on relative angles, not absolute positions. Why it matters: Direct: Apply context-extension tricks to extend effective context windows and manage RoPE-related limitations.</description>
+      <description>Film-makers say AI could allow them to bypass studio giants and take more creative risks, amid fears for jobs, as a tech-powered rival sprouts near Sony Pictures’ Culver City studio. Why it matters: Direct: Signals a shift in production dynamics where AI could empower independent creators to bypass studios and pursue riskier, creative approaches.</description>
     </item>
   </channel>
 </rss>
