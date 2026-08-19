@@ -1,194 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-08-18</title>
+    <title>Daily AI Feed - 2026-08-19</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Tue, 18 Aug 2026 10:32:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 10:35:04 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>Model Hypnosis: Strong control of AI via additive subliminal effects</title>
-      <link>https://arxiv.org/abs/2608.16834v1</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.16834v1</guid>
-      <pubDate>Mon, 17 Aug 2026 17:20:10 +0000</pubDate>
+      <title>OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue</title>
+      <link>https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/</link>
+      <guid isPermaLink="true">https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/</guid>
+      <pubDate>Tue, 18 Aug 2026 18:33:11 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Demonstrates model hypnosis: individually weak and seemingly irrelevant prompt cues can be systematically combined to strongly control AI model behavior. Why it matters: Direct: Highlights risk that prompts can subtly steer model output; prompts need robust controls and prompt engineering.</description>
+      <description>The ChatGPT maker says its upcoming Astra model may have reached “critical” cyber capabilities, prompting it to halt a significant number of training runs while it tightens internal safeguards. Why it matters: Direct: Review Astra safety controls; inventory halted trainings; implement tightened safeguards; publish updated internal policy.</description>
     </item>
     <item>
-      <title>Model Hypnosis: Strong control of AI via additive subliminal effects</title>
-      <link>http://arxiv.org/abs/2608.16834v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.16834v1</guid>
-      <pubDate>Mon, 17 Aug 2026 17:20:10 +0000</pubDate>
+      <title>We&#x27;re also publishing a technical report: www-cdn.anthropic.com/30bf50… And</title>
+      <link>https://nitter.net/AnthropicAI/status/2089842395722678689</link>
+      <guid isPermaLink="true">https://nitter.net/AnthropicAI/status/2089842395722678689</guid>
+      <pubDate>Tue, 18 Aug 2026 22:30:29 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Shows that AI models are broadly susceptible to model hypnosis, where weak prompt cues combine to strongly control behavior. Why it matters: Direct: Signals risk from prompt-level influences; requires controls and prompt engineering.</description>
+      <description>Anthropic announces a technical report and open-sourcing prompts and data here: huggingface.co/datasets/Anth… Why it matters: Direct: Open-sourcing fosters reproducibility and reuse of prompts and data.</description>
     </item>
     <item>
-      <title>Treat Prompts Like Code: Versioning and Rollbacks in Production</title>
-      <link>https://dev.to/sagar_jain4010/treat-prompts-like-code-versioning-and-rollbacks-in-production-2cai</link>
-      <guid isPermaLink="true">https://dev.to/sagar_jain4010/treat-prompts-like-code-versioning-and-rollbacks-in-production-2cai</guid>
-      <pubDate>Tue, 18 Aug 2026 09:00:18 +0000</pubDate>
+      <title>The Token Ledger Digest – 2026-08-19</title>
+      <link>https://dev.to/4663437mehdi/the-token-ledger-digest-2026-08-19-1bmm</link>
+      <guid isPermaLink="true">https://dev.to/4663437mehdi/the-token-ledger-digest-2026-08-19-1bmm</guid>
+      <pubDate>Wed, 19 Aug 2026 07:53:14 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Argues that a production prompt is code: it belongs in version control, gets a version ID for logs, passes a regression suite before shipping, and can be rolled back in a minute. Why it matters: Direct: Treat prompts as first-class software artifacts enabling safer iterations.</description>
+      <description>Token Ledger Digest notes price increases for GLM 5.2 batch prompts and completions (0.70→1.40/M; 2.20→4.40/M) and similar increases for Inkling batch prompts and completions (0.50→1.00/M; 2.03→4.05/M), meaning batch workloads now cost twice as much. Why it matters: Direct: Batch users face higher costs; adjust budgets and capacity.</description>
     </item>
     <item>
-      <title>Optimizing Qwen3.6 / Qwen3.8-27B on 16GB VRAM: Complete Benchmark Results and Setup Guide (~30-50tps at 32k to 72k context)</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vrchn9/optimizing_qwen36_qwen3827b_on_16gb_vram_complete/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vrchn9/optimizing_qwen36_qwen3827b_on_16gb_vram_complete/</guid>
-      <pubDate>Tue, 18 Aug 2026 02:28:24 +0000</pubDate>
+      <title>Ling-3.0-tiny is a very interesting model. Run on NVIDIA Orin Nano Super 8GB at 128K context with IQ4_NL quant.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vs9x4r/ling30tiny_is_a_very_interesting_model_run_on/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vs9x4r/ling30tiny_is_a_very_interesting_model_run_on/</guid>
+      <pubDate>Wed, 19 Aug 2026 02:41:00 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Post documents complete benchmark results and setup guidance for optimizing Qwen3.6 / Qwen3.8-27B on 16GB VRAM, achieving roughly 30–50 tps with 32k–72k context. Why it matters: Direct: Provides concrete benchmarks and a setup guide for 16 GB VRAM inference, aiding engineers evaluating small-memory LLM deployments.</description>
+      <description>I have been searching for suitable model to run on my 8GB RAM toy, NVIDIA Orin Nano Super 8GB. This little toy was priced at $249 earlier this year (not any more), and pulls very little power when idle. Why it matters: Direct: This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.</description>
     </item>
     <item>
-      <title>I Sandbox-Tested 1,800+ DeepSeek Harness Plugins. Here’s What Broke</title>
-      <link>https://dev.to/susu_su_5e820fa824c3421bb/i-sandbox-tested-1800-deepseek-harness-plugins-heres-what-broke-2jo3</link>
-      <guid isPermaLink="true">https://dev.to/susu_su_5e820fa824c3421bb/i-sandbox-tested-1800-deepseek-harness-plugins-heres-what-broke-2jo3</guid>
-      <pubDate>Tue, 18 Aug 2026 10:05:46 +0000</pubDate>
+      <title>Launch HN: machine0 (YC S26) – Persistent CPU and GPU VMs from the CLI</title>
+      <link>https://machine0.io</link>
+      <guid isPermaLink="true">https://machine0.io</guid>
+      <pubDate>Tue, 18 Aug 2026 16:26:42 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>A report on sandbox-testing 1,800+ DeepSeek Harness plugins, detailing failures observed when installing plugins at scale. Why it matters: Direct: Highlights scaling-friction issues in plugin ecosystems, guiding integration and reliability efforts.</description>
+      <description>Hi HN! I’m Barnaby, founder of machine0 ( https://machine0.io ). I’m building a CLI for long horizon agent compute: `machine0 new mybox` gives your agent a persistent cloud VM, billed by the minute, from $0. Why it matters: Direct: This matters for practical engineering workflow impact, based on this update from Hacker News.</description>
     </item>
     <item>
-      <title>Redouble AI CTO Makes Case for Java-Native Agents in Regulated Industries</title>
-      <link>https://dev.to/autonainews/redouble-ai-cto-makes-case-for-java-native-agents-in-regulated-industries-1521</link>
-      <guid isPermaLink="true">https://dev.to/autonainews/redouble-ai-cto-makes-case-for-java-native-agents-in-regulated-industries-1521</guid>
-      <pubDate>Tue, 18 Aug 2026 10:12:22 +0000</pubDate>
+      <title>I let an AI agent run my trading bots unattended. It broke twice before I built a gate to stop it.</title>
+      <link>https://dev.to/tatsuyawwp/i-let-an-ai-agent-run-my-trading-bots-unattended-it-broke-twice-before-i-built-a-gate-to-stop-it-40db</link>
+      <guid isPermaLink="true">https://dev.to/tatsuyawwp/i-let-an-ai-agent-run-my-trading-bots-unattended-it-broke-twice-before-i-built-a-gate-to-stop-it-40db</guid>
+      <pubDate>Wed, 19 Aug 2026 10:12:37 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>CTO Andrey Santrosyan discusses Silverlake, a Java-native multi-agent AI operating system built for enterprise production. Why it matters: Direct: Demonstrates Java-native agent tech designed for enterprise production in regulated industries.</description>
+      <description>I run a one-person AI company: Claude Code writes and maintains the code, I make the calls that need a human. Why it matters: Direct: This matters for practical engineering workflow impact, based on this update from DEV.to AI Tag.</description>
     </item>
     <item>
-      <title>Launch HN: Speko (YC S26) – OpenRouter for Voice AI</title>
-      <link>https://speko.ai/</link>
-      <guid isPermaLink="true">https://speko.ai/</guid>
-      <pubDate>Mon, 17 Aug 2026 15:36:18 +0000</pubDate>
+      <title>Show HN: macOS data protection keychain for Electron apps</title>
+      <link>https://github.com/biw/keychain-store</link>
+      <guid isPermaLink="true">https://github.com/biw/keychain-store</guid>
+      <pubDate>Tue, 18 Aug 2026 17:25:19 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Speko&#x27;s OpenRouter selects optimal STT, LLM, and TTS models under constraints; includes a demo and references typical three-model voice agents. Why it matters: Direct: Provides a practical ensemble-selection approach for voice AI deployments.</description>
+      <description>Hey HN, I&#x27;ve been working on Hansel [1] (an encrypted personal data store you can query with agents), and there wasn&#x27;t a good way to use the modern macOS Data Protection Keychain. Why it matters: Direct: This matters for practical engineering workflow impact, based on this update from Hacker News.</description>
     </item>
     <item>
-      <title>How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers | Yana Welinder</title>
-      <link>https://www.lennysnewsletter.com/p/how-a-solo-founder-used-codex-and</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/how-a-solo-founder-used-codex-and</guid>
-      <pubDate>Mon, 17 Aug 2026 12:04:02 +0000</pubDate>
+      <title>If alignment issues are becoming big enough that OpenAI is</title>
+      <link>https://nitter.net/emollick/status/2089819700033102273</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2089819700033102273</guid>
+      <pubDate>Tue, 18 Aug 2026 21:00:18 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>From hand-drawn sketch to 3D-printed gown, Yana Welinder shows how Codex plus computer use enables unmanufacturable garments and full e-commerce builds for a solo founder. Why it matters: Direct: Demonstrates practical AI-assisted end-to-end product development for solo founders, reducing reliance on engineers.</description>
+      <description>OpenAI is willing to commit 20% of research inference compute to chain-of-thought monitoring, signaling serious alignment concerns and a need for universal policies across labs. Why it matters: Direct: Signals a growing alignment risk requiring cross-lab policies; aligning governance may accelerate AI safety standards and reduce downstream product risk.</description>
     </item>
     <item>
-      <title>A thing missing from policy talk over AI is clear</title>
-      <link>https://nitter.net/emollick/status/2089330959405535433</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2089330959405535433</guid>
-      <pubDate>Mon, 17 Aug 2026 12:38:13 +0000</pubDate>
+      <title>I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take</title>
+      <link>https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor</guid>
+      <pubDate>Tue, 18 Aug 2026 21:30:31 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>A thing missing from policy talk over AI is clear description about (1) what uses of AI are good, (2) which uses could be good with the right policy regime, (3) which non-catastrophic bad uses require regulation to mitigate &amp; (4) which catastrophic uses requi... Why it matters: Direct: Highlights policy ambiguity gaps and the need to categorize AI uses for better regulatory clarity.</description>
+      <description>A head-to-head test compared Grok Bot, Cursor Origin, and Grok 4.6 against favorite models, ranking them on the Claire Index and noting what moved the needle. Why it matters: Direct: Head-to-head model tests and a Claire Index ranking provide concrete signals for evaluating product-model fit and what features actually move the needle.</description>
     </item>
     <item>
-      <title>🎙️ How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers</title>
-      <link>https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used</guid>
-      <pubDate>Mon, 17 Aug 2026 15:03:16 +0000</pubDate>
+      <title>Older research Ethan Mollick (@emollick) Does GPT-4 have Theory of</title>
+      <link>https://nitter.net/emollick/status/2089716697448013921</link>
+      <guid isPermaLink="true">https://nitter.net/emollick/status/2089716697448013921</guid>
+      <pubDate>Tue, 18 Aug 2026 14:11:00 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers Why it matters: Direct: Highlights AI-enabled solo-founding workflows and accessible tools for rapid branding without engineering resources.</description>
+      <description>Older research by Ethan Mollick suggests GPT-4 may perform at or above human levels on theory of mind tests, though guardrails affect faux pas detection. Why it matters: Direct: Theory of mind findings inform AI capability assessments and guardrail considerations for safety strategy.</description>
     </item>
     <item>
-      <title>I think he solved the bootstrapping problem by asking ChatGPT</title>
-      <link>https://nitter.net/emollick/status/2089516110097903900</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2089516110097903900</guid>
-      <pubDate>Tue, 18 Aug 2026 00:53:56 +0000</pubDate>
+      <title>Announcing Lenny’s Jobs: The best place in the world to find, vet, and land your dream job</title>
+      <link>https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place</guid>
+      <pubDate>Tue, 18 Aug 2026 15:40:06 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>I think he solved the bootstrapping problem by asking ChatGPT on his phone how to install Codex. Why it matters: Direct: Illustrates rapid, informal troubleshooting with AI tools to bootstrap projects without engineers.</description>
+      <description>Where product managers, engineers, designers, and growth/marketing professionals discover high-quality open roles at tech companies Why it matters: Direct: Highlights a concrete talent-sourcing channel to accelerate hiring for cross-functional AI-enabled product initiatives.</description>
     </item>
     <item>
-      <title>The Scaffolding You Pay For</title>
-      <link>https://dev.to/javieraguilarai/the-scaffolding-you-pay-for-2044</link>
-      <guid isPermaLink="true">https://dev.to/javieraguilarai/the-scaffolding-you-pay-for-2044</guid>
-      <pubDate>Tue, 18 Aug 2026 08:54:28 +0000</pubDate>
+      <title>A Practical Workflow for Delegating Software Tasks to AI Agents</title>
+      <link>https://dev.to/paruyryan/a-practical-workflow-for-delegating-software-tasks-to-ai-agents-4epe</link>
+      <guid isPermaLink="true">https://dev.to/paruyryan/a-practical-workflow-for-delegating-software-tasks-to-ai-agents-4epe</guid>
+      <pubDate>Wed, 19 Aug 2026 08:36:17 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Over the past year, working with coding agents shifted from prompts to documents—skills, rules files, and playbooks that guide the model’s job. Never fix without investigating the root cause first. Why it matters: Direct: Signals a move toward codified procedures that engineers can implement to reduce misalignment and accelerate troubleshooting.</description>
+      <description>AI coding agents are advancing, but result quality hinges on task prep, assignment, review, and acceptance; vague requests like &#x27;fix the onboarding flow&#x27; leave many decisions undefined. Why it matters: Inference: Highlights the need for clear task prep and review processes to ensure AI coding agents deliver quality results.</description>
     </item>
     <item>
-      <title>Is Glean Good Enough for Engineering Questions? An Honest Assessment</title>
-      <link>https://dev.to/dennis_pilarinos/is-glean-good-enough-for-engineering-questions-an-honest-assessment-4hmm</link>
-      <guid isPermaLink="true">https://dev.to/dennis_pilarinos/is-glean-good-enough-for-engineering-questions-an-honest-assessment-4hmm</guid>
-      <pubDate>Tue, 18 Aug 2026 09:30:00 +0000</pubDate>
+      <title>Vibe Coding Works Until Yo Put It in Production</title>
+      <link>https://dev.to/unmeshed/vibe-coding-works-until-yo-put-it-in-production-55i8</link>
+      <guid isPermaLink="true">https://dev.to/unmeshed/vibe-coding-works-until-yo-put-it-in-production-55i8</guid>
+      <pubDate>Wed, 19 Aug 2026 07:22:27 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>The company already pays for Glean; rollout went fine, and engineering is now asking for budget for a separate knowledge tool. Why it matters: Direct: Signals a potential tooling bifurcation where teams seek a dedicated knowledge tool alongside existing deployment.</description>
+      <description>Vibe coding speeds up feature work by producing a first pass and patches, but production-readiness remains a separate challenge. Why it matters: Inference: Demonstrates that acceleration features must be balanced with explicit production readiness steps.</description>
     </item>
     <item>
-      <title>TDD-Agent: Test-Driven Reasoning for Code Generation</title>
-      <link>http://arxiv.org/abs/2608.16742v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.16742v1</guid>
-      <pubDate>Mon, 17 Aug 2026 15:52:04 +0000</pubDate>
+      <title>Anthropic Risk Report: August 2026</title>
+      <link>https://www.lesswrong.com/posts/dA8gohzABk6vT7yzP/anthropic-risk-report-august-2026</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/dA8gohzABk6vT7yzP/anthropic-risk-report-august-2026</guid>
+      <pubDate>Tue, 18 Aug 2026 20:40:22 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Large Language Models (LLMs) have achieved remarkable progress in code generation, yet ensuring correctness in complex, repository-level tasks remains challenging. Why it matters: Direct: Highlights ongoing challenge in maintaining correctness for repository-scale code using AI.</description>
+      <description>Anthropic Risk Reports are delivering new information and detailed insight into thinking, with some alarming content; initial skepticism gave way to appreciation. Why it matters: Inference: Points to risk-disclosure value and the need to monitor AI risk reporting for decision-making.</description>
     </item>
     <item>
-      <title>After pushing 1M+ tokens through Qwen 3.8 27B, here is my optimal llama.cpp config for 16GB VRAM (73k Context, Agentic Coding)</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vqrt86/after_pushing_1m_tokens_through_qwen_38_27b_here/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vqrt86/after_pushing_1m_tokens_through_qwen_38_27b_here/</guid>
-      <pubDate>Mon, 17 Aug 2026 13:05:26 +0000</pubDate>
+      <title>Reading List on Wise AI</title>
+      <link>https://www.lesswrong.com/posts/b4A3rHfDRHL8wHMuT/reading-list-on-wise-ai</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/b4A3rHfDRHL8wHMuT/reading-list-on-wise-ai</guid>
+      <pubDate>Wed, 19 Aug 2026 08:41:33 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Following up on my budget server setup (Intel N100 + RTX 5060 Ti 16GB), this post shares a deeper dive into the actual inference config and agentic performance, including the wait for Qwen 3.8 27B. Why it matters: Direct: Provides practical config insights for optimizing agentic coding deployments on budget hardware.</description>
+      <description>The reading list is very outdated; the author shares it now despite not updating, due to other projects. Why it matters: Inference: Indicates maintenance needs for AI reading resources and curation.</description>
     </item>
     <item>
-      <title>What 27 AI Safety Generalists Are Building This Summer</title>
-      <link>https://www.lesswrong.com/posts/APqWYLRDFcBHd3AuL/what-27-ai-safety-generalists-are-building-this-summer</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/APqWYLRDFcBHd3AuL/what-27-ai-safety-generalists-are-building-this-summer</guid>
-      <pubDate>Mon, 17 Aug 2026 21:56:55 +0000</pubDate>
+      <title>Headed for the Exit: the Great Engineering Leader Career Break</title>
+      <link>https://newsletter.pragmaticengineer.com/p/the-great-engineering-leader-career-break</link>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-great-engineering-leader-career-break</guid>
+      <pubDate>Tue, 18 Aug 2026 16:21:06 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>27 residents joined Berkeley for the Generator Residency first cohort, a three-month AI safety generalists program run by Kairos and Constellation. Why it matters: Direct: Formal, multi-month training cohorts like this can accelerate practical AI safety work and identify talent for safety-focused teams.</description>
+      <description>Trend notes more CTOs, VPEs, and Heads of Engineering leaving high-status roles; causes include AI pressures and founder-mode tendencies. Why it matters: Direct: signals leadership churn could affect AI product delivery and organization strategy.</description>
     </item>
     <item>
-      <title>Misaligned Incentives in Pause Scenarios</title>
-      <link>https://www.lesswrong.com/posts/Bh4fooE2pMhzJQNK2/misaligned-incentives-in-pause-scenarios</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/Bh4fooE2pMhzJQNK2/misaligned-incentives-in-pause-scenarios</guid>
-      <pubDate>Tue, 18 Aug 2026 01:55:50 +0000</pubDate>
+      <title>GPT-2&#x27;s IOI behavior is defined where the paper&#x27;s algorithm isn&#x27;t</title>
+      <link>https://www.lesswrong.com/posts/zKyKDre78napvtrEo/gpt-2-s-ioi-behavior-is-defined-where-the-paper-s-algorithm</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/zKyKDre78napvtrEo/gpt-2-s-ioi-behavior-is-defined-where-the-paper-s-algorithm</guid>
+      <pubDate>Tue, 18 Aug 2026 23:39:13 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>TLDR: The author spoke with Antra of Anima Labs, started as a pause advocate, and ended more wary of pausing; cites HuggingFace incidents suggesting a slowdown. Why it matters: Direct: Attitudes toward pauses shape industry momentum and risk management decisions.</description>
+      <description>TL;DR: The IOI algorithm doesn&#x27;t specify what to do when the indirect object token is duplicated; the model succeeds anyway, and the author seeks confirmation and further evidence. Why it matters: Direct: reveals a gap between IOI theory and observed model behavior, encouraging further evidence gathering.</description>
     </item>
     <item>
-      <title>We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility</title>
-      <link>https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/</guid>
-      <pubDate>Mon, 17 Aug 2026 15:21:29 +0000</pubDate>
+      <title>Natural Language Transcoders</title>
+      <link>https://www.lesswrong.com/posts/SY69ngXLF5DbNvJaZ/natural-language-transcoders</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/SY69ngXLF5DbNvJaZ/natural-language-transcoders</guid>
+      <pubDate>Wed, 19 Aug 2026 01:56:38 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Why it matters: Direct: Tracking shipments reveals real-world containment and location of AI model training assets.</description>
+      <description>Describing computations in a transformer-layer stack via Anthropic’s NLAs (Natural Language Autoencoders) by Anwen Hao, mentored by Adrians Skapars, promises automatic activation explanations. Why it matters: Direct: offers a practical path to explain activations, improving interpretability and debugging.</description>
     </item>
     <item>
-      <title>Nous Research Ships Bot Mode for Hermes Agent, Turning Agent Profiles Into a Roster of Named Bots</title>
-      <link>https://www.marktechpost.com/2026/08/17/nous-research-hermes-bot-mode/</link>
-      <guid isPermaLink="true">https://www.marktechpost.com/2026/08/17/nous-research-hermes-bot-mode/</guid>
-      <pubDate>Tue, 18 Aug 2026 02:05:28 +0000</pubDate>
+      <title>[AINews] Memory prices up 500% in 12 months</title>
+      <link>https://www.latent.space/p/ainews-memory-prices-up-500-in-12</link>
+      <guid isPermaLink="true">https://www.latent.space/p/ainews-memory-prices-up-500-in-12</guid>
+      <pubDate>Wed, 19 Aug 2026 08:44:52 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Nous Research shipped Bot Mode for Hermes Agent, adding a roster of named bots with individual chats, memory, skills, and pinned models; now bundled as default in Hermes Desktop. Why it matters: Direct: Named bots enable scalable, auditable agent workflows and easier debugging.</description>
+      <description>Memory crunch continues; Moore’s Law reversed to 2007 levels. Why it matters: Direct: signals ongoing hardware cost pressures affecting AI deployment and budgeting.</description>
     </item>
     <item>
-      <title>Qwen 3.8 27B xhigh vs medium small comparison (+ others for fun)</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vrg907/qwen_38_27b_xhigh_vs_medium_small_comparison/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vrg907/qwen_38_27b_xhigh_vs_medium_small_comparison/</guid>
-      <pubDate>Tue, 18 Aug 2026 05:36:41 +0000</pubDate>
+      <title>Build a Local LLM Chatbot with Ollama and Python</title>
+      <link>https://dev.to/qingluan/build-a-local-llm-chatbot-with-ollama-and-python-54j</link>
+      <guid isPermaLink="true">https://dev.to/qingluan/build-a-local-llm-chatbot-with-ollama-and-python-54j</guid>
+      <pubDate>Wed, 19 Aug 2026 10:00:53 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Small experiment comparing Qwen 3.8 27B xhigh vs medium-small; notes xhigh overthinks, but results are impressive. Prompt openly allowed liberties. TL:DR at bottom. Images shown in order: Qwen 3.8 27b xhigh, Qwen 3. Why it matters: Direct: Demonstrates prompt sensitivity and &#x27;overthinking&#x27; behavior in xhigh mode, highlighting practical implications for evaluating models and prompt design.</description>
+      <description>Build a Local LLM Chatbot with Ollama and Python — imagine typing a question into your chatbot and getting a response in milliseconds, completely offline, with zero data leaving your m... Why it matters: Direct: Highlights practical offline LLM deployment using Ollama and Python, reducing data exposure and latency.</description>
     </item>
     <item>
-      <title>Latin Hypercube Sampling: A Complete Guide for SMEs</title>
-      <link>https://dev.to/fabiolauria/latin-hypercube-sampling-a-complete-guide-for-smes-1of1</link>
-      <guid isPermaLink="true">https://dev.to/fabiolauria/latin-hypercube-sampling-a-complete-guide-for-smes-1of1</guid>
-      <pubDate>Tue, 18 Aug 2026 10:04:58 +0000</pubDate>
+      <title>Show HN: Automatically detect and patch walking-dead states in Sierra games</title>
+      <link>https://github.com/katiahayati/lucasartsifier/</link>
+      <guid isPermaLink="true">https://github.com/katiahayati/lucasartsifier/</guid>
+      <pubDate>Wed, 19 Aug 2026 01:58:33 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>SMEs using Latin Hypercube Sampling to set up simulations for estimating demand, risk, or inventory; notes results vary across runs and some input combinations never appear. Why it matters: Direct: Illustrates how Latin Hypercube Sampling can reduce run-to-run variability in SME simulations for demand, risk, and inventory.</description>
+      <description>Hi HN, I&#x27;ve become lazier in my old age and struggle to replay Sierra games from the 80s and 90s because I need an item from 3 acts ago and have no save game handy. Why it matters: Direct: Highlights a practical need for automation to simplify retro-game playthroughs and avoid manual state-management.</description>
     </item>
     <item>
-      <title>Made this game in two prompts with Q4, Qwen 3.8 is amazing</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vrabno/made_this_game_in_two_prompts_with_q4_qwen_38_is/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vrabno/made_this_game_in_two_prompts_with_q4_qwen_38_is/</guid>
-      <pubDate>Tue, 18 Aug 2026 00:49:54 +0000</pubDate>
+      <title>Qwen3.8 2.4T open weights made a Call of Duty clone</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vrwn1f/qwen38_24t_open_weights_made_a_call_of_duty_clone/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vrwn1f/qwen38_24t_open_weights_made_a_call_of_duty_clone/</guid>
+      <pubDate>Tue, 18 Aug 2026 17:53:44 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Built a browser game in two prompts with Qwen 3.8; one prompt builds, second fixes bomb stutter and enemy pathfinding. HTML/CSS/JS, no external assets. Uses 2x RTX 3060 with UD-Q4_K_XL in llama.cpp, 128k context, ~20 t/s. Why it matters: Direct: Shows practical, prompt-based game prototyping and low-asset deployment on consumer GPUs.</description>
-    </item>
-    <item>
-      <title>They said the same about Millennials btw Once you start</title>
-      <link>https://nitter.net/levelsio/status/2089453470684209370</link>
-      <guid isPermaLink="true">https://nitter.net/levelsio/status/2089453470684209370</guid>
-      <pubDate>Mon, 17 Aug 2026 20:45:02 +0000</pubDate>
-      <category>5) For Fun</category>
-      <description>Observes a perennial meme that every generation in their 20s is labeled as &#x27;lost&#x27;, &#x27;a victim&#x27;, &#x27;entitled&#x27;, or &#x27;lazy&#x27;, with blame placed on individuals or the economy depending on the author. Why it matters: Direct: Documents a recurring generational stereotype discussion in tech and online culture.</description>
+      <description>Qwen released the 2.4T Max weights and I was curious how well it can re-create COD in one prompt, running the model on a rented B200 cluster. Why it matters: Direct: Demonstrates accessibility of large open-weight models for real-time game replication on commodity GPUs.</description>
     </item>
   </channel>
 </rss>
