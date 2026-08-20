@@ -1,186 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-08-19</title>
+    <title>Daily AI Feed - 2026-08-20</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Wed, 19 Aug 2026 10:35:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 10:33:35 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue</title>
-      <link>https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/</link>
-      <guid isPermaLink="true">https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/</guid>
-      <pubDate>Tue, 18 Aug 2026 18:33:11 +0000</pubDate>
+      <title>Self-prompting and cross-model consensus enable reproducible data extraction from scientific literature with large language models</title>
+      <link>http://arxiv.org/abs/2608.19025v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.19025v1</guid>
+      <pubDate>Wed, 19 Aug 2026 15:20:11 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>The ChatGPT maker says its upcoming Astra model may have reached “critical” cyber capabilities, prompting it to halt a significant number of training runs while it tightens internal safeguards. Why it matters: Direct: Review Astra safety controls; inventory halted trainings; implement tightened safeguards; publish updated internal policy.</description>
+      <description>Study evaluates frontier browser-based LLMs for extracting nuanced, contextual data from research articles, addressing the laborious, time-intensive nature of manual extraction. Why it matters: Direct: Demonstrates reproducible data extraction from scientific articles using browser-based LLMs, informing tooling for researchers.</description>
     </item>
     <item>
-      <title>We&#x27;re also publishing a technical report: www-cdn.anthropic.com/30bf50… And</title>
-      <link>https://nitter.net/AnthropicAI/status/2089842395722678689</link>
-      <guid isPermaLink="true">https://nitter.net/AnthropicAI/status/2089842395722678689</guid>
-      <pubDate>Tue, 18 Aug 2026 22:30:29 +0000</pubDate>
+      <title>Microsoft will pay up to $279K for a lawyer who can build AI</title>
+      <link>https://www.businessinsider.com/microsoft-hiring-legal-engineer-ai-lawyers-2026-8</link>
+      <guid isPermaLink="true">https://www.businessinsider.com/microsoft-hiring-legal-engineer-ai-lawyers-2026-8</guid>
+      <pubDate>Thu, 20 Aug 2026 10:00:01 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Anthropic announces a technical report and open-sourcing prompts and data here: huggingface.co/datasets/Anth… Why it matters: Direct: Open-sourcing fosters reproducibility and reuse of prompts and data.</description>
+      <description>Microsoft is hiring a lawyer to shape how its legal department uses AI; the role includes building agents, refining prompts, and training attorneys. Why it matters: Direct: Defines a new AI-focused legal role, indicating enterprise investment in automated tools and prompt engineering.</description>
     </item>
     <item>
-      <title>The Token Ledger Digest – 2026-08-19</title>
-      <link>https://dev.to/4663437mehdi/the-token-ledger-digest-2026-08-19-1bmm</link>
-      <guid isPermaLink="true">https://dev.to/4663437mehdi/the-token-ledger-digest-2026-08-19-1bmm</guid>
-      <pubDate>Wed, 19 Aug 2026 07:53:14 +0000</pubDate>
+      <title>Agentic Testing : A Process You Can Actually Run</title>
+      <link>https://dev.to/dharanineelapuram/agentic-testing-a-process-you-can-actually-run-4a8m</link>
+      <guid isPermaLink="true">https://dev.to/dharanineelapuram/agentic-testing-a-process-you-can-actually-run-4a8m</guid>
+      <pubDate>Thu, 20 Aug 2026 08:11:34 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Token Ledger Digest notes price increases for GLM 5.2 batch prompts and completions (0.70→1.40/M; 2.20→4.40/M) and similar increases for Inkling batch prompts and completions (0.50→1.00/M; 2.03→4.05/M), meaning batch workloads now cost twice as much. Why it matters: Direct: Batch users face higher costs; adjust budgets and capacity.</description>
+      <description>Advocates agentic testing for AI agents, arguing traditional input-output tests miss production faults; agents make decisions, call tools, and chain steps. Why it matters: Direct: Highlights testing gaps in agentic systems and provides a practice-oriented view on robust, production-ready evaluation.</description>
     </item>
     <item>
-      <title>Ling-3.0-tiny is a very interesting model. Run on NVIDIA Orin Nano Super 8GB at 128K context with IQ4_NL quant.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vs9x4r/ling30tiny_is_a_very_interesting_model_run_on/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vs9x4r/ling30tiny_is_a_very_interesting_model_run_on/</guid>
-      <pubDate>Wed, 19 Aug 2026 02:41:00 +0000</pubDate>
+      <title>Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams</title>
+      <link>https://github.com/onecli/onecli</link>
+      <guid isPermaLink="true">https://github.com/onecli/onecli</guid>
+      <pubDate>Wed, 19 Aug 2026 16:29:02 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>I have been searching for suitable model to run on my 8GB RAM toy, NVIDIA Orin Nano Super 8GB. This little toy was priced at $249 earlier this year (not any more), and pulls very little power when idle. Why it matters: Direct: This matters for practical engineering workflow impact, based on this update from r/LocalLLaMA.</description>
+      <description>OneCLI offers an OSS sandboxed agent harness for teams, giving every employee a secured, sandboxed personal agent, with connections to GitHub, Gmail, Notion, or Dropbox via chat. Why it matters: Direct: Introduces a team-wide sandboxed agent capability and service integrations (GitHub, Gmail, Notion, Dropbox) that could impact developer workflows and approvals.</description>
     </item>
     <item>
-      <title>Launch HN: machine0 (YC S26) – Persistent CPU and GPU VMs from the CLI</title>
-      <link>https://machine0.io</link>
-      <guid isPermaLink="true">https://machine0.io</guid>
-      <pubDate>Tue, 18 Aug 2026 16:26:42 +0000</pubDate>
+      <title>I Tested 4 Retry Strategies Against a Free Model Server. Naive Retries Made It Worse.</title>
+      <link>https://dev.to/gitlab_3188/i-tested-4-retry-strategies-against-a-free-model-server-naive-retries-made-it-worse-2io6</link>
+      <guid isPermaLink="true">https://dev.to/gitlab_3188/i-tested-4-retry-strategies-against-a-free-model-server-naive-retries-made-it-worse-2io6</guid>
+      <pubDate>Thu, 20 Aug 2026 10:17:36 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Hi HN! I’m Barnaby, founder of machine0 ( https://machine0.io ). I’m building a CLI for long horizon agent compute: `machine0 new mybox` gives your agent a persistent cloud VM, billed by the minute, from $0. Why it matters: Direct: This matters for practical engineering workflow impact, based on this update from Hacker News.</description>
+      <description>A test compared four retry strategies on a free model server; naive immediate retries worsened outcomes. The study, with 200 requests per strategy, informs how I design client retry logic. Why it matters: Direct: Highlights that retry strategies materially affect model-server stability; guides practitioners to rethink simple retries and implement smarter backoff.</description>
     </item>
     <item>
-      <title>I let an AI agent run my trading bots unattended. It broke twice before I built a gate to stop it.</title>
-      <link>https://dev.to/tatsuyawwp/i-let-an-ai-agent-run-my-trading-bots-unattended-it-broke-twice-before-i-built-a-gate-to-stop-it-40db</link>
-      <guid isPermaLink="true">https://dev.to/tatsuyawwp/i-let-an-ai-agent-run-my-trading-bots-unattended-it-broke-twice-before-i-built-a-gate-to-stop-it-40db</guid>
-      <pubDate>Wed, 19 Aug 2026 10:12:37 +0000</pubDate>
+      <title>From Threat Intelligence to Detection: Knowledge-driven Enrichment and Template-based Rule Grounding for Automated Sigma Rule Generation</title>
+      <link>http://arxiv.org/abs/2608.19011v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.19011v1</guid>
+      <pubDate>Wed, 19 Aug 2026 15:11:43 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>I run a one-person AI company: Claude Code writes and maintains the code, I make the calls that need a human. Why it matters: Direct: This matters for practical engineering workflow impact, based on this update from DEV.to AI Tag.</description>
+      <description>Describes mechanisms for converting cyber threat intelligence into actionable detection to keep up with evolving APTs. Why it matters: Direct: Highlights the need for translating CTI into detection to keep pace with evolving threats.</description>
     </item>
     <item>
-      <title>Show HN: macOS data protection keychain for Electron apps</title>
-      <link>https://github.com/biw/keychain-store</link>
-      <guid isPermaLink="true">https://github.com/biw/keychain-store</guid>
-      <pubDate>Tue, 18 Aug 2026 17:25:19 +0000</pubDate>
+      <title>Devlog: B2B Lead Enrichment &amp; Contactability Verifier – New Tool for Contact Verification</title>
+      <link>https://dev.to/denisssenkyrmaker/devlog-b2b-lead-enrichment-contactability-verifier-new-tool-for-contact-verification-182j</link>
+      <guid isPermaLink="true">https://dev.to/denisssenkyrmaker/devlog-b2b-lead-enrichment-contactability-verifier-new-tool-for-contact-verification-182j</guid>
+      <pubDate>Thu, 20 Aug 2026 10:13:03 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Hey HN, I&#x27;ve been working on Hansel [1] (an encrypted personal data store you can query with agents), and there wasn&#x27;t a good way to use the modern macOS Data Protection Keychain. Why it matters: Direct: This matters for practical engineering workflow impact, based on this update from Hacker News.</description>
+      <description>Devlog about Pixel Office&#x27;s B2B Lead Enrichment &amp; Contactability Verifier; tool verifies and enriches B2B contacts, checks MX records, email syntax, domain age, and computes a contactability score. Why it matters: Direct: Presents a high-speed tool to improve B2B lead quality and reachability, addressing data verification in sales workflows.</description>
     </item>
     <item>
-      <title>If alignment issues are becoming big enough that OpenAI is</title>
-      <link>https://nitter.net/emollick/status/2089819700033102273</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2089819700033102273</guid>
-      <pubDate>Tue, 18 Aug 2026 21:00:18 +0000</pubDate>
+      <title>Replit expands access to software creation with GPT-5.6 Luna</title>
+      <link>https://openai.com/index/replit</link>
+      <guid isPermaLink="true">https://openai.com/index/replit</guid>
+      <pubDate>Wed, 19 Aug 2026 07:00:00 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>OpenAI is willing to commit 20% of research inference compute to chain-of-thought monitoring, signaling serious alignment concerns and a need for universal policies across labs. Why it matters: Direct: Signals a growing alignment risk requiring cross-lab policies; aligning governance may accelerate AI safety standards and reduce downstream product risk.</description>
+      <description>Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs. Why it matters: Direct: Lowers token-cost barriers, expanding access to software creation and accelerating idea-to-working-software iteration.</description>
     </item>
     <item>
-      <title>I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take</title>
-      <link>https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor</guid>
-      <pubDate>Tue, 18 Aug 2026 21:30:31 +0000</pubDate>
+      <title>ProtoNote</title>
+      <link>https://www.producthunt.com/products/protonote</link>
+      <guid isPermaLink="true">https://www.producthunt.com/products/protonote</guid>
+      <pubDate>Thu, 20 Aug 2026 06:59:05 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>A head-to-head test compared Grok Bot, Cursor Origin, and Grok 4.6 against favorite models, ranking them on the Claire Index and noting what moved the needle. Why it matters: Direct: Head-to-head model tests and a Claire Index ranking provide concrete signals for evaluating product-model fit and what features actually move the needle.</description>
+      <description>Share AI-built prototypes, get feedback pinned to the page Discussion | Link Why it matters: Direct: Enables rapid prototyping cycles and centralized feedback, supporting iterative product decisions.</description>
     </item>
     <item>
-      <title>Older research Ethan Mollick (@emollick) Does GPT-4 have Theory of</title>
-      <link>https://nitter.net/emollick/status/2089716697448013921</link>
-      <guid isPermaLink="true">https://nitter.net/emollick/status/2089716697448013921</guid>
-      <pubDate>Tue, 18 Aug 2026 14:11:00 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>Older research by Ethan Mollick suggests GPT-4 may perform at or above human levels on theory of mind tests, though guardrails affect faux pas detection. Why it matters: Direct: Theory of mind findings inform AI capability assessments and guardrail considerations for safety strategy.</description>
-    </item>
-    <item>
-      <title>Announcing Lenny’s Jobs: The best place in the world to find, vet, and land your dream job</title>
-      <link>https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place</guid>
-      <pubDate>Tue, 18 Aug 2026 15:40:06 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>Where product managers, engineers, designers, and growth/marketing professionals discover high-quality open roles at tech companies Why it matters: Direct: Highlights a concrete talent-sourcing channel to accelerate hiring for cross-functional AI-enabled product initiatives.</description>
-    </item>
-    <item>
-      <title>A Practical Workflow for Delegating Software Tasks to AI Agents</title>
-      <link>https://dev.to/paruyryan/a-practical-workflow-for-delegating-software-tasks-to-ai-agents-4epe</link>
-      <guid isPermaLink="true">https://dev.to/paruyryan/a-practical-workflow-for-delegating-software-tasks-to-ai-agents-4epe</guid>
-      <pubDate>Wed, 19 Aug 2026 08:36:17 +0000</pubDate>
+      <title>From Chrome DevTools to AI Engineering, with Addy Osmani</title>
+      <link>https://newsletter.pragmaticengineer.com/p/from-chrome-devtools-to-ai-engineering</link>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/from-chrome-devtools-to-ai-engineering</guid>
+      <pubDate>Wed, 19 Aug 2026 16:53:57 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>AI coding agents are advancing, but result quality hinges on task prep, assignment, review, and acceptance; vague requests like &#x27;fix the onboarding flow&#x27; leave many decisions undefined. Why it matters: Inference: Highlights the need for clear task prep and review processes to ensure AI coding agents deliver quality results.</description>
+      <description>Addy Osmani shares lessons from 14 years at Google on how AI agents are reshaping software engineering, developer workflows, and the skills engineers need to succeed. Why it matters: Direct: Highlights practical shifts in developer workflows and required skills for AI-enabled engineering teams, guiding teams on where to invest next.</description>
     </item>
     <item>
-      <title>Vibe Coding Works Until Yo Put It in Production</title>
-      <link>https://dev.to/unmeshed/vibe-coding-works-until-yo-put-it-in-production-55i8</link>
-      <guid isPermaLink="true">https://dev.to/unmeshed/vibe-coding-works-until-yo-put-it-in-production-55i8</guid>
-      <pubDate>Wed, 19 Aug 2026 07:22:27 +0000</pubDate>
+      <title>Tools That Resolve Conflicting Information Between Docs, Code, and Slack</title>
+      <link>https://dev.to/dennis_pilarinos/tools-that-resolve-conflicting-information-between-docs-code-and-slack-3j15</link>
+      <guid isPermaLink="true">https://dev.to/dennis_pilarinos/tools-that-resolve-conflicting-information-between-docs-code-and-slack-3j15</guid>
+      <pubDate>Thu, 20 Aug 2026 09:00:00 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Vibe coding speeds up feature work by producing a first pass and patches, but production-readiness remains a separate challenge. Why it matters: Inference: Demonstrates that acceleration features must be balanced with explicit production readiness steps.</description>
+      <description>Unblocked is presented as the pick for reconciling conflicts across docs, code, and Slack history into a single answer, weighted by recency and authority signals. Why it matters: Direct: Provides a concrete method to resolve cross-domain information conflicts, useful for maintaining source truth in code, docs, and chat histories.</description>
     </item>
     <item>
-      <title>Anthropic Risk Report: August 2026</title>
-      <link>https://www.lesswrong.com/posts/dA8gohzABk6vT7yzP/anthropic-risk-report-august-2026</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/dA8gohzABk6vT7yzP/anthropic-risk-report-august-2026</guid>
-      <pubDate>Tue, 18 Aug 2026 20:40:22 +0000</pubDate>
+      <title>Extensible Software in the Age of LLMs: What It Means for AI‑Agent Bu…</title>
+      <link>https://dev.to/felipejac/extensible-software-in-the-age-of-llms-what-it-means-for-ai-agent-bu-2fdj</link>
+      <guid isPermaLink="true">https://dev.to/felipejac/extensible-software-in-the-age-of-llms-what-it-means-for-ai-agent-bu-2fdj</guid>
+      <pubDate>Thu, 20 Aug 2026 08:24:57 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Anthropic Risk Reports are delivering new information and detailed insight into thinking, with some alarming content; initial skepticism gave way to appreciation. Why it matters: Inference: Points to risk-disclosure value and the need to monitor AI risk reporting for decision-making.</description>
+      <description>Extensible Software in the Age of LLMs introduces a framework for developers to add features, data schemas, or integration points via plain-language descriptions, with LLM translating to executable modules or API calls. Why it matters: Direct: Describes a low-friction path to extensibility in AI-enabled apps, enabling non-experts to specify new capabilities.</description>
     </item>
     <item>
-      <title>Reading List on Wise AI</title>
-      <link>https://www.lesswrong.com/posts/b4A3rHfDRHL8wHMuT/reading-list-on-wise-ai</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/b4A3rHfDRHL8wHMuT/reading-list-on-wise-ai</guid>
-      <pubDate>Wed, 19 Aug 2026 08:41:33 +0000</pubDate>
+      <title>Citizens Build, Agents Execute, Experts Govern</title>
+      <link>https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html</link>
+      <guid isPermaLink="true">https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html</guid>
+      <pubDate>Wed, 19 Aug 2026 18:30:00 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>The reading list is very outdated; the author shares it now despite not updating, due to other projects. Why it matters: Inference: Indicates maintenance needs for AI reading resources and curation.</description>
+      <description>Martin Fowler notes a gap between weekend app building and enterprise software, driven by divergent views of what software engineering is, not by technology. Why it matters: Direct: Clarifies expectations for teams transitioning from rapid prototyping to scalable software, informing process improvements.</description>
     </item>
     <item>
-      <title>Headed for the Exit: the Great Engineering Leader Career Break</title>
-      <link>https://newsletter.pragmaticengineer.com/p/the-great-engineering-leader-career-break</link>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-great-engineering-leader-career-break</guid>
-      <pubDate>Tue, 18 Aug 2026 16:21:06 +0000</pubDate>
+      <title>smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript</title>
+      <link>https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/</guid>
+      <pubDate>Wed, 19 Aug 2026 23:16:00 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Trend notes more CTOs, VPEs, and Heads of Engineering leaving high-status roles; causes include AI pressures and founder-mode tendencies. Why it matters: Direct: signals leadership churn could affect AI product delivery and organization strategy.</description>
+      <description>Research on smolmachines/smolvm as a sandbox for untrusted Python and JavaScript; tested smolmachines.com for speed and security. Why it matters: Direct: Demonstrates feasibility and speed of untrusted-code sandboxes, informing secure containment approaches for Python/JS execution in browsers and web services.</description>
     </item>
     <item>
-      <title>GPT-2&#x27;s IOI behavior is defined where the paper&#x27;s algorithm isn&#x27;t</title>
-      <link>https://www.lesswrong.com/posts/zKyKDre78napvtrEo/gpt-2-s-ioi-behavior-is-defined-where-the-paper-s-algorithm</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/zKyKDre78napvtrEo/gpt-2-s-ioi-behavior-is-defined-where-the-paper-s-algorithm</guid>
-      <pubDate>Tue, 18 Aug 2026 23:39:13 +0000</pubDate>
+      <title>Making sense of the misalignment risk model in the Anthropic Risk Report (August 2026)</title>
+      <link>https://www.lesswrong.com/posts/P6gLGnjjzZMPyvJGa/making-sense-of-the-misalignment-risk-model-in-the-anthropic</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/P6gLGnjjzZMPyvJGa/making-sense-of-the-misalignment-risk-model-in-the-anthropic</guid>
+      <pubDate>Thu, 20 Aug 2026 02:33:31 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>TL;DR: The IOI algorithm doesn&#x27;t specify what to do when the indirect object token is duplicated; the model succeeds anyway, and the author seeks confirmation and further evidence. Why it matters: Direct: reveals a gap between IOI theory and observed model behavior, encouraging further evidence gathering.</description>
+      <description>Anthropic released the August 2026 Risk Report; a 186-page document introducing three threat models of catastrophic risks. Why it matters: Direct: Understanding misalignment threat models helps teams prioritize safety research and evaluation methods.</description>
     </item>
     <item>
-      <title>Natural Language Transcoders</title>
-      <link>https://www.lesswrong.com/posts/SY69ngXLF5DbNvJaZ/natural-language-transcoders</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/SY69ngXLF5DbNvJaZ/natural-language-transcoders</guid>
-      <pubDate>Wed, 19 Aug 2026 01:56:38 +0000</pubDate>
+      <title>Notes on &quot;EigenBench: A Comparative Behavioral Measure of Value Alignment&quot;</title>
+      <link>https://www.lesswrong.com/posts/TxvokMW3QJiZLYhQ4/notes-on-eigenbench-a-comparative-behavioral-measure-of</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/TxvokMW3QJiZLYhQ4/notes-on-eigenbench-a-comparative-behavioral-measure-of</guid>
+      <pubDate>Thu, 20 Aug 2026 02:07:50 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Describing computations in a transformer-layer stack via Anthropic’s NLAs (Natural Language Autoencoders) by Anwen Hao, mentored by Adrians Skapars, promises automatic activation explanations. Why it matters: Direct: offers a practical path to explain activations, improving interpretability and debugging.</description>
+      <description>Post about taking notes on AI safety papers, using EigenBench as a case study to improve memory and learning of complex content. Why it matters: Direct: Emphasizes practical note-taking strategies to handle dense research, useful for newcomers documenting AI safety literature.</description>
     </item>
     <item>
-      <title>[AINews] Memory prices up 500% in 12 months</title>
-      <link>https://www.latent.space/p/ainews-memory-prices-up-500-in-12</link>
-      <guid isPermaLink="true">https://www.latent.space/p/ainews-memory-prices-up-500-in-12</guid>
-      <pubDate>Wed, 19 Aug 2026 08:44:52 +0000</pubDate>
+      <title>Quoting Jeremy Morrell</title>
+      <link>https://simonwillison.net/2026/Aug/19/jeremy-morrell/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/19/jeremy-morrell/</guid>
+      <pubDate>Wed, 19 Aug 2026 22:56:31 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Memory crunch continues; Moore’s Law reversed to 2007 levels. Why it matters: Direct: signals ongoing hardware cost pressures affecting AI deployment and budgeting.</description>
+      <description>Quoting Jeremy Morrell discusses opportunities for extensible software on the web, noting that LLMs reduce extension authoring costs and modern sandbox primitives reduce deployment costs while improving security boundaries. Why it matters: Direct: Indicates growing potential for web-based extensibility with AI-assisted development and safer sandboxing.</description>
     </item>
     <item>
-      <title>Build a Local LLM Chatbot with Ollama and Python</title>
-      <link>https://dev.to/qingluan/build-a-local-llm-chatbot-with-ollama-and-python-54j</link>
-      <guid isPermaLink="true">https://dev.to/qingluan/build-a-local-llm-chatbot-with-ollama-and-python-54j</guid>
-      <pubDate>Wed, 19 Aug 2026 10:00:53 +0000</pubDate>
+      <title>Cognitive reward shapes in sports and career</title>
+      <link>https://www.jasonwei.net/blog/cognitive-reward-shapes-in-sports-and-career</link>
+      <guid isPermaLink="true">https://www.jasonwei.net/blog/cognitive-reward-shapes-in-sports-and-career</guid>
+      <pubDate>Thu, 20 Aug 2026 07:25:22 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Build a Local LLM Chatbot with Ollama and Python — imagine typing a question into your chatbot and getting a response in milliseconds, completely offline, with zero data leaving your m... Why it matters: Direct: Highlights practical offline LLM deployment using Ollama and Python, reducing data exposure and latency.</description>
+      <description>Sports are amazing environments to learn. Thousands of hours playing shape your neural network to respond to behavior incentivized by the sport&#x27;s rules. Why it matters: Direct: Highlights how long-term practice conditions neural responses to sport-incentivized behaviors.</description>
     </item>
     <item>
-      <title>Show HN: Automatically detect and patch walking-dead states in Sierra games</title>
-      <link>https://github.com/katiahayati/lucasartsifier/</link>
-      <guid isPermaLink="true">https://github.com/katiahayati/lucasartsifier/</guid>
-      <pubDate>Wed, 19 Aug 2026 01:58:33 +0000</pubDate>
+      <title>Conceptual integrity and counting lines of code</title>
+      <link>https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/</guid>
+      <pubDate>Wed, 19 Aug 2026 22:46:07 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Hi HN, I&#x27;ve become lazier in my old age and struggle to replay Sierra games from the 80s and 90s because I need an item from 3 acts ago and have no save game handy. Why it matters: Direct: Highlights a practical need for automation to simplify retro-game playthroughs and avoid manual state-management.</description>
+      <description>Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of &#x27;How AI is changing software development&#x27;. Here are a couple of my highlights from a lightly edited transcript. Why it matters: Direct: Highlights how AI is changing software development discussions and prompts further exploration.</description>
     </item>
     <item>
-      <title>Qwen3.8 2.4T open weights made a Call of Duty clone</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vrwn1f/qwen38_24t_open_weights_made_a_call_of_duty_clone/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vrwn1f/qwen38_24t_open_weights_made_a_call_of_duty_clone/</guid>
-      <pubDate>Tue, 18 Aug 2026 17:53:44 +0000</pubDate>
+      <title>KnowledgeForge: mining gold from the ITSM ticket graveyard</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/knowledgeforge-mining-gold-from-the-itsm-ticket-graveyard/</link>
+      <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/knowledgeforge-mining-gold-from-the-itsm-ticket-graveyard/</guid>
+      <pubDate>Wed, 19 Aug 2026 20:36:50 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Qwen released the 2.4T Max weights and I was curious how well it can re-create COD in one prompt, running the model on a rented B200 cluster. Why it matters: Direct: Demonstrates accessibility of large open-weight models for real-time game replication on commodity GPUs.</description>
+      <description>KnowledgeForge mines resolved ITSM incident tickets into new knowledge base articles and automatically curates the existing library by deduplicating, quality-scoring, and improving content, using Amazon Bedrock, Amazon S3 Vectors, and AWS Step Functions in a ... Why it matters: Direct: Describes an automated knowledge-management pipeline and its multi-tenant, curation capabilities.</description>
     </item>
   </channel>
 </rss>
