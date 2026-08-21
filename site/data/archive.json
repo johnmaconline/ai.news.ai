@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-08-21",
+    "title": "Daily AI Feed - 2026-08-21",
+    "lead_story": "7 Lessons from Building Agentic AI in Production",
+    "lead_url": "https://dev.to/haiderfarooq3/7-lessons-from-building-agentic-ai-in-production-253d",
+    "generated_at": "2026-08-21T10:29:42+00:00"
+  },
+  {
     "date": "2026-08-20",
     "title": "Daily AI Feed - 2026-08-20",
     "lead_story": "Self-prompting and cross-model consensus enable reproducible data extraction from scientific literature with large language models",

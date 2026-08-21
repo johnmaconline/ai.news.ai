@@ -1,170 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-08-20</title>
+    <title>Daily AI Feed - 2026-08-21</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Thu, 20 Aug 2026 10:33:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 10:29:42 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>Self-prompting and cross-model consensus enable reproducible data extraction from scientific literature with large language models</title>
-      <link>http://arxiv.org/abs/2608.19025v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.19025v1</guid>
-      <pubDate>Wed, 19 Aug 2026 15:20:11 +0000</pubDate>
+      <title>7 Lessons from Building Agentic AI in Production</title>
+      <link>https://dev.to/haiderfarooq3/7-lessons-from-building-agentic-ai-in-production-253d</link>
+      <guid isPermaLink="true">https://dev.to/haiderfarooq3/7-lessons-from-building-agentic-ai-in-production-253d</guid>
+      <pubDate>Fri, 21 Aug 2026 10:01:55 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Study evaluates frontier browser-based LLMs for extracting nuanced, contextual data from research articles, addressing the laborious, time-intensive nature of manual extraction. Why it matters: Direct: Demonstrates reproducible data extraction from scientific articles using browser-based LLMs, informing tooling for researchers.</description>
+      <description>Seven production-focused lessons from building agentic AI at TryCook.ai, noting agents perform real, billable work and the LLM call is the easy part. Why it matters: Direct: Provides seven production-focused lessons for deploying agentic AI, guiding architecture and operational risk decisions.</description>
     </item>
     <item>
-      <title>Microsoft will pay up to $279K for a lawyer who can build AI</title>
-      <link>https://www.businessinsider.com/microsoft-hiring-legal-engineer-ai-lawyers-2026-8</link>
-      <guid isPermaLink="true">https://www.businessinsider.com/microsoft-hiring-legal-engineer-ai-lawyers-2026-8</guid>
-      <pubDate>Thu, 20 Aug 2026 10:00:01 +0000</pubDate>
+      <title>ChatGPT search now uses the site:operator at scale</title>
+      <link>https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/</guid>
+      <pubDate>Thu, 20 Aug 2026 23:57:32 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Microsoft is hiring a lawyer to shape how its legal department uses AI; the role includes building agents, refining prompts, and training attorneys. Why it matters: Direct: Defines a new AI-focused legal role, indicating enterprise investment in automated tools and prompt engineering.</description>
+      <description>ChatGPT search now uses the site:operator at scale; GEO (Generative Engine Optimization) is the chatbot version of SEO, with Promptwatch part of the space. Why it matters: Direct: Shows evolving SEO-like strategies for chat prompts, affecting tooling and site discovery within AI assistants.</description>
     </item>
     <item>
-      <title>Agentic Testing : A Process You Can Actually Run</title>
-      <link>https://dev.to/dharanineelapuram/agentic-testing-a-process-you-can-actually-run-4a8m</link>
-      <guid isPermaLink="true">https://dev.to/dharanineelapuram/agentic-testing-a-process-you-can-actually-run-4a8m</guid>
-      <pubDate>Thu, 20 Aug 2026 08:11:34 +0000</pubDate>
+      <title>eval_chatbot.py — estrutura simplificada de uma suíte de evals</title>
+      <link>https://dev.to/victorholiveira/evalchatbotpy-estrutura-simplificada-de-uma-suite-de-evals-g8</link>
+      <guid isPermaLink="true">https://dev.to/victorholiveira/evalchatbotpy-estrutura-simplificada-de-uma-suite-de-evals-g8</guid>
+      <pubDate>Fri, 21 Aug 2026 10:09:14 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Advocates agentic testing for AI agents, arguing traditional input-output tests miss production faults; agents make decisions, call tools, and chain steps. Why it matters: Direct: Highlights testing gaps in agentic systems and provides a practice-oriented view on robust, production-ready evaluation.</description>
+      <description>Discusses AI-generated tests (e.g., Playwright from user stories), self-healing tests, testing non-deterministic AI apps, shift-left and continuous testing in pipelines, and evolving QA roles. Why it matters: Direct: Lays out practical QA strategies for AI applications, including self-healing tests and CI integration.</description>
     </item>
     <item>
-      <title>Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams</title>
-      <link>https://github.com/onecli/onecli</link>
-      <guid isPermaLink="true">https://github.com/onecli/onecli</guid>
-      <pubDate>Wed, 19 Aug 2026 16:29:02 +0000</pubDate>
+      <title>I got fed up with locked-down autocomplete, so I forked Continue and stripped it down to just tab-completion. Any model, no subscription and no remote telemetry</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vubpn4/i_got_fed_up_with_lockeddown_autocomplete_so_i/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vubpn4/i_got_fed_up_with_lockeddown_autocomplete_so_i/</guid>
+      <pubDate>Fri, 21 Aug 2026 09:45:18 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>OneCLI offers an OSS sandboxed agent harness for teams, giving every employee a secured, sandboxed personal agent, with connections to GitHub, Gmail, Notion, or Dropbox via chat. Why it matters: Direct: Introduces a team-wide sandboxed agent capability and service integrations (GitHub, Gmail, Notion, Dropbox) that could impact developer workflows and approvals.</description>
+      <description>Autocompletion plugins lock model choice or require subscriptions; the user wants ghost text that finishes the line from a model they pick, without chat panels or repo rewriting. Why it matters: Direct: Enables model-choice freedom and removes telemetry/subscription constraints for code-completion.</description>
     </item>
     <item>
-      <title>I Tested 4 Retry Strategies Against a Free Model Server. Naive Retries Made It Worse.</title>
-      <link>https://dev.to/gitlab_3188/i-tested-4-retry-strategies-against-a-free-model-server-naive-retries-made-it-worse-2io6</link>
-      <guid isPermaLink="true">https://dev.to/gitlab_3188/i-tested-4-retry-strategies-against-a-free-model-server-naive-retries-made-it-worse-2io6</guid>
-      <pubDate>Thu, 20 Aug 2026 10:17:36 +0000</pubDate>
+      <title>AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement</title>
+      <link>http://arxiv.org/abs/2608.20318v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.20318v1</guid>
+      <pubDate>Thu, 20 Aug 2026 17:56:59 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>A test compared four retry strategies on a free model server; naive immediate retries worsened outcomes. The study, with 200 requests per strategy, informs how I design client retry logic. Why it matters: Direct: Highlights that retry strategies materially affect model-server stability; guides practitioners to rethink simple retries and implement smarter backoff.</description>
+      <description>RSI examines whether an AI system can improve the training process so that the next system inherits the improvement through a better objective or update rule. Why it matters: Direct: Highlights whether training changes yield compounding benefits across generations of agents.</description>
     </item>
     <item>
-      <title>From Threat Intelligence to Detection: Knowledge-driven Enrichment and Template-based Rule Grounding for Automated Sigma Rule Generation</title>
-      <link>http://arxiv.org/abs/2608.19011v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.19011v1</guid>
-      <pubDate>Wed, 19 Aug 2026 15:11:43 +0000</pubDate>
+      <title>AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement</title>
+      <link>https://arxiv.org/abs/2608.20318v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2608.20318v1</guid>
+      <pubDate>Thu, 20 Aug 2026 17:56:59 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Describes mechanisms for converting cyber threat intelligence into actionable detection to keep up with evolving APTs. Why it matters: Direct: Highlights the need for translating CTI into detection to keep pace with evolving threats.</description>
+      <description>AI4AI-Bench benchmarks LLM agents in algorithmic design for recursive self-improvement. Why it matters: Inference: Establishes a measurable testbed for RSI concepts and agent design.</description>
     </item>
     <item>
-      <title>Devlog: B2B Lead Enrichment &amp; Contactability Verifier – New Tool for Contact Verification</title>
-      <link>https://dev.to/denisssenkyrmaker/devlog-b2b-lead-enrichment-contactability-verifier-new-tool-for-contact-verification-182j</link>
-      <guid isPermaLink="true">https://dev.to/denisssenkyrmaker/devlog-b2b-lead-enrichment-contactability-verifier-new-tool-for-contact-verification-182j</guid>
-      <pubDate>Thu, 20 Aug 2026 10:13:03 +0000</pubDate>
+      <title>Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/</link>
+      <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/</guid>
+      <pubDate>Thu, 20 Aug 2026 16:11:18 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Devlog about Pixel Office&#x27;s B2B Lead Enrichment &amp; Contactability Verifier; tool verifies and enriches B2B contacts, checks MX records, email syntax, domain age, and computes a contactability score. Why it matters: Direct: Presents a high-speed tool to improve B2B lead quality and reachability, addressing data verification in sales workflows.</description>
+      <description>AWS demonstrates a multi-agent framework on Bedrock AgentCore to automate enterprise cloud migrations end to end; AI agents handle discovery, IaC generation, portfolio governance, and post-migration operations, reducing IaC development time from weeks to minu... Why it matters: Direct: Demonstrates practical end-to-end automation in enterprise cloud migrations using a multi-agent framework.</description>
     </item>
     <item>
-      <title>Replit expands access to software creation with GPT-5.6 Luna</title>
-      <link>https://openai.com/index/replit</link>
-      <guid isPermaLink="true">https://openai.com/index/replit</guid>
-      <pubDate>Wed, 19 Aug 2026 07:00:00 +0000</pubDate>
+      <title>The Skill That Gets More Valuable When Agents Write the Draft</title>
+      <link>https://dev.to/basavaraj_sh_1ea7d95f0f2e/the-skill-that-gets-more-valuable-when-agents-write-the-draft-520n</link>
+      <guid isPermaLink="true">https://dev.to/basavaraj_sh_1ea7d95f0f2e/the-skill-that-gets-more-valuable-when-agents-write-the-draft-520n</guid>
+      <pubDate>Fri, 21 Aug 2026 09:00:28 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs. Why it matters: Direct: Lowers token-cost barriers, expanding access to software creation and accelerating idea-to-working-software iteration.</description>
+      <description>AI agents are getting good at producing the first version of almost anything - code, specs, campaign copy, analysis. The scarce skill is knowing, quickly and confidently, whether the output in front of you is right, and no longer just producing output. Why it matters: Direct: Emphasizes evaluation discipline to speed decisions; shifts focus from drafting to validating output, improving shipping speed and integrity of AI-assisted work.</description>
     </item>
     <item>
-      <title>ProtoNote</title>
-      <link>https://www.producthunt.com/products/protonote</link>
-      <guid isPermaLink="true">https://www.producthunt.com/products/protonote</guid>
-      <pubDate>Thu, 20 Aug 2026 06:59:05 +0000</pubDate>
-      <category>2) Product Development</category>
-      <description>Share AI-built prototypes, get feedback pinned to the page Discussion | Link Why it matters: Direct: Enables rapid prototyping cycles and centralized feedback, supporting iterative product decisions.</description>
-    </item>
-    <item>
-      <title>From Chrome DevTools to AI Engineering, with Addy Osmani</title>
-      <link>https://newsletter.pragmaticengineer.com/p/from-chrome-devtools-to-ai-engineering</link>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/from-chrome-devtools-to-ai-engineering</guid>
-      <pubDate>Wed, 19 Aug 2026 16:53:57 +0000</pubDate>
+      <title>The Pulse: We need to talk about migrations with AI</title>
+      <link>https://newsletter.pragmaticengineer.com/p/the-pulse-we-need-to-talk-about-migrations</link>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-pulse-we-need-to-talk-about-migrations</guid>
+      <pubDate>Thu, 20 Aug 2026 17:53:01 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Addy Osmani shares lessons from 14 years at Google on how AI agents are reshaping software engineering, developer workflows, and the skills engineers need to succeed. Why it matters: Direct: Highlights practical shifts in developer workflows and required skills for AI-enabled engineering teams, guiding teams on where to invest next.</description>
+      <description>Asana completed a testing framework migration in two weeks, a task they&#x27;d likely have delayed for years; AI startups could reduce Gartner&#x27;s relevance. Why it matters: Direct: Demonstrates rapid migration execution and potential disruption to market-research providers as AI-enabled startups gain adoption.</description>
     </item>
     <item>
-      <title>Tools That Resolve Conflicting Information Between Docs, Code, and Slack</title>
-      <link>https://dev.to/dennis_pilarinos/tools-that-resolve-conflicting-information-between-docs-code-and-slack-3j15</link>
-      <guid isPermaLink="true">https://dev.to/dennis_pilarinos/tools-that-resolve-conflicting-information-between-docs-code-and-slack-3j15</guid>
-      <pubDate>Thu, 20 Aug 2026 09:00:00 +0000</pubDate>
+      <title>DeepSeek Harness Explained: What It Is, When to Use It, and When Not To</title>
+      <link>https://dev.to/aditi_gupta_8d81622a592aa/deepseek-harness-explained-what-it-is-when-to-use-it-and-when-not-to-3la3</link>
+      <guid isPermaLink="true">https://dev.to/aditi_gupta_8d81622a592aa/deepseek-harness-explained-what-it-is-when-to-use-it-and-when-not-to-3la3</guid>
+      <pubDate>Fri, 21 Aug 2026 08:44:36 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Unblocked is presented as the pick for reconciling conflicts across docs, code, and Slack history into a single answer, weighted by recency and authority signals. Why it matters: Direct: Provides a concrete method to resolve cross-domain information conflicts, useful for maintaining source truth in code, docs, and chat histories.</description>
+      <description>AI models can generate code, explain repositories, and suggest fixes; but a model alone cannot safely inspect your project, execute commands, remember a long-running task, or coordinate multiple tools. Why it matters: Direct: Highlights that relying on a single model requires an agent harness for safe, coordinated tool use.</description>
     </item>
     <item>
-      <title>Extensible Software in the Age of LLMs: What It Means for AI‑Agent Bu…</title>
-      <link>https://dev.to/felipejac/extensible-software-in-the-age-of-llms-what-it-means-for-ai-agent-bu-2fdj</link>
-      <guid isPermaLink="true">https://dev.to/felipejac/extensible-software-in-the-age-of-llms-what-it-means-for-ai-agent-bu-2fdj</guid>
-      <pubDate>Thu, 20 Aug 2026 08:24:57 +0000</pubDate>
+      <title>23 TypeScript Tools for Making Software Explicit in the AI Era</title>
+      <link>https://dev.to/remojansen/23-typescript-tools-for-making-software-explicit-in-the-ai-era-20hb</link>
+      <guid isPermaLink="true">https://dev.to/remojansen/23-typescript-tools-for-making-software-explicit-in-the-ai-era-20hb</guid>
+      <pubDate>Fri, 21 Aug 2026 08:53:59 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Extensible Software in the Age of LLMs introduces a framework for developers to add features, data schemas, or integration points via plain-language descriptions, with LLM translating to executable modules or API calls. Why it matters: Direct: Describes a low-friction path to extensibility in AI-enabled apps, enabling non-experts to specify new capabilities.</description>
+      <description>AI is changing the role of constraints in software development; constraints were treated as friction, with static types, schemas, and explicit workflows seen as slower or more cumbersome than runtime decisions. Why it matters: Inference: Emphasizes reconsidering the friction of constraints to leverage AI-enabled explicit workflows.</description>
     </item>
     <item>
-      <title>Citizens Build, Agents Execute, Experts Govern</title>
-      <link>https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html</link>
-      <guid isPermaLink="true">https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html</guid>
-      <pubDate>Wed, 19 Aug 2026 18:30:00 +0000</pubDate>
+      <title>Qwen3.8-27B at 262K context on a Strix Halo + RTX 3090 Ti: 9.5 -&gt; 153 tok/s, and it beats a dual-3090 vLLM box on HumanEval</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vu7yce/qwen3827b_at_262k_context_on_a_strix_halo_rtx/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vu7yce/qwen3827b_at_262k_context_on_a_strix_halo_rtx/</guid>
+      <pubDate>Fri, 21 Aug 2026 06:06:07 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Martin Fowler notes a gap between weekend app building and enterprise software, driven by divergent views of what software engineering is, not by technology. Why it matters: Direct: Clarifies expectations for teams transitioning from rapid prototyping to scalable software, informing process improvements.</description>
+      <description>159 logged experiments treated layer placement, KV format, and llama.cpp as variables; baseline 9.474 tok/s; hardware: Strix Halo + RTX 3090 Ti on an eGPU link; one llama.cpp process, AMD on Vulkan, NVIDIA on CUDA, one 27B model split across both. Why it matters: Direct: Demonstrates rapid, parameterized testing of model performance across GPU and software stack choices.</description>
     </item>
     <item>
-      <title>smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript</title>
-      <link>https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/</guid>
-      <pubDate>Wed, 19 Aug 2026 23:16:00 +0000</pubDate>
+      <title>AI #182: Pause For Reflection</title>
+      <link>https://www.lesswrong.com/posts/JSZkzsi8cD4pW6ffA/ai-182-pause-for-reflection</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/JSZkzsi8cD4pW6ffA/ai-182-pause-for-reflection</guid>
+      <pubDate>Thu, 20 Aug 2026 14:50:28 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Research on smolmachines/smolvm as a sandbox for untrusted Python and JavaScript; tested smolmachines.com for speed and security. Why it matters: Direct: Demonstrates feasibility and speed of untrusted-code sandboxes, informing secure containment approaches for Python/JS execution in browsers and web services.</description>
+      <description>This week was a quiet aftermath; OpenAI is attempting to turn its ship around. Investors question C-suite turnover; bigger problems lie in alignment, infrastructure, supervision, and the training pipeline. Why it matters: Direct: Highlights governance and operational risks at OpenAI, with potential downstream effects on product reliability, governance alignment, and investor confidence.</description>
     </item>
     <item>
-      <title>Making sense of the misalignment risk model in the Anthropic Risk Report (August 2026)</title>
-      <link>https://www.lesswrong.com/posts/P6gLGnjjzZMPyvJGa/making-sense-of-the-misalignment-risk-model-in-the-anthropic</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/P6gLGnjjzZMPyvJGa/making-sense-of-the-misalignment-risk-model-in-the-anthropic</guid>
-      <pubDate>Thu, 20 Aug 2026 02:33:31 +0000</pubDate>
+      <title>A shot-scraper-style JSON API on Bun 1.4&#x27;s new Bun.WebView</title>
+      <link>https://simonwillison.net/2026/Aug/20/bun-webview-json-api/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/20/bun-webview-json-api/</guid>
+      <pubDate>Thu, 20 Aug 2026 15:37:00 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Anthropic released the August 2026 Risk Report; a 186-page document introducing three threat models of catastrophic risks. Why it matters: Direct: Understanding misalignment threat models helps teams prioritize safety research and evaluation methods.</description>
+      <description>Research notes Bun 1.4&#x27;s Bun.WebView JSON API; today saw the long-awaited release of Bun 1.4, the first stable version since the Rust rewrite. Why it matters: Direct: Signals momentum for Bun 1.4 adoption and interest in its WebView JSON API, affecting lightweight web tooling and microservice runtimes.</description>
     </item>
     <item>
-      <title>Notes on &quot;EigenBench: A Comparative Behavioral Measure of Value Alignment&quot;</title>
-      <link>https://www.lesswrong.com/posts/TxvokMW3QJiZLYhQ4/notes-on-eigenbench-a-comparative-behavioral-measure-of</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/TxvokMW3QJiZLYhQ4/notes-on-eigenbench-a-comparative-behavioral-measure-of</guid>
-      <pubDate>Thu, 20 Aug 2026 02:07:50 +0000</pubDate>
+      <title>Cross-Dataset Transfer Evaluation of Deception Probes in Smaller Models</title>
+      <link>https://www.lesswrong.com/posts/MFdGxip7TdQS8eNc2/cross-dataset-transfer-evaluation-of-deception-probes-in</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/MFdGxip7TdQS8eNc2/cross-dataset-transfer-evaluation-of-deception-probes-in</guid>
+      <pubDate>Thu, 20 Aug 2026 17:16:51 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Post about taking notes on AI safety papers, using EigenBench as a case study to improve memory and learning of complex content. Why it matters: Direct: Emphasizes practical note-taking strategies to handle dense research, useful for newcomers documenting AI safety literature.</description>
+      <description>Apollo Research tested whether linear probes could identify honest and deceptive responses from Llama-3.3-70B-Instruct, reporting AUROC values between 0.96 and 0.999. The author recalculated the nine values using Apollo&#x27;s scores and reproduced them exactly. Why it matters: Direct: Validates faithfulness of the published AUROC claims and demonstrates reproducibility of evaluation results.</description>
     </item>
     <item>
-      <title>Quoting Jeremy Morrell</title>
-      <link>https://simonwillison.net/2026/Aug/19/jeremy-morrell/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/19/jeremy-morrell/</guid>
-      <pubDate>Wed, 19 Aug 2026 22:56:31 +0000</pubDate>
+      <title>[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud</title>
+      <link>https://www.latent.space/p/ainews-poolside-gets-12b-reverse</link>
+      <guid isPermaLink="true">https://www.latent.space/p/ainews-poolside-gets-12b-reverse</guid>
+      <pubDate>Fri, 21 Aug 2026 05:45:21 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Quoting Jeremy Morrell discusses opportunities for extensible software on the web, noting that LLMs reduce extension authoring costs and modern sandbox primitives reduce deployment costs while improving security boundaries. Why it matters: Direct: Indicates growing potential for web-based extensibility with AI-assisted development and safer sandboxing.</description>
+      <description>[AINews] Poolside secures a $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, with Infraco scaling to 7GW neocloud. Why it matters: Direct: Highlights a large-scale talent move and platform scaling in AI infrastructure, signaling consolidation dynamics.</description>
     </item>
     <item>
-      <title>Cognitive reward shapes in sports and career</title>
-      <link>https://www.jasonwei.net/blog/cognitive-reward-shapes-in-sports-and-career</link>
-      <guid isPermaLink="true">https://www.jasonwei.net/blog/cognitive-reward-shapes-in-sports-and-career</guid>
-      <pubDate>Thu, 20 Aug 2026 07:25:22 +0000</pubDate>
+      <title>Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick – Part 2: Data preparation and model building with Amazon SageMaker Canvas</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-2-data-preparation-and-model-building-with-amazon-sagemaker-canvas/</link>
+      <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-2-data-preparation-and-model-building-with-amazon-sagemaker-canvas/</guid>
+      <pubDate>Thu, 20 Aug 2026 21:23:29 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Sports are amazing environments to learn. Thousands of hours playing shape your neural network to respond to behavior incentivized by the sport&#x27;s rules. Why it matters: Direct: Highlights how long-term practice conditions neural responses to sport-incentivized behaviors.</description>
+      <description>Part 2 of this no-code ML series connects SageMaker Canvas to Snowflake, prepares and joins transaction data with Data Wrangler visual transformations, and trains an XGBoost fraud detection model, all without writing code, paving ground for Part 3 dashboards. Why it matters: Direct: Demonstrates a no-code ML workflow using Snowflake and SageMaker Canvas, with data prep and fraud model training, enabling dashboard-ready outputs.</description>
     </item>
     <item>
-      <title>Conceptual integrity and counting lines of code</title>
-      <link>https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/</guid>
-      <pubDate>Wed, 19 Aug 2026 22:46:07 +0000</pubDate>
+      <title>Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick – Part 3: Visualizing insights with Amazon Quick Sight</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-3-visualizing-insights-with-amazon-quick-sight/</link>
+      <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-3-visualizing-insights-with-amazon-quick-sight/</guid>
+      <pubDate>Thu, 20 Aug 2026 21:23:23 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of &#x27;How AI is changing software development&#x27;. Here are a couple of my highlights from a lightly edited transcript. Why it matters: Direct: Highlights how AI is changing software development discussions and prompts further exploration.</description>
+      <description>In Part 3, you bring fraud detection predictions to life by importing SageMaker Canvas predictions into Amazon Quick Sight, building interactive dashboards, using generative BI to answer questions in natural language, and publishing AI-generated executive sum... Why it matters: Direct: Demonstrates turning predictions into interactive dashboards and AI-generated summaries for stakeholders in a no-code ML workflow.</description>
     </item>
     <item>
-      <title>KnowledgeForge: mining gold from the ITSM ticket graveyard</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/knowledgeforge-mining-gold-from-the-itsm-ticket-graveyard/</link>
-      <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/knowledgeforge-mining-gold-from-the-itsm-ticket-graveyard/</guid>
-      <pubDate>Wed, 19 Aug 2026 20:36:50 +0000</pubDate>
+      <title>Show HN: Check if any of the $656M in unclaimed royalties at The MLC is yours</title>
+      <link>https://pub.doub.ly/</link>
+      <guid isPermaLink="true">https://pub.doub.ly/</guid>
+      <pubDate>Thu, 20 Aug 2026 14:38:28 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>KnowledgeForge mines resolved ITSM incident tickets into new knowledge base articles and automatically curates the existing library by deduplicating, quality-scoring, and improving content, using Amazon Bedrock, Amazon S3 Vectors, and AWS Step Functions in a ... Why it matters: Direct: Describes an automated knowledge-management pipeline and its multi-tenant, curation capabilities.</description>
+      <description>Show HN post about checking if any of the $656M in unclaimed royalties at The MLC is yours; explains two royalty streams in streaming music: recording royalties via distributors and publishing royalties for the underlying work. Why it matters: Direct: Sheds light on how streaming royalties are split, enabling creators to verify what portion may be owed.</description>
+    </item>
+    <item>
+      <title>Readers can&#x27;t identify watermarked AI text</title>
+      <link>https://seangoedecke.com/readers-cant-identify-watermarked-ai-text/</link>
+      <guid isPermaLink="true">https://seangoedecke.com/readers-cant-identify-watermarked-ai-text/</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <category>5) For Fun</category>
+      <description>The post argues AI watermarking isn’t anti-consumer and doesn’t worsen outputs, supported by watermarking papers and a practical test. Why it matters: Direct: Tests and challenges assumptions about watermarking effectiveness and consumer impact.</description>
     </item>
   </channel>
 </rss>
