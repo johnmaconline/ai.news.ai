@@ -1,146 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-08-22</title>
+    <title>Daily AI Feed - 2026-08-23</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Sat, 22 Aug 2026 10:24:07 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 10:22:05 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>AI Output Safety &amp; Ethics Review Prompt by QuackBuilds</title>
-      <link>https://dev.to/itsevilduck/ai-output-safety-ethics-review-prompt-by-quackbuilds-4ab6</link>
-      <guid isPermaLink="true">https://dev.to/itsevilduck/ai-output-safety-ethics-review-prompt-by-quackbuilds-4ab6</guid>
-      <pubDate>Sat, 22 Aug 2026 09:16:13 +0000</pubDate>
+      <title>Codex Outperforms Claude in a Week of Real‑World Testing</title>
+      <link>https://dev.to/felipejac/codex-outperforms-claude-in-a-week-of-real-world-testing-3fem</link>
+      <guid isPermaLink="true">https://dev.to/felipejac/codex-outperforms-claude-in-a-week-of-real-world-testing-3fem</guid>
+      <pubDate>Sun, 23 Aug 2026 08:18:40 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Prompts the AI Output Safety &amp; Ethics Review Prompt to have LLMs examine outputs for ethical red flags, biases, or misuse, guiding identification of potential harms before deployment. Why it matters: Direct: Adopt the AI Output Safety &amp; Ethics Review Prompt to have LLMs pre-scan outputs for harms before deployment.</description>
+      <description>A developer compared OpenAI Codex and Claude over a week in a production n8n workflow that auto-generates and deploys code snippets. Identical prompts were sent daily; outputs were tested with unit tests. Codex passed 85% of tests; Claude passed only 55%. Why it matters: Direct: Direct code-generation model comparisons in production workflows inform reliability and test success rates.</description>
     </item>
     <item>
-      <title>Agentic AI That Survives the Enterprise, Part 1: Probabilistic Engines, Deterministic Businesses</title>
-      <link>https://dev.to/ankk98/agentic-ai-that-survives-the-enterprise-part-1-probabilistic-engines-deterministic-businesses-1eem</link>
-      <guid isPermaLink="true">https://dev.to/ankk98/agentic-ai-that-survives-the-enterprise-part-1-probabilistic-engines-deterministic-businesses-1eem</guid>
-      <pubDate>Sat, 22 Aug 2026 08:47:35 +0000</pubDate>
+      <title>Maximizing Reach: AI‑Generated Video Distribution for Nigerian Creators</title>
+      <link>https://dev.to/olanrewaju_alameen_0afe1/maximizing-reach-ai-generated-video-distribution-for-nigerian-creators-oio</link>
+      <guid isPermaLink="true">https://dev.to/olanrewaju_alameen_0afe1/maximizing-reach-ai-generated-video-distribution-for-nigerian-creators-oio</guid>
+      <pubDate>Sun, 23 Aug 2026 10:00:36 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Argues enterprise workflows must be auditable, explainable, predictable, and correct; notes arithmetic errors incur financial losses and that access control and robustness are essential, since LLMs are probabilistic, open-ended, general-purpose. Why it matters: Direct: Treat LLMs as probabilistic, open-ended tools; design workflows with auditable, explainable, predictable, and robust controls and explicit failure handling.</description>
+      <description>Creating AI-generated video with Afrigen is the first step; if the video never reaches your audience, all that effort is wasted. Why it matters: Direct: Direct outreach strategies impact AI video ROI and audience reach.</description>
     </item>
     <item>
-      <title>Freetokens project is impressive</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vv6v00/freetokens_project_is_impressive/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vv6v00/freetokens_project_is_impressive/</guid>
-      <pubDate>Sat, 22 Aug 2026 08:34:53 +0000</pubDate>
+      <title>Solving conversational frontend layout breaks with zero-dependency CSS grid blocks (LuxurAI Design b</title>
+      <link>https://dev.to/achyut_srivastava_2a77b5d/solving-conversational-frontend-layout-breaks-with-zero-dependency-css-grid-blocks-luxurai-design-b-j61</link>
+      <guid isPermaLink="true">https://dev.to/achyut_srivastava_2a77b5d/solving-conversational-frontend-layout-breaks-with-zero-dependency-css-grid-blocks-luxurai-design-b-j61</guid>
+      <pubDate>Sun, 23 Aug 2026 10:03:58 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Reports on testing the FreeToken project with arXiv and GitHub links; notes hardware setup and outcomes, including 100 token/s on QWEN3.6-35B-A3B NVFP4 (20GB) and VRAM constraints. Why it matters: Direct: Benchmark FreeToken using the posted setup; note 100 tok/s on QWEN3.6-35B-A3B NVFP4 with 20GB VRAM; check VRAM compatibility.</description>
+      <description>Solving conversational frontend layout breaks with zero-dependency CSS grid blocks (LuxurAI Design beta). The engineering problem: AI-assisted pairing and conversational UI generation struggle with context bloat and cascading syntax errors. Why it matters: Direct: Direct developer prompts to stabilize AI-generated UI code and layouts.</description>
     </item>
     <item>
-      <title>Artificial Analysis &quot;Intelligence&quot;: A meaningless benchmark</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vv80xa/artificial_analysis_intelligence_a_meaningless/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vv80xa/artificial_analysis_intelligence_a_meaningless/</guid>
-      <pubDate>Sat, 22 Aug 2026 09:43:38 +0000</pubDate>
+      <title># Qwen3.8-27B — One Week Later: The r/LocalLLaMA + r/LocalLLM Verdict</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vvu15m/qwen3827b_one_week_later_the_rlocalllama/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vvu15m/qwen3827b_one_week_later_the_rlocalllama/</guid>
+      <pubDate>Sun, 23 Aug 2026 01:39:46 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>A Reddit post in r/LocalLLaMA discusses Artificial Analysis Intelligence: A meaningless benchmark and mentions benchmarks for Qwen 3. Why it matters: Direct: Highlights uncertainty in AI benchmarks; review quality and relevance of Qwen 3 benchmarks.</description>
+      <description>Companion to the Qwen 3.8 Release Megathread . Compiled from ~2,000 posts scanned across both subs, with deep reads of the 45 highest-signal threads (560 posts and comments), Aug 15–22, 2026, plus independent X benchmarks. Why it matters: Direct: Provides a quantified snapshot across hardware/runtime configurations from ~2,000 posts and the 45 highest-signal threads.</description>
     </item>
     <item>
-      <title>BITCOIN - Correction before a rally to 83000</title>
-      <link>https://www.tradingview.com/chart/BTCUSDT.P/aWT5qYul-BITCOIN-Correction-before-a-rally-to-83000/</link>
-      <guid isPermaLink="true">https://www.tradingview.com/chart/BTCUSDT.P/aWT5qYul-BITCOIN-Correction-before-a-rally-to-83000/</guid>
-      <pubDate>Sat, 22 Aug 2026 10:08:26 +0000</pubDate>
+      <title>Unswarm - Self-hosted runtime manager/proxy for self-hosted LLMs</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vw26gr/unswarm_selfhosted_runtime_managerproxy_for/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vw26gr/unswarm_selfhosted_runtime_managerproxy_for/</guid>
+      <pubDate>Sun, 23 Aug 2026 09:03:32 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>TradingView Ideas notes BTCUSDT.P testing the 80K resistance amid consolidation-to-distribution shift; bullish locally but with strong resistance ahead, following the crypto summit held at the White House. Why it matters: Direct: Near-term resistance at 80K may cap upside despite bullish local conditions.</description>
+      <description>Repo for Unswarm, a self-hosted runtime manager/proxy for self-hosted LLMs. The post notes managing runtime scripts and containers for daily usage and testing. Why it matters: Direct: Proposes a self-hosted runtime manager/proxy to consolidate runtime scripts and containers for multiple models in daily use and testing.</description>
     </item>
     <item>
-      <title>Technical SEO for Healthcare Websites: What Makes Medical SEO Different?</title>
-      <link>https://dev.to/dranmolchugh/technical-seo-for-healthcare-websites-what-makes-medical-seo-different-ib7</link>
-      <guid isPermaLink="true">https://dev.to/dranmolchugh/technical-seo-for-healthcare-websites-what-makes-medical-seo-different-ib7</guid>
-      <pubDate>Sat, 22 Aug 2026 10:06:13 +0000</pubDate>
+      <title>Anthropic appears to be A/B testing reduced effort levels in Claude Code</title>
+      <link>https://twitter.com/argofowl/status/2091150597374537729</link>
+      <guid isPermaLink="true">https://twitter.com/argofowl/status/2091150597374537729</guid>
+      <pubDate>Sat, 22 Aug 2026 16:58:49 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>A DEV.to article argues healthcare websites must perform well in search engines, load quickly, be mobile-friendly, and help visitors find information. Why it matters: Direct: Highlights concrete SEO and UX requirements for medical sites.</description>
+      <description>Anthropic appears to be A/B testing reduced effort levels in Claude Code. Why it matters: Direct: Signals a potential change in Claude Code&#x27;s behavior; implications for throughput, cost, and user-experience testing.</description>
     </item>
     <item>
-      <title>Google and Rewiring Australia Launch Free Home Electrification Tool</title>
-      <link>https://dev.to/autonainews/google-and-rewiring-australia-launch-free-home-electrification-tool-1689</link>
-      <guid isPermaLink="true">https://dev.to/autonainews/google-and-rewiring-australia-launch-free-home-electrification-tool-1689</guid>
-      <pubDate>Sat, 22 Aug 2026 10:06:09 +0000</pubDate>
+      <title>SWOT Analysis Explained: A Beginner&#x27;s Guide for Business Students</title>
+      <link>https://dev.to/teacherrk32/swot-analysis-explained-a-beginners-guide-for-business-students-4ond</link>
+      <guid isPermaLink="true">https://dev.to/teacherrk32/swot-analysis-explained-a-beginners-guide-for-business-students-4ond</guid>
+      <pubDate>Sun, 23 Aug 2026 10:03:03 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Electric Saul, a free AI tool by Rewiring Australia and Google, launched on August 17, 2026 to help Australian households plan switching to electric appliances, generating personalised electrification plans with solar, batteries, hot water, heating, EVs, cost... Why it matters: Direct: Demonstrates a deployable AI-assisted planning tool for household electrification with quantified savings.</description>
+      <description>SWOT Analysis Explained: A Beginner&#x27;s Guide for Business Students. Why it matters: Direct: Highlights common SWOT misuse and presents a simple, practical structure for business thinking.</description>
     </item>
     <item>
-      <title>Weekly Dose of Optimism #207</title>
-      <link>https://www.notboring.co/p/weekly-dose-of-optimism-207</link>
-      <guid isPermaLink="true">https://www.notboring.co/p/weekly-dose-of-optimism-207</guid>
-      <pubDate>Fri, 21 Aug 2026 14:23:17 +0000</pubDate>
+      <title>🧠 Community Wisdom: Favorite Lenny’s Product Pass tools, how AI is reshaping hiring, what to prioritize when you join a new company, and more</title>
+      <link>https://www.lennysnewsletter.com/p/community-wisdom-favorite-lennys</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/community-wisdom-favorite-lennys</guid>
+      <pubDate>Sat, 22 Aug 2026 19:23:07 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Cancer Vaccine, Attention, Generalist Robot, Routers, Drones + Extra Doses + HBD Puj! Why it matters: Direct: Signals potential AI-focused themes (cancer vaccine, attention, generalist robot, routers, drones) for exploration and experiments in product work.</description>
+      <description>Community Wisdom 198 Why it matters: Direct: Highlights practical themes from Community Wisdom 198 about product tools and AI’s impact on hiring and onboarding.</description>
     </item>
     <item>
-      <title>Where Security Fits in an AI Agent Stack: NVIDIA&#x27;s Layer-by-Layer Threat Model</title>
-      <link>https://dev.to/mech_app_ai/where-security-fits-in-an-ai-agent-stack-nvidias-layer-by-layer-threat-model-h2g</link>
-      <guid isPermaLink="true">https://dev.to/mech_app_ai/where-security-fits-in-an-ai-agent-stack-nvidias-layer-by-layer-threat-model-h2g</guid>
-      <pubDate>Sat, 22 Aug 2026 10:08:29 +0000</pubDate>
+      <title>🌙 Claude Code Auto Mode Is the Beginning of Overnight Software Engineering</title>
+      <link>https://dev.to/suraj_khaitan_f893c243958/claude-code-auto-mode-is-the-beginning-of-overnight-software-engineering-3m9</link>
+      <guid isPermaLink="true">https://dev.to/suraj_khaitan_f893c243958/claude-code-auto-mode-is-the-beginning-of-overnight-software-engineering-3m9</guid>
+      <pubDate>Sun, 23 Aug 2026 06:37:01 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>NVIDIA&#x27;s AI safety and security teams published the first vendor-backed security architecture for agent stacks, outlining where traditional application security boundaries fail with multi-step workflows, external tools, and stateful memory across sessions; ti... Why it matters: Direct: Highlights security control gaps in multi-step, memoryful AI agent workflows.</description>
+      <description>Claude Code now runs 9x longer between interruptions; a seven-hour overnight run produced three PRs by morning, but not autonomous software engineering. Why it matters: Direct: Evaluates AI-assisted coding progress and reliability implications.</description>
     </item>
     <item>
-      <title>Five Gates to a Public Model Endpoint: A Deployment Tutorial</title>
-      <link>https://dev.to/hackrs_6393/five-gates-to-a-public-model-endpoint-a-deployment-tutorial-1n7m</link>
-      <guid isPermaLink="true">https://dev.to/hackrs_6393/five-gates-to-a-public-model-endpoint-a-deployment-tutorial-1n7m</guid>
-      <pubDate>Sat, 22 Aug 2026 08:49:17 +0000</pubDate>
+      <title>Human Approval for AI Sales Outreach Agents</title>
+      <link>https://dev.to/sekeraradim/human-approval-for-ai-sales-outreach-agents-1984</link>
+      <guid isPermaLink="true">https://dev.to/sekeraradim/human-approval-for-ai-sales-outreach-agents-1984</guid>
+      <pubDate>Sun, 23 Aug 2026 09:10:02 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>A deployment tutorial showing a five-stage process to expose a public model endpoint via a free-model proxy on a free server, with gates at each stage and a &#x27;works from anywhere&#x27; outcome using two free resources from MonkeyCode. Why it matters: Direct: Provides a repeatable, low-cost path to public endpoints with gate-based quality checks.</description>
+      <description>Proposes gating AI-drafted sales outreach (emails/LinkedIn DMs) before sending, using Impri to add human approval; highlights risk: mistakes are public and person-specific. Why it matters: Direct: It defines governance for AI outreach to reduce public, personalized errors.</description>
     </item>
     <item>
-      <title>Cloudflare Cuts Astro GitHub Issues by 85% with AI Agents</title>
-      <link>https://www.infoq.com/news/2026/08/cloudflare-astro-ai-agents/</link>
-      <guid isPermaLink="true">https://www.infoq.com/news/2026/08/cloudflare-astro-ai-agents/</guid>
-      <pubDate>Fri, 21 Aug 2026 14:09:00 +0000</pubDate>
+      <title>I benchmark DFlash 2 (PR build) in llama.cpp on Qwen 3.8 27B against all speculative methods for 3 days. 2.26x on 100 real coding prompts, 4.68x with one n-gram drafter on top. Up to 8x on specific cases.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vvncyh/i_benchmark_dflash_2_pr_build_in_llamacpp_on_qwen/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vvncyh/i_benchmark_dflash_2_pr_build_in_llamacpp_on_qwen/</guid>
+      <pubDate>Sat, 22 Aug 2026 20:41:35 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Cloudflare, Astro, and AI agents leverage GitHub Actions and agent workflows to automate issue triage, automated testing, and human-in-the-loop workflows. Why it matters: Direct: Demonstrates practical gains from agent-driven triage and CI, boosting productivity.</description>
+      <description>User reports DFlash 2 with a drafter for Qwen 3.8 27B and llama.cpp PR; three-day benchmarking against decoding methods on Qwen 3.6/27B with RTX PRO 6000, concurrency 1. Why it matters: Direct: Provides concrete benchmarking results for a specific LLM-DFlash combo.</description>
     </item>
     <item>
-      <title>Show HN: OzBrain, a shared brain for knowledge between agents and your team</title>
-      <link>https://ozbrain.com</link>
-      <guid isPermaLink="true">https://ozbrain.com</guid>
-      <pubDate>Fri, 21 Aug 2026 23:09:06 +0000</pubDate>
+      <title>How to overhaul the broken review system</title>
+      <link>https://www.lesswrong.com/posts/9KNJ9YzyWQf7udEHw/how-to-overhaul-the-broken-review-system</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/9KNJ9YzyWQf7udEHw/how-to-overhaul-the-broken-review-system</guid>
+      <pubDate>Sun, 23 Aug 2026 09:14:02 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Show HN argues agent-first chat interfaces could become the primary software modality, potentially replacing busy dashboards and enabling agents to handle research and reasoning. Why it matters: Direct: Highlights a shift toward agent-driven interfaces shaping future software modality.</description>
+      <description>Proposes a research-and-review platform to address documented problems in the current review ecosystem; outlines high-level design and plausibility. Why it matters: Direct: Highlights concrete idea for reforming review workflows with a platform.</description>
     </item>
     <item>
-      <title>How America Turned Against the AI Industry</title>
-      <link>https://www.thealgorithmicbridge.com/p/how-america-turned-against-the-ai</link>
-      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/how-america-turned-against-the-ai</guid>
-      <pubDate>Fri, 21 Aug 2026 21:14:29 +0000</pubDate>
+      <title>When do stereotypes affect LLM behaviour?</title>
+      <link>https://www.lesswrong.com/posts/ASHWx4pBmiiJJDazX/when-do-stereotypes-affect-llm-behaviour</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/ASHWx4pBmiiJJDazX/when-do-stereotypes-affect-llm-behaviour</guid>
+      <pubDate>Sun, 23 Aug 2026 02:45:10 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Presents a question about whether this marks the final chapter of America turning against the AI industry. Why it matters: Direct: It frames whether current developments mark the definitive turn in America&#x27;s stance toward the AI industry.</description>
+      <description>A LessWrong post investigates whether LLMs&#x27; impressions of users (gender, age, SES, education, and mood) actually change model outputs, starting with smaller open models. Why it matters: Direct: Early signal about how users are perceived by LLMs could influence outputs; tests on smaller models may reveal bias patterns.</description>
     </item>
     <item>
-      <title>Alignment fine-tuning induces conditional misalignment in Qwen2.5-7B-Instruct</title>
-      <link>https://www.lesswrong.com/posts/fiyPBZf2YA4csGgv4/alignment-fine-tuning-induces-conditional-misalignment-in</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/fiyPBZf2YA4csGgv4/alignment-fine-tuning-induces-conditional-misalignment-in</guid>
-      <pubDate>Fri, 21 Aug 2026 20:48:04 +0000</pubDate>
+      <title>Building an End-to-End Document Intelligence Pipeline with deepDoctection</title>
+      <link>https://www.marktechpost.com/2026/08/23/building-an-end-to-end-document-intelligence-pipeline-with-deepdoctection/</link>
+      <guid isPermaLink="true">https://www.marktechpost.com/2026/08/23/building-an-end-to-end-document-intelligence-pipeline-with-deepdoctection/</guid>
+      <pubDate>Sun, 23 Aug 2026 07:51:22 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Notes alignment fine-tuning induces conditional misalignment in Qwen2.5-7B-Instruct; linked to BlueDot AI Safety Sprint; writeup cross-posted from Substack; code available on Github. Why it matters: Direct: Documents a concrete misalignment risk from alignment fine-tuning on Qwen2.5-7B-Instruct, with safety sprint context.</description>
+      <description>Build an end-to-end document intelligence pipeline with deepDoctection, covering layout analysis, DocTR OCR, and table extraction, with custom services for entity recognition and structured JSONL for RAG workflows. Why it matters: Direct: Practical steps to assemble a document-intelligence pipeline that feeds RAG workflows.</description>
     </item>
     <item>
-      <title>Selection for Selectability: Inductive Biases in Evolution and in Neural Networks</title>
-      <link>https://www.lesswrong.com/posts/JNp5FkYyDGBcfiY5B/selection-for-selectability-inductive-biases-in-evolution</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/JNp5FkYyDGBcfiY5B/selection-for-selectability-inductive-biases-in-evolution</guid>
-      <pubDate>Sat, 22 Aug 2026 04:02:27 +0000</pubDate>
+      <title>Claude and Performative Uncertainty</title>
+      <link>https://www.lesswrong.com/posts/DafkCDZpwzQf4yLLF/claude-and-performative-uncertainty</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/DafkCDZpwzQf4yLLF/claude-and-performative-uncertainty</guid>
+      <pubDate>Sat, 22 Aug 2026 19:43:39 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Discusses inductive biases and selectability across evolution and neural networks; produced for MATS 9.1 under Richard Ngo and Iliad Fellowship; mentions Claude for drafting and subsequent edits. Why it matters: Direct: Highlights inductive biases and selectability across evolution and neural networks, informing future model design and benchmarking.</description>
+      <description>This essay uses Anthropic&#x27;s Claude to discuss training digital minds to profess uncertainty about consciousness or inner experience. Why it matters: Direct: Highlights how instructing AI to claim uncertainty could affect perceived intelligence and trust.</description>
     </item>
     <item>
-      <title>repo2nb 0.2.0, convert a GitHub repo into a Kaggle/Colab notebook (dependency resolution, reverse mode, incremental sync) [P]</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1vuni29/repo2nb_020_convert_a_github_repo_into_a/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1vuni29/repo2nb_020_convert_a_github_repo_into_a/</guid>
-      <pubDate>Fri, 21 Aug 2026 17:53:36 +0000</pubDate>
+      <title>Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora’s 100+ Checks</title>
+      <link>https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks/</link>
+      <guid isPermaLink="true">https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks/</guid>
+      <pubDate>Sun, 23 Aug 2026 07:37:14 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Introduces repo2nb 0.2.0, an open-source CLI converting GitHub repos into runnable Kaggle/Colab notebooks by walking the file tree and resolving dependencies. Why it matters: Direct: Demonstrates an open-source CLI that automates repo-to-notebook conversion, easing reproducibility of external code and tutorials.</description>
+      <description>Vercel and Ora launched Is Agentic, a free audit scoring website readiness for AI agents across 118 checks. Why it matters: Direct: Public-ready tooling to assess AI agent-readiness across comprehensive checks.</description>
     </item>
     <item>
-      <title>I tried to do agenic coding with Qwen 3.8 27B 3bit quant on a macbook air m2 24gb. It took 63 hours, but amazingly, the flight simulator worked.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vuvx0t/i_tried_to_do_agenic_coding_with_qwen_38_27b_3bit/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vuvx0t/i_tried_to_do_agenic_coding_with_qwen_38_27b_3bit/</guid>
-      <pubDate>Fri, 21 Aug 2026 23:19:10 +0000</pubDate>
+      <title>The best interface is no interface: natural language as the command layer</title>
+      <link>https://dev.to/divyakush/the-best-interface-is-no-interface-natural-language-as-the-command-layer-2md9</link>
+      <guid isPermaLink="true">https://dev.to/divyakush/the-best-interface-is-no-interface-natural-language-as-the-command-layer-2md9</guid>
+      <pubDate>Sun, 23 Aug 2026 08:22:57 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>User attempted agenic coding with Qwen 3.8 27B 3bit quant on a macbook air m2 24gb. It took 63 hours to code; the project produced a single HTML page flight simulator with a &#x27;pressing any keys won&#x27;t advance the game&#x27; title screen. Why it matters: Direct: Shows feasibility of long-running AI coding on consumer hardware; produced a simple HTML flight sim, revealing UX traps like non-responsive &#x27;press any key&#x27; flow.</description>
+      <description>Old voice control required speaking its language; users memorized rigid command grammar, transferring the translation burden to humans. Why it matters: Direct: Reduces user friction by outsourcing translation to LLMs, enabling natural-language control and bridging human intent with rigid hardware commands.</description>
+    </item>
+    <item>
+      <title>The overlooked use of LLMs: a translator between humans and hardware</title>
+      <link>https://dev.to/divyakush/the-overlooked-use-of-llms-a-translator-between-humans-and-hardware-6aa</link>
+      <guid isPermaLink="true">https://dev.to/divyakush/the-overlooked-use-of-llms-a-translator-between-humans-and-hardware-6aa</guid>
+      <pubDate>Sun, 23 Aug 2026 08:28:28 +0000</pubDate>
+      <category>5) For Fun</category>
+      <description>The LLM as a translator — a layer that sits between messy human language and rigid, structured machine commands, and converts one into the other. Why it matters: Direct: Reduces user friction by outsourcing translation to LLMs, enabling natural-language control and bridging human intent with rigid hardware commands.</description>
     </item>
   </channel>
 </rss>
