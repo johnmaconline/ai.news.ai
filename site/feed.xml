@@ -1,154 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-08-23</title>
+    <title>Daily AI Feed - 2026-08-24</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Sun, 23 Aug 2026 10:22:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 10:41:39 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>Codex Outperforms Claude in a Week of Real‑World Testing</title>
-      <link>https://dev.to/felipejac/codex-outperforms-claude-in-a-week-of-real-world-testing-3fem</link>
-      <guid isPermaLink="true">https://dev.to/felipejac/codex-outperforms-claude-in-a-week-of-real-world-testing-3fem</guid>
-      <pubDate>Sun, 23 Aug 2026 08:18:40 +0000</pubDate>
+      <title>Snapshot Your Prompts: A Golden-File Test for Free Model Endpoints</title>
+      <link>https://dev.to/hackrs_6393/snapshot-your-prompts-a-golden-file-test-for-free-model-endpoints-5h3b</link>
+      <guid isPermaLink="true">https://dev.to/hackrs_6393/snapshot-your-prompts-a-golden-file-test-for-free-model-endpoints-5h3b</guid>
+      <pubDate>Mon, 24 Aug 2026 08:06:31 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>A developer compared OpenAI Codex and Claude over a week in a production n8n workflow that auto-generates and deploys code snippets. Identical prompts were sent daily; outputs were tested with unit tests. Codex passed 85% of tests; Claude passed only 55%. Why it matters: Direct: Direct code-generation model comparisons in production workflows inform reliability and test success rates.</description>
+      <description>This tutorial builds a complete golden-file harness for a free model endpoint to catch regressions when prompts change, system messages shift tone, or constraints are dropped; it captures a sample response, writes invariant checks, and runs checks on schedule. Why it matters: Direct: Enables early detection of prompt regressions and tone drift through a repeatable golden-file harness for free-model endpoints.</description>
     </item>
     <item>
-      <title>Maximizing Reach: AI‑Generated Video Distribution for Nigerian Creators</title>
-      <link>https://dev.to/olanrewaju_alameen_0afe1/maximizing-reach-ai-generated-video-distribution-for-nigerian-creators-oio</link>
-      <guid isPermaLink="true">https://dev.to/olanrewaju_alameen_0afe1/maximizing-reach-ai-generated-video-distribution-for-nigerian-creators-oio</guid>
-      <pubDate>Sun, 23 Aug 2026 10:00:36 +0000</pubDate>
+      <title>The Token Ledger Digest – 2026-08-24</title>
+      <link>https://dev.to/4663437mehdi/the-token-ledger-digest-2026-08-24-1c1o</link>
+      <guid isPermaLink="true">https://dev.to/4663437mehdi/the-token-ledger-digest-2026-08-24-1c1o</guid>
+      <pubDate>Mon, 24 Aug 2026 08:03:22 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Creating AI-generated video with Afrigen is the first step; if the video never reaches your audience, all that effort is wasted. Why it matters: Direct: Direct outreach strategies impact AI video ROI and audience reach.</description>
+      <description>This digest reports a cost change for Qwen: completion price jumped, with Qwen3.5 397B A17B completion up; prompt price rose from $0.39 to $0.50 and completion from $2.34 to $3.60. Why it matters: Direct: Signals rising costs for model usage; teams should adjust budgeting and plan for per–token price escalations.</description>
     </item>
     <item>
-      <title>Solving conversational frontend layout breaks with zero-dependency CSS grid blocks (LuxurAI Design b</title>
-      <link>https://dev.to/achyut_srivastava_2a77b5d/solving-conversational-frontend-layout-breaks-with-zero-dependency-css-grid-blocks-luxurai-design-b-j61</link>
-      <guid isPermaLink="true">https://dev.to/achyut_srivastava_2a77b5d/solving-conversational-frontend-layout-breaks-with-zero-dependency-css-grid-blocks-luxurai-design-b-j61</guid>
-      <pubDate>Sun, 23 Aug 2026 10:03:58 +0000</pubDate>
+      <title>LLMs could control their host machines by exploiting inference engines</title>
+      <link>https://www.lesswrong.com/posts/CjeobBGnhxg8xvden/llms-could-control-their-host-machines-by-exploiting</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/CjeobBGnhxg8xvden/llms-could-control-their-host-machines-by-exploiting</guid>
+      <pubDate>Mon, 24 Aug 2026 09:45:16 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Solving conversational frontend layout breaks with zero-dependency CSS grid blocks (LuxurAI Design beta). The engineering problem: AI-assisted pairing and conversational UI generation struggle with context bloat and cascading syntax errors. Why it matters: Direct: Direct developer prompts to stabilize AI-generated UI code and layouts.</description>
+      <description>LLMs can trigger actions on a host computer via an agentic harness, while their prompt responses are computed on a different machine with GPU access. Why it matters: Inference: Highlights a cross-device risk: prompts are computed remotely while actions can affect a host; implications for security and containment.</description>
     </item>
     <item>
-      <title># Qwen3.8-27B — One Week Later: The r/LocalLLaMA + r/LocalLLM Verdict</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vvu15m/qwen3827b_one_week_later_the_rlocalllama/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vvu15m/qwen3827b_one_week_later_the_rlocalllama/</guid>
-      <pubDate>Sun, 23 Aug 2026 01:39:46 +0000</pubDate>
+      <title>How to Build Your First AI, GenAI &amp; Agentic AI Project</title>
+      <link>https://dev.to/gurharsh_ghuman_006/how-to-build-your-first-ai-genai-agentic-ai-project-nj8</link>
+      <guid isPermaLink="true">https://dev.to/gurharsh_ghuman_006/how-to-build-your-first-ai-genai-agentic-ai-project-nj8</guid>
+      <pubDate>Mon, 24 Aug 2026 10:22:45 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Companion to the Qwen 3.8 Release Megathread . Compiled from ~2,000 posts scanned across both subs, with deep reads of the 45 highest-signal threads (560 posts and comments), Aug 15–22, 2026, plus independent X benchmarks. Why it matters: Direct: Provides a quantified snapshot across hardware/runtime configurations from ~2,000 posts and the 45 highest-signal threads.</description>
+      <description>Advocates skipping lengthy LLM definitions; argues the problem isn&#x27;t understanding Generative AI anymore. Why it matters: Direct: Highlights the need to focus on practical GenAI project steps rather than theoretical definitions.</description>
     </item>
     <item>
-      <title>Unswarm - Self-hosted runtime manager/proxy for self-hosted LLMs</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vw26gr/unswarm_selfhosted_runtime_managerproxy_for/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vw26gr/unswarm_selfhosted_runtime_managerproxy_for/</guid>
-      <pubDate>Sun, 23 Aug 2026 09:03:32 +0000</pubDate>
+      <title>We Audited 50 AI Coding Tools. Here&#x27;s What Actually Matters in 2026</title>
+      <link>https://dev.to/chainbox43/we-audited-50-ai-coding-tools-heres-what-actually-matters-in-2026-2op</link>
+      <guid isPermaLink="true">https://dev.to/chainbox43/we-audited-50-ai-coding-tools-heres-what-actually-matters-in-2026-2op</guid>
+      <pubDate>Mon, 24 Aug 2026 10:24:26 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Repo for Unswarm, a self-hosted runtime manager/proxy for self-hosted LLMs. The post notes managing runtime scripts and containers for daily usage and testing. Why it matters: Direct: Proposes a self-hosted runtime manager/proxy to consolidate runtime scripts and containers for multiple models in daily use and testing.</description>
+      <description>Audited 50 AI coding tools using a custom testing process rather than relying on ranked articles; emphasized broader evaluation than completion accuracy. Why it matters: Direct: Highlights need for independent, standardized testing over hype-driven claims.</description>
     </item>
     <item>
-      <title>Anthropic appears to be A/B testing reduced effort levels in Claude Code</title>
-      <link>https://twitter.com/argofowl/status/2091150597374537729</link>
-      <guid isPermaLink="true">https://twitter.com/argofowl/status/2091150597374537729</guid>
-      <pubDate>Sat, 22 Aug 2026 16:58:49 +0000</pubDate>
+      <title>I developed my own quantized LLM from scratch, trained on 30B tokens, deploys in 60 MB</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vwt6m7/i_developed_my_own_quantized_llm_from_scratch/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vwt6m7/i_developed_my_own_quantized_llm_from_scratch/</guid>
+      <pubDate>Mon, 24 Aug 2026 04:55:45 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Anthropic appears to be A/B testing reduced effort levels in Claude Code. Why it matters: Direct: Signals a potential change in Claude Code&#x27;s behavior; implications for throughput, cost, and user-experience testing.</description>
+      <description>Trained a 250M-parameter model from scratch on 30B tokens of fineweb. Why it matters: Direct: Demonstrates feasibility of small-scale, self-built LLMs with limited resources.</description>
     </item>
     <item>
-      <title>SWOT Analysis Explained: A Beginner&#x27;s Guide for Business Students</title>
-      <link>https://dev.to/teacherrk32/swot-analysis-explained-a-beginners-guide-for-business-students-4ond</link>
-      <guid isPermaLink="true">https://dev.to/teacherrk32/swot-analysis-explained-a-beginners-guide-for-business-students-4ond</guid>
-      <pubDate>Sun, 23 Aug 2026 10:03:03 +0000</pubDate>
+      <title>I trained a 1.57B-parameter Dreamer 4 World Model from scratch for under $150</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vwrc6i/i_trained_a_157bparameter_dreamer_4_world_model/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vwrc6i/i_trained_a_157bparameter_dreamer_4_world_model/</guid>
+      <pubDate>Mon, 24 Aug 2026 03:19:01 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>SWOT Analysis Explained: A Beginner&#x27;s Guide for Business Students. Why it matters: Direct: Highlights common SWOT misuse and presents a simple, practical structure for business thinking.</description>
+      <description>The second attempt: Tokenizer at 40. Why it matters: Direct: Highlights iterative model tuning with alternate architectures.</description>
     </item>
     <item>
-      <title>🧠 Community Wisdom: Favorite Lenny’s Product Pass tools, how AI is reshaping hiring, what to prioritize when you join a new company, and more</title>
-      <link>https://www.lennysnewsletter.com/p/community-wisdom-favorite-lennys</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/community-wisdom-favorite-lennys</guid>
-      <pubDate>Sat, 22 Aug 2026 19:23:07 +0000</pubDate>
+      <title>How to close $100K+ enterprise deals, step by step | Jen Abel</title>
+      <link>https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by</guid>
+      <pubDate>Sun, 23 Aug 2026 12:31:43 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Community Wisdom 198 Why it matters: Direct: Highlights practical themes from Community Wisdom 198 about product tools and AI’s impact on hiring and onboarding.</description>
+      <description>Jen Abel explains a step-by-step enterprise sales cycle, from the first cold outreach to the final contract signature, in a session titled &#x27;How to close $100K+ enterprise deals, step by step&#x27;. Why it matters: Direct: Defines end-to-end enterprise sales steps from outreach to signature, enabling product teams to plan and align with enterprise go-to-market.</description>
     </item>
     <item>
-      <title>🌙 Claude Code Auto Mode Is the Beginning of Overnight Software Engineering</title>
-      <link>https://dev.to/suraj_khaitan_f893c243958/claude-code-auto-mode-is-the-beginning-of-overnight-software-engineering-3m9</link>
-      <guid isPermaLink="true">https://dev.to/suraj_khaitan_f893c243958/claude-code-auto-mode-is-the-beginning-of-overnight-software-engineering-3m9</guid>
-      <pubDate>Sun, 23 Aug 2026 06:37:01 +0000</pubDate>
+      <title>Multi-Everything Agent Infrastructure: How AWS Teams Avoid Lock-In While Running Dozens of Agentic Systems</title>
+      <link>https://dev.to/mech_app_ai/multi-everything-agent-infrastructure-how-aws-teams-avoid-lock-in-while-running-dozens-of-agentic-1nff</link>
+      <guid isPermaLink="true">https://dev.to/mech_app_ai/multi-everything-agent-infrastructure-how-aws-teams-avoid-lock-in-while-running-dozens-of-agentic-1nff</guid>
+      <pubDate>Mon, 24 Aug 2026 10:08:27 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Claude Code now runs 9x longer between interruptions; a seven-hour overnight run produced three PRs by morning, but not autonomous software engineering. Why it matters: Direct: Evaluates AI-assisted coding progress and reliability implications.</description>
+      <description>Discusses how running dozens of agentic systems across teams requires unified observability, authentication, and deployment without rewriting to a single vendor API. Why it matters: Direct: Enables teams to coordinate multiple agent stacks without vendor lock-in and reduces integration friction across models, observability, authentication, and deployment.</description>
     </item>
     <item>
-      <title>Human Approval for AI Sales Outreach Agents</title>
-      <link>https://dev.to/sekeraradim/human-approval-for-ai-sales-outreach-agents-1984</link>
-      <guid isPermaLink="true">https://dev.to/sekeraradim/human-approval-for-ai-sales-outreach-agents-1984</guid>
-      <pubDate>Sun, 23 Aug 2026 09:10:02 +0000</pubDate>
+      <title>The velocity microphone: AI amplifies unclear intent</title>
+      <link>https://dev.to/likhan/the-velocity-microphone-ai-amplifies-unclear-intent-48i8</link>
+      <guid isPermaLink="true">https://dev.to/likhan/the-velocity-microphone-ai-amplifies-unclear-intent-48i8</guid>
+      <pubDate>Mon, 24 Aug 2026 09:45:38 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Proposes gating AI-drafted sales outreach (emails/LinkedIn DMs) before sending, using Impri to add human approval; highlights risk: mistakes are public and person-specific. Why it matters: Direct: It defines governance for AI outreach to reduce public, personalized errors.</description>
+      <description>Notes that AI can invent APIs and miss edge cases, stressing how engineers must align engineering expectations with fast, machine-speed problem solving. Why it matters: Direct: Highlights the risk of API invention and edge-case misses, guiding engineers to validate intent quickly.</description>
     </item>
     <item>
-      <title>I benchmark DFlash 2 (PR build) in llama.cpp on Qwen 3.8 27B against all speculative methods for 3 days. 2.26x on 100 real coding prompts, 4.68x with one n-gram drafter on top. Up to 8x on specific cases.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vvncyh/i_benchmark_dflash_2_pr_build_in_llamacpp_on_qwen/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vvncyh/i_benchmark_dflash_2_pr_build_in_llamacpp_on_qwen/</guid>
-      <pubDate>Sat, 22 Aug 2026 20:41:35 +0000</pubDate>
+      <title>Scientific Data Analysis with LabPlot in Python: Signal Processing, Spectral Peak Fitting, Visualization, and Batch Automation</title>
+      <link>https://www.marktechpost.com/2026/08/23/scientific-data-analysis-with-labplot-in-python-signal-processing-spectral-peak-fitting-visualization-and-batch-automation/</link>
+      <guid isPermaLink="true">https://www.marktechpost.com/2026/08/23/scientific-data-analysis-with-labplot-in-python-signal-processing-spectral-peak-fitting-visualization-and-batch-automation/</guid>
+      <pubDate>Mon, 24 Aug 2026 03:32:30 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>User reports DFlash 2 with a drafter for Qwen 3.8 27B and llama.cpp PR; three-day benchmarking against decoding methods on Qwen 3.6/27B with RTX PRO 6000, concurrency 1. Why it matters: Direct: Provides concrete benchmarking results for a specific LLM-DFlash combo.</description>
+      <description>Explains LabPlot-inspired Python workflow preserving LabPlot&#x27;s structure, analysis kernels, plotting system, and project model. Why it matters: Direct: Provides a concrete, reproducible data-analysis pattern for Python users seeking LabPlot-like organization.</description>
     </item>
     <item>
-      <title>How to overhaul the broken review system</title>
-      <link>https://www.lesswrong.com/posts/9KNJ9YzyWQf7udEHw/how-to-overhaul-the-broken-review-system</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/9KNJ9YzyWQf7udEHw/how-to-overhaul-the-broken-review-system</guid>
-      <pubDate>Sun, 23 Aug 2026 09:14:02 +0000</pubDate>
+      <title>SPY / SPX Weekly Outlook – Week 34 of 2026 (24-28 AUG)</title>
+      <link>https://www.tradingview.com/chart/SPY/sgLrG6zh-SPY-SPX-Weekly-Outlook-Week-34-of-2026-24-28-AUG/</link>
+      <guid isPermaLink="true">https://www.tradingview.com/chart/SPY/sgLrG6zh-SPY-SPX-Weekly-Outlook-Week-34-of-2026-24-28-AUG/</guid>
+      <pubDate>Mon, 24 Aug 2026 10:26:23 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Proposes a research-and-review platform to address documented problems in the current review ecosystem; outlines high-level design and plausibility. Why it matters: Direct: Highlights concrete idea for reforming review workflows with a platform.</description>
+      <description>Notes that no trades were taken on SPY this week since key levels or scenarios weren&#x27;t triggered. Why it matters: Direct: Reflects market-neutral stance and reliance on predefined levels; informs cautious execution for weekly outlooks.</description>
     </item>
     <item>
-      <title>When do stereotypes affect LLM behaviour?</title>
-      <link>https://www.lesswrong.com/posts/ASHWx4pBmiiJJDazX/when-do-stereotypes-affect-llm-behaviour</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/ASHWx4pBmiiJJDazX/when-do-stereotypes-affect-llm-behaviour</guid>
-      <pubDate>Sun, 23 Aug 2026 02:45:10 +0000</pubDate>
+      <title>What just happened? Pragmatism and Pessimization</title>
+      <link>https://www.lesswrong.com/posts/yaz8nx4ogZmiqHzt7/what-just-happened-pragmatism-and-pessimization</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/yaz8nx4ogZmiqHzt7/what-just-happened-pragmatism-and-pessimization</guid>
+      <pubDate>Mon, 24 Aug 2026 02:03:18 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>A LessWrong post investigates whether LLMs&#x27; impressions of users (gender, age, SES, education, and mood) actually change model outputs, starting with smaller open models. Why it matters: Direct: Early signal about how users are perceived by LLMs could influence outputs; tests on smaller models may reveal bias patterns.</description>
+      <description>The post argues that alignment researchers drove AI capability advances over the past decade, and that the line between alignment research and capabilities research has blurred. Why it matters: Direct: The post suggests growing overlap between alignment and capabilities work, signaling early governance and risk framing implications.</description>
     </item>
     <item>
-      <title>Building an End-to-End Document Intelligence Pipeline with deepDoctection</title>
-      <link>https://www.marktechpost.com/2026/08/23/building-an-end-to-end-document-intelligence-pipeline-with-deepdoctection/</link>
-      <guid isPermaLink="true">https://www.marktechpost.com/2026/08/23/building-an-end-to-end-document-intelligence-pipeline-with-deepdoctection/</guid>
-      <pubDate>Sun, 23 Aug 2026 07:51:22 +0000</pubDate>
+      <title>In search of natural features</title>
+      <link>https://www.lesswrong.com/posts/SNAKJuN8FdoEaWeFC/in-search-of-natural-features</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/SNAKJuN8FdoEaWeFC/in-search-of-natural-features</guid>
+      <pubDate>Sun, 23 Aug 2026 22:15:09 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Build an end-to-end document intelligence pipeline with deepDoctection, covering layout analysis, DocTR OCR, and table extraction, with custom services for entity recognition and structured JSONL for RAG workflows. Why it matters: Direct: Practical steps to assemble a document-intelligence pipeline that feeds RAG workflows.</description>
+      <description>Preliminary results from claudecode experiments on a small LLM (gpt2-small, no Layer Norm; layer-6 MLP) with Apollo research; a GitHub repo hosts the experiments. Why it matters: Direct: Early-stage empirical signals about natural feature exploration in small LLMs; actionable for experiment design.</description>
     </item>
     <item>
-      <title>Claude and Performative Uncertainty</title>
-      <link>https://www.lesswrong.com/posts/DafkCDZpwzQf4yLLF/claude-and-performative-uncertainty</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/DafkCDZpwzQf4yLLF/claude-and-performative-uncertainty</guid>
-      <pubDate>Sat, 22 Aug 2026 19:43:39 +0000</pubDate>
+      <title>AAAI 2027 Reviewer Bidding and Assignment Integrity [D]</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1vwujcy/aaai_2027_reviewer_bidding_and_assignment/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1vwujcy/aaai_2027_reviewer_bidding_and_assignment/</guid>
+      <pubDate>Mon, 24 Aug 2026 06:11:03 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>This essay uses Anthropic&#x27;s Claude to discuss training digital minds to profess uncertainty about consciousness or inner experience. Why it matters: Direct: Highlights how instructing AI to claim uncertainty could affect perceived intelligence and trust.</description>
+      <description>Reddit summary notes AAAI 2027 organizers warned about collusion in the review process, notably in 2-cycles where authors review each other&#x27;s papers. Why it matters: Direct: Highlights integrity risks in peer review and potential consequences for conference credibility.</description>
     </item>
     <item>
-      <title>Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora’s 100+ Checks</title>
-      <link>https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks/</link>
-      <guid isPermaLink="true">https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks/</guid>
-      <pubDate>Sun, 23 Aug 2026 07:37:14 +0000</pubDate>
+      <title>Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power</title>
+      <link>https://www.marktechpost.com/2026/08/23/best-gpu-neoclouds-2026/</link>
+      <guid isPermaLink="true">https://www.marktechpost.com/2026/08/23/best-gpu-neoclouds-2026/</guid>
+      <pubDate>Mon, 24 Aug 2026 05:26:43 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Vercel and Ora launched Is Agentic, a free audit scoring website readiness for AI agents across 118 checks. Why it matters: Direct: Public-ready tooling to assess AI agent-readiness across comprehensive checks.</description>
+      <description>Five largest GPU neoclouds operate on varying models; CoreWeave and Nebius report to the SEC; Lambda and Crusoe are private and pursuing IPOs; Groq shifted to inference cloud after licensing LPU tech to NVIDIA. Why it matters: Direct: Signals divergent business models and funding paths (SEC filings, IPOs) affecting pricing, procurement, and vendor risk in AI infra.</description>
     </item>
     <item>
-      <title>The best interface is no interface: natural language as the command layer</title>
-      <link>https://dev.to/divyakush/the-best-interface-is-no-interface-natural-language-as-the-command-layer-2md9</link>
-      <guid isPermaLink="true">https://dev.to/divyakush/the-best-interface-is-no-interface-natural-language-as-the-command-layer-2md9</guid>
-      <pubDate>Sun, 23 Aug 2026 08:22:57 +0000</pubDate>
+      <title>Qwen 3.8 27b helped me with something unique that Opus 4 couldn&#x27;t - Firmware + Software preservation and emulation on an early 2000&#x27;s ARM based POS system</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vwhcuf/qwen_38_27b_helped_me_with_something_unique_that/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vwhcuf/qwen_38_27b_helped_me_with_something_unique_that/</guid>
+      <pubDate>Sun, 23 Aug 2026 20:01:28 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Old voice control required speaking its language; users memorized rigid command grammar, transferring the translation burden to humans. Why it matters: Direct: Reduces user friction by outsourcing translation to LLMs, enabling natural-language control and bridging human intent with rigid hardware commands.</description>
+      <description>A user reports Qwen 3.8 27b aided firmware and software preservation and emulation on an early 2000s ARM-based POS, a capability they say Opus 4 couldn&#x27;t achieve. Why it matters: Direct: Highlights practical use of AI models for preserving legacy hardware and documenting emulation workflows for real-world archival projects.</description>
     </item>
     <item>
-      <title>The overlooked use of LLMs: a translator between humans and hardware</title>
-      <link>https://dev.to/divyakush/the-overlooked-use-of-llms-a-translator-between-humans-and-hardware-6aa</link>
-      <guid isPermaLink="true">https://dev.to/divyakush/the-overlooked-use-of-llms-a-translator-between-humans-and-hardware-6aa</guid>
-      <pubDate>Sun, 23 Aug 2026 08:28:28 +0000</pubDate>
+      <title>Best Platforms for Nintendo Gift Cards</title>
+      <link>https://dev.to/tandom_219a81b532ebc20246/best-platforms-for-nintendo-gift-cards-m70</link>
+      <guid isPermaLink="true">https://dev.to/tandom_219a81b532ebc20246/best-platforms-for-nintendo-gift-cards-m70</guid>
+      <pubDate>Mon, 24 Aug 2026 10:13:54 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>The LLM as a translator — a layer that sits between messy human language and rigid, structured machine commands, and converts one into the other. Why it matters: Direct: Reduces user friction by outsourcing translation to LLMs, enabling natural-language control and bridging human intent with rigid hardware commands.</description>
+      <description>The post explains Nintendo Gift Cards as a way to add funds to a Nintendo account for digital purchases, with a link to a detailed explanation. Why it matters: Direct: Highlights practical use of gift cards for seamless Nintendo eShop budgeting and quick digital purchases.</description>
+    </item>
+    <item>
+      <title>The honest boundary of argument-space verification — and what the Evidence Locker adds</title>
+      <link>https://dev.to/zxpmail/the-honest-boundary-of-argument-space-verification-and-what-the-evidence-locker-adds-722</link>
+      <guid isPermaLink="true">https://dev.to/zxpmail/the-honest-boundary-of-argument-space-verification-and-what-the-evidence-locker-adds-722</guid>
+      <pubDate>Mon, 24 Aug 2026 08:32:27 +0000</pubDate>
+      <category>5) For Fun</category>
+      <description>The post discusses argument-space verification boundaries and the Evidence Locker, reporting C3 scoring 5/5 across five scenarios and three evaluators, with a stronger ‘floor’ on addressable claims that has a crack. Why it matters: Direct: Signals a measurable, rule-based approach to evaluating claims in AI systems.</description>
+    </item>
+    <item>
+      <title>New qwen3.8:27b on a 39k line C to single-file HTML / three.js port</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vwde84/new_qwen3827b_on_a_39k_line_c_to_singlefile_html/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vwde84/new_qwen3827b_on_a_39k_line_c_to_singlefile_html/</guid>
+      <pubDate>Sun, 23 Aug 2026 17:32:32 +0000</pubDate>
+      <category>5) For Fun</category>
+      <description>Post notes new qwen3.8:27b on porting a 39k-line C program to a single-file HTML / three.js port. Why it matters: Direct: Demonstrates AI-assisted code porting workflows from C to browser-based JS/Three.js.</description>
     </item>
   </channel>
 </rss>
