@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-08-25",
+    "title": "Daily AI Feed - 2026-08-25",
+    "lead_story": "Presentation: Prompt to Prod: Engineering an Autonomous SDLC at Scale",
+    "lead_url": "https://www.infoq.com/presentations/autonomous-ai-software-development-roblox/",
+    "generated_at": "2026-08-25T10:39:06+00:00"
+  },
+  {
     "date": "2026-08-24",
     "title": "Daily AI Feed - 2026-08-24",
     "lead_story": "Snapshot Your Prompts: A Golden-File Test for Free Model Endpoints",
