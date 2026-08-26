@@ -1,178 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Daily AI Feed - 2026-08-25</title>
+    <title>Daily AI Feed - 2026-08-26</title>
     <link>https://johnmaconline.github.io/ai.news.ai/</link>
     <description>A curated daily AI briefing with original-source links across practical prompts, engineering, product development, software development, under-the-radar signals, and fun experiments.</description>
-    <lastBuildDate>Tue, 25 Aug 2026 10:39:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 10:37:09 +0000</lastBuildDate>
     <atom:link href="https://johnmaconline.github.io/ai.news.ai/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
-      <title>Presentation: Prompt to Prod: Engineering an Autonomous SDLC at Scale</title>
-      <link>https://www.infoq.com/presentations/autonomous-ai-software-development-roblox/</link>
-      <guid isPermaLink="true">https://www.infoq.com/presentations/autonomous-ai-software-development-roblox/</guid>
-      <pubDate>Mon, 24 Aug 2026 11:00:00 +0000</pubDate>
+      <title>OpenCost 1.121.0 Tracks AI Inference Costs Per Million Tokens</title>
+      <link>https://dev.to/autonainews/opencost-11210-tracks-ai-inference-costs-per-million-tokens-1oga</link>
+      <guid isPermaLink="true">https://dev.to/autonainews/opencost-11210-tracks-ai-inference-costs-per-million-tokens-1oga</guid>
+      <pubDate>Wed, 26 Aug 2026 10:06:09 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>This prompt-to-prod presentation describes Roblox&#x27;s approach to scaling autonomous software development from prompts to production, as explained by Andrew Swerdlow. Why it matters: Direct: Demonstrates a concrete deployment pattern from AI prompts to production at scale, offering replicable steps for teams.</description>
+      <description>OpenCost 1.121.0 tracks AI inference costs on Kubernetes down to KV cache hits and shared infrastructure, released in July 2026, giving developers line-item visibility into GPU spend for the first time. Why it matters: Direct: Provides line-item visibility into GPU spend on Kubernetes, enabling cost-aware scheduling and budget controls for AI inference at scale.</description>
     </item>
     <item>
-      <title>A Nightly Release Digest Agent on a Free Stack: A Case Study</title>
-      <link>https://dev.to/datago_7777/a-nightly-release-digest-agent-on-a-free-stack-a-case-study-4fjh</link>
-      <guid isPermaLink="true">https://dev.to/datago_7777/a-nightly-release-digest-agent-on-a-free-stack-a-case-study-4fjh</guid>
-      <pubDate>Tue, 25 Aug 2026 09:02:35 +0000</pubDate>
+      <title>Agentic AI Security: Sandboxing LLM Tool Calls in Production</title>
+      <link>https://dev.to/ayinedjimi-consultants/agentic-ai-security-sandboxing-llm-tool-calls-in-production-2odk</link>
+      <guid isPermaLink="true">https://dev.to/ayinedjimi-consultants/agentic-ai-security-sandboxing-llm-tool-calls-in-production-2odk</guid>
+      <pubDate>Wed, 26 Aug 2026 10:05:12 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>Case study of a nightly release digest agent on a free stack, illustrating CI failures from a changed dependency timeout and the value of automating release-note-driven checks. Why it matters: Direct: Highlights a common CI failure mode and shows automation to catch breaking changes.</description>
+      <description>The article outlines practical steps for sandboxing LLM tool calls—where a model can run code, query databases, or browse the web—before they reach production. Why it matters: Direct: Reduces production risk by sandboxing autonomous tool calls and preventing untrusted surface exploitation.</description>
     </item>
     <item>
-      <title>The AI Followed the Instructions. The Documentation Still Fell Apart.</title>
-      <link>https://dev.to/joyrswd/the-ai-followed-the-instructions-the-documentation-still-fell-apart-3i97</link>
-      <guid isPermaLink="true">https://dev.to/joyrswd/the-ai-followed-the-instructions-the-documentation-still-fell-apart-3i97</guid>
-      <pubDate>Tue, 25 Aug 2026 08:18:48 +0000</pubDate>
+      <title>The five-minute smoke test I run before wiring an AI agent</title>
+      <link>https://dev.to/lucky_wang_52b64623a6001a/the-five-minute-smoke-test-i-run-before-wiring-an-ai-agent-3nho</link>
+      <guid isPermaLink="true">https://dev.to/lucky_wang_52b64623a6001a/the-five-minute-smoke-test-i-run-before-wiring-an-ai-agent-3nho</guid>
+      <pubDate>Wed, 26 Aug 2026 09:01:52 +0000</pubDate>
       <category>0) Practical Prompts</category>
-      <description>The article notes AI-assisted writing and AI agents following instructions, while warning that this can create unusual failure modes in documentation. Why it matters: Direct: Highlights risk of AI-generated docs failing despite instruction-following agents.</description>
+      <description>A five-minute smoke test before wiring an AI agent checks for endpoint mismatches, unavailable model IDs, quota exhaustion, or provider-specific response formats as failure sources. Why it matters: Direct: Highlights common non-prompt failure modes, speeding diagnosis and reducing debugging time when wiring AI agents.</description>
     </item>
     <item>
-      <title>DeepSeek vs Llama: My Long‑Haul Test of the Open‑Source AI Showdown in 2026</title>
-      <link>https://dev.to/felix_king_a5ebe226991216/deepseek-vs-llama-my-long-haul-test-of-the-open-source-ai-showdown-in-2026-26n</link>
-      <guid isPermaLink="true">https://dev.to/felix_king_a5ebe226991216/deepseek-vs-llama-my-long-haul-test-of-the-open-source-ai-showdown-in-2026-26n</guid>
-      <pubDate>Tue, 25 Aug 2026 10:21:51 +0000</pubDate>
+      <title>How to Use AI for Smart Contract Audits in 2026</title>
+      <link>https://dev.to/rogt7/how-to-use-ai-for-smart-contract-audits-in-2026-3kon</link>
+      <guid isPermaLink="true">https://dev.to/rogt7/how-to-use-ai-for-smart-contract-audits-in-2026-3kon</guid>
+      <pubDate>Wed, 26 Aug 2026 10:15:52 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>DeepSeek vs Llama: a long-haul test of the open-source AI showdown in 2026. The author began with DeepSeek’s 7‑billion-parameter model, but SSD noise on load tempered excitement after a year wrestling with it. Why it matters: Direct: Reveals hardware bottlenecks and stability concerns when running large open-source models on commodity hardware.</description>
+      <description>Automation is redefining DeFi security in 2026; manual reviews remain for high-level architecture but cannot keep pace with the velocity of Solidity and Vyper development. Why it matters: Direct: Highlights a shift toward automated security tooling in smart-contract audits, affecting how teams allocate time and pick tooling.</description>
     </item>
     <item>
-      <title>I built an agent that can fire other agents</title>
-      <link>https://dev.to/samadon1/i-built-an-agent-that-can-fire-other-agents-2of0</link>
-      <guid isPermaLink="true">https://dev.to/samadon1/i-built-an-agent-that-can-fire-other-agents-2of0</guid>
-      <pubDate>Tue, 25 Aug 2026 10:16:28 +0000</pubDate>
+      <title>35B-A3B tool calling benchmark: Original Qwen vs. KAT Coder, Ornith and Tiel-Coder</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vyaxip/35ba3b_tool_calling_benchmark_original_qwen_vs/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vyaxip/35ba3b_tool_calling_benchmark_original_qwen_vs/</guid>
+      <pubDate>Tue, 25 Aug 2026 20:07:51 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Built an agent that can fire other agents for the All Things Agentic Hackathon; notes governance challenges with agents, citing Kiteworks 2026 survey: 63% can&#x27;t enforce purpose limits on an agent they have already deployed, and 60% can&#x27;t shut one down when it... Why it matters: Direct: Highlights governance gaps as organizations deploy multi-agent systems.</description>
+      <description>Benchmark comparing 35B-A3B tool calling benchmark: Original Qwen vs KAT-Coder, Ornith, and Tiel-Coder, focusing on VRAM-limited hardware amid Qwen3.8-35B-A3B release uncertainty. Why it matters: Direct: Provides practical insight for choosing LLM tools under VRAM constraints and changing release timelines.</description>
     </item>
     <item>
-      <title>Scaffold CoT: A CoT dataset built around the failures of small model (&gt;5B Params) free form thinking. Hope its useful to you guys!</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vxk6k1/scaffold_cot_a_cot_dataset_built_around_the/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vxk6k1/scaffold_cot_a_cot_dataset_built_around_the/</guid>
-      <pubDate>Tue, 25 Aug 2026 00:12:55 +0000</pubDate>
+      <title>LLM Evaluation for Software Engineers Without an ML Background: the 90+ Checks We Actually Run</title>
+      <link>https://dev.to/jula-markova/llm-evaluation-for-software-engineers-without-an-ml-background-the-90-checks-we-actually-run-5fp9</link>
+      <guid isPermaLink="true">https://dev.to/jula-markova/llm-evaluation-for-software-engineers-without-an-ml-background-the-90-checks-we-actually-run-5fp9</guid>
+      <pubDate>Wed, 26 Aug 2026 10:06:14 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Scaffold CoT: a ~4M example, ~3B token CoT dataset to help small models think more concisely, accurately, and reliably; built around a structured Scaffold thinking framework. Why it matters: Direct: Provides a dataset design that improves small-model reasoning with a Scaffold framework.</description>
+      <description>Describes a ninety-check QA pipeline ensuring AI-written content undergoes research checks, cross-referencing, and deterministic validation before publication. Why it matters: Direct: Demonstrates concrete QA workflows to improve trust in AI-generated software content.</description>
     </item>
     <item>
-      <title>Show HN: Screen memory without screenshots, just text to Markdown</title>
-      <link>https://github.com/dragthelake/ambient-context</link>
-      <guid isPermaLink="true">https://github.com/dragthelake/ambient-context</guid>
-      <pubDate>Tue, 25 Aug 2026 04:33:24 +0000</pubDate>
+      <title>A Dual-Dimensional LLM Framework for Automated Item Incidental Content Similarity Analysis in Large-Scale Assessments</title>
+      <link>http://arxiv.org/abs/2608.24825v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.24825v1</guid>
+      <pubDate>Tue, 25 Aug 2026 17:07:16 +0000</pubDate>
       <category>1) Engineering</category>
-      <description>Show HN: Screen memory without screenshots, just text to Markdown — macOS menu bar app reads focused window text via Accessibility API; no screenshots or OCR, writes daily Markdown files to a chosen folder. Why it matters: Direct: Provides a low-risk, text-focused context capture tool for UX auditing.</description>
+      <description>Discusses incidental content redundancy in large-scale assessments due to automatic item generation, causing repetitive wording and framing across items. Why it matters: Direct: Highlights risk of reduced validity and the need for detection when items share incidental content.</description>
     </item>
     <item>
-      <title>🎙️ How I AI: Grok Bot + Grok 4.6—what’s great (and what’s still hype) &amp; Lessons from spending $20,000 on Devin in one month</title>
-      <link>https://www.lennysnewsletter.com/p/how-i-ai-grok-bot-grok-46whats-great</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/how-i-ai-grok-bot-grok-46whats-great</guid>
-      <pubDate>Mon, 24 Aug 2026 15:02:23 +0000</pubDate>
+      <title>How loveholidays is making everyone a builder with Codex</title>
+      <link>https://openai.com/index/loveholidays</link>
+      <guid isPermaLink="true">https://openai.com/index/loveholidays</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>How I AI: Grok Bot + Grok 4.6—what’s great (and what’s still hype) &amp; Lessons from spending $20,000 on Devin in one month. Why it matters: Direct: Provides concrete takeaways on ROI and risk of AI agents to guide prioritization and risk budgeting in product plans.</description>
+      <description>Loveholidays uses OpenAI Codex to broaden software development access across the business, enabling teams to turn ideas into products faster. Why it matters: Direct: Accelerating AI-enabled coding adoption can speed product iteration and reduce onboarding friction for Codex.</description>
     </item>
     <item>
-      <title>I spent $20,000 on Devin in a month. Here’s what I learned | Ryan Carson (solo founder)</title>
-      <link>https://www.lennysnewsletter.com/p/i-spent-20000-on-devin-in-a-month</link>
-      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/i-spent-20000-on-devin-in-a-month</guid>
-      <pubDate>Mon, 24 Aug 2026 12:04:02 +0000</pubDate>
+      <title>How to figure out your next career move</title>
+      <link>https://www.lennysnewsletter.com/p/how-to-figure-out-your-next-career</link>
+      <guid isPermaLink="true">https://www.lennysnewsletter.com/p/how-to-figure-out-your-next-career</guid>
+      <pubDate>Tue, 25 Aug 2026 13:04:15 +0000</pubDate>
       <category>2) Product Development</category>
-      <description>Ryan Carson documents spending $20,000 on Devin in a month, running 15 Devin agents for engineering, CS, and investor updates, and using a handwritten list to track work. Why it matters: Direct: Highlights scaling limits and operational costs of AI agents, informing product decisions on automation vs. human-in-the-loop.</description>
+      <description>Six essential questions to help you navigate change. Why it matters: Direct: A simple question framework can improve decision quality during organizational shifts.</description>
     </item>
     <item>
-      <title>Stop Blaming the Model When Your Agent Repeats the Same Mistake</title>
-      <link>https://dev.to/webx_2736/stop-blaming-the-model-when-your-agent-repeats-the-same-mistake-44o3</link>
-      <guid isPermaLink="true">https://dev.to/webx_2736/stop-blaming-the-model-when-your-agent-repeats-the-same-mistake-44o3</guid>
-      <pubDate>Tue, 25 Aug 2026 08:54:15 +0000</pubDate>
+      <title>Security Education in Higher Education through AI-Powered Gamification</title>
+      <link>https://arxiv.org/abs/2608.24778v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2608.24778v1</guid>
+      <pubDate>Tue, 25 Aug 2026 16:18:38 +0000</pubDate>
+      <category>2) Product Development</category>
+      <description>Cybersecurity education is facing more challenges as AI-driven attacks are becoming increasingly realistic and difficult to detect. Why it matters: Direct: Rising realism of AI-driven threats requires updated curricula and scalable training approaches.</description>
+    </item>
+    <item>
+      <title>Why Ramp built its own in-house coding agent, Inspect</title>
+      <link>https://newsletter.pragmaticengineer.com/p/why-ramp-built-inspect</link>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/why-ramp-built-inspect</guid>
+      <pubDate>Tue, 25 Aug 2026 15:20:23 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Examines a coding-agent loop where an import error is fixed, tests pass, but a later refactor reintroduces the same failure and the agent treats it as new. Why it matters: Direct: Highlights loop-amnesia risk in coding agents; fixing failure replay and cross-task memory can reduce wasted time and prevent recurring defects.</description>
+      <description>Fintech company rejected the easy route and homebrewed its own coding agent, now a step ahead of frontier AI labs. Why it matters: Direct: In-house coding agents can outpace frontier AI offerings; consider evaluating DIY agent options for speed, control, and competitive differentiation.</description>
     </item>
     <item>
-      <title>Indirect prompt injection: how an AI agent gets hijacked by the data it reads</title>
-      <link>https://dev.to/traceseal/indirect-prompt-injection-how-an-ai-agent-gets-hijacked-by-the-data-it-reads-5ceo</link>
-      <guid isPermaLink="true">https://dev.to/traceseal/indirect-prompt-injection-how-an-ai-agent-gets-hijacked-by-the-data-it-reads-5ceo</guid>
-      <pubDate>Tue, 25 Aug 2026 08:50:13 +0000</pubDate>
+      <title>Best Knowledge Base for AI Agents (2026)</title>
+      <link>https://dev.to/dennis_pilarinos/best-knowledge-base-for-ai-agents-2026-5eb6</link>
+      <guid isPermaLink="true">https://dev.to/dennis_pilarinos/best-knowledge-base-for-ai-agents-2026-5eb6</guid>
+      <pubDate>Wed, 26 Aug 2026 10:00:00 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Describes indirect prompt injection where external text such as a web page, an issue tracker, or a pull-request description contains model-directed instructions the agent carries out. Why it matters: Direct: Highlights safety risk from using external content; a model may execute unsafe instructions with agent permissions.</description>
+      <description>Unblocked is described as the best knowledge base for AI agents due to agent-native design and permission-aware, synthesized answers over MCP, unlike most alternatives. Why it matters: Direct: Agent-native knowledge bases reduce human browsing and improve permission-aware responses; consider evaluating Unblocked for agent workloads and MCP-based workflows.</description>
     </item>
     <item>
-      <title>SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?</title>
-      <link>http://arxiv.org/abs/2608.23564v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.23564v1</guid>
-      <pubDate>Mon, 24 Aug 2026 17:59:04 +0000</pubDate>
+      <title>Inside a DevFlux Workflow File: What&#x27;s Actually in the Markdown</title>
+      <link>https://dev.to/devflux_e148e82c32b3911b75/inside-a-devflux-workflow-file-whats-actually-in-the-markdown-hci</link>
+      <guid isPermaLink="true">https://dev.to/devflux_e148e82c32b3911b75/inside-a-devflux-workflow-file-whats-actually-in-the-markdown-hci</guid>
+      <pubDate>Wed, 26 Aug 2026 09:22:43 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. Why it matters: Direct: Emphasizes that long-horizon migrations are expensive due to decades of debt and that automation must address debt.</description>
+      <description>DevFlux workflow files are plain Markdown with no hidden magic, designed for transparency and trust in AI instructions. Why it matters: Direct: Transparency in workflow definitions enables auditing and improvement; assess adopting plain Markdown DevFlux-style docs for AI instruction profiles.</description>
     </item>
     <item>
-      <title>SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?</title>
-      <link>https://arxiv.org/abs/2608.23564v1</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.23564v1</guid>
-      <pubDate>Mon, 24 Aug 2026 17:59:04 +0000</pubDate>
+      <title>OpenCode with Qwen3.8-27B for Small Games or Browsing the Web With 16GB VRAM</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1vyqy4e/opencode_with_qwen3827b_for_small_games_or/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1vyqy4e/opencode_with_qwen3827b_for_small_games_or/</guid>
+      <pubDate>Wed, 26 Aug 2026 08:18:32 +0000</pubDate>
       <category>3) Software Development</category>
-      <description>Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. Why it matters: Direct: Emphasizes that long-horizon migrations are expensive due to decades of debt and that automation must address debt.</description>
+      <description>OpenCode with Qwen3.8-27B enables small games or web browsing on a 16GB VRAM laptop, leveraging exl3 quantization with exllamav3/tabbyAPI to craft a simple HTML game after prompting. Why it matters: Direct: Quantization choices (exl3) and newer models (Qwen3.8-27B) can affect precision and GPU suitability for lightweight interactive demos.</description>
     </item>
     <item>
-      <title>Dual-Layer Approach to Mitigating AI-Generated Biological Threats</title>
-      <link>https://www.lesswrong.com/posts/zHJQJEH2vBhPFjfHX/dual-layer-approach-to-mitigating-ai-generated-biological-1</link>
-      <guid isPermaLink="true">https://www.lesswrong.com/posts/zHJQJEH2vBhPFjfHX/dual-layer-approach-to-mitigating-ai-generated-biological-1</guid>
-      <pubDate>Tue, 25 Aug 2026 01:12:15 +0000</pubDate>
+      <title>Millwright — experimenting with an end-to-end machine learning framework in Rust [P]</title>
+      <link>https://www.reddit.com/r/MachineLearning/comments/1vyq7m9/millwright_experimenting_with_an_endtoend_machine/</link>
+      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1vyq7m9/millwright_experimenting_with_an_endtoend_machine/</guid>
+      <pubDate>Wed, 26 Aug 2026 07:34:45 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>Author invested in AIxBio for some time, focusing on high-risk fields where accuracy matters, and views biology as the highest end of that spectrum. Why it matters: Direct: Signals niche focus on AIxBio risk management; early indicator of prioritizing biology in AI safety and deployment.</description>
+      <description>An open-source project named Millwright aims to explore an end-to-end ML workflow in Rust, noting gaps between capable libraries as the author builds tooling. Why it matters: Direct: It highlights gaps between Rust ML libraries, signaling areas for standardization and integrated tooling in end-to-end ML workflows.</description>
     </item>
     <item>
-      <title>Reviewing 4 papers for AAAI 2027 and none have code, Reject? [D]</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1vxryws/reviewing_4_papers_for_aaai_2027_and_none_have/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1vxryws/reviewing_4_papers_for_aaai_2027_and_none_have/</guid>
-      <pubDate>Tue, 25 Aug 2026 06:34:35 +0000</pubDate>
+      <title>We need more empirical research on biological AI model safety</title>
+      <link>https://www.lesswrong.com/posts/cAMuRdisEGhwrshd5/we-need-more-empirical-research-on-biological-ai-model</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/cAMuRdisEGhwrshd5/we-need-more-empirical-research-on-biological-ai-model</guid>
+      <pubDate>Wed, 26 Aug 2026 04:01:11 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>All four papers make empirical claims, none include code, data, or anything I can actually check. Why it matters: Direct: Highlights reproducibility gap in AAAI-27 submissions; reinforces push for code and data release at submission for empirical claims.</description>
+      <description>Argues BAIM safety requires more empirical work and notes uncertainty about its scale; a single experiment or a year of researchers could determine whether it needs a subfield. Why it matters: Direct: Signals a potential new subfield depending on whether BAIM safety requires more than a single experiment.</description>
     </item>
     <item>
-      <title>[AINews] Andrew Ng gets into AI Engineering</title>
-      <link>https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering</link>
-      <guid isPermaLink="true">https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering</guid>
-      <pubDate>Tue, 25 Aug 2026 02:50:57 +0000</pubDate>
+      <title>When There Are No Experts</title>
+      <link>https://www.lesswrong.com/posts/HTQcogA2r2kL8qxPA/when-there-are-no-experts</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/HTQcogA2r2kL8qxPA/when-there-are-no-experts</guid>
+      <pubDate>Tue, 25 Aug 2026 22:47:00 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>An industry legend starts covering the inevitable! Why it matters: Direct: Signals mainstream attention from a respected industry figure toward AI engineering trends.</description>
+      <description>Argues that average Western people believe many false things and lack grasp of political economy and orbital mechanics due to lack of direct experience. Why it matters: Inference: Highlights how experiential limits can propagate misinformation, underscoring need for better approaches to public understanding.</description>
     </item>
     <item>
-      <title>llm-anthropic 0.27</title>
-      <link>https://simonwillison.net/2026/Aug/24/llm-anthropic/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/24/llm-anthropic/</guid>
-      <pubDate>Mon, 24 Aug 2026 16:27:04 +0000</pubDate>
+      <title>Quoting Paul Dix</title>
+      <link>https://simonwillison.net/2026/Aug/26/paul-dix/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/26/paul-dix/</guid>
+      <pubDate>Wed, 26 Aug 2026 08:07:55 +0000</pubDate>
       <category>4) Under the Radar</category>
-      <description>llm-anthropic 0.27 release adds compatibility with Anthropic v1.0.0 Python library, switching from httpx to httpx2; mentions OpenAI&#x27;s similar change and a migration guide. Why it matters: Direct: Ecosystem shift to httpx2; compatibility upgrading is aided by migration guides.</description>
+      <description>Notes that AI wrote 1M LOC and refined it over months to produce reliable software now running on millions of developer machines. Why it matters: Direct: Demonstrates AI-driven code scaling to a widely deployed base, highlighting practical impact on developer machines.</description>
     </item>
     <item>
-      <title>“It was fun,” Microsoft on why Windows 95 had music, cartoons, and games</title>
-      <link>https://www.windowslatest.com/2026/08/25/it-was-fun-microsoft-on-why-windows-95-had-music-cartoons-and-games/</link>
-      <guid isPermaLink="true">https://www.windowslatest.com/2026/08/25/it-was-fun-microsoft-on-why-windows-95-had-music-cartoons-and-games/</guid>
-      <pubDate>Tue, 25 Aug 2026 04:31:58 +0000</pubDate>
+      <title>Are Free PSN Gift Cards Real? What You Should Know</title>
+      <link>https://dev.to/getofer_12ab887928e0d0a1c/are-free-psn-gift-cards-real-what-you-should-know-3nde</link>
+      <guid isPermaLink="true">https://dev.to/getofer_12ab887928e0d0a1c/are-free-psn-gift-cards-real-what-you-should-know-3nde</guid>
+      <pubDate>Wed, 26 Aug 2026 10:06:43 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Windows 95 turns 31 today; Raymond Chen explains why its CD included a Weezer video, cartoons, and games, done because it was fun. That instinct helped build a best-selling OS, a spirit Windows 11 may have lost. Why it matters: Direct: Highlights a historical design instinct that shaped Windows 95&#x27;s success and may influence modern OS UX choices.</description>
+      <description>PSN Gift Cards let you add funds to a PlayStation account without using a debit or credit card directly; with a full breakdown at the linked page. Why it matters: Direct: Highlights a simple PSN-funding alternative; no card data needed, with a link for deeper reading.</description>
     </item>
     <item>
-      <title>[R] Using AI as a spatial software generator to create 3D objects that are inherently programmable</title>
-      <link>https://www.reddit.com/r/MachineLearning/comments/1vxcc1h/r_using_ai_as_a_spatial_software_generator_to/</link>
-      <guid isPermaLink="true">https://www.reddit.com/r/MachineLearning/comments/1vxcc1h/r_using_ai_as_a_spatial_software_generator_to/</guid>
-      <pubDate>Mon, 24 Aug 2026 19:10:39 +0000</pubDate>
+      <title>AI models flub these intelligence tests. Can you fare any better?</title>
+      <link>https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/</link>
+      <guid isPermaLink="true">https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/</guid>
+      <pubDate>Wed, 26 Aug 2026 09:00:00 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>I&#x27;m one of the co-authors of this paper. It&#x27;s a seminal work in exploring the properties of 3D generated by LLMs via spatial programming. I&#x27;ve set up visual demonstrations of such 3D objects at: https://nova3d. Why it matters: Direct: Demonstrates practical use of spatial programming with LLM-generated 3D objects and accessible demos to test programmable geometry.</description>
+      <description>AI models flub intelligence tests; puzzles and games have been central to AI development, with developers testing model progress through a gaming gauntlet and noting early ML history. Why it matters: Direct: AI puzzle tests show AI progress is nuanced; gaming gauntlets reflect early ML history.</description>
     </item>
     <item>
-      <title>Multi-Modal Semantic Expansion with Constrained LLM Reranking for Conversational Music Recommendation</title>
-      <link>http://arxiv.org/abs/2608.23484v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.23484v1</guid>
-      <pubDate>Mon, 24 Aug 2026 16:48:50 +0000</pubDate>
+      <title>EVE Online: The Move to Python 3 Begins!</title>
+      <link>https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/</guid>
+      <pubDate>Tue, 25 Aug 2026 22:59:30 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Team Semiintelligcnn&#x27;s solution for the ACM RecSys 2026 TalkPlayData Challenge, addressing conversational music recommendation with a multi-modal, personalized conversational recommender system. Why it matters: Direct: Demonstrates practical multi-modal, personalized support for music discovery in conversational interfaces.</description>
+      <description>EVE Online moves to Python 3, continuing a long Python-at-scale story. After two decades on Stackless Python, they upgraded to Stackless Python 2.7 in 2010; the current move initiates Python 3 adoption. Why it matters: Direct: Python-3 migration signals ongoing evolution of Python-at-scale stacks in online games.</description>
     </item>
     <item>
-      <title>Black Box: episode 2 – The hunt for ClothOff, the deepfake porn app – podcast</title>
-      <link>https://www.theguardian.com/news/audio/2026/aug/25/black-box-episode-2-the-hunt-for-clothoff-the-deepfake-porn-app-podcast</link>
-      <guid isPermaLink="true">https://www.theguardian.com/news/audio/2026/aug/25/black-box-episode-2-the-hunt-for-clothoff-the-deepfake-porn-app-podcast</guid>
-      <pubDate>Tue, 25 Aug 2026 02:00:44 +0000</pubDate>
+      <title>Short Time Outs</title>
+      <link>https://www.lesswrong.com/posts/tB8kTBfHkKCbFTLeQ/short-time-outs</link>
+      <guid isPermaLink="true">https://www.lesswrong.com/posts/tB8kTBfHkKCbFTLeQ/short-time-outs</guid>
+      <pubDate>Wed, 26 Aug 2026 00:01:24 +0000</pubDate>
       <category>5) For Fun</category>
-      <description>Guardian journalist Michael Safi revisits AI&#x27;s dangers and promises; Today in Focus is on a summer break and Black Box season one is available before season two. Why it matters: Direct: Summarizes AI-society dialogue and content strategy around new episodes; highlights the continuing dissemination of AI narratives.</description>
+      <description>Short Time Outs suggests duration rules of one minute per year of age (capped at 5 minutes), but author favors about one minute regardless of age, emphasizing predictability and immediacy over strict strength. Why it matters: Direct: Time-out guidance notes predictable, immediate discipline beats duration-heavy schemes; practical takeaway for behavior policies.</description>
     </item>
   </channel>
 </rss>

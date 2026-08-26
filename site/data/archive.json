@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-08-26",
+    "title": "Daily AI Feed - 2026-08-26",
+    "lead_story": "OpenCost 1.121.0 Tracks AI Inference Costs Per Million Tokens",
+    "lead_url": "https://dev.to/autonainews/opencost-11210-tracks-ai-inference-costs-per-million-tokens-1oga",
+    "generated_at": "2026-08-26T10:37:09+00:00"
+  },
+  {
     "date": "2026-08-25",
     "title": "Daily AI Feed - 2026-08-25",
     "lead_story": "Presentation: Prompt to Prod: Engineering an Autonomous SDLC at Scale",
